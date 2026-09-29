@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "id": "n1",
+      "number": 1,
+      "title": "Iniciante",
+      "units": [
+        {
+          "id": "u1",
+          "title": "Olá!",
+          "subtitle": "Primeiros passos",
+          "lessons": [
+            {
+              "id": "u1l1",
+              "title": "Cumprimentos",
+              "titleEn": "Greetings",
+              "items": [
+                { "en": "Hello!", "pt": "Olá!", "pron": "rê-LOU" },
+                { "en": "Hi!", "pt": "Oi!", "pron": "RAI" },
+                { "en": "Good morning!", "pt": "Bom dia!", "pron": "gud MÓR-nin" },
+                { "en": "Good afternoon!", "pt": "Boa tarde!", "pron": "gud é-fter-NUUN" },
+                { "en": "Good evening!", "pt": "Boa noite!", "pron": "gud ÍV-nin", "note": "Usado ao CHEGAR em algum lugar à noite." },
+                { "en": "Good night!", "pt": "Boa noite!", "pron": "gud NAIT", "note": "Usado ao SE DESPEDIR ou antes de dormir." },
+                { "en": "How are you?", "pt": "Como você está?", "pron": "rau ar IU" },
+                { "en": "I'm fine, thank you.", "pt": "Estou bem, obrigado(a).", "pron": "aim FAIN, THÉNK-iu" },
+                { "en": "Goodbye!", "pt": "Tchau! / Adeus!", "pron": "gud-BAI" },
+                { "en": "See you later!", "pt": "Até mais tarde!", "pron": "SI iu LÊI-rer" }
+              ]
+            },
+            {
+              "id": "u1l2",
+              "title": "Apresentações",
+              "titleEn": "Introductions",
+              "items": [
+                { "en": "What's your name?", "pt": "Qual é o seu nome?", "pron": "uóts iór NÊIM" },
+                { "en": "My name is Ana.", "pt": "Meu nome é Ana.", "pron": "mai NÊIM iz Ana" },
+                { "en": "Nice to meet you.", "pt": "Prazer em conhecer você.", "pron": "NAIS tu MIIT iu" },
+                { "en": "Where are you from?", "pt": "De onde você é?", "pron": "uér ar iu FRÂM" },
+                { "en": "I'm from Brazil.", "pt": "Eu sou do Brasil.", "pron": "aim frâm bra-ZIL" },
+                { "en": "How old are you?", "pt": "Quantos anos você tem?", "pron": "rau ÔULD ar iu" },
+                { "en": "I'm twenty years old.", "pt": "Eu tenho vinte anos.", "pron": "aim TUÊN-ti IIRZ ôuld", "note": "Em inglês a idade usa o verbo \"ser/estar\" (to be), não \"ter\"." },
+                { "en": "This is my friend.", "pt": "Este é meu amigo. / Esta é minha amiga.", "pron": "DHIS iz mai FRÉND" }
+              ]
+            },
+            {
+              "id": "u1l3",
+              "title": "Números",
+              "titleEn": "Numbers",
+              "items": [
+                { "en": "one", "pt": "um / uma", "pron": "UÂN" },
+                { "en": "two", "pt": "dois / duas", "pron": "TUU" },
+                { "en": "three", "pt": "três", "pron": "THRII" },
+                { "en": "four", "pt": "quatro", "pron": "FÓR" },
+                { "en": "five", "pt": "cinco", "pron": "FAIV" },
+                { "en": "six", "pt": "seis", "pron": "SIKS" },
+                { "en": "seven", "pt": "sete", "pron": "SÉ-ven" },
+                { "en": "eight", "pt": "oito", "pron": "ÊIT" },
+                { "en": "nine", "pt": "nove", "pron": "NAIN" },
+                { "en": "ten", "pt": "dez", "pron": "TÉN" },
+                { "en": "How many?", "pt": "Quantos? / Quantas?", "pron": "rau MÉ-ni" }
+              ]
+            },
+            {
+              "id": "u1l4",
+              "title": "Família",
+              "titleEn": "Family",
+              "items": [
+                { "en": "mother", "pt": "mãe", "pron": "MÂ-dher" },
+                { "en": "father", "pt": "pai", "pron": "FÁ-dher" },
+                { "en": "brother", "pt": "irmão", "pron": "BRÂ-dher" },
+                { "en": "sister", "pt": "irmã", "pron": "SIS-ter" },
+                { "en": "son", "pt": "filho", "pron": "SÂN" },
+                { "en": "daughter", "pt": "filha", "pron": "DÓ-rer" },
+                { "en": "baby", "pt": "bebê", "pron": "BÊI-bi" },
+                { "en": "grandmother", "pt": "avó", "pron": "GRÉND-mâ-dher" },
+                { "en": "grandfather", "pt": "avô", "pron": "GRÉND-fá-dher" },
+                { "en": "This is my family.", "pt": "Esta é minha família.", "pron": "dhis iz mai FÉ-mi-li" },
+                { "en": "I love you.", "pt": "Eu te amo.", "pron": "ai LÂV iu" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Inglês do dia a dia",
+          "subtitle": "Everyday English",
+          "lessons": [
+            {
+              "id": "u2l1",
+              "title": "Em casa",
+              "titleEn": "At home",
+              "items": [
+                { "en": "house", "pt": "casa (o imóvel)", "pron": "RAUS" },
+                { "en": "home", "pt": "lar / casa", "pron": "RÔUM", "note": "\"House\" é a construção; \"home\" é o lugar onde você mora." },
+                { "en": "kitchen", "pt": "cozinha", "pron": "KI-tchen" },
+                { "en": "bedroom", "pt": "quarto", "pron": "BÉD-rum" },
+                { "en": "bathroom", "pt": "banheiro", "pron": "BÉTH-rum" },
+                { "en": "living room", "pt": "sala de estar", "pron": "LI-vin rum" },
+                { "en": "door", "pt": "porta", "pron": "DÓR" },
+                { "en": "window", "pt": "janela", "pron": "UÍN-dou" },
+                { "en": "table", "pt": "mesa", "pron": "TÊI-bol" },
+                { "en": "I'm at home.", "pt": "Estou em casa.", "pron": "aim ét RÔUM" }
+              ]
+            },
+            {
+              "id": "u2l2",
+              "title": "Comida",
+              "titleEn": "Food",
+              "items": [
+                { "en": "water", "pt": "água", "pron": "UÓ-rer" },
+                { "en": "bread", "pt": "pão", "pron": "BRÉD" },
+                { "en": "rice", "pt": "arroz", "pron": "RAIS" },
+                { "en": "beans", "pt": "feijão", "pron": "BIINZ" },
+                { "en": "chicken", "pt": "frango", "pron": "TCHI-ken" },
+                { "en": "egg", "pt": "ovo", "pron": "ÉG" },
+                { "en": "fruit", "pt": "fruta", "pron": "FRUUT" },
+                { "en": "coffee", "pt": "café", "pron": "KÓ-fi" },
+                { "en": "milk", "pt": "leite", "pron": "MILK" },
+                { "en": "I'm hungry.", "pt": "Estou com fome.", "pron": "aim RÂN-gri" },
+                { "en": "I'm thirsty.", "pt": "Estou com sede.", "pron": "aim THÂRS-ti" }
+              ]
+            },
+            {
+              "id": "u2l3",
+              "title": "Compras",
+              "titleEn": "Shopping",
+              "items": [
+                { "en": "store", "pt": "loja", "pron": "STÓR" },
+                { "en": "How much is it?", "pt": "Quanto custa?", "pron": "rau MÂTCH iz it" },
+                { "en": "It's cheap.", "pt": "Está barato.", "pron": "its TCHIIP" },
+                { "en": "It's expensive.", "pt": "Está caro.", "pron": "its eks-PÉN-siv" },
+                { "en": "I want this one.", "pt": "Eu quero este.", "pron": "ai UÓNT dhis uân" },
+                { "en": "Can I pay by card?", "pt": "Posso pagar com cartão?", "pron": "kén ai PÊI bai KARD" },
+                { "en": "cash", "pt": "dinheiro (em espécie)", "pron": "KÉSH" },
+                { "en": "bag", "pt": "sacola", "pron": "BÉG" },
+                { "en": "size", "pt": "tamanho", "pron": "SAIZ" },
+                { "en": "Thank you!", "pt": "Obrigado(a)!", "pron": "THÉNK-iu" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3",
+          "title": "Saindo por aí",
+          "subtitle": "Getting around",
+          "lessons": [
+            {
+              "id": "u3l1",
+              "title": "Direções",
+              "titleEn": "Directions",
+              "items": [
+                { "en": "Excuse me.", "pt": "Com licença.", "pron": "iks-KIUZ mi" },
+                { "en": "Where is the bathroom?", "pt": "Onde fica o banheiro?", "pron": "uér iz dhe BÉTH-rum" },
+                { "en": "left", "pt": "esquerda", "pron": "LÉFT" },
+                { "en": "right", "pt": "direita", "pron": "RAIT" },
+                { "en": "straight ahead", "pt": "em frente", "pron": "STRÊIT a-RÉD" },
+                { "en": "near", "pt": "perto", "pron": "NÍR" },
+                { "en": "far", "pt": "longe", "pron": "FAR" },
+                { "en": "street", "pt": "rua", "pron": "STRIIT" },
+                { "en": "I'm lost.", "pt": "Estou perdido(a).", "pron": "aim LÓST" }
+              ]
+            },
+            {
+              "id": "u3l2",
+              "title": "No restaurante",
+              "titleEn": "At the restaurant",
+              "items": [
+                { "en": "A table for two, please.", "pt": "Uma mesa para dois, por favor.", "pron": "a TÊI-bol for TUU, PLIIZ" },
+                { "en": "menu", "pt": "cardápio", "pron": "MÉ-niu" },
+                { "en": "The menu, please.", "pt": "O cardápio, por favor.", "pron": "dhe MÉ-niu, PLIIZ" },
+                { "en": "waiter", "pt": "garçom", "pron": "UÊI-rer" },
+                { "en": "I would like a coffee.", "pt": "Eu gostaria de um café.", "pron": "ai UD LAIK a KÓ-fi" },
+                { "en": "Can I have some water?", "pt": "Pode me trazer um pouco de água?", "pron": "kén ai RÉV sâm UÓ-rer" },
+                { "en": "It's delicious!", "pt": "Está delicioso!", "pron": "its di-LI-shâs" },
+                { "en": "The check, please.", "pt": "A conta, por favor.", "pron": "dhe TCHÉK, PLIIZ" }
+              ]
+            },
+            {
+              "id": "u3l3",
+              "title": "No aeroporto",
+              "titleEn": "At the airport",
+              "items": [
+                { "en": "airport", "pt": "aeroporto", "pron": "ÉR-port" },
+                { "en": "flight", "pt": "voo", "pron": "FLAIT" },
+                { "en": "passport", "pt": "passaporte", "pron": "PÉS-port" },
+                { "en": "ticket", "pt": "passagem / bilhete", "pron": "TI-ket" },
+                { "en": "gate", "pt": "portão de embarque", "pron": "GÊIT" },
+                { "en": "luggage", "pt": "bagagem", "pron": "LÂ-guidj" },
+                { "en": "I am at the airport.", "pt": "Eu estou no aeroporto.", "pron": "ai ém ét dhi ÉR-port" },
+                { "en": "Where is gate five?", "pt": "Onde fica o portão cinco?", "pron": "uér iz GÊIT FAIV" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "n2", "number": 2, "title": "Básico", "units": [] },
+    { "id": "n3", "number": 3, "title": "Elementar", "units": [] },
+    { "id": "n4", "number": 4, "title": "Intermediário", "units": [] },
+    { "id": "n5", "number": 5, "title": "Intermediário avançado", "units": [] },
+    { "id": "n6", "number": 6, "title": "Avançado", "units": [] }
+  ]
+}
