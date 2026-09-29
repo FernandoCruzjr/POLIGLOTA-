@@ -6,6 +6,14 @@ import { icon } from '../icons.js';
 import { esc, progressBar, toast } from '../ui.js';
 import { speak, speakPt, stopSpeech, canSpeak } from '../speech.js';
 import { shuffle } from '../quiz-engine.js';
+import TRIP_CSS from './trip-styles.js';
+
+if (!document.getElementById('hf-trip-styles')) {
+  const st = document.createElement('style');
+  st.id = 'hf-trip-styles';
+  st.textContent = TRIP_CSS;
+  document.head.appendChild(st);
+}
 
 const XP = { chapterFirst: 10, chapterRepeat: 3, perGood: 2 };
 const cache = new Map();
@@ -182,7 +190,7 @@ function narrationToggle() {
 
 const MAP_W = 400;
 const STEP_Y = 175;
-const TOP_Y = 150;
+const TOP_Y = 250;
 const XS = [120, 285, 115, 290, 130, 280, 110, 295, 125, 275];
 
 function mapLayout(n) {
@@ -253,11 +261,11 @@ async function renderIndex(root) {
       </div>
     </header>
 
-    <div class="map-world" style="aspect-ratio:${MAP_W}/${h};background:#1B4FA8">
+    <div class="map-world" style="aspect-ratio:${MAP_W}/${h};max-width:520px;margin:0 auto;background:#1B4FA8">
       <svg class="map-path" viewBox="0 0 ${MAP_W} ${h}" preserveAspectRatio="none" aria-hidden="true">
-        <path d="${pathD([...pts, chest])}" class="trail-shadow" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 24"/>
-        <path d="${pathD([...pts, chest])}" class="trail" fill="none" stroke="#C9D8EE" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24"/>
-        ${curIdx > 0 ? `<path d="${pathD([...pts, chest].slice(0, curIdx + 1))}" class="trail done" fill="none" stroke="#FFE08A" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24"/>` : ''}
+        <path d="${pathD([...pts, chest])}" class="trail-shadow" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>
+        <path d="${pathD([...pts, chest])}" class="trail" fill="none" stroke="#C9D8EE" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>
+        ${curIdx > 0 ? `<path d="${pathD([...pts, chest].slice(0, curIdx + 1))}" class="trail done" fill="none" stroke="#FFE08A" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>` : ''}
       </svg>
 
       <span class="deco gem" style="left:8%;top:${pct(260, h)}">💎</span>

@@ -5,7 +5,7 @@ export const SUPABASE_URL = 'https://doioejeyihuhfqhzdbbq.supabase.co';
 export const SUPABASE_ANON_KEY = 'sb_publishable_jERifRcO4VPPITWcT3rHzw_KBrY--dH';
 
 export const APP_NAME = 'Hi Family';
-export const APP_VERSION = '0.5.1';
+export const APP_VERSION = '0.5.2';
 
 // Login com Google: só ligue depois de ativar o provedor Google no Supabase
 // (Authentication → Sign In / Providers → Google). Veja o README.
