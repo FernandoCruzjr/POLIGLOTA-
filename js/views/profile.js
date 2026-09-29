@@ -4,6 +4,7 @@ import { signOut } from '../auth.js';
 import { icon } from '../icons.js';
 import { esc, formatNumber, toast } from '../ui.js';
 import { DAILY_GOAL_OPTIONS, APP_VERSION } from '../config.js';
+import { listVoices, setVoice, currentVoiceName, previewVoice, canSpeak } from '../speech.js';
 
 export function render(root, { user }) {
   const s = store.get();
@@ -34,6 +35,26 @@ export function render(root, { user }) {
         </select>
         <button class="btn btn-primary" type="submit">Salvar</button>
       </form>
+    </section>
+
+    <section class="card" aria-labelledby="voice-title">
+      <h2 id="voice-title">🎓 Voz do Professor Kiko</h2>
+      ${canSpeak() ? `
+      <p class="muted small">As vozes vêm do seu aparelho. Já escolhemos a mais natural, mas você pode trocar e testar.</p>
+      <div class="form voice-form">
+        <label for="voice-pt">Narração em português</label>
+        <div class="voice-row"><select id="voice-pt" data-voice="pt"></select><button type="button" class="btn btn-soft" data-test="pt">▶ Testar</button></div>
+        <label for="voice-en">Falas em inglês</label>
+        <div class="voice-row"><select id="voice-en" data-voice="en"></select><button type="button" class="btn btn-soft" data-test="en">▶ Testar</button></div>
+      </div>
+      <details class="voice-help">
+        <summary>Como deixar a voz ainda mais natural</summary>
+        <ul class="tips">
+          <li><strong>Computador:</strong> abra o app no navegador <strong>Microsoft Edge</strong> e escolha uma voz com "Natural" no nome (ex.: Francisca, Thalita, Antonio). São as mais parecidas com gente de verdade.</li>
+          <li><strong>Android:</strong> em Configurações → Sistema → Idiomas → Saída de texto para fala, use o <strong>Mecanismo de fala do Google</strong> e baixe a voz em português de alta qualidade.</li>
+          <li><strong>iPhone:</strong> em Ajustes → Acessibilidade → Conteúdo Falado → Vozes → Português (Brasil), baixe <strong>Luciana (Melhorada)</strong> ou <strong>Felipe (Melhorada)</strong>. Depois escolha aqui.</li>
+        </ul>
+      </details>` : '<p class="muted">Este navegador não tem voz sintetizada. Tente o Chrome ou o Edge.</p>'}
     </section>
 
     <section class="card" aria-labelledby="summary-title">
@@ -70,6 +91,26 @@ export function render(root, { user }) {
     toast('Preferências salvas');
     render(root, { user });
   });
+
+  function fillVoices() {
+    root.querySelectorAll('[data-voice]').forEach((sel) => {
+      const lang = sel.dataset.voice;
+      const list = listVoices(lang);
+      const current = currentVoiceName(lang);
+      sel.innerHTML = list.length
+        ? list.map((v, i) => `<option value="${esc(v.voiceURI)}" ${v.name === current ? 'selected' : ''}>${esc(v.name)}${i === 0 ? ' ⭐ recomendada' : ''}</option>`).join('')
+        : '<option value="">Voz padrão do aparelho</option>';
+    });
+  }
+  if (canSpeak()) {
+    fillVoices();
+    speechSynthesis.addEventListener('voiceschanged', fillVoices, { once: true });
+    root.querySelectorAll('[data-voice]').forEach((sel) => sel.addEventListener('change', () => {
+      setVoice(sel.dataset.voice, sel.value);
+      previewVoice(sel.dataset.voice);
+    }));
+    root.querySelectorAll('[data-test]').forEach((b) => b.addEventListener('click', () => previewVoice(b.dataset.test)));
+  }
 
   root.querySelector('#logout').addEventListener('click', async () => {
     await signOut();

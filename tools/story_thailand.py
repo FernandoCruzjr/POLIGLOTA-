@@ -11,8 +11,8 @@ ch.append(chapter("c1", "🛬", "Imigração em Bangkok", "Immigration",
   {"sky": "day", "items": [["✈️", "fly"], ["🛄", "bob"], ["🛂", "pulse"]]},
   {
   "start": [
-    N("Sawasdee! Eu sou o Kiko, seu guia nessa viagem. 🦜 Depois de muitas horas de voo, vocês acabaram de pousar no aeroporto Suvarnabhumi, em Bangkok. Sente esse calor úmido? Bem-vindos ao Sudeste Asiático!"),
-    N("Antes de pegar as malas, vem o momento que dá um frio na barriga: a imigração. Calma! Eu vou te ajudar em cada fala. Primeiro, uma dica que vai fazer os tailandeses sorrirem pra você."),
+    N("Sawasdee! Eu sou o Professor Kiko 🎓🦜 e vou ser o seu professor de inglês nessa viagem. A gente aprende do jeito mais gostoso: vivendo cada situação. Depois de muitas horas de voo, vocês acabaram de pousar no aeroporto Suvarnabhumi, em Bangkok. Sente esse calor úmido? Bem-vindos ao Sudeste Asiático!"),
+    N("Antes de pegar as malas, vem o momento que dá um frio na barriga: a imigração. Calma! Como bom professor, eu vou te explicar cada fala antes de você precisar dela. Primeiro, uma dica que vai fazer os tailandeses sorrirem pra você."),
     TIP("🙏", "O cumprimento tailandês", "Na Tailândia, o cumprimento tradicional é o wai: juntar as palmas das mãos na frente do peito e inclinar levemente a cabeça, dizendo \"Sawasdee\". Os tailandeses chamam o país de \"Terra dos Sorrisos\": sorrir resolve quase tudo.",
         dos=["Sorrir e falar com calma", "Dizer Sawasdee + khrap (homem) ou ka (mulher)"],
         donts=["Tocar na cabeça de alguém, nem de crianças: é a parte mais sagrada do corpo", "Apontar a sola dos pés para pessoas ou imagens de Buda"]),
@@ -607,6 +607,10 @@ ch.append(chapter("c10", "🛫", "Voo de volta para casa", "Flight home",
     END("volta", "Final: de volta para casa", "Parabéns! Vocês completaram a Aventura na Tailândia. 🇹🇭✈️🇧🇷 Agora é só repetir os capítulos para descobrir os outros caminhos… e planejar a próxima viagem!"),
   ],
   }, "Despachar as malas, excesso de peso, escolher o assento e a despedida."))
+
+ISLANDS = {'c1': ['🛂', '✈️'], 'c2': ['🛕', '🙏'], 'c3': ['🛺', '🏙️'], 'c4': ['🏮', '🍜'], 'c5': ['🏝️', '🌴'], 'c6': ['🐘', '🛍️'], 'c7': ['🚤', '🐠'], 'c8': ['💊', '🧭'], 'c9': ['🧳', '🚕'], 'c10': ['🛫', '🇧🇷']}
+for c in ch:
+    c["island"] = ISLANDS[c["id"]]
 
 trip = {
   "id": "thailand",

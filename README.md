@@ -57,6 +57,8 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **Ranking** geral e da semana (função `en_ranking` no schema.sql)
 - [x] **Sala de quiz ao vivo** com código de 4 letras (Supabase Realtime, sem tabelas)
 - [x] **Viagem ✈️ — Aventura na Tailândia**: 10 capítulos narrados pelo Kiko, com escolhas que ramificam a história, vários finais, dicas culturais, explicações, lacunas, monte a frase, narração em português e animações
+- [x] **Mapa de aventura** com ilhas flutuantes, Kiko caminhando, névoa nas ilhas bloqueadas e baú final; **passaporte** com carimbos (dourado de Explorador)
+- [x] **Professor Kiko**: plano da aula, quadro-negro, revisão da aula e voz escolhida entre as mais naturais do aparelho (inglês lido com voz inglesa)
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
 

@@ -36,13 +36,13 @@
    "nodes": {
     "start.0": {
      "type": "narration",
-     "pt": "Sawasdee! Eu sou o Kiko, seu guia nessa viagem. 🦜 Depois de muitas horas de voo, vocês acabaram de pousar no aeroporto Suvarnabhumi, em Bangkok. Sente esse calor úmido? Bem-vindos ao Sudeste Asiático!",
+     "pt": "Sawasdee! Eu sou o Professor Kiko 🎓🦜 e vou ser o seu professor de inglês nessa viagem. A gente aprende do jeito mais gostoso: vivendo cada situação. Depois de muitas horas de voo, vocês acabaram de pousar no aeroporto Suvarnabhumi, em Bangkok. Sente esse calor úmido? Bem-vindos ao Sudeste Asiático!",
      "mood": "talk",
      "next": "start.1"
     },
     "start.1": {
      "type": "narration",
-     "pt": "Antes de pegar as malas, vem o momento que dá um frio na barriga: a imigração. Calma! Eu vou te ajudar em cada fala. Primeiro, uma dica que vai fazer os tailandeses sorrirem pra você.",
+     "pt": "Antes de pegar as malas, vem o momento que dá um frio na barriga: a imigração. Calma! Como bom professor, eu vou te explicar cada fala antes de você precisar dela. Primeiro, uma dica que vai fazer os tailandeses sorrirem pra você.",
      "mood": "talk",
      "next": "start.2"
     },
@@ -608,7 +608,11 @@
      "title": "Final: a mala apareceu",
      "pt": "Paciência também é uma habilidade de viajante. Malas na mão, Bangkok espera por vocês! 🧳"
     }
-   }
+   },
+   "island": [
+    "🛂",
+    "✈️"
+   ]
   },
   {
    "id": "c2",
@@ -946,7 +950,11 @@
      "title": "Final: respeito no templo",
      "pt": "Vocês visitaram o lugar mais sagrado da Tailândia e aprenderam as regras de ouro dos templos. 🛕✨"
     }
-   }
+   },
+   "island": [
+    "🛕",
+    "🙏"
+   ]
   },
   {
    "id": "c3",
@@ -1331,7 +1339,11 @@
      "title": "Final: aventura de tuk-tuk",
      "pt": "Vocês sobreviveram ao trânsito de Bangkok no transporte mais famoso da Tailândia! 🛺💨"
     }
-   }
+   },
+   "island": [
+    "🛺",
+    "🏙️"
+   ]
   },
   {
    "id": "c4",
@@ -1619,7 +1631,11 @@
      "title": "Final: jantar tailandês",
      "pt": "Barriga cheia, boca (talvez) pegando fogo e muitas palavras novas. Aroi mak! (muito gostoso, em tailandês) 🍜"
     }
-   }
+   },
+   "island": [
+    "🏮",
+    "🍜"
+   ]
   },
   {
    "id": "c5",
@@ -1903,7 +1919,11 @@
      "title": "Final: bem-vindos ao paraíso",
      "pt": "Quarto resolvido, ar gelado e a praia esperando lá embaixo. Hora de descansar! 🏝️"
     }
-   }
+   },
+   "island": [
+    "🏝️",
+    "🌴"
+   ]
   },
   {
    "id": "c6",
@@ -2131,7 +2151,11 @@
      "title": "Final: sacola cheia",
      "pt": "Lembrancinhas compradas, desconto conquistado e troco conferido. A família no Brasil vai amar! 🐘🎁"
     }
-   }
+   },
+   "island": [
+    "🐘",
+    "🛍️"
+   ]
   },
   {
    "id": "c7",
@@ -2415,7 +2439,11 @@
      "title": "Final: dia de esmeralda",
      "pt": "Peixes coloridos, praia de cinema e muito inglês na prática. Um dia para nunca esquecer! 🐠🏝️"
     }
-   }
+   },
+   "island": [
+    "🚤",
+    "🐠"
+   ]
   },
   {
    "id": "c8",
@@ -2685,7 +2713,11 @@
      "title": "Final: problema resolvido",
      "pt": "Você pediu informação, entendeu as direções e explicou o problema na farmácia. Viajante preparado! 💪"
     }
-   }
+   },
+   "island": [
+    "💊",
+    "🧭"
+   ]
   },
   {
    "id": "c9",
@@ -2943,7 +2975,11 @@
      "title": "Final: despedida do paraíso",
      "pt": "Conta fechada, recibo na mão e táxi a caminho. Só falta o voo de volta! 🚕"
     }
-   }
+   },
+   "island": [
+    "🧳",
+    "🚕"
+   ]
   },
   {
    "id": "c10",
@@ -3200,7 +3236,11 @@
      "title": "Final: de volta para casa",
      "pt": "Parabéns! Vocês completaram a Aventura na Tailândia. 🇹🇭✈️🇧🇷 Agora é só repetir os capítulos para descobrir os outros caminhos… e planejar a próxima viagem!"
     }
-   }
+   },
+   "island": [
+    "🛫",
+    "🇧🇷"
+   ]
   }
  ]
 }
