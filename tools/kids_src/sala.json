@@ -1,0 +1,1148 @@
+{
+ "items": [
+  {
+   "emoji": "🛋️",
+   "en": "sofa",
+   "pt": "sofá",
+   "pron": "SÔU-fa",
+   "say": "We sit on the sofa.",
+   "sayPt": "Nós sentamos no sofá."
+  },
+  {
+   "emoji": "🪑",
+   "en": "chair",
+   "pt": "cadeira",
+   "pron": "TCHÉR",
+   "say": "Sit on the chair.",
+   "sayPt": "Sente na cadeira."
+  },
+  {
+   "emoji": "🚪",
+   "en": "door",
+   "pt": "porta",
+   "pron": "DÓR",
+   "say": "Close the door, please.",
+   "sayPt": "Feche a porta, por favor."
+  },
+  {
+   "emoji": "🖼️",
+   "en": "picture",
+   "pt": "quadro",
+   "pron": "PÍK-tcher",
+   "say": "The picture is on the wall.",
+   "sayPt": "O quadro está na parede."
+  },
+  {
+   "emoji": "🪴",
+   "en": "plant",
+   "pt": "planta",
+   "pron": "PLÉNT",
+   "say": "Water the plant.",
+   "sayPt": "Regue a planta."
+  },
+  {
+   "emoji": "🕰️",
+   "en": "clock",
+   "pt": "relógio",
+   "pron": "KLÓK",
+   "say": "The clock says three.",
+   "sayPt": "O relógio marca três horas."
+  },
+  {
+   "emoji": "🕯️",
+   "en": "candle",
+   "pt": "vela",
+   "pron": "KÉN-dol",
+   "say": "Light the candle.",
+   "sayPt": "Acenda a vela."
+  },
+  {
+   "emoji": "🏺",
+   "en": "vase",
+   "pt": "vaso",
+   "pron": "VÊIS",
+   "say": "The vase is old.",
+   "sayPt": "O vaso é antigo."
+  },
+  {
+   "emoji": "🗿",
+   "en": "statue",
+   "pt": "estátua",
+   "pron": "STÉ-tchu",
+   "say": "The statue is made of stone.",
+   "sayPt": "A estátua é de pedra."
+  },
+  {
+   "emoji": "🗝️",
+   "en": "key",
+   "pt": "chave",
+   "pron": "KÍ",
+   "say": "Where is the key?",
+   "sayPt": "Onde está a chave?"
+  },
+  {
+   "emoji": "🔒",
+   "en": "lock",
+   "pt": "cadeado",
+   "pron": "LÓK",
+   "say": "The lock is closed.",
+   "sayPt": "O cadeado está fechado."
+  },
+  {
+   "emoji": "🛎️",
+   "en": "bell",
+   "pt": "campainha",
+   "pron": "BÉL",
+   "say": "Ring the bell.",
+   "sayPt": "Toque a campainha."
+  },
+  {
+   "emoji": "🪜",
+   "en": "ladder",
+   "pt": "escada",
+   "pron": "LÉ-der",
+   "say": "Dad climbs the ladder.",
+   "sayPt": "O papai sobe a escada."
+  },
+  {
+   "emoji": "🧹",
+   "en": "broom",
+   "pt": "vassoura",
+   "pron": "BRÚM",
+   "say": "Sweep with the broom.",
+   "sayPt": "Varra com a vassoura."
+  },
+  {
+   "emoji": "🪣",
+   "en": "bucket",
+   "pt": "balde",
+   "pron": "BÂ-kit",
+   "say": "The bucket is full of water.",
+   "sayPt": "O balde está cheio de água."
+  },
+  {
+   "emoji": "🧯",
+   "en": "fire extinguisher",
+   "pt": "extintor",
+   "pron": "FÁIR iks-TÍN-gui-sher",
+   "say": "The fire extinguisher is red.",
+   "sayPt": "O extintor é vermelho."
+  },
+  {
+   "emoji": "🪵",
+   "en": "wood",
+   "pt": "lenha",
+   "pron": "UÚD",
+   "say": "Put wood in the fire.",
+   "sayPt": "Coloque lenha no fogo."
+  },
+  {
+   "emoji": "🧱",
+   "en": "brick",
+   "pt": "tijolo",
+   "pron": "BRÍK",
+   "say": "The wall has red bricks.",
+   "sayPt": "A parede tem tijolos vermelhos."
+  },
+  {
+   "emoji": "📺",
+   "en": "TV",
+   "pt": "televisão",
+   "pron": "TÍ-VÍ",
+   "say": "We watch TV at night.",
+   "sayPt": "Nós vemos televisão à noite."
+  },
+  {
+   "emoji": "📱",
+   "en": "phone",
+   "pt": "celular",
+   "pron": "FÔUN",
+   "say": "My phone is ringing.",
+   "sayPt": "Meu celular está tocando."
+  },
+  {
+   "emoji": "☎️",
+   "en": "telephone",
+   "pt": "telefone",
+   "pron": "TÉ-le-fôun",
+   "say": "Grandpa has an old telephone.",
+   "sayPt": "O vovô tem um telefone antigo."
+  },
+  {
+   "emoji": "💻",
+   "en": "laptop",
+   "pt": "notebook",
+   "pron": "LÉP-tóp",
+   "say": "I study on my laptop.",
+   "sayPt": "Eu estudo no meu notebook."
+  },
+  {
+   "emoji": "🖥️",
+   "en": "computer",
+   "pt": "computador",
+   "pron": "kom-PIÚ-ter",
+   "say": "The computer is on.",
+   "sayPt": "O computador está ligado."
+  },
+  {
+   "emoji": "⌨️",
+   "en": "keyboard",
+   "pt": "teclado",
+   "pron": "KÍ-bórd",
+   "say": "Type on the keyboard.",
+   "sayPt": "Digite no teclado."
+  },
+  {
+   "emoji": "🖱️",
+   "en": "mouse",
+   "pt": "mouse",
+   "pron": "MÁUS",
+   "say": "Click the mouse.",
+   "sayPt": "Clique o mouse."
+  },
+  {
+   "emoji": "🖨️",
+   "en": "printer",
+   "pt": "impressora",
+   "pron": "PRÍN-ter",
+   "say": "The printer is slow.",
+   "sayPt": "A impressora é lenta."
+  },
+  {
+   "emoji": "📷",
+   "en": "camera",
+   "pt": "câmera",
+   "pron": "KÉ-me-ra",
+   "say": "Smile for the camera!",
+   "sayPt": "Sorria para a câmera!"
+  },
+  {
+   "emoji": "📹",
+   "en": "video camera",
+   "pt": "filmadora",
+   "pron": "VÍ-di-ou KÉ-me-ra",
+   "say": "Dad has a video camera.",
+   "sayPt": "O papai tem uma filmadora."
+  },
+  {
+   "emoji": "🎥",
+   "en": "movie",
+   "pt": "filme",
+   "pron": "MÚ-vi",
+   "say": "Let's watch a movie.",
+   "sayPt": "Vamos ver um filme."
+  },
+  {
+   "emoji": "📻",
+   "en": "radio",
+   "pt": "rádio",
+   "pron": "RÊI-di-ou",
+   "say": "Turn on the radio.",
+   "sayPt": "Ligue o rádio."
+  },
+  {
+   "emoji": "🎧",
+   "en": "headphones",
+   "pt": "fones de ouvido",
+   "pron": "RÉD-fôuns",
+   "say": "I listen with headphones.",
+   "sayPt": "Eu escuto com fones de ouvido."
+  },
+  {
+   "emoji": "🎤",
+   "en": "microphone",
+   "pt": "microfone",
+   "pron": "MÁI-kro-fôun",
+   "say": "Sing into the microphone.",
+   "sayPt": "Cante no microfone."
+  },
+  {
+   "emoji": "🔈",
+   "en": "speaker",
+   "pt": "caixa de som",
+   "pron": "SPÍ-ker",
+   "say": "The speaker is too loud.",
+   "sayPt": "A caixa de som está alta demais."
+  },
+  {
+   "emoji": "🔋",
+   "en": "battery",
+   "pt": "bateria",
+   "pron": "BÉ-te-ri",
+   "say": "The battery is low.",
+   "sayPt": "A bateria está fraca."
+  },
+  {
+   "emoji": "🔌",
+   "en": "plug",
+   "pt": "plugue",
+   "pron": "PLÂG",
+   "say": "Put the plug in.",
+   "sayPt": "Coloque o plugue na tomada."
+  },
+  {
+   "emoji": "💡",
+   "en": "light bulb",
+   "pt": "lâmpada",
+   "pron": "LÁIT bâlb",
+   "say": "The light bulb is off.",
+   "sayPt": "A lâmpada está apagada."
+  },
+  {
+   "emoji": "📡",
+   "en": "antenna",
+   "pt": "antena",
+   "pron": "én-TÉ-na",
+   "say": "The antenna is on the roof.",
+   "sayPt": "A antena está no telhado."
+  },
+  {
+   "emoji": "💿",
+   "en": "CD",
+   "pt": "CD",
+   "pron": "SÍ-DÍ",
+   "say": "Play the CD.",
+   "sayPt": "Toque o CD."
+  },
+  {
+   "emoji": "📀",
+   "en": "DVD",
+   "pt": "DVD",
+   "pron": "DÍ-VÍ-DÍ",
+   "say": "This DVD is a cartoon.",
+   "sayPt": "Este DVD é um desenho."
+  },
+  {
+   "emoji": "📼",
+   "en": "videotape",
+   "pt": "fita de vídeo",
+   "pron": "VÍ-di-ou-teip",
+   "say": "The videotape is very old.",
+   "sayPt": "A fita de vídeo é muito velha."
+  },
+  {
+   "emoji": "⏱️",
+   "en": "stopwatch",
+   "pt": "cronômetro",
+   "pron": "STÓP-uotch",
+   "say": "Start the stopwatch.",
+   "sayPt": "Ligue o cronômetro."
+  },
+  {
+   "emoji": "⏲️",
+   "en": "timer",
+   "pt": "timer",
+   "pron": "TÁI-mer",
+   "say": "Set the timer.",
+   "sayPt": "Ajuste o timer."
+  },
+  {
+   "emoji": "⏳",
+   "en": "hourglass",
+   "pt": "ampulheta",
+   "pron": "ÁUR-glés",
+   "say": "The sand falls in the hourglass.",
+   "sayPt": "A areia cai na ampulheta."
+  },
+  {
+   "emoji": "🌡️",
+   "en": "thermometer",
+   "pt": "termômetro",
+   "pron": "thâr-MÓ-mi-ter",
+   "say": "The thermometer says hot.",
+   "sayPt": "O termômetro mostra calor."
+  },
+  {
+   "emoji": "🧭",
+   "en": "compass",
+   "pt": "bússola",
+   "pron": "KÂM-pés",
+   "say": "The compass points north.",
+   "sayPt": "A bússola aponta para o norte."
+  },
+  {
+   "emoji": "🎸",
+   "en": "guitar",
+   "pt": "violão",
+   "pron": "gui-TÁR",
+   "say": "I play the guitar.",
+   "sayPt": "Eu toco violão."
+  },
+  {
+   "emoji": "🎹",
+   "en": "piano",
+   "pt": "piano",
+   "pron": "pi-É-nou",
+   "say": "She plays the piano.",
+   "sayPt": "Ela toca piano."
+  },
+  {
+   "emoji": "🥁",
+   "en": "drum",
+   "pt": "tambor",
+   "pron": "DRÂM",
+   "say": "Hit the drum.",
+   "sayPt": "Bata no tambor."
+  },
+  {
+   "emoji": "🎺",
+   "en": "trumpet",
+   "pt": "trompete",
+   "pron": "TRÂM-pit",
+   "say": "The trumpet is loud.",
+   "sayPt": "O trompete é alto."
+  },
+  {
+   "emoji": "🎷",
+   "en": "saxophone",
+   "pt": "saxofone",
+   "pron": "SÉK-so-fôun",
+   "say": "He plays the saxophone.",
+   "sayPt": "Ele toca saxofone."
+  },
+  {
+   "emoji": "🎻",
+   "en": "violin",
+   "pt": "violino",
+   "pron": "vai-o-LÍN",
+   "say": "The violin sounds beautiful.",
+   "sayPt": "O violino soa lindo."
+  },
+  {
+   "emoji": "🪕",
+   "en": "banjo",
+   "pt": "banjo",
+   "pron": "BÉN-djou",
+   "say": "Grandpa plays the banjo.",
+   "sayPt": "O vovô toca banjo."
+  },
+  {
+   "emoji": "🪗",
+   "en": "accordion",
+   "pt": "sanfona",
+   "pron": "a-KÓR-di-ân",
+   "say": "The accordion is heavy.",
+   "sayPt": "A sanfona é pesada."
+  },
+  {
+   "emoji": "🎵",
+   "en": "music",
+   "pt": "música",
+   "pron": "MIÚ-zik",
+   "say": "I love music.",
+   "sayPt": "Eu amo música."
+  },
+  {
+   "emoji": "🎼",
+   "en": "sheet music",
+   "pt": "partitura",
+   "pron": "SHÍT miú-zik",
+   "say": "Read the sheet music.",
+   "sayPt": "Leia a partitura."
+  },
+  {
+   "emoji": "⚽",
+   "en": "soccer ball",
+   "pt": "bola de futebol",
+   "pron": "SÓ-ker ból",
+   "say": "Kick the soccer ball.",
+   "sayPt": "Chute a bola de futebol."
+  },
+  {
+   "emoji": "🏀",
+   "en": "basketball",
+   "pt": "bola de basquete",
+   "pron": "BÉS-kit-ból",
+   "say": "Bounce the basketball.",
+   "sayPt": "Quique a bola de basquete."
+  },
+  {
+   "emoji": "🏈",
+   "en": "football",
+   "pt": "bola de futebol americano",
+   "pron": "FÚT-ból",
+   "say": "Throw the football.",
+   "sayPt": "Jogue a bola de futebol americano."
+  },
+  {
+   "emoji": "⚾",
+   "en": "baseball",
+   "pt": "bola de beisebol",
+   "pron": "BÊIS-ból",
+   "say": "Catch the baseball.",
+   "sayPt": "Pegue a bola de beisebol."
+  },
+  {
+   "emoji": "🎾",
+   "en": "tennis ball",
+   "pt": "bola de tênis",
+   "pron": "TÉ-nis ból",
+   "say": "The tennis ball is yellow.",
+   "sayPt": "A bola de tênis é amarela."
+  },
+  {
+   "emoji": "🏐",
+   "en": "volleyball",
+   "pt": "bola de vôlei",
+   "pron": "VÓ-li-ból",
+   "say": "We play with a volleyball.",
+   "sayPt": "Nós jogamos com uma bola de vôlei."
+  },
+  {
+   "emoji": "🏉",
+   "en": "rugby ball",
+   "pt": "bola de rúgbi",
+   "pron": "RÂG-bi ból",
+   "say": "The rugby ball is oval.",
+   "sayPt": "A bola de rúgbi é oval."
+  },
+  {
+   "emoji": "🎱",
+   "en": "pool ball",
+   "pt": "bola de sinuca",
+   "pron": "PÚL ból",
+   "say": "The pool ball is black.",
+   "sayPt": "A bola de sinuca é preta."
+  },
+  {
+   "emoji": "🏓",
+   "en": "ping-pong",
+   "pt": "pingue-pongue",
+   "pron": "PÍNG-póng",
+   "say": "Let's play ping-pong.",
+   "sayPt": "Vamos jogar pingue-pongue."
+  },
+  {
+   "emoji": "🏸",
+   "en": "badminton",
+   "pt": "badminton",
+   "pron": "BÉD-min-tân",
+   "say": "Badminton is fun.",
+   "sayPt": "Badminton é divertido."
+  },
+  {
+   "emoji": "🏒",
+   "en": "hockey stick",
+   "pt": "taco de hóquei",
+   "pron": "RÓ-ki stík",
+   "say": "He has a hockey stick.",
+   "sayPt": "Ele tem um taco de hóquei."
+  },
+  {
+   "emoji": "⛳",
+   "en": "golf",
+   "pt": "golfe",
+   "pron": "GÓLF",
+   "say": "Grandpa plays golf.",
+   "sayPt": "O vovô joga golfe."
+  },
+  {
+   "emoji": "🥊",
+   "en": "boxing glove",
+   "pt": "luva de boxe",
+   "pron": "BÓK-sing glâv",
+   "say": "The boxing glove is red.",
+   "sayPt": "A luva de boxe é vermelha."
+  },
+  {
+   "emoji": "🎿",
+   "en": "skis",
+   "pt": "esquis",
+   "pron": "SKÍS",
+   "say": "The skis are long.",
+   "sayPt": "Os esquis são compridos."
+  },
+  {
+   "emoji": "🛷",
+   "en": "sled",
+   "pt": "trenó",
+   "pron": "SLÉD",
+   "say": "We ride the sled.",
+   "sayPt": "Nós andamos de trenó."
+  },
+  {
+   "emoji": "🏹",
+   "en": "bow and arrow",
+   "pt": "arco e flecha",
+   "pron": "BÔU end É-rou",
+   "say": "He shoots with a bow and arrow.",
+   "sayPt": "Ele atira com arco e flecha."
+  },
+  {
+   "emoji": "🎣",
+   "en": "fishing rod",
+   "pt": "vara de pesca",
+   "pron": "FÍ-shing ród",
+   "say": "Dad has a fishing rod.",
+   "sayPt": "O papai tem uma vara de pesca."
+  },
+  {
+   "emoji": "🥅",
+   "en": "goal",
+   "pt": "gol",
+   "pron": "GÔUL",
+   "say": "The ball is in the goal!",
+   "sayPt": "A bola entrou no gol!"
+  },
+  {
+   "emoji": "🥏",
+   "en": "frisbee",
+   "pt": "frisbee",
+   "pron": "FRÍZ-bi",
+   "say": "Throw the frisbee to me.",
+   "sayPt": "Jogue o frisbee para mim."
+  },
+  {
+   "emoji": "🏆",
+   "en": "trophy",
+   "pt": "troféu",
+   "pron": "TRÔU-fi",
+   "say": "We won the trophy!",
+   "sayPt": "Nós ganhamos o troféu!"
+  },
+  {
+   "emoji": "🥇",
+   "en": "medal",
+   "pt": "medalha",
+   "pron": "MÉ-dol",
+   "say": "I have a gold medal.",
+   "sayPt": "Eu tenho uma medalha de ouro."
+  },
+  {
+   "emoji": "♟️",
+   "en": "chess",
+   "pt": "xadrez",
+   "pron": "TCHÉS",
+   "say": "Let's play chess.",
+   "sayPt": "Vamos jogar xadrez."
+  },
+  {
+   "emoji": "🎲",
+   "en": "dice",
+   "pt": "dados",
+   "pron": "DÁIS",
+   "say": "Roll the dice.",
+   "sayPt": "Jogue os dados."
+  },
+  {
+   "emoji": "🃏",
+   "en": "cards",
+   "pt": "cartas",
+   "pron": "KÁRDS",
+   "say": "We play cards.",
+   "sayPt": "Nós jogamos cartas."
+  },
+  {
+   "emoji": "🎯",
+   "en": "target",
+   "pt": "alvo",
+   "pron": "TÁR-git",
+   "say": "Hit the target.",
+   "sayPt": "Acerte o alvo."
+  },
+  {
+   "emoji": "🎳",
+   "en": "bowling",
+   "pt": "boliche",
+   "pron": "BÔU-ling",
+   "say": "Bowling is fun.",
+   "sayPt": "Boliche é divertido."
+  },
+  {
+   "emoji": "🀄",
+   "en": "mahjong",
+   "pt": "mahjong",
+   "pron": "ma-DJÓNG",
+   "say": "Grandma plays mahjong.",
+   "sayPt": "A vovó joga mahjong."
+  },
+  {
+   "emoji": "📎",
+   "en": "paper clip",
+   "pt": "clipe",
+   "pron": "PÊI-per klíp",
+   "say": "Use a paper clip.",
+   "sayPt": "Use um clipe."
+  },
+  {
+   "emoji": "📌",
+   "en": "pushpin",
+   "pt": "tachinha",
+   "pron": "PÚSH-pín",
+   "say": "Put a pushpin on the board.",
+   "sayPt": "Coloque uma tachinha no mural."
+  },
+  {
+   "emoji": "📁",
+   "en": "folder",
+   "pt": "pasta",
+   "pron": "FÔUL-der",
+   "say": "The paper is in the folder.",
+   "sayPt": "O papel está na pasta."
+  },
+  {
+   "emoji": "📅",
+   "en": "calendar",
+   "pt": "calendário",
+   "pron": "KÉ-len-der",
+   "say": "Look at the calendar.",
+   "sayPt": "Olhe o calendário."
+  },
+  {
+   "emoji": "✉️",
+   "en": "letter",
+   "pt": "carta",
+   "pron": "LÉ-ter",
+   "say": "I write a letter.",
+   "sayPt": "Eu escrevo uma carta."
+  },
+  {
+   "emoji": "📦",
+   "en": "box",
+   "pt": "caixa",
+   "pron": "BÓKS",
+   "say": "The box is empty.",
+   "sayPt": "A caixa está vazia."
+  },
+  {
+   "emoji": "📮",
+   "en": "mailbox",
+   "pt": "caixa de correio",
+   "pron": "MÊIL-bóks",
+   "say": "Put the letter in the mailbox.",
+   "sayPt": "Coloque a carta na caixa de correio."
+  },
+  {
+   "emoji": "🗑️",
+   "en": "trash can",
+   "pt": "lixeira",
+   "pron": "TRÉSH kén",
+   "say": "Throw it in the trash can.",
+   "sayPt": "Jogue na lixeira."
+  },
+  {
+   "emoji": "🖋️",
+   "en": "fountain pen",
+   "pt": "caneta tinteiro",
+   "pron": "FÁUN-tin pén",
+   "say": "Grandpa uses a fountain pen.",
+   "sayPt": "O vovô usa uma caneta tinteiro."
+  },
+  {
+   "emoji": "📄",
+   "en": "paper",
+   "pt": "papel",
+   "pron": "PÊI-per",
+   "say": "I need a sheet of paper.",
+   "sayPt": "Eu preciso de uma folha de papel."
+  },
+  {
+   "emoji": "📰",
+   "en": "newspaper",
+   "pt": "jornal",
+   "pron": "NÚZ-pei-per",
+   "say": "Dad reads the newspaper.",
+   "sayPt": "O papai lê o jornal."
+  },
+  {
+   "emoji": "💼",
+   "en": "briefcase",
+   "pt": "maleta",
+   "pron": "BRÍF-keis",
+   "say": "Mom takes her briefcase.",
+   "sayPt": "A mamãe leva a maleta."
+  },
+  {
+   "emoji": "📊",
+   "en": "chart",
+   "pt": "gráfico",
+   "pron": "TCHÁRT",
+   "say": "Look at this chart.",
+   "sayPt": "Olhe este gráfico."
+  },
+  {
+   "emoji": "🔍",
+   "en": "magnifying glass",
+   "pt": "lupa",
+   "pron": "MÉG-ni-fai-ing glés",
+   "say": "Look with the magnifying glass.",
+   "sayPt": "Olhe com a lupa."
+  },
+  {
+   "emoji": "🗄️",
+   "en": "file cabinet",
+   "pt": "arquivo",
+   "pron": "FÁIL ké-bi-nit",
+   "say": "The file cabinet is gray.",
+   "sayPt": "O arquivo é cinza."
+  },
+  {
+   "emoji": "📋",
+   "en": "clipboard",
+   "pt": "prancheta",
+   "pron": "KLÍP-bórd",
+   "say": "The list is on the clipboard.",
+   "sayPt": "A lista está na prancheta."
+  },
+  {
+   "emoji": "🏷️",
+   "en": "label",
+   "pt": "etiqueta",
+   "pron": "LÊI-bol",
+   "say": "Read the label.",
+   "sayPt": "Leia a etiqueta."
+  },
+  {
+   "emoji": "🗒️",
+   "en": "notepad",
+   "pt": "bloco de notas",
+   "pron": "NÓUT-péd",
+   "say": "Write it on the notepad.",
+   "sayPt": "Escreva no bloco de notas."
+  },
+  {
+   "emoji": "🪙",
+   "en": "coin",
+   "pt": "moeda",
+   "pron": "KÓIN",
+   "say": "I found a coin.",
+   "sayPt": "Eu achei uma moeda."
+  },
+  {
+   "emoji": "🔨",
+   "en": "hammer",
+   "pt": "martelo",
+   "pron": "RÉ-mer",
+   "say": "Dad uses a hammer.",
+   "sayPt": "O papai usa um martelo."
+  },
+  {
+   "emoji": "🪛",
+   "en": "screwdriver",
+   "pt": "chave de fenda",
+   "pron": "SKRÚ-drai-ver",
+   "say": "Give me the screwdriver.",
+   "sayPt": "Me dê a chave de fenda."
+  },
+  {
+   "emoji": "🔧",
+   "en": "wrench",
+   "pt": "chave inglesa",
+   "pron": "RÉNTCH",
+   "say": "The wrench is heavy.",
+   "sayPt": "A chave inglesa é pesada."
+  },
+  {
+   "emoji": "🪚",
+   "en": "saw",
+   "pt": "serrote",
+   "pron": "SÓ",
+   "say": "Cut the wood with a saw.",
+   "sayPt": "Corte a madeira com o serrote."
+  },
+  {
+   "emoji": "🔩",
+   "en": "bolt",
+   "pt": "parafuso",
+   "pron": "BÔULT",
+   "say": "The bolt is loose.",
+   "sayPt": "O parafuso está solto."
+  },
+  {
+   "emoji": "⚙️",
+   "en": "gear",
+   "pt": "engrenagem",
+   "pron": "GUÍR",
+   "say": "The gear turns.",
+   "sayPt": "A engrenagem gira."
+  },
+  {
+   "emoji": "🧰",
+   "en": "toolbox",
+   "pt": "caixa de ferramentas",
+   "pron": "TÚL-bóks",
+   "say": "Open the toolbox.",
+   "sayPt": "Abra a caixa de ferramentas."
+  },
+  {
+   "emoji": "🪓",
+   "en": "axe",
+   "pt": "machado",
+   "pron": "ÉKS",
+   "say": "The axe is sharp.",
+   "sayPt": "O machado é afiado."
+  },
+  {
+   "emoji": "⛏️",
+   "en": "pick",
+   "pt": "picareta",
+   "pron": "PÍK",
+   "say": "The pick is heavy.",
+   "sayPt": "A picareta é pesada."
+  },
+  {
+   "emoji": "🧲",
+   "en": "magnet",
+   "pt": "ímã",
+   "pron": "MÉG-nit",
+   "say": "The magnet is on the fridge.",
+   "sayPt": "O ímã está na geladeira."
+  },
+  {
+   "emoji": "🪝",
+   "en": "hook",
+   "pt": "gancho",
+   "pron": "RÚK",
+   "say": "Hang your coat on the hook.",
+   "sayPt": "Pendure o casaco no gancho."
+  },
+  {
+   "emoji": "🔗",
+   "en": "chain",
+   "pt": "corrente",
+   "pron": "TCHÊIN",
+   "say": "The chain is long.",
+   "sayPt": "A corrente é comprida."
+  },
+  {
+   "emoji": "🗜️",
+   "en": "clamp",
+   "pt": "grampo",
+   "pron": "KLÉMP",
+   "say": "Hold the wood with a clamp.",
+   "sayPt": "Segure a madeira com um grampo."
+  },
+  {
+   "emoji": "🎈",
+   "en": "balloon",
+   "pt": "balão",
+   "pron": "ba-LÚN",
+   "say": "The balloon is red.",
+   "sayPt": "O balão é vermelho."
+  },
+  {
+   "emoji": "🎁",
+   "en": "gift",
+   "pt": "presente",
+   "pron": "GUÍFT",
+   "say": "This gift is for you.",
+   "sayPt": "Este presente é para você."
+  },
+  {
+   "emoji": "🎂",
+   "en": "birthday cake",
+   "pt": "bolo de aniversário",
+   "pron": "BÂRS-dei kêik",
+   "say": "Blow the birthday cake candles.",
+   "sayPt": "Assopre as velas do bolo de aniversário."
+  },
+  {
+   "emoji": "🧁",
+   "en": "cupcake",
+   "pt": "cupcake",
+   "pron": "KÂP-keik",
+   "say": "I want a cupcake.",
+   "sayPt": "Eu quero um cupcake."
+  },
+  {
+   "emoji": "🎉",
+   "en": "party",
+   "pt": "festa",
+   "pron": "PÁR-ti",
+   "say": "Welcome to the party!",
+   "sayPt": "Bem-vindo à festa!"
+  },
+  {
+   "emoji": "🎊",
+   "en": "confetti",
+   "pt": "confete",
+   "pron": "kon-FÉ-ti",
+   "say": "Throw the confetti!",
+   "sayPt": "Jogue o confete!"
+  },
+  {
+   "emoji": "🪅",
+   "en": "piñata",
+   "pt": "piñata",
+   "pron": "pi-NIÁ-ta",
+   "say": "Hit the piñata!",
+   "sayPt": "Bata na piñata!"
+  },
+  {
+   "emoji": "🎆",
+   "en": "fireworks",
+   "pt": "fogos de artifício",
+   "pron": "FÁIR-uârks",
+   "say": "The fireworks are beautiful.",
+   "sayPt": "Os fogos de artifício são lindos."
+  },
+  {
+   "emoji": "🎇",
+   "en": "sparkler",
+   "pt": "estrelinha",
+   "pron": "SPÁRK-ler",
+   "say": "Hold the sparkler.",
+   "sayPt": "Segure a estrelinha."
+  },
+  {
+   "emoji": "🎟️",
+   "en": "ticket",
+   "pt": "ingresso",
+   "pron": "TÍ-kit",
+   "say": "I have a ticket.",
+   "sayPt": "Eu tenho um ingresso."
+  },
+  {
+   "emoji": "🎄",
+   "en": "Christmas tree",
+   "pt": "árvore de Natal",
+   "pron": "KRÍS-mas trí",
+   "say": "We decorate the Christmas tree.",
+   "sayPt": "Nós enfeitamos a árvore de Natal."
+  },
+  {
+   "emoji": "🍿",
+   "en": "popcorn",
+   "pt": "pipoca",
+   "pron": "PÓP-korn",
+   "say": "We eat popcorn and watch TV.",
+   "sayPt": "Nós comemos pipoca e vemos TV."
+  },
+  {
+   "emoji": "🌹",
+   "en": "rose",
+   "pt": "rosa",
+   "pron": "RÔUZ",
+   "say": "The rose is red.",
+   "sayPt": "A rosa é vermelha."
+  },
+  {
+   "emoji": "🌻",
+   "en": "sunflower",
+   "pt": "girassol",
+   "pron": "SÂN-flau-er",
+   "say": "The sunflower is tall.",
+   "sayPt": "O girassol é alto."
+  },
+  {
+   "emoji": "🌷",
+   "en": "tulip",
+   "pt": "tulipa",
+   "pron": "TÚ-lip",
+   "say": "The tulip is pink.",
+   "sayPt": "A tulipa é rosa."
+  },
+  {
+   "emoji": "🌼",
+   "en": "daisy",
+   "pt": "margarida",
+   "pron": "DÊI-zi",
+   "say": "I pick a daisy.",
+   "sayPt": "Eu colho uma margarida."
+  },
+  {
+   "emoji": "🌸",
+   "en": "blossom",
+   "pt": "flor de cerejeira",
+   "pron": "BLÓ-sâm",
+   "say": "The blossom is pink.",
+   "sayPt": "A flor de cerejeira é rosa."
+  },
+  {
+   "emoji": "💐",
+   "en": "bouquet",
+   "pt": "buquê",
+   "pron": "bu-KÊI",
+   "say": "This bouquet is for Mom.",
+   "sayPt": "Este buquê é para a mamãe."
+  },
+  {
+   "emoji": "🌺",
+   "en": "hibiscus",
+   "pt": "hibisco",
+   "pron": "rai-BÍS-kâs",
+   "say": "The hibiscus is red.",
+   "sayPt": "O hibisco é vermelho."
+  },
+  {
+   "emoji": "🥀",
+   "en": "wilted flower",
+   "pt": "flor murcha",
+   "pron": "UÍL-tid FLÁU-er",
+   "say": "The wilted flower needs water.",
+   "sayPt": "A flor murcha precisa de água."
+  },
+  {
+   "emoji": "🌵",
+   "en": "cactus",
+   "pt": "cacto",
+   "pron": "KÉK-tâs",
+   "say": "Don't touch the cactus!",
+   "sayPt": "Não toque no cacto!"
+  },
+  {
+   "emoji": "🍀",
+   "en": "clover",
+   "pt": "trevo",
+   "pron": "KLÔU-ver",
+   "say": "I found a clover.",
+   "sayPt": "Eu achei um trevo."
+  },
+  {
+   "emoji": "🦴",
+   "en": "bone",
+   "pt": "osso",
+   "pron": "BÔUN",
+   "say": "The dog has a bone.",
+   "sayPt": "O cachorro tem um osso."
+  },
+  {
+   "emoji": "🐾",
+   "en": "paw prints",
+   "pt": "pegadas",
+   "pron": "PÓ prints",
+   "say": "I see paw prints.",
+   "sayPt": "Eu vejo pegadas."
+  },
+  {
+   "emoji": "🐠",
+   "en": "fish",
+   "pt": "peixe",
+   "pron": "FÍSH",
+   "say": "The fish swims in the tank.",
+   "sayPt": "O peixe nada no aquário."
+  },
+  {
+   "emoji": "🐈",
+   "en": "cat",
+   "pt": "gato",
+   "pron": "KÉT",
+   "say": "The cat sleeps on the sofa.",
+   "sayPt": "O gato dorme no sofá."
+  },
+  {
+   "emoji": "🐕",
+   "en": "dog",
+   "pt": "cachorro",
+   "pron": "DÓG",
+   "say": "The dog wants to play.",
+   "sayPt": "O cachorro quer brincar."
+  },
+  {
+   "emoji": "🦜",
+   "en": "parrot",
+   "pt": "papagaio",
+   "pron": "PÉ-rât",
+   "say": "The parrot can talk.",
+   "sayPt": "O papagaio sabe falar."
+  },
+  {
+   "emoji": "🐹",
+   "en": "hamster",
+   "pt": "hamster",
+   "pron": "RÉMS-ter",
+   "say": "My hamster is small.",
+   "sayPt": "Meu hamster é pequeno."
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "id": "hotel",
+ "name": "Hotel",
+ "emoji": "🏨",
+ "phrases": [
+  {
+   "en": "I have a reservation.",
+   "pt": "Eu tenho uma reserva.",
+   "sub": "Check-in",
+   "level": 1
+  },
+  {
+   "en": "The reservation is under my name.",
+   "pt": "A reserva está no meu nome.",
+   "sub": "Check-in",
+   "level": 2
+  },
+  {
+   "en": "I'd like to check in, please.",
+   "pt": "Eu gostaria de fazer o check-in, por favor.",
+   "sub": "Check-in",
+   "level": 1
+  },
+  {
+   "en": "What time is check-in?",
+   "pt": "Que horas é o check-in?",
+   "sub": "Check-in",
+   "level": 1
+  },
+  {
+   "en": "Is it possible to check in a little earlier?",
+   "pt": "É possível fazer o check-in um pouco mais cedo?",
+   "sub": "Check-in",
+   "level": 3
+  },
+  {
+   "en": "May I have your name, please?",
+   "pt": "Qual é o seu nome, por favor?",
+   "sub": "Check-in",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "I booked a double room for three nights.",
+   "pt": "Reservei um quarto de casal para três noites.",
+   "sub": "Check-in",
+   "level": 3
+  },
+  {
+   "en": "Do you have any rooms available tonight?",
+   "pt": "Vocês têm quartos disponíveis para hoje à noite?",
+   "sub": "Check-in",
+   "level": 2
+  },
+  {
+   "en": "How much is it per night?",
+   "pt": "Quanto é a diária?",
+   "sub": "Check-in",
+   "level": 1
+  },
+  {
+   "en": "Is breakfast included?",
+   "pt": "O café da manhã está incluído?",
+   "sub": "Check-in",
+   "level": 1
+  },
+  {
+   "en": "Can I see your ID and a credit card?",
+   "pt": "Posso ver seu documento e um cartão de crédito?",
+   "sub": "Check-in",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "What floor is my room on?",
+   "pt": "Em que andar fica meu quarto?",
+   "sub": "No quarto",
+   "level": 1
+  },
+  {
+   "en": "Here is your key card.",
+   "pt": "Aqui está o seu cartão do quarto.",
+   "sub": "No quarto",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "My key card doesn't work.",
+   "pt": "Meu cartão do quarto não funciona.",
+   "sub": "No quarto",
+   "level": 1
+  },
+  {
+   "en": "What's the Wi-Fi password?",
+   "pt": "Qual é a senha do Wi-Fi?",
+   "sub": "No quarto",
+   "level": 1
+  },
+  {
+   "en": "Is there a safe in the room?",
+   "pt": "Tem cofre no quarto?",
+   "sub": "No quarto",
+   "level": 1
+  },
+  {
+   "en": "How do I use the safe?",
+   "pt": "Como eu uso o cofre?",
+   "sub": "No quarto",
+   "level": 2
+  },
+  {
+   "en": "Could we have a room with two beds?",
+   "pt": "Podemos ficar em um quarto com duas camas?",
+   "sub": "No quarto",
+   "level": 2
+  },
+  {
+   "en": "Can I have a quieter room, please?",
+   "pt": "Pode me dar um quarto mais silencioso, por favor?",
+   "sub": "No quarto",
+   "level": 2
+  },
+  {
+   "en": "The air conditioning isn't working.",
+   "pt": "O ar-condicionado não está funcionando.",
+   "sub": "Problemas",
+   "level": 1
+  },
+  {
+   "en": "There's no hot water, and the shower is very weak.",
+   "pt": "Não tem água quente, e o chuveiro está muito fraco.",
+   "sub": "Problemas",
+   "level": 3
+  },
+  {
+   "en": "The Wi-Fi isn't working in my room.",
+   "pt": "O Wi-Fi não está funcionando no meu quarto.",
+   "sub": "Problemas",
+   "level": 2
+  },
+  {
+   "en": "Could I change rooms? It's too noisy here.",
+   "pt": "Posso trocar de quarto? Aqui está barulhento demais.",
+   "sub": "Problemas",
+   "level": 3
+  },
+  {
+   "en": "The toilet isn't flushing.",
+   "pt": "A descarga não está funcionando.",
+   "sub": "Problemas",
+   "level": 2
+  },
+  {
+   "en": "The TV doesn't turn on.",
+   "pt": "A TV não liga.",
+   "sub": "Problemas",
+   "level": 1
+  },
+  {
+   "en": "Could someone come and fix it, please?",
+   "pt": "Alguém pode vir consertar, por favor?",
+   "sub": "Problemas",
+   "level": 2
+  },
+  {
+   "en": "The room wasn't cleaned today.",
+   "pt": "O quarto não foi limpo hoje.",
+   "sub": "Problemas",
+   "level": 2
+  },
+  {
+   "en": "I'm locked out of my room.",
+   "pt": "Deixei a chave dentro e não consigo entrar no quarto.",
+   "sub": "Problemas",
+   "level": 2
+  },
+  {
+   "en": "Can I have more towels, please?",
+   "pt": "Pode me dar mais toalhas, por favor?",
+   "sub": "Serviços",
+   "level": 1
+  },
+  {
+   "en": "Can I get an extra pillow?",
+   "pt": "Pode me dar um travesseiro extra?",
+   "sub": "Serviços",
+   "level": 1
+  },
+  {
+   "en": "What time is breakfast?",
+   "pt": "Que horas é o café da manhã?",
+   "sub": "Serviços",
+   "level": 1
+  },
+  {
+   "en": "Where is breakfast served?",
+   "pt": "Onde é servido o café da manhã?",
+   "sub": "Serviços",
+   "level": 2
+  },
+  {
+   "en": "Is there a gym or a pool?",
+   "pt": "Tem academia ou piscina?",
+   "sub": "Serviços",
+   "level": 1
+  },
+  {
+   "en": "Can you call a taxi for me?",
+   "pt": "Você pode chamar um táxi para mim?",
+   "sub": "Serviços",
+   "level": 1
+  },
+  {
+   "en": "Could I have a wake-up call at seven tomorrow?",
+   "pt": "Pode me ligar às sete amanhã para me acordar?",
+   "sub": "Serviços",
+   "level": 3
+  },
+  {
+   "en": "Do you have an adapter for this plug?",
+   "pt": "Vocês têm um adaptador para esta tomada?",
+   "sub": "Serviços",
+   "level": 2
+  },
+  {
+   "en": "Is there a pharmacy near the hotel?",
+   "pt": "Tem uma farmácia perto do hotel?",
+   "sub": "Serviços",
+   "level": 2
+  },
+  {
+   "en": "Could you recommend a good restaurant nearby?",
+   "pt": "Você pode recomendar um bom restaurante aqui perto?",
+   "sub": "Serviços",
+   "level": 3
+  },
+  {
+   "en": "How do I get to the city center from here?",
+   "pt": "Como eu chego ao centro da cidade daqui?",
+   "sub": "Serviços",
+   "level": 3
+  },
+  {
+   "en": "I'd like to check out, please.",
+   "pt": "Eu gostaria de fazer o check-out, por favor.",
+   "sub": "Check-out",
+   "level": 1
+  },
+  {
+   "en": "What time is check-out?",
+   "pt": "Que horas é o check-out?",
+   "sub": "Check-out",
+   "level": 1
+  },
+  {
+   "en": "Can I have a late check-out?",
+   "pt": "Posso fazer o check-out mais tarde?",
+   "sub": "Check-out",
+   "level": 2
+  },
+  {
+   "en": "Can I leave my bags here until three?",
+   "pt": "Posso deixar minhas malas aqui até as três?",
+   "sub": "Check-out",
+   "level": 2
+  },
+  {
+   "en": "I'd like to pick up my bags, please.",
+   "pt": "Eu gostaria de pegar minhas malas, por favor.",
+   "sub": "Check-out",
+   "level": 2
+  },
+  {
+   "en": "Did you take anything from the minibar?",
+   "pt": "Você consumiu algo do frigobar?",
+   "sub": "Check-out",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "I think there's a mistake on the bill. I didn't use the minibar.",
+   "pt": "Acho que tem um erro na conta. Eu não usei o frigobar.",
+   "sub": "Check-out",
+   "level": 3
+  },
+  {
+   "en": "Can you print the receipt, please?",
+   "pt": "Pode imprimir o recibo, por favor?",
+   "sub": "Check-out",
+   "level": 1
+  },
+  {
+   "en": "How was your stay?",
+   "pt": "Como foi a sua estadia?",
+   "sub": "Check-out",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Everything was great, thank you.",
+   "pt": "Foi tudo ótimo, obrigado(a).",
+   "sub": "Check-out",
+   "level": 1
+  },
+  {
+   "en": "Could you keep my bags until my flight this evening?",
+   "pt": "Vocês podem guardar minhas malas até o meu voo hoje à noite?",
+   "sub": "Check-out",
+   "level": 3
+  }
+ ]
+}

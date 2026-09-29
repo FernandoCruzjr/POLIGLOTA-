@@ -1,0 +1,313 @@
+{
+ "id": "emergencias",
+ "name": "Emergências e saúde",
+ "emoji": "🚑",
+ "phrases": [
+  {
+   "en": "Help!",
+   "pt": "Socorro!",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "Call an ambulance!",
+   "pt": "Chame uma ambulância!",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "Call the police!",
+   "pt": "Chame a polícia!",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "It's an emergency.",
+   "pt": "É uma emergência.",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "Please help me.",
+   "pt": "Por favor, me ajude.",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "What's the emergency number here?",
+   "pt": "Qual é o número de emergência aqui?",
+   "sub": "Socorro",
+   "level": 2
+  },
+  {
+   "en": "There's been an accident.",
+   "pt": "Aconteceu um acidente.",
+   "sub": "Socorro",
+   "level": 2
+  },
+  {
+   "en": "Someone is hurt.",
+   "pt": "Tem uma pessoa machucada.",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "Is anyone here a doctor?",
+   "pt": "Alguém aqui é médico?",
+   "sub": "Socorro",
+   "level": 2
+  },
+  {
+   "en": "Stay calm, help is on the way.",
+   "pt": "Fique calmo, a ajuda está a caminho.",
+   "sub": "Socorro",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "What's your location?",
+   "pt": "Qual é a sua localização?",
+   "sub": "Socorro",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Is anyone injured?",
+   "pt": "Alguém está ferido?",
+   "sub": "Socorro",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "My child is missing.",
+   "pt": "Meu filho sumiu.",
+   "sub": "Socorro",
+   "level": 1
+  },
+  {
+   "en": "I can't find my daughter.",
+   "pt": "Não estou encontrando minha filha.",
+   "sub": "Socorro",
+   "level": 2
+  },
+  {
+   "en": "He is six years old and wearing a red shirt.",
+   "pt": "Ele tem seis anos e está de camiseta vermelha.",
+   "sub": "Socorro",
+   "level": 3
+  },
+  {
+   "en": "I don't feel well.",
+   "pt": "Não estou me sentindo bem.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I have a headache.",
+   "pt": "Estou com dor de cabeça.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I have a fever.",
+   "pt": "Estou com febre.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I have a stomach ache.",
+   "pt": "Estou com dor de barriga.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I feel dizzy.",
+   "pt": "Estou tonto.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I'm allergic to peanuts.",
+   "pt": "Sou alérgico a amendoim.",
+   "sub": "Sintomas",
+   "level": 2
+  },
+  {
+   "en": "I think I have food poisoning.",
+   "pt": "Acho que tive uma intoxicação alimentar.",
+   "sub": "Sintomas",
+   "level": 2
+  },
+  {
+   "en": "My throat hurts.",
+   "pt": "Minha garganta está doendo.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I cut my hand.",
+   "pt": "Cortei a mão.",
+   "sub": "Sintomas",
+   "level": 1
+  },
+  {
+   "en": "I think my ankle is broken.",
+   "pt": "Acho que quebrei o tornozelo.",
+   "sub": "Sintomas",
+   "level": 2
+  },
+  {
+   "en": "I've been throwing up since last night.",
+   "pt": "Estou vomitando desde ontem à noite.",
+   "sub": "Sintomas",
+   "level": 3
+  },
+  {
+   "en": "Where does it hurt?",
+   "pt": "Onde dói?",
+   "sub": "Sintomas",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "How long have you felt this way?",
+   "pt": "Há quanto tempo você está assim?",
+   "sub": "Sintomas",
+   "level": 3,
+   "hear": true
+  },
+  {
+   "en": "Where is the nearest hospital?",
+   "pt": "Onde fica o hospital mais próximo?",
+   "sub": "Farmácia e médico",
+   "level": 1
+  },
+  {
+   "en": "I need a doctor.",
+   "pt": "Preciso de um médico.",
+   "sub": "Farmácia e médico",
+   "level": 1
+  },
+  {
+   "en": "I need something for a cold.",
+   "pt": "Preciso de algo para gripe.",
+   "sub": "Farmácia e médico",
+   "level": 2
+  },
+  {
+   "en": "Do I need a prescription for this?",
+   "pt": "Preciso de receita para isto?",
+   "sub": "Farmácia e médico",
+   "level": 2
+  },
+  {
+   "en": "How many times a day should I take it?",
+   "pt": "Quantas vezes por dia devo tomar?",
+   "sub": "Farmácia e médico",
+   "level": 3
+  },
+  {
+   "en": "Is there a pharmacy open now?",
+   "pt": "Tem alguma farmácia aberta agora?",
+   "sub": "Farmácia e médico",
+   "level": 2
+  },
+  {
+   "en": "I have travel insurance.",
+   "pt": "Eu tenho seguro-viagem.",
+   "sub": "Farmácia e médico",
+   "level": 2
+  },
+  {
+   "en": "Can I have a medical report for my insurance?",
+   "pt": "Pode me dar um relatório médico para o seguro?",
+   "sub": "Farmácia e médico",
+   "level": 3
+  },
+  {
+   "en": "Do you have any allergies?",
+   "pt": "Você tem alguma alergia?",
+   "sub": "Farmácia e médico",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Is there a doctor who speaks Portuguese?",
+   "pt": "Tem algum médico que fale português?",
+   "sub": "Farmácia e médico",
+   "level": 3
+  },
+  {
+   "en": "I lost my passport.",
+   "pt": "Perdi meu passaporte.",
+   "sub": "Perdas e roubos",
+   "level": 1
+  },
+  {
+   "en": "My wallet was stolen.",
+   "pt": "Minha carteira foi roubada.",
+   "sub": "Perdas e roubos",
+   "level": 2
+  },
+  {
+   "en": "I lost my phone.",
+   "pt": "Perdi meu celular.",
+   "sub": "Perdas e roubos",
+   "level": 1
+  },
+  {
+   "en": "Someone stole my bag.",
+   "pt": "Alguém roubou minha bolsa.",
+   "sub": "Perdas e roubos",
+   "level": 2
+  },
+  {
+   "en": "Where is the police station?",
+   "pt": "Onde fica a delegacia?",
+   "sub": "Perdas e roubos",
+   "level": 2
+  },
+  {
+   "en": "I need to file a police report.",
+   "pt": "Preciso fazer um boletim de ocorrência.",
+   "sub": "Perdas e roubos",
+   "level": 3
+  },
+  {
+   "en": "I need to cancel my credit card.",
+   "pt": "Preciso cancelar meu cartão de crédito.",
+   "sub": "Perdas e roubos",
+   "level": 2
+  },
+  {
+   "en": "Is there a lost and found here?",
+   "pt": "Tem achados e perdidos aqui?",
+   "sub": "Perdas e roubos",
+   "level": 2
+  },
+  {
+   "en": "Where is the Brazilian consulate?",
+   "pt": "Onde fica o consulado brasileiro?",
+   "sub": "Embaixada e consulado",
+   "level": 2
+  },
+  {
+   "en": "I need to contact the Brazilian embassy.",
+   "pt": "Preciso entrar em contato com a embaixada do Brasil.",
+   "sub": "Embaixada e consulado",
+   "level": 3
+  },
+  {
+   "en": "I need an emergency travel document.",
+   "pt": "Preciso de um documento de viagem de emergência.",
+   "sub": "Embaixada e consulado",
+   "level": 3
+  },
+  {
+   "en": "Can I call my family in Brazil?",
+   "pt": "Posso ligar para minha família no Brasil?",
+   "sub": "Embaixada e consulado",
+   "level": 3
+  }
+ ]
+}

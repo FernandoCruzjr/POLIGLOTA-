@@ -1,0 +1,312 @@
+{
+ "id": "passeios",
+ "name": "Passeios e atrações",
+ "emoji": "🎟️",
+ "phrases": [
+  {
+   "en": "Two tickets, please.",
+   "pt": "Dois ingressos, por favor.",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "How much is a ticket?",
+   "pt": "Quanto custa o ingresso?",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "Is there a discount for kids?",
+   "pt": "Tem desconto para crianças?",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "Is there a senior discount?",
+   "pt": "Tem desconto para idosos?",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "Is there a student discount?",
+   "pt": "Tem desconto para estudantes?",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "Can I buy tickets online?",
+   "pt": "Posso comprar ingressos pela internet?",
+   "sub": "Ingressos",
+   "level": 2
+  },
+  {
+   "en": "Is entrance free?",
+   "pt": "A entrada é grátis?",
+   "sub": "Ingressos",
+   "level": 1
+  },
+  {
+   "en": "Do you have a family ticket?",
+   "pt": "Vocês têm ingresso família?",
+   "sub": "Ingressos",
+   "level": 2
+  },
+  {
+   "en": "One adult and two children, please.",
+   "pt": "Um adulto e duas crianças, por favor.",
+   "sub": "Ingressos",
+   "level": 2
+  },
+  {
+   "en": "Does this ticket include the exhibition?",
+   "pt": "Este ingresso inclui a exposição?",
+   "sub": "Ingressos",
+   "level": 2
+  },
+  {
+   "en": "Can I use this ticket tomorrow?",
+   "pt": "Posso usar este ingresso amanhã?",
+   "sub": "Ingressos",
+   "level": 2
+  },
+  {
+   "en": "Do you have any tickets left for today?",
+   "pt": "Ainda tem ingresso para hoje?",
+   "sub": "Ingressos",
+   "level": 3
+  },
+  {
+   "en": "Can I see your ticket, please?",
+   "pt": "Posso ver seu ingresso, por favor?",
+   "sub": "Ingressos",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "It's sold out.",
+   "pt": "Está esgotado.",
+   "sub": "Ingressos",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "What time does it open?",
+   "pt": "Que horas abre?",
+   "sub": "Horários",
+   "level": 1
+  },
+  {
+   "en": "What time does it close?",
+   "pt": "Que horas fecha?",
+   "sub": "Horários",
+   "level": 1
+  },
+  {
+   "en": "Is it open on Sundays?",
+   "pt": "Abre aos domingos?",
+   "sub": "Horários",
+   "level": 1
+  },
+  {
+   "en": "How long is the visit?",
+   "pt": "Quanto tempo dura a visita?",
+   "sub": "Horários",
+   "level": 2
+  },
+  {
+   "en": "When is the next show?",
+   "pt": "Quando é a próxima apresentação?",
+   "sub": "Horários",
+   "level": 2
+  },
+  {
+   "en": "What time is the last entry?",
+   "pt": "Qual é o horário da última entrada?",
+   "sub": "Horários",
+   "level": 2
+  },
+  {
+   "en": "We close in fifteen minutes.",
+   "pt": "Fechamos em quinze minutos.",
+   "sub": "Horários",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Is there a guided tour?",
+   "pt": "Tem visita guiada?",
+   "sub": "Tours e guias",
+   "level": 1
+  },
+  {
+   "en": "Do you have a tour in Portuguese?",
+   "pt": "Vocês têm um passeio em português?",
+   "sub": "Tours e guias",
+   "level": 2
+  },
+  {
+   "en": "What time does the tour start?",
+   "pt": "Que horas começa o passeio?",
+   "sub": "Tours e guias",
+   "level": 1
+  },
+  {
+   "en": "Where does the tour leave from?",
+   "pt": "De onde sai o passeio?",
+   "sub": "Tours e guias",
+   "level": 2
+  },
+  {
+   "en": "Is lunch included in the tour?",
+   "pt": "O almoço está incluído no passeio?",
+   "sub": "Tours e guias",
+   "level": 2
+  },
+  {
+   "en": "Is there an audio guide?",
+   "pt": "Tem audioguia?",
+   "sub": "Tours e guias",
+   "level": 1
+  },
+  {
+   "en": "What do you recommend we see here?",
+   "pt": "O que você recomenda que a gente veja aqui?",
+   "sub": "Tours e guias",
+   "level": 3
+  },
+  {
+   "en": "Can we book a tour for tomorrow morning?",
+   "pt": "Podemos reservar um passeio para amanhã de manhã?",
+   "sub": "Tours e guias",
+   "level": 3
+  },
+  {
+   "en": "Please stay with the group.",
+   "pt": "Por favor, fiquem com o grupo.",
+   "sub": "Tours e guias",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Is it suitable for young children?",
+   "pt": "É adequado para crianças pequenas?",
+   "sub": "Tours e guias",
+   "level": 3
+  },
+  {
+   "en": "Can you take a photo of us?",
+   "pt": "Você pode tirar uma foto nossa?",
+   "sub": "Fotos",
+   "level": 1
+  },
+  {
+   "en": "Can I take pictures here?",
+   "pt": "Posso tirar fotos aqui?",
+   "sub": "Fotos",
+   "level": 1
+  },
+  {
+   "en": "Just press this button.",
+   "pt": "É só apertar este botão.",
+   "sub": "Fotos",
+   "level": 1
+  },
+  {
+   "en": "One more, please!",
+   "pt": "Mais uma, por favor!",
+   "sub": "Fotos",
+   "level": 1
+  },
+  {
+   "en": "Can you get the building in the photo?",
+   "pt": "Você consegue pegar o prédio na foto?",
+   "sub": "Fotos",
+   "level": 3
+  },
+  {
+   "en": "No flash photography, please.",
+   "pt": "Fotos com flash não são permitidas.",
+   "sub": "Fotos",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Do you want me to take one of you too?",
+   "pt": "Quer que eu tire uma sua também?",
+   "sub": "Fotos",
+   "level": 3
+  },
+  {
+   "en": "Is this the line for tickets?",
+   "pt": "Esta é a fila dos ingressos?",
+   "sub": "Filas e parques",
+   "level": 2
+  },
+  {
+   "en": "How long is the wait?",
+   "pt": "Quanto tempo de espera?",
+   "sub": "Filas e parques",
+   "level": 1
+  },
+  {
+   "en": "Where is the entrance?",
+   "pt": "Onde fica a entrada?",
+   "sub": "Filas e parques",
+   "level": 1
+  },
+  {
+   "en": "Is there a fast pass?",
+   "pt": "Tem passe para furar fila?",
+   "sub": "Filas e parques",
+   "level": 2
+  },
+  {
+   "en": "Where can we rent beach chairs?",
+   "pt": "Onde podemos alugar cadeiras de praia?",
+   "sub": "Filas e parques",
+   "level": 2
+  },
+  {
+   "en": "Is it safe to swim here?",
+   "pt": "É seguro nadar aqui?",
+   "sub": "Filas e parques",
+   "level": 2
+  },
+  {
+   "en": "Where is the gift shop?",
+   "pt": "Onde fica a loja de lembranças?",
+   "sub": "Filas e parques",
+   "level": 2
+  },
+  {
+   "en": "What's the height limit for this ride?",
+   "pt": "Qual é a altura mínima para este brinquedo?",
+   "sub": "Filas e parques",
+   "level": 3
+  },
+  {
+   "en": "What's the weather like tomorrow?",
+   "pt": "Como vai estar o tempo amanhã?",
+   "sub": "Clima do passeio",
+   "level": 2
+  },
+  {
+   "en": "Is it going to rain today?",
+   "pt": "Vai chover hoje?",
+   "sub": "Clima do passeio",
+   "level": 2
+  },
+  {
+   "en": "Is the tour canceled if it rains?",
+   "pt": "O passeio é cancelado se chover?",
+   "sub": "Clima do passeio",
+   "level": 3
+  },
+  {
+   "en": "Should we bring a jacket?",
+   "pt": "Devemos levar um casaco?",
+   "sub": "Clima do passeio",
+   "level": 2
+  }
+ ]
+}

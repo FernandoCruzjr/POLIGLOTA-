@@ -1,0 +1,958 @@
+{
+ "items": [
+  {
+   "emoji": "🐕",
+   "en": "dog",
+   "pt": "cachorro",
+   "pron": "DÓG",
+   "say": "The dog is my friend.",
+   "sayPt": "O cachorro é meu amigo.",
+   "sound": "Woof woof!"
+  },
+  {
+   "emoji": "🐶",
+   "en": "puppy",
+   "pt": "filhote de cachorro",
+   "pron": "PÂ-pi",
+   "say": "The puppy wants to play.",
+   "sayPt": "O filhote quer brincar.",
+   "sound": "Yip yip!"
+  },
+  {
+   "emoji": "🐈",
+   "en": "cat",
+   "pt": "gato",
+   "pron": "KÉT",
+   "say": "My cat is sleeping.",
+   "sayPt": "Meu gato está dormindo.",
+   "sound": "Meow!"
+  },
+  {
+   "emoji": "🐱",
+   "en": "kitten",
+   "pt": "gatinho",
+   "pron": "KI-ten",
+   "say": "The kitten drinks milk.",
+   "sayPt": "O gatinho bebe leite.",
+   "sound": "Mew mew!"
+  },
+  {
+   "emoji": "🐭",
+   "en": "mouse",
+   "pt": "rato",
+   "pron": "MÁUS",
+   "say": "The mouse likes cheese.",
+   "sayPt": "O ratinho gosta de queijo.",
+   "sound": "Squeak!"
+  },
+  {
+   "emoji": "🐀",
+   "en": "rat",
+   "pt": "ratazana",
+   "pron": "RÉT",
+   "say": "The rat runs fast.",
+   "sayPt": "A ratazana corre rápido.",
+   "sound": "Squeak squeak!"
+  },
+  {
+   "emoji": "🐹",
+   "en": "hamster",
+   "pt": "hamster",
+   "pron": "RÉMS-ter",
+   "say": "My hamster is so small.",
+   "sayPt": "Meu hamster é tão pequeno.",
+   "sound": "Squeak!"
+  },
+  {
+   "emoji": "🐇",
+   "en": "rabbit",
+   "pt": "coelho",
+   "pron": "RÉ-bit",
+   "say": "The rabbit eats a carrot.",
+   "sayPt": "O coelho come uma cenoura.",
+   "sound": null
+  },
+  {
+   "emoji": "🐰",
+   "en": "bunny",
+   "pt": "coelhinho",
+   "pron": "BÂ-ni",
+   "say": "The bunny can hop.",
+   "sayPt": "O coelhinho sabe pular.",
+   "sound": null
+  },
+  {
+   "emoji": "🐿️",
+   "en": "squirrel",
+   "pt": "esquilo",
+   "pron": "SKUÍ-rol",
+   "say": "The squirrel climbs the tree.",
+   "sayPt": "O esquilo sobe na árvore.",
+   "sound": null
+  },
+  {
+   "emoji": "🦔",
+   "en": "hedgehog",
+   "pt": "ouriço",
+   "pron": "RÉDJ-róg",
+   "say": "The hedgehog has spikes.",
+   "sayPt": "O ouriço tem espinhos.",
+   "sound": null
+  },
+  {
+   "emoji": "🦫",
+   "en": "beaver",
+   "pt": "castor",
+   "pron": "BÍ-ver",
+   "say": "The beaver builds a dam.",
+   "sayPt": "O castor constrói uma represa.",
+   "sound": null
+  },
+  {
+   "emoji": "🦊",
+   "en": "fox",
+   "pt": "raposa",
+   "pron": "FÓKS",
+   "say": "The fox is orange.",
+   "sayPt": "A raposa é laranja.",
+   "sound": null
+  },
+  {
+   "emoji": "🐺",
+   "en": "wolf",
+   "pt": "lobo",
+   "pron": "UÓLF",
+   "say": "The wolf howls at night.",
+   "sayPt": "O lobo uiva à noite.",
+   "sound": "Awoooo!"
+  },
+  {
+   "emoji": "🐻",
+   "en": "bear",
+   "pt": "urso",
+   "pron": "BÉR",
+   "say": "The bear loves honey.",
+   "sayPt": "O urso adora mel.",
+   "sound": "Grrr!"
+  },
+  {
+   "emoji": "🐼",
+   "en": "panda",
+   "pt": "panda",
+   "pron": "PÉN-da",
+   "say": "The panda eats bamboo.",
+   "sayPt": "O panda come bambu.",
+   "sound": null
+  },
+  {
+   "emoji": "🐨",
+   "en": "koala",
+   "pt": "coala",
+   "pron": "kou-A-la",
+   "say": "The koala hugs the tree.",
+   "sayPt": "O coala abraça a árvore.",
+   "sound": null
+  },
+  {
+   "emoji": "🦥",
+   "en": "sloth",
+   "pt": "bicho-preguiça",
+   "pron": "SLÓTH",
+   "say": "The sloth moves very slowly.",
+   "sayPt": "O bicho-preguiça anda bem devagar.",
+   "sound": null
+  },
+  {
+   "emoji": "🦦",
+   "en": "otter",
+   "pt": "lontra",
+   "pron": "Ó-ter",
+   "say": "The otter swims and plays.",
+   "sayPt": "A lontra nada e brinca.",
+   "sound": null
+  },
+  {
+   "emoji": "🦨",
+   "en": "skunk",
+   "pt": "gambá",
+   "pron": "SKÂNK",
+   "say": "The skunk has a white stripe.",
+   "sayPt": "O gambá tem uma listra branca.",
+   "sound": null
+  },
+  {
+   "emoji": "🦝",
+   "en": "raccoon",
+   "pt": "guaxinim",
+   "pron": "ré-KÚN",
+   "say": "The raccoon has a mask.",
+   "sayPt": "O guaxinim tem uma máscara.",
+   "sound": null
+  },
+  {
+   "emoji": "🦡",
+   "en": "badger",
+   "pt": "texugo",
+   "pron": "BÉ-djer",
+   "say": "The badger digs a hole.",
+   "sayPt": "O texugo cava um buraco.",
+   "sound": null
+  },
+  {
+   "emoji": "🦇",
+   "en": "bat",
+   "pt": "morcego",
+   "pron": "BÉT",
+   "say": "The bat flies at night.",
+   "sayPt": "O morcego voa à noite.",
+   "sound": "Squeak!"
+  },
+  {
+   "emoji": "🐯",
+   "en": "tiger",
+   "pt": "tigre",
+   "pron": "TÁI-guer",
+   "say": "The tiger has stripes.",
+   "sayPt": "O tigre tem listras.",
+   "sound": "Roar!"
+  },
+  {
+   "emoji": "🦁",
+   "en": "lion",
+   "pt": "leão",
+   "pron": "LÁI-on",
+   "say": "The lion is the king.",
+   "sayPt": "O leão é o rei.",
+   "sound": "Roar!"
+  },
+  {
+   "emoji": "🐆",
+   "en": "leopard",
+   "pt": "leopardo",
+   "pron": "LÉ-pard",
+   "say": "The leopard has spots.",
+   "sayPt": "O leopardo tem manchas.",
+   "sound": "Grrr!"
+  },
+  {
+   "emoji": "🦓",
+   "en": "zebra",
+   "pt": "zebra",
+   "pron": "ZÍ-bra",
+   "say": "The zebra is black and white.",
+   "sayPt": "A zebra é preta e branca.",
+   "sound": null
+  },
+  {
+   "emoji": "🦒",
+   "en": "giraffe",
+   "pt": "girafa",
+   "pron": "dji-RÉF",
+   "say": "The giraffe has a long neck.",
+   "sayPt": "A girafa tem um pescoço comprido.",
+   "sound": null
+  },
+  {
+   "emoji": "🐘",
+   "en": "elephant",
+   "pt": "elefante",
+   "pron": "É-le-fant",
+   "say": "The elephant is very big.",
+   "sayPt": "O elefante é muito grande.",
+   "sound": "Toot toot!"
+  },
+  {
+   "emoji": "🦣",
+   "en": "mammoth",
+   "pt": "mamute",
+   "pron": "MÉ-moth",
+   "say": "The mammoth was very hairy.",
+   "sayPt": "O mamute era muito peludo.",
+   "sound": null
+  },
+  {
+   "emoji": "🦏",
+   "en": "rhino",
+   "pt": "rinoceronte",
+   "pron": "RÁI-nou",
+   "say": "The rhino has a horn.",
+   "sayPt": "O rinoceronte tem um chifre.",
+   "sound": null
+  },
+  {
+   "emoji": "🦛",
+   "en": "hippo",
+   "pt": "hipopótamo",
+   "pron": "RÍ-pou",
+   "say": "The hippo loves the water.",
+   "sayPt": "O hipopótamo adora a água.",
+   "sound": null
+  },
+  {
+   "emoji": "🐪",
+   "en": "camel",
+   "pt": "camelo",
+   "pron": "KÉ-mol",
+   "say": "The camel lives in the desert.",
+   "sayPt": "O camelo vive no deserto.",
+   "sound": null
+  },
+  {
+   "emoji": "🦙",
+   "en": "llama",
+   "pt": "lhama",
+   "pron": "LA-ma",
+   "say": "The llama is soft and fluffy.",
+   "sayPt": "A lhama é macia e fofinha.",
+   "sound": null
+  },
+  {
+   "emoji": "🦘",
+   "en": "kangaroo",
+   "pt": "canguru",
+   "pron": "ken-ga-RÚ",
+   "say": "The kangaroo jumps high.",
+   "sayPt": "O canguru pula alto.",
+   "sound": null
+  },
+  {
+   "emoji": "🦌",
+   "en": "deer",
+   "pt": "veado",
+   "pron": "DÍR",
+   "say": "The deer runs in the forest.",
+   "sayPt": "O veado corre na floresta.",
+   "sound": null
+  },
+  {
+   "emoji": "🦬",
+   "en": "bison",
+   "pt": "bisão",
+   "pron": "BÁI-son",
+   "say": "The bison is strong.",
+   "sayPt": "O bisão é forte.",
+   "sound": null
+  },
+  {
+   "emoji": "🐃",
+   "en": "buffalo",
+   "pt": "búfalo",
+   "pron": "BÂ-fa-lou",
+   "say": "The buffalo is in the mud.",
+   "sayPt": "O búfalo está na lama.",
+   "sound": null
+  },
+  {
+   "emoji": "🐂",
+   "en": "ox",
+   "pt": "boi",
+   "pron": "ÓKS",
+   "say": "The ox pulls the cart.",
+   "sayPt": "O boi puxa a carroça.",
+   "sound": "Moo!"
+  },
+  {
+   "emoji": "🐮",
+   "en": "cow",
+   "pt": "vaca",
+   "pron": "KÁU",
+   "say": "The cow gives us milk.",
+   "sayPt": "A vaca nos dá leite.",
+   "sound": "Moo!"
+  },
+  {
+   "emoji": "🐷",
+   "en": "pig",
+   "pt": "porco",
+   "pron": "PÍG",
+   "say": "The pig is pink.",
+   "sayPt": "O porco é cor-de-rosa.",
+   "sound": "Oink oink!"
+  },
+  {
+   "emoji": "🐗",
+   "en": "boar",
+   "pt": "javali",
+   "pron": "BÓR",
+   "say": "The boar lives in the woods.",
+   "sayPt": "O javali vive no mato.",
+   "sound": "Oink!"
+  },
+  {
+   "emoji": "🐑",
+   "en": "sheep",
+   "pt": "ovelha",
+   "pron": "XÍP",
+   "say": "The sheep has soft wool.",
+   "sayPt": "A ovelha tem lã macia.",
+   "sound": "Baa!"
+  },
+  {
+   "emoji": "🐏",
+   "en": "ram",
+   "pt": "carneiro",
+   "pron": "RÉM",
+   "say": "The ram has big horns.",
+   "sayPt": "O carneiro tem chifres grandes.",
+   "sound": "Baa!"
+  },
+  {
+   "emoji": "🐐",
+   "en": "goat",
+   "pt": "cabra",
+   "pron": "GÔUT",
+   "say": "The goat eats grass.",
+   "sayPt": "A cabra come capim.",
+   "sound": "Maa!"
+  },
+  {
+   "emoji": "🐎",
+   "en": "horse",
+   "pt": "cavalo",
+   "pron": "RÓRS",
+   "say": "I can ride a horse.",
+   "sayPt": "Eu sei andar a cavalo.",
+   "sound": "Neigh!"
+  },
+  {
+   "emoji": "🐴",
+   "en": "pony",
+   "pt": "pônei",
+   "pron": "PÔU-ni",
+   "say": "The pony is little and cute.",
+   "sayPt": "O pônei é pequeno e fofo.",
+   "sound": "Neigh!"
+  },
+  {
+   "emoji": "🦄",
+   "en": "unicorn",
+   "pt": "unicórnio",
+   "pron": "IU-ni-korn",
+   "say": "The unicorn is magic.",
+   "sayPt": "O unicórnio é mágico.",
+   "sound": null
+  },
+  {
+   "emoji": "🐉",
+   "en": "dragon",
+   "pt": "dragão",
+   "pron": "DRÉ-gon",
+   "say": "The dragon can fly.",
+   "sayPt": "O dragão sabe voar.",
+   "sound": "Roar!"
+  },
+  {
+   "emoji": "🐵",
+   "en": "monkey",
+   "pt": "macaco",
+   "pron": "MÂN-ki",
+   "say": "The monkey eats a banana.",
+   "sayPt": "O macaco come uma banana.",
+   "sound": "Ooh ooh ah ah!"
+  },
+  {
+   "emoji": "🦍",
+   "en": "gorilla",
+   "pt": "gorila",
+   "pron": "go-RI-la",
+   "say": "The gorilla is very strong.",
+   "sayPt": "O gorila é muito forte.",
+   "sound": "Ooh ooh!"
+  },
+  {
+   "emoji": "🦧",
+   "en": "orangutan",
+   "pt": "orangotango",
+   "pron": "o-RÉN-gu-ten",
+   "say": "The orangutan has orange hair.",
+   "sayPt": "O orangotango tem pelo laranja.",
+   "sound": null
+  },
+  {
+   "emoji": "🐩",
+   "en": "poodle",
+   "pt": "poodle",
+   "pron": "PÚ-dol",
+   "say": "The poodle is fluffy.",
+   "sayPt": "O poodle é fofinho.",
+   "sound": "Woof!"
+  },
+  {
+   "emoji": "🦮",
+   "en": "guide dog",
+   "pt": "cão-guia",
+   "pron": "GÁID dóg",
+   "say": "The guide dog helps people.",
+   "sayPt": "O cão-guia ajuda as pessoas.",
+   "sound": "Woof!"
+  },
+  {
+   "emoji": "🐔",
+   "en": "chicken",
+   "pt": "galinha",
+   "pron": "TCHI-ken",
+   "say": "The chicken lays eggs.",
+   "sayPt": "A galinha bota ovos.",
+   "sound": "Cluck cluck!"
+  },
+  {
+   "emoji": "🐓",
+   "en": "rooster",
+   "pt": "galo",
+   "pron": "RÚS-ter",
+   "say": "The rooster wakes me up.",
+   "sayPt": "O galo me acorda.",
+   "sound": "Cock-a-doodle-doo!"
+  },
+  {
+   "emoji": "🐤",
+   "en": "chick",
+   "pt": "pintinho",
+   "pron": "TCHÍK",
+   "say": "The chick is yellow.",
+   "sayPt": "O pintinho é amarelo.",
+   "sound": "Cheep cheep!"
+  },
+  {
+   "emoji": "🐥",
+   "en": "baby chick",
+   "pt": "pintinho bebê",
+   "pron": "BÊI-bi tchík",
+   "say": "The baby chick is so fluffy.",
+   "sayPt": "O pintinho bebê é bem fofinho.",
+   "sound": "Peep peep!"
+  },
+  {
+   "emoji": "🧜",
+   "en": "mermaid",
+   "pt": "sereia",
+   "pron": "MÂR-meid",
+   "say": "The mermaid swims in the sea.",
+   "sayPt": "A sereia nada no mar.",
+   "sound": null
+  },
+  {
+   "emoji": "🐦",
+   "en": "bird",
+   "pt": "pássaro",
+   "pron": "BÂRD",
+   "say": "The bird sings in the morning.",
+   "sayPt": "O pássaro canta de manhã.",
+   "sound": "Tweet tweet!"
+  },
+  {
+   "emoji": "🐧",
+   "en": "penguin",
+   "pt": "pinguim",
+   "pron": "PÉN-guin",
+   "say": "The penguin likes the cold.",
+   "sayPt": "O pinguim gosta do frio.",
+   "sound": null
+  },
+  {
+   "emoji": "🕊️",
+   "en": "dove",
+   "pt": "pomba",
+   "pron": "DÂV",
+   "say": "The white dove flies high.",
+   "sayPt": "A pomba branca voa alto.",
+   "sound": "Coo coo!"
+  },
+  {
+   "emoji": "🦅",
+   "en": "eagle",
+   "pt": "águia",
+   "pron": "Í-gol",
+   "say": "The eagle has big wings.",
+   "sayPt": "A águia tem asas grandes.",
+   "sound": "Screech!"
+  },
+  {
+   "emoji": "🦆",
+   "en": "duck",
+   "pt": "pato",
+   "pron": "DÂK",
+   "say": "The duck swims in the lake.",
+   "sayPt": "O pato nada no lago.",
+   "sound": "Quack quack!"
+  },
+  {
+   "emoji": "🦢",
+   "en": "swan",
+   "pt": "cisne",
+   "pron": "SUÓN",
+   "say": "The swan is white and pretty.",
+   "sayPt": "O cisne é branco e bonito.",
+   "sound": null
+  },
+  {
+   "emoji": "🦉",
+   "en": "owl",
+   "pt": "coruja",
+   "pron": "ÁUL",
+   "say": "The owl is awake at night.",
+   "sayPt": "A coruja fica acordada à noite.",
+   "sound": "Hoo hoo!"
+  },
+  {
+   "emoji": "🦩",
+   "en": "flamingo",
+   "pt": "flamingo",
+   "pron": "fla-MÍN-gou",
+   "say": "The flamingo stands on one leg.",
+   "sayPt": "O flamingo fica numa perna só.",
+   "sound": null
+  },
+  {
+   "emoji": "🦚",
+   "en": "peacock",
+   "pt": "pavão",
+   "pron": "PÍ-kók",
+   "say": "The peacock has pretty feathers.",
+   "sayPt": "O pavão tem penas bonitas.",
+   "sound": null
+  },
+  {
+   "emoji": "🦜",
+   "en": "parrot",
+   "pt": "papagaio",
+   "pron": "PÉ-rot",
+   "say": "The parrot can talk.",
+   "sayPt": "O papagaio sabe falar.",
+   "sound": "Squawk!"
+  },
+  {
+   "emoji": "🦃",
+   "en": "turkey",
+   "pt": "peru",
+   "pron": "TÂR-ki",
+   "say": "The turkey lives on the farm.",
+   "sayPt": "O peru vive na fazenda.",
+   "sound": "Gobble gobble!"
+  },
+  {
+   "emoji": "🦤",
+   "en": "dodo",
+   "pt": "dodô",
+   "pron": "DÔU-dou",
+   "say": "The dodo could not fly.",
+   "sayPt": "O dodô não sabia voar.",
+   "sound": null
+  },
+  {
+   "emoji": "🐸",
+   "en": "frog",
+   "pt": "sapo",
+   "pron": "FRÓG",
+   "say": "The frog jumps into the pond.",
+   "sayPt": "O sapo pula na lagoa.",
+   "sound": "Ribbit!"
+  },
+  {
+   "emoji": "🐊",
+   "en": "crocodile",
+   "pt": "crocodilo",
+   "pron": "KRÓ-ko-dail",
+   "say": "The crocodile has big teeth.",
+   "sayPt": "O crocodilo tem dentes grandes.",
+   "sound": null
+  },
+  {
+   "emoji": "🐢",
+   "en": "turtle",
+   "pt": "tartaruga",
+   "pron": "TÂR-tol",
+   "say": "The turtle walks slowly.",
+   "sayPt": "A tartaruga anda devagar.",
+   "sound": null
+  },
+  {
+   "emoji": "🦎",
+   "en": "lizard",
+   "pt": "lagarto",
+   "pron": "LI-zard",
+   "say": "The lizard sits in the sun.",
+   "sayPt": "O lagarto fica no sol.",
+   "sound": null
+  },
+  {
+   "emoji": "🐍",
+   "en": "snake",
+   "pt": "cobra",
+   "pron": "SNÊIK",
+   "say": "The snake is long.",
+   "sayPt": "A cobra é comprida.",
+   "sound": "Hiss!"
+  },
+  {
+   "emoji": "🦕",
+   "en": "dinosaur",
+   "pt": "dinossauro",
+   "pron": "DÁI-no-sór",
+   "say": "I love my toy dinosaur.",
+   "sayPt": "Eu amo meu dinossauro de brinquedo.",
+   "sound": "Roar!"
+  },
+  {
+   "emoji": "🦖",
+   "en": "t-rex",
+   "pt": "tiranossauro",
+   "pron": "TÍ-réks",
+   "say": "The T-rex has tiny arms.",
+   "sayPt": "O tiranossauro tem bracinhos.",
+   "sound": "ROAR!"
+  },
+  {
+   "emoji": "🐳",
+   "en": "whale",
+   "pt": "baleia",
+   "pron": "UÊIL",
+   "say": "The whale is huge.",
+   "sayPt": "A baleia é enorme.",
+   "sound": null
+  },
+  {
+   "emoji": "🐋",
+   "en": "blue whale",
+   "pt": "baleia-azul",
+   "pron": "BLÚ uêil",
+   "say": "The blue whale swims deep.",
+   "sayPt": "A baleia-azul nada no fundo.",
+   "sound": null
+  },
+  {
+   "emoji": "🐬",
+   "en": "dolphin",
+   "pt": "golfinho",
+   "pron": "DÓL-fin",
+   "say": "The dolphin jumps and plays.",
+   "sayPt": "O golfinho pula e brinca.",
+   "sound": "Eee eee!"
+  },
+  {
+   "emoji": "🦭",
+   "en": "seal",
+   "pt": "foca",
+   "pron": "SÍL",
+   "say": "The seal claps its flippers.",
+   "sayPt": "A foca bate as nadadeiras.",
+   "sound": "Arf arf!"
+  },
+  {
+   "emoji": "🦈",
+   "en": "shark",
+   "pt": "tubarão",
+   "pron": "XÁRK",
+   "say": "The shark swims fast.",
+   "sayPt": "O tubarão nada rápido.",
+   "sound": null
+  },
+  {
+   "emoji": "🐟",
+   "en": "fish",
+   "pt": "peixe",
+   "pron": "FÍX",
+   "say": "The fish lives in water.",
+   "sayPt": "O peixe vive na água.",
+   "sound": null
+  },
+  {
+   "emoji": "🐠",
+   "en": "tropical fish",
+   "pt": "peixe tropical",
+   "pron": "TRÓ-pi-kol fix",
+   "say": "The tropical fish is colorful.",
+   "sayPt": "O peixe tropical é colorido.",
+   "sound": null
+  },
+  {
+   "emoji": "🐡",
+   "en": "blowfish",
+   "pt": "baiacu",
+   "pron": "BLÔU-fix",
+   "say": "The blowfish gets round.",
+   "sayPt": "O baiacu fica redondo.",
+   "sound": null
+  },
+  {
+   "emoji": "🐙",
+   "en": "octopus",
+   "pt": "polvo",
+   "pron": "ÓK-to-pus",
+   "say": "The octopus has eight arms.",
+   "sayPt": "O polvo tem oito braços.",
+   "sound": null
+  },
+  {
+   "emoji": "🦑",
+   "en": "squid",
+   "pt": "lula",
+   "pron": "SKUÍD",
+   "say": "The squid lives in the sea.",
+   "sayPt": "A lula vive no mar.",
+   "sound": null
+  },
+  {
+   "emoji": "🦐",
+   "en": "shrimp",
+   "pt": "camarão",
+   "pron": "XRÍMP",
+   "say": "The shrimp is small and pink.",
+   "sayPt": "O camarão é pequeno e rosa.",
+   "sound": null
+  },
+  {
+   "emoji": "🦞",
+   "en": "lobster",
+   "pt": "lagosta",
+   "pron": "LÓBS-ter",
+   "say": "The lobster is red.",
+   "sayPt": "A lagosta é vermelha.",
+   "sound": null
+  },
+  {
+   "emoji": "🦀",
+   "en": "crab",
+   "pt": "caranguejo",
+   "pron": "KRÉB",
+   "say": "The crab walks sideways.",
+   "sayPt": "O caranguejo anda de lado.",
+   "sound": null
+  },
+  {
+   "emoji": "🦪",
+   "en": "oyster",
+   "pt": "ostra",
+   "pron": "ÓIS-ter",
+   "say": "The oyster has a pearl.",
+   "sayPt": "A ostra tem uma pérola.",
+   "sound": null
+  },
+  {
+   "emoji": "🐌",
+   "en": "snail",
+   "pt": "caracol",
+   "pron": "SNÊIL",
+   "say": "The snail carries its house.",
+   "sayPt": "O caracol carrega sua casa.",
+   "sound": null
+  },
+  {
+   "emoji": "🦋",
+   "en": "butterfly",
+   "pt": "borboleta",
+   "pron": "BÂ-ter-flai",
+   "say": "The butterfly is beautiful.",
+   "sayPt": "A borboleta é linda.",
+   "sound": null
+  },
+  {
+   "emoji": "🐛",
+   "en": "caterpillar",
+   "pt": "lagarta",
+   "pron": "KÉ-ter-pi-lar",
+   "say": "The caterpillar eats a leaf.",
+   "sayPt": "A lagarta come uma folha.",
+   "sound": null
+  },
+  {
+   "emoji": "🐜",
+   "en": "ant",
+   "pt": "formiga",
+   "pron": "ÉNT",
+   "say": "The ant is very busy.",
+   "sayPt": "A formiga é muito ocupada.",
+   "sound": null
+  },
+  {
+   "emoji": "🐝",
+   "en": "bee",
+   "pt": "abelha",
+   "pron": "BÍ",
+   "say": "The bee makes honey.",
+   "sayPt": "A abelha faz mel.",
+   "sound": "Buzz!"
+  },
+  {
+   "emoji": "🪲",
+   "en": "beetle",
+   "pt": "besouro",
+   "pron": "BÍ-tol",
+   "say": "The beetle is shiny.",
+   "sayPt": "O besouro é brilhante.",
+   "sound": null
+  },
+  {
+   "emoji": "🐞",
+   "en": "ladybug",
+   "pt": "joaninha",
+   "pron": "LÊI-di-bâg",
+   "say": "The ladybug has black dots.",
+   "sayPt": "A joaninha tem bolinhas pretas.",
+   "sound": null
+  },
+  {
+   "emoji": "🦗",
+   "en": "cricket",
+   "pt": "grilo",
+   "pron": "KRI-ket",
+   "say": "The cricket sings at night.",
+   "sayPt": "O grilo canta à noite.",
+   "sound": "Chirp chirp!"
+  },
+  {
+   "emoji": "🪳",
+   "en": "cockroach",
+   "pt": "barata",
+   "pron": "KÓK-routch",
+   "say": "The cockroach runs away.",
+   "sayPt": "A barata sai correndo.",
+   "sound": null
+  },
+  {
+   "emoji": "🕷️",
+   "en": "spider",
+   "pt": "aranha",
+   "pron": "SPÁI-der",
+   "say": "The spider makes a web.",
+   "sayPt": "A aranha faz uma teia.",
+   "sound": null
+  },
+  {
+   "emoji": "🦂",
+   "en": "scorpion",
+   "pt": "escorpião",
+   "pron": "SKÓR-pi-on",
+   "say": "The scorpion has a tail.",
+   "sayPt": "O escorpião tem um rabo.",
+   "sound": null
+  },
+  {
+   "emoji": "🦟",
+   "en": "mosquito",
+   "pt": "mosquito",
+   "pron": "mos-KÍ-tou",
+   "say": "The mosquito is tiny.",
+   "sayPt": "O mosquito é pequenininho.",
+   "sound": "Bzzz!"
+  },
+  {
+   "emoji": "🪰",
+   "en": "fly",
+   "pt": "mosca",
+   "pron": "FLÁI",
+   "say": "The fly is on the window.",
+   "sayPt": "A mosca está na janela.",
+   "sound": "Buzz!"
+  },
+  {
+   "emoji": "🪱",
+   "en": "worm",
+   "pt": "minhoca",
+   "pron": "UÂRM",
+   "say": "The worm lives in the dirt.",
+   "sayPt": "A minhoca vive na terra.",
+   "sound": null
+  }
+ ]
+}

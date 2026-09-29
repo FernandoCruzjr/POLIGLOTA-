@@ -33,18 +33,39 @@ const seenOf = (cat) => new Set(store.getFlag(seenKey(cat), []));
 function picture(cat, it, big = false) {
   if (cat.kind === 'color') return `<span class="kd-swatch ${it.en === 'white' ? 'light' : ''}" style="background:${it.hex}" aria-hidden="true"></span>`;
   if (cat.kind === 'number') {
-    const dots = it.n > 0 && it.n <= 10 ? `<span class="kd-dots">${'<i></i>'.repeat(it.n)}</span>` : '';
-    return `<span class="kd-num" aria-hidden="true"><b>${it.n}</b>${big ? dots : ''}</span>`;
+    const dots = !it.label && it.n > 0 && it.n <= 10 ? `<span class="kd-dots">${'<i></i>'.repeat(it.n)}</span>` : '';
+    const txt = it.label || String(it.n);
+    return `<span class="kd-num ${txt.length > 3 ? 'long' : ''}" aria-hidden="true"><b>${esc(txt)}</b>${big ? dots : ''}</span>`;
   }
   return `<span class="kd-emoji" aria-hidden="true">${it.emoji}</span>`;
 }
 
 // Fala o item: nome, depois a frase (o som do bicho ou onde fica o objeto).
 function sayItem(cat, it, slow = false) {
-  if (cat.kind === 'animal') return speak(`${it.en}! ... ${it.say}`, { slow });
-  if (cat.kind === 'object') return speak(`${it.en}! ... ${it.say}`, { slow });
-  return speak(`${it.en}! ... ${it.say && it.say !== it.en ? it.say : ''}`, { slow });
+  const extra = it.say && it.say !== it.en ? it.say : '';
+  if (cat.kind === 'animal' && it.sound) return speak(`${it.en}! ... ${it.sound} ... ${extra}`, { slow });
+  return speak(`${it.en}! ... ${extra}`, { slow });
 }
+
+// Grupos para achar mais fácil nas categorias grandes.
+function groupsOf(cat) {
+  if (cat.kind === 'number') {
+    return [
+      ['0 a 20', (it) => !it.label && it.n <= 20], ['21 a 100', (it) => !it.label && it.n > 20 && it.n <= 100],
+      ['Centenas e mil', (it) => it.n > 100 && !it.ordinal], ['Ordinais', (it) => it.ordinal], ['Frações', (it) => it.n === null],
+    ];
+  }
+  if (cat.kind === 'color') return [['Cores', (it) => it.hex], ['Coisas coloridas', (it) => it.emoji]];
+  return null;
+}
+
+// Nos jogos, prefere as palavras que você já viu nos cartões.
+function gamePool(cat) {
+  const seen = seenOf(cat);
+  const known = cat.items.filter((it) => seen.has(it.id));
+  return known.length >= 8 ? known : [...known, ...cat.items.filter((it) => !seen.has(it.id)).slice(0, 24 - known.length)];
+}
+const PAGE = 24;
 
 const TIPS = {
   animal: 'Imite o som junto com o app! Rir enquanto aprende faz a palavra grudar na memória.',
@@ -111,41 +132,74 @@ async function renderCards(root, catId) {
   const cat = cats.find((c) => c.id === catId);
   if (!cat) { location.hash = '#/kids'; return null; }
   const seen = seenOf(cat);
+  const groups = groupsOf(cat);
   let slow = false;
+  let group = 0;
+  let query = '';
+  let shown = PAGE;
+
+  const list = () => {
+    let l = cat.items;
+    if (groups) l = l.filter(groups[group][1]);
+    if (query) {
+      const q = query.toLowerCase();
+      l = cat.items.filter((it) => it.en.toLowerCase().includes(q) || it.pt.toLowerCase().includes(q));
+    }
+    return l;
+  };
+  const countText = () => `${seen.size} de ${cat.items.length} cartões vistos${seen.size === cat.items.length ? ' 🎉' : ''}`;
+
+  function cardsHtml() {
+    const l = list();
+    return `${l.slice(0, shown).map((it) => `
+      <button type="button" class="kd-card ${seen.has(it.id) ? 'seen' : ''}" data-id="${it.id}" style="--c:${cat.color}" aria-label="${esc(it.en)}, ${esc(it.pt)}">
+        ${picture(cat, it, true)}
+        <span class="kd-word" lang="en">${esc(it.en)}</span>
+        <span class="kd-back">
+          <span class="kd-pron">🗣️ ${esc(it.pron)}</span>
+          <span class="kd-pt">🇧🇷 ${esc(it.pt)}</span>
+          ${it.say && it.say !== it.en ? `<span class="kd-say" lang="en">“${esc(it.say)}”</span>${it.sayPt ? `<span class="kd-saypt">${esc(it.sayPt)}</span>` : ''}` : ''}
+        </span>
+      </button>`).join('')}
+      ${l.length > shown ? `<button type="button" class="btn btn-soft kd-more" data-more>Mostrar mais (${l.length - shown})</button>` : ''}
+      ${!l.length ? '<p class="muted">Nenhuma palavra encontrada.</p>' : ''}`;
+  }
 
   root.innerHTML = `
     <div class="kids">
       <a class="back-link" href="#/kids">${icon('back', 18)} Área Kids</a>
       <header class="kd-cat-head" style="--c:${cat.color}">
         <span class="kd-cat-emoji" aria-hidden="true">${cat.emoji}</span>
-        <div><h1>${esc(cat.name)} <span lang="en">· ${esc(cat.nameEn)}</span></h1><p class="small">Toque em cada cartão para ver e ouvir.</p></div>
+        <div><h1>${esc(cat.name)} <span lang="en">· ${esc(cat.nameEn)}</span></h1><p class="small">${cat.items.length} palavras. Toque em cada cartão para ver e ouvir; toque de novo para a tradução falada.</p></div>
       </header>
       <p class="kd-tip">💡 ${esc(TIPS[cat.kind])}</p>
       <div class="kd-actions">
         <a class="btn btn-primary" href="#/kids/${cat.id}/ouvir">👂 Ouça e toque</a>
-        <a class="btn btn-soft" href="#/kids/${cat.id}/memoria">🃏 Jogo da memória</a>
+        <a class="btn btn-soft" href="#/kids/${cat.id}/memoria">🧠 Jogo da memória</a>
         <button type="button" class="btn btn-ghost" data-slow aria-pressed="false">🐢 Devagar</button>
       </div>
-      <p class="muted small" data-count>${seen.size} de ${cat.items.length} cartões vistos</p>
-      <div class="kd-cards">
-        ${cat.items.map((it, i) => `
-          <button type="button" class="kd-card ${seen.has(it.id) ? 'seen' : ''}" data-i="${i}" style="--c:${cat.color}" aria-label="${esc(it.en)}, ${esc(it.pt)}">
-            ${picture(cat, it, true)}
-            <span class="kd-word" lang="en">${esc(it.en)}</span>
-            <span class="kd-back">
-              <span class="kd-pron">🗣️ ${esc(it.pron)}</span>
-              <span class="kd-pt">🇧🇷 ${esc(it.pt)}</span>
-            </span>
-          </button>`).join('')}
-      </div>
+      <label class="kd-search"><span class="sr-only">Procurar palavra</span><input type="search" data-q placeholder="🔎 Procurar em inglês ou português"></label>
+      ${groups ? `<div class="kd-groups" role="tablist">${groups.map(([n], i) => `<button type="button" class="topic-chip ${i === 0 ? 'on' : ''}" data-g="${i}" role="tab" aria-selected="${i === 0}">${esc(n)}</button>`).join('')}</div>` : ''}
+      <p class="muted small" data-count>${countText()}</p>
+      <div class="kd-cards" data-cards>${cardsHtml()}</div>
     </div>`;
+  const cardsBox = root.querySelector('[data-cards]');
+  const redraw = () => { cardsBox.innerHTML = cardsHtml(); };
 
   function onClick(e) {
     const s = e.target.closest('[data-slow]');
     if (s) { slow = !slow; s.setAttribute('aria-pressed', String(slow)); s.classList.toggle('on', slow); toast(slow ? 'Voz devagar ligada 🐢' : 'Voz normal'); return; }
-    const card = e.target.closest('[data-i]');
+    if (e.target.closest('[data-more]')) { shown += PAGE; redraw(); return; }
+    const g = e.target.closest('[data-g]');
+    if (g) {
+      group = Number(g.dataset.g); shown = PAGE;
+      root.querySelectorAll('[data-g]').forEach((b) => { const on = b === g; b.classList.toggle('on', on); b.setAttribute('aria-selected', String(on)); });
+      redraw();
+      return;
+    }
+    const card = e.target.closest('[data-id]');
     if (!card) return;
-    const it = cat.items[Number(card.dataset.i)];
+    const it = cat.items.find((x) => x.id === card.dataset.id);
     const wasOpen = card.classList.contains('open');
     root.querySelectorAll('.kd-card.open').forEach((c) => c.classList.remove('open'));
     card.classList.remove('bounce'); void card.offsetWidth; card.classList.add('bounce');
@@ -155,12 +209,17 @@ async function renderCards(root, catId) {
     if (!seen.has(it.id)) {
       seen.add(it.id);
       store.setFlag(seenKey(cat), [...seen]);
-      root.querySelector('[data-count]').textContent = `${seen.size} de ${cat.items.length} cartões vistos${seen.size === cat.items.length ? ' 🎉' : ''} · toque de novo para ouvir a tradução`;
-      if (seen.size === cat.items.length) { store.addCoins(3); toast('Você viu todos os cartões! +3 🪙'); }
+      root.querySelector('[data-count]').textContent = countText();
+      if (seen.size % 25 === 0) { store.addCoins(3); toast(`${seen.size} cartões vistos! +3 🪙`); }
     }
   }
+  function onInput(e) {
+    if (!e.target.matches('[data-q]')) return;
+    query = e.target.value.trim(); shown = PAGE; redraw();
+  }
   root.addEventListener('click', onClick);
-  return () => { root.removeEventListener('click', onClick); stopSpeech(); };
+  root.addEventListener('input', onInput);
+  return () => { root.removeEventListener('click', onClick); root.removeEventListener('input', onInput); stopSpeech(); };
 }
 
 // ---------- Jogo: ouça e toque ----------
@@ -171,7 +230,8 @@ async function renderListen(root, catId) {
   const cat = cats.find((c) => c.id === catId);
   if (!cat) { location.hash = '#/kids'; return null; }
   const ROUNDS = Math.min(8, cat.items.length);
-  const targets = shuffle(cat.items).slice(0, ROUNDS);
+  const pool = gamePool(cat);
+  const targets = shuffle(pool).slice(0, ROUNDS);
   const startedAt = Date.now();
   let r = 0;
   let firstTry = true;
@@ -181,7 +241,7 @@ async function renderListen(root, catId) {
 
   function round() {
     const t = targets[r];
-    const opts = shuffle([t, ...shuffle(cat.items.filter((x) => x !== t)).slice(0, 3)]);
+    const opts = shuffle([t, ...shuffle((pool.length >= 4 ? pool : cat.items).filter((x) => x !== t && x.en !== t.en)).slice(0, 3)]);
     firstTry = true;
     locked = false;
     root.innerHTML = `
@@ -195,7 +255,7 @@ async function renderListen(root, catId) {
           <div>
             <p class="kd-ask-q">Onde está…?</p>
             <button type="button" class="btn btn-primary btn-lg kd-say" data-say>🔊 Ouvir de novo</button>
-            ${cat.kind === 'animal' ? '<button type="button" class="btn btn-ghost" data-hint>🐾 Dica: o som</button>' : ''}
+            ${cat.kind === 'animal' && t.sound ? '<button type="button" class="btn btn-ghost" data-hint>🐾 Dica: o som</button>' : ''}
           </div>
         </div>
         <div class="kd-pick">
@@ -241,7 +301,7 @@ async function renderListen(root, catId) {
         <div class="reward-row"><div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>${coinReward(coins)}</div>
         <div class="stack">
           <a class="btn btn-primary btn-lg" href="#/kids/${cat.id}/ouvir?${Date.now()}">Jogar de novo</a>
-          <a class="btn btn-soft" href="#/kids/${cat.id}/memoria">🃏 Jogo da memória</a>
+          <a class="btn btn-soft" href="#/kids/${cat.id}/memoria">🧠 Jogo da memória</a>
           <a class="btn btn-ghost" href="#/kids/${cat.id}">Ver os cartões</a>
         </div>
       </div>`;
@@ -267,7 +327,7 @@ async function renderMemory(root, catId) {
   const cat = cats.find((c) => c.id === catId);
   if (!cat) { location.hash = '#/kids'; return null; }
   const PAIRS = 6;
-  const chosen = shuffle(cat.items).slice(0, PAIRS);
+  const chosen = shuffle(gamePool(cat)).slice(0, PAIRS);
   const deck = shuffle(chosen.flatMap((it) => [{ it, face: 'pic' }, { it, face: 'word' }]));
   const startedAt = Date.now();
   let open = [];
@@ -280,7 +340,7 @@ async function renderMemory(root, catId) {
     <div class="kids lesson">
       <div class="lesson-top">
         <a class="icon-btn" href="#/kids/${cat.id}" aria-label="Sair do jogo">${icon('close')}</a>
-        <p class="eyebrow grow center">🃏 Memória · ${esc(cat.name)}</p>
+        <p class="eyebrow grow center">🧠 Memória · ${esc(cat.name)}</p>
         <span class="muted small" data-moves>0 jogadas</span>
       </div>
       <p class="muted small center">Ache os pares: o desenho e o nome em inglês.</p>
@@ -328,7 +388,7 @@ async function renderMemory(root, catId) {
     if (stars > store.getFlag(bestKey(cat, 'memoria'), 0)) store.setFlag(bestKey(cat, 'memoria'), stars);
     root.innerHTML = `
       <div class="kids lesson done-screen">
-        <div class="kd-confetti" aria-hidden="true">${'🃏⭐🎉🌈'.repeat(3)}</div>
+        <div class="kd-confetti" aria-hidden="true">${'🧠⭐🎉🌈'.repeat(3)}</div>
         <div class="stars-row" aria-label="${stars} de 3 estrelas">${[1, 2, 3].map((s) => `<span class="star ${s <= stars ? 'on' : ''}" style="animation-delay:${s * 0.15}s">⭐</span>`).join('')}</div>
         <h1>Você achou todos os pares!</h1>
         <p class="score-big"><strong>${moves}</strong> jogadas</p>

@@ -30,12 +30,12 @@ const WEEK = [
   { d: 'Sex', name: 'Sexta', theme: 'Escrita com correção de IA', blocks: [
     { min: 10, icon: '✈️', title: 'História de viagem', text: 'Um capítulo novo ou o chefão, se já liberou.', href: '#/viagem', cta: 'Viajar' },
     { min: 10, icon: '✍️', title: 'Escrita ativa com IA', text: 'Escreva 5 frases sobre a sua viagem dos sonhos e peça correção (use o modelo de pedido em "Imersão ativa").', href: '#/plano#ativa', cta: 'Ver o modelo' },
-    { min: 10, icon: '🗣️', title: 'Treino de fala: informações', text: 'Perguntar caminho, transporte e preços.', href: '#/fala/informacoes', cta: 'Treinar' },
+    { min: 10, icon: '🗣️', title: 'Treino de fala: informações', text: 'Perguntar caminho, transporte e preços.', href: '#/fala/direcoes', cta: 'Treinar' },
   ] },
   { d: 'Sáb', name: 'Sábado', theme: 'Roleplay e família', blocks: [
     { min: 15, icon: '🎭', title: 'Roleplay de viagem', text: 'Simule uma situação real com a IA (modelo em "Imersão ativa") ou com alguém da família: um é o atendente, o outro o turista.', href: '#/plano#ativa', cta: 'Ver o roleplay' },
     { min: 10, icon: '👥', title: 'Sala de quiz com a família', text: 'Uma partida ao vivo. Rir junto tira a vergonha!', href: '#/sala', cta: 'Abrir sala' },
-    { min: 5, icon: '🛡️', title: 'Frases-escudo', text: 'Repita as frases de emergência para quando der branco.', href: '#/fala/escudo', cta: 'Treinar' },
+    { min: 5, icon: '🛡️', title: 'Frases-escudo', text: 'Repita as frases de emergência para quando der branco.', href: '#/fala/escudo/treino', cta: 'Treinar' },
   ] },
   { d: 'Dom', name: 'Domingo', theme: 'Descanso ativo (sem cobrança)', blocks: [
     { min: 20, icon: '🎬', title: 'Documentário de viagem', text: 'Assista por prazer, com legenda em inglês. Não precisa entender tudo: o cérebro está se acostumando com o som.', href: '#/plano#barril', cta: 'Meu barril' },
@@ -143,7 +143,7 @@ export function render(root) {
           <li><strong>Frases-escudo:</strong> decore "Sorry, my English is not very good. Can you speak slowly, please?". Com ela, nenhuma conversa te pega desprevenido.</li>
           <li><strong>Comemore:</strong> a primeira vez que pedir um café em inglês numa viagem vale uma foto. Você vai lembrar para sempre.</li>
         </ul>
-        <a class="btn btn-soft" href="#/fala/escudo">🛡️ Treinar as frases-escudo</a>
+        <a class="btn btn-soft" href="#/fala/escudo/treino">🛡️ Treinar as frases-escudo</a>
       </div>
     </details>
 

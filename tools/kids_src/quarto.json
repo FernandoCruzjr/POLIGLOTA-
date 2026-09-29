@@ -1,0 +1,1148 @@
+{
+ "items": [
+  {
+   "emoji": "🛏️",
+   "en": "bed",
+   "pt": "cama",
+   "pron": "BÉD",
+   "say": "I sleep in my bed.",
+   "sayPt": "Eu durmo na minha cama."
+  },
+  {
+   "emoji": "🛌",
+   "en": "nap",
+   "pt": "soneca",
+   "pron": "NÉP",
+   "say": "The baby takes a nap.",
+   "sayPt": "O bebê tira uma soneca."
+  },
+  {
+   "emoji": "🪟",
+   "en": "window",
+   "pt": "janela",
+   "pron": "UÍN-dou",
+   "say": "Open the window, please.",
+   "sayPt": "Abra a janela, por favor."
+  },
+  {
+   "emoji": "⏰",
+   "en": "alarm clock",
+   "pt": "despertador",
+   "pron": "a-LÁRM klók",
+   "say": "My alarm clock is loud.",
+   "sayPt": "Meu despertador é barulhento."
+  },
+  {
+   "emoji": "🪞",
+   "en": "mirror",
+   "pt": "espelho",
+   "pron": "MÍ-ror",
+   "say": "I look in the mirror.",
+   "sayPt": "Eu me olho no espelho."
+  },
+  {
+   "emoji": "🧸",
+   "en": "teddy bear",
+   "pt": "ursinho de pelúcia",
+   "pron": "TÉ-di bér",
+   "say": "I hug my teddy bear.",
+   "sayPt": "Eu abraço meu ursinho de pelúcia."
+  },
+  {
+   "emoji": "🪆",
+   "en": "doll",
+   "pt": "boneca",
+   "pron": "DÓL",
+   "say": "She has a pretty doll.",
+   "sayPt": "Ela tem uma boneca bonita."
+  },
+  {
+   "emoji": "🧺",
+   "en": "basket",
+   "pt": "cesto",
+   "pron": "BÉS-kit",
+   "say": "The clothes are in the basket.",
+   "sayPt": "As roupas estão no cesto."
+  },
+  {
+   "emoji": "🔦",
+   "en": "flashlight",
+   "pt": "lanterna",
+   "pron": "FLÉSH-láit",
+   "say": "I use a flashlight at night.",
+   "sayPt": "Eu uso uma lanterna à noite."
+  },
+  {
+   "emoji": "🧦",
+   "en": "socks",
+   "pt": "meias",
+   "pron": "SÓKS",
+   "say": "My socks are blue.",
+   "sayPt": "Minhas meias são azuis."
+  },
+  {
+   "emoji": "👕",
+   "en": "t-shirt",
+   "pt": "camiseta",
+   "pron": "TÍ-shârt",
+   "say": "I like this red t-shirt.",
+   "sayPt": "Eu gosto desta camiseta vermelha."
+  },
+  {
+   "emoji": "👔",
+   "en": "shirt",
+   "pt": "camisa",
+   "pron": "SHÂRT",
+   "say": "Dad wears a shirt.",
+   "sayPt": "O papai usa uma camisa."
+  },
+  {
+   "emoji": "👚",
+   "en": "blouse",
+   "pt": "blusa",
+   "pron": "BLÁUS",
+   "say": "Mom has a new blouse.",
+   "sayPt": "A mamãe tem uma blusa nova."
+  },
+  {
+   "emoji": "👖",
+   "en": "jeans",
+   "pt": "calça jeans",
+   "pron": "DJÍNS",
+   "say": "I wear jeans to school.",
+   "sayPt": "Eu uso calça jeans na escola."
+  },
+  {
+   "emoji": "🩳",
+   "en": "shorts",
+   "pt": "bermuda",
+   "pron": "SHÓRTS",
+   "say": "It is hot, wear shorts.",
+   "sayPt": "Está quente, use bermuda."
+  },
+  {
+   "emoji": "👗",
+   "en": "dress",
+   "pt": "vestido",
+   "pron": "DRÉS",
+   "say": "She wears a yellow dress.",
+   "sayPt": "Ela usa um vestido amarelo."
+  },
+  {
+   "emoji": "🧥",
+   "en": "coat",
+   "pt": "casaco",
+   "pron": "KÔUT",
+   "say": "Put on your coat.",
+   "sayPt": "Coloque seu casaco."
+  },
+  {
+   "emoji": "🎽",
+   "en": "tank top",
+   "pt": "regata",
+   "pron": "TÉNK tóp",
+   "say": "He runs in a tank top.",
+   "sayPt": "Ele corre de regata."
+  },
+  {
+   "emoji": "🩲",
+   "en": "underwear",
+   "pt": "cueca",
+   "pron": "ÂN-der-uér",
+   "say": "Clean underwear is in the drawer.",
+   "sayPt": "A cueca limpa está na gaveta."
+  },
+  {
+   "emoji": "🩱",
+   "en": "swimsuit",
+   "pt": "maiô",
+   "pron": "SUÍM-sut",
+   "say": "I need my swimsuit.",
+   "sayPt": "Eu preciso do meu maiô."
+  },
+  {
+   "emoji": "👙",
+   "en": "bikini",
+   "pt": "biquíni",
+   "pron": "bi-KÍ-ni",
+   "say": "Her bikini is pink.",
+   "sayPt": "O biquíni dela é rosa."
+  },
+  {
+   "emoji": "👘",
+   "en": "kimono",
+   "pt": "quimono",
+   "pron": "ki-MÔU-nou",
+   "say": "The kimono is very long.",
+   "sayPt": "O quimono é bem comprido."
+  },
+  {
+   "emoji": "🥼",
+   "en": "lab coat",
+   "pt": "jaleco",
+   "pron": "LÉB kôut",
+   "say": "The doctor wears a lab coat.",
+   "sayPt": "O médico usa um jaleco."
+  },
+  {
+   "emoji": "🦺",
+   "en": "vest",
+   "pt": "colete",
+   "pron": "VÉST",
+   "say": "Wear the orange vest.",
+   "sayPt": "Use o colete laranja."
+  },
+  {
+   "emoji": "🧤",
+   "en": "gloves",
+   "pt": "luvas",
+   "pron": "GLÂVS",
+   "say": "My hands are warm in gloves.",
+   "sayPt": "Minhas mãos ficam quentes nas luvas."
+  },
+  {
+   "emoji": "🧣",
+   "en": "scarf",
+   "pt": "cachecol",
+   "pron": "SKÁRF",
+   "say": "Grandma made this scarf.",
+   "sayPt": "A vovó fez este cachecol."
+  },
+  {
+   "emoji": "👟",
+   "en": "sneakers",
+   "pt": "tênis",
+   "pron": "SNÍ-kers",
+   "say": "I run in my sneakers.",
+   "sayPt": "Eu corro com meu tênis."
+  },
+  {
+   "emoji": "👞",
+   "en": "shoes",
+   "pt": "sapatos",
+   "pron": "SHÚS",
+   "say": "Take off your shoes.",
+   "sayPt": "Tire os sapatos."
+  },
+  {
+   "emoji": "👠",
+   "en": "high heels",
+   "pt": "salto alto",
+   "pron": "RÁI ríls",
+   "say": "Her high heels are black.",
+   "sayPt": "O salto alto dela é preto."
+  },
+  {
+   "emoji": "👢",
+   "en": "boots",
+   "pt": "botas",
+   "pron": "BÚTS",
+   "say": "I wear boots in the rain.",
+   "sayPt": "Eu uso botas na chuva."
+  },
+  {
+   "emoji": "🥾",
+   "en": "hiking boots",
+   "pt": "botas de trilha",
+   "pron": "RÁI-king búts",
+   "say": "Hiking boots are good for walks.",
+   "sayPt": "Botas de trilha são boas para caminhadas."
+  },
+  {
+   "emoji": "👡",
+   "en": "sandals",
+   "pt": "sandálias",
+   "pron": "SÉN-dols",
+   "say": "My sandals are new.",
+   "sayPt": "Minhas sandálias são novas."
+  },
+  {
+   "emoji": "🩴",
+   "en": "flip-flops",
+   "pt": "chinelos",
+   "pron": "FLÍP-flóps",
+   "say": "I wear flip-flops at the beach.",
+   "sayPt": "Eu uso chinelos na praia."
+  },
+  {
+   "emoji": "🥿",
+   "en": "flats",
+   "pt": "sapatilhas",
+   "pron": "FLÉTS",
+   "say": "These flats are comfortable.",
+   "sayPt": "Estas sapatilhas são confortáveis."
+  },
+  {
+   "emoji": "🩰",
+   "en": "ballet shoes",
+   "pt": "sapatilhas de balé",
+   "pron": "ba-LÊI shús",
+   "say": "She dances in ballet shoes.",
+   "sayPt": "Ela dança com sapatilhas de balé."
+  },
+  {
+   "emoji": "👒",
+   "en": "hat",
+   "pt": "chapéu",
+   "pron": "RÉT",
+   "say": "I wear a hat in the sun.",
+   "sayPt": "Eu uso chapéu no sol."
+  },
+  {
+   "emoji": "🎩",
+   "en": "top hat",
+   "pt": "cartola",
+   "pron": "TÓP rét",
+   "say": "The magician has a top hat.",
+   "sayPt": "O mágico tem uma cartola."
+  },
+  {
+   "emoji": "🧢",
+   "en": "cap",
+   "pt": "boné",
+   "pron": "KÉP",
+   "say": "My cap is green.",
+   "sayPt": "Meu boné é verde."
+  },
+  {
+   "emoji": "⛑️",
+   "en": "helmet",
+   "pt": "capacete",
+   "pron": "RÉL-mit",
+   "say": "Wear your helmet.",
+   "sayPt": "Use seu capacete."
+  },
+  {
+   "emoji": "👓",
+   "en": "glasses",
+   "pt": "óculos",
+   "pron": "GLÉ-sis",
+   "say": "I need my glasses to read.",
+   "sayPt": "Eu preciso dos óculos para ler."
+  },
+  {
+   "emoji": "🕶️",
+   "en": "sunglasses",
+   "pt": "óculos de sol",
+   "pron": "SÂN-glé-sis",
+   "say": "Put on your sunglasses.",
+   "sayPt": "Coloque seus óculos de sol."
+  },
+  {
+   "emoji": "🥽",
+   "en": "goggles",
+   "pt": "óculos de natação",
+   "pron": "GÓ-gols",
+   "say": "I swim with goggles.",
+   "sayPt": "Eu nado com óculos de natação."
+  },
+  {
+   "emoji": "👜",
+   "en": "handbag",
+   "pt": "bolsa",
+   "pron": "RÉND-bég",
+   "say": "Mom's handbag is heavy.",
+   "sayPt": "A bolsa da mamãe é pesada."
+  },
+  {
+   "emoji": "👛",
+   "en": "purse",
+   "pt": "porta-moedas",
+   "pron": "PÂRS",
+   "say": "My coins are in my purse.",
+   "sayPt": "Minhas moedas estão no porta-moedas."
+  },
+  {
+   "emoji": "👝",
+   "en": "pouch",
+   "pt": "bolsinha",
+   "pron": "PÁUTCH",
+   "say": "The pouch is small.",
+   "sayPt": "A bolsinha é pequena."
+  },
+  {
+   "emoji": "🛍️",
+   "en": "shopping bag",
+   "pt": "sacola",
+   "pron": "SHÓ-ping bég",
+   "say": "The shopping bag is full.",
+   "sayPt": "A sacola está cheia."
+  },
+  {
+   "emoji": "🎒",
+   "en": "backpack",
+   "pt": "mochila",
+   "pron": "BÉK-pék",
+   "say": "My backpack is ready.",
+   "sayPt": "Minha mochila está pronta."
+  },
+  {
+   "emoji": "🧳",
+   "en": "suitcase",
+   "pt": "mala",
+   "pron": "SÚT-keis",
+   "say": "Pack your suitcase.",
+   "sayPt": "Arrume sua mala."
+  },
+  {
+   "emoji": "⌚",
+   "en": "watch",
+   "pt": "relógio de pulso",
+   "pron": "UÓTCH",
+   "say": "My watch is new.",
+   "sayPt": "Meu relógio de pulso é novo."
+  },
+  {
+   "emoji": "💍",
+   "en": "ring",
+   "pt": "anel",
+   "pron": "RÍNG",
+   "say": "She has a gold ring.",
+   "sayPt": "Ela tem um anel de ouro."
+  },
+  {
+   "emoji": "💎",
+   "en": "diamond",
+   "pt": "diamante",
+   "pron": "DÁI-mând",
+   "say": "The diamond is shiny.",
+   "sayPt": "O diamante é brilhante."
+  },
+  {
+   "emoji": "👑",
+   "en": "crown",
+   "pt": "coroa",
+   "pron": "KRÁUN",
+   "say": "The queen has a crown.",
+   "sayPt": "A rainha tem uma coroa."
+  },
+  {
+   "emoji": "🎀",
+   "en": "bow",
+   "pt": "laço",
+   "pron": "BÔU",
+   "say": "She has a pink bow.",
+   "sayPt": "Ela tem um laço rosa."
+  },
+  {
+   "emoji": "☂️",
+   "en": "umbrella",
+   "pt": "guarda-chuva",
+   "pron": "âm-BRÉ-la",
+   "say": "Take your umbrella.",
+   "sayPt": "Leve seu guarda-chuva."
+  },
+  {
+   "emoji": "💄",
+   "en": "lipstick",
+   "pt": "batom",
+   "pron": "LÍP-stik",
+   "say": "Mom has red lipstick.",
+   "sayPt": "A mamãe tem batom vermelho."
+  },
+  {
+   "emoji": "💅",
+   "en": "nail polish",
+   "pt": "esmalte",
+   "pron": "NÊIL pó-lish",
+   "say": "I like blue nail polish.",
+   "sayPt": "Eu gosto de esmalte azul."
+  },
+  {
+   "emoji": "🧴",
+   "en": "lotion",
+   "pt": "loção",
+   "pron": "LÔU-shân",
+   "say": "Put lotion on your hands.",
+   "sayPt": "Passe loção nas mãos."
+  },
+  {
+   "emoji": "🧶",
+   "en": "yarn",
+   "pt": "novelo de lã",
+   "pron": "IÁRN",
+   "say": "The cat plays with yarn.",
+   "sayPt": "O gato brinca com o novelo de lã."
+  },
+  {
+   "emoji": "🧵",
+   "en": "thread",
+   "pt": "linha",
+   "pron": "TRÉD",
+   "say": "I need white thread.",
+   "sayPt": "Eu preciso de linha branca."
+  },
+  {
+   "emoji": "🪡",
+   "en": "needle",
+   "pt": "agulha",
+   "pron": "NÍ-dol",
+   "say": "Be careful with the needle.",
+   "sayPt": "Cuidado com a agulha."
+  },
+  {
+   "emoji": "🧷",
+   "en": "safety pin",
+   "pt": "alfinete",
+   "pron": "SÊIF-ti pín",
+   "say": "I have a safety pin.",
+   "sayPt": "Eu tenho um alfinete."
+  },
+  {
+   "emoji": "🪢",
+   "en": "knot",
+   "pt": "nó",
+   "pron": "NÓT",
+   "say": "Tie a knot.",
+   "sayPt": "Dê um nó."
+  },
+  {
+   "emoji": "🪀",
+   "en": "yo-yo",
+   "pt": "ioiô",
+   "pron": "IÔU-iou",
+   "say": "I play with my yo-yo.",
+   "sayPt": "Eu brinco com meu ioiô."
+  },
+  {
+   "emoji": "🪁",
+   "en": "kite",
+   "pt": "pipa",
+   "pron": "KÁIT",
+   "say": "My kite flies high.",
+   "sayPt": "Minha pipa voa alto."
+  },
+  {
+   "emoji": "🧩",
+   "en": "puzzle",
+   "pt": "quebra-cabeça",
+   "pron": "PÂ-zol",
+   "say": "We do a puzzle together.",
+   "sayPt": "Nós montamos um quebra-cabeça juntos."
+  },
+  {
+   "emoji": "🎮",
+   "en": "video game",
+   "pt": "videogame",
+   "pron": "VÍ-di-ou guêim",
+   "say": "I play a video game.",
+   "sayPt": "Eu jogo videogame."
+  },
+  {
+   "emoji": "🕹️",
+   "en": "joystick",
+   "pt": "controle",
+   "pron": "DJÓI-stik",
+   "say": "Hold the joystick.",
+   "sayPt": "Segure o controle."
+  },
+  {
+   "emoji": "🤖",
+   "en": "robot",
+   "pt": "robô",
+   "pron": "RÔU-bót",
+   "say": "My robot can walk.",
+   "sayPt": "Meu robô sabe andar."
+  },
+  {
+   "emoji": "🚂",
+   "en": "toy train",
+   "pt": "trenzinho",
+   "pron": "TÓI trêin",
+   "say": "The toy train goes fast.",
+   "sayPt": "O trenzinho vai rápido."
+  },
+  {
+   "emoji": "🏎️",
+   "en": "race car",
+   "pt": "carro de corrida",
+   "pron": "RÊIS kár",
+   "say": "I have a red race car.",
+   "sayPt": "Eu tenho um carro de corrida vermelho."
+  },
+  {
+   "emoji": "🪃",
+   "en": "boomerang",
+   "pt": "bumerangue",
+   "pron": "BÚ-me-réng",
+   "say": "The boomerang comes back.",
+   "sayPt": "O bumerangue volta."
+  },
+  {
+   "emoji": "🛹",
+   "en": "skateboard",
+   "pt": "skate",
+   "pron": "SKÊIT-bórd",
+   "say": "He rides a skateboard.",
+   "sayPt": "Ele anda de skate."
+  },
+  {
+   "emoji": "🛼",
+   "en": "roller skates",
+   "pt": "patins",
+   "pron": "RÔU-ler skêits",
+   "say": "I love my roller skates.",
+   "sayPt": "Eu amo meus patins."
+  },
+  {
+   "emoji": "🛴",
+   "en": "scooter",
+   "pt": "patinete",
+   "pron": "SKÚ-ter",
+   "say": "My scooter is purple.",
+   "sayPt": "Meu patinete é roxo."
+  },
+  {
+   "emoji": "🦖",
+   "en": "dinosaur",
+   "pt": "dinossauro",
+   "pron": "DÁI-no-sór",
+   "say": "My toy dinosaur is big.",
+   "sayPt": "Meu dinossauro de brinquedo é grande."
+  },
+  {
+   "emoji": "🦄",
+   "en": "unicorn",
+   "pt": "unicórnio",
+   "pron": "IÚ-ni-korn",
+   "say": "The unicorn is white.",
+   "sayPt": "O unicórnio é branco."
+  },
+  {
+   "emoji": "🤡",
+   "en": "clown",
+   "pt": "palhaço",
+   "pron": "KLÁUN",
+   "say": "The clown is funny.",
+   "sayPt": "O palhaço é engraçado."
+  },
+  {
+   "emoji": "🎪",
+   "en": "circus",
+   "pt": "circo",
+   "pron": "SÂR-kâs",
+   "say": "We go to the circus.",
+   "sayPt": "Nós vamos ao circo."
+  },
+  {
+   "emoji": "🎠",
+   "en": "carousel",
+   "pt": "carrossel",
+   "pron": "ké-ru-SÉL",
+   "say": "I ride the carousel.",
+   "sayPt": "Eu ando no carrossel."
+  },
+  {
+   "emoji": "🎭",
+   "en": "mask",
+   "pt": "máscara",
+   "pron": "MÉSK",
+   "say": "I wear a funny mask.",
+   "sayPt": "Eu uso uma máscara engraçada."
+  },
+  {
+   "emoji": "🪄",
+   "en": "magic wand",
+   "pt": "varinha mágica",
+   "pron": "MÉ-djik uónd",
+   "say": "Wave the magic wand.",
+   "sayPt": "Balance a varinha mágica."
+  },
+  {
+   "emoji": "🎨",
+   "en": "paint",
+   "pt": "tinta",
+   "pron": "PÊINT",
+   "say": "I paint with green paint.",
+   "sayPt": "Eu pinto com tinta verde."
+  },
+  {
+   "emoji": "🖌️",
+   "en": "paintbrush",
+   "pt": "pincel",
+   "pron": "PÊINT-brâsh",
+   "say": "Wash the paintbrush.",
+   "sayPt": "Lave o pincel."
+  },
+  {
+   "emoji": "🖍️",
+   "en": "crayon",
+   "pt": "giz de cera",
+   "pron": "KRÊI-ón",
+   "say": "Give me a blue crayon.",
+   "sayPt": "Me dê um giz de cera azul."
+  },
+  {
+   "emoji": "✏️",
+   "en": "pencil",
+   "pt": "lápis",
+   "pron": "PÉN-sol",
+   "say": "I write with a pencil.",
+   "sayPt": "Eu escrevo com um lápis."
+  },
+  {
+   "emoji": "🖊️",
+   "en": "pen",
+   "pt": "caneta",
+   "pron": "PÉN",
+   "say": "Can I use your pen?",
+   "sayPt": "Posso usar sua caneta?"
+  },
+  {
+   "emoji": "📏",
+   "en": "ruler",
+   "pt": "régua",
+   "pron": "RÚ-ler",
+   "say": "Draw a line with the ruler.",
+   "sayPt": "Faça uma linha com a régua."
+  },
+  {
+   "emoji": "📐",
+   "en": "triangle",
+   "pt": "esquadro",
+   "pron": "TRÁI-én-gol",
+   "say": "The triangle is on my desk.",
+   "sayPt": "O esquadro está na minha mesa."
+  },
+  {
+   "emoji": "✂️",
+   "en": "scissors",
+   "pt": "tesoura",
+   "pron": "SÍ-zors",
+   "say": "Cut the paper with scissors.",
+   "sayPt": "Corte o papel com a tesoura."
+  },
+  {
+   "emoji": "📕",
+   "en": "book",
+   "pt": "livro",
+   "pron": "BÚK",
+   "say": "I read a book.",
+   "sayPt": "Eu leio um livro."
+  },
+  {
+   "emoji": "📓",
+   "en": "notebook",
+   "pt": "caderno",
+   "pron": "NÔUT-buk",
+   "say": "Open your notebook.",
+   "sayPt": "Abra seu caderno."
+  },
+  {
+   "emoji": "📔",
+   "en": "diary",
+   "pt": "diário",
+   "pron": "DÁI-a-ri",
+   "say": "I write in my diary.",
+   "sayPt": "Eu escrevo no meu diário."
+  },
+  {
+   "emoji": "🔖",
+   "en": "bookmark",
+   "pt": "marcador de página",
+   "pron": "BÚK-márk",
+   "say": "Keep the bookmark in the book.",
+   "sayPt": "Deixe o marcador de página no livro."
+  },
+  {
+   "emoji": "📝",
+   "en": "homework",
+   "pt": "lição de casa",
+   "pron": "RÔUM-uârk",
+   "say": "I finish my homework.",
+   "sayPt": "Eu termino minha lição de casa."
+  },
+  {
+   "emoji": "🧮",
+   "en": "abacus",
+   "pt": "ábaco",
+   "pron": "É-ba-kâs",
+   "say": "Count with the abacus.",
+   "sayPt": "Conte com o ábaco."
+  },
+  {
+   "emoji": "🌍",
+   "en": "globe",
+   "pt": "globo",
+   "pron": "GLÔUB",
+   "say": "Find Brazil on the globe.",
+   "sayPt": "Encontre o Brasil no globo."
+  },
+  {
+   "emoji": "🗺️",
+   "en": "map",
+   "pt": "mapa",
+   "pron": "MÉP",
+   "say": "Look at the map.",
+   "sayPt": "Olhe o mapa."
+  },
+  {
+   "emoji": "🔬",
+   "en": "microscope",
+   "pt": "microscópio",
+   "pron": "MÁI-kro-skôup",
+   "say": "I look in the microscope.",
+   "sayPt": "Eu olho no microscópio."
+  },
+  {
+   "emoji": "🔭",
+   "en": "telescope",
+   "pt": "telescópio",
+   "pron": "TÉ-les-kôup",
+   "say": "I see stars with a telescope.",
+   "sayPt": "Eu vejo estrelas com um telescópio."
+  },
+  {
+   "emoji": "🌙",
+   "en": "moon",
+   "pt": "lua",
+   "pron": "MÚN",
+   "say": "The moon is bright.",
+   "sayPt": "A lua está brilhante."
+  },
+  {
+   "emoji": "⭐",
+   "en": "star",
+   "pt": "estrela",
+   "pron": "STÁR",
+   "say": "I see a star.",
+   "sayPt": "Eu vejo uma estrela."
+  },
+  {
+   "emoji": "🌠",
+   "en": "shooting star",
+   "pt": "estrela cadente",
+   "pron": "SHÚ-ting stár",
+   "say": "Make a wish on a shooting star.",
+   "sayPt": "Faça um pedido para a estrela cadente."
+  },
+  {
+   "emoji": "✨",
+   "en": "sparkles",
+   "pt": "brilhos",
+   "pron": "SPÁR-kols",
+   "say": "The sparkles are pretty.",
+   "sayPt": "Os brilhos são bonitos."
+  },
+  {
+   "emoji": "🌌",
+   "en": "galaxy",
+   "pt": "galáxia",
+   "pron": "GUÉ-lak-si",
+   "say": "The galaxy is very big.",
+   "sayPt": "A galáxia é muito grande."
+  },
+  {
+   "emoji": "🌃",
+   "en": "night",
+   "pt": "noite",
+   "pron": "NÁIT",
+   "say": "I say good night to Mom.",
+   "sayPt": "Eu digo boa noite para a mamãe."
+  },
+  {
+   "emoji": "💤",
+   "en": "sleep",
+   "pt": "sono",
+   "pron": "SLÍP",
+   "say": "I need sleep.",
+   "sayPt": "Eu preciso de sono."
+  },
+  {
+   "emoji": "🥱",
+   "en": "yawn",
+   "pt": "bocejo",
+   "pron": "IÓN",
+   "say": "That was a big yawn.",
+   "sayPt": "Foi um bocejo enorme."
+  },
+  {
+   "emoji": "🐑",
+   "en": "sheep",
+   "pt": "ovelha",
+   "pron": "SHÍP",
+   "say": "I count sheep to sleep.",
+   "sayPt": "Eu conto ovelhas para dormir."
+  },
+  {
+   "emoji": "🧚",
+   "en": "fairy",
+   "pt": "fada",
+   "pron": "FÉ-ri",
+   "say": "The fairy can fly.",
+   "sayPt": "A fada sabe voar."
+  },
+  {
+   "emoji": "🧙",
+   "en": "wizard",
+   "pt": "mago",
+   "pron": "UÍ-zard",
+   "say": "The wizard has a hat.",
+   "sayPt": "O mago tem um chapéu."
+  },
+  {
+   "emoji": "🐉",
+   "en": "dragon",
+   "pt": "dragão",
+   "pron": "DRÉ-gân",
+   "say": "The dragon is green.",
+   "sayPt": "O dragão é verde."
+  },
+  {
+   "emoji": "👻",
+   "en": "ghost",
+   "pt": "fantasma",
+   "pron": "GÔUST",
+   "say": "The ghost says boo.",
+   "sayPt": "O fantasma diz bu."
+  },
+  {
+   "emoji": "👸",
+   "en": "princess",
+   "pt": "princesa",
+   "pron": "PRÍN-sés",
+   "say": "The princess is kind.",
+   "sayPt": "A princesa é gentil."
+  },
+  {
+   "emoji": "🤴",
+   "en": "prince",
+   "pt": "príncipe",
+   "pron": "PRÍNS",
+   "say": "The prince has a horse.",
+   "sayPt": "O príncipe tem um cavalo."
+  },
+  {
+   "emoji": "🧜",
+   "en": "mermaid",
+   "pt": "sereia",
+   "pron": "MÂR-meid",
+   "say": "The mermaid swims fast.",
+   "sayPt": "A sereia nada rápido."
+  },
+  {
+   "emoji": "🦸",
+   "en": "superhero",
+   "pt": "super-herói",
+   "pron": "SÚ-per-rí-rou",
+   "say": "My dad is a superhero.",
+   "sayPt": "Meu pai é um super-herói."
+  },
+  {
+   "emoji": "🏰",
+   "en": "castle",
+   "pt": "castelo",
+   "pron": "KÉ-sol",
+   "say": "The castle is big.",
+   "sayPt": "O castelo é grande."
+  },
+  {
+   "emoji": "🚀",
+   "en": "rocket",
+   "pt": "foguete",
+   "pron": "RÓ-kit",
+   "say": "The rocket goes to the moon.",
+   "sayPt": "O foguete vai para a lua."
+  },
+  {
+   "emoji": "🛸",
+   "en": "spaceship",
+   "pt": "nave espacial",
+   "pron": "SPÊIS-ship",
+   "say": "I dream of a spaceship.",
+   "sayPt": "Eu sonho com uma nave espacial."
+  },
+  {
+   "emoji": "🪐",
+   "en": "planet",
+   "pt": "planeta",
+   "pron": "PLÉ-nit",
+   "say": "Saturn is a planet.",
+   "sayPt": "Saturno é um planeta."
+  },
+  {
+   "emoji": "🌈",
+   "en": "rainbow",
+   "pt": "arco-íris",
+   "pron": "RÊIN-bou",
+   "say": "Look at the rainbow!",
+   "sayPt": "Olhe o arco-íris!"
+  },
+  {
+   "emoji": "☁️",
+   "en": "cloud",
+   "pt": "nuvem",
+   "pron": "KLÁUD",
+   "say": "The cloud is white.",
+   "sayPt": "A nuvem é branca."
+  },
+  {
+   "emoji": "🏮",
+   "en": "lantern",
+   "pt": "lanterna de papel",
+   "pron": "LÉN-tern",
+   "say": "The paper lantern is red.",
+   "sayPt": "A lanterna de papel é vermelha."
+  },
+  {
+   "emoji": "📿",
+   "en": "beads",
+   "pt": "colar de contas",
+   "pron": "BÍDS",
+   "say": "I make a string of beads.",
+   "sayPt": "Eu faço um colar de contas."
+  },
+  {
+   "emoji": "🎓",
+   "en": "graduation cap",
+   "pt": "capelo",
+   "pron": "gré-dju-ÊI-shân kép",
+   "say": "He wears a graduation cap.",
+   "sayPt": "Ele usa um capelo."
+  },
+  {
+   "emoji": "🦉",
+   "en": "owl",
+   "pt": "coruja",
+   "pron": "ÁUL",
+   "say": "The owl is awake at night.",
+   "sayPt": "A coruja fica acordada à noite."
+  },
+  {
+   "emoji": "🌜",
+   "en": "half moon",
+   "pt": "meia-lua",
+   "pron": "RÉF mún",
+   "say": "I see a half moon.",
+   "sayPt": "Eu vejo uma meia-lua."
+  },
+  {
+   "emoji": "☀️",
+   "en": "sun",
+   "pt": "sol",
+   "pron": "SÂN",
+   "say": "The sun wakes me up.",
+   "sayPt": "O sol me acorda."
+  },
+  {
+   "emoji": "🌅",
+   "en": "sunrise",
+   "pt": "nascer do sol",
+   "pron": "SÂN-raiz",
+   "say": "The sunrise is orange.",
+   "sayPt": "O nascer do sol é laranja."
+  },
+  {
+   "emoji": "🧞",
+   "en": "genie",
+   "pt": "gênio",
+   "pron": "DJÍ-ni",
+   "say": "The genie gives three wishes.",
+   "sayPt": "O gênio dá três desejos."
+  },
+  {
+   "emoji": "🧛",
+   "en": "vampire",
+   "pt": "vampiro",
+   "pron": "VÉM-pair",
+   "say": "The vampire is not real.",
+   "sayPt": "O vampiro não é de verdade."
+  },
+  {
+   "emoji": "🧟",
+   "en": "zombie",
+   "pt": "zumbi",
+   "pron": "ZÓM-bi",
+   "say": "The zombie walks slowly.",
+   "sayPt": "O zumbi anda devagar."
+  },
+  {
+   "emoji": "🧝",
+   "en": "elf",
+   "pt": "elfo",
+   "pron": "ÉLF",
+   "say": "The elf has big ears.",
+   "sayPt": "O elfo tem orelhas grandes."
+  },
+  {
+   "emoji": "👽",
+   "en": "alien",
+   "pt": "alienígena",
+   "pron": "ÊI-li-ân",
+   "say": "The alien is green.",
+   "sayPt": "O alienígena é verde."
+  },
+  {
+   "emoji": "🎐",
+   "en": "wind chime",
+   "pt": "sininho de vento",
+   "pron": "UÍND tcháim",
+   "say": "The wind chime sings.",
+   "sayPt": "O sininho de vento canta."
+  },
+  {
+   "emoji": "🥋",
+   "en": "karate uniform",
+   "pt": "quimono de caratê",
+   "pron": "ka-RÁ-ti IÚ-ni-form",
+   "say": "I wear my karate uniform.",
+   "sayPt": "Eu visto meu quimono de caratê."
+  },
+  {
+   "emoji": "🌟",
+   "en": "gold star",
+   "pt": "estrelinha dourada",
+   "pron": "GÔULD stár",
+   "say": "The teacher gave me a gold star.",
+   "sayPt": "A professora me deu uma estrelinha dourada."
+  },
+  {
+   "emoji": "📜",
+   "en": "scroll",
+   "pt": "pergaminho",
+   "pron": "SKRÔUL",
+   "say": "The pirate map is a scroll.",
+   "sayPt": "O mapa do pirata é um pergaminho."
+  },
+  {
+   "emoji": "🎗️",
+   "en": "ribbon",
+   "pt": "fita",
+   "pron": "RÍ-bân",
+   "say": "Tie the ribbon on the gift.",
+   "sayPt": "Amarre a fita no presente."
+  },
+  {
+   "emoji": "🍼",
+   "en": "baby bottle",
+   "pt": "mamadeira",
+   "pron": "BÊI-bi bó-tol",
+   "say": "The baby drinks from a baby bottle.",
+   "sayPt": "O bebê bebe na mamadeira."
+  },
+  {
+   "emoji": "🔮",
+   "en": "crystal ball",
+   "pt": "bola de cristal",
+   "pron": "KRÍS-tol ból",
+   "say": "The crystal ball is purple.",
+   "sayPt": "A bola de cristal é roxa."
+  },
+  {
+   "emoji": "🛡️",
+   "en": "shield",
+   "pt": "escudo",
+   "pron": "SHÍLD",
+   "say": "The knight has a shield.",
+   "sayPt": "O cavaleiro tem um escudo."
+  },
+  {
+   "emoji": "💌",
+   "en": "love letter",
+   "pt": "carta de amor",
+   "pron": "LÂV lé-ter",
+   "say": "I found a love letter.",
+   "sayPt": "Eu achei uma carta de amor."
+  }
+ ]
+}

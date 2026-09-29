@@ -1,0 +1,313 @@
+{
+ "id": "compras",
+ "name": "Compras e dinheiro",
+ "emoji": "🛍️",
+ "phrases": [
+  {
+   "en": "I'm just looking, thanks.",
+   "pt": "Só estou olhando, obrigado.",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "Can I help you?",
+   "pt": "Posso ajudar?",
+   "sub": "Na loja",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Do you have this in a medium?",
+   "pt": "Vocês têm este no tamanho M?",
+   "sub": "Na loja",
+   "level": 2
+  },
+  {
+   "en": "Do you have a bigger size?",
+   "pt": "Vocês têm um tamanho maior?",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "Do you have a smaller size?",
+   "pt": "Vocês têm um tamanho menor?",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "Can I try this on?",
+   "pt": "Posso experimentar?",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "Where is the fitting room?",
+   "pt": "Onde fica o provador?",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "Do you have it in black?",
+   "pt": "Tem na cor preta?",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "It's too tight.",
+   "pt": "Está muito apertado.",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "It's a little big.",
+   "pt": "Está um pouco grande.",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "It fits perfectly.",
+   "pt": "Serviu perfeitamente.",
+   "sub": "Na loja",
+   "level": 2
+  },
+  {
+   "en": "I'll take it.",
+   "pt": "Vou levar.",
+   "sub": "Na loja",
+   "level": 1
+  },
+  {
+   "en": "What size are you?",
+   "pt": "Qual é o seu tamanho?",
+   "sub": "Na loja",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Do you have this in another color?",
+   "pt": "Vocês têm este em outra cor?",
+   "sub": "Na loja",
+   "level": 2
+  },
+  {
+   "en": "How much is this?",
+   "pt": "Quanto custa isto?",
+   "sub": "Preço e desconto",
+   "level": 1
+  },
+  {
+   "en": "That's too expensive.",
+   "pt": "Está muito caro.",
+   "sub": "Preço e desconto",
+   "level": 1
+  },
+  {
+   "en": "Is this on sale?",
+   "pt": "Isto está em promoção?",
+   "sub": "Preço e desconto",
+   "level": 2
+  },
+  {
+   "en": "Can you give me a discount?",
+   "pt": "Você pode me dar um desconto?",
+   "sub": "Preço e desconto",
+   "level": 2
+  },
+  {
+   "en": "What's your best price?",
+   "pt": "Qual é o seu melhor preço?",
+   "sub": "Preço e desconto",
+   "level": 2
+  },
+  {
+   "en": "If I buy two, is it cheaper?",
+   "pt": "Se eu levar dois, sai mais barato?",
+   "sub": "Preço e desconto",
+   "level": 3
+  },
+  {
+   "en": "Does the price include tax?",
+   "pt": "O preço inclui imposto?",
+   "sub": "Preço e desconto",
+   "level": 2
+  },
+  {
+   "en": "I'll give you twenty for both.",
+   "pt": "Te dou vinte pelos dois.",
+   "sub": "Preço e desconto",
+   "level": 3
+  },
+  {
+   "en": "Can I pay by card?",
+   "pt": "Posso pagar com cartão?",
+   "sub": "Pagamento",
+   "level": 1
+  },
+  {
+   "en": "I'll pay in cash.",
+   "pt": "Vou pagar em dinheiro.",
+   "sub": "Pagamento",
+   "level": 1
+  },
+  {
+   "en": "Cash or card?",
+   "pt": "Dinheiro ou cartão?",
+   "sub": "Pagamento",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Can I have a receipt, please?",
+   "pt": "Pode me dar o recibo, por favor?",
+   "sub": "Pagamento",
+   "level": 1
+  },
+  {
+   "en": "Do you need a bag?",
+   "pt": "Você precisa de sacola?",
+   "sub": "Pagamento",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Please insert your card.",
+   "pt": "Por favor, insira seu cartão.",
+   "sub": "Pagamento",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Can I pay with my phone?",
+   "pt": "Posso pagar com o celular?",
+   "sub": "Pagamento",
+   "level": 2
+  },
+  {
+   "en": "Do you take foreign cards?",
+   "pt": "Vocês aceitam cartão estrangeiro?",
+   "sub": "Pagamento",
+   "level": 2
+  },
+  {
+   "en": "I think you gave me the wrong change.",
+   "pt": "Acho que você me deu o troco errado.",
+   "sub": "Pagamento",
+   "level": 3
+  },
+  {
+   "en": "Can you wrap it as a gift?",
+   "pt": "Pode embrulhar para presente?",
+   "sub": "Pagamento",
+   "level": 2
+  },
+  {
+   "en": "I'd like to return this.",
+   "pt": "Eu gostaria de devolver isto.",
+   "sub": "Trocas e impostos",
+   "level": 2
+  },
+  {
+   "en": "Can I exchange this for a different size?",
+   "pt": "Posso trocar isto por outro tamanho?",
+   "sub": "Trocas e impostos",
+   "level": 3
+  },
+  {
+   "en": "It doesn't work.",
+   "pt": "Não está funcionando.",
+   "sub": "Trocas e impostos",
+   "level": 1
+  },
+  {
+   "en": "Do you have the receipt?",
+   "pt": "Você tem o recibo?",
+   "sub": "Trocas e impostos",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "Can I get a tax refund?",
+   "pt": "Posso pedir o reembolso do imposto?",
+   "sub": "Trocas e impostos",
+   "level": 2
+  },
+  {
+   "en": "What's your return policy?",
+   "pt": "Qual é a política de devolução de vocês?",
+   "sub": "Trocas e impostos",
+   "level": 3
+  },
+  {
+   "en": "Where can I exchange money?",
+   "pt": "Onde posso trocar dinheiro?",
+   "sub": "Câmbio e caixa",
+   "level": 1
+  },
+  {
+   "en": "What's the exchange rate today?",
+   "pt": "Qual é a cotação hoje?",
+   "sub": "Câmbio e caixa",
+   "level": 2
+  },
+  {
+   "en": "I'd like to change reais into dollars.",
+   "pt": "Eu gostaria de trocar reais por dólares.",
+   "sub": "Câmbio e caixa",
+   "level": 3
+  },
+  {
+   "en": "Is there a commission fee?",
+   "pt": "Tem taxa de comissão?",
+   "sub": "Câmbio e caixa",
+   "level": 2
+  },
+  {
+   "en": "Can I have some small bills?",
+   "pt": "Pode me dar notas pequenas?",
+   "sub": "Câmbio e caixa",
+   "level": 2
+  },
+  {
+   "en": "Where is the nearest ATM?",
+   "pt": "Onde fica o caixa eletrônico mais próximo?",
+   "sub": "Câmbio e caixa",
+   "level": 2
+  },
+  {
+   "en": "My card was declined.",
+   "pt": "Meu cartão foi recusado.",
+   "sub": "Problemas com cartão",
+   "level": 2
+  },
+  {
+   "en": "Can you try again, please?",
+   "pt": "Pode tentar de novo, por favor?",
+   "sub": "Problemas com cartão",
+   "level": 1
+  },
+  {
+   "en": "The ATM kept my card.",
+   "pt": "O caixa eletrônico engoliu meu cartão.",
+   "sub": "Problemas com cartão",
+   "level": 2
+  },
+  {
+   "en": "I was charged twice.",
+   "pt": "Fui cobrado duas vezes.",
+   "sub": "Problemas com cartão",
+   "level": 2
+  },
+  {
+   "en": "The machine isn't giving me any money.",
+   "pt": "A máquina não está liberando o dinheiro.",
+   "sub": "Problemas com cartão",
+   "level": 3
+  },
+  {
+   "en": "Can I use a different card?",
+   "pt": "Posso usar outro cartão?",
+   "sub": "Problemas com cartão",
+   "level": 2
+  }
+ ]
+}

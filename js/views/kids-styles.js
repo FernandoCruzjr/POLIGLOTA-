@@ -38,6 +38,14 @@ export default `
 .kd-back { display: none; gap: 2px; font-size: .85rem; }
 .kd-card.open .kd-back { display: grid; animation: rise .25s ease; }
 .kd-pt { font-weight: 700; color: var(--green-800); }
+.kd-say { font-size: .82rem; font-style: italic; margin-top: 4px; }
+.kd-saypt { font-size: .78rem; color: var(--muted); }
+.kd-more { grid-column: 1 / -1; justify-self: center; }
+.kd-search input { width: 100%; min-height: 46px; border-radius: 14px; border: 2px solid var(--border); padding: 8px 14px; font: inherit; }
+.kd-groups { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; }
+.kd-groups .topic-chip { flex-shrink: 0; border: 2px solid var(--border); background: var(--surface); cursor: pointer; font: inherit; font-weight: 600; }
+.kd-groups .topic-chip.on { border-color: var(--green-500); background: var(--green-50); }
+.kd-num.long b { font-size: 2rem; }
 .kd-stars-row { display: flex; justify-content: center; gap: 6px; font-size: 1rem; color: #D9D9D9; }
 .kd-stars-row .on { color: #22C55E; }
 .kd-stars-row .now { color: #FFC857; transform: scale(1.4); }

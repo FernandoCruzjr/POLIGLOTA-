@@ -6,12 +6,26 @@ export default `
 @keyframes pop { from { transform: scale(.4); opacity: 0; } }
 
 /* ---------- Kiko com acessórios ---------- */
-.kiko-dress { position: relative; display: inline-block; width: var(--kk); height: var(--kk); flex-shrink: 0; line-height: 1; }
-.kiko-dress img { width: 100%; height: 100%; display: block; border-radius: 50%; }
-.kiko-dress > span { position: absolute; pointer-events: none; transform: translate(-50%, -50%); filter: drop-shadow(0 2px 1px rgba(0, 0, 0, .25)); }
-.kk-head { left: 46%; top: 4%; font-size: calc(var(--kk) * .56); }
-.kk-face { left: 66%; top: 58%; font-size: calc(var(--kk) * .4); }
-.kk-neck { left: 40%; top: 96%; font-size: calc(var(--kk) * .34); }
+.kiko-dress { position: relative; display: inline-block; width: var(--kk); height: var(--kk); flex-shrink: 0; line-height: 1; isolation: isolate; }
+.kiko-dress img { position: relative; z-index: 1; width: 100%; height: 100%; display: block; border-radius: 50%; }
+.kiko-dress > span { position: absolute; z-index: 2; pointer-events: none; transform: translate(-50%, -50%); filter: drop-shadow(0 2px 1px rgba(0, 0, 0, .25)); white-space: nowrap; }
+.kiko-dress > .kk-pet, .kiko-dress > .kk-hand { z-index: 3; }
+.kk-halo { width: calc(var(--kk) * .5); height: calc(var(--kk) * .14); border: calc(var(--kk) * .035) solid #FFD54F; border-radius: 50%; box-shadow: 0 0 calc(var(--kk) * .08) #FFE082; }
+.kiko-dress[class*="bg-"]::before { content: ''; position: absolute; inset: calc(var(--kk) * -.1); border-radius: 50%; z-index: 0; }
+.kiko-dress.bg-sea::before { background: linear-gradient(180deg, #7FD3F7 0%, #3BB2E6 55%, #F5DEB3 56%); }
+.kiko-dress.bg-sun::before { background: linear-gradient(180deg, #FF9A5A, #E0527A 60%, #6B2A7A); }
+.kiko-dress.bg-jungle::before { background: radial-gradient(circle, #7BD389, #1F7A3A); }
+.kiko-dress.bg-hearts::before { background: radial-gradient(circle, #FFD1E3, #FF6FA8); }
+.kiko-dress.bg-snow::before { background: radial-gradient(circle, #FFFFFF, #BFE3FF); }
+.kiko-dress.bg-city::before { background: linear-gradient(180deg, #0B1B3F, #2B2F77 70%, #FFB84D 71%, #2B2F77 73%); }
+.kiko-dress.bg-space::before { background: radial-gradient(circle at 30% 30%, #6B3FC9, #120A33 70%); }
+.kiko-dress.bg-gold::before { background: conic-gradient(#FFE082, #D4A017, #FFF3C4, #C8901A, #FFE082); }
+.kiko-dress.bg-rainbow::before { background: conic-gradient(#FF5A5A, #FFB84D, #FFE14D, #5AD16B, #4DA6FF, #9B5AFF, #FF5A5A); }
+.kk-deco { font-size: calc(var(--kk) * .24); z-index: 2; }
+.kk-deco.d0 { left: 92%; top: 6%; }
+.kk-deco.d1 { left: 6%; top: 10%; }
+.kiko-dress.trying { animation: tryWiggle 1.2s ease-in-out infinite; }
+@keyframes tryWiggle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-4deg); } 75% { transform: rotate(4deg); } }
 .map-kiko img { animation: none; width: 100%; height: 100%; filter: none; }
 .map-kiko .kiko-dress { filter: drop-shadow(0 6px 6px rgba(0, 0, 0, .35)); animation: bob 1.6s ease-in-out infinite; }
 .map-kiko.walking .kiko-dress { animation: hop .35s ease-in-out infinite; }
@@ -88,7 +102,25 @@ export default `
 /* ---------- Lojinha do Kiko ---------- */
 .shop-hero { display: grid; justify-items: center; gap: 8px; text-align: center; padding: 20px 16px; background: radial-gradient(circle at 50% 30%, #FFF7DB, #EBF9EE 70%); border-radius: 26px; border: 1px solid var(--border); }
 .shop-hero .kiko-dress { animation: bob 2.4s ease-in-out infinite; }
-.shop-stage { padding: 30px 20px 14px; }
+.shop-stage { padding: 34px 40px 18px; cursor: pointer; }
+.shop-try { font-size: 1rem; }
+.shop-cta { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.shop-tabs { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 6px; }
+.shop-tab { flex-shrink: 0; display: grid; justify-items: center; gap: 2px; min-width: 72px; padding: 8px 10px; border-radius: 16px; border: 2px solid var(--border); background: var(--surface); font: inherit; font-size: .8rem; font-weight: 700; cursor: pointer; }
+.shop-tab span { font-size: 1.4rem; }
+.shop-tab.on { border-color: var(--green-500); background: var(--green-50); box-shadow: 0 3px 0 var(--green-500); }
+.shop-item.trying { outline: 3px dashed #F2C94C; outline-offset: 2px; }
+.si-skin { width: 56px; height: 56px; border-radius: 50%; }
+.si-bg { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; font-size: 1.1rem; }
+.si-bg.bg-sea { background: linear-gradient(180deg, #7FD3F7 0%, #3BB2E6 55%, #F5DEB3 56%); }
+.si-bg.bg-sun { background: linear-gradient(180deg, #FF9A5A, #E0527A 60%, #6B2A7A); }
+.si-bg.bg-jungle { background: radial-gradient(circle, #7BD389, #1F7A3A); }
+.si-bg.bg-hearts { background: radial-gradient(circle, #FFD1E3, #FF6FA8); }
+.si-bg.bg-snow { background: radial-gradient(circle, #FFFFFF, #BFE3FF); border: 1px solid #ddd; }
+.si-bg.bg-city { background: linear-gradient(180deg, #0B1B3F, #2B2F77 70%, #FFB84D 71%, #2B2F77 73%); }
+.si-bg.bg-space { background: radial-gradient(circle at 30% 30%, #6B3FC9, #120A33 70%); }
+.si-bg.bg-gold { background: conic-gradient(#FFE082, #D4A017, #FFF3C4, #C8901A, #FFE082); }
+.si-bg.bg-rainbow { background: conic-gradient(#FF5A5A, #FFB84D, #FFE14D, #5AD16B, #4DA6FF, #9B5AFF, #FF5A5A); }
 .shop-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 @media (min-width: 640px) { .shop-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .shop-item { display: grid; justify-items: center; gap: 4px; padding: 12px 6px; border-radius: 18px; border: 2px solid var(--border); background: var(--surface); font: inherit; color: var(--text); cursor: pointer; box-shadow: 0 3px 0 var(--border); text-align: center; }
@@ -145,6 +177,15 @@ export default `
 .sp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
 .sp-sit { display: grid; justify-items: start; gap: 6px; text-decoration: none; color: inherit; padding: 14px; }
 .sp-sit.shield { background: #FFF7DB; border-color: #F2C94C; }
+.sp-sit.hard { background: #FDECEC; border-color: #F5B5B5; }
+.sp-sit .bar { width: 100%; height: 6px; }
+.sp-sub { display: grid; gap: 8px; }
+.sp-sub h2 { font-size: 1.05rem; }
+.sp-list { display: grid; gap: 6px; }
+.sp-list li { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: .93rem; }
+.sp-list li:last-child { border-bottom: 0; }
+.chip.sp-hear { background: #EAF2FF; color: #1E4FA8; font-size: .72rem; }
+.sp-phrase .chip { justify-self: center; }
 .sp-phrase { text-align: center; display: grid; gap: 8px; padding: 22px 16px; }
 .sp-en { font-size: 1.45rem; font-weight: 700; line-height: 1.35; }
 .sp-pt { color: var(--muted); }

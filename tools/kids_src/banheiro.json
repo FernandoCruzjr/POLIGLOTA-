@@ -1,0 +1,708 @@
+{
+ "items": [
+  {
+   "emoji": "🚻",
+   "en": "bathroom",
+   "pt": "banheiro",
+   "pron": "BÉTH-rum",
+   "say": "Where is the bathroom?",
+   "sayPt": "Onde fica o banheiro?"
+  },
+  {
+   "emoji": "🚽",
+   "en": "toilet",
+   "pt": "vaso sanitário",
+   "pron": "TÓI-let",
+   "say": "Flush the toilet, please.",
+   "sayPt": "Dê descarga, por favor."
+  },
+  {
+   "emoji": "🚿",
+   "en": "shower",
+   "pt": "chuveiro",
+   "pron": "XÁU-er",
+   "say": "The shower is warm.",
+   "sayPt": "O chuveiro está quentinho."
+  },
+  {
+   "emoji": "🛁",
+   "en": "bathtub",
+   "pt": "banheira",
+   "pron": "BÉTH-tâb",
+   "say": "The bathtub is full.",
+   "sayPt": "A banheira está cheia."
+  },
+  {
+   "emoji": "🛀",
+   "en": "bath",
+   "pt": "banho",
+   "pron": "BÉTH",
+   "say": "I take a bath every night.",
+   "sayPt": "Eu tomo banho toda noite."
+  },
+  {
+   "emoji": "🧼",
+   "en": "soap",
+   "pt": "sabonete",
+   "pron": "SÔUP",
+   "say": "Soap makes my hands clean.",
+   "sayPt": "O sabonete deixa minhas mãos limpas."
+  },
+  {
+   "emoji": "🧽",
+   "en": "sponge",
+   "pt": "esponja",
+   "pron": "SPÂNDJ",
+   "say": "The sponge is yellow.",
+   "sayPt": "A esponja é amarela."
+  },
+  {
+   "emoji": "🧴",
+   "en": "shampoo",
+   "pt": "xampu",
+   "pron": "xem-PÚ",
+   "say": "Shampoo smells good.",
+   "sayPt": "O xampu tem cheiro bom."
+  },
+  {
+   "emoji": "🪥",
+   "en": "toothbrush",
+   "pt": "escova de dentes",
+   "pron": "TÚTH-brâx",
+   "say": "My toothbrush is blue.",
+   "sayPt": "Minha escova de dentes é azul."
+  },
+  {
+   "emoji": "🪒",
+   "en": "razor",
+   "pt": "lâmina de barbear",
+   "pron": "RÊI-zor",
+   "say": "Dad uses a razor.",
+   "sayPt": "O papai usa a lâmina de barbear."
+  },
+  {
+   "emoji": "🧻",
+   "en": "toilet paper",
+   "pt": "papel higiênico",
+   "pron": "TÓI-let PÊI-per",
+   "say": "We need more toilet paper.",
+   "sayPt": "Precisamos de mais papel higiênico."
+  },
+  {
+   "emoji": "🪣",
+   "en": "bucket",
+   "pt": "balde",
+   "pron": "BÂ-ket",
+   "say": "The bucket has water.",
+   "sayPt": "O balde tem água."
+  },
+  {
+   "emoji": "🪠",
+   "en": "plunger",
+   "pt": "desentupidor",
+   "pron": "PLÂN-djer",
+   "say": "Mom uses the plunger.",
+   "sayPt": "A mamãe usa o desentupidor."
+  },
+  {
+   "emoji": "🪞",
+   "en": "mirror",
+   "pt": "espelho",
+   "pron": "MÍ-ror",
+   "say": "I smile at the mirror.",
+   "sayPt": "Eu sorrio para o espelho."
+  },
+  {
+   "emoji": "🚰",
+   "en": "faucet",
+   "pt": "torneira",
+   "pron": "FÓ-set",
+   "say": "Turn off the faucet.",
+   "sayPt": "Feche a torneira."
+  },
+  {
+   "emoji": "💧",
+   "en": "water",
+   "pt": "água",
+   "pron": "UÓ-ter",
+   "say": "Water is good for me.",
+   "sayPt": "A água faz bem para mim."
+  },
+  {
+   "emoji": "💦",
+   "en": "splash",
+   "pt": "respingo",
+   "pron": "SPLÉX",
+   "say": "Splash! I am all wet.",
+   "sayPt": "Splash! Estou todo molhado."
+  },
+  {
+   "emoji": "🌊",
+   "en": "wave",
+   "pt": "onda",
+   "pron": "UÊIV",
+   "say": "I make a wave in the tub.",
+   "sayPt": "Eu faço uma onda na banheira."
+  },
+  {
+   "emoji": "♨️",
+   "en": "steam",
+   "pt": "vapor",
+   "pron": "STÍM",
+   "say": "The hot water makes steam.",
+   "sayPt": "A água quente faz vapor."
+  },
+  {
+   "emoji": "🧖",
+   "en": "sauna",
+   "pt": "sauna",
+   "pron": "SÓ-na",
+   "say": "The sauna is very hot.",
+   "sayPt": "A sauna é muito quente."
+  },
+  {
+   "emoji": "🧊",
+   "en": "ice",
+   "pt": "gelo",
+   "pron": "ÁIS",
+   "say": "The ice is so cold.",
+   "sayPt": "O gelo é muito gelado."
+  },
+  {
+   "emoji": "🌡️",
+   "en": "thermometer",
+   "pt": "termômetro",
+   "pron": "ther-MÓ-me-ter",
+   "say": "The thermometer says it's warm.",
+   "sayPt": "O termômetro diz que está morno."
+  },
+  {
+   "emoji": "🧺",
+   "en": "basket",
+   "pt": "cesto",
+   "pron": "BÉS-ket",
+   "say": "Put your clothes in the basket.",
+   "sayPt": "Coloque suas roupas no cesto."
+  },
+  {
+   "emoji": "🧹",
+   "en": "broom",
+   "pt": "vassoura",
+   "pron": "BRÚM",
+   "say": "I sweep with the broom.",
+   "sayPt": "Eu varro com a vassoura."
+  },
+  {
+   "emoji": "🗑️",
+   "en": "trash can",
+   "pt": "lixeira",
+   "pron": "TRÉX kén",
+   "say": "Throw it in the trash can.",
+   "sayPt": "Jogue na lixeira."
+  },
+  {
+   "emoji": "🚪",
+   "en": "door",
+   "pt": "porta",
+   "pron": "DÓR",
+   "say": "Close the door, please.",
+   "sayPt": "Feche a porta, por favor."
+  },
+  {
+   "emoji": "🪟",
+   "en": "window",
+   "pt": "janela",
+   "pron": "UÍN-dou",
+   "say": "Open the window.",
+   "sayPt": "Abra a janela."
+  },
+  {
+   "emoji": "🔒",
+   "en": "lock",
+   "pt": "tranca",
+   "pron": "LÓK",
+   "say": "The door has a lock.",
+   "sayPt": "A porta tem uma tranca."
+  },
+  {
+   "emoji": "🪝",
+   "en": "hook",
+   "pt": "gancho",
+   "pron": "RÚK",
+   "say": "My towel is on the hook.",
+   "sayPt": "Minha toalha está no gancho."
+  },
+  {
+   "emoji": "💡",
+   "en": "light",
+   "pt": "luz",
+   "pron": "LÁIT",
+   "say": "Turn on the light.",
+   "sayPt": "Acenda a luz."
+  },
+  {
+   "emoji": "🕯️",
+   "en": "candle",
+   "pt": "vela",
+   "pron": "KÉN-dol",
+   "say": "The candle smells nice.",
+   "sayPt": "A vela tem um cheiro gostoso."
+  },
+  {
+   "emoji": "🩹",
+   "en": "bandage",
+   "pt": "curativo",
+   "pron": "BÉN-didj",
+   "say": "I have a bandage on my knee.",
+   "sayPt": "Eu tenho um curativo no joelho."
+  },
+  {
+   "emoji": "💊",
+   "en": "medicine",
+   "pt": "remédio",
+   "pron": "MÉ-di-sin",
+   "say": "Medicine helps me feel better.",
+   "sayPt": "O remédio me ajuda a melhorar."
+  },
+  {
+   "emoji": "✂️",
+   "en": "scissors",
+   "pt": "tesoura",
+   "pron": "SÍ-zors",
+   "say": "Scissors are not toys.",
+   "sayPt": "Tesoura não é brinquedo."
+  },
+  {
+   "emoji": "🧷",
+   "en": "safety pin",
+   "pt": "alfinete de segurança",
+   "pron": "SÊIF-ti pín",
+   "say": "The safety pin is closed.",
+   "sayPt": "O alfinete de segurança está fechado."
+  },
+  {
+   "emoji": "🦆",
+   "en": "rubber duck",
+   "pt": "patinho de borracha",
+   "pron": "RÂ-ber dâk",
+   "say": "My rubber duck can float.",
+   "sayPt": "Meu patinho de borracha flutua."
+  },
+  {
+   "emoji": "⛵",
+   "en": "boat",
+   "pt": "barquinho",
+   "pron": "BÔUT",
+   "say": "My toy boat sails in the tub.",
+   "sayPt": "Meu barquinho navega na banheira."
+  },
+  {
+   "emoji": "🥤",
+   "en": "cup",
+   "pt": "copo",
+   "pron": "KÂP",
+   "say": "I rinse with a cup of water.",
+   "sayPt": "Eu enxáguo com um copo de água."
+  },
+  {
+   "emoji": "🧤",
+   "en": "glove",
+   "pt": "luva",
+   "pron": "GLÂV",
+   "say": "Mom wears a glove to clean.",
+   "sayPt": "A mamãe usa luva para limpar."
+  },
+  {
+   "emoji": "🥽",
+   "en": "goggles",
+   "pt": "óculos de natação",
+   "pron": "GÓ-gols",
+   "say": "I wear goggles to swim.",
+   "sayPt": "Eu uso óculos para nadar."
+  },
+  {
+   "emoji": "🩱",
+   "en": "swimsuit",
+   "pt": "maiô",
+   "pron": "SUÍM-sut",
+   "say": "My swimsuit is red.",
+   "sayPt": "Meu maiô é vermelho."
+  },
+  {
+   "emoji": "🩲",
+   "en": "underwear",
+   "pt": "cueca",
+   "pron": "ÂN-der-uér",
+   "say": "I put on clean underwear.",
+   "sayPt": "Eu visto uma cueca limpa."
+  },
+  {
+   "emoji": "🧦",
+   "en": "sock",
+   "pt": "meia",
+   "pron": "SÓK",
+   "say": "I lost one sock.",
+   "sayPt": "Eu perdi uma meia."
+  },
+  {
+   "emoji": "👕",
+   "en": "shirt",
+   "pt": "camiseta",
+   "pron": "XÂRT",
+   "say": "My shirt is clean now.",
+   "sayPt": "Minha camiseta está limpa agora."
+  },
+  {
+   "emoji": "🩳",
+   "en": "shorts",
+   "pt": "short",
+   "pron": "XÓRTS",
+   "say": "I wear shorts at home.",
+   "sayPt": "Eu uso short em casa."
+  },
+  {
+   "emoji": "👖",
+   "en": "pants",
+   "pt": "calça",
+   "pron": "PÉNTS",
+   "say": "These pants are dirty.",
+   "sayPt": "Esta calça está suja."
+  },
+  {
+   "emoji": "👗",
+   "en": "dress",
+   "pt": "vestido",
+   "pron": "DRÉS",
+   "say": "Her dress is pink.",
+   "sayPt": "O vestido dela é rosa."
+  },
+  {
+   "emoji": "🩴",
+   "en": "flip-flops",
+   "pt": "chinelo",
+   "pron": "FLÍP-flóps",
+   "say": "I wear flip-flops in the shower.",
+   "sayPt": "Eu uso chinelo no chuveiro."
+  },
+  {
+   "emoji": "🥿",
+   "en": "slipper",
+   "pt": "pantufa",
+   "pron": "SLÍ-per",
+   "say": "My slipper is soft.",
+   "sayPt": "Minha pantufa é macia."
+  },
+  {
+   "emoji": "🎀",
+   "en": "ribbon",
+   "pt": "laço",
+   "pron": "RÍ-bon",
+   "say": "I have a ribbon in my hair.",
+   "sayPt": "Eu tenho um laço no cabelo."
+  },
+  {
+   "emoji": "💄",
+   "en": "lipstick",
+   "pt": "batom",
+   "pron": "LÍP-stik",
+   "say": "Mom's lipstick is red.",
+   "sayPt": "O batom da mamãe é vermelho."
+  },
+  {
+   "emoji": "🦠",
+   "en": "germ",
+   "pt": "germe",
+   "pron": "DJÂRM",
+   "say": "Soap washes the germs away.",
+   "sayPt": "O sabonete tira os germes."
+  },
+  {
+   "emoji": "💩",
+   "en": "poop",
+   "pt": "cocô",
+   "pron": "PÚP",
+   "say": "I go poop in the toilet.",
+   "sayPt": "Eu faço cocô no vaso."
+  },
+  {
+   "emoji": "🤧",
+   "en": "sneeze",
+   "pt": "espirro",
+   "pron": "SNÍZ",
+   "say": "Cover your nose when you sneeze.",
+   "sayPt": "Cubra o nariz quando espirrar."
+  },
+  {
+   "emoji": "😓",
+   "en": "sweat",
+   "pt": "suor",
+   "pron": "SUÉT",
+   "say": "I wash off the sweat.",
+   "sayPt": "Eu lavo o suor."
+  },
+  {
+   "emoji": "🥱",
+   "en": "yawn",
+   "pt": "bocejo",
+   "pron": "IÓN",
+   "say": "A big yawn means bedtime.",
+   "sayPt": "Um bocejo grande quer dizer hora de dormir."
+  },
+  {
+   "emoji": "😁",
+   "en": "smile",
+   "pt": "sorriso",
+   "pron": "SMÁIL",
+   "say": "I have a clean smile.",
+   "sayPt": "Eu tenho um sorriso limpinho."
+  },
+  {
+   "emoji": "💋",
+   "en": "kiss",
+   "pt": "beijo",
+   "pron": "KÍS",
+   "say": "A kiss for good night.",
+   "sayPt": "Um beijo de boa noite."
+  },
+  {
+   "emoji": "🧒",
+   "en": "kid",
+   "pt": "criança",
+   "pron": "KÍD",
+   "say": "The kid splashes in the tub.",
+   "sayPt": "A criança espirra água na banheira."
+  },
+  {
+   "emoji": "👓",
+   "en": "glasses",
+   "pt": "óculos",
+   "pron": "GLÉ-siz",
+   "say": "I take off my glasses.",
+   "sayPt": "Eu tiro os meus óculos."
+  },
+  {
+   "emoji": "🧸",
+   "en": "teddy bear",
+   "pt": "ursinho de pelúcia",
+   "pron": "TÉ-di bér",
+   "say": "My teddy bear needs a bath.",
+   "sayPt": "Meu ursinho precisa de um banho."
+  },
+  {
+   "emoji": "👚",
+   "en": "blouse",
+   "pt": "blusa",
+   "pron": "BLÁUS",
+   "say": "My blouse is on the hook.",
+   "sayPt": "Minha blusa está no gancho."
+  },
+  {
+   "emoji": "👙",
+   "en": "bikini",
+   "pt": "biquíni",
+   "pron": "bi-KÍ-ni",
+   "say": "Her bikini is yellow.",
+   "sayPt": "O biquíni dela é amarelo."
+  },
+  {
+   "emoji": "👶",
+   "en": "baby",
+   "pt": "bebê",
+   "pron": "BÊI-bi",
+   "say": "The baby loves bath time.",
+   "sayPt": "O bebê adora a hora do banho."
+  },
+  {
+   "emoji": "🙂",
+   "en": "face",
+   "pt": "rosto",
+   "pron": "FÊIS",
+   "say": "I wash my face.",
+   "sayPt": "Eu lavo o meu rosto."
+  },
+  {
+   "emoji": "💇",
+   "en": "hair",
+   "pt": "cabelo",
+   "pron": "RÉR",
+   "say": "I wash my hair.",
+   "sayPt": "Eu lavo o meu cabelo."
+  },
+  {
+   "emoji": "🧔",
+   "en": "beard",
+   "pt": "barba",
+   "pron": "BÍRD",
+   "say": "Grandpa has a beard.",
+   "sayPt": "O vovô tem barba."
+  },
+  {
+   "emoji": "👁️",
+   "en": "eye",
+   "pt": "olho",
+   "pron": "ÁI",
+   "say": "Soap in my eye stings.",
+   "sayPt": "Sabão no olho arde."
+  },
+  {
+   "emoji": "👃",
+   "en": "nose",
+   "pt": "nariz",
+   "pron": "NÔUZ",
+   "say": "I blow my nose.",
+   "sayPt": "Eu assoo o nariz."
+  },
+  {
+   "emoji": "👂",
+   "en": "ear",
+   "pt": "orelha",
+   "pron": "ÍR",
+   "say": "I clean my ear.",
+   "sayPt": "Eu limpo a minha orelha."
+  },
+  {
+   "emoji": "👄",
+   "en": "mouth",
+   "pt": "boca",
+   "pron": "MÁUTH",
+   "say": "Open your mouth wide.",
+   "sayPt": "Abra bem a boca."
+  },
+  {
+   "emoji": "🦷",
+   "en": "tooth",
+   "pt": "dente",
+   "pron": "TÚTH",
+   "say": "I brush my teeth every day.",
+   "sayPt": "Eu escovo os dentes todo dia."
+  },
+  {
+   "emoji": "👅",
+   "en": "tongue",
+   "pt": "língua",
+   "pron": "TÂNG",
+   "say": "I brush my tongue too.",
+   "sayPt": "Eu escovo a língua também."
+  },
+  {
+   "emoji": "🧠",
+   "en": "brain",
+   "pt": "cérebro",
+   "pron": "BRÊIN",
+   "say": "My brain helps me think.",
+   "sayPt": "Meu cérebro me ajuda a pensar."
+  },
+  {
+   "emoji": "🫀",
+   "en": "heart",
+   "pt": "coração",
+   "pron": "RÁRT",
+   "say": "My heart goes boom boom.",
+   "sayPt": "Meu coração faz tum tum."
+  },
+  {
+   "emoji": "🫁",
+   "en": "lungs",
+   "pt": "pulmões",
+   "pron": "LÂNGS",
+   "say": "My lungs help me breathe.",
+   "sayPt": "Meus pulmões me ajudam a respirar."
+  },
+  {
+   "emoji": "🦴",
+   "en": "bone",
+   "pt": "osso",
+   "pron": "BÔUN",
+   "say": "My bones make me strong.",
+   "sayPt": "Meus ossos me deixam forte."
+  },
+  {
+   "emoji": "💀",
+   "en": "skull",
+   "pt": "crânio",
+   "pron": "SKÂL",
+   "say": "The skull protects my brain.",
+   "sayPt": "O crânio protege meu cérebro."
+  },
+  {
+   "emoji": "🩸",
+   "en": "blood",
+   "pt": "sangue",
+   "pron": "BLÂD",
+   "say": "Blood is red.",
+   "sayPt": "O sangue é vermelho."
+  },
+  {
+   "emoji": "💪",
+   "en": "arm",
+   "pt": "braço",
+   "pron": "ÁRM",
+   "say": "I wash my arm.",
+   "sayPt": "Eu lavo o meu braço."
+  },
+  {
+   "emoji": "✋",
+   "en": "hand",
+   "pt": "mão",
+   "pron": "RÉND",
+   "say": "Wash your hands with soap.",
+   "sayPt": "Lave as mãos com sabonete."
+  },
+  {
+   "emoji": "👆",
+   "en": "finger",
+   "pt": "dedo",
+   "pron": "FÍN-guer",
+   "say": "I count with my finger.",
+   "sayPt": "Eu conto com o dedo."
+  },
+  {
+   "emoji": "👍",
+   "en": "thumb",
+   "pt": "polegar",
+   "pron": "THÂM",
+   "say": "Thumbs up! I am clean!",
+   "sayPt": "Joinha! Estou limpinho!"
+  },
+  {
+   "emoji": "👊",
+   "en": "fist",
+   "pt": "punho",
+   "pron": "FÍST",
+   "say": "I make a fist.",
+   "sayPt": "Eu fecho a mão."
+  },
+  {
+   "emoji": "💅",
+   "en": "nail",
+   "pt": "unha",
+   "pron": "NÊIL",
+   "say": "I cut my nail.",
+   "sayPt": "Eu corto a minha unha."
+  },
+  {
+   "emoji": "🦵",
+   "en": "leg",
+   "pt": "perna",
+   "pron": "LÉG",
+   "say": "I wash my leg.",
+   "sayPt": "Eu lavo a minha perna."
+  },
+  {
+   "emoji": "🦶",
+   "en": "foot",
+   "pt": "pé",
+   "pron": "FÚT",
+   "say": "My foot is in the water.",
+   "sayPt": "Meu pé está na água."
+  },
+  {
+   "emoji": "👣",
+   "en": "footprint",
+   "pt": "pegada",
+   "pron": "FÚT-print",
+   "say": "A wet footprint on the floor.",
+   "sayPt": "Uma pegada molhada no chão."
+  }
+ ]
+}

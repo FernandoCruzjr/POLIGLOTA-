@@ -2,68 +2,41 @@
 // junto, grave a sua voz e compare. Ninguém escuta além de você e do Kiko.
 import * as store from '../store.js';
 import { icon } from '../icons.js';
-import { esc, toast, coinReward } from '../ui.js';
+import { esc, toast, coinReward, progressBar } from '../ui.js';
 import { speak, stopSpeech, canSpeak } from '../speech.js';
 import { shuffle } from '../quiz-engine.js';
 import { kikoHtml } from '../kiko.js';
-import * as content from '../content.js';
 import '../game.js';
 
-export const SITUATIONS = [
-  { id: 'aeroporto', name: 'Aeroporto e imigração', emoji: '🛂', trips: { thailand: ['c1', 'c10'], usa: ['c1', 'c10'] }, lessons: ['u3l3'] },
-  { id: 'hotel', name: 'Hotel', emoji: '🏨', trips: { thailand: ['c5', 'c9'], usa: ['c3'] }, lessons: [] },
-  { id: 'restaurante', name: 'Restaurante e comida', emoji: '🍽️', trips: { thailand: ['c4'], usa: ['c4'] }, lessons: ['u3l2', 'u2l2'] },
-  { id: 'informacoes', name: 'Pedir informações e transporte', emoji: '🧭', trips: { thailand: ['c3', 'c6'], usa: ['c2', 'c9'] }, lessons: ['u3l1'] },
-  { id: 'emergencias', name: 'Emergências e farmácia', emoji: '🚑', trips: { thailand: ['c8'], usa: ['c7', 'c8'] }, lessons: [] },
-  { id: 'compras', name: 'Compras', emoji: '🛍️', trips: { thailand: ['c6'], usa: ['c6'] }, lessons: ['u2l3'] },
-];
-
-// Frases-escudo: para quando der branco. Valem para todas as situações.
-const SHIELD = [
-  { en: 'Sorry, my English is not very good.', pt: 'Desculpe, meu inglês não é muito bom.' },
-  { en: 'Can you speak slowly, please?', pt: 'Você pode falar devagar, por favor?' },
-  { en: 'Can you say that again, please?', pt: 'Pode repetir, por favor?' },
-  { en: 'How do you say this in English?', pt: 'Como se diz isso em inglês?' },
-];
-
-const V = () => {
-  const f = store.get().profile.gender === 'f';
-  return { p: f ? 'ka' : 'khrap', spouse: f ? 'husband' : 'wife', She: f ? 'He' : 'She', sheLow: f ? 'he' : 'she', herPt: f ? 'his' : 'her', spousePt: f ? 'meu marido' : 'minha esposa', spousePtCap: f ? 'Meu marido' : 'Minha esposa', ElaPt: f ? 'Ele' : 'Ela', aPt: f ? 'o' : 'a', name: (store.get().profile.name || 'Silva').split(' ')[0] };
-};
-const fmt = (t, v) => String(t || '').replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
-
-const tripCache = new Map();
-async function trip(id) {
-  if (!tripCache.has(id)) {
-    const r = await fetch(`data/trips/${id}.json`, { cache: 'no-cache' });
-    tripCache.set(id, r.ok ? await r.json() : null);
-  }
-  return tripCache.get(id);
+// 500 frases de turismo em data/phrases.json (gerado por tools/make_phrases.py).
+let bank = null;
+async function loadBank() {
+  if (bank) return bank;
+  const r = await fetch('data/phrases.json', { cache: 'no-cache' });
+  if (!r.ok) throw new Error('phrases');
+  bank = (await r.json()).situations;
+  return bank;
 }
 
-async function phrasesFor(sit) {
-  const v = V();
-  const out = [];
-  const add = (en, pt) => {
-    const e = fmt(en, v).trim();
-    const words = e.split(/\s+/).length;
-    if (words < 2 || words > 12 || out.some((x) => x.en === e)) return;
-    out.push({ en: e, pt: fmt(pt, v) });
-  };
-  for (const [tid, chs] of Object.entries(sit.trips)) {
-    const t = await trip(tid);
-    if (!t) continue;
-    t.chapters.filter((c) => chs.includes(c.id)).forEach((c) => Object.values(c.nodes).forEach((n) => {
-      if (n.type === 'build') add(n.en, n.pt);
-      if (n.type === 'line' && n.who === 'you') add(n.en, n.pt);
-      if (n.type === 'choice') n.options.filter((o) => o.tone === 'good' && o.lang === 'en' && o.pt).forEach((o) => add(o.text, o.pt));
-    }));
-  }
-  sit.lessons.forEach((id) => {
-    const e = content.findLesson(id);
-    if (e) e.lesson.items.forEach((it) => add(it.en, it.pt));
-  });
-  return out;
+// Progresso de cada frase: quantas vezes treinou e se marcou como difícil.
+const prog = () => store.getFlag('speak.p', {});
+function mark(id, rate) {
+  const all = prog();
+  const cur = all[id] || { n: 0, hard: false };
+  cur.n += 1;
+  cur.hard = rate === 'hard' ? true : rate === 'easy' ? false : cur.hard;
+  cur.last = Date.now();
+  all[id] = cur;
+  store.setFlag('speak.p', all);
+}
+const practiced = (list) => { const pr = prog(); return list.filter((x) => pr[x.id]).length; };
+const hardList = (sits) => { const pr = prog(); return sits.flatMap((s) => s.phrases).filter((x) => pr[x.id] && pr[x.id].hard); };
+
+// Escolhe 10: primeiro as nunca treinadas (mais fáceis antes), depois as difíceis, depois as menos treinadas.
+function pickSession(list, n = 10) {
+  const pr = prog();
+  const score = (x) => (pr[x.id] ? (pr[x.id].hard ? 1 : 2 + pr[x.id].n) : 0) * 10 + (x.level || 1) + Math.random();
+  return [...list].sort((a, b) => score(a) - score(b)).slice(0, n);
 }
 
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9' ]/g, ' ').split(/\s+/).filter(Boolean);
@@ -78,41 +51,88 @@ const canRecord = () => Boolean(navigator.mediaDevices && navigator.mediaDevices
 
 // ---------- Escolher a situação ----------
 
-function renderIndex(root) {
-  const counts = store.getFlag('speak.counts', {});
+async function renderIndex(root) {
+  let sits;
+  try { sits = await loadBank(); } catch (e) { root.innerHTML = '<div class="card empty"><p>Não foi possível carregar as frases.</p></div>'; return null; }
+  const main = sits.filter((x) => x.id !== 'escudo');
+  const total = main.reduce((n, x) => n + x.phrases.length, 0);
+  const done = main.reduce((n, x) => n + practiced(x.phrases), 0);
+  const hard = hardList(sits).length;
   root.innerHTML = `
     <header class="page-head">
       <h1>Treino de fala 🗣️</h1>
-      <p class="muted">Ouça, repita junto e grave a sua voz. Aqui ninguém escuta: só você e o Kiko.</p>
+      <p class="muted">${total} frases de turismo para falar sem travar. Aqui ninguém escuta: só você e o Kiko.</p>
     </header>
     <section class="card sp-intro">
       ${kikoHtml(56)}
       <div>
-        <p><strong>Como treinar (5 minutos):</strong></p>
+        <p><strong>${done} de ${total} frases treinadas</strong></p>
+        ${progressBar(done / total, 'Frases treinadas')}
         <ol class="sp-steps">
           <li>🔊 <strong>Ouça</strong> a frase e leia a tradução.</li>
-          <li>🎧 <strong>Fale junto</strong> com o áudio (chorusing), no mesmo ritmo.</li>
+          <li>🎧 <strong>Fale junto</strong> com o áudio (chorusing).</li>
           <li>🗣️ <strong>Repita logo depois</strong> (shadowing), imitando a melodia.</li>
           <li>🎙️ <strong>Grave</strong> e ouça a sua voz. Compare, sem se julgar!</li>
         </ol>
       </div>
     </section>
     <div class="sp-grid">
-      ${SITUATIONS.map((s) => `<a class="card sp-sit" href="#/fala/${s.id}"><span class="quick-emoji">${s.emoji}</span><strong>${esc(s.name)}</strong><span class="muted small">${counts[s.id] ? `${counts[s.id]} ${counts[s.id] === 1 ? 'treino' : 'treinos'}` : 'Começar'}</span></a>`).join('')}
-      <a class="card sp-sit shield" href="#/fala/escudo"><span class="quick-emoji">🛡️</span><strong>Frases-escudo</strong><span class="muted small">Para quando der branco</span></a>
+      ${sits.map((x) => { const d = practiced(x.phrases); return `<a class="card sp-sit ${x.id === 'escudo' ? 'shield' : ''}" href="#/fala/${x.id}"><span class="quick-emoji">${x.emoji}</span><strong>${esc(x.name)}</strong><span class="muted small">${d}/${x.phrases.length} treinadas</span>${progressBar(d / x.phrases.length, x.name)}</a>`; }).join('')}
+      ${hard ? `<a class="card sp-sit hard" href="#/fala/dificeis/treino"><span class="quick-emoji">😅</span><strong>Minhas difíceis</strong><span class="muted small">${hard} ${hard === 1 ? 'frase' : 'frases'} para repetir</span></a>` : ''}
     </div>`;
   return null;
 }
 
+// ---------- Uma situação: subtemas e lista de frases ----------
+
+async function renderSituation(root, sitId) {
+  let sits;
+  try { sits = await loadBank(); } catch (e) { location.hash = '#/fala'; return null; }
+  const sit = sits.find((x) => x.id === sitId);
+  if (!sit) { location.hash = '#/fala'; return null; }
+  const pr = prog();
+  const subs = [...new Set(sit.phrases.map((x) => x.sub))];
+  const d = practiced(sit.phrases);
+  root.innerHTML = `
+    <a class="back-link" href="#/fala">${icon('back', 18)} Treino de fala</a>
+    <header class="page-head">
+      <h1>${sit.emoji} ${esc(sit.name)}</h1>
+      <p class="muted">${d} de ${sit.phrases.length} frases treinadas.</p>
+    </header>
+    <a class="btn btn-primary btn-lg" href="#/fala/${sit.id}/treino">🗣️ Treinar ${Math.min(10, sit.phrases.length)} frases</a>
+    <p class="muted small">O treino começa pelas frases que você ainda não falou, das mais fáceis para as mais longas.</p>
+    ${subs.map((sub, k) => {
+      const list = sit.phrases.filter((x) => x.sub === sub);
+      return `<section class="card sp-sub">
+        <div class="row-between"><h2>${esc(sub)}</h2><a class="btn btn-soft" href="#/fala/${sit.id}/s${k}">Treinar</a></div>
+        <ul class="sp-list">${list.map((x) => `<li>
+          <button type="button" class="icon-btn speak-btn small-btn" data-say="${esc(x.en)}" aria-label="Ouvir">${icon('speaker', 18)}</button>
+          <span><strong lang="en">${esc(x.en)}</strong>${x.hear ? ' <span class="chip sp-hear">👂 você vai ouvir</span>' : ''}<br><span class="muted">${esc(x.pt)}</span></span>
+          <span class="sp-mark" aria-label="${pr[x.id] ? (pr[x.id].hard ? 'difícil' : 'treinada') : 'nova'}">${pr[x.id] ? (pr[x.id].hard ? '😅' : '✅') : ''}</span>
+        </li>`).join('')}</ul>
+      </section>`;
+    }).join('')}`;
+  const onClick = (e) => { const b = e.target.closest('[data-say]'); if (b) speak(b.dataset.say); };
+  root.addEventListener('click', onClick);
+  return () => { root.removeEventListener('click', onClick); stopSpeech(); };
+}
+
 // ---------- Sessão de treino ----------
 
-async function renderSession(root, sitId) {
-  const sit = sitId === 'escudo' ? { id: 'escudo', name: 'Frases-escudo', emoji: '🛡️' } : SITUATIONS.find((s) => s.id === sitId);
-  if (!sit) { location.hash = '#/fala'; return null; }
-  root.innerHTML = '<p class="muted center">Preparando as frases…</p>';
-  const pool = sit.id === 'escudo' ? SHIELD : await phrasesFor(sit);
-  const items = sit.id === 'escudo' ? pool : shuffle(pool).slice(0, 5);
-  if (!items.length) { toast('Ainda não há frases aqui.'); location.hash = '#/fala'; return null; }
+async function renderSession(root, sitId, mode) {
+  let sits;
+  try { sits = await loadBank(); } catch (e) { location.hash = '#/fala'; return null; }
+  let sit = sits.find((x) => x.id === sitId);
+  let pool;
+  if (sitId === 'dificeis') { sit = { id: 'dificeis', name: 'Minhas difíceis', emoji: '😅' }; pool = hardList(sits); }
+  else if (!sit) { location.hash = '#/fala'; return null; }
+  else if (mode && mode.startsWith('s')) {
+    const sub = [...new Set(sit.phrases.map((x) => x.sub))][Number(mode.slice(1))];
+    pool = sit.phrases.filter((x) => x.sub === sub);
+  } else pool = sit.phrases;
+  const items = pickSession(pool || [], 10);
+  const back = sitId === 'dificeis' ? '#/fala' : `#/fala/${sitId}`;
+  if (!items.length) { toast('Nenhuma frase aqui ainda.'); location.hash = back; return null; }
   const startedAt = Date.now();
   let i = 0;
   let easy = 0;
@@ -135,11 +155,12 @@ async function renderSession(root, sitId) {
     root.innerHTML = `
       <div class="lesson sp">
         <div class="lesson-top">
-          <a class="icon-btn" href="#/fala" aria-label="Sair do treino">${icon('close')}</a>
+          <a class="icon-btn" href="${back}" aria-label="Sair do treino">${icon('close')}</a>
           <p class="eyebrow grow center">${sit.emoji} ${esc(sit.name)}</p>
           <span class="muted small">${i + 1}/${items.length}</span>
         </div>
         <section class="card sp-phrase" aria-live="polite">
+          ${it.hear ? '<span class="chip sp-hear">👂 Frase que você vai ouvir: entenda e responda</span>' : it.sub ? `<span class="chip">${esc(it.sub)}</span>` : ''}
           <p class="sp-en" lang="en">${esc(it.en)}</p>
           <p class="sp-pt">${esc(it.pt)}</p>
         </section>
@@ -226,8 +247,8 @@ async function renderSession(root, sitId) {
         <ul class="kd-learned">${items.map((it) => `<li><span><strong lang="en">${esc(it.en)}</strong><br><span class="muted">${esc(it.pt)}</span></span></li>`).join('')}</ul>
         <p class="muted small">${easy >= items.length - 1 ? 'Achou fácil? Tente sem olhar a frase na próxima!' : 'Repita este treino amanhã: frases difíceis ficam fáceis com repetição.'}</p>
         <div class="stack">
-          <a class="btn btn-primary btn-lg" href="#/fala/${sit.id}?${Date.now()}">Treinar de novo</a>
-          <a class="btn btn-ghost" href="#/fala">Outras situações</a>
+          <a class="btn btn-primary btn-lg" href="#/fala/${sit.id}/${mode || 'treino'}?${Date.now()}">Treinar mais</a>
+          <a class="btn btn-ghost" href="${back}">Voltar</a>
         </div>
       </div>`;
   }
@@ -249,6 +270,7 @@ async function renderSession(root, sitId) {
     if (rate) {
       stopAll();
       if (rate.dataset.rate === 'easy') easy += 1;
+      mark(it.id, rate.dataset.rate);
       if (i < items.length - 1) { i += 1; show(); } else finish();
     }
   }
@@ -257,7 +279,8 @@ async function renderSession(root, sitId) {
   return () => { alive = false; stopAll(); root.removeEventListener('click', onClick); document.body.classList.remove('lesson-mode'); };
 }
 
-export function render(root, { sit }) {
+export function render(root, { sit, mode }) {
   if (!sit) return renderIndex(root);
-  return renderSession(root, sit);
+  if (!mode) return renderSituation(root, sit);
+  return renderSession(root, sit, mode);
 }

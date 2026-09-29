@@ -1,0 +1,1212 @@
+{
+ "items": [
+  {
+   "emoji": "🍇",
+   "en": "grapes",
+   "pt": "uvas",
+   "pron": "GRÊIPS",
+   "say": "I like green grapes.",
+   "sayPt": "Eu gosto de uvas verdes."
+  },
+  {
+   "emoji": "🍈",
+   "en": "melon",
+   "pt": "melão",
+   "pron": "MÉ-lon",
+   "say": "The melon is sweet.",
+   "sayPt": "O melão é doce."
+  },
+  {
+   "emoji": "🍉",
+   "en": "watermelon",
+   "pt": "melancia",
+   "pron": "UÓ-rer-mé-lon",
+   "say": "We eat watermelon in summer.",
+   "sayPt": "Nós comemos melancia no verão."
+  },
+  {
+   "emoji": "🍊",
+   "en": "orange",
+   "pt": "laranja",
+   "pron": "Ó-rindj",
+   "say": "This orange is juicy.",
+   "sayPt": "Esta laranja é suculenta."
+  },
+  {
+   "emoji": "🍋",
+   "en": "lemon",
+   "pt": "limão",
+   "pron": "LÉ-mon",
+   "say": "The lemon is sour.",
+   "sayPt": "O limão é azedo."
+  },
+  {
+   "emoji": "🍌",
+   "en": "banana",
+   "pt": "banana",
+   "pron": "ba-NÉ-na",
+   "say": "The monkey eats a banana.",
+   "sayPt": "O macaco come uma banana."
+  },
+  {
+   "emoji": "🍍",
+   "en": "pineapple",
+   "pt": "abacaxi",
+   "pron": "PÁI-né-pol",
+   "say": "The pineapple is yellow inside.",
+   "sayPt": "O abacaxi é amarelo por dentro."
+  },
+  {
+   "emoji": "🥭",
+   "en": "mango",
+   "pt": "manga",
+   "pron": "MÉN-gou",
+   "say": "I want a mango.",
+   "sayPt": "Eu quero uma manga."
+  },
+  {
+   "emoji": "🍎",
+   "en": "apple",
+   "pt": "maçã",
+   "pron": "É-pol",
+   "say": "I eat an apple every day.",
+   "sayPt": "Eu como uma maçã todo dia."
+  },
+  {
+   "emoji": "🍐",
+   "en": "pear",
+   "pt": "pera",
+   "pron": "PÉR",
+   "say": "The pear is soft.",
+   "sayPt": "A pera é macia."
+  },
+  {
+   "emoji": "🍑",
+   "en": "peach",
+   "pt": "pêssego",
+   "pron": "PÍTCH",
+   "say": "The peach is very sweet.",
+   "sayPt": "O pêssego é muito doce."
+  },
+  {
+   "emoji": "🍒",
+   "en": "cherry",
+   "pt": "cereja",
+   "pron": "TCHÉ-ri",
+   "say": "There is a cherry on the cake.",
+   "sayPt": "Tem uma cereja no bolo."
+  },
+  {
+   "emoji": "🍓",
+   "en": "strawberry",
+   "pt": "morango",
+   "pron": "STRÓ-bé-ri",
+   "say": "I love red strawberries.",
+   "sayPt": "Eu amo morangos vermelhos."
+  },
+  {
+   "emoji": "🫐",
+   "en": "blueberry",
+   "pt": "mirtilo",
+   "pron": "BLU-bé-ri",
+   "say": "Blueberries are small and blue.",
+   "sayPt": "Mirtilos são pequenos e azuis."
+  },
+  {
+   "emoji": "🥝",
+   "en": "kiwi",
+   "pt": "kiwi",
+   "pron": "KÍ-uí",
+   "say": "The kiwi is green inside.",
+   "sayPt": "O kiwi é verde por dentro."
+  },
+  {
+   "emoji": "🍅",
+   "en": "tomato",
+   "pt": "tomate",
+   "pron": "to-MÊI-rou",
+   "say": "Cut the tomato, please.",
+   "sayPt": "Corte o tomate, por favor."
+  },
+  {
+   "emoji": "🫒",
+   "en": "olive",
+   "pt": "azeitona",
+   "pron": "Á-liv",
+   "say": "Dad likes black olives.",
+   "sayPt": "O papai gosta de azeitonas pretas."
+  },
+  {
+   "emoji": "🥥",
+   "en": "coconut",
+   "pt": "coco",
+   "pron": "KÔU-ko-nat",
+   "say": "I drink coconut water.",
+   "sayPt": "Eu bebo água de coco."
+  },
+  {
+   "emoji": "🥑",
+   "en": "avocado",
+   "pt": "abacate",
+   "pron": "é-vo-KÁ-dou",
+   "say": "The avocado is ripe.",
+   "sayPt": "O abacate está maduro."
+  },
+  {
+   "emoji": "🍆",
+   "en": "eggplant",
+   "pt": "berinjela",
+   "pron": "ÉG-plent",
+   "say": "The eggplant is purple.",
+   "sayPt": "A berinjela é roxa."
+  },
+  {
+   "emoji": "🥔",
+   "en": "potato",
+   "pt": "batata",
+   "pron": "po-TÊI-rou",
+   "say": "Mom peels the potato.",
+   "sayPt": "A mamãe descasca a batata."
+  },
+  {
+   "emoji": "🥕",
+   "en": "carrot",
+   "pt": "cenoura",
+   "pron": "KÉ-rot",
+   "say": "Rabbits love carrots.",
+   "sayPt": "Coelhos amam cenouras."
+  },
+  {
+   "emoji": "🌽",
+   "en": "corn",
+   "pt": "milho",
+   "pron": "KÓRN",
+   "say": "We eat corn at the party.",
+   "sayPt": "Nós comemos milho na festa."
+  },
+  {
+   "emoji": "🌶️",
+   "en": "chili",
+   "pt": "pimenta",
+   "pron": "TCHÍ-li",
+   "say": "The chili is very hot.",
+   "sayPt": "A pimenta é muito ardida."
+  },
+  {
+   "emoji": "🫑",
+   "en": "pepper",
+   "pt": "pimentão",
+   "pron": "PÉ-per",
+   "say": "The green pepper is crunchy.",
+   "sayPt": "O pimentão verde é crocante."
+  },
+  {
+   "emoji": "🥒",
+   "en": "cucumber",
+   "pt": "pepino",
+   "pron": "KIÚ-kam-ber",
+   "say": "I put cucumber in the salad.",
+   "sayPt": "Eu coloco pepino na salada."
+  },
+  {
+   "emoji": "🥬",
+   "en": "lettuce",
+   "pt": "alface",
+   "pron": "LÉ-tis",
+   "say": "The lettuce is fresh.",
+   "sayPt": "A alface está fresca."
+  },
+  {
+   "emoji": "🥦",
+   "en": "broccoli",
+   "pt": "brócolis",
+   "pron": "BRÓ-ko-li",
+   "say": "Eat your broccoli!",
+   "sayPt": "Coma seu brócolis!"
+  },
+  {
+   "emoji": "🧄",
+   "en": "garlic",
+   "pt": "alho",
+   "pron": "GÁR-lik",
+   "say": "Garlic has a strong smell.",
+   "sayPt": "O alho tem um cheiro forte."
+  },
+  {
+   "emoji": "🧅",
+   "en": "onion",
+   "pt": "cebola",
+   "pron": "Â-nion",
+   "say": "The onion makes me cry.",
+   "sayPt": "A cebola me faz chorar."
+  },
+  {
+   "emoji": "🍄",
+   "en": "mushroom",
+   "pt": "cogumelo",
+   "pron": "MÂSH-rum",
+   "say": "There are mushrooms on the pizza.",
+   "sayPt": "Tem cogumelos na pizza."
+  },
+  {
+   "emoji": "🍠",
+   "en": "sweet potato",
+   "pt": "batata-doce",
+   "pron": "suít po-TÊI-rou",
+   "say": "I like baked sweet potato.",
+   "sayPt": "Eu gosto de batata-doce assada."
+  },
+  {
+   "emoji": "🥜",
+   "en": "peanut",
+   "pt": "amendoim",
+   "pron": "PÍ-nat",
+   "say": "The elephant eats peanuts.",
+   "sayPt": "O elefante come amendoins."
+  },
+  {
+   "emoji": "🌰",
+   "en": "chestnut",
+   "pt": "castanha",
+   "pron": "TCHÉS-nat",
+   "say": "We roast chestnuts at Christmas.",
+   "sayPt": "Nós assamos castanhas no Natal."
+  },
+  {
+   "emoji": "🌾",
+   "en": "wheat",
+   "pt": "trigo",
+   "pron": "UÍT",
+   "say": "Bread is made from wheat.",
+   "sayPt": "O pão é feito de trigo."
+  },
+  {
+   "emoji": "🌿",
+   "en": "herb",
+   "pt": "erva",
+   "pron": "ÊRB",
+   "say": "Add a fresh herb to the soup.",
+   "sayPt": "Coloque uma erva fresca na sopa."
+  },
+  {
+   "emoji": "🎃",
+   "en": "pumpkin",
+   "pt": "abóbora",
+   "pron": "PÂMP-kin",
+   "say": "The pumpkin is big and orange.",
+   "sayPt": "A abóbora é grande e laranja."
+  },
+  {
+   "emoji": "🍞",
+   "en": "bread",
+   "pt": "pão",
+   "pron": "BRÉD",
+   "say": "I want bread with butter.",
+   "sayPt": "Eu quero pão com manteiga."
+  },
+  {
+   "emoji": "🥐",
+   "en": "croissant",
+   "pt": "croissant",
+   "pron": "kro-SÁNT",
+   "say": "The croissant is warm.",
+   "sayPt": "O croissant está quentinho."
+  },
+  {
+   "emoji": "🥖",
+   "en": "baguette",
+   "pt": "baguete",
+   "pron": "bé-GUÉT",
+   "say": "Dad buys a baguette.",
+   "sayPt": "O papai compra uma baguete."
+  },
+  {
+   "emoji": "🫓",
+   "en": "flatbread",
+   "pt": "pão sírio",
+   "pron": "FLÉT-bréd",
+   "say": "The flatbread is thin.",
+   "sayPt": "O pão sírio é fino."
+  },
+  {
+   "emoji": "🥨",
+   "en": "pretzel",
+   "pt": "pretzel",
+   "pron": "PRÉT-zel",
+   "say": "The pretzel is salty.",
+   "sayPt": "O pretzel é salgado."
+  },
+  {
+   "emoji": "🥯",
+   "en": "bagel",
+   "pt": "bagel",
+   "pron": "BÊI-gol",
+   "say": "I eat a bagel for breakfast.",
+   "sayPt": "Eu como um bagel no café da manhã."
+  },
+  {
+   "emoji": "🥞",
+   "en": "pancake",
+   "pt": "panqueca",
+   "pron": "PÉN-kêik",
+   "say": "Grandma makes pancakes.",
+   "sayPt": "A vovó faz panquecas."
+  },
+  {
+   "emoji": "🧇",
+   "en": "waffle",
+   "pt": "waffle",
+   "pron": "UÓ-fol",
+   "say": "The waffle has honey on top.",
+   "sayPt": "O waffle tem mel por cima."
+  },
+  {
+   "emoji": "🧀",
+   "en": "cheese",
+   "pt": "queijo",
+   "pron": "TXIIZ",
+   "say": "The mouse loves cheese.",
+   "sayPt": "O rato ama queijo."
+  },
+  {
+   "emoji": "🥚",
+   "en": "egg",
+   "pt": "ovo",
+   "pron": "ÉG",
+   "say": "The egg is in the fridge.",
+   "sayPt": "O ovo está na geladeira."
+  },
+  {
+   "emoji": "🍖",
+   "en": "meat",
+   "pt": "carne",
+   "pron": "MÍIT",
+   "say": "The dog wants the meat.",
+   "sayPt": "O cachorro quer a carne."
+  },
+  {
+   "emoji": "🍗",
+   "en": "chicken",
+   "pt": "frango",
+   "pron": "TCHÍ-ken",
+   "say": "We have chicken for lunch.",
+   "sayPt": "Nós comemos frango no almoço."
+  },
+  {
+   "emoji": "🥩",
+   "en": "steak",
+   "pt": "bife",
+   "pron": "STÊIK",
+   "say": "The steak is on the grill.",
+   "sayPt": "O bife está na grelha."
+  },
+  {
+   "emoji": "🥓",
+   "en": "bacon",
+   "pt": "bacon",
+   "pron": "BÊI-kon",
+   "say": "I smell bacon!",
+   "sayPt": "Estou sentindo cheiro de bacon!"
+  },
+  {
+   "emoji": "🐟",
+   "en": "fish",
+   "pt": "peixe",
+   "pron": "FÍSH",
+   "say": "We cook fish on Friday.",
+   "sayPt": "Nós cozinhamos peixe na sexta-feira."
+  },
+  {
+   "emoji": "🦐",
+   "en": "shrimp",
+   "pt": "camarão",
+   "pron": "SHRÍMP",
+   "say": "The shrimp is pink.",
+   "sayPt": "O camarão é rosa."
+  },
+  {
+   "emoji": "🍤",
+   "en": "fried shrimp",
+   "pt": "camarão frito",
+   "pron": "fráid SHRÍMP",
+   "say": "I love fried shrimp.",
+   "sayPt": "Eu amo camarão frito."
+  },
+  {
+   "emoji": "🦀",
+   "en": "crab",
+   "pt": "caranguejo",
+   "pron": "KRÉB",
+   "say": "The crab has big claws.",
+   "sayPt": "O caranguejo tem garras grandes."
+  },
+  {
+   "emoji": "🦞",
+   "en": "lobster",
+   "pt": "lagosta",
+   "pron": "LÓBS-ter",
+   "say": "The lobster is red.",
+   "sayPt": "A lagosta é vermelha."
+  },
+  {
+   "emoji": "🦑",
+   "en": "squid",
+   "pt": "lula",
+   "pron": "SKUÍD",
+   "say": "Fried squid is tasty.",
+   "sayPt": "Lula frita é gostosa."
+  },
+  {
+   "emoji": "🐙",
+   "en": "octopus",
+   "pt": "polvo",
+   "pron": "ÓK-to-pus",
+   "say": "The octopus has eight arms.",
+   "sayPt": "O polvo tem oito braços."
+  },
+  {
+   "emoji": "🦪",
+   "en": "oyster",
+   "pt": "ostra",
+   "pron": "ÓIS-ter",
+   "say": "The oyster lives in the sea.",
+   "sayPt": "A ostra vive no mar."
+  },
+  {
+   "emoji": "🦃",
+   "en": "turkey",
+   "pt": "peru",
+   "pron": "TÊR-ki",
+   "say": "We eat turkey at Christmas.",
+   "sayPt": "Nós comemos peru no Natal."
+  },
+  {
+   "emoji": "🍔",
+   "en": "hamburger",
+   "pt": "hambúrguer",
+   "pron": "RÉM-bêr-guer",
+   "say": "I want a big hamburger.",
+   "sayPt": "Eu quero um hambúrguer grande."
+  },
+  {
+   "emoji": "🍟",
+   "en": "fries",
+   "pt": "batata frita",
+   "pron": "FRÁIZ",
+   "say": "The fries are hot.",
+   "sayPt": "As batatas fritas estão quentes."
+  },
+  {
+   "emoji": "🍕",
+   "en": "pizza",
+   "pt": "pizza",
+   "pron": "PÍT-sa",
+   "say": "Let's eat pizza tonight!",
+   "sayPt": "Vamos comer pizza hoje à noite!"
+  },
+  {
+   "emoji": "🌭",
+   "en": "hot dog",
+   "pt": "cachorro-quente",
+   "pron": "RÓT-dóg",
+   "say": "He eats a hot dog.",
+   "sayPt": "Ele come um cachorro-quente."
+  },
+  {
+   "emoji": "🥪",
+   "en": "sandwich",
+   "pt": "sanduíche",
+   "pron": "SÉN-uitch",
+   "say": "My sandwich has cheese.",
+   "sayPt": "Meu sanduíche tem queijo."
+  },
+  {
+   "emoji": "🌮",
+   "en": "taco",
+   "pt": "taco",
+   "pron": "TÁ-kou",
+   "say": "The taco is crunchy.",
+   "sayPt": "O taco é crocante."
+  },
+  {
+   "emoji": "🌯",
+   "en": "burrito",
+   "pt": "burrito",
+   "pron": "bu-RÍ-rou",
+   "say": "The burrito is very big.",
+   "sayPt": "O burrito é muito grande."
+  },
+  {
+   "emoji": "🫔",
+   "en": "tamale",
+   "pt": "pamonha",
+   "pron": "ta-MÁ-li",
+   "say": "Grandma makes tamales.",
+   "sayPt": "A vovó faz pamonhas."
+  },
+  {
+   "emoji": "🥙",
+   "en": "kebab",
+   "pt": "kebab",
+   "pron": "ke-BÁB",
+   "say": "The kebab smells good.",
+   "sayPt": "O kebab tem um cheiro bom."
+  },
+  {
+   "emoji": "🧆",
+   "en": "falafel",
+   "pt": "falafel",
+   "pron": "fa-LÁ-fol",
+   "say": "Falafel is made of chickpeas.",
+   "sayPt": "O falafel é feito de grão-de-bico."
+  },
+  {
+   "emoji": "🥗",
+   "en": "salad",
+   "pt": "salada",
+   "pron": "SÉ-lad",
+   "say": "The salad is green.",
+   "sayPt": "A salada é verde."
+  },
+  {
+   "emoji": "🍲",
+   "en": "soup",
+   "pt": "sopa",
+   "pron": "SÚP",
+   "say": "The soup is hot.",
+   "sayPt": "A sopa está quente."
+  },
+  {
+   "emoji": "🥘",
+   "en": "stew",
+   "pt": "ensopado",
+   "pron": "STÚ",
+   "say": "Mom makes a chicken stew.",
+   "sayPt": "A mamãe faz um ensopado de frango."
+  },
+  {
+   "emoji": "🫕",
+   "en": "fondue",
+   "pt": "fondue",
+   "pron": "fon-DÚ",
+   "say": "We dip bread in the fondue.",
+   "sayPt": "Nós molhamos pão no fondue."
+  },
+  {
+   "emoji": "🍚",
+   "en": "rice",
+   "pt": "arroz",
+   "pron": "RÁIS",
+   "say": "I eat rice and beans.",
+   "sayPt": "Eu como arroz e feijão."
+  },
+  {
+   "emoji": "🍙",
+   "en": "rice ball",
+   "pt": "bolinho de arroz",
+   "pron": "RÁIS-ból",
+   "say": "The rice ball is in my lunch.",
+   "sayPt": "O bolinho de arroz está no meu lanche."
+  },
+  {
+   "emoji": "🍘",
+   "en": "rice cracker",
+   "pt": "biscoito de arroz",
+   "pron": "RÁIS-kré-ker",
+   "say": "The rice cracker is crunchy.",
+   "sayPt": "O biscoito de arroz é crocante."
+  },
+  {
+   "emoji": "🍛",
+   "en": "curry",
+   "pt": "curry",
+   "pron": "KÊ-ri",
+   "say": "The curry is yellow.",
+   "sayPt": "O curry é amarelo."
+  },
+  {
+   "emoji": "🍜",
+   "en": "noodles",
+   "pt": "macarrão",
+   "pron": "NÚ-dols",
+   "say": "I eat noodles with chopsticks.",
+   "sayPt": "Eu como macarrão com hashi."
+  },
+  {
+   "emoji": "🍝",
+   "en": "spaghetti",
+   "pt": "espaguete",
+   "pron": "spa-GUÉ-ri",
+   "say": "Spaghetti is my favorite food.",
+   "sayPt": "Espaguete é minha comida favorita."
+  },
+  {
+   "emoji": "🍣",
+   "en": "sushi",
+   "pt": "sushi",
+   "pron": "SÚ-shi",
+   "say": "We eat sushi on Sunday.",
+   "sayPt": "Nós comemos sushi no domingo."
+  },
+  {
+   "emoji": "🥟",
+   "en": "dumpling",
+   "pt": "guioza",
+   "pron": "DÂMP-ling",
+   "say": "The dumpling is hot.",
+   "sayPt": "O guioza está quente."
+  },
+  {
+   "emoji": "🍢",
+   "en": "skewer",
+   "pt": "espetinho",
+   "pron": "SKIÚ-er",
+   "say": "The skewer is on the grill.",
+   "sayPt": "O espetinho está na grelha."
+  },
+  {
+   "emoji": "🍱",
+   "en": "lunch box",
+   "pt": "marmita",
+   "pron": "LÂNTCH-bóks",
+   "say": "My lunch box is full.",
+   "sayPt": "Minha marmita está cheia."
+  },
+  {
+   "emoji": "🥡",
+   "en": "takeout",
+   "pt": "comida para viagem",
+   "pron": "TÊIK-aut",
+   "say": "We order takeout tonight.",
+   "sayPt": "Nós pedimos comida para viagem hoje."
+  },
+  {
+   "emoji": "🍿",
+   "en": "popcorn",
+   "pt": "pipoca",
+   "pron": "PÓP-korn",
+   "say": "We eat popcorn at the movies.",
+   "sayPt": "Nós comemos pipoca no cinema."
+  },
+  {
+   "emoji": "🧂",
+   "en": "salt",
+   "pt": "sal",
+   "pron": "SÓLT",
+   "say": "Pass the salt, please.",
+   "sayPt": "Passe o sal, por favor."
+  },
+  {
+   "emoji": "🧈",
+   "en": "butter",
+   "pt": "manteiga",
+   "pron": "BÂ-rer",
+   "say": "Put butter on the bread.",
+   "sayPt": "Passe manteiga no pão."
+  },
+  {
+   "emoji": "🍯",
+   "en": "honey",
+   "pt": "mel",
+   "pron": "RÂ-ni",
+   "say": "Bees make honey.",
+   "sayPt": "As abelhas fazem mel."
+  },
+  {
+   "emoji": "🥫",
+   "en": "can",
+   "pt": "lata",
+   "pron": "KÉN",
+   "say": "Open the can, please.",
+   "sayPt": "Abra a lata, por favor."
+  },
+  {
+   "emoji": "🍦",
+   "en": "cone",
+   "pt": "casquinha",
+   "pron": "KÔUN",
+   "say": "I want a vanilla cone.",
+   "sayPt": "Eu quero uma casquinha de baunilha."
+  },
+  {
+   "emoji": "🍧",
+   "en": "shaved ice",
+   "pt": "raspadinha",
+   "pron": "shêivd ÁIS",
+   "say": "Shaved ice is cold.",
+   "sayPt": "A raspadinha é gelada."
+  },
+  {
+   "emoji": "🍨",
+   "en": "ice cream",
+   "pt": "sorvete",
+   "pron": "ÁIS-krím",
+   "say": "I love chocolate ice cream.",
+   "sayPt": "Eu amo sorvete de chocolate."
+  },
+  {
+   "emoji": "🍩",
+   "en": "donut",
+   "pt": "rosquinha",
+   "pron": "DÔU-nat",
+   "say": "The donut has sprinkles.",
+   "sayPt": "A rosquinha tem granulado."
+  },
+  {
+   "emoji": "🍪",
+   "en": "cookie",
+   "pt": "biscoito",
+   "pron": "KÚ-ki",
+   "say": "Can I have a cookie?",
+   "sayPt": "Posso comer um biscoito?"
+  },
+  {
+   "emoji": "🥠",
+   "en": "fortune cookie",
+   "pt": "biscoito da sorte",
+   "pron": "FÓR-tchun-ku-ki",
+   "say": "Open your fortune cookie!",
+   "sayPt": "Abra seu biscoito da sorte!"
+  },
+  {
+   "emoji": "🎂",
+   "en": "birthday cake",
+   "pt": "bolo de aniversário",
+   "pron": "BÊRS-dêi-kêik",
+   "say": "The birthday cake has candles.",
+   "sayPt": "O bolo de aniversário tem velas."
+  },
+  {
+   "emoji": "🍰",
+   "en": "cake",
+   "pt": "bolo",
+   "pron": "KÊIK",
+   "say": "This cake is delicious.",
+   "sayPt": "Este bolo está delicioso."
+  },
+  {
+   "emoji": "🧁",
+   "en": "cupcake",
+   "pt": "bolinho",
+   "pron": "KÂP-kêik",
+   "say": "The cupcake is pink.",
+   "sayPt": "O bolinho é cor-de-rosa."
+  },
+  {
+   "emoji": "🥧",
+   "en": "pie",
+   "pt": "torta",
+   "pron": "PÁI",
+   "say": "Grandma bakes an apple pie.",
+   "sayPt": "A vovó assa uma torta de maçã."
+  },
+  {
+   "emoji": "🍫",
+   "en": "chocolate",
+   "pt": "chocolate",
+   "pron": "TCHÓK-let",
+   "say": "I share my chocolate.",
+   "sayPt": "Eu divido meu chocolate."
+  },
+  {
+   "emoji": "🍬",
+   "en": "candy",
+   "pt": "bala",
+   "pron": "KÉN-di",
+   "say": "Only one candy, please.",
+   "sayPt": "Só uma bala, por favor."
+  },
+  {
+   "emoji": "🍭",
+   "en": "lollipop",
+   "pt": "pirulito",
+   "pron": "LÓ-li-póp",
+   "say": "The lollipop is round.",
+   "sayPt": "O pirulito é redondo."
+  },
+  {
+   "emoji": "🍮",
+   "en": "pudding",
+   "pt": "pudim",
+   "pron": "PÚ-ding",
+   "say": "Mom makes pudding on Sunday.",
+   "sayPt": "A mamãe faz pudim no domingo."
+  },
+  {
+   "emoji": "🥛",
+   "en": "milk",
+   "pt": "leite",
+   "pron": "MÍLK",
+   "say": "I drink milk at night.",
+   "sayPt": "Eu bebo leite à noite."
+  },
+  {
+   "emoji": "🍼",
+   "en": "baby bottle",
+   "pt": "mamadeira",
+   "pron": "BÊI-bi-bó-rol",
+   "say": "The baby bottle is warm.",
+   "sayPt": "A mamadeira está morna."
+  },
+  {
+   "emoji": "☕",
+   "en": "coffee",
+   "pt": "café",
+   "pron": "KÓ-fi",
+   "say": "Dad drinks coffee every morning.",
+   "sayPt": "O papai toma café toda manhã."
+  },
+  {
+   "emoji": "🫖",
+   "en": "teapot",
+   "pt": "bule",
+   "pron": "TÍ-pót",
+   "say": "The teapot is hot.",
+   "sayPt": "O bule está quente."
+  },
+  {
+   "emoji": "🍵",
+   "en": "tea",
+   "pt": "chá",
+   "pron": "TÍ",
+   "say": "Grandma drinks green tea.",
+   "sayPt": "A vovó toma chá verde."
+  },
+  {
+   "emoji": "🧃",
+   "en": "juice",
+   "pt": "suco",
+   "pron": "DJÚS",
+   "say": "I want orange juice.",
+   "sayPt": "Eu quero suco de laranja."
+  },
+  {
+   "emoji": "🥤",
+   "en": "soda",
+   "pt": "refrigerante",
+   "pron": "SÔU-da",
+   "say": "Too much soda is bad.",
+   "sayPt": "Refrigerante demais faz mal."
+  },
+  {
+   "emoji": "🧋",
+   "en": "bubble tea",
+   "pt": "chá com bolinhas",
+   "pron": "BÂ-bol-tí",
+   "say": "My sister loves bubble tea.",
+   "sayPt": "Minha irmã ama chá com bolinhas."
+  },
+  {
+   "emoji": "🧉",
+   "en": "mate",
+   "pt": "chimarrão",
+   "pron": "MÁ-tei",
+   "say": "Grandpa drinks mate in the morning.",
+   "sayPt": "O vovô toma chimarrão de manhã."
+  },
+  {
+   "emoji": "🧊",
+   "en": "ice",
+   "pt": "gelo",
+   "pron": "ÁIS",
+   "say": "Put ice in my juice.",
+   "sayPt": "Coloque gelo no meu suco."
+  },
+  {
+   "emoji": "💧",
+   "en": "water",
+   "pt": "água",
+   "pron": "UÓ-rer",
+   "say": "Drink water, please.",
+   "sayPt": "Beba água, por favor."
+  },
+  {
+   "emoji": "🥃",
+   "en": "glass",
+   "pt": "copo",
+   "pron": "GLÉS",
+   "say": "The glass is empty.",
+   "sayPt": "O copo está vazio."
+  },
+  {
+   "emoji": "🍽️",
+   "en": "plate",
+   "pt": "prato",
+   "pron": "PLÊIT",
+   "say": "Put the plate on the table.",
+   "sayPt": "Coloque o prato na mesa."
+  },
+  {
+   "emoji": "🍴",
+   "en": "fork",
+   "pt": "garfo",
+   "pron": "FÓRK",
+   "say": "I eat with a fork.",
+   "sayPt": "Eu como com um garfo."
+  },
+  {
+   "emoji": "🥄",
+   "en": "spoon",
+   "pt": "colher",
+   "pron": "SPÚN",
+   "say": "I eat soup with a spoon.",
+   "sayPt": "Eu tomo sopa com uma colher."
+  },
+  {
+   "emoji": "🔪",
+   "en": "knife",
+   "pt": "faca",
+   "pron": "NÁIF",
+   "say": "The knife is sharp.",
+   "sayPt": "A faca é afiada."
+  },
+  {
+   "emoji": "🥢",
+   "en": "chopsticks",
+   "pt": "hashi",
+   "pron": "TCHÓP-stiks",
+   "say": "I use chopsticks for sushi.",
+   "sayPt": "Eu uso hashi para comer sushi."
+  },
+  {
+   "emoji": "🍳",
+   "en": "pan",
+   "pt": "frigideira",
+   "pron": "PÉN",
+   "say": "Mom fries eggs in the pan.",
+   "sayPt": "A mamãe frita ovos na frigideira."
+  },
+  {
+   "emoji": "🥣",
+   "en": "bowl",
+   "pt": "tigela",
+   "pron": "BÔUL",
+   "say": "My cereal is in the bowl.",
+   "sayPt": "Meu cereal está na tigela."
+  },
+  {
+   "emoji": "🏺",
+   "en": "jar",
+   "pt": "jarro",
+   "pron": "DJÁR",
+   "say": "The jar is very old.",
+   "sayPt": "O jarro é muito antigo."
+  },
+  {
+   "emoji": "🧺",
+   "en": "basket",
+   "pt": "cesta",
+   "pron": "BÉS-ket",
+   "say": "The fruit is in the basket.",
+   "sayPt": "A fruta está na cesta."
+  },
+  {
+   "emoji": "🧽",
+   "en": "sponge",
+   "pt": "esponja",
+   "pron": "SPÂNDJ",
+   "say": "Wash the dishes with a sponge.",
+   "sayPt": "Lave a louça com uma esponja."
+  },
+  {
+   "emoji": "🧼",
+   "en": "soap",
+   "pt": "sabão",
+   "pron": "SÔUP",
+   "say": "Wash your hands with soap.",
+   "sayPt": "Lave as mãos com sabão."
+  },
+  {
+   "emoji": "🧻",
+   "en": "paper towel",
+   "pt": "papel-toalha",
+   "pron": "PÊI-per-táu-el",
+   "say": "Use a paper towel, please.",
+   "sayPt": "Use um papel-toalha, por favor."
+  },
+  {
+   "emoji": "🪣",
+   "en": "bucket",
+   "pt": "balde",
+   "pron": "BÂ-ket",
+   "say": "The bucket is full of water.",
+   "sayPt": "O balde está cheio de água."
+  },
+  {
+   "emoji": "🧹",
+   "en": "broom",
+   "pt": "vassoura",
+   "pron": "BRÚM",
+   "say": "Sweep the floor with the broom.",
+   "sayPt": "Varra o chão com a vassoura."
+  },
+  {
+   "emoji": "🗑️",
+   "en": "trash can",
+   "pt": "lixeira",
+   "pron": "TRÉSH-kén",
+   "say": "Put it in the trash can.",
+   "sayPt": "Coloque na lixeira."
+  },
+  {
+   "emoji": "🚰",
+   "en": "faucet",
+   "pt": "torneira",
+   "pron": "FÓ-set",
+   "say": "Turn off the faucet.",
+   "sayPt": "Feche a torneira."
+  },
+  {
+   "emoji": "🔥",
+   "en": "fire",
+   "pt": "fogo",
+   "pron": "FÁI-er",
+   "say": "Don't touch the fire!",
+   "sayPt": "Não toque no fogo!"
+  },
+  {
+   "emoji": "⏲️",
+   "en": "timer",
+   "pt": "cronômetro",
+   "pron": "TÁI-mer",
+   "say": "The timer is ringing.",
+   "sayPt": "O cronômetro está tocando."
+  },
+  {
+   "emoji": "⚖️",
+   "en": "scale",
+   "pt": "balança",
+   "pron": "SKÊIL",
+   "say": "Put the flour on the scale.",
+   "sayPt": "Coloque a farinha na balança."
+  },
+  {
+   "emoji": "🌡️",
+   "en": "thermometer",
+   "pt": "termômetro",
+   "pron": "ter-MÓ-mi-ter",
+   "say": "The thermometer is in the oven.",
+   "sayPt": "O termômetro está no forno."
+  },
+  {
+   "emoji": "🔌",
+   "en": "plug",
+   "pt": "plugue",
+   "pron": "PLÂG",
+   "say": "Don't touch the plug!",
+   "sayPt": "Não toque no plugue!"
+  },
+  {
+   "emoji": "💡",
+   "en": "light bulb",
+   "pt": "lâmpada",
+   "pron": "LÁIT-bâlb",
+   "say": "The light bulb is on.",
+   "sayPt": "A lâmpada está acesa."
+  },
+  {
+   "emoji": "🪑",
+   "en": "chair",
+   "pt": "cadeira",
+   "pron": "TCHÉR",
+   "say": "Sit on the chair, please.",
+   "sayPt": "Sente na cadeira, por favor."
+  },
+  {
+   "emoji": "🪟",
+   "en": "window",
+   "pt": "janela",
+   "pron": "UÍN-dou",
+   "say": "Open the kitchen window.",
+   "sayPt": "Abra a janela da cozinha."
+  },
+  {
+   "emoji": "🚪",
+   "en": "door",
+   "pt": "porta",
+   "pron": "DÓR",
+   "say": "Close the door, please.",
+   "sayPt": "Feche a porta, por favor."
+  },
+  {
+   "emoji": "🛒",
+   "en": "cart",
+   "pt": "carrinho de compras",
+   "pron": "KÁRT",
+   "say": "The cart is full of food.",
+   "sayPt": "O carrinho de compras está cheio de comida."
+  },
+  {
+   "emoji": "🛍️",
+   "en": "bag",
+   "pt": "sacola",
+   "pron": "BÉG",
+   "say": "The bag has fruit inside.",
+   "sayPt": "A sacola tem frutas dentro."
+  },
+  {
+   "emoji": "🧾",
+   "en": "receipt",
+   "pt": "nota fiscal",
+   "pron": "ri-SÍIT",
+   "say": "Keep the receipt.",
+   "sayPt": "Guarde a nota fiscal."
+  },
+  {
+   "emoji": "📦",
+   "en": "box",
+   "pt": "caixa",
+   "pron": "BÓKS",
+   "say": "The box is on the table.",
+   "sayPt": "A caixa está na mesa."
+  },
+  {
+   "emoji": "🧤",
+   "en": "gloves",
+   "pt": "luvas",
+   "pron": "GLÂVS",
+   "say": "Use gloves to wash the dishes.",
+   "sayPt": "Use luvas para lavar a louça."
+  },
+  {
+   "emoji": "🕯️",
+   "en": "candle",
+   "pt": "vela",
+   "pron": "KÉN-dol",
+   "say": "Blow out the candle!",
+   "sayPt": "Assopre a vela!"
+  },
+  {
+   "emoji": "🧑‍🍳",
+   "en": "cook",
+   "pt": "cozinheiro",
+   "pron": "KÚK",
+   "say": "The cook makes soup.",
+   "sayPt": "O cozinheiro faz sopa."
+  },
+  {
+   "emoji": "🧲",
+   "en": "magnet",
+   "pt": "ímã",
+   "pron": "MÉG-net",
+   "say": "The magnet is on the fridge.",
+   "sayPt": "O ímã está na geladeira."
+  },
+  {
+   "emoji": "🕰️",
+   "en": "clock",
+   "pt": "relógio",
+   "pron": "KLÓK",
+   "say": "The clock is on the wall.",
+   "sayPt": "O relógio está na parede."
+  },
+  {
+   "emoji": "📖",
+   "en": "recipe",
+   "pt": "receita",
+   "pron": "RÉ-si-pi",
+   "say": "Read the recipe first.",
+   "sayPt": "Leia a receita primeiro."
+  }
+ ]
+}
