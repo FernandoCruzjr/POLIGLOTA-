@@ -30,6 +30,8 @@ js/views/*.js         telas: início, aprender, lição, vocabulário, quiz/revi
 img/                  mascote, ícone e imagem da tela de login
 data/vocab/           categories.json + um arquivo por categoria
 tools/check-vocab.mjs confere o banco e atualiza categories.json
+tools/story_*.py      histórias ramificadas (gera data/trips/*.json e valida os caminhos)
+data/trips/           viagens: index.json + um arquivo por destino
 data/course.json      níveis → unidades → lições → itens (en, pt, pron, note, audio opcional)
 supabase/schema.sql   tabelas en_* com segurança por usuário (RLS)
 ```
@@ -54,6 +56,7 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **Quiz com ícone** (1.682 palavras com emoji; as demais usam o emoji da categoria), revisão espaçada (1, 3, 7 e 21 dias; erro volta em 10 min)
 - [x] **Ranking** geral e da semana (função `en_ranking` no schema.sql)
 - [x] **Sala de quiz ao vivo** com código de 4 letras (Supabase Realtime, sem tabelas)
+- [x] **Viagem ✈️ — Aventura na Tailândia**: 10 capítulos narrados pelo Kiko, com escolhas que ramificam a história, vários finais, dicas culturais, explicações, lacunas, monte a frase, narração em português e animações
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
 
@@ -62,3 +65,12 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - **Ranking:** rode de novo o `supabase/schema.sql` inteiro (ele só acrescenta; não apaga nada).
 - **Sala ao vivo:** usa o Realtime do Supabase, que já vem ligado. Se em Realtime → Settings estiver marcado para aceitar só canais privados, desmarque.
 - **Login com Google (opcional):** crie credenciais OAuth no Google Cloud, ative em Supabase → Authentication → Sign In / Providers → Google, e mude `GOOGLE_LOGIN_ENABLED` para `true` em `js/config.js`. Enquanto estiver `false`, o botão não aparece.
+
+## Escrever histórias de viagem
+
+As histórias ficam em `tools/story_thailand.py`, numa mini-linguagem simples (`tools/story_dsl.py`):
+`N()` narração do Kiko, `T()` fala de outra pessoa, `Y()` sua fala, `TIP()` dica cultural, `EX()` explicação,
+`C()` escolha (cada opção `O()` pode levar a outro trecho com `go=`), `G()` lacuna, `B()` monte a frase,
+`GO()` salto e `END()` final. Depois de editar, rode `python3 tools/story_thailand.py`: ele recria o JSON e
+avisa se algum caminho ficou sem saída ou algum trecho ficou inalcançável.
+Marcadores trocados conforme o jogador: `{p}` khrap/ka, `{spouse}` wife/husband, `{She}`, `{spousePt}`, `{ElaPt}`, `{aPt}`, `{name}`.

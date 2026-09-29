@@ -13,6 +13,7 @@ import * as quiz from './views/quiz.js';
 import * as play from './views/play.js';
 import * as ranking from './views/ranking.js';
 import * as room from './views/room.js';
+import * as trip from './views/trip.js';
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -25,6 +26,8 @@ const ROUTES = [
   { re: /^#\/vocabulario\/([\w-]+)\/estudar(?:\?\d*)?$/, nav: 'vocabulario', title: 'Estudar palavras', view: vocabView, focusless: true, params: (m) => ({ mode: 'study', cat: m[1] }) },
   { re: /^#\/revisao(?:\?\d*)?$/, nav: 'revisao', title: 'Revisão', view: quiz, focusless: true, params: () => ({ mode: 'review' }) },
   { re: /^#\/quiz\/([\w-]+)(?:\?\d*)?$/, nav: 'jogar', title: 'Quiz', view: quiz, focusless: true, params: (m) => ({ mode: 'category', cat: m[1] }) },
+  { re: /^#\/viagem$/, nav: 'viagem', title: 'Viagem', view: trip, params: () => ({}) },
+  { re: /^#\/viagem\/([\w-]+)\/([\w-]+)(?:\?\d*)?$/, nav: 'viagem', title: 'Viagem', view: trip, focusless: true, params: (m) => ({ trip: m[1], chapter: m[2] }) },
   { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },
   { re: /^#\/ranking$/, nav: 'ranking', title: 'Ranking', view: ranking, noRefresh: true },
   { re: /^#\/sala$/, nav: 'jogar', title: 'Sala de quiz', view: room, noRefresh: true, params: () => ({}) },

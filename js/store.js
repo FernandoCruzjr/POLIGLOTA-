@@ -20,8 +20,11 @@ function blankState() {
       todaySeconds: 0,
       totalSeconds: 0,
       studyDays: 0,
+      gender: null, // 'm' ou 'f': usado nas histórias (khrap/ka, my wife/my husband)
+      narration: true,
     },
     lessons: {},
+    flags: {}, // marcas locais (ex.: finais de história descobertos)
     words: {},
     activity: [],
     pending: { profile: false, lessons: [], words: [], activity: [] },
@@ -245,6 +248,29 @@ export function recordWordsStudied({ ids, xp, seconds, title, ref }) {
   registerStudy({ xp, seconds, type: 'vocab', ref, title });
   commit();
   sync();
+}
+
+export function hasFlag(key) {
+  return Boolean(state.flags && state.flags[key]);
+}
+
+export function setFlag(key, value = Date.now()) {
+  if (!state.flags) state.flags = {};
+  state.flags[key] = value;
+  persist();
+}
+
+export function getFlag(key, fallback = null) {
+  return state.flags && key in state.flags ? state.flags[key] : fallback;
+}
+
+export function flagsWithPrefix(prefix) {
+  return Object.keys(state.flags || {}).filter((k) => k.startsWith(prefix));
+}
+
+export function setLocalPref(changes) {
+  Object.assign(state.profile, changes);
+  persist();
 }
 
 export function updateProfile(changes) {

@@ -1,6 +1,7 @@
 import * as store from '../store.js';
 import * as content from '../content.js';
 import * as vocab from '../vocab.js';
+import { currentTripSummary } from './trip.js';
 import { icon } from '../icons.js';
 import { esc, formatNumber, progressBar, ring, relativeTime, plural } from '../ui.js';
 
@@ -21,7 +22,7 @@ export function render(root) {
   const streak = store.currentStreak();
   const minutesToday = Math.floor(store.secondsToday() / 60);
   const goal = p.dailyGoalMin;
-  const lessonsDone = Object.keys(s.lessons).length;
+  const lessonsDone = content.allLessons().filter((e) => s.lessons[e.lesson.id]).length;
   const course = content.getCourse();
   const units = course.levels.flatMap((l) => l.units);
   const cats = vocab.getCategories();
@@ -41,7 +42,7 @@ export function render(root) {
 
   root.innerHTML = `
     <header class="home-head">
-      <img class="home-avatar" src="img/mascot-avatar.png" alt="" width="64" height="64">
+      <a class="home-avatar-link" href="#/perfil" aria-label="Abrir perfil"><img class="home-avatar" src="img/mascot-avatar.png" alt="" width="64" height="64"></a>
       <div>
         <h1>Olá, ${esc(p.name || 'aluno')}!</h1>
         <p><span lang="en">${englishGreeting()}!</span> Hoje é um ótimo dia para aprender.</p>
@@ -72,6 +73,8 @@ export function render(root) {
         <div><strong>${minutesToday >= goal ? 'Meta batida!' : `${goal} min`}</strong><span class="muted">Meta de hoje</span></div>
       </div>
     </section>
+
+    <div data-trip-slot></div>
 
     <a class="card play-hero" href="#/sala">
       <span class="quick-emoji" aria-hidden="true">👥</span>
@@ -140,4 +143,21 @@ export function render(root) {
       </section>
     </div>
   `;
+
+  currentTripSummary().then((t) => {
+    const slot = root.querySelector('[data-trip-slot]');
+    if (!t || !slot) return;
+    const nextLabel = t.next ? `Capítulo ${t.next.number}: ${esc(t.next.title)}` : 'Viagem concluída! 🎉';
+    slot.outerHTML = `
+      <a class="card trip-hero" href="${t.next ? `#/viagem/${t.trip.id}/${t.next.id}` : '#/viagem'}">
+        <span class="trip-flag" aria-hidden="true">${t.trip.emoji}</span>
+        <span class="trip-hero-text">
+          <span class="eyebrow">Modo viagem ✈️</span>
+          <strong>${esc(t.trip.title)}</strong>
+          <span class="muted small">${nextLabel}</span>
+          ${progressBar(t.done / t.total, 'Progresso da viagem')}
+        </span>
+        <span class="play-cta">${t.done ? 'Continuar' : 'Começar'}</span>
+      </a>`;
+  });
 }

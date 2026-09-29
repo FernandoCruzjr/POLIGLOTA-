@@ -1,0 +1,3206 @@
+{
+ "id": "thailand",
+ "title": "Aventura na Tailândia",
+ "titleEn": "Thailand Adventure",
+ "emoji": "🇹🇭",
+ "intro": "Bangkok, Phuket e as ilhas Phi Phi. Uma história narrada em que as suas escolhas mudam o caminho, com dicas culturais para viajar com respeito.",
+ "chapters": [
+  {
+   "id": "c1",
+   "emoji": "🛬",
+   "title": "Imigração em Bangkok",
+   "titleEn": "Immigration",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "✈️",
+      "fly"
+     ],
+     [
+      "🛄",
+      "bob"
+     ],
+     [
+      "🛂",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "Cumprimento tailandês, imigração completa e o mistério da mala.",
+   "start": "start.0",
+   "endings": [
+    "mala-apareceu",
+    "mala-no-hotel"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Sawasdee! Eu sou o Kiko, seu guia nessa viagem. 🦜 Depois de muitas horas de voo, vocês acabaram de pousar no aeroporto Suvarnabhumi, em Bangkok. Sente esse calor úmido? Bem-vindos ao Sudeste Asiático!",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "Antes de pegar as malas, vem o momento que dá um frio na barriga: a imigração. Calma! Eu vou te ajudar em cada fala. Primeiro, uma dica que vai fazer os tailandeses sorrirem pra você.",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "tip",
+     "icon": "🙏",
+     "title": "O cumprimento tailandês",
+     "pt": "Na Tailândia, o cumprimento tradicional é o wai: juntar as palmas das mãos na frente do peito e inclinar levemente a cabeça, dizendo \"Sawasdee\". Os tailandeses chamam o país de \"Terra dos Sorrisos\": sorrir resolve quase tudo.",
+     "dos": [
+      "Sorrir e falar com calma",
+      "Dizer Sawasdee + khrap (homem) ou ka (mulher)"
+     ],
+     "donts": [
+      "Tocar na cabeça de alguém, nem de crianças: é a parte mais sagrada do corpo",
+      "Apontar a sola dos pés para pessoas ou imagens de Buda"
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "explain",
+     "title": "Khrap ou ka?",
+     "pt": "Em tailandês, quem fala coloca uma palavrinha de educação no fim da frase: homens dizem \"khrap\" e mulheres dizem \"ka\". É como um \"senhor/senhora\" carinhoso. Nas falas desta história, eu já coloco a sua.",
+     "examples": [
+      {
+       "en": "Sawasdee {p}!",
+       "pt": "Olá! (com educação)"
+      },
+      {
+       "en": "Khob khun {p}!",
+       "pt": "Obrigado(a)! (com educação)"
+      }
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "narration",
+     "pt": "Chegou a sua vez no balcão. O oficial olha pra você…",
+     "mood": "talk",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Sawasdee! Passport and arrival card, please.",
+     "pt": "Olá! Passaporte e cartão de chegada, por favor.",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "choice",
+     "prompt": "Como você responde?",
+     "options": [
+      {
+       "text": "Sawasdee {p}. Here you are.",
+       "tone": "good",
+       "fb": "Perfeito! O \"Sawasdee {p}\" é um carinho, e \"Here you are\" é o jeito educado de entregar algo.",
+       "pt": "Olá. Aqui está.",
+       "lang": "en",
+       "next": "together.0"
+      },
+      {
+       "text": "Hello. Here.",
+       "tone": "ok",
+       "fb": "Funciona! Mas o toque tailandês encanta. Da próxima vez experimente \"Sawasdee {p}\".",
+       "pt": "Olá. Aqui.",
+       "lang": "en",
+       "next": "together.0"
+      },
+      {
+       "text": "(Entregar o passaporte sem dizer nada)",
+       "tone": "bad",
+       "fb": "Ficar calado parece grosseiro. Uma palavrinha já muda tudo!",
+       "pt": null,
+       "lang": "pt",
+       "next": "silent.0"
+      }
+     ]
+    },
+    "silent.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Hello? Can you say something, please?",
+     "pt": "Olá? Pode dizer alguma coisa, por favor?",
+     "next": "silent.1"
+    },
+    "silent.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! Sawasdee {p}. ___ you are.",
+     "answer": "Here",
+     "options": [
+      "Here",
+      "There",
+      "Where",
+      "What"
+     ],
+     "pt": "Ah, desculpe! Olá. Aqui está.",
+     "next": "silent.2"
+    },
+    "silent.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Thank you. Don't be nervous!",
+     "pt": "Obrigado. Não fique nervoso!",
+     "next": "together.0"
+    },
+    "together.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Are you traveling together?",
+     "pt": "Vocês estão viajando juntos?",
+     "next": "together.1"
+    },
+    "together.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, we are married. {She} is my ___.",
+     "answer": "{spouse}",
+     "options": [
+      "{spouse}",
+      "sister",
+      "friend",
+      "boss"
+     ],
+     "pt": "Sim, somos casados. {ElaPt} é {spousePt}.",
+     "next": "together.2"
+    },
+    "together.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "What is the purpose of your visit?",
+     "pt": "Qual é o motivo da sua visita?",
+     "next": "together.3"
+    },
+    "together.3": {
+     "type": "choice",
+     "prompt": "Vocês estão de férias. O que você diz?",
+     "options": [
+      {
+       "text": "Tourism. We are here on vacation.",
+       "tone": "good",
+       "fb": "Isso! \"Tourism\" ou \"vacation\" é exatamente o que o oficial quer ouvir.",
+       "pt": "Turismo. Estamos aqui de férias.",
+       "lang": "en",
+       "next": "hotel.0"
+      },
+      {
+       "text": "Business.",
+       "tone": "bad",
+       "fb": "Epa! \"Business\" quer dizer negócios. Olha o que acontece…",
+       "pt": "Negócios.",
+       "lang": "en",
+       "next": "business.0"
+      }
+     ]
+    },
+    "business.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Business? Do you have a business visa?",
+     "pt": "Negócios? Vocês têm visto de negócios?",
+     "next": "business.1"
+    },
+    "business.1": {
+     "type": "narration",
+     "pt": "Ops! Dizer \"business\" sem ter visto de trabalho complica tudo. Vamos consertar com calma.",
+     "mood": "oops",
+     "next": "business.2"
+    },
+    "business.2": {
+     "type": "choice",
+     "prompt": "Como você corrige?",
+     "options": [
+      {
+       "text": "Sorry, my mistake! Tourism. We are on vacation.",
+       "tone": "good",
+       "fb": "Ufa! \"My mistake\" (erro meu) salva a situação.",
+       "pt": "Desculpe, erro meu! Turismo. Estamos de férias.",
+       "lang": "en",
+       "next": "business.3"
+      },
+      {
+       "text": "Yes, business vacation.",
+       "tone": "bad",
+       "fb": "Isso confunde ainda mais. Seja simples: tourism, vacation.",
+       "pt": "Sim, férias de negócios.",
+       "lang": "en",
+       "next": "business2.0"
+      }
+     ]
+    },
+    "business.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "OK, tourism. No problem.",
+     "pt": "OK, turismo. Sem problema.",
+     "next": "hotel.0"
+    },
+    "business2.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "I don't understand. Tourism or business?",
+     "pt": "Não entendi. Turismo ou negócios?",
+     "next": "business2.1"
+    },
+    "business2.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Tourism! Only tourism.",
+     "pt": "Turismo! Só turismo.",
+     "next": "business2.2"
+    },
+    "business2.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "OK. Tourism.",
+     "pt": "OK. Turismo.",
+     "next": "hotel.0"
+    },
+    "hotel.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Where are you staying in Thailand?",
+     "pt": "Onde vocês vão se hospedar na Tailândia?",
+     "next": "hotel.1"
+    },
+    "hotel.1": {
+     "type": "build",
+     "pt": "Nós vamos ficar em Bangkok e Phuket.",
+     "en": "We are staying in Bangkok and Phuket.",
+     "extra": [
+      "on",
+      "stay"
+     ],
+     "next": "hotel.2"
+    },
+    "hotel.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Can I see your hotel reservation, please?",
+     "pt": "Posso ver a reserva do hotel, por favor?",
+     "next": "hotel.3"
+    },
+    "hotel.3": {
+     "type": "choice",
+     "prompt": "Onde está a sua reserva?",
+     "options": [
+      {
+       "text": "Yes, here it is. It's printed.",
+       "tone": "good",
+       "fb": "Ótimo! Ter tudo impresso numa pastinha é a dica de ouro da imigração.",
+       "pt": "Sim, aqui está. Está impressa.",
+       "lang": "en",
+       "next": "days.0"
+      },
+      {
+       "text": "It's on my phone. One moment, please.",
+       "tone": "ok",
+       "fb": "Também vale! Mas… olha a bateria do celular.",
+       "pt": "Está no meu celular. Um momento, por favor.",
+       "lang": "en",
+       "next": "phone.0"
+      }
+     ]
+    },
+    "phone.0": {
+     "type": "narration",
+     "pt": "O celular está com 2% de bateria… e desliga! 😱 Respira. Isso acontece com todo mundo.",
+     "mood": "oops",
+     "next": "phone.1"
+    },
+    "phone.1": {
+     "type": "choice",
+     "prompt": "E agora?",
+     "options": [
+      {
+       "text": "Sorry, my phone died. I have a paper copy in my bag.",
+       "tone": "good",
+       "fb": "Salvou! \"My phone died\" é como se diz que o celular descarregou.",
+       "pt": "Desculpe, meu celular descarregou. Tenho uma cópia em papel na bolsa.",
+       "lang": "en",
+       "next": "days.0"
+      },
+      {
+       "text": "No battery! No hotel! Help!",
+       "tone": "bad",
+       "fb": "Calma! O oficial é paciente, mas pânico não ajuda. Veja:",
+       "pt": "Sem bateria! Sem hotel! Socorro!",
+       "lang": "en",
+       "next": "panic.0"
+      }
+     ]
+    },
+    "panic.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Take a breath. Do you have a paper copy?",
+     "pt": "Respire. Vocês têm uma cópia em papel?",
+     "next": "panic.1"
+    },
+    "panic.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes! Here it is. Sorry!",
+     "pt": "Sim! Aqui está. Desculpe!",
+     "next": "days.0"
+    },
+    "days.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "How many days will you stay?",
+     "pt": "Quantos dias vocês vão ficar?",
+     "next": "days.1"
+    },
+    "days.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "We are staying ___ ten days.",
+     "answer": "for",
+     "options": [
+      "for",
+      "since",
+      "in",
+      "during"
+     ],
+     "pt": "Vamos ficar por dez dias.",
+     "next": "days.2"
+    },
+    "days.2": {
+     "type": "explain",
+     "title": "For + tempo",
+     "pt": "Para dizer quanto tempo algo dura, use \"for\": for ten days (por dez dias), for two weeks (por duas semanas), for a month (por um mês).",
+     "examples": [
+      {
+       "en": "We are staying for ten days.",
+       "pt": "Vamos ficar por dez dias."
+      },
+      {
+       "en": "I lived there for a year.",
+       "pt": "Eu morei lá por um ano."
+      }
+     ],
+     "next": "days.3"
+    },
+    "days.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Do you have a return ticket to Brazil?",
+     "pt": "Vocês têm passagem de volta para o Brasil?",
+     "next": "days.4"
+    },
+    "days.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, here is our return ticket.",
+     "pt": "Sim, aqui está a nossa passagem de volta.",
+     "next": "days.5"
+    },
+    "days.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "And do you have money for your trip? Cash or credit cards?",
+     "pt": "E vocês têm dinheiro para a viagem? Em espécie ou cartões de crédito?",
+     "next": "days.6"
+    },
+    "days.6": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "Yes, we have cash and credit cards.",
+       "tone": "good",
+       "fb": "Perfeito. É uma pergunta comum: eles só querem saber se vocês conseguem se manter.",
+       "pt": "Sim, temos dinheiro e cartões de crédito.",
+       "lang": "en",
+       "next": "stamp.0"
+      },
+      {
+       "text": "Why? Do you want my money?",
+       "tone": "bad",
+       "fb": "Nada de piadas na imigração! Os oficiais levam isso a sério.",
+       "pt": "Por quê? Você quer meu dinheiro?",
+       "lang": "en",
+       "next": "joke.0"
+      }
+     ]
+    },
+    "joke.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "This is not a joke. Please answer the question.",
+     "pt": "Isso não é brincadeira. Por favor, responda à pergunta.",
+     "next": "joke.1"
+    },
+    "joke.1": {
+     "type": "tip",
+     "icon": "⚠️",
+     "title": "Imigração não é lugar de piada",
+     "pt": "Nunca brinque com o oficial sobre dinheiro, drogas, segurança ou a família real. A Tailândia tem leis muito rígidas sobre o Rei: nada de comentários, nem de brincadeira.",
+     "dos": [],
+     "donts": [
+      "Piadas na imigração",
+      "Comentários sobre o Rei ou a família real"
+     ],
+     "next": "joke.2"
+    },
+    "joke.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry. Yes, we have cash and credit cards.",
+     "pt": "Desculpe. Sim, temos dinheiro e cartões de crédito.",
+     "next": "stamp.0"
+    },
+    "stamp.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Everything looks good. Welcome to Thailand!",
+     "pt": "Tudo certo. Bem-vindos à Tailândia!",
+     "next": "stamp.1"
+    },
+    "stamp.1": {
+     "type": "build",
+     "pt": "Muito obrigado. Tenha um bom dia!",
+     "en": "Thank you so much. Have a nice day!",
+     "extra": [
+      "much",
+      "night"
+     ],
+     "next": "stamp.2"
+    },
+    "stamp.2": {
+     "type": "narration",
+     "pt": "Carimbo no passaporte! 🎉 Agora é pegar as malas. Vocês vão para a esteira 7 e esperam… esperam… e a esteira para. Uma das malas não apareceu.",
+     "mood": "talk",
+     "next": "stamp.3"
+    },
+    "stamp.3": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Ir ao balcão de bagagens e perguntar",
+       "tone": "good",
+       "fb": "Boa! O balcão de bagagem extraviada (baggage service) resolve isso todo dia.",
+       "pt": null,
+       "lang": "pt",
+       "next": "lostbag.0"
+      },
+      {
+       "text": "Esperar mais um pouco",
+       "tone": "ok",
+       "fb": "Às vezes funciona! Vamos ver…",
+       "pt": null,
+       "lang": "pt",
+       "next": "wait.0"
+      }
+     ]
+    },
+    "lostbag.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, my bag didn't arrive.",
+     "pt": "Com licença, minha mala não chegou.",
+     "next": "lostbag.1"
+    },
+    "lostbag.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "I'm sorry. Can I see your baggage tag?",
+     "pt": "Sinto muito. Posso ver a etiqueta da bagagem?",
+     "next": "lostbag.2"
+    },
+    "lostbag.2": {
+     "type": "explain",
+     "title": "Baggage tag",
+     "pt": "Aquele adesivo com código de barras que colam no seu cartão de embarque ou passaporte é a baggage tag. Guarde até pegar a mala!",
+     "examples": [
+      {
+       "en": "Here is my baggage tag.",
+       "pt": "Aqui está a etiqueta da minha mala."
+      }
+     ],
+     "next": "lostbag.3"
+    },
+    "lostbag.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Your bag is on the next flight. We will deliver it to your hotel tonight.",
+     "pt": "Sua mala está no próximo voo. Vamos entregá-la no seu hotel hoje à noite.",
+     "next": "lostbag.4"
+    },
+    "lostbag.4": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you! This is the ___ of our hotel.",
+     "answer": "address",
+     "options": [
+      "address",
+      "name",
+      "street",
+      "number"
+     ],
+     "pt": "Obrigado! Este é o endereço do nosso hotel.",
+     "next": "lostbag.5"
+    },
+    "lostbag.5": {
+     "type": "end",
+     "ending": "mala-no-hotel",
+     "title": "Final: a mala vai chegar no hotel",
+     "pt": "Você resolveu tudo em inglês, sem estresse. A mala chega à noite, e vocês já estão em Bangkok! 🛄"
+    },
+    "wait.0": {
+     "type": "narration",
+     "pt": "Cinco minutos depois… a esteira volta a girar e lá vem a mala, meio amassada, mas inteira! 😅",
+     "mood": "talk",
+     "next": "wait.1"
+    },
+    "wait.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "There it ___! That's our bag!",
+     "answer": "is",
+     "options": [
+      "is",
+      "are",
+      "was",
+      "be"
+     ],
+     "pt": "Lá está ela! Essa é a nossa mala!",
+     "next": "wait.2"
+    },
+    "wait.2": {
+     "type": "end",
+     "ending": "mala-apareceu",
+     "title": "Final: a mala apareceu",
+     "pt": "Paciência também é uma habilidade de viajante. Malas na mão, Bangkok espera por vocês! 🧳"
+    }
+   }
+  },
+  {
+   "id": "c2",
+   "emoji": "🛕",
+   "title": "Templo do Grande Palácio",
+   "titleEn": "The Grand Palace",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🛕",
+      "bob"
+     ],
+     [
+      "☀️",
+      "spin"
+     ],
+     [
+      "🕊️",
+      "fly"
+     ]
+    ]
+   },
+   "summary": "Regras de roupa, ingressos, fotos e como se comportar diante do Buda.",
+   "start": "start.0",
+   "endings": [
+    "templo"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Bom dia! Hoje é dia do Grande Palácio e do templo do Buda de Esmeralda, o lugar mais sagrado da Tailândia. Mas antes de sair do hotel… vamos falar de roupa. 👕",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "👖",
+     "title": "Roupa para templo",
+     "pt": "Nos templos, homens e mulheres precisam cobrir ombros e joelhos. Nada de bermuda, regata, saia curta ou roupa transparente. Um lenço resolve os ombros.",
+     "dos": [
+      "Calça comprida ou saia longa",
+      "Camiseta com manga"
+     ],
+     "donts": [
+      "Bermuda, regata, top",
+      "Roupa muito justa ou transparente"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "choice",
+     "prompt": "O que você veste hoje?",
+     "options": [
+      {
+       "text": "Calça comprida e camiseta com manga",
+       "tone": "good",
+       "fb": "Perfeito! Você vai entrar sem problemas.",
+       "pt": null,
+       "lang": "pt",
+       "next": "start.3"
+      },
+      {
+       "text": "Bermuda e regata, está muito calor!",
+       "tone": "bad",
+       "fb": "Entendo o calor… mas veja o que acontece no portão.",
+       "pt": null,
+       "lang": "pt",
+       "next": "shorts.0"
+      }
+     ]
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guarda",
+     "en": "Good morning! Welcome. Tickets are over there.",
+     "pt": "Bom dia! Bem-vindos. Os ingressos são ali.",
+     "next": "tickets.0"
+    },
+    "shorts.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guarda",
+     "en": "Sorry. You can't go in with shorts.",
+     "pt": "Desculpe. Não pode entrar de bermuda.",
+     "next": "shorts.1"
+    },
+    "shorts.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I'm sorry! Where can I ___ long pants?",
+     "answer": "buy",
+     "options": [
+      "buy",
+      "sell",
+      "eat",
+      "drive"
+     ],
+     "pt": "Ah, desculpe! Onde posso comprar uma calça comprida?",
+     "next": "shorts.2"
+    },
+    "shorts.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guarda",
+     "en": "There is a shop across the street.",
+     "pt": "Tem uma loja do outro lado da rua.",
+     "next": "shorts.3"
+    },
+    "shorts.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Hello! Elephant pants? Very comfortable!",
+     "pt": "Olá! Calça de elefante? Muito confortável!",
+     "next": "shorts.4"
+    },
+    "shorts.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "How much are these pants?",
+     "pt": "Quanto custa esta calça?",
+     "next": "shorts.5"
+    },
+    "shorts.5": {
+     "type": "explain",
+     "title": "Pants é plural!",
+     "pt": "Em inglês, calça é \"pants\", sempre no plural (são duas pernas!). Por isso a pergunta é \"How much ARE these pants?\"",
+     "examples": [
+      {
+       "en": "These pants are nice.",
+       "pt": "Esta calça é bonita."
+      },
+      {
+       "en": "How much are these shoes?",
+       "pt": "Quanto custam estes sapatos?"
+      }
+     ],
+     "next": "shorts.6"
+    },
+    "shorts.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Two hundred baht.",
+     "pt": "Duzentos bahts.",
+     "next": "shorts.7"
+    },
+    "shorts.7": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK. I'll take them.",
+     "pt": "OK. Vou levar.",
+     "next": "shorts.8"
+    },
+    "shorts.8": {
+     "type": "narration",
+     "pt": "Pronto: com a famosa calça de elefante 🐘, você volta ao templo com o visual de quem entendeu a cultura!",
+     "mood": "talk",
+     "next": "tickets.0"
+    },
+    "tickets.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Two tickets, please. How much?",
+     "pt": "Dois ingressos, por favor. Quanto custa?",
+     "next": "tickets.1"
+    },
+    "tickets.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Bilheteira",
+     "en": "Five hundred baht each.",
+     "pt": "Quinhentos bahts cada.",
+     "next": "tickets.2"
+    },
+    "tickets.2": {
+     "type": "explain",
+     "title": "Each = cada",
+     "pt": "\"Each\" quer dizer \"cada\". Se o ingresso é 500 each, dois ingressos custam 1.000.",
+     "examples": [
+      {
+       "en": "They are five hundred baht each.",
+       "pt": "São quinhentos bahts cada."
+      },
+      {
+       "en": "One for each of us.",
+       "pt": "Um para cada um de nós."
+      }
+     ],
+     "next": "tickets.3"
+    },
+    "tickets.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "So, one thousand for ___. Here you are.",
+     "answer": "two",
+     "options": [
+      "two",
+      "each",
+      "one",
+      "three"
+     ],
+     "pt": "Então, mil pelos dois. Aqui está.",
+     "next": "tickets.4"
+    },
+    "tickets.4": {
+     "type": "narration",
+     "pt": "Lá dentro, tudo brilha: telhados dourados, guardiões gigantes e mosaicos coloridos. Na porta do templo principal, todos estão tirando os sapatos. 👟",
+     "mood": "talk",
+     "next": "tickets.5"
+    },
+    "tickets.5": {
+     "type": "tip",
+     "icon": "👟",
+     "title": "Sapatos e pés",
+     "pt": "Tire os sapatos antes de entrar em templos e casas. Sente com os pés dobrados para trás: nunca aponte a sola dos pés para o Buda ou para os monges.",
+     "dos": [
+      "Tirar os sapatos na entrada",
+      "Falar baixo lá dentro"
+     ],
+     "donts": [
+      "Apontar os pés para o Buda",
+      "Encostar em monges (principalmente mulheres)"
+     ],
+     "next": "tickets.6"
+    },
+    "tickets.6": {
+     "type": "choice",
+     "prompt": "Você quer tirar uma foto. O que pergunta?",
+     "options": [
+      {
+       "text": "Excuse me, can we take photos here?",
+       "tone": "good",
+       "fb": "Isso! Em inglês, foto se \"tira\" com TAKE: take a photo.",
+       "pt": "Com licença, podemos tirar fotos aqui?",
+       "lang": "en",
+       "next": "tickets.7"
+      },
+      {
+       "text": "Excuse me, can we make photos here?",
+       "tone": "ok",
+       "fb": "Dá para entender, mas o certo é TAKE photos.",
+       "pt": "Com licença, podemos fazer fotos aqui?",
+       "lang": "en",
+       "next": "tickets.7"
+      }
+     ]
+    },
+    "tickets.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guarda",
+     "en": "Outside, yes. Inside the temple, no photos, please.",
+     "pt": "Do lado de fora, sim. Dentro do templo, sem fotos, por favor.",
+     "next": "tickets.8"
+    },
+    "tickets.8": {
+     "type": "narration",
+     "pt": "Lá dentro, você senta no chão para admirar o Buda de Esmeralda. Como você se senta?",
+     "mood": "talk",
+     "next": "tickets.9"
+    },
+    "tickets.9": {
+     "type": "choice",
+     "prompt": "Escolha a posição:",
+     "options": [
+      {
+       "text": "Com as pernas dobradas para trás, pés longe do Buda",
+       "tone": "good",
+       "fb": "Isso mesmo! Assim você demonstra respeito.",
+       "pt": null,
+       "lang": "pt",
+       "next": "end.0"
+      },
+      {
+       "text": "Com as pernas esticadas, pés na direção do Buda",
+       "tone": "bad",
+       "fb": "Ai, ai! Olha o que acontece…",
+       "pt": null,
+       "lang": "pt",
+       "next": "feet.0"
+      }
+     ]
+    },
+    "feet.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhora tailandesa",
+     "en": "Excuse me… please don't point your feet at the Buddha.",
+     "pt": "Com licença… por favor, não aponte os pés para o Buda.",
+     "next": "feet.1"
+    },
+    "feet.1": {
+     "type": "choice",
+     "prompt": "Como você responde?",
+     "options": [
+      {
+       "text": "Oh, I'm so sorry! Thank you for telling me.",
+       "tone": "good",
+       "fb": "Perfeito. Pedir desculpas e agradecer mostra que você respeita a cultura.",
+       "pt": "Ah, me desculpe! Obrigado por me avisar.",
+       "lang": "en",
+       "next": "end.0"
+      },
+      {
+       "text": "Why? It's just feet.",
+       "tone": "bad",
+       "fb": "Isso soa desrespeitoso. Para os budistas, os pés são a parte mais baixa e impura do corpo.",
+       "pt": "Por quê? São só pés.",
+       "lang": "en",
+       "next": "end.0"
+      }
+     ]
+    },
+    "end.0": {
+     "type": "build",
+     "pt": "Onde posso deixar meus sapatos?",
+     "en": "Where can I leave my shoes?",
+     "extra": [
+      "live",
+      "shoe"
+     ],
+     "next": "end.1"
+    },
+    "end.1": {
+     "type": "end",
+     "ending": "templo",
+     "title": "Final: respeito no templo",
+     "pt": "Vocês visitaram o lugar mais sagrado da Tailândia e aprenderam as regras de ouro dos templos. 🛕✨"
+    }
+   }
+  },
+  {
+   "id": "c3",
+   "emoji": "🛺",
+   "title": "Tuk-tuk pela cidade",
+   "titleEn": "Tuk-tuk ride",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🛺",
+      "drive"
+     ],
+     [
+      "🏙️",
+      "bob"
+     ],
+     [
+      "💨",
+      "drive"
+     ]
+    ]
+   },
+   "summary": "Negociar o preço, escapar de golpes ou chamar um carro por aplicativo.",
+   "start": "start.0",
+   "endings": [
+    "grab",
+    "tuktuk"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Saindo do templo, o calor aperta. E aí aparece ele: o tuk-tuk, um triciclo colorido, barulhento e super divertido! 🛺 Mas atenção: tuk-tuk não tem taxímetro.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "💰",
+     "title": "Combine o preço antes",
+     "pt": "No tuk-tuk, o preço é combinado ANTES de subir. Negociar é normal, mas sempre com sorriso e bom humor. Outra opção é pedir um carro pelo aplicativo Grab, que mostra o preço antes.",
+     "dos": [
+      "Perguntar o preço antes de subir",
+      "Negociar sorrindo"
+     ],
+     "donts": [
+      "Subir sem combinar",
+      "Aceitar parar em lojas no caminho"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Tuk-tuk! Where to?",
+     "pt": "Tuk-tuk! Para onde?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "To Khao San Road, please. How much?",
+     "pt": "Para a Khao San Road, por favor. Quanto custa?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Three hundred baht.",
+     "pt": "Trezentos bahts.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "O preço parece alto. O que você faz?",
+     "options": [
+      {
+       "text": "That's too expensive. How about one hundred and fifty?",
+       "tone": "good",
+       "fb": "Negociador nato! Oferecer a metade e ir subindo é o jeito tailandês.",
+       "pt": "Está caro demais. Que tal cento e cinquenta?",
+       "lang": "en",
+       "next": "haggle.0"
+      },
+      {
+       "text": "OK, let's go!",
+       "tone": "ok",
+       "fb": "Vocês vão pagar mais, mas tudo bem: a corrida é divertida!",
+       "pt": "OK, vamos!",
+       "lang": "en",
+       "next": "accept.0"
+      },
+      {
+       "text": "No, thanks. We'll take a Grab.",
+       "tone": "good",
+       "fb": "Esperto! O Grab é o \"Uber\" do Sudeste Asiático.",
+       "pt": "Não, obrigado. Vamos pegar um Grab.",
+       "lang": "en",
+       "next": "grab.0"
+      }
+     ]
+    },
+    "haggle.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Two hundred. Last price!",
+     "pt": "Duzentos. Último preço!",
+     "next": "haggle.1"
+    },
+    "haggle.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK, it's a ___! Two hundred.",
+     "answer": "deal",
+     "options": [
+      "deal",
+      "price",
+      "trip",
+      "car"
+     ],
+     "pt": "OK, fechado! Duzentos.",
+     "next": "haggle.2"
+    },
+    "haggle.2": {
+     "type": "explain",
+     "title": "It's a deal!",
+     "pt": "\"It's a deal!\" ou só \"Deal!\" quer dizer \"Fechado!\" ou \"Combinado!\". Serve para qualquer negociação.",
+     "examples": [
+      {
+       "en": "Deal!",
+       "pt": "Fechado!"
+      },
+      {
+       "en": "Two for three hundred? Deal!",
+       "pt": "Dois por trezentos? Fechado!"
+      }
+     ],
+     "next": "haggle.3"
+    },
+    "haggle.3": {
+     "type": "narration",
+     "pt": "No meio do caminho, o motorista vira pra trás com um sorriso…",
+     "mood": "talk",
+     "next": "haggle.4"
+    },
+    "haggle.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "My friend has a gem shop. Very cheap! We stop five minutes, OK?",
+     "pt": "Meu amigo tem uma loja de pedras preciosas. Bem barato! A gente para cinco minutos, OK?",
+     "next": "haggle.5"
+    },
+    "haggle.5": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "No, thank you. Please go straight to Khao San Road.",
+       "tone": "good",
+       "fb": "Isso! Esse é um golpe clássico de turista. Recusar com educação resolve.",
+       "pt": "Não, obrigado. Por favor, vá direto para a Khao San Road.",
+       "lang": "en",
+       "next": "arrive.0"
+      },
+      {
+       "text": "OK, five minutes.",
+       "tone": "bad",
+       "fb": "Hum… vamos ver o que tem nessa loja.",
+       "pt": "OK, cinco minutos.",
+       "lang": "en",
+       "next": "gems.0"
+      }
+     ]
+    },
+    "gems.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Special price only today! Real sapphire, very cheap!",
+     "pt": "Preço especial só hoje! Safira de verdade, muito barata!",
+     "next": "gems.1"
+    },
+    "gems.1": {
+     "type": "narration",
+     "pt": "\"Só hoje\", \"muito barato\", \"de verdade\"… Quando o vendedor insiste muito, desconfie! 🚩",
+     "mood": "talk",
+     "next": "gems.2"
+    },
+    "gems.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "No, thank you. We are just ___.",
+     "answer": "looking",
+     "options": [
+      "looking",
+      "buying",
+      "eating",
+      "sleeping"
+     ],
+     "pt": "Não, obrigado. Estamos só olhando.",
+     "next": "gems.3"
+    },
+    "gems.3": {
+     "type": "explain",
+     "title": "Just looking",
+     "pt": "\"We're just looking\" (estamos só olhando) é a frase mágica para sair de qualquer loja sem comprar.",
+     "examples": [
+      {
+       "en": "No, thanks. I'm just looking.",
+       "pt": "Não, obrigado. Estou só olhando."
+      }
+     ],
+     "next": "arrive.0"
+    },
+    "accept.0": {
+     "type": "narration",
+     "pt": "O motorista acelera, costura entre carros e motos, e vocês gritam de emoção! 🎢",
+     "mood": "talk",
+     "next": "accept.1"
+    },
+    "accept.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can you drive more ___, please?",
+     "answer": "slowly",
+     "options": [
+      "slowly",
+      "fast",
+      "slow",
+      "quick"
+     ],
+     "pt": "Você pode dirigir mais devagar, por favor?",
+     "next": "accept.2"
+    },
+    "accept.2": {
+     "type": "explain",
+     "title": "Slow ou slowly?",
+     "pt": "\"Slow\" descreve coisas (a slow car, um carro lento). \"Slowly\" descreve o jeito de fazer (drive slowly, dirigir devagar).",
+     "examples": [
+      {
+       "en": "Please speak slowly.",
+       "pt": "Por favor, fale devagar."
+      }
+     ],
+     "next": "accept.3"
+    },
+    "accept.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "OK, OK! Slowly!",
+     "pt": "OK, OK! Devagar!",
+     "next": "arrive.0"
+    },
+    "grab.0": {
+     "type": "narration",
+     "pt": "Você abre o app, digita \"Khao San Road\" e o preço aparece: 120 bahts, com ar-condicionado! ❄️ Três minutos depois, o carro chega.",
+     "mood": "talk",
+     "next": "grab.1"
+    },
+    "grab.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Hello! Are you going to Khao San Road?",
+     "pt": "Olá! Vocês vão para a Khao San Road?",
+     "next": "grab.2"
+    },
+    "grab.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, that's ___! Thank you.",
+     "answer": "right",
+     "options": [
+      "right",
+      "left",
+      "good",
+      "true"
+     ],
+     "pt": "Sim, isso mesmo! Obrigado.",
+     "next": "grab.3"
+    },
+    "grab.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Is the air conditioning OK?",
+     "pt": "O ar-condicionado está bom?",
+     "next": "grab.4"
+    },
+    "grab.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, it's perfect. Thank you!",
+     "pt": "Sim, está perfeito. Obrigado!",
+     "next": "grab.5"
+    },
+    "grab.5": {
+     "type": "build",
+     "pt": "Nós podemos pagar em dinheiro?",
+     "en": "Can we pay in cash?",
+     "extra": [
+      "with",
+      "money"
+     ],
+     "next": "grab.6"
+    },
+    "grab.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Yes, cash or card in the app. Here we are!",
+     "pt": "Sim, dinheiro ou cartão no app. Chegamos!",
+     "next": "grab.7"
+    },
+    "grab.7": {
+     "type": "end",
+     "ending": "grab",
+     "title": "Final: o viajante esperto",
+     "pt": "Com o app, vocês pagaram o preço justo e ainda andaram no ar-condicionado. ❄️ Da próxima vez, que tal experimentar o tuk-tuk?"
+    },
+    "arrive.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Here we are! Khao San Road!",
+     "pt": "Chegamos! Khao San Road!",
+     "next": "arrive.1"
+    },
+    "arrive.1": {
+     "type": "narration",
+     "pt": "Você só tem uma nota de 1.000 bahts…",
+     "mood": "talk",
+     "next": "arrive.2"
+    },
+    "arrive.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Do you have ___ for a thousand?",
+     "answer": "change",
+     "options": [
+      "change",
+      "money",
+      "coins",
+      "price"
+     ],
+     "pt": "Você tem troco para mil?",
+     "next": "arrive.3"
+    },
+    "arrive.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Motorista",
+     "en": "Yes, no problem.",
+     "pt": "Sim, sem problema.",
+     "next": "arrive.4"
+    },
+    "arrive.4": {
+     "type": "build",
+     "pt": "Obrigado! Tenha um bom dia!",
+     "en": "Thank you! Have a nice day!",
+     "extra": [
+      "good",
+      "night"
+     ],
+     "next": "arrive.5"
+    },
+    "arrive.5": {
+     "type": "end",
+     "ending": "tuktuk",
+     "title": "Final: aventura de tuk-tuk",
+     "pt": "Vocês sobreviveram ao trânsito de Bangkok no transporte mais famoso da Tailândia! 🛺💨"
+    }
+   }
+  },
+  {
+   "id": "c4",
+   "emoji": "🍜",
+   "title": "Mercado noturno",
+   "titleEn": "Night market food",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🏮",
+      "sway"
+     ],
+     [
+      "🍜",
+      "bob"
+     ],
+     [
+      "🌙",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Pedir comida, controlar a pimenta, avisar alergia e comer do jeito tailandês.",
+   "start": "start.0",
+   "endings": [
+    "mercado"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "A noite chegou e o mercado noturno acende: lanternas vermelhas, fumaça de churrasquinho e cheiro de capim-limão. 🏮 Hora do jantar! Mas antes, duas dicas que salvam o estômago.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🌶️",
+     "title": "Pimenta e água",
+     "pt": "A comida tailandesa pode ser MUITO apimentada, bem mais do que no Brasil. E beba só água engarrafada: a da torneira não é própria para beber.",
+     "dos": [
+      "Pedir \"not spicy\" ou \"mai phet\" (sem pimenta em tailandês)",
+      "Água em garrafa lacrada"
+     ],
+     "donts": [
+      "Água da torneira",
+      "Gelo em lugares muito simples, se tiver estômago sensível"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Sawasdee {p}! What would you like?",
+     "pt": "Olá! O que você gostaria?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "choice",
+     "prompt": "O que você pede?",
+     "options": [
+      {
+       "text": "Two pad thai, please.",
+       "tone": "good",
+       "fb": "O clássico! Macarrão de arroz frito com ovo, broto de feijão e amendoim.",
+       "pt": "Dois pad thai, por favor.",
+       "lang": "en",
+       "next": "spicy.0"
+      },
+      {
+       "text": "What is that? Fried insects?",
+       "tone": "ok",
+       "fb": "Curioso! Vamos ver…",
+       "pt": "O que é aquilo? Insetos fritos?",
+       "lang": "en",
+       "next": "insects.0"
+      }
+     ]
+    },
+    "insects.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Yes! Crickets. Very crunchy! You want to try one?",
+     "pt": "Sim! Grilos. Muito crocantes! Quer provar um?",
+     "next": "insects.1"
+    },
+    "insects.1": {
+     "type": "choice",
+     "prompt": "Coragem?",
+     "options": [
+      {
+       "text": "Sure, why not!",
+       "tone": "good",
+       "fb": "Que coragem! 🦗 Dizem que tem gosto de pipoca salgada.",
+       "pt": "Claro, por que não!",
+       "lang": "en",
+       "next": "insects.2"
+      },
+      {
+       "text": "No, thank you! Maybe next time.",
+       "tone": "good",
+       "fb": "Resposta educada e simpática. Tudo certo!",
+       "pt": "Não, obrigado! Talvez da próxima vez.",
+       "lang": "en",
+       "next": "insects.2"
+      }
+     ]
+    },
+    "insects.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "And two pad thai, please.",
+     "pt": "E dois pad thai, por favor.",
+     "next": "spicy.0"
+    },
+    "spicy.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Spicy?",
+     "pt": "Apimentado?",
+     "next": "spicy.1"
+    },
+    "spicy.1": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "Not spicy, please. Mai phet!",
+       "tone": "good",
+       "fb": "Perfeito! Misturar o inglês com um \"mai phet\" tailandês faz a vendedora sorrir. 😄",
+       "pt": "Sem pimenta, por favor. Mai phet!",
+       "lang": "en",
+       "next": "allergy.0"
+      },
+      {
+       "text": "Yes, very spicy! I love pepper!",
+       "tone": "bad",
+       "fb": "Corajoso… mas pimenta tailandesa é outro nível. Veja:",
+       "pt": "Sim, bem apimentado! Adoro pimenta!",
+       "lang": "en",
+       "next": "fire.0"
+      }
+     ]
+    },
+    "fire.0": {
+     "type": "narration",
+     "pt": "Primeira garfada… 🔥🔥🔥 Seus olhos lacrimejam, a boca pega fogo!",
+     "mood": "oops",
+     "next": "fire.1"
+    },
+    "fire.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Water! Can I have some ___, please?",
+     "answer": "water",
+     "options": [
+      "water",
+      "pepper",
+      "fire",
+      "rice"
+     ],
+     "pt": "Água! Pode me dar um pouco de água, por favor?",
+     "next": "fire.2"
+    },
+    "fire.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Thai spicy! Hahaha. Here, water and rice.",
+     "pt": "Pimenta tailandesa! Hahaha. Aqui, água e arroz.",
+     "next": "fire.3"
+    },
+    "fire.3": {
+     "type": "explain",
+     "title": "Dica de sobrevivência",
+     "pt": "Arroz, leite e pepino aliviam a pimenta mais do que água. E \"mai phet\" (sem pimenta) ou \"phet nit noi\" (só um pouquinho) são as palavras mágicas.",
+     "examples": [
+      {
+       "en": "A little spicy, please.",
+       "pt": "Um pouco apimentado, por favor."
+      }
+     ],
+     "next": "allergy.0"
+    },
+    "allergy.0": {
+     "type": "narration",
+     "pt": "Espera! O pad thai costuma vir com amendoim por cima, e {spousePt} tem alergia. Hora de avisar.",
+     "mood": "talk",
+     "next": "allergy.1"
+    },
+    "allergy.1": {
+     "type": "build",
+     "pt": "{ElaPt} é alérgic{aPt} a amendoim.",
+     "en": "{She} is allergic to peanuts.",
+     "extra": [
+      "allergy",
+      "peanut"
+     ],
+     "next": "allergy.2"
+    },
+    "allergy.2": {
+     "type": "explain",
+     "title": "Allergic to",
+     "pt": "Para falar de alergia: \"I'm allergic to…\" (sou alérgico a…). Ex.: allergic to peanuts (amendoim), shrimp (camarão), milk (leite).",
+     "examples": [
+      {
+       "en": "I'm allergic to shrimp.",
+       "pt": "Sou alérgico a camarão."
+      }
+     ],
+     "next": "allergy.3"
+    },
+    "allergy.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "OK, no peanuts for one. Something to drink?",
+     "pt": "OK, sem amendoim para um. Algo para beber?",
+     "next": "allergy.4"
+    },
+    "allergy.4": {
+     "type": "choice",
+     "prompt": "O que vocês bebem?",
+     "options": [
+      {
+       "text": "Two bottles of water, no ice, please.",
+       "tone": "good",
+       "fb": "Perfeito para a segurança do estômago!",
+       "pt": "Duas garrafas de água, sem gelo, por favor.",
+       "lang": "en",
+       "next": "allergy.5"
+      },
+      {
+       "text": "Two fresh coconuts, please.",
+       "tone": "good",
+       "fb": "Delícia! Coco fresco é seguro e refrescante. 🥥",
+       "pt": "Dois cocos frescos, por favor.",
+       "lang": "en",
+       "next": "allergy.5"
+      }
+     ]
+    },
+    "allergy.5": {
+     "type": "tip",
+     "icon": "🥄",
+     "title": "Garfo e colher",
+     "pt": "Na Tailândia, come-se com colher na mão direita e garfo na esquerda. O garfo só empurra a comida para a colher: não se leva o garfo à boca.",
+     "dos": [
+      "Colher na mão direita, garfo empurrando"
+     ],
+     "donts": [],
+     "next": "allergy.6"
+    },
+    "allergy.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "That's two hundred and forty baht.",
+     "pt": "São duzentos e quarenta bahts.",
+     "next": "allergy.7"
+    },
+    "allergy.7": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Here you are. It's ___!",
+     "answer": "delicious",
+     "options": [
+      "delicious",
+      "dirty",
+      "boring",
+      "expensive"
+     ],
+     "pt": "Aqui está. Está delicioso!",
+     "next": "allergy.8"
+    },
+    "allergy.8": {
+     "type": "end",
+     "ending": "mercado",
+     "title": "Final: jantar tailandês",
+     "pt": "Barriga cheia, boca (talvez) pegando fogo e muitas palavras novas. Aroi mak! (muito gostoso, em tailandês) 🍜"
+    }
+   }
+  },
+  {
+   "id": "c5",
+   "emoji": "🏝️",
+   "title": "Chegada em Phuket",
+   "titleEn": "Phuket resort",
+   "scene": {
+    "sky": "sea",
+    "items": [
+     [
+      "✈️",
+      "fly"
+     ],
+     [
+      "🌴",
+      "sway"
+     ],
+     [
+      "🏝️",
+      "bob"
+     ]
+    ]
+   },
+   "summary": "Check-in no resort, pedidos especiais e resolver problemas no quarto.",
+   "start": "start.0",
+   "endings": [
+    "resort"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Tchau, Bangkok! Um voo curtinho de uma hora e vocês chegam a Phuket, a ilha das praias de água azul. 🏝️ O resort tem cheiro de flores e música suave.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Sawasdee {p}! Welcome to Phuket. Do you have a reservation?",
+     "pt": "Olá! Bem-vindos a Phuket. Vocês têm reserva?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, we have a reservation ___ the name {name}.",
+     "answer": "under",
+     "options": [
+      "under",
+      "on",
+      "with",
+      "in"
+     ],
+     "pt": "Sim, temos uma reserva no nome {name}.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "explain",
+     "title": "Under the name",
+     "pt": "Em inglês, a reserva fica \"under the name\" (literalmente, \"debaixo do nome\"). É assim em hotel e restaurante.",
+     "examples": [
+      {
+       "en": "A table under the name Silva.",
+       "pt": "Uma mesa no nome Silva."
+      }
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Yes, five nights. Your room is on the third floor.",
+     "pt": "Sim, cinco noites. O quarto de vocês fica no terceiro andar.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Vocês preferem não usar escadas. O que pede?",
+     "options": [
+      {
+       "text": "Could we have a room on the ground floor, please?",
+       "tone": "good",
+       "fb": "Isso! \"Ground floor\" é o térreo.",
+       "pt": "Poderíamos ter um quarto no térreo, por favor?",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "Is there a room with a sea view?",
+       "tone": "ok",
+       "fb": "Sonhando alto! Vamos ver…",
+       "pt": "Tem um quarto com vista para o mar?",
+       "lang": "en",
+       "next": "seaview.0"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Sorry, the ground floor is full. But there is an elevator, of course.",
+     "pt": "Desculpe, o térreo está lotado. Mas tem elevador, claro.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Perfect, thank you.",
+     "pt": "Perfeito, obrigado.",
+     "next": "info.0"
+    },
+    "seaview.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Yes, we have one. It's eight hundred baht more per night.",
+     "pt": "Sim, temos um. São oitocentos bahts a mais por noite.",
+     "next": "seaview.1"
+    },
+    "seaview.1": {
+     "type": "choice",
+     "prompt": "Vale a pena?",
+     "options": [
+      {
+       "text": "OK, we'll take it! It's a special trip.",
+       "tone": "good",
+       "fb": "Que maravilha! Acordar vendo o mar não tem preço. 🌅",
+       "pt": "OK, vamos ficar com ele! É uma viagem especial.",
+       "lang": "en",
+       "next": "upgrade.0"
+      },
+      {
+       "text": "No, thank you. The normal room is fine.",
+       "tone": "good",
+       "fb": "Decisão sensata: sobra dinheiro para os passeios!",
+       "pt": "Não, obrigado. O quarto normal está ótimo.",
+       "lang": "en",
+       "next": "info.0"
+      }
+     ]
+    },
+    "upgrade.0": {
+     "type": "narration",
+     "pt": "A recepcionista sorri, troca o cartão-chave e diz que a vista da varanda é a mais bonita do hotel. 🌊",
+     "mood": "talk",
+     "next": "info.0"
+    },
+    "info.0": {
+     "type": "build",
+     "pt": "A que horas é o café da manhã?",
+     "en": "What time is breakfast?",
+     "extra": [
+      "when",
+      "eat"
+     ],
+     "next": "info.1"
+    },
+    "info.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "From six thirty to ten thirty, by the pool.",
+     "pt": "Das seis e meia às dez e meia, perto da piscina.",
+     "next": "info.2"
+    },
+    "info.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "And what is the Wi-Fi ___?",
+     "answer": "password",
+     "options": [
+      "password",
+      "word",
+      "key",
+      "name"
+     ],
+     "pt": "E qual é a senha do Wi-Fi?",
+     "next": "info.3"
+    },
+    "info.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "It's on your key card. Enjoy your stay!",
+     "pt": "Está no seu cartão-chave. Aproveitem a estadia!",
+     "next": "info.4"
+    },
+    "info.4": {
+     "type": "tip",
+     "icon": "👙",
+     "title": "Roupa de praia é para a praia",
+     "pt": "Em Phuket todo mundo vai à praia, mas andar de biquíni ou sem camisa no lobby, nas lojas ou na rua é visto como falta de educação.",
+     "dos": [
+      "Usar uma saída de praia ou camiseta fora da piscina"
+     ],
+     "donts": [
+      "Andar de roupa de banho pela cidade"
+     ],
+     "next": "info.5"
+    },
+    "info.5": {
+     "type": "narration",
+     "pt": "No quarto, vocês abrem as cortinas e… que calor! O ar-condicionado não liga. 🥵",
+     "mood": "talk",
+     "next": "info.6"
+    },
+    "info.6": {
+     "type": "choice",
+     "prompt": "Você liga para a recepção. O que diz?",
+     "options": [
+      {
+       "text": "Hi, this is room 305. The air conditioning isn't working.",
+       "tone": "good",
+       "fb": "Perfeito: diz quem é, qual o quarto e qual o problema.",
+       "pt": "Olá, aqui é do quarto 305. O ar-condicionado não está funcionando.",
+       "lang": "en",
+       "next": "fix.0"
+      },
+      {
+       "text": "Hello, I am broken. Help me!",
+       "tone": "bad",
+       "fb": "Hahaha, você disse \"eu estou quebrado\"! Vamos tentar de novo.",
+       "pt": "Alô, eu estou quebrado. Me ajude!",
+       "lang": "en",
+       "next": "broken.0"
+      }
+     ]
+    },
+    "broken.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Sorry? Are you OK?",
+     "pt": "Como? Você está bem?",
+     "next": "broken.1"
+    },
+    "broken.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry! The air conditioning is ___.",
+     "answer": "broken",
+     "options": [
+      "broken",
+      "happy",
+      "hot",
+      "open"
+     ],
+     "pt": "Desculpe! O ar-condicionado está quebrado.",
+     "next": "broken.2"
+    },
+    "broken.2": {
+     "type": "explain",
+     "title": "Isn't working / is broken",
+     "pt": "Para dizer que algo não funciona: \"The TV isn't working\" ou \"The shower is broken\". O sujeito é o objeto, não você!",
+     "examples": [
+      {
+       "en": "The shower isn't working.",
+       "pt": "O chuveiro não está funcionando."
+      }
+     ],
+     "next": "fix.0"
+    },
+    "fix.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "I'm sorry! A technician will be there in ten minutes.",
+     "pt": "Desculpe! Um técnico vai subir em dez minutos.",
+     "next": "fix.1"
+    },
+    "fix.1": {
+     "type": "end",
+     "ending": "resort",
+     "title": "Final: bem-vindos ao paraíso",
+     "pt": "Quarto resolvido, ar gelado e a praia esperando lá embaixo. Hora de descansar! 🏝️"
+    }
+   }
+  },
+  {
+   "id": "c6",
+   "emoji": "🛍️",
+   "title": "Feirinha de lembrancinhas",
+   "titleEn": "Souvenir market",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "🛍️",
+      "bob"
+     ],
+     [
+      "🐘",
+      "walk"
+     ],
+     [
+      "🏮",
+      "sway"
+     ]
+    ]
+   },
+   "summary": "Pechinchar com simpatia, pagar em dinheiro e conferir o troco.",
+   "start": "start.0",
+   "endings": [
+    "feirinha"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Fim de tarde na feirinha de Phuket: elefantes de madeira, ímãs de geladeira, sabonetes em forma de flor… hora de comprar lembrancinhas para a família no Brasil! 🎁",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "😊",
+     "title": "A pechincha amigável",
+     "pt": "Negociar faz parte, mas na Tailândia quem perde a calma \"perde a cara\" (lose face) e perde a simpatia do vendedor. Pechinche como uma brincadeira, sempre sorrindo.",
+     "dos": [
+      "Sorrir e brincar",
+      "Pedir desconto por quantidade"
+     ],
+     "donts": [
+      "Gritar ou se irritar",
+      "Ofender o produto"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Hello! Look, very nice! Elephant magnets, one hundred baht each.",
+     "pt": "Olá! Olha, muito bonito! Ímãs de elefante, cem bahts cada.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "choice",
+     "prompt": "Você quer levar cinco. Como pede desconto?",
+     "options": [
+      {
+       "text": "If I buy five, can you give me a discount?",
+       "tone": "good",
+       "fb": "Excelente! Desconto por quantidade é a forma mais simpática de negociar.",
+       "pt": "Se eu comprar cinco, você me dá um desconto?",
+       "lang": "en",
+       "next": "deal.0"
+      },
+      {
+       "text": "Too expensive! Are you crazy?",
+       "tone": "bad",
+       "fb": "Xiii… o sorriso do vendedor sumiu. Veja:",
+       "pt": "Caro demais! Você está louco?",
+       "lang": "en",
+       "next": "rude.0"
+      }
+     ]
+    },
+    "rude.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Sorry. No discount.",
+     "pt": "Desculpe. Sem desconto.",
+     "next": "rude.1"
+    },
+    "rude.1": {
+     "type": "narration",
+     "pt": "Viu? Grosseria fecha portas. Mas dá para consertar com humor.",
+     "mood": "oops",
+     "next": "rude.2"
+    },
+    "rude.2": {
+     "type": "choice",
+     "prompt": "Tente de novo:",
+     "options": [
+      {
+       "text": "Sorry, I'm joking! Five for four hundred?",
+       "tone": "good",
+       "fb": "Salvou! Um sorriso e uma piada desarmam qualquer vendedor.",
+       "pt": "Desculpe, estou brincando! Cinco por quatrocentos?",
+       "lang": "en",
+       "next": "deal.0"
+      }
+     ]
+    },
+    "deal.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "OK, five for four hundred. Special price for you!",
+     "pt": "OK, cinco por quatrocentos. Preço especial para você!",
+     "next": "deal.1"
+    },
+    "deal.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Great! Can I pay ___ card?",
+     "answer": "by",
+     "options": [
+      "by",
+      "on",
+      "in",
+      "at"
+     ],
+     "pt": "Ótimo! Posso pagar com cartão?",
+     "next": "deal.2"
+    },
+    "deal.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Sorry, cash only.",
+     "pt": "Desculpe, só dinheiro.",
+     "next": "deal.3"
+    },
+    "deal.3": {
+     "type": "build",
+     "pt": "Tem um caixa eletrônico aqui perto?",
+     "en": "Is there an ATM near here?",
+     "extra": [
+      "are",
+      "bank"
+     ],
+     "next": "deal.4"
+    },
+    "deal.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Yes, next to the 7-Eleven.",
+     "pt": "Sim, ao lado da 7-Eleven.",
+     "next": "deal.5"
+    },
+    "deal.5": {
+     "type": "narration",
+     "pt": "Você volta com o dinheiro, paga com uma nota de 500 e recebe o troco. Mas espera… veio só 50 bahts. 🤔",
+     "mood": "talk",
+     "next": "deal.6"
+    },
+    "deal.6": {
+     "type": "choice",
+     "prompt": "O troco deveria ser 100. O que você diz?",
+     "options": [
+      {
+       "text": "Excuse me, I think the change is wrong. I gave you five hundred.",
+       "tone": "good",
+       "fb": "Perfeito: educado, claro e sem acusar ninguém.",
+       "pt": "Com licença, acho que o troco está errado. Eu te dei quinhentos.",
+       "lang": "en",
+       "next": "deal.7"
+      },
+      {
+       "text": "(Não dizer nada e ir embora)",
+       "tone": "ok",
+       "fb": "Tudo bem evitar confusão, mas você perdeu 50 bahts. Conferir o troco é um direito seu!",
+       "pt": null,
+       "lang": "pt",
+       "next": "leave.0"
+      }
+     ]
+    },
+    "deal.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Oh, sorry! My mistake. Here is fifty more.",
+     "pt": "Ah, desculpe! Erro meu. Aqui estão mais cinquenta.",
+     "next": "deal.8"
+    },
+    "deal.8": {
+     "type": "explain",
+     "title": "Conferindo o troco",
+     "pt": "Frases úteis: \"I think the change is wrong\" (acho que o troco está errado) e \"I gave you…\" (eu te dei…). Com calma e sorriso, sempre funciona.",
+     "examples": [
+      {
+       "en": "I gave you a thousand.",
+       "pt": "Eu te dei mil."
+      }
+     ],
+     "next": "bye.0"
+    },
+    "leave.0": {
+     "type": "narration",
+     "pt": "Tudo bem! Da próxima vez, lembre: \"I think the change is wrong\" resolve isso num segundo.",
+     "mood": "talk",
+     "next": "bye.0"
+    },
+    "bye.0": {
+     "type": "build",
+     "pt": "Você pode colocar numa sacola, por favor?",
+     "en": "Can you put them in a bag, please?",
+     "extra": [
+      "it",
+      "on"
+     ],
+     "next": "bye.1"
+    },
+    "bye.1": {
+     "type": "end",
+     "ending": "feirinha",
+     "title": "Final: sacola cheia",
+     "pt": "Lembrancinhas compradas, desconto conquistado e troco conferido. A família no Brasil vai amar! 🐘🎁"
+    }
+   }
+  },
+  {
+   "id": "c7",
+   "emoji": "🚤",
+   "title": "Barco para as ilhas Phi Phi",
+   "titleEn": "Phi Phi boat trip",
+   "scene": {
+    "sky": "sea",
+    "items": [
+     [
+      "🚤",
+      "drive"
+     ],
+     [
+      "🐠",
+      "swim"
+     ],
+     [
+      "🌊",
+      "wave"
+     ]
+    ]
+   },
+   "summary": "Passeio de barco, enjoo no mar, snorkel e as regras para proteger os corais.",
+   "start": "start.0",
+   "endings": [
+    "ilhas"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "O grande dia! Um barco rápido até as ilhas Phi Phi, com água cor de esmeralda e parada para mergulhar de snorkel. 🚤 O guia espera vocês no píer.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Good morning! Voucher, please.",
+     "pt": "Bom dia! O voucher, por favor.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Good morning! Here it ___.",
+     "answer": "is",
+     "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+     ],
+     "pt": "Bom dia! Aqui está.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Thank you. Please take a life jacket. Everybody must wear one.",
+     "pt": "Obrigado. Peguem um colete salva-vidas. Todo mundo precisa usar.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "tip",
+     "icon": "🪸",
+     "title": "Proteja o mar",
+     "pt": "Nas ilhas Phi Phi é proibido tocar ou pisar nos corais, alimentar os peixes e jogar qualquer lixo no mar. As multas são altas!",
+     "dos": [
+      "Olhar sem tocar",
+      "Usar protetor solar que não agride o mar"
+     ],
+     "donts": [
+      "Pisar nos corais",
+      "Dar comida aos peixes",
+      "Jogar lixo no mar"
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "narration",
+     "pt": "O barco acelera e o mar está agitado. Tchum! Tchum! Suas pernas balançam e o estômago começa a revirar… 🤢",
+     "mood": "talk",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Excuse me, I feel seasick. Do you have anything for it?",
+       "tone": "good",
+       "fb": "Muito bem! Pedir ajuda cedo evita o pior.",
+       "pt": "Com licença, estou enjoado. Você tem algo para isso?",
+       "lang": "en",
+       "next": "start.7"
+      },
+      {
+       "text": "(Ficar quieto e aguentar)",
+       "tone": "bad",
+       "fb": "Ai, ai… vamos ver no que dá.",
+       "pt": null,
+       "lang": "pt",
+       "next": "sick.0"
+      }
+     ]
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Yes, here is a pill. Look at the horizon and drink some water.",
+     "pt": "Sim, aqui está um comprimido. Olhe para o horizonte e beba um pouco de água.",
+     "next": "snorkel.0"
+    },
+    "sick.0": {
+     "type": "narration",
+     "pt": "Cinco minutos depois… você precisa correr para a lateral do barco. 😵 O guia vem ajudar.",
+     "mood": "talk",
+     "next": "sick.1"
+    },
+    "sick.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Are you OK? Here, take this pill and look at the horizon.",
+     "pt": "Você está bem? Aqui, tome este comprimido e olhe para o horizonte.",
+     "next": "sick.2"
+    },
+    "sick.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you. I feel ___ now.",
+     "answer": "better",
+     "options": [
+      "better",
+      "good",
+      "best",
+      "well"
+     ],
+     "pt": "Obrigado. Estou me sentindo melhor agora.",
+     "next": "sick.3"
+    },
+    "sick.3": {
+     "type": "explain",
+     "title": "Seasick",
+     "pt": "\"Seasick\" é enjoo no mar; \"carsick\" é enjoo no carro; \"airsick\", no avião. E \"I feel better\" é \"estou melhor\".",
+     "examples": [
+      {
+       "en": "I feel seasick.",
+       "pt": "Estou enjoado (no mar)."
+      },
+      {
+       "en": "I feel better now.",
+       "pt": "Estou melhor agora."
+      }
+     ],
+     "next": "snorkel.0"
+    },
+    "snorkel.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "We are here! Snorkeling time. Remember: don't touch the coral and don't feed the fish.",
+     "pt": "Chegamos! Hora do snorkel. Lembrem: não toquem nos corais e não deem comida aos peixes.",
+     "next": "snorkel.1"
+    },
+    "snorkel.1": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Don't ___ the fish, please.",
+     "answer": "feed",
+     "options": [
+      "feed",
+      "eat",
+      "food",
+      "give"
+     ],
+     "pt": "Não alimentem os peixes, por favor.",
+     "next": "snorkel.2"
+    },
+    "snorkel.2": {
+     "type": "narration",
+     "pt": "Debaixo d'água é outro mundo: peixes-palhaço, peixes listrados, corais de todas as cores! 🐠🐟🐡",
+     "mood": "talk",
+     "next": "snorkel.3"
+    },
+    "snorkel.3": {
+     "type": "choice",
+     "prompt": "Um peixe lindo nada na sua direção. O que você faz?",
+     "options": [
+      {
+       "text": "Só observar e tirar uma foto de longe",
+       "tone": "good",
+       "fb": "Perfeito! Assim o mar continua lindo para os próximos visitantes.",
+       "pt": null,
+       "lang": "pt",
+       "next": "photo.0"
+      },
+      {
+       "text": "Oferecer um pedaço de biscoito",
+       "tone": "bad",
+       "fb": "Não pode! Comida humana faz mal aos peixes e desequilibra os corais.",
+       "pt": null,
+       "lang": "pt",
+       "next": "cookie.0"
+      }
+     ]
+    },
+    "cookie.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "No, no! Please, no food for the fish. It's bad for them.",
+     "pt": "Não, não! Por favor, nada de comida para os peixes. Faz mal a eles.",
+     "next": "cookie.1"
+    },
+    "cookie.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! I didn't know.",
+     "pt": "Ah, desculpe! Eu não sabia.",
+     "next": "photo.0"
+    },
+    "photo.0": {
+     "type": "narration",
+     "pt": "De volta ao barco, vocês param na famosa Maya Bay, a praia do filme \"A Praia\". O cenário é perfeito para uma foto.",
+     "mood": "talk",
+     "next": "photo.1"
+    },
+    "photo.1": {
+     "type": "build",
+     "pt": "Você poderia tirar uma foto nossa?",
+     "en": "Could you take a photo of us?",
+     "extra": [
+      "make",
+      "we"
+     ],
+     "next": "photo.2"
+    },
+    "photo.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "Of course! Say cheese!",
+     "pt": "Claro! Digam \"xis\"!",
+     "next": "photo.3"
+    },
+    "photo.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "What time do we go ___ to the hotel?",
+     "answer": "back",
+     "options": [
+      "back",
+      "home",
+      "return",
+      "again"
+     ],
+     "pt": "Que horas voltamos para o hotel?",
+     "next": "photo.4"
+    },
+    "photo.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia",
+     "en": "At four o'clock.",
+     "pt": "Às quatro horas.",
+     "next": "photo.5"
+    },
+    "photo.5": {
+     "type": "end",
+     "ending": "ilhas",
+     "title": "Final: dia de esmeralda",
+     "pt": "Peixes coloridos, praia de cinema e muito inglês na prática. Um dia para nunca esquecer! 🐠🏝️"
+    }
+   }
+  },
+  {
+   "id": "c8",
+   "emoji": "💊",
+   "title": "Emergência: achar uma farmácia",
+   "titleEn": "Finding a pharmacy",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🗺️",
+      "bob"
+     ],
+     [
+      "💊",
+      "pulse"
+     ],
+     [
+      "🧭",
+      "spin"
+     ]
+    ]
+   },
+   "summary": "Pedir direções, explicar o que sente na farmácia e números de emergência.",
+   "start": "start.0",
+   "endings": [
+    "farmacia"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Passeando pelo centrinho de Phuket, alguém da família não está se sentindo bem. Nada grave, mas precisamos de uma farmácia. 💊 O que aconteceu?",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "choice",
+     "prompt": "Escolha o problema:",
+     "options": [
+      {
+       "text": "Queimadura de sol: o ombro está vermelho",
+       "tone": "good",
+       "fb": "Clássico de praia tropical! Vamos resolver.",
+       "pt": null,
+       "lang": "pt",
+       "next": "sun.0"
+      },
+      {
+       "text": "Dor de barriga depois do jantar",
+       "tone": "good",
+       "fb": "Acontece com muitos viajantes. Vamos resolver.",
+       "pt": null,
+       "lang": "pt",
+       "next": "stomach.0"
+      }
+     ]
+    },
+    "sun.0": {
+     "type": "explain",
+     "title": "Sunburn x sunscreen",
+     "pt": "Cuidado para não trocar: \"sunburn\" é a queimadura de sol; \"sunscreen\" é o protetor solar.",
+     "examples": [
+      {
+       "en": "I got a sunburn.",
+       "pt": "Eu me queimei no sol."
+      },
+      {
+       "en": "Do you have sunscreen?",
+       "pt": "Você tem protetor solar?"
+      }
+     ],
+     "next": "ask.0"
+    },
+    "stomach.0": {
+     "type": "explain",
+     "title": "Dores em inglês",
+     "pt": "Dor = \"ache\" junto com a parte do corpo: stomachache (dor de barriga), headache (dor de cabeça), toothache (dor de dente).",
+     "examples": [
+      {
+       "en": "I have a stomachache.",
+       "pt": "Estou com dor de barriga."
+      },
+      {
+       "en": "I have a headache.",
+       "pt": "Estou com dor de cabeça."
+      }
+     ],
+     "next": "ask.0"
+    },
+    "ask.0": {
+     "type": "tip",
+     "icon": "✋",
+     "title": "Como chamar alguém na rua",
+     "pt": "Para chamar a atenção de alguém, diga \"Excuse me\". Não aponte o dedo indicador para pessoas; para indicar algo, use a mão aberta. E para chamar alguém para perto, a palma fica virada para baixo.",
+     "dos": [
+      "Começar com Excuse me",
+      "Apontar com a mão aberta"
+     ],
+     "donts": [
+      "Apontar o dedo para pessoas",
+      "Estalar os dedos ou assobiar para chamar alguém"
+     ],
+     "next": "ask.1"
+    },
+    "ask.1": {
+     "type": "choice",
+     "prompt": "Você vê um senhor numa loja. Como começa?",
+     "options": [
+      {
+       "text": "Excuse me, is there a pharmacy near here?",
+       "tone": "good",
+       "fb": "Perfeito: educado e direto.",
+       "pt": "Com licença, tem uma farmácia aqui perto?",
+       "lang": "en",
+       "next": "ask.2"
+      },
+      {
+       "text": "Hey you! Pharmacy!",
+       "tone": "bad",
+       "fb": "Funciona em emergência, mas soa grosseiro. \"Excuse me\" abre portas!",
+       "pt": "Ei, você! Farmácia!",
+       "lang": "en",
+       "next": "ask.2"
+      }
+     ]
+    },
+    "ask.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhor",
+     "en": "Yes. Go straight, then turn left at the temple. The pharmacy is next to the bank.",
+     "pt": "Sim. Siga em frente e vire à esquerda no templo. A farmácia fica ao lado do banco.",
+     "next": "ask.3"
+    },
+    "ask.3": {
+     "type": "explain",
+     "title": "Direções",
+     "pt": "Go straight = siga em frente. Turn left = vire à esquerda. Turn right = vire à direita. Next to = ao lado de. Across from = em frente a (do outro lado).",
+     "examples": [
+      {
+       "en": "Turn right at the corner.",
+       "pt": "Vire à direita na esquina."
+      },
+      {
+       "en": "It's next to the bank.",
+       "pt": "Fica ao lado do banco."
+      }
+     ],
+     "next": "ask.4"
+    },
+    "ask.4": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "So, go straight and turn ___ at the temple?",
+     "answer": "left",
+     "options": [
+      "left",
+      "right",
+      "back",
+      "around"
+     ],
+     "pt": "Então, seguir em frente e virar à esquerda no templo?",
+     "next": "ask.5"
+    },
+    "ask.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhor",
+     "en": "Yes, that's right!",
+     "pt": "Sim, isso mesmo!",
+     "next": "ask.6"
+    },
+    "ask.6": {
+     "type": "choice",
+     "prompt": "A farmácia chegou! O que você diz? (lembre do problema)",
+     "options": [
+      {
+       "text": "I got a bad sunburn. Do you have aloe vera?",
+       "tone": "good",
+       "fb": "Isso! Babosa (aloe vera) alivia a queimadura.",
+       "pt": "Eu me queimei muito no sol. Você tem babosa?",
+       "lang": "en",
+       "next": "pharmSun.0"
+      },
+      {
+       "text": "I have a stomachache. Do you have something for it?",
+       "tone": "good",
+       "fb": "Isso! \"Something for it\" = algo para isso.",
+       "pt": "Estou com dor de barriga. Você tem algo para isso?",
+       "lang": "en",
+       "next": "pharmStomach.0"
+      }
+     ]
+    },
+    "pharmSun.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutica",
+     "en": "Yes, this aloe vera gel is very good. Put it on three times a day.",
+     "pt": "Sim, este gel de babosa é muito bom. Passe três vezes por dia.",
+     "next": "pharmSun.1"
+    },
+    "pharmSun.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you. And do you have ___? Ours is finished.",
+     "answer": "sunscreen",
+     "options": [
+      "sunscreen",
+      "sunburn",
+      "sunglasses",
+      "sunset"
+     ],
+     "pt": "Obrigado. E você tem protetor solar? O nosso acabou.",
+     "next": "numbers.0"
+    },
+    "pharmStomach.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutica",
+     "en": "Yes. Take one pill after each meal, and drink a lot of water.",
+     "pt": "Sim. Tome um comprimido depois de cada refeição e beba bastante água.",
+     "next": "pharmStomach.1"
+    },
+    "pharmStomach.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "One pill ___ each meal. Thank you!",
+     "answer": "after",
+     "options": [
+      "after",
+      "before",
+      "during",
+      "without"
+     ],
+     "pt": "Um comprimido depois de cada refeição. Obrigado!",
+     "next": "numbers.0"
+    },
+    "numbers.0": {
+     "type": "tip",
+     "icon": "🚑",
+     "title": "Números de emergência na Tailândia",
+     "pt": "Anote no celular: 1669 é a ambulância (emergência médica) e 1155 é a Polícia Turística, que fala inglês e ajuda turistas em qualquer situação.",
+     "dos": [
+      "Salvar 1669 e 1155 no celular",
+      "Ter seguro-viagem"
+     ],
+     "donts": [],
+     "next": "numbers.1"
+    },
+    "numbers.1": {
+     "type": "build",
+     "pt": "Nós precisamos de um médico.",
+     "en": "We need a doctor.",
+     "extra": [
+      "needs",
+      "the"
+     ],
+     "next": "numbers.2"
+    },
+    "numbers.2": {
+     "type": "end",
+     "ending": "farmacia",
+     "title": "Final: problema resolvido",
+     "pt": "Você pediu informação, entendeu as direções e explicou o problema na farmácia. Viajante preparado! 💪"
+    }
+   }
+  },
+  {
+   "id": "c9",
+   "emoji": "🧳",
+   "title": "Check-out e táxi",
+   "titleEn": "Check-out and taxi",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🧳",
+      "bob"
+     ],
+     [
+      "🚕",
+      "drive"
+     ],
+     [
+      "🏨",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Fechar a conta, frigobar, guardar malas e táxi para o aeroporto.",
+   "start": "start.0",
+   "endings": [
+    "checkout"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Os dias em Phuket voaram! 🥲 Malas mais pesadas (culpa das lembrancinhas), pele bronzeada e hora de fazer o check-out.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Good morning! We'd like to check out, please.",
+     "pt": "Bom dia! Gostaríamos de fazer o check-out, por favor.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Good morning! Did you take anything from the minibar?",
+     "pt": "Bom dia! Vocês consumiram algo do frigobar?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "choice",
+     "prompt": "Vocês tomaram duas águas e uma cerveja. O que diz?",
+     "options": [
+      {
+       "text": "Yes, two waters and one beer.",
+       "tone": "good",
+       "fb": "Honestidade sempre! E você já aprendeu a contar as coisas em inglês.",
+       "pt": "Sim, duas águas e uma cerveja.",
+       "lang": "en",
+       "next": "bill.0"
+      },
+      {
+       "text": "No, nothing.",
+       "tone": "bad",
+       "fb": "Hum… a camareira confere o frigobar. Veja:",
+       "pt": "Não, nada.",
+       "lang": "en",
+       "next": "minibar.0"
+      }
+     ]
+    },
+    "minibar.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Housekeeping says two waters and one beer are missing.",
+     "pt": "A arrumação disse que faltam duas águas e uma cerveja.",
+     "next": "minibar.1"
+    },
+    "minibar.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! I forgot. Yes, that's right.",
+     "pt": "Ah, desculpe! Esqueci. Sim, é isso mesmo.",
+     "next": "bill.0"
+    },
+    "bill.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "No problem. That's one hundred and eighty baht.",
+     "pt": "Sem problema. São cento e oitenta bahts.",
+     "next": "bill.1"
+    },
+    "bill.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Here you are. Can I have a ___, please?",
+     "answer": "receipt",
+     "options": [
+      "receipt",
+      "recipe",
+      "reception",
+      "room"
+     ],
+     "pt": "Aqui está. Pode me dar o recibo, por favor?",
+     "next": "bill.2"
+    },
+    "bill.2": {
+     "type": "explain",
+     "title": "Receipt x recipe",
+     "pt": "\"Receipt\" (ri-SIIT, o p é mudo!) é recibo ou nota fiscal. \"Recipe\" é receita de comida. Não confunda!",
+     "examples": [
+      {
+       "en": "Can I have a receipt?",
+       "pt": "Pode me dar um recibo?"
+      }
+     ],
+     "next": "bill.3"
+    },
+    "bill.3": {
+     "type": "tip",
+     "icon": "💵",
+     "title": "Gorjeta para a camareira",
+     "pt": "Gorjeta não é obrigatória na Tailândia, mas é muito apreciada. Deixar 20 a 50 bahts por dia no quarto para quem arruma é um gesto gentil.",
+     "dos": [
+      "Deixar o quarto organizado",
+      "Gorjeta pequena para a arrumação"
+     ],
+     "donts": [],
+     "next": "bill.4"
+    },
+    "bill.4": {
+     "type": "choice",
+     "prompt": "O voo é só às 18h. O que vocês fazem com as malas?",
+     "options": [
+      {
+       "text": "Can we leave our bags here until three o'clock?",
+       "tone": "good",
+       "fb": "Ótimo! Quase todo hotel guarda as malas de graça.",
+       "pt": "Podemos deixar nossas malas aqui até as três horas?",
+       "lang": "en",
+       "next": "storage.0"
+      },
+      {
+       "text": "Can you call a taxi to the airport now, please?",
+       "tone": "good",
+       "fb": "Tudo bem ir cedo: aeroporto internacional pede antecedência.",
+       "pt": "Você pode chamar um táxi para o aeroporto agora, por favor?",
+       "lang": "en",
+       "next": "taxi.0"
+      }
+     ]
+    },
+    "storage.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Of course. Here is your ticket for the bags.",
+     "pt": "Claro. Aqui está o seu tíquete das malas.",
+     "next": "storage.1"
+    },
+    "storage.1": {
+     "type": "narration",
+     "pt": "Vocês aproveitam a última manhã na praia. 🏖️ Às três, voltam para buscar as malas.",
+     "mood": "talk",
+     "next": "storage.2"
+    },
+    "storage.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Hi! Can we have our bags, please? Here is the ticket.",
+     "pt": "Olá! Pode nos dar nossas malas, por favor? Aqui está o tíquete.",
+     "next": "storage.3"
+    },
+    "storage.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "And can you call a taxi to the airport, please?",
+     "pt": "E você pode chamar um táxi para o aeroporto, por favor?",
+     "next": "taxi.0"
+    },
+    "taxi.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Sure. The hotel taxi is six hundred baht, fixed price.",
+     "pt": "Claro. O táxi do hotel custa seiscentos bahts, preço fixo.",
+     "next": "taxi.1"
+    },
+    "taxi.1": {
+     "type": "choice",
+     "prompt": "O que você acha?",
+     "options": [
+      {
+       "text": "OK, that's fine. Thank you.",
+       "tone": "good",
+       "fb": "Boa! Táxi de hotel com preço fixo é seguro e sem surpresas.",
+       "pt": "OK, tudo bem. Obrigado.",
+       "lang": "en",
+       "next": "taxi.2"
+      },
+      {
+       "text": "Can he use the meter?",
+       "tone": "ok",
+       "fb": "Normalmente sim, mas táxi de hotel tem preço fixo, e isso é normal e seguro.",
+       "pt": "Ele pode usar o taxímetro?",
+       "lang": "en",
+       "next": "taxi.2"
+      }
+     ]
+    },
+    "taxi.2": {
+     "type": "build",
+     "pt": "Quanto tempo leva até o aeroporto?",
+     "en": "How long does it take to the airport?",
+     "extra": [
+      "much",
+      "is"
+     ],
+     "next": "taxi.3"
+    },
+    "taxi.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "About forty-five minutes. Thank you for staying with us!",
+     "pt": "Uns quarenta e cinco minutos. Obrigado por ficarem conosco!",
+     "next": "taxi.4"
+    },
+    "taxi.4": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you! We ___ everything.",
+     "answer": "loved",
+     "options": [
+      "loved",
+      "love",
+      "loving",
+      "lovely"
+     ],
+     "pt": "Obrigado! Nós amamos tudo.",
+     "next": "taxi.5"
+    },
+    "taxi.5": {
+     "type": "end",
+     "ending": "checkout",
+     "title": "Final: despedida do paraíso",
+     "pt": "Conta fechada, recibo na mão e táxi a caminho. Só falta o voo de volta! 🚕"
+    }
+   }
+  },
+  {
+   "id": "c10",
+   "emoji": "🛫",
+   "title": "Voo de volta para casa",
+   "titleEn": "Flight home",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "🛫",
+      "fly"
+     ],
+     [
+      "🧳",
+      "bob"
+     ],
+     [
+      "🇧🇷",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Despachar as malas, excesso de peso, escolher o assento e a despedida.",
+   "start": "start.0",
+   "endings": [
+    "volta"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Último capítulo! 🥹 No aeroporto de Phuket, vocês vão ao balcão da companhia aérea. A viagem de volta tem conexão, então é bom resolver tudo com calma.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Sawasdee {p}! Passports and tickets, please.",
+     "pt": "Olá! Passaportes e passagens, por favor.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sawasdee {p}. Here they are.",
+     "pt": "Olá. Aqui estão.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "explain",
+     "title": "Here it is x Here they are",
+     "pt": "Uma coisa: \"Here it is\". Várias coisas: \"Here they are\". Para entregar qualquer coisa, \"Here you are\" sempre funciona.",
+     "examples": [
+      {
+       "en": "Here are our passports.",
+       "pt": "Aqui estão nossos passaportes."
+      }
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Please put your bags on the scale. … Oh, this bag is three kilos overweight.",
+     "pt": "Coloquem as malas na balança. … Ah, esta mala está três quilos acima do peso.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Culpa das lembrancinhas! O que você faz?",
+     "options": [
+      {
+       "text": "Can I move some things to my carry-on?",
+       "tone": "good",
+       "fb": "Solução inteligente: passar coisas para a bagagem de mão.",
+       "pt": "Posso passar algumas coisas para a bagagem de mão?",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "How much is the extra fee?",
+       "tone": "ok",
+       "fb": "Vale saber o preço!",
+       "pt": "Quanto é a taxa extra?",
+       "lang": "en",
+       "next": "fee.0"
+      },
+      {
+       "text": "That's impossible! Your scale is wrong!",
+       "tone": "bad",
+       "fb": "Brigar com o atendente não muda a balança… 😅",
+       "pt": "Impossível! Sua balança está errada!",
+       "lang": "en",
+       "next": "argue.0"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Of course. You can do it right here.",
+     "pt": "Claro. Pode fazer aqui mesmo.",
+     "next": "seat.0"
+    },
+    "fee.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "It's one thousand five hundred baht.",
+     "pt": "São mil e quinhentos bahts.",
+     "next": "fee.1"
+    },
+    "fee.1": {
+     "type": "choice",
+     "prompt": "E agora?",
+     "options": [
+      {
+       "text": "Hmm, I'll move some things to my carry-on, then.",
+       "tone": "good",
+       "fb": "Economizou! Mil e quinhentos bahts ficam para o próximo passeio.",
+       "pt": "Hmm, então vou passar algumas coisas para a bagagem de mão.",
+       "lang": "en",
+       "next": "seat.0"
+      },
+      {
+       "text": "OK, I'll pay. Here is my card.",
+       "tone": "ok",
+       "fb": "Tudo bem, às vezes vale a pena pela praticidade.",
+       "pt": "OK, vou pagar. Aqui está meu cartão.",
+       "lang": "en",
+       "next": "seat.0"
+      }
+     ]
+    },
+    "argue.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "I'm sorry, the scale is correct. You can pay the fee or move some things.",
+     "pt": "Sinto muito, a balança está certa. Você pode pagar a taxa ou tirar algumas coisas.",
+     "next": "argue.1"
+    },
+    "argue.1": {
+     "type": "narration",
+     "pt": "Lembra da \"Terra dos Sorrisos\"? Levantar a voz não funciona aqui. Respira e sorri. 😊",
+     "mood": "oops",
+     "next": "argue.2"
+    },
+    "argue.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry. I'll move some things to my carry-on.",
+     "pt": "Desculpe. Vou passar algumas coisas para a bagagem de mão.",
+     "next": "seat.0"
+    },
+    "seat.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Would you like a window or an aisle seat?",
+     "pt": "Vocês preferem assento na janela ou no corredor?",
+     "next": "seat.1"
+    },
+    "seat.1": {
+     "type": "choice",
+     "prompt": "Escolha o seu lugar:",
+     "options": [
+      {
+       "text": "Window, please. We want to see Thailand one last time.",
+       "tone": "good",
+       "fb": "Que bonito! Uma última vista das ilhas lá de cima. 🌅",
+       "pt": "Janela, por favor. Queremos ver a Tailândia uma última vez.",
+       "lang": "en",
+       "next": "seat.2"
+      },
+      {
+       "text": "Aisle, please. It's easier to walk.",
+       "tone": "good",
+       "fb": "Escolha prática para um voo longo!",
+       "pt": "Corredor, por favor. É mais fácil para caminhar.",
+       "lang": "en",
+       "next": "seat.2"
+      }
+     ]
+    },
+    "seat.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Here are your boarding passes. Boarding is at gate 4, at seven fifteen.",
+     "pt": "Aqui estão os cartões de embarque. O embarque é no portão 4, às sete e quinze.",
+     "next": "seat.3"
+    },
+    "seat.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Gate four at seven fifteen. And our bags go ___ to São Paulo?",
+     "answer": "straight",
+     "options": [
+      "straight",
+      "right",
+      "left",
+      "back"
+     ],
+     "pt": "Portão quatro às sete e quinze. E nossas malas vão direto para São Paulo?",
+     "next": "seat.4"
+    },
+    "seat.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Yes, you pick them up in São Paulo. Have a safe flight!",
+     "pt": "Sim, vocês pegam em São Paulo. Tenham um voo seguro!",
+     "next": "seat.5"
+    },
+    "seat.5": {
+     "type": "build",
+     "pt": "Tenham um voo seguro!",
+     "en": "Have a safe flight!",
+     "extra": [
+      "safety",
+      "fly"
+     ],
+     "next": "seat.6"
+    },
+    "seat.6": {
+     "type": "narration",
+     "pt": "Da janela do avião, as ilhas vão ficando pequenininhas. Vocês falaram inglês na imigração, no templo, no tuk-tuk, no mercado, no hotel, no barco e até na farmácia. Que orgulho! 🥹",
+     "mood": "talk",
+     "next": "seat.7"
+    },
+    "seat.7": {
+     "type": "explain",
+     "title": "Khob khun!",
+     "pt": "Para se despedir da Tailândia, nada melhor que \"khob khun {p}\": obrigado(a) em tailandês. Pronuncia-se \"kóp kun\".",
+     "examples": [
+      {
+       "en": "Khob khun {p}, Thailand!",
+       "pt": "Obrigado(a), Tailândia!"
+      }
+     ],
+     "next": "seat.8"
+    },
+    "seat.8": {
+     "type": "end",
+     "ending": "volta",
+     "title": "Final: de volta para casa",
+     "pt": "Parabéns! Vocês completaram a Aventura na Tailândia. 🇹🇭✈️🇧🇷 Agora é só repetir os capítulos para descobrir os outros caminhos… e planejar a próxima viagem!"
+    }
+   }
+  }
+ ]
+}

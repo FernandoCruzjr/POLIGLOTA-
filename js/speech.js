@@ -37,3 +37,34 @@ export function speak(text, { slow = false, audio = null } = {}) {
   u.rate = slow ? 0.6 : 0.9;
   speechSynthesis.speak(u);
 }
+
+// Narração em português (voz do aparelho). Devolve uma Promise que resolve
+// quando a fala termina, para a história poder esperar o narrador.
+let ptVoice = null;
+function pickPtVoice() {
+  if (!('speechSynthesis' in window)) return;
+  const voices = speechSynthesis.getVoices();
+  ptVoice = voices.find((v) => v.lang === 'pt-BR') || voices.find((v) => v.lang && v.lang.startsWith('pt')) || null;
+}
+if ('speechSynthesis' in window) {
+  pickPtVoice();
+  speechSynthesis.addEventListener('voiceschanged', pickPtVoice);
+}
+
+export function speakPt(text) {
+  return new Promise((resolve) => {
+    if (!canSpeak()) { resolve(); return; }
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, ''));
+    u.lang = 'pt-BR';
+    if (ptVoice) u.voice = ptVoice;
+    u.rate = 1.02;
+    u.onend = resolve;
+    u.onerror = resolve;
+    speechSynthesis.speak(u);
+  });
+}
+
+export function stopSpeech() {
+  if (canSpeak()) speechSynthesis.cancel();
+}
