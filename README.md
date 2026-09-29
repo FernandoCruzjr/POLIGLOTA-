@@ -22,9 +22,12 @@ js/app.js             inicialização, login e rotas (#/inicio, #/aprender, #/li
 js/config.js          chaves do Supabase, nome do app, regras de XP
 js/auth.js            login, cadastro, recuperação de senha
 js/store.js           progresso do aluno: salva no aparelho e sincroniza com o Supabase
+js/vocab.js           lê o vocabulário por categoria e faz a busca
 js/content.js         lê o curso de data/course.json (trilha, desbloqueio, nível atual)
 js/speech.js          áudio grátis pela voz em inglês do aparelho
 js/views/*.js         telas: início, aprender, lição, perfil, vocabulário/revisão (em construção)
+data/vocab/           categories.json + um arquivo por categoria
+tools/check-vocab.mjs confere o banco e atualiza categories.json
 data/course.json      níveis → unidades → lições → itens (en, pt, pron, note, audio opcional)
 supabase/schema.sql   tabelas en_* com segurança por usuário (RLS)
 ```
@@ -39,10 +42,12 @@ Edite `data/course.json`. Cada item de lição:
 
 A sílaba forte vai em MAIÚSCULAS. Para abrir um nível novo, preencha `units` dele.
 
+Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translation, pron, example, exampleTranslation, difficulty 1–3, level) e rode `node tools/check-vocab.mjs`: ele aponta erros e atualiza as contagens em `categories.json`. Para uma categoria nova, acrescente-a em `categories.json` e crie o arquivo.
+
 ## Fases
 
 - [x] **Fase 1**: dashboard, visual verde, navegação (barra inferior no celular, lateral no computador), trilha com 3 unidades / 10 lições, XP, sequência e meta diária
-- [ ] **Fase 2**: área de vocabulário, categorias e banco de ~2.000 palavras (`data/vocab/*.json`)
+- [x] **Fase 2**: área de vocabulário com 2.061 palavras em 40 categorias (`data/vocab/*.json`), busca em inglês ou português, estudo por cartões, status por palavra
 - [ ] **Fase 3**: exercícios, domínio 0–4 por palavra, revisão espaçada (tabela `en_word_progress` já criada)
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
