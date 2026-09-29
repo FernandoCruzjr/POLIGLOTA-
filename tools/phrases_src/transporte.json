@@ -1,0 +1,311 @@
+{
+ "id": "transporte",
+ "name": "Transporte",
+ "emoji": "🚕",
+ "phrases": [
+  {
+   "en": "Can you take me to this address?",
+   "pt": "Pode me levar para este endereço?",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "Where can I get a taxi?",
+   "pt": "Onde posso pegar um táxi?",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "How much is it to the airport?",
+   "pt": "Quanto custa até o aeroporto?",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "To the train station, please.",
+   "pt": "Para a estação de trem, por favor.",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "Where to?",
+   "pt": "Para onde?",
+   "sub": "Táxi e app",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Can you turn on the meter, please?",
+   "pt": "Pode ligar o taxímetro, por favor?",
+   "sub": "Táxi e app",
+   "level": 2
+  },
+  {
+   "en": "Can you stop here, please?",
+   "pt": "Pode parar aqui, por favor?",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "Could you open the trunk, please?",
+   "pt": "Pode abrir o porta-malas, por favor?",
+   "sub": "Táxi e app",
+   "level": 2
+  },
+  {
+   "en": "Keep the change.",
+   "pt": "Pode ficar com o troco.",
+   "sub": "Táxi e app",
+   "level": 1
+  },
+  {
+   "en": "I ordered a ride on the app.",
+   "pt": "Pedi uma corrida pelo aplicativo.",
+   "sub": "Táxi e app",
+   "level": 2
+  },
+  {
+   "en": "I'm waiting at the main entrance, next to the bus stop.",
+   "pt": "Estou esperando na entrada principal, ao lado do ponto de ônibus.",
+   "sub": "Táxi e app",
+   "level": 3
+  },
+  {
+   "en": "How long will it take to get there with this traffic?",
+   "pt": "Quanto tempo leva para chegar lá com esse trânsito?",
+   "sub": "Táxi e app",
+   "level": 3
+  },
+  {
+   "en": "Is there a lot of traffic right now?",
+   "pt": "Tem muito trânsito agora?",
+   "sub": "Táxi e app",
+   "level": 2
+  },
+  {
+   "en": "Could you drive a little slower, please?",
+   "pt": "Pode dirigir um pouco mais devagar, por favor?",
+   "sub": "Táxi e app",
+   "level": 2
+  },
+  {
+   "en": "Where is the nearest subway station?",
+   "pt": "Onde fica a estação de metrô mais próxima?",
+   "sub": "Metrô e trem",
+   "level": 1
+  },
+  {
+   "en": "One ticket, please.",
+   "pt": "Uma passagem, por favor.",
+   "sub": "Metrô e trem",
+   "level": 1
+  },
+  {
+   "en": "How much is a one-way ticket?",
+   "pt": "Quanto custa uma passagem só de ida?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "A round-trip ticket, please.",
+   "pt": "Uma passagem de ida e volta, por favor.",
+   "sub": "Metrô e trem",
+   "level": 1
+  },
+  {
+   "en": "Is there a day pass?",
+   "pt": "Tem um passe diário?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "Which line goes downtown?",
+   "pt": "Qual linha vai para o centro?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "Do I need to change trains to get to the airport?",
+   "pt": "Preciso trocar de trem para chegar ao aeroporto?",
+   "sub": "Metrô e trem",
+   "level": 3
+  },
+  {
+   "en": "Which platform does the train leave from?",
+   "pt": "De qual plataforma sai o trem?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "Is this the right train to the airport?",
+   "pt": "Este é o trem certo para o aeroporto?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "What's the next stop?",
+   "pt": "Qual é a próxima parada?",
+   "sub": "Metrô e trem",
+   "level": 1
+  },
+  {
+   "en": "The next stop is Central Station.",
+   "pt": "A próxima parada é a Estação Central.",
+   "sub": "Metrô e trem",
+   "level": 2,
+   "hear": true
+  },
+  {
+   "en": "How do I use this ticket machine?",
+   "pt": "Como eu uso esta máquina de passagens?",
+   "sub": "Metrô e trem",
+   "level": 2
+  },
+  {
+   "en": "The machine took my money but didn't give me a ticket.",
+   "pt": "A máquina pegou meu dinheiro, mas não me deu a passagem.",
+   "sub": "Metrô e trem",
+   "level": 3
+  },
+  {
+   "en": "Tickets, please.",
+   "pt": "Passagens, por favor.",
+   "sub": "Metrô e trem",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Where do I catch the bus to the beach?",
+   "pt": "Onde eu pego o ônibus para a praia?",
+   "sub": "Ônibus",
+   "level": 2
+  },
+  {
+   "en": "Does this bus go downtown?",
+   "pt": "Este ônibus vai para o centro?",
+   "sub": "Ônibus",
+   "level": 1
+  },
+  {
+   "en": "Can I pay with a card on the bus?",
+   "pt": "Posso pagar com cartão no ônibus?",
+   "sub": "Ônibus",
+   "level": 2
+  },
+  {
+   "en": "How often does this bus come on weekends?",
+   "pt": "De quanto em quanto tempo esse ônibus passa nos fins de semana?",
+   "sub": "Ônibus",
+   "level": 3
+  },
+  {
+   "en": "Could you tell me when we get to my stop?",
+   "pt": "Você pode me avisar quando chegarmos no meu ponto?",
+   "sub": "Ônibus",
+   "level": 3
+  },
+  {
+   "en": "I missed my stop.",
+   "pt": "Perdi meu ponto.",
+   "sub": "Ônibus",
+   "level": 1
+  },
+  {
+   "en": "Is this seat taken?",
+   "pt": "Este lugar está ocupado?",
+   "sub": "Ônibus",
+   "level": 1
+  },
+  {
+   "en": "I'd like to rent a car.",
+   "pt": "Eu gostaria de alugar um carro.",
+   "sub": "Aluguel de carro",
+   "level": 1
+  },
+  {
+   "en": "I have a reservation for a small car for five days.",
+   "pt": "Tenho uma reserva de um carro pequeno para cinco dias.",
+   "sub": "Aluguel de carro",
+   "level": 3
+  },
+  {
+   "en": "Is insurance included?",
+   "pt": "O seguro está incluído?",
+   "sub": "Aluguel de carro",
+   "level": 1
+  },
+  {
+   "en": "Can I see your driver's license?",
+   "pt": "Posso ver sua carteira de motorista?",
+   "sub": "Aluguel de carro",
+   "level": 1,
+   "hear": true
+  },
+  {
+   "en": "Does the car have GPS?",
+   "pt": "O carro tem GPS?",
+   "sub": "Aluguel de carro",
+   "level": 1
+  },
+  {
+   "en": "Do I need to return it with a full tank?",
+   "pt": "Preciso devolver com o tanque cheio?",
+   "sub": "Aluguel de carro",
+   "level": 3
+  },
+  {
+   "en": "What should I do if the car breaks down?",
+   "pt": "O que eu faço se o carro quebrar?",
+   "sub": "Aluguel de carro",
+   "level": 3
+  },
+  {
+   "en": "Where is the nearest gas station?",
+   "pt": "Onde fica o posto de gasolina mais próximo?",
+   "sub": "Posto e estacionamento",
+   "level": 1
+  },
+  {
+   "en": "Fill it up, please.",
+   "pt": "Pode encher o tanque, por favor.",
+   "sub": "Posto e estacionamento",
+   "level": 1
+  },
+  {
+   "en": "Pump number four, please.",
+   "pt": "Bomba número quatro, por favor.",
+   "sub": "Posto e estacionamento",
+   "level": 1
+  },
+  {
+   "en": "Can I park here?",
+   "pt": "Posso estacionar aqui?",
+   "sub": "Posto e estacionamento",
+   "level": 1
+  },
+  {
+   "en": "How much is parking per hour?",
+   "pt": "Quanto custa o estacionamento por hora?",
+   "sub": "Posto e estacionamento",
+   "level": 2
+  },
+  {
+   "en": "Where do I pay for parking?",
+   "pt": "Onde eu pago o estacionamento?",
+   "sub": "Posto e estacionamento",
+   "level": 2
+  },
+  {
+   "en": "Is there free parking near here?",
+   "pt": "Tem estacionamento gratuito aqui perto?",
+   "sub": "Posto e estacionamento",
+   "level": 2
+  },
+  {
+   "en": "Is it faster to take the train or a taxi?",
+   "pt": "É mais rápido ir de trem ou de táxi?",
+   "sub": "Posto e estacionamento",
+   "level": 3
+  }
+ ]
+}
