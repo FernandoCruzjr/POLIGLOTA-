@@ -3,19 +3,16 @@
 // tools/story_*.py).
 import * as store from '../store.js';
 import { icon } from '../icons.js';
-import { esc, progressBar, toast } from '../ui.js';
+import { esc, progressBar, toast, coinReward } from '../ui.js';
 import { speak, speakPt, stopSpeech, canSpeak } from '../speech.js';
 import { shuffle } from '../quiz-engine.js';
-import TRIP_CSS from './trip-styles.js';
-
-if (!document.getElementById('hf-trip-styles')) {
-  const st = document.createElement('style');
-  st.id = 'hf-trip-styles';
-  st.textContent = TRIP_CSS;
-  document.head.appendChild(st);
-}
+import { mapHtml, wireMap, coinChip, openChest, lockedToast } from '../game.js';
+import { kikoHtml } from '../kiko.js';
+import { renderBoss } from './boss.js';
 
 const XP = { chapterFirst: 10, chapterRepeat: 3, perGood: 2 };
+const COINS = { chapterFirst: 10, chapterRepeat: 2, chest: 100 };
+const SOON = [['🇵🇹', 'Portugal'], ['🇬🇧', 'Londres'], ['🇫🇷', 'Paris'], ['🇯🇵', 'Japão']];
 const cache = new Map();
 const INKS = ['#1D4ED8', '#B91C1C', '#0F7A4A', '#7C3AED', '#C2410C', '#0E7490', '#BE185D', '#4D7C0F', '#1E3A8A', '#9A3412'];
 const inkFor = (i) => INKS[i % INKS.length];
@@ -46,9 +43,21 @@ const unlocked = (trip, i) => i === 0 || done(trip.chapters[i]) || done(trip.cha
 const seenKey = (trip, c) => `trip.${trip.id}.${c.id}.seen`;
 const endKey = (trip, c) => `trip.${trip.id}.${c.id}.endings`;
 
+const bossKey = (trip) => `trip.${trip.id}.boss`;
+const bossDone = (trip) => store.isLessonDone(bossKey(trip));
+
 export function tripProgress(trip) {
   const d = trip.chapters.filter(done).length;
-  return { done: d, total: trip.chapters.length, next: trip.chapters.find((c) => !done(c)) || null };
+  return { done: d, total: trip.chapters.length, next: trip.chapters.find((c) => !done(c)) || null, boss: bossDone(trip) };
+}
+
+// Último momento em que o aluno jogou esta viagem (para saber qual é a "atual").
+function lastPlayed(trip) {
+  const ls = store.get().lessons;
+  return trip.chapters.reduce((m, c) => {
+    const l = ls[c.lessonId];
+    return l && l.lastAt > m ? l.lastAt : m;
+  }, '');
 }
 
 function discovery(trip, c) {
@@ -68,7 +77,10 @@ function starsOf(c) {
 export async function currentTripSummary() {
   try {
     const list = await loadIndex();
-    const trip = await loadTrip(list[0].id);
+    const trips = await Promise.all(list.map((t) => loadTrip(t.id)));
+    const played = trips.filter((t) => lastPlayed(t)).sort((a, b) => (lastPlayed(a) < lastPlayed(b) ? 1 : -1));
+    const unfinished = (t) => tripProgress(t).next;
+    const trip = played.find(unfinished) || trips.find((t) => unfinished(t) && !played.includes(t)) || played[0] || trips[0];
     return { trip, ...tripProgress(trip) };
   } catch (e) { return null; }
 }
@@ -83,6 +95,9 @@ function vars() {
     spouse: f ? 'husband' : 'wife',
     She: f ? 'He' : 'She',
     spousePt: f ? 'meu marido' : 'minha esposa',
+    spousePtCap: f ? 'Meu marido' : 'Minha esposa',
+    herPt: f ? 'his' : 'her',
+    sheLow: f ? 'he' : 'she',
     ElaPt: f ? 'Ele' : 'Ela',
     aPt: f ? 'o' : 'a',
     name: (p.name || 'Silva').split(' ')[0],
@@ -100,12 +115,12 @@ function genderPicker(onPick) {
   wrap.className = 'modal-backdrop';
   wrap.innerHTML = `
     <div class="modal card" role="dialog" aria-modal="true" aria-labelledby="gender-title">
-      <img src="img/kiko-prof.png" alt="" width="72" height="72" class="modal-mascot">
+      ${kikoHtml(72, { cls: 'modal-mascot' })}
       <h2 id="gender-title">Antes de viajar…</h2>
-      <p class="muted">Na Tailândia, a palavrinha de educação muda: homens dizem <strong>khrap</strong> e mulheres dizem <strong>ka</strong>. Como você quer aparecer nas falas?</p>
+      <p class="muted">Nas histórias, algumas falas mudam conforme quem viaja: <strong lang="en">my wife</strong> ou <strong lang="en">my husband</strong> (e, na Tailândia, <strong>khrap</strong> ou <strong>ka</strong>). Como você quer aparecer nas falas?</p>
       <div class="stack">
-        <button type="button" class="btn btn-soft btn-lg" data-g="m">🙋‍♂️ Homem <span class="muted small">(khrap · my wife)</span></button>
-        <button type="button" class="btn btn-soft btn-lg" data-g="f">🙋‍♀️ Mulher <span class="muted small">(ka · my husband)</span></button>
+        <button type="button" class="btn btn-soft btn-lg" data-g="m">🙋‍♂️ Homem <span class="muted small">(my wife · khrap)</span></button>
+        <button type="button" class="btn btn-soft btn-lg" data-g="f">🙋‍♀️ Mulher <span class="muted small">(my husband · ka)</span></button>
       </div>
     </div>`;
   document.body.appendChild(wrap);
@@ -186,169 +201,139 @@ function narrationToggle() {
   return `<button type="button" class="icon-btn narr-toggle" data-narr aria-pressed="${on}" aria-label="${on ? 'Desligar' : 'Ligar'} narração">${on ? '🔊' : '🔇'}</button>`;
 }
 
-// ---------- Mapa de aventura ----------
+// ---------- Mundo: escolher o destino ----------
 
-const MAP_W = 400;
-const STEP_Y = 175;
-const TOP_Y = 250;
-const XS = [120, 285, 115, 290, 130, 280, 110, 295, 125, 275];
-
-function mapLayout(n) {
-  const pts = [];
-  for (let i = 0; i < n; i += 1) pts.push({ x: XS[i % XS.length], y: TOP_Y + i * STEP_Y });
-  const chest = { x: 200, y: TOP_Y + n * STEP_Y + 10 };
-  return { pts, chest, h: chest.y + 170 };
-}
-
-// Trilha: sai de baixo do nome de uma ilha e chega por cima da próxima.
-function pathD(points) {
-  if (points.length < 2) return '';
-  let d = '';
-  for (let i = 1; i < points.length; i += 1) {
-    const a = { x: points[i - 1].x, y: points[i - 1].y + 82 };
-    const b = { x: points[i].x, y: points[i].y - 48 };
-    const my = (a.y + b.y) / 2;
-    d += `${i === 1 ? `M ${a.x} ${a.y}` : ` M ${a.x} ${a.y}`} C ${a.x} ${my}, ${b.x} ${my}, ${b.x} ${b.y}`;
-  }
-  return d;
-}
-
-const pct = (v, total) => `${(v / total) * 100}%`;
-
-function kikoLine(trip, pr) {
-  if (!pr.done) return 'Oi! Sou o Professor Kiko. Toque na primeira ilha para começar nossa aula!';
-  if (!pr.next) return `Você completou a ${trip.title}! Abra o baú e veja seu passaporte! 🏆`;
-  return `Muito bem! Próxima aula: ${pr.next.title}. Bora?`;
-}
-
-async function renderIndex(root) {
-  root.innerHTML = '<p class="muted center">Carregando o mapa…</p>';
-  let trip;
+async function renderWorld(root) {
+  root.innerHTML = '<p class="muted center">Abrindo o mapa-múndi…</p>';
+  let trips;
   try {
     const list = await loadIndex();
-    trip = await loadTrip(list[0].id);
+    trips = await Promise.all(list.map((t) => loadTrip(t.id)));
   } catch (e) {
-    root.innerHTML = '<div class="card empty"><p>Não foi possível carregar o mapa. Verifique a internet.</p></div>';
+    root.innerHTML = '<div class="card empty"><p>Não foi possível carregar os destinos. Verifique a internet.</p></div>';
     return null;
   }
+  const stamps = trips.reduce((n, t) => n + t.chapters.filter(done).length + (bossDone(t) ? 1 : 0), 0);
+  root.classList.add('world-view');
+  root.innerHTML = `
+    <header class="world-head">
+      <div class="map-top-row">
+        <span class="world-globe" aria-hidden="true">🌍</span>
+        ${coinChip()}
+      </div>
+      <h1>Para onde vamos?</h1>
+      <p>Escolha um destino. Cada viagem tem ilhas com histórias, um chefão e um baú do tesouro.</p>
+      <div class="map-actions">
+        <a class="map-btn" href="#/passaporte">🛂 Passaporte <span class="badge">${stamps}</span></a>
+        <a class="map-btn" href="#/loja">🛍️ Lojinha do Kiko</a>
+      </div>
+    </header>
+    <div class="world-list">
+      ${trips.map((t) => {
+        const pr = tripProgress(t);
+        const state = pr.boss ? '🏆 Chefão derrotado' : pr.next ? (pr.done ? `▶ Próxima: ${esc(pr.next.title)}` : '✨ Nova aventura') : `${t.boss ? t.boss.emoji : '⚔️'} Chefão te esperando`;
+        return `
+        <a class="dest ${esc(t.theme || 'ocean')}" href="#/viagem/${t.id}" aria-label="${esc(t.title)}: ${pr.done} de ${pr.total} ilhas">
+          <span class="dest-deco" aria-hidden="true">${t.chapters[4]?.island?.[0] || '✈️'}</span>
+          <div class="dest-top">
+            <span class="dest-flag" aria-hidden="true">${t.emoji}</span>
+            <div><h2>${esc(t.title)}</h2><p>${esc(t.intro)}</p></div>
+          </div>
+          ${progressBar(pr.done / pr.total, `Progresso: ${t.title}`)}
+          <div class="dest-meta"><span>🏝️ ${pr.done}/${pr.total} ilhas</span><span>${state}</span></div>
+          <span class="dest-cta">${pr.done ? 'Continuar' : 'Embarcar'} ✈️</span>
+        </a>`;
+      }).join('')}
+    </div>
+    <section class="world-soon map-soon" aria-labelledby="soon-title">
+      <h2 id="soon-title">🧳 Próximos destinos</h2>
+      <div class="soon-isles">
+        ${SOON.map(([f, n]) => `<div class="soon-isle"><span>${f}</span><strong>${n}</strong><em>em breve</em></div>`).join('')}
+      </div>
+    </section>`;
+  return () => root.classList.remove('world-view');
+}
+
+// ---------- Mapa de aventura de um destino ----------
+
+function kikoLine(trip, pr) {
+  if (!pr.done) return `Oi! Sou o Professor Kiko. Toque na primeira ilha para começar a ${trip.title}!`;
+  if (pr.next) return `Muito bem! Próxima aula: ${pr.next.title}. Bora?`;
+  if (!pr.boss) return `Todas as ilhas feitas! Agora enfrente ${trip.boss ? trip.boss.name : 'o chefão'}! ⚔️`;
+  return 'Chefão derrotado! Abra o baú do tesouro! 🎁';
+}
+
+async function renderIndex(root, tripId) {
+  root.innerHTML = '<p class="muted center">Carregando o mapa…</p>';
+  let trip;
+  try { trip = await loadTrip(tripId); } catch (e) { location.hash = '#/viagem'; return null; }
   const chs = trip.chapters;
   const pr = tripProgress(trip);
-  const { pts, chest, h } = mapLayout(chs.length);
-  const curIdx = pr.next ? chs.indexOf(pr.next) : chs.length; // chs.length = baú
-  const kikoKey = `trip.${trip.id}.kikoAt`;
-  const fromIdx = Math.min(store.getFlag(kikoKey, curIdx), curIdx);
-  const posOf = (i) => (i >= chs.length ? chest : pts[i]);
-  const allDone = !pr.next;
   const g = store.get().profile.gender;
-  const doneCount = pr.done;
-  const passportCount = chs.filter(done).length;
+  const allDone = !pr.next;
+  const spec = {
+    theme: trip.theme || 'ocean',
+    startLabel: trip.route || `🛫 Brasil → ${trip.title}`,
+    kikoLine: kikoLine(trip, pr),
+    kikoKey: `trip.${trip.id}.kikoAt`,
+    nodes: chs.map((c, i) => {
+      const open = unlocked(trip, i);
+      const isDone = done(c);
+      const stars = starsOf(c);
+      const [main, side] = c.island || [c.emoji, ''];
+      return {
+        main, side, name: c.title, sign: `Nível ${i + 1}`, done: isDone, open, stars,
+        next: pr.next && pr.next.id === c.id,
+        aria: `Ilha ${i + 1}: ${c.title}${isDone ? `, concluída com ${stars} estrelas` : open ? ', liberada' : ', bloqueada'}`,
+      };
+    }),
+    boss: trip.boss ? { ...trip.boss, open: allDone, done: pr.boss } : null,
+    chest: { open: trip.boss ? pr.boss : allDone },
+  };
 
-  root.classList.add('map-view');
+  root.classList.add('map-view', `theme-${spec.theme}`);
   root.innerHTML = `
     <header class="map-header">
+      <div class="map-top-row">
+        <a class="map-btn" href="#/viagem" aria-label="Voltar aos destinos">🌍 Destinos</a>
+        ${coinChip()}
+      </div>
       <div class="map-title">
         <span class="trip-flag" aria-hidden="true">${trip.emoji}</span>
         <div>
           <h1>${esc(trip.title)}</h1>
-          <p class="small">${doneCount} de ${chs.length} ilhas · fala como <button type="button" class="link-btn inline light" data-change-gender>${g === 'f' ? 'mulher (ka)' : g === 'm' ? 'homem (khrap)' : 'escolher'}</button></p>
+          <p class="small">${pr.done} de ${chs.length} ilhas · fala como <button type="button" class="link-btn inline light" data-change-gender>${g === 'f' ? 'mulher' : g === 'm' ? 'homem' : 'escolher'}</button></p>
         </div>
       </div>
-      ${progressBar(doneCount / chs.length, 'Progresso da viagem')}
+      ${progressBar(pr.done / chs.length, 'Progresso da viagem')}
       <div class="map-actions">
-        ${pr.next ? `<a class="map-btn primary" href="#/viagem/${trip.id}/${pr.next.id}">▶ ${pr.done ? 'Continuar' : 'Começar'}</a>` : ''}
-        <a class="map-btn" href="#/passaporte">🛂 Passaporte <span class="badge">${passportCount}</span></a>
+        ${pr.next ? `<a class="map-btn primary" href="#/viagem/${trip.id}/${pr.next.id}">▶ ${pr.done ? 'Continuar' : 'Começar'}</a>` : !pr.boss && trip.boss ? `<a class="map-btn primary" href="#/viagem/${trip.id}/chefao">⚔️ Enfrentar o chefão</a>` : ''}
+        <a class="map-btn" href="#/passaporte?${trip.id}">🛂 Passaporte <span class="badge">${pr.done + (pr.boss ? 1 : 0)}</span></a>
         <a class="map-btn" href="#/viagem/${trip.id}/frases">🧩 Monte a frase</a>
       </div>
     </header>
-
-    <div class="map-world" style="aspect-ratio:${MAP_W}/${h};max-width:520px;margin:0 auto;background:#1B4FA8">
-      <svg class="map-path" viewBox="0 0 ${MAP_W} ${h}" preserveAspectRatio="none" aria-hidden="true">
-        <path d="${pathD([...pts, chest])}" class="trail-shadow" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>
-        <path d="${pathD([...pts, chest])}" class="trail" fill="none" stroke="#C9D8EE" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>
-        ${curIdx > 0 ? `<path d="${pathD([...pts, chest].slice(0, curIdx + 1))}" class="trail done" fill="none" stroke="#FFE08A" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24" vector-effect="non-scaling-stroke"/>` : ''}
-      </svg>
-
-      <span class="deco gem" style="left:8%;top:${pct(260, h)}">💎</span>
-      <span class="deco gem g2" style="left:88%;top:${pct(620, h)}">💎</span>
-      <span class="deco gem" style="left:6%;top:${pct(1180, h)}">💎</span>
-      <span class="deco gem g2" style="left:90%;top:${pct(1520, h)}">💎</span>
-      <span class="deco boat" style="top:${pct(420, h)}">⛵</span>
-      <span class="deco boat b2" style="top:${pct(1010, h)}">🚤</span>
-      <span class="deco boat b3" style="top:${pct(1650, h)}">🛶</span>
-      <span class="deco fish" style="left:70%;top:${pct(330, h)}">🐠</span>
-      <span class="deco fish f2" style="left:20%;top:${pct(880, h)}">🐟</span>
-
-      <div class="map-start" style="left:${pct(200, MAP_W)};top:${pct(40, h)}">🛫 São Paulo → Bangkok</div>
-
-      ${chs.map((c, i) => {
-        const p = pts[i];
-        const open = unlocked(trip, i);
-        const isDone = done(c);
-        const isNext = pr.next && pr.next.id === c.id;
-        const stars = starsOf(c);
-        const [main, side] = c.island || [c.emoji, ''];
-        return `
-        <button type="button" class="isle ${isDone ? 'done' : ''} ${isNext ? 'next' : ''} ${open ? '' : 'locked'}" data-ch="${i}"
-          style="left:${pct(p.x, MAP_W)};top:${pct(p.y, h)};animation-delay:${(i % 4) * -0.7}s"
-          aria-label="Ilha ${i + 1}: ${esc(c.title)}${isDone ? `, concluída com ${stars} estrelas` : open ? ', liberada' : ', bloqueada'}">
-          <span class="isle-top"><span class="isle-main">${main}</span><span class="isle-side">${side}</span></span>
-          <span class="isle-rock"></span>
-          ${open ? '' : '<span class="isle-fog">☁️☁️</span><span class="isle-lock">🔒</span>'}
-          <span class="isle-sign">Nível ${i + 1}</span>
-          <span class="isle-name">${esc(c.title)}</span>
-          ${isDone ? `<span class="isle-stars">${'⭐'.repeat(stars)}${'☆'.repeat(3 - stars)}</span>` : ''}
-        </button>`;
-      }).join('')}
-
-      <button type="button" class="isle chest ${allDone ? 'open' : 'locked'}" data-chest style="left:${pct(chest.x, MAP_W)};top:${pct(chest.y, h)}" aria-label="Baú do fim da viagem${allDone ? ', aberto' : ', fechado'}">
-        <span class="isle-top"><span class="isle-main">${allDone ? '🏆' : '🎁'}</span></span>
-        <span class="isle-rock"></span>
-        <span class="isle-sign gold">Baú final</span>
-      </button>
-
-      <div class="map-kiko" data-kiko style="left:${pct(posOf(fromIdx).x, MAP_W)};top:${pct(posOf(fromIdx).y, h)}">
-        <span class="kiko-bubble">${esc(kikoLine(trip, pr))}</span>
-        <img src="img/kiko-prof.png" alt="Professor Kiko" width="72" height="72">
-      </div>
-    </div>
-
-    <section class="map-soon" aria-labelledby="soon-title">
-      <h2 id="soon-title">🌍 Próximos destinos</h2>
-      <div class="soon-isles">
-        ${[['🇺🇸', 'Estados Unidos'], ['🇵🇹', 'Portugal'], ['🇬🇧', 'Londres'], ['🇫🇷', 'Paris']].map(([f, n]) => `<div class="soon-isle"><span>${f}</span><strong>${n}</strong><em>em breve</em></div>`).join('')}
-      </div>
-    </section>
-
+    ${mapHtml(spec)}
     <div class="sheet-backdrop" data-sheet-bg hidden></div>
     <section class="sheet" data-sheet hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title"></section>`;
-
-  // Kiko caminha até a ilha atual quando você acabou de concluir uma aula.
-  const kiko = root.querySelector('[data-kiko]');
-  if (fromIdx !== curIdx) {
-    requestAnimationFrame(() => setTimeout(() => {
-      kiko.classList.add('walking');
-      kiko.style.left = pct(posOf(curIdx).x, MAP_W);
-      kiko.style.top = pct(posOf(curIdx).y, h);
-      setTimeout(() => kiko.classList.remove('walking'), 1600);
-    }, 500));
-  }
-  store.setFlag(kikoKey, curIdx);
-  setTimeout(() => {
-    const target = root.querySelector('.isle.next') || root.querySelector('.isle.chest');
-    target?.scrollIntoView({ block: 'center', behavior: 'smooth' });
-  }, 300);
+  wireMap(root, spec);
 
   const sheet = root.querySelector('[data-sheet]');
   const sheetBg = root.querySelector('[data-sheet-bg]');
   const closeSheet = () => { sheet.hidden = true; sheetBg.hidden = true; stopSpeech(); };
+  const showSheet = (html) => {
+    sheet.innerHTML = html;
+    sheet.hidden = false;
+    sheetBg.hidden = false;
+    sheet.querySelector('.btn-primary')?.focus({ preventScroll: true });
+  };
 
   function openChapter(i) {
     const c = chs[i];
-    if (!unlocked(trip, i)) { toast('Complete a ilha anterior para liberar esta. 🔒'); return; }
+    if (!unlocked(trip, i)) { lockedToast('a ilha anterior'); return; }
     const d = discovery(trip, c);
     const stars = starsOf(c);
     const isDone = done(c);
-    sheet.innerHTML = `
+    showSheet(`
       ${sceneHtml(c.scene)}
       <div class="sheet-body">
         <p class="eyebrow">Nível ${i + 1} · ${trip.emoji} ${esc(trip.title)}</p>
@@ -359,72 +344,142 @@ async function renderIndex(root) {
           <a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/${c.id}">${isDone ? '🔀 Jogar de novo' : '▶ Começar a aula'}</a>
           <button type="button" class="btn btn-ghost" data-close>Fechar</button>
         </div>
-      </div>`;
-    sheet.hidden = false;
-    sheetBg.hidden = false;
-    sheet.querySelector('.btn-primary').focus({ preventScroll: true });
+      </div>`);
+  }
+
+  function openBoss() {
+    if (!allDone) { lockedToast('todas as ilhas'); return; }
+    const b = trip.boss;
+    showSheet(`
+      <div class="boss-arena ${esc(spec.theme)}"><div class="boss-figure" aria-hidden="true">${b.emoji}</div><p class="boss-say">${esc(b.intro)}</p></div>
+      <div class="sheet-body">
+        <p class="eyebrow">Chefão · ${trip.emoji} ${esc(trip.title)}</p>
+        <h2 id="sheet-title">${esc(b.name)}</h2>
+        <p class="muted">7 acertos para vencer, 3 corações e 15 segundos por pergunta. Vitória vale 🪙 50 e um carimbo especial!</p>
+        ${pr.boss ? '<p class="sheet-meta">🏆 Você já venceu este chefão.</p>' : ''}
+        <div class="stack">
+          <a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/chefao">⚔️ ${pr.boss ? 'Lutar de novo' : 'Lutar!'}</a>
+          <button type="button" class="btn btn-ghost" data-close>Fechar</button>
+        </div>
+      </div>`);
   }
 
   function onClick(e) {
-    const isle = e.target.closest('[data-ch]');
-    if (isle) { openChapter(Number(isle.dataset.ch)); return; }
+    const isle = e.target.closest('[data-node]');
+    if (isle) { openChapter(Number(isle.dataset.node)); return; }
+    if (e.target.closest('[data-boss]')) { openBoss(); return; }
     if (e.target.closest('[data-chest]')) {
-      if (allDone) { location.hash = '#/passaporte'; } else toast('Complete todas as ilhas para abrir o baú! 🎁');
+      if (spec.chest.open) openChest(`trip.${trip.id}`, COINS.chest, () => { location.hash = `#/passaporte?${trip.id}`; });
+      else toast(trip.boss ? `Vença ${trip.boss.name} para abrir o baú! ⚔️` : 'Complete todas as ilhas para abrir o baú! 🎁');
       return;
     }
-    if (e.target.closest('[data-kiko]')) { speakPt(kikoLine(trip, pr)); return; }
     if (e.target.closest('[data-close]') || e.target.closest('[data-sheet-bg]')) { closeSheet(); return; }
-    if (e.target.closest('[data-change-gender]')) genderPicker(() => renderIndex(root));
+    const gb = e.target.closest('[data-change-gender]');
+    if (gb) genderPicker(() => { gb.textContent = store.get().profile.gender === 'f' ? 'mulher' : 'homem'; toast('Pronto! As falas foram ajustadas.'); });
   }
   const onKey = (e) => { if (e.key === 'Escape' && !sheet.hidden) closeSheet(); };
   root.addEventListener('click', onClick);
   document.addEventListener('keydown', onKey);
-  return () => {
+  function cleanupFn() {
     root.removeEventListener('click', onClick);
     document.removeEventListener('keydown', onKey);
-    root.classList.remove('map-view');
+    root.classList.remove('map-view', `theme-${spec.theme}`);
     stopSpeech();
-  };
+  }
+  return cleanupFn;
+}
+
+// ---------- Chefão da viagem ----------
+
+// Perguntas vindas das próprias histórias: monte a frase, lacunas e escolhas.
+function bossQuestions(trip) {
+  const builds = [];
+  const gaps = [];
+  const choices = [];
+  trip.chapters.forEach((c) => {
+    const prev = {};
+    Object.entries(c.nodes).forEach(([id, n]) => {
+      if (n.next) prev[n.next] = id;
+      if (n.type === 'choice') n.options.forEach((o) => { prev[o.next] = prev[o.next] || id; });
+    });
+    Object.entries(c.nodes).forEach(([id, n]) => {
+      if (n.type === 'build') builds.push({ pt: fmt(n.pt), en: fmt(n.en) });
+      if (n.type === 'gap') {
+        const opts = n.options.map(fmt);
+        gaps.push({ prompt: 'Complete a frase:', context: { speaker: fmt(n.speaker), en: fmt(n.en) }, options: opts, answer: fmt(n.answer), say: fmt(n.en).replace('___', fmt(n.answer)) });
+      }
+      if (n.type === 'choice') {
+        const en = n.options.filter((o) => o.lang === 'en');
+        const goodOnes = en.filter((o) => o.tone === 'good');
+        const others = en.filter((o) => o.tone !== 'good');
+        const before = c.nodes[prev[id]];
+        if (goodOnes.length && others.length && before && before.type === 'line' && before.who === 'them') {
+          choices.push({ prompt: 'Qual é a melhor resposta?', context: { speaker: fmt(before.speaker), en: fmt(before.en) }, options: [fmt(goodOnes[0].text), ...others.map((o) => fmt(o.text))], answer: fmt(goodOnes[0].text) });
+        }
+      }
+    });
+  });
+  const pool = builds.map((b) => b.en);
+  const buildQs = builds.map((b) => {
+    const len = b.en.split(' ').length;
+    const wrong = shuffle(pool.filter((x) => x !== b.en)).sort((x, y) => Math.abs(x.split(' ').length - len) - Math.abs(y.split(' ').length - len)).slice(0, 3);
+    return { prompt: 'Como se diz em inglês?', pt: b.pt, options: [b.en, ...wrong], answer: b.en };
+  });
+  return [...shuffle(buildQs).slice(0, 4), ...shuffle(gaps).slice(0, 3), ...shuffle(choices).slice(0, 3)];
+}
+
+async function renderTripBoss(root, tripId) {
+  let trip;
+  try { trip = await loadTrip(tripId); } catch (e) { location.hash = '#/viagem'; return null; }
+  if (!trip.boss || tripProgress(trip).next) { toast('Complete todas as ilhas primeiro! 🔒'); location.hash = `#/viagem/${tripId}`; return null; }
+  const start = () => renderBoss(root, {
+    title: `${trip.emoji} ${trip.title}`,
+    theme: trip.theme,
+    backHref: `#/viagem/${trip.id}`,
+    doneKey: bossKey(trip),
+    boss: trip.boss,
+    questions: bossQuestions(trip),
+  });
+  if (!store.get().profile.gender) {
+    let clean = null;
+    genderPicker(() => { clean = start(); });
+    return () => clean && clean();
+  }
+  return start();
 }
 
 // ---------- Passaporte ----------
 
-async function renderPassport(root) {
+async function renderPassport(root, focusTrip) {
   root.innerHTML = '<p class="muted center">Abrindo o passaporte…</p>';
-  let trip;
+  let trips;
   try {
     const list = await loadIndex();
-    trip = await loadTrip(list[0].id);
+    trips = await Promise.all(list.map((t) => loadTrip(t.id)));
   } catch (e) {
     root.innerHTML = '<div class="card empty"><p>Não foi possível abrir o passaporte.</p></div>';
     return null;
   }
   const p = store.get().profile;
   const lessons = store.get().lessons;
-  const chs = trip.chapters;
-  const earned = chs.filter(done).length;
-  const complete = earned === chs.length;
   const rot = (i) => [-8, 6, -4, 9, -10, 4, -6, 8, -3, 7][i % 10];
+  const total = trips.reduce((n, t) => n + t.chapters.length + 1, 0);
+  const earned = trips.reduce((n, t) => n + t.chapters.filter(done).length + (bossDone(t) ? 1 : 0), 0);
+  const back = focusTrip ? `#/viagem/${focusTrip}` : '#/viagem';
 
-  root.innerHTML = `
-    <a class="back-link" href="#/viagem">${icon('back', 18)} Mapa</a>
-    <section class="passport-cover">
-      <span class="pp-emblem">🌍</span>
-      <p class="pp-kicker">Passaporte · Passport</p>
-      <h1>Hi Family</h1>
-      <p class="pp-name">${esc(p.name || 'Viajante')}</p>
-      <p class="pp-count">${earned} de ${chs.length} carimbos · ${trip.emoji} ${esc(trip.title)}</p>
-    </section>
-    <section class="passport-page" aria-labelledby="pp-title">
-      <h2 id="pp-title">${trip.emoji} Carimbos da Tailândia</h2>
+  const page = (trip) => {
+    const chs = trip.chapters;
+    const complete = bossDone(trip);
+    const bossInfo = lessons[bossKey(trip)];
+    return `
+    <section class="passport-page" id="pp-${trip.id}" aria-labelledby="pp-title-${trip.id}">
+      <h2 id="pp-title-${trip.id}">${trip.emoji} ${esc(trip.title)}</h2>
       <ul class="stamp-grid">
         ${chs.map((c, i) => {
           const d = discovery(trip, c);
           const stars = starsOf(c);
           const info = lessons[c.lessonId];
-          if (!done(c)) {
-            return `<li class="stamp-slot"><span class="stamp empty"><span class="stamp-emoji">?</span><span class="stamp-name">Nível ${i + 1}</span></span></li>`;
-          }
+          if (!done(c)) return `<li class="stamp-slot"><span class="stamp empty"><span class="stamp-emoji">?</span><span class="stamp-name">Nível ${i + 1}</span></span></li>`;
           const date = info && info.completedAt ? new Date(info.completedAt).toLocaleDateString('pt-BR') : '';
           return `<li class="stamp-slot">
             <span class="stamp ${d.pct >= 0.99 ? 'gold' : ''}" style="--ink:${inkFor(i)};transform:rotate(${rot(i)}deg)">
@@ -435,14 +490,33 @@ async function renderPassport(root) {
             <span class="stamp-extra">${'⭐'.repeat(stars)}${d.pct >= 0.99 ? ' · 🧭 Explorador' : ''}</span>
           </li>`;
         }).join('')}
+        ${trip.boss ? `<li class="stamp-slot">${complete
+          ? `<span class="stamp gold" style="--ink:#7C3AED;transform:rotate(-5deg)"><span class="stamp-emoji">🏆</span><span class="stamp-name">${esc(trip.boss.name)}</span><span class="stamp-date">${bossInfo ? new Date(bossInfo.completedAt).toLocaleDateString('pt-BR') : ''}</span></span><span class="stamp-extra">⚔️ Chefão vencido</span>`
+          : `<span class="stamp empty"><span class="stamp-emoji">${trip.boss.emoji}</span><span class="stamp-name">Chefão</span></span>`}</li>` : ''}
       </ul>
-      ${complete ? `<div class="big-stamp"><span class="stamp big" style="--ink:#B91C1C"><span class="stamp-emoji">🇹🇭</span><span class="stamp-name">Tailândia completa</span><span class="stamp-date">Khob khun!</span></span></div>` : ''}
+      ${complete ? `<div class="big-stamp"><span class="stamp big" style="--ink:#B91C1C"><span class="stamp-emoji">${trip.emoji}</span><span class="stamp-name">${esc(trip.title)} completa</span><span class="stamp-date">${new Date().getFullYear()}</span></span></div>` : ''}
+    </section>`;
+  };
+
+  root.innerHTML = `
+    <a class="back-link" href="${back}">${icon('back', 18)} ${focusTrip ? 'Mapa' : 'Destinos'}</a>
+    <section class="passport-cover">
+      <span class="pp-emblem">🌍</span>
+      <p class="pp-kicker">Passaporte · Passport</p>
+      <h1>Hi Family</h1>
+      <p class="pp-name">${esc(p.name || 'Viajante')}</p>
+      <p class="pp-count">${earned} de ${total} carimbos · ${trips.map((t) => t.emoji).join(' ')}</p>
+    </section>
+    ${trips.map(page).join('')}
+    <section class="passport-page">
       <div class="pp-legend">
         <p>🛂 Um carimbo por aula concluída</p>
         <p>⭐ Estrelas pela sua melhor nota</p>
         <p>🥇 Carimbo dourado de <strong>Explorador</strong> ao descobrir 100% dos caminhos</p>
+        <p>🏆 Carimbo especial ao vencer o chefão de cada destino</p>
       </div>
     </section>`;
+  if (focusTrip) setTimeout(() => root.querySelector(`#pp-${focusTrip}`)?.scrollIntoView({ block: 'start', behavior: 'smooth' }), 200);
   return null;
 }
 
@@ -452,7 +526,8 @@ async function renderChapter(root, tripId, chapterId) {
   let trip;
   try { trip = await loadTrip(tripId); } catch (e) { location.hash = '#/viagem'; return null; }
   const idx = trip.chapters.findIndex((c) => c.id === chapterId);
-  if (idx < 0 || !unlocked(trip, idx)) { location.hash = '#/viagem'; return null; }
+  if (idx < 0 || !unlocked(trip, idx)) { location.hash = `#/viagem/${tripId}`; return null; }
+  const mapHref = `#/viagem/${trip.id}`;
   const chapter = trip.chapters[idx];
   const nodes = chapter.nodes;
   const startedAt = Date.now();
@@ -474,7 +549,7 @@ async function renderChapter(root, tripId, chapterId) {
   root.innerHTML = `
     <div class="lesson story">
       <div class="lesson-top">
-        <a class="icon-btn" href="#/viagem" aria-label="Sair do capítulo">${icon('close')}</a>
+        <a class="icon-btn" href="${mapHref}" aria-label="Sair do capítulo">${icon('close')}</a>
         <div data-progress class="grow">${progressBar(0, 'Progresso do capítulo')}</div>
         ${narrationToggle()}
       </div>
@@ -515,7 +590,7 @@ async function renderChapter(root, tripId, chapterId) {
   function kikoNote(text, tone) {
     const el = document.createElement('div');
     el.className = `kiko-note tone-${tone}`;
-    el.innerHTML = `<img src="img/kiko-prof.png" alt="" width="28" height="28"><p>${esc(fmt(text))}</p>`;
+    el.innerHTML = `${kikoHtml(28)}<p>${esc(fmt(text))}</p>`;
     return add(el);
   }
 
@@ -555,7 +630,7 @@ async function renderChapter(root, tripId, chapterId) {
       case 'narration': {
         const el = document.createElement('div');
         el.className = `narration mood-${n.mood || 'talk'}`;
-        el.innerHTML = `<img class="kiko" src="img/kiko-prof.png" alt="" width="44" height="44"><div><span class="bubble-name">🎓 Professor Kiko</span><p data-text></p></div>`;
+        el.innerHTML = `${kikoHtml(44, { cls: 'kiko' })}<div><span class="bubble-name">🎓 Professor Kiko</span><p data-text></p></div>`;
         add(el);
         const text = fmt(n.pt);
         typewrite(el.querySelector('[data-text]'), text);
@@ -713,6 +788,7 @@ async function renderChapter(root, tripId, chapterId) {
     store.setFlag(endKey(trip, chapter), [...endings]);
     const d = discovery(trip, chapter);
     const nextCh = trip.chapters[idx + 1];
+    const coins = store.addCoins((firstTime ? COINS.chapterFirst : COINS.chapterRepeat) + (firstTime ? stars : 0));
 
     root.innerHTML = `
       <div class="lesson done-screen">
@@ -724,8 +800,9 @@ async function renderChapter(root, tripId, chapterId) {
           <div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>
           <div class="card reward"><span aria-hidden="true">🧭</span><strong>${Math.round(d.pct * 100)}% dos caminhos</strong></div>
           ${d.totalEndings > 1 ? `<div class="card reward"><span aria-hidden="true">🏁</span><strong>${d.endings}/${d.totalEndings} finais${newEnding && d.endings > 1 ? ' · novo!' : ''}</strong></div>` : ''}
+          ${coinReward(coins)}
         </div>
-        ${firstTime ? `<a class="stamp-new" href="#/passaporte" aria-label="Carimbo novo no passaporte: ${esc(chapter.title)}">
+        ${firstTime ? `<a class="stamp-new" href="#/passaporte?${trip.id}" aria-label="Carimbo novo no passaporte: ${esc(chapter.title)}">
           <span class="stamp stamp-slam" style="--ink:${inkFor(idx)}"><span class="stamp-emoji">${chapter.island ? chapter.island[0] : chapter.emoji}</span><span class="stamp-name">${esc(chapter.title)}</span><span class="stamp-date">${new Date().toLocaleDateString('pt-BR')}</span></span>
           <span class="stamp-label">🛂 Carimbo novo no passaporte!</span>
         </a>` : ''}
@@ -736,9 +813,9 @@ async function renderChapter(root, tripId, chapterId) {
         </section>` : ''}
         <p class="muted small">${good} de ${tasks} escolhas ótimas. ${d.pct < 0.99 ? 'Refaça escolhendo outras opções para ver o que acontece!' : 'Você explorou todos os caminhos! 🏆'}</p>
         <div class="stack">
-          ${nextCh ? `<a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/${nextCh.id}">Próximo: ${nextCh.emoji} ${esc(nextCh.title)}</a>` : `<p class="trip-finish">🎉 Você completou a ${esc(trip.title)}!</p>`}
+          ${nextCh ? `<a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/${nextCh.id}">Próximo: ${nextCh.emoji} ${esc(nextCh.title)}</a>` : trip.boss && !bossDone(trip) ? `<p class="trip-finish">🎉 Todas as ilhas concluídas!</p><a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/chefao">⚔️ Enfrentar ${esc(trip.boss.name)}</a>` : `<p class="trip-finish">🎉 Você completou a ${esc(trip.title)}!</p>`}
           <a class="btn btn-ghost" href="#/viagem/${trip.id}/${chapter.id}?${Date.now()}">🔀 Refazer com outras escolhas</a>
-          <a class="btn btn-ghost" href="#/viagem">Ver capítulos</a>
+          <a class="btn btn-ghost" href="${mapHref}">Voltar ao mapa</a>
         </div>
       </div>`;
     if (narrationOn()) speakPt(`${endNode.title}. ${fmt(endNode.pt)}`);
@@ -779,7 +856,7 @@ async function renderChapter(root, tripId, chapterId) {
     const el = document.createElement('div');
     el.className = 'plan-card';
     el.innerHTML = `
-      <img class="kiko" src="img/kiko-prof.png" alt="" width="56" height="56">
+      ${kikoHtml(56, { cls: 'kiko' })}
       <div>
         <p class="tip-title">📋 Plano da aula ${chapter.number}</p>
         <p>${esc(chapter.summary)}</p>
@@ -811,6 +888,7 @@ async function renderChapter(root, tripId, chapterId) {
 async function renderPractice(root, tripId) {
   let trip;
   try { trip = await loadTrip(tripId); } catch (e) { location.hash = '#/viagem'; return null; }
+  const mapHref = `#/viagem/${trip.id}`;
   const pool = [];
   trip.chapters.forEach((c, k) => {
     if (!unlocked(trip, k)) return;
@@ -824,7 +902,7 @@ async function renderPractice(root, tripId) {
     });
   });
   const items = shuffle(pool).slice(0, 8);
-  if (!items.length) { toast('Libere um capítulo primeiro'); location.hash = '#/viagem'; return null; }
+  if (!items.length) { toast('Libere um capítulo primeiro'); location.hash = mapHref; return null; }
   const startedAt = Date.now();
   let i = 0;
   let right = 0;
@@ -835,7 +913,7 @@ async function renderPractice(root, tripId) {
     root.innerHTML = `
       <div class="lesson">
         <div class="lesson-top">
-          <a class="icon-btn" href="#/viagem" aria-label="Sair do treino">${icon('close')}</a>
+          <a class="icon-btn" href="${mapHref}" aria-label="Sair do treino">${icon('close')}</a>
           ${progressBar(i / items.length, 'Progresso do treino')}
           <span class="muted small">${i + 1}/${items.length}</span>
         </div>
@@ -860,15 +938,16 @@ async function renderPractice(root, tripId) {
   function finish() {
     const xp = right * XP.perGood;
     store.recordQuizSession({ xp, seconds: Math.min(Math.round((Date.now() - startedAt) / 1000), 1800), type: 'build', ref: trip.id, title: `Monte a frase: ${right}/${items.length}` });
+    const coins = store.addCoins(Math.floor(right / 2));
     root.innerHTML = `
       <div class="lesson done-screen">
         <div class="burst" aria-hidden="true">🧩</div>
         <h1>${right === items.length ? 'Perfeito!' : 'Bom treino!'}</h1>
         <p class="score-big"><strong>${right}</strong> de ${items.length} frases</p>
-        <div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>
+        <div class="reward-row"><div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>${coinReward(coins)}</div>
         <div class="stack">
           <a class="btn btn-primary btn-lg" href="#/viagem/${trip.id}/frases?${Date.now()}">Treinar de novo</a>
-          <a class="btn btn-ghost" href="#/viagem">Voltar à viagem</a>
+          <a class="btn btn-ghost" href="${mapHref}">Voltar ao mapa</a>
         </div>
       </div>`;
   }
@@ -892,8 +971,10 @@ async function renderPractice(root, tripId) {
 }
 
 export function render(root, { trip, chapter, passport }) {
-  if (passport) return renderPassport(root);
-  if (!trip) return renderIndex(root);
+  if (passport) return renderPassport(root, typeof passport === 'string' ? passport : null);
+  if (!trip) return renderWorld(root);
+  if (!chapter) return renderIndex(root, trip);
   if (chapter === 'frases') return renderPractice(root, trip);
+  if (chapter === 'chefao') return renderTripBoss(root, trip);
   return renderChapter(root, trip, chapter);
 }

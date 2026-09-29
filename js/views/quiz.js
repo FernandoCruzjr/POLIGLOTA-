@@ -3,7 +3,7 @@ import * as store from '../store.js';
 import * as vocab from '../vocab.js';
 import * as engine from '../quiz-engine.js';
 import { icon } from '../icons.js';
-import { esc, progressBar, plural } from '../ui.js';
+import { esc, progressBar, plural, coinReward } from '../ui.js';
 import { speak, canSpeak } from '../speech.js';
 import { XP_RULES } from '../config.js';
 
@@ -164,6 +164,7 @@ export async function render(root, { mode, cat }) {
       type: mode === 'review' ? 'review' : 'quiz',
       title: `${mode === 'review' ? 'Revisão' : 'Quiz'}: ${set.title} (${right}/${results.length})`,
     });
+    const coins = store.addCoins(Math.floor(right / 2) + (perfect ? 2 : 0));
     const wrong = results.filter((r) => !r.ok);
     const again = mode === 'review' ? `#/revisao?${Date.now()}` : `#/quiz/${cat}?${Date.now()}`;
 
@@ -175,6 +176,7 @@ export async function render(root, { mode, cat }) {
         <div class="reward-row">
           <div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>
           <div class="card reward"><span class="stat-icon flame">${icon('flame')}</span><strong>${plural(store.currentStreak(), 'dia', 'dias')}</strong></div>
+          ${coinReward(coins)}
         </div>
         ${wrong.length ? `
           <section class="card review-list">

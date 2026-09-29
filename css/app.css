@@ -532,3 +532,10 @@ input:focus, select:focus { outline: none; border-color: var(--green-600); box-s
 .auth-row .check, .auth-row .link-btn { white-space: nowrap; font-size: .85rem; }
 @media (max-width: 360px) { .auth-row { flex-wrap: wrap; } }
 .mini-board { color: var(--text); }
+
+
+.voice-form { margin-top: 10px; }
+.voice-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+.voice-row .btn { margin-top: 0; }
+.voice-help { margin-top: 12px; }
+.voice-help summary { cursor: pointer; font-weight: 600; color: var(--green-700); }

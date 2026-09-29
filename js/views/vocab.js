@@ -1,7 +1,7 @@
 import * as store from '../store.js';
 import * as vocab from '../vocab.js';
 import { icon } from '../icons.js';
-import { esc, progressBar, plural, formatNumber } from '../ui.js';
+import { esc, progressBar, plural, formatNumber, coinReward } from '../ui.js';
 import { speak, canSpeak } from '../speech.js';
 
 const SESSION_SIZE = 10;
@@ -259,6 +259,7 @@ async function renderStudy(root, catId) {
       ids: list.map((w) => w.id), xp, seconds, ref: cat.id,
       title: `Vocabulário: ${cat.name} (${list.length} palavras)`,
     });
+    const coins = store.addCoins(Math.ceil(list.length / 4));
     const st = store.wordStats(words.map((w) => w.id));
     const remaining = st.total - st.seen;
 
@@ -270,6 +271,7 @@ async function renderStudy(root, catId) {
         <div class="reward-row">
           <div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>
           <div class="card reward"><span class="stat-icon flame">${icon('flame')}</span><strong>${plural(store.currentStreak(), 'dia', 'dias')}</strong></div>
+          ${coinReward(coins)}
         </div>
         <p class="muted small">${remaining ? `Faltam ${plural(remaining, 'palavra nova', 'palavras novas')} nesta categoria.` : 'Você já viu todas as palavras desta categoria! 🎉'}</p>
         <div class="stack">

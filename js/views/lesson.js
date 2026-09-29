@@ -3,7 +3,7 @@
 import * as store from '../store.js';
 import * as content from '../content.js';
 import { icon } from '../icons.js';
-import { esc, progressBar, plural } from '../ui.js';
+import { esc, progressBar, plural, coinReward } from '../ui.js';
 import { speak, canSpeak } from '../speech.js';
 import { XP_RULES } from '../config.js';
 
@@ -62,6 +62,7 @@ export function render(root, { id }) {
     const firstTime = !store.isLessonDone(lesson.id);
     const xp = firstTime ? XP_RULES.lessonFirstTime : XP_RULES.lessonRepeat;
     store.recordLesson({ lessonId: lesson.id, title: `Lição: ${lesson.title}`, xp, seconds, score: 100 });
+    const coins = store.addCoins(firstTime ? 5 : 1);
     const next = content.nextLesson(store.isLessonDone);
     const streak = store.currentStreak();
 
@@ -73,11 +74,12 @@ export function render(root, { id }) {
         <div class="reward-row">
           <div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>
           <div class="card reward"><span class="stat-icon flame">${icon('flame')}</span><strong>${plural(streak, 'dia', 'dias')}</strong></div>
+          ${coinReward(coins)}
         </div>
         ${firstTime ? '' : '<p class="muted small">Revisar lições também vale XP.</p>'}
         <div class="stack">
           ${next ? `<a class="btn btn-primary btn-lg" href="#/licao/${esc(next.lesson.id)}">Próxima lição: ${esc(next.lesson.title)}</a>` : ''}
-          <a class="btn btn-ghost" href="#/aprender">Voltar à trilha</a>
+          <a class="btn btn-ghost" href="#/aprender">Voltar ao mapa</a>
           <a class="btn btn-ghost" href="#/inicio">Ir para o início</a>
         </div>
       </div>`;

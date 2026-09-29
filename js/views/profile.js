@@ -4,6 +4,7 @@ import { signOut } from '../auth.js';
 import { icon } from '../icons.js';
 import { esc, formatNumber, toast } from '../ui.js';
 import { DAILY_GOAL_OPTIONS, APP_VERSION } from '../config.js';
+import { kikoHtml } from '../kiko.js';
 import { listVoices, setVoice, currentVoiceName, previewVoice, canSpeak } from '../speech.js';
 
 export function render(root, { user }) {
@@ -23,6 +24,16 @@ export function render(root, { user }) {
         <span class="chip chip-green">Nível ${level.number} · ${esc(level.title)}</span>
       </div>
     </section>
+
+    <a class="card trip-hero" href="#/loja">
+      ${kikoHtml(64)}
+      <span class="trip-hero-text">
+        <span class="eyebrow">Lojinha do Kiko</span>
+        <strong>🪙 ${formatNumber(store.wallet().coins)} moedas</strong>
+        <span class="muted small">Compre chapéus, óculos e acessórios para o professor.</span>
+      </span>
+      <span class="play-cta">Abrir</span>
+    </a>
 
     <section class="card" aria-labelledby="settings-title">
       <h2 id="settings-title">Preferências</h2>

@@ -5,7 +5,28 @@
    "title": "Aventura na Tailândia",
    "emoji": "🇹🇭",
    "chapters": 10,
-   "intro": "Bangkok, Phuket e as ilhas Phi Phi. Uma história narrada em que as suas escolhas mudam o caminho, com dicas culturais para viajar com respeito."
+   "intro": "Bangkok, Phuket e as ilhas Phi Phi. Uma história narrada em que as suas escolhas mudam o caminho, com dicas culturais para viajar com respeito.",
+   "theme": "ocean",
+   "boss": {
+    "name": "O Guardião do Templo",
+    "emoji": "👹",
+    "intro": "O Guardião do Templo só deixa passar quem fala inglês de verdade! Mostre tudo o que você aprendeu na Tailândia."
+   },
+   "route": "🛫 São Paulo → Bangkok"
+  },
+  {
+   "id": "usa",
+   "title": "Aventura em Orlando",
+   "emoji": "🇺🇸",
+   "chapters": 10,
+   "intro": "Imigração americana, carro alugado, parques, outlet e gorjeta. As suas escolhas mudam a história, com dicas para viajar sem sustos nos EUA.",
+   "theme": "sunset",
+   "boss": {
+    "name": "O Agente Durão",
+    "emoji": "🕵️",
+    "intro": "O Agente Durão da imigração quer testar tudo o que você aprendeu nos EUA. Responda rápido e sem piadas!"
+   },
+   "route": "🛫 São Paulo → Orlando"
   }
  ]
 }

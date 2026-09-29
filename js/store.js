@@ -27,7 +27,9 @@ function blankState() {
     flags: {}, // marcas locais (ex.: finais de história descobertos)
     words: {},
     activity: [],
-    pending: { profile: false, lessons: [], words: [], activity: [] },
+    // Moedas e lojinha do Kiko (tabela própria: en_wallet)
+    wallet: { coins: 0, earned: 0, owned: ['grad'], equipped: { head: 'grad', face: null, neck: null } },
+    pending: { profile: false, lessons: [], words: [], activity: [], wallet: false },
   };
 }
 
@@ -72,6 +74,7 @@ export function load(uid, fallbackName) {
         ...base,
         ...saved,
         profile: { ...base.profile, ...saved.profile },
+        wallet: { ...base.wallet, ...(saved.wallet || {}), equipped: { ...base.wallet.equipped, ...((saved.wallet || {}).equipped || {}) } },
         pending: { ...base.pending, ...saved.pending },
       }
     : base;
@@ -280,6 +283,66 @@ export function updateProfile(changes) {
   sync();
 }
 
+// ---------- Moedas ----------
+
+export const wallet = () => state.wallet;
+
+export function addCoins(n) {
+  const v = Math.max(0, Math.round(n || 0));
+  if (!v) return 0;
+  state.wallet.coins += v;
+  state.wallet.earned += v;
+  state.pending.wallet = true;
+  commit();
+  sync();
+  return v;
+}
+
+export function buyItem(id, price) {
+  const w = state.wallet;
+  if (w.owned.includes(id)) return true;
+  if (w.coins < price) return false;
+  w.coins -= price;
+  w.owned.push(id);
+  state.pending.wallet = true;
+  commit();
+  sync();
+  return true;
+}
+
+export function equipItem(slot, id) {
+  state.wallet.equipped[slot] = id;
+  state.pending.wallet = true;
+  commit();
+  sync();
+}
+
+// Tabela separada: se ainda não existir no Supabase, o resto sincroniza normalmente.
+async function syncWallet(db) {
+  if (!state.pending.wallet) return;
+  const w = state.wallet;
+  const { error } = await db.from('en_wallet').upsert({
+    user_id: userId, coins: w.coins, earned: w.earned, owned: w.owned, equipped: w.equipped, updated_at: new Date().toISOString(),
+  });
+  if (error) { console.warn('[sync] moedas adiadas:', error.message); return; }
+  state.pending.wallet = false;
+}
+
+async function pullWallet(db) {
+  try {
+    const { data, error } = await db.from('en_wallet').select('*').eq('user_id', userId).maybeSingle();
+    if (error || !data || state.pending.wallet) return;
+    if ((data.earned || 0) >= state.wallet.earned) {
+      state.wallet = {
+        coins: data.coins || 0,
+        earned: data.earned || 0,
+        owned: Array.isArray(data.owned) && data.owned.length ? data.owned : ['grad'],
+        equipped: { head: 'grad', face: null, neck: null, ...(data.equipped || {}) },
+      };
+    }
+  } catch (e) { /* sem tabela ainda */ }
+}
+
 // ---------- Nuvem (Supabase) ----------
 
 let syncing = false;
@@ -287,10 +350,11 @@ let syncing = false;
 export async function sync() {
   if (!userId || syncing || !navigator.onLine) return;
   const pending = state.pending;
-  if (!pending.profile && !pending.lessons.length && !pending.words.length && !pending.activity.length) return;
+  if (!pending.profile && !pending.wallet && !pending.lessons.length && !pending.words.length && !pending.activity.length) return;
   syncing = true;
   const db = sb();
   try {
+    await syncWallet(db);
     if (pending.profile) {
       const p = state.profile;
       const { error } = await db.from('en_profile').upsert({
@@ -384,6 +448,7 @@ export async function pull() {
       }
     });
 
+    await pullWallet(db);
     const words = await pullWords(db);
     words.forEach((r) => {
       if (state.pending.words.includes(r.word_id)) return;

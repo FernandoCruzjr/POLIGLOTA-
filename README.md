@@ -26,7 +26,9 @@ js/vocab.js           lê o vocabulário por categoria e faz a busca
 js/content.js         lê o curso de data/course.json (trilha, desbloqueio, nível atual)
 js/speech.js          áudio grátis pela voz em inglês do aparelho
 js/quiz-engine.js     monta as perguntas de múltipla escolha
-js/views/*.js         telas: início, aprender, lição, vocabulário, quiz/revisão, jogar, ranking, sala, perfil
+js/views/*.js         telas: início, aprender (mapa), lição, vocabulário, quiz/revisão, jogar, ranking, sala, perfil, viagem, chefão, loja
+js/game.js            mapa de ilhas compartilhado, moedas, baú e festa (estilos em js/game-styles.js)
+js/kiko.js            itens da lojinha e o Kiko com acessórios
 img/                  mascote, ícone e imagem da tela de login
 data/vocab/           categories.json + um arquivo por categoria
 tools/check-vocab.mjs confere o banco e atualiza categories.json
@@ -59,6 +61,10 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **Viagem ✈️ — Aventura na Tailândia**: 10 capítulos narrados pelo Kiko, com escolhas que ramificam a história, vários finais, dicas culturais, explicações, lacunas, monte a frase, narração em português e animações
 - [x] **Mapa de aventura** com ilhas flutuantes, Kiko caminhando, névoa nas ilhas bloqueadas e baú final; **passaporte** com carimbos (dourado de Explorador)
 - [x] **Professor Kiko**: plano da aula, quadro-negro, revisão da aula e voz escolhida entre as mais naturais do aparelho (inglês lido com voz inglesa)
+- [x] **Novo destino: Aventura em Orlando 🇺🇸** (10 capítulos: imigração, carro alugado, hotel, gorjeta, parque, outlet, farmácia, tempestade/911, posto e volta) e tela de **destinos** (`#/viagem`) com um mapa por país (`#/viagem/<destino>`)
+- [x] **Chefão** no fim de cada mapa (7 acertos, 3 corações, 15 s por pergunta), com perguntas tiradas das próprias histórias/lições; o **baú do tesouro** só abre depois dele
+- [x] **Moedas 🪙 e Lojinha do Kiko** (`#/loja`): chapéus, óculos e acessórios que aparecem no Kiko em todo o app
+- [x] **Aprender virou mapa**: lições como ilhas no céu, placas de unidade, Kiko caminhando e o Dragão das Palavras como chefão do nível
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
 
@@ -70,9 +76,12 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 
 ## Escrever histórias de viagem
 
-As histórias ficam em `tools/story_thailand.py`, numa mini-linguagem simples (`tools/story_dsl.py`):
+As histórias ficam em `tools/story_thailand.py` e `tools/story_usa.py`, numa mini-linguagem simples (`tools/story_dsl.py`):
 `N()` narração do Kiko, `T()` fala de outra pessoa, `Y()` sua fala, `TIP()` dica cultural, `EX()` explicação,
 `C()` escolha (cada opção `O()` pode levar a outro trecho com `go=`), `G()` lacuna, `B()` monte a frase,
 `GO()` salto e `END()` final. Depois de editar, rode `python3 tools/story_thailand.py`: ele recria o JSON e
 avisa se algum caminho ficou sem saída ou algum trecho ficou inalcançável.
-Marcadores trocados conforme o jogador: `{p}` khrap/ka, `{spouse}` wife/husband, `{She}`, `{spousePt}`, `{ElaPt}`, `{aPt}`, `{name}`.
+Marcadores trocados conforme o jogador: `{p}` khrap/ka, `{spouse}` wife/husband, `{She}`, `{sheLow}`, `{herPt}` her/his, `{spousePt}`, `{spousePtCap}`, `{ElaPt}`, `{aPt}`, `{name}`.
+Cada destino tem `theme` (ocean, sunset), `route` (texto do início do mapa) e `boss` (nome, emoji, fala). Para um destino novo, copie um desses arquivos, troque o `id`, acrescente o id em `ORDER` no `story_dsl.py` e rode o script.
+
+**Moedas:** ficam na tabela `en_wallet`. Rode de novo o `supabase/schema.sql` para criá-la; até lá as moedas ficam salvas só no aparelho, e o resto sincroniza normalmente.

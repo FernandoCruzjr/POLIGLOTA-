@@ -3242,5 +3242,12 @@
     "🇧🇷"
    ]
   }
- ]
+ ],
+ "theme": "ocean",
+ "route": "🛫 São Paulo → Bangkok",
+ "boss": {
+  "name": "O Guardião do Templo",
+  "emoji": "👹",
+  "intro": "O Guardião do Templo só deixa passar quem fala inglês de verdade! Mostre tudo o que você aprendeu na Tailândia."
+ }
 }

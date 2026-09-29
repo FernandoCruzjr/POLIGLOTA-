@@ -1,3 +1,4 @@
+import { kikoHtml } from '../kiko.js';
 import * as store from '../store.js';
 import * as vocab from '../vocab.js';
 import { esc, plural } from '../ui.js';
@@ -11,7 +12,7 @@ export function render(root) {
     </header>
 
     <a class="card play-hero" href="#/sala">
-      <img src="img/mascot-avatar.png" alt="" width="72" height="72">
+      ${kikoHtml(72)}
       <span>
         <strong>Sala de quiz ao vivo</strong>
         <span>Crie uma sala, passe o código e joguem juntos em tempo real.</span>

@@ -8,7 +8,7 @@ Marcadores trocados conforme o jogador: {p} khrap/ka, {spouse} wife/husband,
 {She} She/He, {spousePt} minha esposa/meu marido, {ElaPt} Ela/Ele,
 {aPt} a/o (concordância do cônjuge), {name} nome do jogador.
 """
-import json
+import json, os
 
 def N(pt, mood='talk'): return {"type": "narration", "pt": pt, "mood": mood}
 def T(speaker, en, pt): return {"type": "line", "who": "them", "speaker": speaker, "en": en, "pt": pt}
@@ -80,3 +80,20 @@ def chapter(cid, emoji, title, title_en, scene, seqs, summary):
     endings = sorted({n["ending"] for n in out.values() if n["type"] == "end"})
     return {"id": cid, "emoji": emoji, "title": title, "titleEn": title_en, "scene": scene,
             "summary": summary, "start": start, "endings": endings, "nodes": out}
+
+
+ORDER = ["thailand", "usa"]
+
+def save_trip(trip, root):
+    """Grava data/trips/<id>.json e refaz o index.json com todos os destinos."""
+    import glob
+    json.dump(trip, open(os.path.join(root, f"{trip['id']}.json"), "w"), ensure_ascii=False, indent=1)
+    trips = []
+    for f in glob.glob(os.path.join(root, "*.json")):
+        if f.endswith("index.json"):
+            continue
+        t = json.load(open(f))
+        trips.append({"id": t["id"], "title": t["title"], "emoji": t["emoji"], "chapters": len(t["chapters"]),
+                      "intro": t["intro"], "theme": t.get("theme", "ocean"), "boss": t.get("boss"), "route": t.get("route", "")})
+    trips.sort(key=lambda t: ORDER.index(t["id"]) if t["id"] in ORDER else 99)
+    json.dump({"trips": trips}, open(os.path.join(root, "index.json"), "w"), ensure_ascii=False, indent=1)

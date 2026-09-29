@@ -620,10 +620,11 @@ trip = {
   "intro": "Bangkok, Phuket e as ilhas Phi Phi. Uma história narrada em que as suas escolhas mudam o caminho, com dicas culturais para viajar com respeito.",
   "chapters": ch,
 }
+trip["theme"] = "ocean"
+trip["route"] = "🛫 São Paulo → Bangkok"
+trip["boss"] = {"name": "O Guardião do Templo", "emoji": "👹", "intro": "O Guardião do Templo só deixa passar quem fala inglês de verdade! Mostre tudo o que você aprendeu na Tailândia."}
 root = os.path.join(os.path.dirname(__file__), "..", "data", "trips")
-json.dump(trip, open(os.path.join(root, "thailand.json"), "w"), ensure_ascii=False, indent=1)
-json.dump({"trips": [{"id": "thailand", "title": trip["title"], "emoji": trip["emoji"], "chapters": len(ch), "intro": trip["intro"]}]},
-          open(os.path.join(root, "index.json"), "w"), ensure_ascii=False, indent=1)
+save_trip(trip, root)
 for c in ch:
     kinds = {}
     for n in c["nodes"].values():

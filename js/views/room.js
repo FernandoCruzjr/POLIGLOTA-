@@ -7,7 +7,7 @@ import * as vocab from '../vocab.js';
 import * as engine from '../quiz-engine.js';
 import { sb } from '../auth.js';
 import { icon } from '../icons.js';
-import { esc, plural, toast, formatNumber } from '../ui.js';
+import { esc, plural, toast, formatNumber, coinReward } from '../ui.js';
 import { speak } from '../speech.js';
 import { XP_RULES } from '../config.js';
 import { questionHtml, markOptions } from './quiz.js';
@@ -210,12 +210,14 @@ function renderRoom(root, code, user) {
     if (myAnswers.length) {
       store.recordQuizSession({ xp, seconds: Math.min(msg.total * (settings.time + 5), 1800), type: 'room', ref: code, title: `Sala ${code}: ${right}/${msg.total} certas` });
     }
+    const coins = myAnswers.length ? store.addCoins(Math.floor(right / 2) + (won ? 3 : 0)) : 0;
     const podium = scores.slice(0, 3);
     root.innerHTML = `
       <div class="lesson done-screen">
         <div class="burst" aria-hidden="true">${won ? '🏆' : '🎉'}</div>
         <h1>${won ? 'Você venceu!' : 'Fim de jogo!'}</h1>
         ${mine ? `<p class="score-big"><strong>${formatNumber(mine.score)}</strong> pontos · ${right}/${msg.total} certas</p>` : ''}
+        ${coins ? `<div class="reward-row">${coinReward(coins)}</div>` : ''}
         <div class="podium">
           ${[1, 0, 2].filter((i) => podium[i]).map((i) => `
             <div class="podium-spot p${i + 1} ${podium[i].id === me.id ? 'me' : ''}">

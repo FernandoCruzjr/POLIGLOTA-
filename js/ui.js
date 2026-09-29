@@ -34,6 +34,11 @@ export function relativeTime(iso) {
   return days === 1 ? 'ontem' : `há ${days} dias`;
 }
 
+// Cartão de moedas ganhas nas telas de fim.
+export function coinReward(n) {
+  return n > 0 ? `<a class="card reward coin-reward" href="#/loja" aria-label="Ganhou ${n} moedas. Abrir lojinha do Kiko"><span class="coin-ico" aria-hidden="true">🪙</span><strong>+${n}</strong></a>` : '';
+}
+
 export function plural(n, one, many) {
   return `${formatNumber(n)} ${n === 1 ? one : many}`;
 }

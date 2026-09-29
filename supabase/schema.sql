@@ -73,11 +73,21 @@ create table if not exists public.en_achievement (
   primary key (user_id, achievement_id)
 );
 
+-- Moedas e itens da lojinha do Kiko
+create table if not exists public.en_wallet (
+  user_id     uuid primary key references auth.users (id) on delete cascade,
+  coins       integer not null default 0,
+  earned      integer not null default 0,
+  owned       jsonb not null default '["grad"]'::jsonb,
+  equipped    jsonb not null default '{}'::jsonb,
+  updated_at  timestamptz not null default now()
+);
+
 -- Segurança: cada pessoa só lê e grava as PRÓPRIAS linhas
 do $$
 declare t text;
 begin
-  foreach t in array array['en_profile', 'en_lesson_progress', 'en_activity', 'en_word_progress', 'en_achievement']
+  foreach t in array array['en_profile', 'en_lesson_progress', 'en_activity', 'en_word_progress', 'en_achievement', 'en_wallet']
   loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "dono le e grava" on public.%I', t);

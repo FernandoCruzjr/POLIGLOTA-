@@ -1,0 +1,2761 @@
+{
+ "id": "usa",
+ "title": "Aventura em Orlando",
+ "titleEn": "Orlando Adventure",
+ "emoji": "🇺🇸",
+ "intro": "Imigração americana, carro alugado, parques, outlet e gorjeta. As suas escolhas mudam a história, com dicas para viajar sem sustos nos EUA.",
+ "chapters": [
+  {
+   "id": "c1",
+   "emoji": "🛂",
+   "title": "Imigração em Orlando",
+   "titleEn": "Immigration",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "✈️",
+      "fly"
+     ],
+     [
+      "🦅",
+      "fly"
+     ],
+     [
+      "🛂",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "\"How are you doing?\", perguntas da imigração e o beagle farejador.",
+   "start": "start.0",
+   "endings": [
+    "aviso",
+    "declarou"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hello, {name}! Aqui é o Professor Kiko 🎓🦜 de novo, agora rumo aos Estados Unidos! Vocês acabaram de pousar no aeroporto de Orlando, na Flórida: a terra dos parques temáticos. Mas antes da diversão, vem a imigração americana, que é bem séria. Deixa comigo que eu te preparo.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🇺🇸",
+     "title": "A imigração americana",
+     "pt": "O oficial da imigração dos EUA é chamado de CBP officer. Ele faz perguntas curtas e diretas, e espera respostas curtas e verdadeiras. Não precisa falar difícil: frases simples funcionam melhor.",
+     "dos": [
+      "Responder só o que foi perguntado",
+      "Ter reserva do hotel e passagem de volta à mão",
+      "Tirar o boné e os óculos escuros no balcão"
+     ],
+     "donts": [
+      "Fazer piadas",
+      "Falar demais ou inventar respostas",
+      "Usar o celular na fila"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "narration",
+     "pt": "Chegou a sua vez. O oficial chama com a mão: \"Next!\"",
+     "mood": "talk",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Good afternoon. How are you doing today?",
+     "pt": "Boa tarde. Como vai você hoje?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "How are you doing?",
+     "pt": "Nos EUA, \"How are you doing?\" é só um cumprimento, como o nosso \"tudo bem?\". Ninguém quer ouvir a sua vida inteira! Responda curto e devolva a pergunta.",
+     "examples": [
+      {
+       "en": "I'm good, thanks. How are you?",
+       "pt": "Estou bem, obrigado. E você?"
+      },
+      {
+       "en": "Pretty good, thank you!",
+       "pt": "Muito bem, obrigado!"
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Como você responde?",
+     "options": [
+      {
+       "text": "I'm good, thank you. How are you?",
+       "tone": "good",
+       "fb": "Perfeito! Curto, educado e natural.",
+       "pt": "Estou bem, obrigado. E você?",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "Very tired. The flight was terrible and the food was cold…",
+       "tone": "ok",
+       "fb": "Hahaha, sincero! Mas ele só queria um \"I'm good\". Na imigração, quanto mais curto, melhor.",
+       "pt": "Muito cansado. O voo foi terrível e a comida estava fria…",
+       "lang": "en",
+       "next": "start.6"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "What's the purpose of your trip?",
+     "pt": "Qual é o motivo da sua viagem?",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "We are here on ___.",
+     "answer": "vacation",
+     "options": [
+      "vacation",
+      "business",
+      "work",
+      "school"
+     ],
+     "pt": "Estamos aqui de férias.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "How long are you staying?",
+     "pt": "Quanto tempo vocês vão ficar?",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "choice",
+     "prompt": "Vocês ficam duas semanas. O que você diz?",
+     "options": [
+      {
+       "text": "Two weeks. We go back on the twentieth.",
+       "tone": "good",
+       "fb": "Isso! Tempo exato e a data de volta. O oficial adora respostas precisas.",
+       "pt": "Duas semanas. Voltamos no dia vinte.",
+       "lang": "en",
+       "next": "hotel.0"
+      },
+      {
+       "text": "Maybe forever! Just kidding!",
+       "tone": "bad",
+       "fb": "Nãooo! \"Forever\" (para sempre) é a pior palavra possível aqui. Veja o que acontece…",
+       "pt": "Talvez para sempre! Brincadeira!",
+       "lang": "en",
+       "next": "forever.0"
+      }
+     ]
+    },
+    "forever.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Forever? That's not funny. Please step aside.",
+     "pt": "Para sempre? Isso não tem graça. Por favor, aguarde ao lado.",
+     "next": "forever.1"
+    },
+    "forever.1": {
+     "type": "narration",
+     "pt": "Ops! Agora vocês vão para a salinha da \"secondary inspection\", uma entrevista extra. Não é o fim do mundo, mas custa uma hora de espera. 😬",
+     "mood": "oops",
+     "next": "forever.2"
+    },
+    "forever.2": {
+     "type": "tip",
+     "icon": "⚠️",
+     "title": "Nunca brinque com a imigração",
+     "pt": "Nos EUA, qualquer brincadeira sobre ficar no país, trabalhar ilegalmente, armas ou bombas é levada a sério e pode acabar em entrevista longa ou até em entrada negada.",
+     "dos": [],
+     "donts": [
+      "Brincar com \"ficar para sempre\"",
+      "Brincar com bombas, armas ou drogas"
+     ],
+     "next": "forever.3"
+    },
+    "forever.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial 2",
+     "en": "Why did you say forever?",
+     "pt": "Por que você disse para sempre?",
+     "next": "forever.4"
+    },
+    "forever.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "I'm sorry, it was a bad joke. We are here on vacation for two weeks.",
+     "pt": "Desculpe, foi uma piada ruim. Estamos aqui de férias por duas semanas.",
+     "next": "forever.5"
+    },
+    "forever.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial 2",
+     "en": "Show me your return ticket, please.",
+     "pt": "Me mostre a passagem de volta, por favor.",
+     "next": "forever.6"
+    },
+    "forever.6": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Here is our return ___.",
+     "answer": "ticket",
+     "options": [
+      "ticket",
+      "bill",
+      "money",
+      "key"
+     ],
+     "pt": "Aqui está a nossa passagem de volta.",
+     "next": "forever.7"
+    },
+    "forever.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial 2",
+     "en": "OK. No more jokes, please. You can go.",
+     "pt": "OK. Sem mais piadas, por favor. Podem ir.",
+     "next": "hotel.0"
+    },
+    "hotel.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Where are you staying?",
+     "pt": "Onde vocês vão se hospedar?",
+     "next": "hotel.1"
+    },
+    "hotel.1": {
+     "type": "build",
+     "pt": "Estamos hospedados num hotel perto dos parques.",
+     "en": "We're staying at a hotel near the parks.",
+     "extra": [
+      "in",
+      "far"
+     ],
+     "next": "hotel.2"
+    },
+    "hotel.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Who is traveling with you?",
+     "pt": "Quem está viajando com você?",
+     "next": "hotel.3"
+    },
+    "hotel.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "My ___ and our kids.",
+     "answer": "{spouse}",
+     "options": [
+      "{spouse}",
+      "boss",
+      "teacher",
+      "friend"
+     ],
+     "pt": "{spousePtCap} e nossos filhos.",
+     "next": "hotel.4"
+    },
+    "hotel.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Are you bringing any food, fruit or meat?",
+     "pt": "Vocês estão trazendo comida, frutas ou carne?",
+     "next": "hotel.5"
+    },
+    "hotel.5": {
+     "type": "narration",
+     "pt": "Hmm… lá na mala tem um pacote de pão de queijo congelado e uma goiabada que a sua mãe mandou. 🧀",
+     "mood": "talk",
+     "next": "hotel.6"
+    },
+    "hotel.6": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "Yes, we have some cheese bread and guava paste.",
+       "tone": "good",
+       "fb": "Honestidade sempre! Declarar comida não dá problema: no máximo eles jogam fora.",
+       "pt": "Sim, temos pão de queijo e goiabada.",
+       "lang": "en",
+       "next": "declare.0"
+      },
+      {
+       "text": "No, nothing.",
+       "tone": "bad",
+       "fb": "Hmm… vamos ver se os cachorros concordam. 🐶",
+       "pt": "Não, nada.",
+       "lang": "en",
+       "next": "beagle.0"
+      }
+     ]
+    },
+    "declare.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Thank you for declaring. Go to the agriculture line, please.",
+     "pt": "Obrigado por declarar. Vá para a fila da agricultura, por favor.",
+     "next": "declare.1"
+    },
+    "declare.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Fiscal",
+     "en": "Cheese bread and guava paste are OK. Welcome to the United States!",
+     "pt": "Pão de queijo e goiabada estão liberados. Bem-vindos aos Estados Unidos!",
+     "next": "declare.2"
+    },
+    "declare.2": {
+     "type": "build",
+     "pt": "Muito obrigado. Tenha um ótimo dia!",
+     "en": "Thank you so much. Have a great day!",
+     "extra": [
+      "very",
+      "night"
+     ],
+     "next": "declare.3"
+    },
+    "declare.3": {
+     "type": "end",
+     "ending": "declarou",
+     "title": "Final: tudo declarado",
+     "pt": "Honestidade venceu! O pão de queijo passou, e Orlando espera por vocês. 🧀🇺🇸"
+    },
+    "beagle.0": {
+     "type": "narration",
+     "pt": "Na saída, um beagle simpático com colete verde cheira a sua mala… e senta do lado dela. 🐶 É o sinal!",
+     "mood": "oops",
+     "next": "beagle.1"
+    },
+    "beagle.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Fiscal",
+     "en": "Do you have any food in this bag?",
+     "pt": "Você tem alguma comida nesta mala?",
+     "next": "beagle.2"
+    },
+    "beagle.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, yes! Sorry, I ___. It's cheese bread.",
+     "answer": "forgot",
+     "options": [
+      "forgot",
+      "forget",
+      "forgotten",
+      "remember"
+     ],
+     "pt": "Ah, sim! Desculpe, eu esqueci. É pão de queijo.",
+     "next": "beagle.3"
+    },
+    "beagle.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Fiscal",
+     "en": "Next time, declare it. This is a warning. Have a nice trip.",
+     "pt": "Da próxima vez, declare. Isto é uma advertência. Boa viagem.",
+     "next": "beagle.4"
+    },
+    "beagle.4": {
+     "type": "explain",
+     "title": "Declare",
+     "pt": "Nos EUA, não declarar comida pode dar multa alta. Na dúvida, diga \"Yes, I have food\" e deixe o fiscal decidir.",
+     "examples": [
+      {
+       "en": "I have some food to declare.",
+       "pt": "Tenho comida para declarar."
+      }
+     ],
+     "next": "beagle.5"
+    },
+    "beagle.5": {
+     "type": "end",
+     "ending": "aviso",
+     "title": "Final: levou uma advertência",
+     "pt": "Ufa, só uma advertência! Lição aprendida: sempre declare a comida. 🐶"
+    }
+   },
+   "island": [
+    "🛂",
+    "🦅"
+   ]
+  },
+  {
+   "id": "c2",
+   "emoji": "🚗",
+   "title": "Carro alugado",
+   "titleEn": "Car rental",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🚗",
+      "drive"
+     ],
+     [
+      "🌴",
+      "sway"
+     ],
+     [
+      "☀️",
+      "spin"
+     ]
+    ]
+   },
+   "summary": "Seguro, tanque cheio, regras de trânsito e o primeiro drive-thru.",
+   "start": "start.0",
+   "endings": [
+    "drive-thru",
+    "pedagio"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Em Orlando, quase todo mundo aluga carro: os parques são longe um do outro. Vocês vão até o balcão da locadora, o \"rental car counter\".",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Hi there! Do you have a reservation?",
+     "pt": "Olá! Vocês têm reserva?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, it's under the name {name}.",
+     "pt": "Sim, está no nome de {name}.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "explain",
+     "title": "Under the name",
+     "pt": "Para dizer em nome de quem está a reserva, use \"under the name\". Serve para hotel, restaurante e locadora.",
+     "examples": [
+      {
+       "en": "A table under the name Silva.",
+       "pt": "Uma mesa no nome de Silva."
+      }
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Would you like to add full insurance? It's twenty-five dollars a day.",
+     "pt": "Querem adicionar o seguro completo? São vinte e cinco dólares por dia.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "O seguro do seu cartão já cobre. O que você diz?",
+     "options": [
+      {
+       "text": "No, thank you. My credit card covers it.",
+       "tone": "good",
+       "fb": "Boa! Você sabia dos seus direitos e disse não com educação.",
+       "pt": "Não, obrigado. Meu cartão de crédito cobre.",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "Yes, please. I want to be safe.",
+       "tone": "good",
+       "fb": "Também é uma escolha válida: tranquilidade para dirigir num país novo.",
+       "pt": "Sim, por favor. Quero ficar tranquilo.",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "What? I don't understand. OK, yes, yes.",
+       "tone": "bad",
+       "fb": "Cuidado com o \"yes\" sem entender! Peça para repetir: \"Can you say that again, please?\"",
+       "pt": "O quê? Não entendi. OK, sim, sim.",
+       "lang": "en",
+       "next": "start.6"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "The car has a full tank. Please return it full.",
+     "pt": "O carro está com o tanque cheio. Por favor, devolvam cheio.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK, we will return it ___.",
+     "answer": "full",
+     "options": [
+      "full",
+      "empty",
+      "half",
+      "fast"
+     ],
+     "pt": "OK, vamos devolver cheio.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "tip",
+     "icon": "🚦",
+     "title": "Dirigir nos EUA",
+     "pt": "Na Flórida, você pode virar à direita no sinal vermelho, depois de parar totalmente, se não houver placa \"No turn on red\". A velocidade é em milhas por hora (mph): 65 mph são uns 105 km/h.",
+     "dos": [
+      "Parar completamente na placa STOP",
+      "Parar quando o ônibus escolar amarelo abrir a plaquinha de STOP"
+     ],
+     "donts": [
+      "Ultrapassar ônibus escolar parado",
+      "Achar que 65 é km/h"
+     ],
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "Carro na mão! O GPS pergunta: pegar a estrada com pedágio (toll road), que é mais rápida, ou evitar pedágios?",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "Qual caminho?",
+     "options": [
+      {
+       "text": "Pegar a toll road",
+       "tone": "good",
+       "fb": "Rápido e prático! A maioria dos carros alugados já tem o pedágio automático.",
+       "pt": null,
+       "lang": "pt",
+       "next": "toll.0"
+      },
+      {
+       "text": "Evitar pedágio e ir pelas ruas",
+       "tone": "ok",
+       "fb": "Mais demorado… mas tem surpresas no caminho!",
+       "pt": null,
+       "lang": "pt",
+       "next": "drive.0"
+      }
+     ]
+    },
+    "toll.0": {
+     "type": "narration",
+     "pt": "Na toll road, o carro passa direto pela cabine: o SunPass cobra sozinho. Mas o ponteiro da gasolina… já está baixando? Hmm, melhor saber onde abastecer depois.",
+     "mood": "talk",
+     "next": "toll.1"
+    },
+    "toll.1": {
+     "type": "build",
+     "pt": "Onde fica o posto de gasolina mais próximo?",
+     "en": "Where is the nearest gas station?",
+     "extra": [
+      "far",
+      "petrol"
+     ],
+     "next": "toll.2"
+    },
+    "toll.2": {
+     "type": "explain",
+     "title": "Gas, não petrol",
+     "pt": "Nos EUA, gasolina é \"gas\" e posto é \"gas station\". \"Petrol\" é inglês britânico.",
+     "examples": [
+      {
+       "en": "We need gas.",
+       "pt": "Precisamos de gasolina."
+      }
+     ],
+     "next": "toll.3"
+    },
+    "toll.3": {
+     "type": "end",
+     "ending": "pedagio",
+     "title": "Final: pela toll road",
+     "pt": "Chegaram rapidinho ao hotel. A estrada americana é enorme, mas você já está se virando! 🛣️"
+    },
+    "drive.0": {
+     "type": "narration",
+     "pt": "Pelas ruas, a fome aperta e vocês passam por um drive-thru. Lá, você fala com uma caixinha de som! 🍟",
+     "mood": "talk",
+     "next": "drive.1"
+    },
+    "drive.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente (caixa de som)",
+     "en": "Welcome! What can I get for you?",
+     "pt": "Bem-vindos! O que vai ser?",
+     "next": "drive.2"
+    },
+    "drive.2": {
+     "type": "explain",
+     "title": "Can I get…?",
+     "pt": "Nos EUA, o jeito natural de pedir é \"Can I get…?\" (Pode me ver…?). Soa educado e é o que todo mundo usa.",
+     "examples": [
+      {
+       "en": "Can I get a number two, please?",
+       "pt": "Pode me ver um número dois, por favor?"
+      },
+      {
+       "en": "Can I get a large Coke?",
+       "pt": "Pode me ver uma Coca grande?"
+      }
+     ],
+     "next": "drive.3"
+    },
+    "drive.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can I ___ two burgers and fries, please?",
+     "answer": "get",
+     "options": [
+      "get",
+      "give",
+      "take",
+      "make"
+     ],
+     "pt": "Pode me ver dois hambúrgueres e batata frita, por favor?",
+     "next": "drive.4"
+    },
+    "drive.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente (caixa de som)",
+     "en": "Anything else?",
+     "pt": "Mais alguma coisa?",
+     "next": "drive.5"
+    },
+    "drive.5": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "That's all, thank you.",
+     "pt": "É só isso, obrigado.",
+     "next": "drive.6"
+    },
+    "drive.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente (caixa de som)",
+     "en": "Pull up to the next window, please.",
+     "pt": "Siga até a próxima janela, por favor.",
+     "next": "drive.7"
+    },
+    "drive.7": {
+     "type": "end",
+     "ending": "drive-thru",
+     "title": "Final: drive-thru",
+     "pt": "Hambúrguer na mão e inglês funcionando até pela caixinha de som! 🍔"
+    }
+   },
+   "island": [
+    "🚗",
+    "🛣️"
+   ]
+  },
+  {
+   "id": "c3",
+   "emoji": "🏨",
+   "title": "Check-in no hotel",
+   "titleEn": "Hotel check-in",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "🏨",
+      "bob"
+     ],
+     [
+      "🌴",
+      "sway"
+     ],
+     [
+      "🛎️",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "Taxas escondidas, tipos de cama e o \"first floor\" americano.",
+   "start": "start.0",
+   "endings": [
+    "hotel"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Chegamos ao hotel! Palmeiras, piscina e aquele ar-condicionado gelado. Vamos fazer o check-in.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Welcome! Checking in?",
+     "pt": "Bem-vindos! Check-in?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, please. We have a reservation for five nights.",
+     "pt": "Sim, por favor. Temos uma reserva para cinco noites.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Perfect. There is a resort fee of thirty dollars per night.",
+     "pt": "Perfeito. Há uma taxa de resort de trinta dólares por noite.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "Tax not included",
+     "pt": "Nos EUA, os preços quase nunca incluem imposto. E muitos hotéis cobram uma \"resort fee\" à parte. Sempre pergunte o valor final.",
+     "examples": [
+      {
+       "en": "Is tax included?",
+       "pt": "O imposto está incluído?"
+      },
+      {
+       "en": "What is the total?",
+       "pt": "Qual é o total?"
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Você não sabia dessa taxa. O que faz?",
+     "options": [
+      {
+       "text": "Oh, I didn't know. What does the resort fee include?",
+       "tone": "good",
+       "fb": "Ótima pergunta! Entender antes de reclamar é o jeito certo.",
+       "pt": "Ah, eu não sabia. O que a taxa inclui?",
+       "lang": "en",
+       "next": "fee.0"
+      },
+      {
+       "text": "That's a robbery! I won't pay!",
+       "tone": "bad",
+       "fb": "Calma! Gritar não resolve. Veja:",
+       "pt": "Isso é um roubo! Não vou pagar!",
+       "lang": "en",
+       "next": "angry.0"
+      }
+     ]
+    },
+    "angry.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "I understand you're upset. The fee is in your reservation.",
+     "pt": "Entendo que você esteja chateado. A taxa está na sua reserva.",
+     "next": "angry.1"
+    },
+    "angry.1": {
+     "type": "narration",
+     "pt": "Ela mostra a reserva… e a taxa estava lá, em letrinhas miúdas. 😅",
+     "mood": "oops",
+     "next": "angry.2"
+    },
+    "angry.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I see. Sorry. What does it include?",
+     "pt": "Ah, entendi. Desculpe. O que ela inclui?",
+     "next": "fee.0"
+    },
+    "fee.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "It includes Wi-Fi, parking and the shuttle to the parks.",
+     "pt": "Inclui Wi-Fi, estacionamento e o transporte até os parques.",
+     "next": "fee.1"
+    },
+    "fee.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Would you like two queen beds or one king bed?",
+     "pt": "Vocês preferem duas camas queen ou uma cama king?",
+     "next": "fee.2"
+    },
+    "fee.2": {
+     "type": "choice",
+     "prompt": "Vocês estão com as crianças. Qual quarto?",
+     "options": [
+      {
+       "text": "Two queen beds, please.",
+       "tone": "good",
+       "fb": "Espaço para todo mundo! Queen é a cama de casal comum; king é a bem grandona.",
+       "pt": "Duas camas queen, por favor.",
+       "lang": "en",
+       "next": "fee.3"
+      },
+      {
+       "text": "One king bed, please. The kids sleep with us.",
+       "tone": "good",
+       "fb": "Aconchegante! Mas cuidado com os pés das crianças de madrugada. 😂",
+       "pt": "Uma cama king, por favor. As crianças dormem com a gente.",
+       "lang": "en",
+       "next": "fee.3"
+      }
+     ]
+    },
+    "fee.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Your room is on the first floor, room 112.",
+     "pt": "O seu quarto fica no primeiro andar, quarto 112.",
+     "next": "fee.4"
+    },
+    "fee.4": {
+     "type": "tip",
+     "icon": "🏢",
+     "title": "First floor = térreo",
+     "pt": "Nos EUA, \"first floor\" é o térreo! O nosso primeiro andar é o \"second floor\" deles. E não existe \"ground floor\" no inglês americano do dia a dia.",
+     "dos": [
+      "First floor = térreo",
+      "Second floor = nosso 1º andar"
+     ],
+     "donts": [],
+     "next": "fee.5"
+    },
+    "fee.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Breakfast is from seven to ten.",
+     "pt": "O café da manhã é das sete às dez.",
+     "next": "fee.6"
+    },
+    "fee.6": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Is ___ included?",
+     "answer": "breakfast",
+     "options": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "dessert"
+     ],
+     "pt": "O café da manhã está incluído?",
+     "next": "fee.7"
+    },
+    "fee.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Yes, it's free for hotel guests.",
+     "pt": "Sim, é grátis para hóspedes.",
+     "next": "fee.8"
+    },
+    "fee.8": {
+     "type": "build",
+     "pt": "Onde podemos estacionar o carro?",
+     "en": "Where can we park the car?",
+     "extra": [
+      "stop",
+      "garage"
+     ],
+     "next": "fee.9"
+    },
+    "fee.9": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "The parking lot is behind the building. Enjoy your stay!",
+     "pt": "O estacionamento fica atrás do prédio. Aproveitem a estadia!",
+     "next": "fee.10"
+    },
+    "fee.10": {
+     "type": "end",
+     "ending": "hotel",
+     "title": "Final: chave na mão",
+     "pt": "Quarto 112 no térreo, piscina lá fora e café incluído. Hora de descansar para o parque! 🏊"
+    }
+   },
+   "island": [
+    "🏨",
+    "🌴"
+   ]
+  },
+  {
+   "id": "c4",
+   "emoji": "🍔",
+   "title": "Restaurante e gorjeta",
+   "titleEn": "Restaurant and tipping",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🍔",
+      "bob"
+     ],
+     [
+      "🥤",
+      "float"
+     ],
+     [
+      "🍟",
+      "wave"
+     ]
+    ]
+   },
+   "summary": "Mesa para quatro, o server, porções gigantes, ponto da carne e gorjeta.",
+   "start": "start.0",
+   "endings": [
+    "jantar"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Noite de restaurante americano! Nos EUA, você não escolhe a mesa sozinho: espera na entrada pela recepcionista, a \"hostess\".",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Hostess",
+     "en": "Hi! How many?",
+     "pt": "Oi! Quantas pessoas?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "A table for ___, please.",
+     "answer": "four",
+     "options": [
+      "four",
+      "for",
+      "fourth",
+      "forty"
+     ],
+     "pt": "Uma mesa para quatro, por favor.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Hi guys, I'm Jake and I'll be your server tonight. Can I get you something to drink?",
+     "pt": "Oi pessoal, eu sou o Jake e vou atender vocês hoje. Posso trazer algo para beber?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "O garçom se apresenta",
+     "pt": "Nos EUA, o garçom (server) diz o nome e cuida da sua mesa a noite toda. E um detalhe ótimo: água com gelo é de graça e o refrigerante costuma ter refil!",
+     "examples": [
+      {
+       "en": "Can we have some water, please?",
+       "pt": "Pode nos trazer água, por favor?"
+      },
+      {
+       "en": "Free refill",
+       "pt": "Refil grátis"
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Just water for now, please.",
+     "pt": "Só água por enquanto, por favor.",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "narration",
+     "pt": "O cardápio chega… e os pratos são ENORMES. Um prato americano alimenta duas pessoas brasileiras fácil. 😂",
+     "mood": "talk",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "choice",
+     "prompt": "O que vocês fazem?",
+     "options": [
+      {
+       "text": "Can we share one dish?",
+       "tone": "good",
+       "fb": "Esperto! Dividir é normal nos EUA. Às vezes cobram uma pequena \"sharing fee\".",
+       "pt": "Podemos dividir um prato?",
+       "lang": "en",
+       "next": "steak.0"
+      },
+      {
+       "text": "Pedir um prato para cada um",
+       "tone": "ok",
+       "fb": "Vale! Mas prepare-se para levar sobras para o hotel.",
+       "pt": null,
+       "lang": "pt",
+       "next": "big.0"
+      }
+     ]
+    },
+    "big.0": {
+     "type": "narration",
+     "pt": "Chegam quatro pratos gigantes. Vocês comem, comem… e ainda sobra metade! 🥩",
+     "mood": "talk",
+     "next": "big.1"
+    },
+    "big.1": {
+     "type": "build",
+     "pt": "Pode me dar uma embalagem para isso?",
+     "en": "Can I get a box for this?",
+     "extra": [
+      "bag",
+      "take"
+     ],
+     "next": "big.2"
+    },
+    "big.2": {
+     "type": "explain",
+     "title": "To-go box",
+     "pt": "Levar a sobra para casa é super normal nos EUA. Peça \"a box\" ou \"a to-go box\".",
+     "examples": [
+      {
+       "en": "Can I get a to-go box?",
+       "pt": "Pode me dar uma embalagem para viagem?"
+      }
+     ],
+     "next": "steak.0"
+    },
+    "steak.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "How would you like your steak?",
+     "pt": "Como você quer o ponto da carne?",
+     "next": "steak.1"
+    },
+    "steak.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "___, please.",
+     "answer": "Medium",
+     "options": [
+      "Medium",
+      "Middle",
+      "Half",
+      "Normal"
+     ],
+     "pt": "Ao ponto, por favor.",
+     "next": "steak.2"
+    },
+    "steak.2": {
+     "type": "explain",
+     "title": "Pontos da carne",
+     "pt": "Rare = malpassado, medium = ao ponto, well done = bem passado.",
+     "examples": [
+      {
+       "en": "Medium rare, please.",
+       "pt": "Ao ponto para mal, por favor."
+      },
+      {
+       "en": "Well done, please.",
+       "pt": "Bem passado, por favor."
+      }
+     ],
+     "next": "steak.3"
+    },
+    "steak.3": {
+     "type": "narration",
+     "pt": "Jantar delicioso! Agora, a parte que confunde todo brasileiro: a conta.",
+     "mood": "talk",
+     "next": "steak.4"
+    },
+    "steak.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can we get the check, please?",
+     "pt": "Pode nos trazer a conta, por favor?",
+     "next": "steak.5"
+    },
+    "steak.5": {
+     "type": "explain",
+     "title": "Check ou bill?",
+     "pt": "Nos EUA, a conta do restaurante é \"the check\". \"Bill\" também se entende, mas \"check\" é o mais americano.",
+     "examples": [
+      {
+       "en": "Can we get the check?",
+       "pt": "Pode trazer a conta?"
+      }
+     ],
+     "next": "steak.6"
+    },
+    "steak.6": {
+     "type": "tip",
+     "icon": "💵",
+     "title": "A gorjeta (tip)",
+     "pt": "Nos EUA, a gorjeta não é opcional na prática: o salário do garçom depende dela. O normal é 18% a 20% do valor antes do imposto. Muitas maquininhas já mostram as opções.",
+     "dos": [
+      "Deixar 18–20% em restaurantes com garçom",
+      "Conferir se a gorjeta já veio incluída (\"gratuity included\")"
+     ],
+     "donts": [
+      "Não deixar nada: é visto como muito rude"
+     ],
+     "next": "steak.7"
+    },
+    "steak.7": {
+     "type": "choice",
+     "prompt": "A conta deu 80 dólares. Quanto de gorjeta?",
+     "options": [
+      {
+       "text": "Deixar 16 dólares (20%)",
+       "tone": "good",
+       "fb": "Perfeito! Jake sorri de orelha a orelha. 😄",
+       "pt": null,
+       "lang": "pt",
+       "next": "bye.0"
+      },
+      {
+       "text": "Deixar 5 dólares",
+       "tone": "ok",
+       "fb": "Pouquinho… ele não vai reclamar, mas fica abaixo do normal.",
+       "pt": null,
+       "lang": "pt",
+       "next": "bye.0"
+      },
+      {
+       "text": "Não deixar gorjeta",
+       "tone": "bad",
+       "fb": "Ih… veja o que acontece.",
+       "pt": null,
+       "lang": "pt",
+       "next": "notip.0"
+      }
+     ]
+    },
+    "notip.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Excuse me, was everything OK with the service?",
+     "pt": "Com licença, estava tudo bem com o atendimento?",
+     "next": "notip.1"
+    },
+    "notip.1": {
+     "type": "narration",
+     "pt": "Ele achou que vocês não gostaram! Nos EUA, gorjeta zero é um recado de serviço péssimo.",
+     "mood": "oops",
+     "next": "notip.2"
+    },
+    "notip.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! Everything was great. I didn't know about the tip.",
+     "pt": "Ah, desculpe! Estava tudo ótimo. Eu não sabia da gorjeta.",
+     "next": "bye.0"
+    },
+    "bye.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Thank you guys! Have a great night!",
+     "pt": "Obrigado, pessoal! Tenham uma ótima noite!",
+     "next": "bye.1"
+    },
+    "bye.1": {
+     "type": "end",
+     "ending": "jantar",
+     "title": "Final: jantar americano",
+     "pt": "Mesa pedida, carne no ponto e gorjeta entendida. Você jantou como um local! 🍔"
+    }
+   },
+   "island": [
+    "🍔",
+    "🥤"
+   ]
+  },
+  {
+   "id": "c5",
+   "emoji": "🎢",
+   "title": "Parque temático",
+   "titleEn": "Theme park",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🎢",
+      "bob"
+     ],
+     [
+      "🎡",
+      "spin"
+     ],
+     [
+      "🎈",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Filas, altura em polegadas, foto da montanha-russa e a criança perdida.",
+   "start": "start.0",
+   "endings": [
+    "parque"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "O grande dia! Parque temático, castelo, montanha-russa e muita fila. Nos EUA, fila é \"line\", e todo brinquedo mostra o tempo de espera.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "The wait time is sixty minutes.",
+     "pt": "O tempo de espera é de sessenta minutos.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "explain",
+     "title": "Wait time e line",
+     "pt": "\"Wait time\" é o tempo de espera. \"Line\" é a fila. \"Stand in line\" é ficar na fila.",
+     "examples": [
+      {
+       "en": "How long is the line?",
+       "pt": "Quanto tempo de fila?"
+      },
+      {
+       "en": "Where does the line start?",
+       "pt": "Onde começa a fila?"
+      }
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "tip",
+     "icon": "📏",
+     "title": "Altura em polegadas",
+     "pt": "A altura mínima dos brinquedos vem em inches (polegadas). 40 inches são cerca de 1 metro. A equipe mede as crianças na entrada.",
+     "dos": [
+      "1 inch = 2,5 cm",
+      "40 inches ≈ 1 metro"
+     ],
+     "donts": [],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "choice",
+     "prompt": "Qual brinquedo primeiro?",
+     "options": [
+      {
+       "text": "A montanha-russa radical",
+       "tone": "good",
+       "fb": "Coragem! Lá vamos nós! 🎢",
+       "pt": null,
+       "lang": "pt",
+       "next": "coaster.0"
+      },
+      {
+       "text": "O brinquedo das crianças",
+       "tone": "good",
+       "fb": "Boa! Diversão para toda a família. 🧸",
+       "pt": null,
+       "lang": "pt",
+       "next": "kids.0"
+      }
+     ]
+    },
+    "coaster.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "How many in your party?",
+     "pt": "Quantas pessoas no seu grupo?",
+     "next": "coaster.1"
+    },
+    "coaster.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Two, please.",
+     "pt": "Duas, por favor.",
+     "next": "coaster.2"
+    },
+    "coaster.2": {
+     "type": "narration",
+     "pt": "AAAAAAH! 🎢 A montanha-russa é incrível. Na saída, aparece a foto de vocês gritando na telinha…",
+     "mood": "talk",
+     "next": "coaster.3"
+    },
+    "coaster.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "How ___ is the photo?",
+     "answer": "much",
+     "options": [
+      "much",
+      "many",
+      "long",
+      "old"
+     ],
+     "pt": "Quanto custa a foto?",
+     "next": "coaster.4"
+    },
+    "coaster.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "It's twenty dollars, or free with the photo pass.",
+     "pt": "São vinte dólares, ou grátis com o passe de fotos.",
+     "next": "lost.0"
+    },
+    "kids.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "She needs to be at least forty inches tall. Let me measure her.",
+     "pt": "Ela precisa ter pelo menos quarenta polegadas. Deixe-me medir.",
+     "next": "kids.1"
+    },
+    "kids.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK, thank you!",
+     "pt": "OK, obrigado!",
+     "next": "kids.2"
+    },
+    "kids.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Perfect, she can ride! Have fun!",
+     "pt": "Perfeito, ela pode ir! Divirtam-se!",
+     "next": "lost.0"
+    },
+    "lost.0": {
+     "type": "narration",
+     "pt": "Na saída do brinquedo, no meio da multidão… cadê a sua filha de sete anos? 😱 Ela sumiu por um instante!",
+     "mood": "oops",
+     "next": "lost.1"
+    },
+    "lost.1": {
+     "type": "tip",
+     "icon": "🧒",
+     "title": "Criança perdida no parque",
+     "pt": "Nos parques, a equipe (\"cast members\" ou \"team members\") é treinada para isso. Procure alguém de uniforme e diga que a criança se perdeu. Dica de ouro: antes de entrar, tire uma foto dos seus filhos com a roupa do dia.",
+     "dos": [
+      "Procurar um funcionário de uniforme",
+      "Descrever idade e roupa"
+     ],
+     "donts": [
+      "Sair correndo sozinho pelo parque"
+     ],
+     "next": "lost.2"
+    },
+    "lost.2": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Procurar um funcionário imediatamente",
+       "tone": "good",
+       "fb": "Isso! É o jeito mais rápido.",
+       "pt": null,
+       "lang": "pt",
+       "next": "staff.0"
+      },
+      {
+       "text": "Sair correndo gritando o nome dela",
+       "tone": "bad",
+       "fb": "O desespero é natural… mas o parque é gigante.",
+       "pt": null,
+       "lang": "pt",
+       "next": "run.0"
+      }
+     ]
+    },
+    "run.0": {
+     "type": "narration",
+     "pt": "Você corre, corre… e o parque é enorme demais. Ofegante, você finalmente para um funcionário.",
+     "mood": "oops",
+     "next": "staff.0"
+    },
+    "staff.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me! I can't find my daughter!",
+     "pt": "Com licença! Não consigo encontrar minha filha!",
+     "next": "staff.1"
+    },
+    "staff.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Don't worry, we'll help you. How old is she and what is she wearing?",
+     "pt": "Não se preocupe, vamos ajudar. Quantos anos ela tem e o que está vestindo?",
+     "next": "staff.2"
+    },
+    "staff.2": {
+     "type": "build",
+     "pt": "Ela tem sete anos e está usando uma camiseta rosa.",
+     "en": "She is seven and she is wearing a pink T-shirt.",
+     "extra": [
+      "has",
+      "red"
+     ],
+     "next": "staff.3"
+    },
+    "staff.3": {
+     "type": "explain",
+     "title": "Ter X anos",
+     "pt": "Em inglês, idade usa o verbo \"to be\": \"She is seven\", nunca \"She has seven\".",
+     "examples": [
+      {
+       "en": "I am thirty years old.",
+       "pt": "Eu tenho trinta anos."
+      },
+      {
+       "en": "He is five.",
+       "pt": "Ele tem cinco anos."
+      }
+     ],
+     "next": "staff.4"
+    },
+    "staff.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "We found her! She's at the lost children center, eating ice cream.",
+     "pt": "Encontramos! Ela está na central de crianças perdidas, tomando sorvete.",
+     "next": "staff.5"
+    },
+    "staff.5": {
+     "type": "end",
+     "ending": "parque",
+     "title": "Final: reencontro com sorvete",
+     "pt": "Que susto! Mas você explicou tudo em inglês e a equipe achou a pequena em minutos. 🍦💚"
+    }
+   },
+   "island": [
+    "🎢",
+    "🎡"
+   ]
+  },
+  {
+   "id": "c6",
+   "emoji": "🛍️",
+   "title": "Compras no outlet",
+   "titleEn": "Outlet shopping",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🛍️",
+      "bob"
+     ],
+     [
+      "👟",
+      "wave"
+     ],
+     [
+      "🏷️",
+      "sway"
+     ]
+    ]
+   },
+   "summary": "\"Just looking\", tamanhos, preços em duas partes e o imposto no caixa.",
+   "start": "start.0",
+   "endings": [
+    "outlet"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Nenhuma viagem a Orlando está completa sem o outlet! 🛍️ Lojas e mais lojas com desconto. Assim que vocês entram, uma vendedora aparece.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Hi! Can I help you find anything?",
+     "pt": "Oi! Posso ajudar a encontrar algo?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "choice",
+     "prompt": "Você só quer olhar. O que diz?",
+     "options": [
+      {
+       "text": "I'm just looking, thank you.",
+       "tone": "good",
+       "fb": "Perfeito! É a frase mágica para olhar em paz.",
+       "pt": "Só estou olhando, obrigado.",
+       "lang": "en",
+       "next": "start.3"
+      },
+      {
+       "text": "No.",
+       "tone": "ok",
+       "fb": "Funciona, mas soa seco. Acrescente \"thank you\" e um sorriso!",
+       "pt": "Não.",
+       "lang": "en",
+       "next": "start.3"
+      }
+     ]
+    },
+    "start.3": {
+     "type": "narration",
+     "pt": "Você acha um tênis lindo. Mas o número… nos EUA é diferente!",
+     "mood": "talk",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "tip",
+     "icon": "👟",
+     "title": "Tamanhos americanos",
+     "pt": "Nos EUA, o tênis 40 brasileiro é mais ou menos o 8 (feminino 9). Roupa vem em S, M, L e XL, e costuma ser maior que a nossa. Sempre experimente!",
+     "dos": [
+      "Experimentar antes de comprar",
+      "Perguntar \"What size is this?\""
+     ],
+     "donts": [],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can I ___ this on?",
+     "answer": "try",
+     "options": [
+      "try",
+      "put",
+      "test",
+      "wear"
+     ],
+     "pt": "Posso experimentar?",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Sure! The fitting room is over there.",
+     "pt": "Claro! O provador fica ali.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "These are on sale. Forty-nine ninety-nine.",
+     "pt": "Estes estão em promoção. Quarenta e nove e noventa e nove.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "explain",
+     "title": "Como se falam os preços",
+     "pt": "Os americanos leem o preço em duas partes: $49.99 é \"forty-nine ninety-nine\". E $10.50 é \"ten fifty\".",
+     "examples": [
+      {
+       "en": "It's twenty-nine ninety-nine.",
+       "pt": "Custa 29,99."
+      },
+      {
+       "en": "That's fifteen fifty.",
+       "pt": "Dá 15,50."
+      }
+     ],
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "No caixa, o total aparece: 53 dólares e 49 centavos. Mas a etiqueta dizia 49,99!",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Is that with tax?",
+       "tone": "good",
+       "fb": "Exatamente! É o imposto sobre vendas, somado só no caixa.",
+       "pt": "Isso é com imposto?",
+       "lang": "en",
+       "next": "pay.0"
+      },
+      {
+       "text": "You made a mistake!",
+       "tone": "bad",
+       "fb": "Calma, não foi erro… veja.",
+       "pt": "Vocês erraram!",
+       "lang": "en",
+       "next": "mistake.0"
+      }
+     ]
+    },
+    "mistake.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "No mistake, it's the sales tax. Seven percent here in Florida.",
+     "pt": "Não é erro, é o imposto sobre vendas. Sete por cento aqui na Flórida.",
+     "next": "mistake.1"
+    },
+    "mistake.1": {
+     "type": "narration",
+     "pt": "Ah! Nos EUA, o imposto não vem na etiqueta: ele aparece só no caixa. 😅",
+     "mood": "oops",
+     "next": "mistake.2"
+    },
+    "mistake.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I see. Sorry!",
+     "pt": "Ah, entendi. Desculpe!",
+     "next": "pay.0"
+    },
+    "pay.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Yes, it includes sales tax.",
+     "pt": "Sim, inclui o imposto sobre vendas.",
+     "next": "pay.1"
+    },
+    "pay.1": {
+     "type": "build",
+     "pt": "Qual é a política de devolução?",
+     "en": "What is the return policy?",
+     "extra": [
+      "back",
+      "rule"
+     ],
+     "next": "pay.2"
+    },
+    "pay.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "You can return it within thirty days with the receipt.",
+     "pt": "Pode devolver em até trinta dias com o recibo.",
+     "next": "pay.3"
+    },
+    "pay.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "How would you like to pay?",
+     "pt": "Como você quer pagar?",
+     "next": "pay.4"
+    },
+    "pay.4": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "I'll pay ___ credit card.",
+     "answer": "with",
+     "options": [
+      "with",
+      "in",
+      "by the",
+      "on"
+     ],
+     "pt": "Vou pagar com cartão de crédito.",
+     "next": "pay.5"
+    },
+    "pay.5": {
+     "type": "end",
+     "ending": "outlet",
+     "title": "Final: sacolas cheias",
+     "pt": "Tênis novo, preço entendido e imposto sem susto. Compras de mestre! 👟"
+    }
+   },
+   "island": [
+    "🛍️",
+    "👟"
+   ]
+  },
+  {
+   "id": "c7",
+   "emoji": "💊",
+   "title": "Farmácia e mercado",
+   "titleEn": "Pharmacy and supermarket",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "💊",
+      "pulse"
+     ],
+     [
+      "🛒",
+      "drive"
+     ],
+     [
+      "🥛",
+      "bob"
+     ]
+    ]
+   },
+   "summary": "Remédio sem receita, corredores, dose, galões de leite e o recibo.",
+   "start": "start.0",
+   "endings": [
+    "farmacia"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Depois de tanto sol, a cabeça dói e a criança está com o nariz escorrendo. Hora de ir a uma drugstore, a farmácia americana, que também vende de tudo: salgadinho, brinquedo, protetor solar…",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "💊",
+     "title": "Remédio sem receita",
+     "pt": "Nos EUA, remédios simples (dor de cabeça, alergia, resfriado) são \"over-the-counter\": você mesmo pega na prateleira. Os de receita ficam no balcão da \"pharmacy\", no fundo da loja.",
+     "dos": [
+      "Perguntar ao farmacêutico, é grátis",
+      "Ler a dose para crianças na caixa"
+     ],
+     "donts": [
+      "Dar remédio de adulto para criança"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, where can I find medicine for headaches?",
+     "pt": "Com licença, onde encontro remédio para dor de cabeça?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "It's in aisle five.",
+     "pt": "Fica no corredor cinco.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "Aisle",
+     "pt": "\"Aisle\" é o corredor da loja ou do avião. O \"s\" é mudo: fala-se \"ail\".",
+     "examples": [
+      {
+       "en": "Which aisle?",
+       "pt": "Qual corredor?"
+      },
+      {
+       "en": "Aisle seven, on the left.",
+       "pt": "Corredor sete, à esquerda."
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutico",
+     "en": "Take one pill every six hours.",
+     "pt": "Tome um comprimido a cada seis horas.",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "One pill ___ six hours. Got it.",
+     "answer": "every",
+     "options": [
+      "every",
+      "each of",
+      "all",
+      "in"
+     ],
+     "pt": "Um comprimido a cada seis horas. Entendi.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "build",
+     "pt": "Isto é seguro para crianças?",
+     "en": "Is this safe for children?",
+     "extra": [
+      "safety",
+      "kid"
+     ],
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutico",
+     "en": "Yes, this one is for kids. Check the dose by age.",
+     "pt": "Sim, este é infantil. Confira a dose pela idade.",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "Resolvido! Agora, uma passadinha no supermercado para o café da manhã do dia seguinte.",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "O que vocês procuram primeiro?",
+     "options": [
+      {
+       "text": "Leite",
+       "tone": "good",
+       "fb": "Clássico! Mas o leite americano é vendido de um jeito curioso…",
+       "pt": null,
+       "lang": "pt",
+       "next": "milk.0"
+      },
+      {
+       "text": "Pão de queijo",
+       "tone": "ok",
+       "fb": "Hahaha, saudade de casa! Vamos tentar…",
+       "pt": null,
+       "lang": "pt",
+       "next": "cheese.0"
+      }
+     ]
+    },
+    "milk.0": {
+     "type": "narration",
+     "pt": "O leite vem em galões enormes! 🥛 Um \"gallon\" tem quase 4 litros.",
+     "mood": "talk",
+     "next": "milk.1"
+    },
+    "milk.1": {
+     "type": "explain",
+     "title": "Gallon",
+     "pt": "1 gallon ≈ 3,8 litros. Também existe \"half gallon\" (≈ 1,9 L). \"Whole milk\" é o integral, \"skim milk\" é o desnatado.",
+     "examples": [
+      {
+       "en": "A half gallon of whole milk, please.",
+       "pt": "Meio galão de leite integral, por favor."
+      }
+     ],
+     "next": "pay.0"
+    },
+    "cheese.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, do you have Brazilian cheese bread?",
+     "pt": "Com licença, vocês têm pão de queijo brasileiro?",
+     "next": "cheese.1"
+    },
+    "cheese.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Hmm, check the frozen section, aisle twelve.",
+     "pt": "Hmm, veja na seção de congelados, corredor doze.",
+     "next": "cheese.2"
+    },
+    "cheese.2": {
+     "type": "narration",
+     "pt": "E não é que tinha?! Em Orlando, com tanto brasileiro, até pão de queijo aparece. 🧀",
+     "mood": "talk",
+     "next": "pay.0"
+    },
+    "pay.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Paper or plastic?",
+     "pt": "Sacola de papel ou de plástico?",
+     "next": "pay.1"
+    },
+    "pay.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Paper, please.",
+     "pt": "Papel, por favor.",
+     "next": "pay.2"
+    },
+    "pay.2": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Do you want the ___?",
+     "answer": "receipt",
+     "options": [
+      "receipt",
+      "recipe",
+      "receive",
+      "ticket"
+     ],
+     "pt": "Você quer o recibo?",
+     "next": "pay.3"
+    },
+    "pay.3": {
+     "type": "explain",
+     "title": "Receipt x recipe",
+     "pt": "Cuidado: \"receipt\" (risíd) é recibo; \"recipe\" é receita de bolo! E receita médica é \"prescription\".",
+     "examples": [
+      {
+       "en": "Can I have the receipt?",
+       "pt": "Pode me dar o recibo?"
+      }
+     ],
+     "next": "pay.4"
+    },
+    "pay.4": {
+     "type": "end",
+     "ending": "farmacia",
+     "title": "Final: remédio e compras",
+     "pt": "Dor de cabeça resolvida e café da manhã garantido. Você já se vira em qualquer loja! 🛒"
+    }
+   },
+   "island": [
+    "💊",
+    "🛒"
+   ]
+  },
+  {
+   "id": "c8",
+   "emoji": "⛈️",
+   "title": "Tempestade e emergência",
+   "titleEn": "Storm and emergency",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "⛈️",
+      "bob"
+     ],
+     [
+      "⚡",
+      "pulse"
+     ],
+     [
+      "🚨",
+      "spin"
+     ]
+    ]
+   },
+   "summary": "Raios na piscina, 911, urgent care e o seguro viagem.",
+   "start": "start.0",
+   "endings": [
+    "emergencia"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "A Flórida é famosa pelas tempestades de verão: céu azul de manhã e, às quatro da tarde, trovões! ⛈️ Vocês estão na piscina do hotel quando o salva-vidas apita.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Salva-vidas",
+     "en": "Everybody out of the pool! There's lightning in the area.",
+     "pt": "Todos para fora da piscina! Há raios na região.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "tip",
+     "icon": "⚡",
+     "title": "Raios na Flórida",
+     "pt": "A Flórida é a capital dos raios nos EUA. Quando ouvir trovão, saia da água e procure um lugar coberto. E guarde: o número de emergência nos EUA é 911, para polícia, bombeiros e ambulância.",
+     "dos": [
+      "Sair da piscina ao primeiro trovão",
+      "Emergência: ligar 911"
+     ],
+     "donts": [
+      "Ficar debaixo de árvores"
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Sair da piscina na hora com as crianças",
+       "tone": "good",
+       "fb": "Isso! Segurança em primeiro lugar.",
+       "pt": null,
+       "lang": "pt",
+       "next": "slip.0"
+      },
+      {
+       "text": "Só mais um mergulho…",
+       "tone": "bad",
+       "fb": "Nada disso! O salva-vidas não brinca.",
+       "pt": null,
+       "lang": "pt",
+       "next": "pool.0"
+      }
+     ]
+    },
+    "pool.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Salva-vidas",
+     "en": "Hey! Get out of the water now, please!",
+     "pt": "Saia da água agora, por favor!",
+     "next": "pool.1"
+    },
+    "pool.1": {
+     "type": "narration",
+     "pt": "Todo mundo olhando… 😳 Melhor obedecer.",
+     "mood": "oops",
+     "next": "pool.2"
+    },
+    "pool.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry! We're coming out.",
+     "pt": "Desculpe! Já estamos saindo.",
+     "next": "slip.0"
+    },
+    "slip.0": {
+     "type": "narration",
+     "pt": "Correndo para se proteger, {spousePt} escorrega no chão molhado e torce o tornozelo! 😣",
+     "mood": "oops",
+     "next": "slip.1"
+    },
+    "slip.1": {
+     "type": "choice",
+     "prompt": "O tornozelo inchou. O que vocês fazem?",
+     "options": [
+      {
+       "text": "Ir a uma urgent care",
+       "tone": "good",
+       "fb": "Ótima escolha! Urgent care é uma clínica para casos que não são graves: mais rápida e mais barata que o hospital.",
+       "pt": null,
+       "lang": "pt",
+       "next": "urgent.0"
+      },
+      {
+       "text": "Ligar para o 911",
+       "tone": "ok",
+       "fb": "O 911 é para emergências graves… mas vamos ver como é.",
+       "pt": null,
+       "lang": "pt",
+       "next": "call.0"
+      }
+     ]
+    },
+    "call.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente 911",
+     "en": "911, what's your emergency?",
+     "pt": "911, qual é a sua emergência?",
+     "next": "call.1"
+    },
+    "call.1": {
+     "type": "explain",
+     "title": "O que dizer no 911",
+     "pt": "Fale três coisas: o que aconteceu, onde você está e se a pessoa está consciente. Fale devagar e responda às perguntas.",
+     "examples": [
+      {
+       "en": "We are at the Palm Hotel, room 112.",
+       "pt": "Estamos no Palm Hotel, quarto 112."
+      },
+      {
+       "en": "She is awake and breathing.",
+       "pt": "Ela está acordada e respirando."
+      }
+     ],
+     "next": "call.2"
+    },
+    "call.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "My {spouse} hurt ___ ankle.",
+     "answer": "{herPt}",
+     "options": [
+      "{herPt}",
+      "your",
+      "our",
+      "its"
+     ],
+     "pt": "{spousePtCap} machucou o tornozelo.",
+     "next": "call.3"
+    },
+    "call.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente 911",
+     "en": "Is it serious? Can {sheLow} walk?",
+     "pt": "É grave? Consegue andar?",
+     "next": "call.4"
+    },
+    "call.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, a little. It's not very serious.",
+     "pt": "Sim, um pouco. Não é muito grave.",
+     "next": "call.5"
+    },
+    "call.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente 911",
+     "en": "Then I recommend an urgent care. There's one two miles from your hotel.",
+     "pt": "Então recomendo uma urgent care. Há uma a duas milhas do seu hotel.",
+     "next": "urgent.0"
+    },
+    "urgent.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Hi, what brings you in today?",
+     "pt": "Oi, o que traz vocês aqui hoje?",
+     "next": "urgent.1"
+    },
+    "urgent.1": {
+     "type": "build",
+     "pt": "{ElaPt} escorregou e torceu o tornozelo.",
+     "en": "{She} slipped and twisted {herPt} ankle.",
+     "extra": [
+      "fell",
+      "foot"
+     ],
+     "next": "urgent.2"
+    },
+    "urgent.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Do you have health insurance?",
+     "pt": "Vocês têm seguro-saúde?",
+     "next": "urgent.3"
+    },
+    "urgent.3": {
+     "type": "choice",
+     "prompt": "E o seguro viagem?",
+     "options": [
+      {
+       "text": "Yes, we have travel insurance. Here is the card.",
+       "tone": "good",
+       "fb": "Perfeito! Seguro viagem é indispensável nos EUA: a saúde lá é caríssima.",
+       "pt": "Sim, temos seguro viagem. Aqui está o cartão.",
+       "lang": "en",
+       "next": "doctor.0"
+      },
+      {
+       "text": "No, we don't have insurance.",
+       "tone": "bad",
+       "fb": "Ai, ai… veja o preço.",
+       "pt": "Não, não temos seguro.",
+       "lang": "en",
+       "next": "noins.0"
+      }
+     ]
+    },
+    "noins.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "OK. The visit is two hundred and fifty dollars, plus the X-ray.",
+     "pt": "OK. A consulta é duzentos e cinquenta dólares, mais o raio-X.",
+     "next": "noins.1"
+    },
+    "noins.1": {
+     "type": "tip",
+     "icon": "🏥",
+     "title": "Saúde nos EUA é cara",
+     "pt": "Nos EUA não existe SUS: uma ida ao hospital pode custar milhares de dólares. Nunca viaje para lá sem seguro viagem.",
+     "dos": [
+      "Contratar seguro viagem antes de ir"
+     ],
+     "donts": [],
+     "next": "noins.2"
+    },
+    "noins.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK… We will pay.",
+     "pt": "OK… Vamos pagar.",
+     "next": "doctor.0"
+    },
+    "doctor.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Médico",
+     "en": "Good news: it's not broken. Just rest and ice for two days.",
+     "pt": "Boa notícia: não quebrou. Só repouso e gelo por dois dias.",
+     "next": "doctor.1"
+    },
+    "doctor.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you, doctor!",
+     "pt": "Obrigado, doutor!",
+     "next": "doctor.2"
+    },
+    "doctor.2": {
+     "type": "end",
+     "ending": "emergencia",
+     "title": "Final: só um susto",
+     "pt": "Tempestade, escorregão e consulta, tudo resolvido em inglês. Você é um viajante preparado! 🩹"
+    }
+   },
+   "island": [
+    "⛈️",
+    "🚨"
+   ]
+  },
+  {
+   "id": "c9",
+   "emoji": "⛽",
+   "title": "Posto de gasolina",
+   "titleEn": "Gas station",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "⛽",
+      "pulse"
+     ],
+     [
+      "🚗",
+      "drive"
+     ],
+     [
+      "🌵",
+      "sway"
+     ]
+    ]
+   },
+   "summary": "ZIP code, pagar no caixa, forty x fourteen, troco e restroom.",
+   "start": "start.0",
+   "endings": [
+    "posto"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Dia de devolver o carro… com o tanque cheio, lembra? Nos EUA, quase todo posto é self-service: você mesmo abastece. ⛽",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "Você passa o cartão na bomba e ela pede: \"Enter ZIP code\". Hmm…",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "explain",
+     "title": "ZIP code",
+     "pt": "O ZIP code é o CEP americano. Cartões estrangeiros não têm ZIP, então a bomba costuma recusar. A saída é pagar lá dentro, no caixa.",
+     "examples": [
+      {
+       "en": "My card needs a ZIP code.",
+       "pt": "Meu cartão pede um CEP."
+      }
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Entrar e pagar no caixa",
+       "tone": "good",
+       "fb": "Isso! É o que os estrangeiros fazem.",
+       "pt": null,
+       "lang": "pt",
+       "next": "inside.0"
+      },
+      {
+       "text": "Digitar 00000 e ver no que dá",
+       "tone": "bad",
+       "fb": "Hmm… vamos ver.",
+       "pt": null,
+       "lang": "pt",
+       "next": "zeros.0"
+      }
+     ]
+    },
+    "zeros.0": {
+     "type": "narration",
+     "pt": "\"Card declined.\" Cartão recusado. 😅 Não tem jeito: é lá para dentro.",
+     "mood": "oops",
+     "next": "inside.0"
+    },
+    "inside.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Hi, how can I help you?",
+     "pt": "Oi, como posso ajudar?",
+     "next": "inside.1"
+    },
+    "inside.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Pump number four, ___ dollars, please.",
+     "answer": "forty",
+     "options": [
+      "forty",
+      "fourteen",
+      "four",
+      "fourty"
+     ],
+     "pt": "Bomba número quatro, quarenta dólares, por favor.",
+     "next": "inside.2"
+    },
+    "inside.2": {
+     "type": "explain",
+     "title": "Forty ou fourteen?",
+     "pt": "Cuidado com a pronúncia: forty (40) tem a força no começo, FÓR-ti. Fourteen (14) tem a força no fim, for-TÍIN. E \"forty\" não tem \"u\"!",
+     "examples": [
+      {
+       "en": "Forty dollars.",
+       "pt": "Quarenta dólares."
+      },
+      {
+       "en": "Fourteen dollars.",
+       "pt": "Catorze dólares."
+      }
+     ],
+     "next": "inside.3"
+    },
+    "inside.3": {
+     "type": "explain",
+     "title": "Gallons e regular",
+     "pt": "A gasolina é vendida em galões (≈ 3,8 L). A comum é \"regular\"; a aditivada é \"premium\". Carro alugado usa regular.",
+     "examples": [
+      {
+       "en": "Regular, please.",
+       "pt": "Comum, por favor."
+      }
+     ],
+     "next": "inside.4"
+    },
+    "inside.4": {
+     "type": "narration",
+     "pt": "Você abastece, mas o tanque encheu com só 32 dólares. Sobrou crédito! Volte ao caixa.",
+     "mood": "talk",
+     "next": "inside.5"
+    },
+    "inside.5": {
+     "type": "choice",
+     "prompt": "O que você diz?",
+     "options": [
+      {
+       "text": "Hi, I paid forty but it was only thirty-two. Can I get my change?",
+       "tone": "good",
+       "fb": "Perfeito! \"Change\" é o troco.",
+       "pt": "Oi, paguei quarenta mas deu só trinta e dois. Pode me dar o troco?",
+       "lang": "en",
+       "next": "inside.6"
+      },
+      {
+       "text": "Deixar pra lá",
+       "tone": "ok",
+       "fb": "Oito dólares são oito dólares! Da próxima vez, peça o troco: é normal.",
+       "pt": null,
+       "lang": "pt",
+       "next": "inside.6"
+      }
+     ]
+    },
+    "inside.6": {
+     "type": "narration",
+     "pt": "Antes de pegar a estrada, as crianças precisam ir ao banheiro. 🚻",
+     "mood": "talk",
+     "next": "inside.7"
+    },
+    "inside.7": {
+     "type": "build",
+     "pt": "Onde fica o banheiro?",
+     "en": "Where is the restroom?",
+     "extra": [
+      "bathroom",
+      "toilet"
+     ],
+     "next": "inside.8"
+    },
+    "inside.8": {
+     "type": "explain",
+     "title": "Restroom",
+     "pt": "Em lugares públicos, os americanos dizem \"restroom\". Em casa é \"bathroom\". \"Toilet\" é o vaso sanitário e soa estranho para pedir banheiro.",
+     "examples": [
+      {
+       "en": "Where is the restroom, please?",
+       "pt": "Onde fica o banheiro, por favor?"
+      }
+     ],
+     "next": "inside.9"
+    },
+    "inside.9": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "It's in the back, on the right.",
+     "pt": "Fica nos fundos, à direita.",
+     "next": "inside.10"
+    },
+    "inside.10": {
+     "type": "end",
+     "ending": "posto",
+     "title": "Final: tanque cheio",
+     "pt": "Tanque cheio, troco no bolso e banheiro encontrado. Pronto para devolver o carro! ⛽"
+    }
+   },
+   "island": [
+    "⛽",
+    "🚗"
+   ]
+  },
+  {
+   "id": "c10",
+   "emoji": "🛫",
+   "title": "Devolução do carro e voo",
+   "titleEn": "Car return and flight",
+   "scene": {
+    "sky": "sea",
+    "items": [
+     [
+      "🛫",
+      "fly"
+     ],
+     [
+      "🧳",
+      "bob"
+     ],
+     [
+      "🇧🇷",
+      "wave"
+     ]
+    ]
+   },
+   "summary": "Arranhão no carro, malas em libras, TSA e a despedida.",
+   "start": "start.0",
+   "endings": [
+    "volta"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Último dia. 🥲 Vocês devolvem o carro na locadora do aeroporto. Um funcionário dá a volta no carro com um tablet… e para numa porta.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "There's a scratch on this door.",
+     "pt": "Há um arranhão nesta porta.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "choice",
+     "prompt": "O arranhão já estava lá quando vocês pegaram. O que você faz?",
+     "options": [
+      {
+       "text": "It was already there. I have a photo from the first day.",
+       "tone": "good",
+       "fb": "Genial! Fotografar o carro na retirada é a dica de ouro.",
+       "pt": "Já estava aí. Tenho uma foto do primeiro dia.",
+       "lang": "en",
+       "next": "start.3"
+      },
+      {
+       "text": "It wasn't me!",
+       "tone": "ok",
+       "fb": "Pode até ser verdade… mas sem prova fica difícil. Sempre fotografe o carro na retirada!",
+       "pt": "Não fui eu!",
+       "lang": "en",
+       "next": "start.3"
+      }
+     ]
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "OK, no problem. You're all set!",
+     "pt": "OK, sem problema. Está tudo certo!",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "You're all set",
+     "pt": "\"You're all set\" quer dizer \"está tudo pronto, pode ir\". Você vai ouvir em hotel, loja, locadora, aeroporto…",
+     "examples": [
+      {
+       "en": "You're all set. Have a good one!",
+       "pt": "Tudo certo. Tenha um bom dia!"
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "narration",
+     "pt": "No balcão da companhia aérea, hora de despachar as malas.",
+     "mood": "talk",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Can I see your passports, please?",
+     "pt": "Posso ver os passaportes, por favor?",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Here are our ___.",
+     "answer": "passports",
+     "options": [
+      "passports",
+      "passport",
+      "passes",
+      "papers"
+     ],
+     "pt": "Aqui estão nossos passaportes.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "This bag is fifty-five pounds. The limit is fifty.",
+     "pt": "Esta mala tem cinquenta e cinco libras. O limite é cinquenta.",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "explain",
+     "title": "Pounds",
+     "pt": "Nos EUA, peso é em libras (pounds, lbs). 50 pounds ≈ 23 kg, o limite comum da mala despachada.",
+     "examples": [
+      {
+       "en": "It's fifty pounds.",
+       "pt": "Tem cinquenta libras (≈ 23 kg)."
+      }
+     ],
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "A mala está pesada. O que fazer?",
+     "options": [
+      {
+       "text": "Can I move some things to my carry-on?",
+       "tone": "good",
+       "fb": "Esperto! Tirar umas coisas para a bagagem de mão resolve sem pagar nada.",
+       "pt": "Posso passar algumas coisas para a bagagem de mão?",
+       "lang": "en",
+       "next": "start.11"
+      },
+      {
+       "text": "How much is the fee?",
+       "tone": "ok",
+       "fb": "Dá para pagar, mas costuma ser caro: uns cem dólares.",
+       "pt": "Quanto é a taxa?",
+       "lang": "en",
+       "next": "start.11"
+      }
+     ]
+    },
+    "start.11": {
+     "type": "tip",
+     "icon": "🛃",
+     "title": "Segurança (TSA)",
+     "pt": "Na segurança do aeroporto americano (TSA), você tira sapatos, casaco e cinto, e coloca notebook e líquidos em bandejas separadas. Líquidos só em frascos de até 100 ml (3.4 oz).",
+     "dos": [
+      "Esvaziar a garrafa de água antes",
+      "Notebook fora da mochila"
+     ],
+     "donts": [
+      "Levar garrafa cheia",
+      "Fazer piada com bomba"
+     ],
+     "next": "start.12"
+    },
+    "start.12": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Agente TSA",
+     "en": "Laptops out of the bag, please. Any liquids?",
+     "pt": "Notebooks fora da mochila, por favor. Algum líquido?",
+     "next": "start.13"
+    },
+    "start.13": {
+     "type": "choice",
+     "prompt": "Você tem uma garrafa de água cheia na mochila.",
+     "options": [
+      {
+       "text": "Just this water bottle. I'll throw it away.",
+       "tone": "good",
+       "fb": "Isso! Depois é só encher de novo na área de embarque.",
+       "pt": "Só esta garrafa de água. Vou jogar fora.",
+       "lang": "en",
+       "next": "bye.0"
+      },
+      {
+       "text": "No liquids.",
+       "tone": "bad",
+       "fb": "Esqueceu da garrafa? O raio-X não esquece…",
+       "pt": "Nenhum líquido.",
+       "lang": "en",
+       "next": "bottle.0"
+      }
+     ]
+    },
+    "bottle.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Agente TSA",
+     "en": "Is this your bag? There's a water bottle inside.",
+     "pt": "Esta mochila é sua? Tem uma garrafa de água dentro.",
+     "next": "bottle.1"
+    },
+    "bottle.1": {
+     "type": "narration",
+     "pt": "A mochila foi para a revista manual. 🙈 Mais dez minutos de fila.",
+     "mood": "oops",
+     "next": "bottle.2"
+    },
+    "bottle.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! I forgot. You can throw it away.",
+     "pt": "Ah, desculpe! Esqueci. Pode jogar fora.",
+     "next": "bye.0"
+    },
+    "bye.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Agente TSA",
+     "en": "You're good to go. Have a nice flight!",
+     "pt": "Pode seguir. Bom voo!",
+     "next": "bye.1"
+    },
+    "bye.1": {
+     "type": "build",
+     "pt": "Tenha um ótimo dia!",
+     "en": "Have a great day!",
+     "extra": [
+      "night",
+      "good"
+     ],
+     "next": "bye.2"
+    },
+    "bye.2": {
+     "type": "narration",
+     "pt": "No avião, Orlando vai ficando pequenininha lá embaixo. Imigração, drive-thru, restaurante, parque, outlet, farmácia, tempestade… vocês viveram tudo isso em inglês! 🥹",
+     "mood": "talk",
+     "next": "bye.3"
+    },
+    "bye.3": {
+     "type": "explain",
+     "title": "Despedidas americanas",
+     "pt": "Os americanos se despedem com carinho: \"Take care!\" (se cuida!), \"See you!\" e \"Have a good one!\".",
+     "examples": [
+      {
+       "en": "Take care!",
+       "pt": "Se cuida!"
+      },
+      {
+       "en": "Bye, Orlando!",
+       "pt": "Tchau, Orlando!"
+      }
+     ],
+     "next": "bye.4"
+    },
+    "bye.4": {
+     "type": "end",
+     "ending": "volta",
+     "title": "Final: de volta para casa",
+     "pt": "Parabéns! Vocês completaram a Aventura em Orlando. 🇺🇸✈️🇧🇷 Repita os capítulos para descobrir os outros caminhos!"
+    }
+   },
+   "island": [
+    "🛫",
+    "🇧🇷"
+   ]
+  }
+ ],
+ "theme": "sunset",
+ "route": "🛫 São Paulo → Orlando",
+ "boss": {
+  "name": "O Agente Durão",
+  "emoji": "🕵️",
+  "intro": "O Agente Durão da imigração quer testar tudo o que você aprendeu nos EUA. Responda rápido e sem piadas!"
+ }
+}

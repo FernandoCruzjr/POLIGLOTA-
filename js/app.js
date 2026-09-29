@@ -14,20 +14,24 @@ import * as play from './views/play.js';
 import * as ranking from './views/ranking.js';
 import * as room from './views/room.js';
 import * as trip from './views/trip.js';
+import * as shop from './views/shop.js';
 
 const $ = (sel) => document.querySelector(sel);
 
 const ROUTES = [
   { re: /^#?\/?(inicio)?$/, nav: 'inicio', title: 'Início', view: home },
-  { re: /^#\/aprender$/, nav: 'aprender', title: 'Aprender', view: learn },
+  { re: /^#\/aprender$/, nav: 'aprender', title: 'Aprender', view: learn, noRefresh: true, params: () => ({}) },
+  { re: /^#\/aprender\/chefao\/([\w-]+)(?:\?\d*)?$/, nav: 'aprender', title: 'Chefão', view: learn, focusless: true, params: (m) => ({ boss: m[1] }) },
   { re: /^#\/licao\/([\w-]+)$/, nav: 'aprender', title: 'Lição', view: lesson, params: (m) => ({ id: m[1] }) },
   { re: /^#\/vocabulario$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: () => ({ mode: 'index' }) },
   { re: /^#\/vocabulario\/([\w-]+)$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: (m) => ({ mode: 'category', cat: m[1] }) },
   { re: /^#\/vocabulario\/([\w-]+)\/estudar(?:\?\d*)?$/, nav: 'vocabulario', title: 'Estudar palavras', view: vocabView, focusless: true, params: (m) => ({ mode: 'study', cat: m[1] }) },
   { re: /^#\/revisao(?:\?\d*)?$/, nav: 'revisao', title: 'Revisão', view: quiz, focusless: true, params: () => ({ mode: 'review' }) },
   { re: /^#\/quiz\/([\w-]+)(?:\?\d*)?$/, nav: 'jogar', title: 'Quiz', view: quiz, focusless: true, params: (m) => ({ mode: 'category', cat: m[1] }) },
-  { re: /^#\/viagem$/, nav: 'viagem', title: 'Mapa da viagem', view: trip, noRefresh: true, params: () => ({}) },
-  { re: /^#\/passaporte$/, nav: 'viagem', title: 'Passaporte', view: trip, params: () => ({ passport: true }) },
+  { re: /^#\/viagem$/, nav: 'viagem', title: 'Destinos', view: trip, noRefresh: true, params: () => ({}) },
+  { re: /^#\/viagem\/([\w-]+)$/, nav: 'viagem', title: 'Mapa da viagem', view: trip, noRefresh: true, params: (m) => ({ trip: m[1] }) },
+  { re: /^#\/passaporte(?:\?([\w-]*))?$/, nav: 'viagem', title: 'Passaporte', view: trip, params: (m) => ({ passport: m[1] || true }) },
+  { re: /^#\/loja$/, nav: 'perfil', title: 'Lojinha do Kiko', view: shop },
   { re: /^#\/viagem\/([\w-]+)\/([\w-]+)(?:\?\d*)?$/, nav: 'viagem', title: 'Viagem', view: trip, focusless: true, params: (m) => ({ trip: m[1], chapter: m[2] }) },
   { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },
   { re: /^#\/ranking$/, nav: 'ranking', title: 'Ranking', view: ranking, noRefresh: true },

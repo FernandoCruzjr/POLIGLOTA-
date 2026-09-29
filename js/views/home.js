@@ -2,6 +2,8 @@ import * as store from '../store.js';
 import * as content from '../content.js';
 import * as vocab from '../vocab.js';
 import { currentTripSummary } from './trip.js';
+import { kikoHtml } from '../kiko.js';
+import { coinChip } from '../game.js';
 import { icon } from '../icons.js';
 import { esc, formatNumber, progressBar, ring, relativeTime, plural } from '../ui.js';
 
@@ -42,11 +44,12 @@ export function render(root) {
 
   root.innerHTML = `
     <header class="home-head">
-      <a class="home-avatar-link" href="#/perfil" aria-label="Abrir perfil"><img class="home-avatar" src="img/mascot-avatar.png" alt="" width="64" height="64"></a>
+      <a class="home-avatar-link" href="#/loja" aria-label="Lojinha do Kiko">${kikoHtml(64, { cls: 'home-avatar' })}</a>
       <div>
         <h1>Olá, ${esc(p.name || 'aluno')}!</h1>
         <p><span lang="en">${englishGreeting()}!</span> Hoje é um ótimo dia para aprender.</p>
       </div>
+      ${coinChip(false)}
     </header>
 
     <section class="card hero" aria-labelledby="hero-title">
@@ -147,9 +150,9 @@ export function render(root) {
   currentTripSummary().then((t) => {
     const slot = root.querySelector('[data-trip-slot]');
     if (!t || !slot) return;
-    const nextLabel = t.next ? `Capítulo ${t.next.number}: ${esc(t.next.title)}` : 'Viagem concluída! 🎉';
+    const nextLabel = t.next ? `Capítulo ${t.next.number}: ${esc(t.next.title)}` : t.boss ? 'Viagem concluída! 🏆' : 'Chefão te esperando! ⚔️';
     slot.outerHTML = `
-      <a class="card trip-hero" href="${t.next ? `#/viagem/${t.trip.id}/${t.next.id}` : '#/viagem'}">
+      <a class="card trip-hero" href="${t.next ? `#/viagem/${t.trip.id}/${t.next.id}` : `#/viagem/${t.trip.id}`}">
         <span class="trip-flag" aria-hidden="true">${t.trip.emoji}</span>
         <span class="trip-hero-text">
           <span class="eyebrow">Modo viagem ✈️</span>
