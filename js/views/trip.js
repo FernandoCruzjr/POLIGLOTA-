@@ -253,11 +253,11 @@ async function renderIndex(root) {
       </div>
     </header>
 
-    <div class="map-world" style="aspect-ratio:${MAP_W}/${h}">
+    <div class="map-world" style="aspect-ratio:${MAP_W}/${h};background:#1B4FA8">
       <svg class="map-path" viewBox="0 0 ${MAP_W} ${h}" preserveAspectRatio="none" aria-hidden="true">
-        <path d="${pathD([...pts, chest])}" class="trail-shadow"/>
-        <path d="${pathD([...pts, chest])}" class="trail"/>
-        ${curIdx > 0 ? `<path d="${pathD([...pts, chest].slice(0, curIdx + 1))}" class="trail done"/>` : ''}
+        <path d="${pathD([...pts, chest])}" class="trail-shadow" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 24"/>
+        <path d="${pathD([...pts, chest])}" class="trail" fill="none" stroke="#C9D8EE" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24"/>
+        ${curIdx > 0 ? `<path d="${pathD([...pts, chest].slice(0, curIdx + 1))}" class="trail done" fill="none" stroke="#FFE08A" stroke-width="14" stroke-linecap="round" stroke-dasharray="1 24"/>` : ''}
       </svg>
 
       <span class="deco gem" style="left:8%;top:${pct(260, h)}">💎</span>
