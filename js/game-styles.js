@@ -44,6 +44,11 @@ export default `
 .home-head > div { min-width: 0; }
 .view.map-view.theme-sunset { background: linear-gradient(180deg, #FF9A5A 0%, #E0527A 30%, #8A2F6B 60%, #3B1E6B 100%); }
 .view.map-view.theme-sunset .map-header { background: linear-gradient(180deg, rgba(70, 20, 70, .95), rgba(70, 20, 70, .8)); }
+.view.map-view.theme-sakura { background: linear-gradient(180deg, #FFB7D0 0%, #E86A9E 30%, #B8487E 60%, #5B2350 100%); }
+.view.map-view.theme-sakura .map-header { background: linear-gradient(180deg, rgba(91, 20, 60, .95), rgba(91, 20, 60, .8)); }
+.map-world.theme-sakura { background: linear-gradient(180deg, #E86A9E, #B8487E 45%, #5B2350) !important; }
+.dest.sakura { background: linear-gradient(135deg, #FFB7D0, #E86A9E 45%, #7A2A5E); }
+.boss-arena.sakura { background: radial-gradient(circle at 50% 20%, #E86A9E, #3B1230 75%); }
 .view.map-view.theme-sky { background: linear-gradient(180deg, #4FA6E0 0%, #7EC8F5 35%, #BFE6FF 75%, #FFF3D6 100%); }
 .view.map-view.theme-sky .map-header { background: linear-gradient(180deg, rgba(11, 61, 46, .96), rgba(15, 122, 74, .88)); }
 .map-world.theme-sunset { background: linear-gradient(180deg, #E0527A, #8A2F6B 45%, #3B1E6B) !important; }

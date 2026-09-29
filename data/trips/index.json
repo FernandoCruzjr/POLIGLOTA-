@@ -27,6 +27,20 @@
     "intro": "O Agente Durão da imigração quer testar tudo o que você aprendeu nos EUA. Responda rápido e sem piadas!"
    },
    "route": "🛫 São Paulo → Orlando"
+  },
+  {
+   "id": "japan",
+   "title": "Aventura no Japão",
+   "emoji": "🇯🇵",
+   "chapters": 16,
+   "intro": "20 dias de Tóquio a Hiroshima: konbini, lámen, metrô, izakaya, onsen, trem-bala, templos de Kyoto, cervos de Nara e comida de rua em Osaka.",
+   "theme": "sakura",
+   "boss": {
+    "name": "O Ninja do Trem-Bala",
+    "emoji": "🥷",
+    "intro": "Shhh… O Ninja do Trem-Bala é rápido como o shinkansen! Mostre tudo o que você aprendeu no Japão antes que o trem parta!"
+   },
+   "route": "🛫 São Paulo → Tóquio"
   }
  ]
 }

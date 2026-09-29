@@ -1,0 +1,4569 @@
+{
+ "id": "japan",
+ "title": "Aventura no Japão",
+ "titleEn": "Japan Adventure",
+ "emoji": "🇯🇵",
+ "intro": "20 dias de Tóquio a Hiroshima: konbini, lámen, metrô, izakaya, onsen, trem-bala, templos de Kyoto, cervos de Nara e comida de rua em Osaka.",
+ "chapters": [
+  {
+   "id": "c1",
+   "emoji": "🛬",
+   "title": "Chegada em Tóquio",
+   "titleEn": "Arrival in Tokyo",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "✈️",
+      "fly"
+     ],
+     [
+      "🗻",
+      "float"
+     ],
+     [
+      "🚆",
+      "drive"
+     ]
+    ]
+   },
+   "summary": "Boas-vindas do Kiko, imigração com digitais, QR code da alfândega, cartão de transporte e o primeiro trem.",
+   "start": "start.0",
+   "endings": [
+    "chegou",
+    "volta"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "\"Konnichiwa\", {name}! 🎌 Boas-vindas ao Japão! Eu sou o Professor Kiko 🎓🦜, o seu guia e professor de inglês de bolso nesta aventura. Vocês acabaram de pousar em Tóquio depois de um voo looongo. Respira fundo: vai ser inesquecível!",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "O plano é de uns 20 dias: começamos em Tóquio, subimos a serra até Hakone para ver o Monte Fuji, pegamos o trem-bala (shinkansen) para Kyoto, visitamos os cervos de Nara, comemos até rolar em Osaka, fazemos uma visita especial a Hiroshima e voltamos para Tóquio para as lembrancinhas. Ufa! 🗾",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "explain",
+     "title": "Inglês no Japão",
+     "pt": "\"Konnichiwa\" quer dizer \"olá\" em japonês. Mas fica tranquilo: em aeroportos, estações e hotéis, os funcionários falam um inglês simples. Você fala inglês, e eu te ensino umas palavrinhas japonesas de gentileza pelo caminho. A primeira: \"Arigatou gozaimasu\", que é \"muito obrigado\".",
+     "examples": [
+      {
+       "en": "Hello! Do you speak English?",
+       "pt": "Olá! Você fala inglês?"
+      },
+      {
+       "en": "Thank you very much.",
+       "pt": "Muito obrigado."
+      }
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "tip",
+     "icon": "🛂",
+     "title": "A imigração japonesa",
+     "pt": "No Japão, os visitantes estrangeiros deixam as impressões digitais dos dois indicadores numa maquininha e tiram uma foto no balcão. É rápido e todo mundo faz. Antes da viagem, dá para preencher o formulário online de chegada, que gera um QR code para a imigração e a alfândega.",
+     "dos": [
+      "Ter o passaporte e o endereço do hotel à mão",
+      "Tirar o boné e os óculos para a foto",
+      "Deixar o QR code aberto no celular"
+     ],
+     "donts": [
+      "Falar ao celular no balcão",
+      "Deixar o formulário para a última hora"
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Hello. Passport, please. What is the purpose of your visit?",
+     "pt": "Olá. Passaporte, por favor. Qual é o motivo da sua visita?",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Como você responde?",
+     "options": [
+      {
+       "text": "Sightseeing. We are here on vacation.",
+       "tone": "good",
+       "fb": "Perfeito! Curto e claro. \"Sightseeing\" é passear e conhecer os lugares.",
+       "pt": "Turismo. Estamos aqui de férias.",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "Sushi! A lot of sushi!",
+       "tone": "ok",
+       "fb": "Hahaha, o oficial quase sorriu! Mas a resposta esperada é \"Sightseeing\" ou \"Vacation\".",
+       "pt": "Sushi! Muito sushi!",
+       "lang": "en",
+       "next": "start.6"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Please put your index fingers here.",
+     "pt": "Por favor, coloque os dedos indicadores aqui.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Now please look at the ___.",
+     "answer": "camera",
+     "options": [
+      "camera",
+      "window",
+      "floor",
+      "ticket"
+     ],
+     "pt": "Agora, por favor, olhe para a câmera.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Oficial",
+     "en": "Thank you. Welcome to Japan.",
+     "pt": "Obrigado. Bem-vindos ao Japão.",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "Malas na mão, agora é a alfândega. Tem umas máquinas onde você escaneia o QR code do formulário online de chegada.",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "Você preencheu o formulário antes da viagem?",
+     "options": [
+      {
+       "text": "Sim! Mostrar o QR code no celular",
+       "tone": "good",
+       "fb": "Organizado! Isso economiza um tempão.",
+       "pt": null,
+       "lang": "pt",
+       "next": "qr.0"
+      },
+      {
+       "text": "Hmm… que QR code?",
+       "tone": "ok",
+       "fb": "Ops! Sem problema, tem outro jeito. Veja:",
+       "pt": null,
+       "lang": "pt",
+       "next": "paper.0"
+      }
+     ]
+    },
+    "qr.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Fiscal",
+     "en": "Enjoy your stay in Japan!",
+     "pt": "Aproveitem a estadia no Japão!",
+     "next": "card.0"
+    },
+    "paper.0": {
+     "type": "narration",
+     "pt": "Vocês vão para a fila do balcão, a de quem não tem o QR code. {spousePtCap} te olha com aquela cara de \"eu te avisei\". 😅",
+     "mood": "oops",
+     "next": "paper.1"
+    },
+    "paper.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Fiscal",
+     "en": "No problem. Please fill out this form.",
+     "pt": "Sem problema. Por favor, preencha este formulário.",
+     "next": "paper.2"
+    },
+    "paper.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry, can I borrow a pen, please?",
+     "pt": "Desculpe, posso pegar uma caneta emprestada, por favor?",
+     "next": "card.0"
+    },
+    "card.0": {
+     "type": "narration",
+     "pt": "Chegamos ao saguão! Antes de ir para a cidade, vamos comprar um cartão de transporte recarregável: você encosta no leitor da catraca e pronto, serve para trem, metrô e ônibus em muitas cidades.",
+     "mood": "talk",
+     "next": "card.1"
+    },
+    "card.1": {
+     "type": "build",
+     "pt": "Eu gostaria de comprar um cartão de transporte, por favor.",
+     "en": "I would like to buy a transit card, please.",
+     "extra": [
+      "sell",
+      "bus"
+     ],
+     "next": "card.2"
+    },
+    "card.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Sure. How much money would you like to put on it?",
+     "pt": "Claro. Quanto dinheiro você quer colocar nele?",
+     "next": "card.3"
+    },
+    "card.3": {
+     "type": "explain",
+     "title": "Put money on / top up",
+     "pt": "Para carregar o cartão, diga \"put money on the card\" ou \"top up the card\". Depois dá para recarregar nas máquinas das estações.",
+     "examples": [
+      {
+       "en": "Can I top up the card here?",
+       "pt": "Posso recarregar o cartão aqui?"
+      },
+      {
+       "en": "I want to put money on my card.",
+       "pt": "Quero colocar dinheiro no meu cartão."
+      }
+     ],
+     "next": "card.4"
+    },
+    "card.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Here you go. Just tap the card at the gate.",
+     "pt": "Aqui está. É só encostar o cartão na catraca.",
+     "next": "card.5"
+    },
+    "card.5": {
+     "type": "choice",
+     "prompt": "Agora, qual trem vai para a cidade?",
+     "options": [
+      {
+       "text": "Excuse me, which train goes to Tokyo Station?",
+       "tone": "good",
+       "fb": "Isso! Perguntar é sempre o caminho mais curto.",
+       "pt": "Com licença, qual trem vai para a Estação de Tóquio?",
+       "lang": "en",
+       "next": "train.0"
+      },
+      {
+       "text": "Entrar no primeiro trem que aparecer",
+       "tone": "bad",
+       "fb": "Coragem não falta… mas direção, talvez. 🙈",
+       "pt": null,
+       "lang": "pt",
+       "next": "wrong.0"
+      }
+     ]
+    },
+    "train.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Take the train on platform two. It leaves in ten minutes.",
+     "pt": "Pegue o trem na plataforma dois. Ele sai em dez minutos.",
+     "next": "train.1"
+    },
+    "train.1": {
+     "type": "narration",
+     "pt": "Você agradece com um \"Arigatou gozaimasu\" e uma leve inclinação da cabeça. O funcionário sorri e se inclina de volta. Primeira palavra japonesa: aprovada! 🙇",
+     "mood": "talk",
+     "next": "train.2"
+    },
+    "train.2": {
+     "type": "end",
+     "ending": "chegou",
+     "title": "Final: rumo a Tóquio",
+     "pt": "Imigração, alfândega, cartão e trem certinho! Pela janela, os prédios de Tóquio começam a aparecer. A aventura começou! 🗼"
+    },
+    "wrong.0": {
+     "type": "narration",
+     "pt": "Depois de uns minutos, as estações têm nomes estranhos e cada vez mais campo pela janela. Hmm… Tóquio não era para o outro lado? 🌾",
+     "mood": "oops",
+     "next": "wrong.1"
+    },
+    "wrong.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Passageira",
+     "en": "Oh, this train goes the other way. Get off at the next station and change.",
+     "pt": "Ah, este trem vai para o outro lado. Desça na próxima estação e troque.",
+     "next": "wrong.2"
+    },
+    "wrong.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you so much! Which platform?",
+     "pt": "Muito obrigado! Qual plataforma?",
+     "next": "wrong.3"
+    },
+    "wrong.3": {
+     "type": "end",
+     "ending": "volta",
+     "title": "Final: o passeio extra",
+     "pt": "Um passeio extra pelo interior, mas vocês chegaram! Lição do dia: antes de embarcar, pergunte \"Which train goes to…?\". 😂🚆"
+    }
+   },
+   "island": [
+    "🛬",
+    "🗼"
+   ]
+  },
+  {
+   "id": "c2",
+   "emoji": "🏪",
+   "title": "Konbini e lámen",
+   "titleEn": "Convenience store and ramen",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🏪",
+      "pulse"
+     ],
+     [
+      "🍙",
+      "bob"
+     ],
+     [
+      "🍜",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Onigiri, \"Would you like it heated?\", falta de lixeiras e a máquina de tíquetes do lámen.",
+   "start": "start.0",
+   "endings": [
+    "refil",
+    "satisfeito"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Bom dia, {name}! Com o fuso horário bagunçado, vocês acordaram cedíssimo e com fome. Solução japonesa: o konbini, a loja de conveniência que fica aberta 24 horas e tem de tudo, até comida muito boa! 🏪",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "Quando você entra, o funcionário grita \"Irasshaimase!\". É \"bem-vindo\" em japonês. Não precisa responder nada: um sorriso ou um aceno já basta.",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "explain",
+     "title": "Onigiri",
+     "pt": "O onigiri é um bolinho de arroz com recheio, embrulhado em alga. Vem num plástico com números 1, 2, 3 para abrir sem rasgar a alga. Para perguntar o recheio, use \"What's inside?\".",
+     "examples": [
+      {
+       "en": "What's inside this one?",
+       "pt": "O que tem dentro deste?"
+      },
+      {
+       "en": "Is this spicy?",
+       "pt": "Isso é apimentado?"
+      }
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "narration",
+     "pt": "Você pega dois onigiris, e {spousePt} escolhe uma marmita de frango com arroz. No caixa:",
+     "mood": "talk",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Would you like it heated?",
+     "pt": "Quer que esquente?",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "Ela está falando da marmita. O que você diz?",
+     "options": [
+      {
+       "text": "Yes, please.",
+       "tone": "good",
+       "fb": "Isso! Eles esquentam no micro-ondas ali mesmo, na hora.",
+       "pt": "Sim, por favor.",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "No, thank you.",
+       "tone": "good",
+       "fb": "Tudo bem também! Vocês podem comer depois.",
+       "pt": "Não, obrigado.",
+       "lang": "en",
+       "next": "start.6"
+      },
+      {
+       "text": "Heat the onigiri too, please!",
+       "tone": "ok",
+       "fb": "Hahaha, dá até para pedir, mas onigiri normalmente se come frio mesmo! 🍙",
+       "pt": "Esquente o onigiri também, por favor!",
+       "lang": "en",
+       "next": "start.6"
+      }
+     ]
+    },
+    "start.6": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Do you need ___?",
+     "answer": "chopsticks",
+     "options": [
+      "chopsticks",
+      "keys",
+      "tickets",
+      "stamps"
+     ],
+     "pt": "Você precisa de hashis?",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Caixa",
+     "en": "Do you need a bag?",
+     "pt": "Você precisa de sacola?",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "No, thank you. I have a bag.",
+     "pt": "Não, obrigado. Eu tenho uma sacola.",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "tip",
+     "icon": "🗑️",
+     "title": "Cadê as lixeiras?",
+     "pt": "No Japão quase não há lixeiras na rua, mas as ruas são limpíssimas! O costume é levar o lixo com você até o hotel ou jogar nas lixeiras que ficam perto dos konbinis. Comer andando na rua também não é muito comum.",
+     "dos": [
+      "Levar uma sacolinha para o seu lixo",
+      "Separar garrafas, latas e restos"
+     ],
+     "donts": [
+      "Deixar lixo em bancos ou muretas",
+      "Comer andando no meio da calçada"
+     ],
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "narration",
+     "pt": "À noite, vocês encontram um restaurante de lámen minúsculo, com fila na porta. Bom sinal! Na entrada tem uma máquina cheia de botões e fotos.",
+     "mood": "talk",
+     "next": "start.11"
+    },
+    "start.11": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Excuse me, how does this machine work?",
+       "tone": "good",
+       "fb": "Ótima pergunta! Veja:",
+       "pt": "Com licença, como funciona esta máquina?",
+       "lang": "en",
+       "next": "machine.0"
+      },
+      {
+       "text": "Entrar, sentar e esperar o garçom",
+       "tone": "ok",
+       "fb": "Hmm… o garçom não vem. Veja por quê:",
+       "pt": null,
+       "lang": "pt",
+       "next": "wait.0"
+      }
+     ]
+    },
+    "machine.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cliente",
+     "en": "Put in the money, press a button and give the ticket to the chef.",
+     "pt": "Coloque o dinheiro, aperte um botão e entregue o tíquete ao cozinheiro.",
+     "next": "ramen.0"
+    },
+    "wait.0": {
+     "type": "narration",
+     "pt": "Vocês ficam sentados uns bons minutos… e ninguém aparece. O cozinheiro aponta para a máquina na porta. Ahh, é ali que se pede! 😅",
+     "mood": "oops",
+     "next": "wait.1"
+    },
+    "wait.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Ticket, please. From the machine.",
+     "pt": "Tíquete, por favor. Da máquina.",
+     "next": "ramen.0"
+    },
+    "ramen.0": {
+     "type": "build",
+     "pt": "Qual botão é o lámen de porco?",
+     "en": "Which button is the pork ramen?",
+     "extra": [
+      "bottom",
+      "chicken"
+     ],
+     "next": "ramen.1"
+    },
+    "ramen.1": {
+     "type": "narration",
+     "pt": "Tíquete entregue, e em poucos minutos chegam duas tigelas fumegantes. 🍜",
+     "mood": "talk",
+     "next": "ramen.2"
+    },
+    "ramen.2": {
+     "type": "explain",
+     "title": "Pode fazer barulho!",
+     "pt": "No Japão, sorver o macarrão fazendo barulho é normal: esfria o lámen e mostra que está gostoso. Antes de comer, diz-se \"Itadakimasu\". E atenção: no Japão não se dá gorjeta. Deixar dinheiro na mesa pode até confundir o funcionário.",
+     "examples": [
+      {
+       "en": "This is delicious!",
+       "pt": "Isso está delicioso!"
+      },
+      {
+       "en": "Can I have some water, please?",
+       "pt": "Pode me dar um pouco de água, por favor?"
+      }
+     ],
+     "next": "ramen.3"
+    },
+    "ramen.3": {
+     "type": "choice",
+     "prompt": "Seu lámen acabou, mas ainda sobrou caldo. E agora?",
+     "options": [
+      {
+       "text": "Excuse me, can I have extra noodles, please?",
+       "tone": "good",
+       "fb": "Esperto! Muitos lugares vendem uma porção extra de macarrão para o mesmo caldo.",
+       "pt": "Com licença, pode me dar mais macarrão, por favor?",
+       "lang": "en",
+       "next": "more.0"
+      },
+      {
+       "text": "Thank you. That was delicious!",
+       "tone": "good",
+       "fb": "Elogio sincero no fim da refeição sempre agrada!",
+       "pt": "Obrigado. Estava delicioso!",
+       "lang": "en",
+       "next": "done.0"
+      }
+     ]
+    },
+    "more.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Extra noodles? One more ticket, please.",
+     "pt": "Macarrão extra? Mais um tíquete, por favor.",
+     "next": "more.1"
+    },
+    "more.1": {
+     "type": "end",
+     "ending": "refil",
+     "title": "Final: macarrão extra",
+     "pt": "Barriga cheia duas vezes! Você dominou o konbini e a máquina do lámen no mesmo dia. 🍜🍜"
+    },
+    "done.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Thank you very much!",
+     "pt": "Muito obrigado!",
+     "next": "done.1"
+    },
+    "done.1": {
+     "type": "end",
+     "ending": "satisfeito",
+     "title": "Final: sem gorjeta, com sorriso",
+     "pt": "Vocês saem sem deixar gorjeta, do jeitinho japonês, e com o sorriso do cozinheiro de brinde. 😋"
+    }
+   },
+   "island": [
+    "🏪",
+    "🍜"
+   ]
+  },
+  {
+   "id": "c3",
+   "emoji": "🚇",
+   "title": "Metrô de Tóquio e Shibuya",
+   "titleEn": "Tokyo subway and Shibuya",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🚇",
+      "drive"
+     ],
+     [
+      "🚦",
+      "pulse"
+     ],
+     [
+      "👮",
+      "wave"
+     ]
+    ]
+   },
+   "summary": "Cores das linhas, \"Which line goes to…?\", silêncio no trem, o cruzamento de Shibuya e o koban.",
+   "start": "start.0",
+   "endings": [
+    "ajuda",
+    "koban"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hoje o destino é Shibuya, o bairro do cruzamento mais famoso do mundo! Mas antes, o desafio: o mapa de trens e metrô de Tóquio, que parece um prato de espaguete colorido. 🍝🚇",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "explain",
+     "title": "Cores, letras e números",
+     "pt": "Cada linha tem uma cor e uma letra, e cada estação tem um número. Assim, mesmo sem ler japonês, você se localiza. Para perguntar, use \"Which line goes to…?\".",
+     "examples": [
+      {
+       "en": "Which line goes to Shibuya?",
+       "pt": "Qual linha vai para Shibuya?"
+      },
+      {
+       "en": "Where do I change trains?",
+       "pt": "Onde eu troco de trem?"
+      }
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "narration",
+     "pt": "Vocês procuram um funcionário da estação. Para chamar a atenção dele com educação, diga \"Sumimasen\", que é \"com licença\".",
+     "mood": "talk",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sumimasen! Which line goes to Shibuya?",
+     "pt": "Com licença! Qual linha vai para Shibuya?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Take the ___ line. It's the loop line.",
+     "answer": "green",
+     "options": [
+      "green",
+      "slow",
+      "blue",
+      "long"
+     ],
+     "pt": "Pegue a linha verde. É a linha circular.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "tip",
+     "icon": "🤫",
+     "title": "Silêncio no trem",
+     "pt": "Nos trens japoneses, quase ninguém fala alto e ninguém atende telefonema. No horário de pico, os vagões ficam lotadíssimos e todos entram em fila. Os assentos preferenciais são para idosos, gestantes, pessoas com deficiência e com crianças pequenas.",
+     "dos": [
+      "Deixar o celular no silencioso",
+      "Levar a mochila na frente do corpo",
+      "Fazer fila nas marcas do chão"
+     ],
+     "donts": [
+      "Falar ao telefone dentro do trem",
+      "Ocupar o assento preferencial se alguém precisar"
+     ],
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "narration",
+     "pt": "No meio do caminho, o celular toca. É a sua sogra, lá do Brasil! 📱",
+     "mood": "talk",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Silenciar e mandar uma mensagem: \"Ligo depois!\"",
+       "tone": "good",
+       "fb": "Perfeito! Educado com a sogra e com o vagão inteiro.",
+       "pt": null,
+       "lang": "pt",
+       "next": "start.8"
+      },
+      {
+       "text": "Atender e falar bem alto: \"OI, TUDO BEM?\"",
+       "tone": "bad",
+       "fb": "Todo o vagão virou para você em silêncio absoluto… 😳 No Japão, telefone no trem é só no silencioso.",
+       "pt": null,
+       "lang": "pt",
+       "next": "start.8"
+      }
+     ]
+    },
+    "start.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Anúncio",
+     "en": "The next station is Shibuya. The doors on the right side will open.",
+     "pt": "A próxima estação é Shibuya. As portas do lado direito vão abrir.",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "Vocês chegam! A estação de Shibuya tem dezenas de saídas. A dica é perguntar qual saída usar.",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "build",
+     "pt": "Qual saída é para o cruzamento?",
+     "en": "Which exit is for the crossing?",
+     "extra": [
+      "door",
+      "cross"
+     ],
+     "next": "start.11"
+    },
+    "start.11": {
+     "type": "narration",
+     "pt": "E lá está ele: o cruzamento de Shibuya! O sinal fecha para todos os carros e centenas de pessoas atravessam em todas as direções. Vocês tiram fotos, riem… e, depois de umas voltas, ninguém sabe mais onde está o hotel. 😬",
+     "mood": "talk",
+     "next": "start.12"
+    },
+    "start.12": {
+     "type": "choice",
+     "prompt": "Estão perdidos. O que fazer?",
+     "options": [
+      {
+       "text": "Procurar um koban (posto policial) e pedir ajuda",
+       "tone": "good",
+       "fb": "Isso! O koban é uma casinha de polícia de bairro, e os policiais ajudam muito com direções.",
+       "pt": null,
+       "lang": "pt",
+       "next": "koban.0"
+      },
+      {
+       "text": "Seguir andando e confiar na intuição",
+       "tone": "ok",
+       "fb": "A intuição do brasileiro é forte… mas Tóquio é maior. 😂",
+       "pt": null,
+       "lang": "pt",
+       "next": "lost.0"
+      }
+     ]
+    },
+    "koban.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Policial",
+     "en": "Hello. Can I help you?",
+     "pt": "Olá. Posso ajudar?",
+     "next": "koban.1"
+    },
+    "koban.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, please. We are lost. This is our hotel.",
+     "pt": "Sim, por favor. Estamos perdidos. Este é o nosso hotel.",
+     "next": "koban.2"
+    },
+    "koban.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can you show me on the ___?",
+     "answer": "map",
+     "options": [
+      "map",
+      "menu",
+      "phone",
+      "wall"
+     ],
+     "pt": "Você pode me mostrar no mapa?",
+     "next": "koban.3"
+    },
+    "koban.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Policial",
+     "en": "Go straight and turn left at the second corner. It's five minutes on foot.",
+     "pt": "Siga reto e vire à esquerda na segunda esquina. São cinco minutos a pé.",
+     "next": "koban.4"
+    },
+    "koban.4": {
+     "type": "end",
+     "ending": "koban",
+     "title": "Final: salvos pelo koban",
+     "pt": "O policial ainda desenhou um mapinha para vocês! Guarde essa: no Japão, perdido é igual a koban. 👮🗺️"
+    },
+    "lost.0": {
+     "type": "narration",
+     "pt": "Meia hora depois, vocês passam pela terceira vez na frente da mesma loja de doces. 🍬 Até a vendedora já acena para vocês!",
+     "mood": "oops",
+     "next": "lost.1"
+    },
+    "lost.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, sorry. We are lost. Where is this hotel?",
+     "pt": "Com licença, desculpe. Estamos perdidos. Onde fica este hotel?",
+     "next": "lost.2"
+    },
+    "lost.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Oh, it's near here! Come, I'll show you.",
+     "pt": "Ah, é aqui perto! Venham, eu mostro para vocês.",
+     "next": "lost.3"
+    },
+    "lost.3": {
+     "type": "end",
+     "ending": "ajuda",
+     "title": "Final: a gentileza japonesa",
+     "pt": "A moça largou a loja por dois minutos só para levar vocês até a esquina certa. Da próxima vez, é só perguntar logo! 🍬"
+    }
+   },
+   "island": [
+    "🚇",
+    "🚦"
+   ]
+  },
+  {
+   "id": "c4",
+   "emoji": "🏨",
+   "title": "Hotel em Tóquio",
+   "titleEn": "Hotel in Tokyo",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🏨",
+      "bob"
+     ],
+     [
+      "🩴",
+      "sway"
+     ],
+     [
+      "🌙",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Deixar as malas, quartinho japonês, chinelos, hotel-cápsula e \"Could you help me?\".",
+   "start": "start.0",
+   "endings": [
+    "capsula",
+    "quartinho"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hora de trocar de hotel! {name}, hoje vocês vão conhecer a hospedagem japonesa. Vocês chegam de manhã, mas o check-in é só à tarde. E agora, com as malas?",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Good morning. Check-in is from three p.m.",
+     "pt": "Bom dia. O check-in é a partir das três da tarde.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can we ___ our bags here until then?",
+     "answer": "leave",
+     "options": [
+      "leave",
+      "live",
+      "lose",
+      "sell"
+     ],
+     "pt": "Podemos deixar as nossas malas aqui até lá?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Of course. Here is your ticket for the bags.",
+     "pt": "Claro. Aqui está o seu tíquete das malas.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "Leave / pick up",
+     "pt": "Para deixar as malas, use \"leave our bags\". Para pegar de volta, \"pick up our bags\". Serve em hotel, estação e museu.",
+     "examples": [
+      {
+       "en": "Can we leave our bags here?",
+       "pt": "Podemos deixar as malas aqui?"
+      },
+      {
+       "en": "We want to pick up our bags.",
+       "pt": "Queremos pegar as nossas malas."
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "narration",
+     "pt": "À tarde, vocês voltam. Hoje é uma noite especial: vocês reservaram um hotel pequeno e prático, mas o hotel do lado é um hotel-cápsula, e {spousePt} quer muito experimentar… 🤔",
+     "mood": "talk",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "choice",
+     "prompt": "Onde vocês dormem hoje?",
+     "options": [
+      {
+       "text": "Ficar no quartinho do hotel, juntos",
+       "tone": "good",
+       "fb": "Boa! O clássico \"business hotel\" japonês: pequeno, mas completinho.",
+       "pt": null,
+       "lang": "pt",
+       "next": "business.0"
+      },
+      {
+       "text": "Experimentar o hotel-cápsula por uma noite",
+       "tone": "good",
+       "fb": "Aventura! Só que tem umas regrinhas…",
+       "pt": null,
+       "lang": "pt",
+       "next": "capsule.0"
+      }
+     ]
+    },
+    "business.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Welcome! Your room is on the eighth floor. Breakfast is from seven.",
+     "pt": "Bem-vindos! O quarto de vocês fica no oitavo andar. O café é a partir das sete.",
+     "next": "business.1"
+    },
+    "business.1": {
+     "type": "narration",
+     "pt": "Vocês abrem a porta e… o quarto é minúsculo! A cama ocupa quase tudo, e o banheiro parece uma cabine de avião. Mas tem pijama, chinelos, chaleira e uma privada cheia de botões. 🚽",
+     "mood": "talk",
+     "next": "business.2"
+    },
+    "business.2": {
+     "type": "tip",
+     "icon": "🩴",
+     "title": "Chinelos e sapatos",
+     "pt": "No Japão, muitas casas, pousadas e alguns hotéis pedem para tirar o sapato na entrada. Os chinelos do quarto são para usar lá dentro, e há outros só para o banheiro.",
+     "dos": [
+      "Tirar o sapato onde houver chinelos na entrada",
+      "Usar os chinelos de banheiro só no banheiro"
+     ],
+     "donts": [
+      "Pisar no quarto de sapato",
+      "Sair do banheiro com os chinelos do banheiro"
+     ],
+     "next": "business.3"
+    },
+    "business.3": {
+     "type": "narration",
+     "pt": "De noite, o ar-condicionado está gelado, e o controle remoto está todo em japonês. Hora de ligar para a recepção.",
+     "mood": "talk",
+     "next": "business.4"
+    },
+    "business.4": {
+     "type": "choice",
+     "prompt": "O que você diz?",
+     "options": [
+      {
+       "text": "Hi, the remote is in Japanese. Could you help me, please?",
+       "tone": "good",
+       "fb": "Perfeito! \"Could you help me?\" é a frase coringa da viagem.",
+       "pt": "Oi, o controle está em japonês. Você poderia me ajudar, por favor?",
+       "lang": "en",
+       "next": "business.5"
+      },
+      {
+       "text": "Help! Help! It's very cold!",
+       "tone": "ok",
+       "fb": "Hahaha, a recepcionista achou que era uma emergência! Mais calma da próxima vez. 😂",
+       "pt": "Socorro! Socorro! Está muito frio!",
+       "lang": "en",
+       "next": "business.5"
+      }
+     ]
+    },
+    "business.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "No problem. I'll come to your room right now.",
+     "pt": "Sem problema. Vou até o seu quarto agora mesmo.",
+     "next": "business.6"
+    },
+    "business.6": {
+     "type": "build",
+     "pt": "Como eu desligo o ar-condicionado?",
+     "en": "How do I turn off the air conditioner?",
+     "extra": [
+      "on",
+      "open"
+     ],
+     "next": "business.7"
+    },
+    "business.7": {
+     "type": "end",
+     "ending": "quartinho",
+     "title": "Final: pequeno e perfeito",
+     "pt": "Quarto quentinho, tudo limpo e organizado. Vocês dormem como pedras. \"Oyasumi nasai\": boa noite em japonês! 🌙"
+    },
+    "capsule.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Please take off your shoes and put them in this locker.",
+     "pt": "Por favor, tirem os sapatos e coloquem neste armário.",
+     "next": "capsule.1"
+    },
+    "capsule.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Men and women sleep on different floors.",
+     "pt": "Homens e mulheres dormem em andares diferentes.",
+     "next": "capsule.2"
+    },
+    "capsule.2": {
+     "type": "narration",
+     "pt": "Ops! Muitos hotéis-cápsula separam os andares por gênero. Então hoje o casal dorme separado. {spousePtCap} faz beicinho… 😅",
+     "mood": "oops",
+     "next": "capsule.3"
+    },
+    "capsule.3": {
+     "type": "tip",
+     "icon": "🛏️",
+     "title": "Regras do hotel-cápsula",
+     "pt": "A cápsula é uma caminha num nicho, com luz, tomada e uma cortina. As malas grandes ficam em armários, e o silêncio é total, porque uma cortina não segura barulho nenhum!",
+     "dos": [
+      "Falar baixinho nos corredores",
+      "Guardar a mala grande no armário"
+     ],
+     "donts": [
+      "Comer dentro da cápsula",
+      "Fazer ligação dentro da cápsula"
+     ],
+     "next": "capsule.4"
+    },
+    "capsule.4": {
+     "type": "choice",
+     "prompt": "Você não acha a toalha. O que faz?",
+     "options": [
+      {
+       "text": "Excuse me, where can I get a towel?",
+       "tone": "good",
+       "fb": "Isso! Curto e direto.",
+       "pt": "Com licença, onde eu pego uma toalha?",
+       "lang": "en",
+       "next": "capsule.5"
+      },
+      {
+       "text": "Ir de cápsula em cápsula procurando",
+       "tone": "bad",
+       "fb": "Nãooo! Abrir a cortina dos outros é a pior coisa que dá para fazer ali. Pergunte na recepção!",
+       "pt": null,
+       "lang": "pt",
+       "next": "capsule.5"
+      }
+     ]
+    },
+    "capsule.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Towels are at the front desk. Here you go.",
+     "pt": "As toalhas ficam na recepção. Aqui está.",
+     "next": "capsule.6"
+    },
+    "capsule.6": {
+     "type": "build",
+     "pt": "A que horas é o check-out amanhã?",
+     "en": "What time do we check out tomorrow?",
+     "extra": [
+      "when",
+      "today"
+     ],
+     "next": "capsule.7"
+    },
+    "capsule.7": {
+     "type": "end",
+     "ending": "capsula",
+     "title": "Final: noite na cápsula",
+     "pt": "Você dormiu num casulo futurista! No café da manhã, {spousePt} jura que roncou menos que o vizinho. 😂🛏️"
+    }
+   },
+   "island": [
+    "🏨",
+    "🩴"
+   ]
+  },
+  {
+   "id": "c5",
+   "emoji": "🏮",
+   "title": "Izakaya em Shinjuku",
+   "titleEn": "Izakaya in Shinjuku",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🏮",
+      "sway"
+     ],
+     [
+      "🍢",
+      "bob"
+     ],
+     [
+      "🍺",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "Otoshi, \"Sumimasen!\", alergias, conta no caixa e nada de gorjeta.",
+   "start": "start.0",
+   "endings": [
+    "kanpai",
+    "moedas"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Konbanwa, {name}! É o Professor Kiko 🎓🦜 falando de Shinjuku, à noite, com mil letreiros acesos. Hoje vocês vão a um izakaya: o boteco japonês, com petiscos, espetinhos e muita conversa. Bora?",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Welcome! How many people?",
+     "pt": "Bem-vindos! Quantas pessoas?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "___ people, please.",
+     "answer": "Two",
+     "options": [
+      "Two",
+      "Too",
+      "To",
+      "Second"
+     ],
+     "pt": "Duas pessoas, por favor.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "tip",
+     "icon": "🥢",
+     "title": "O otoshi",
+     "pt": "Em muitos izakayas, chega um petisco pequeno logo no começo: é o \"otoshi\". Ele faz parte da taxa de mesa, que é cobrada por pessoa. Não é engano nem golpe: é o costume.",
+     "dos": [
+      "Aceitar e provar o otoshi",
+      "Perguntar antes de entrar, se quiser saber se há taxa de mesa"
+     ],
+     "donts": [
+      "Achar que o garçom errou o pedido",
+      "Reclamar da taxa na hora de pagar"
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "choice",
+     "prompt": "Antes de pedir, chega um potinho com um petisco… que ninguém pediu. 🤔 O que você diz?",
+     "options": [
+      {
+       "text": "Oh, thank you!",
+       "tone": "good",
+       "fb": "Isso! Agradecer e provar. O otoshi é uma pequena surpresa de boas-vindas.",
+       "pt": "Ah, obrigado!",
+       "lang": "en",
+       "next": "order.0"
+      },
+      {
+       "text": "Excuse me, we didn't order this!",
+       "tone": "bad",
+       "fb": "Hehe, calma! Veja a explicação do garçom.",
+       "pt": "Com licença, nós não pedimos isso!",
+       "lang": "en",
+       "next": "otoshi.0"
+      }
+     ]
+    },
+    "otoshi.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "This is otoshi. It comes with the table charge.",
+     "pt": "Isto é o otoshi. Ele vem com a taxa de mesa.",
+     "next": "otoshi.1"
+    },
+    "otoshi.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I see. Thank you!",
+     "pt": "Ah, entendi. Obrigado!",
+     "next": "order.0"
+    },
+    "order.0": {
+     "type": "explain",
+     "title": "\"Sumimasen!\"",
+     "pt": "O cardápio é um tablet na mesa, mas as fotos confundem? Chame alguém! No Japão, para chamar o garçom, você levanta a mão e diz \"Sumimasen!\" (com licença) em voz clara. Em inglês, \"Excuse me!\" também funciona. E, se não souber o nome do prato, é só apontar!",
+     "examples": [
+      {
+       "en": "Excuse me!",
+       "pt": "Com licença!"
+      },
+      {
+       "en": "This one, please.",
+       "pt": "Este aqui, por favor."
+      },
+      {
+       "en": "Two of these, please.",
+       "pt": "Dois destes, por favor."
+      }
+     ],
+     "next": "order.1"
+    },
+    "order.1": {
+     "type": "choice",
+     "prompt": "Como você chama o garçom?",
+     "options": [
+      {
+       "text": "Levantar a mão e dizer \"Sumimasen!\"",
+       "tone": "good",
+       "fb": "Perfeito! É exatamente assim que os japoneses fazem.",
+       "pt": null,
+       "lang": "pt",
+       "next": "order.2"
+      },
+      {
+       "text": "Estalar os dedos e assobiar",
+       "tone": "bad",
+       "fb": "Nããão! Estalar os dedos ou assobiar é muito rude. Levante a mão e diga \"Sumimasen!\"",
+       "pt": null,
+       "lang": "pt",
+       "next": "order.2"
+      }
+     ]
+    },
+    "order.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Are you ready to order?",
+     "pt": "Vocês estão prontos para pedir?",
+     "next": "order.3"
+    },
+    "order.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes. Two beers and this one, please.",
+     "pt": "Sim. Duas cervejas e este aqui, por favor.",
+     "next": "order.4"
+    },
+    "order.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Do you have any allergies?",
+     "pt": "Vocês têm alguma alergia?",
+     "next": "order.5"
+    },
+    "order.5": {
+     "type": "choice",
+     "prompt": "{spousePtCap} tem alergia a camarão. O que você responde?",
+     "options": [
+      {
+       "text": "Yes. My {spouse} is allergic to shrimp.",
+       "tone": "good",
+       "fb": "Muito bem! Avisar a alergia é essencial, e o garçom vai indicar outro prato.",
+       "pt": "Sim. {spousePtCap} tem alergia a camarão.",
+       "lang": "en",
+       "next": "allergy.0"
+      },
+      {
+       "text": "No, no allergies!",
+       "tone": "bad",
+       "fb": "Hmm… e o camarão? Veja o que chega na mesa…",
+       "pt": "Não, nenhuma alergia!",
+       "lang": "en",
+       "next": "shrimp.0"
+      }
+     ]
+    },
+    "allergy.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "OK. This dish has shrimp. I recommend the chicken skewers.",
+     "pt": "OK. Este prato tem camarão. Eu recomendo os espetinhos de frango.",
+     "next": "allergy.1"
+    },
+    "allergy.1": {
+     "type": "build",
+     "pt": "Eu tenho alergia a camarão.",
+     "en": "I am allergic to shrimp.",
+     "extra": [
+      "have",
+      "fish"
+     ],
+     "next": "pay.0"
+    },
+    "shrimp.0": {
+     "type": "narration",
+     "pt": "Chega um tempurá lindo… de camarão! {spousePtCap} arregala os olhos. 🍤😱",
+     "mood": "oops",
+     "next": "shrimp.1"
+    },
+    "shrimp.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry, my {spouse} is allergic to shrimp. Can we change this?",
+     "pt": "Desculpe, {spousePt} tem alergia a camarão. Podemos trocar?",
+     "next": "shrimp.2"
+    },
+    "shrimp.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Of course. Sorry! How about chicken skewers?",
+     "pt": "Claro. Desculpe! Que tal espetinhos de frango?",
+     "next": "shrimp.3"
+    },
+    "shrimp.3": {
+     "type": "build",
+     "pt": "Eu tenho alergia a camarão.",
+     "en": "I am allergic to shrimp.",
+     "extra": [
+      "have",
+      "fish"
+     ],
+     "next": "pay.0"
+    },
+    "pay.0": {
+     "type": "narration",
+     "pt": "Espetinhos, cerveja gelada e um brinde: \"Kanpai!\" 🍻 Hora da conta.",
+     "mood": "talk",
+     "next": "pay.1"
+    },
+    "pay.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me! Can we have the check, please?",
+     "pt": "Com licença! Pode trazer a conta, por favor?",
+     "next": "pay.2"
+    },
+    "pay.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Please take this paper and pay at the register.",
+     "pt": "Por favor, levem este papel e paguem no caixa.",
+     "next": "pay.3"
+    },
+    "pay.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can we pay ___?",
+     "answer": "separately",
+     "options": [
+      "separately",
+      "separate",
+      "apart",
+      "alone"
+     ],
+     "pt": "Podemos pagar separado?",
+     "next": "pay.4"
+    },
+    "pay.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Sorry, one check per table, please.",
+     "pt": "Desculpe, uma conta por mesa, por favor.",
+     "next": "pay.5"
+    },
+    "pay.5": {
+     "type": "explain",
+     "title": "Pagar no caixa",
+     "pt": "Em muitos restaurantes japoneses, você leva o papelzinho da conta até o caixa, perto da saída. Dividir a conta nem sempre é possível: paguem juntos e acertem entre vocês depois.",
+     "examples": [
+      {
+       "en": "Can we pay by card?",
+       "pt": "Podemos pagar com cartão?"
+      },
+      {
+       "en": "Here you are.",
+       "pt": "Aqui está."
+      }
+     ],
+     "next": "pay.6"
+    },
+    "pay.6": {
+     "type": "choice",
+     "prompt": "Conta paga! E a gorjeta?",
+     "options": [
+      {
+       "text": "Agradecer e sair sem deixar gorjeta",
+       "tone": "good",
+       "fb": "Isso! No Japão não se dá gorjeta. Um \"Arigatou gozaimasu\" já vale ouro.",
+       "pt": null,
+       "lang": "pt",
+       "next": "pay.7"
+      },
+      {
+       "text": "Deixar umas moedas na mesa",
+       "tone": "bad",
+       "fb": "Hehe, gentil… mas veja o que acontece!",
+       "pt": null,
+       "lang": "pt",
+       "next": "tip.0"
+      }
+     ]
+    },
+    "pay.7": {
+     "type": "end",
+     "ending": "kanpai",
+     "title": "Final: kanpai!",
+     "pt": "Otoshi provado, alergia avisada e conta paga no caixa. Vocês viraram frequentadores de izakaya! 🏮"
+    },
+    "tip.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Garçom",
+     "en": "Excuse me! You forgot your money!",
+     "pt": "Com licença! Vocês esqueceram o dinheiro!",
+     "next": "tip.1"
+    },
+    "tip.1": {
+     "type": "narration",
+     "pt": "O garçom correu atrás de vocês na rua para devolver as moedas! 😂 No Japão, gorjeta não faz parte da cultura, e o bom serviço já está incluído.",
+     "mood": "oops",
+     "next": "tip.2"
+    },
+    "tip.2": {
+     "type": "end",
+     "ending": "moedas",
+     "title": "Final: as moedas voltaram",
+     "pt": "Lição do dia: no Japão, não se deixa gorjeta. Um sorriso e um obrigado bastam. 🙇"
+    }
+   },
+   "island": [
+    "🏮",
+    "🍢"
+   ]
+  },
+  {
+   "id": "c6",
+   "emoji": "🛍️",
+   "title": "Compras em Akihabara e Harajuku",
+   "titleEn": "Shopping in Akihabara and Harajuku",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🛍️",
+      "bob"
+     ],
+     [
+      "🎮",
+      "pulse"
+     ],
+     [
+      "🍓",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Tax-free com passaporte, tamanhos, máquinas de cápsula, moedas e o crepe de Harajuku.",
+   "start": "start.0",
+   "endings": [
+    "crepe",
+    "melado"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Dia de compras! De manhã, Akihabara: o bairro dos eletrônicos, games e animes. À tarde, Harajuku: moda jovem, cores e doces. Prepara a mala… e o cartão! 🛍️",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "Numa loja de eletrônicos gigante, você encontra uma câmera ótima para filmar as crianças.",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Hello! Can I help you?",
+     "pt": "Olá! Posso ajudar?",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, please. How much is this camera?",
+     "pt": "Sim, por favor. Quanto custa esta câmera?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "It is on sale today. Are you a tourist? You can shop tax-free.",
+     "pt": "Está em promoção hoje. Você é turista? Pode comprar sem imposto.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "tip",
+     "icon": "🛂",
+     "title": "Compras tax-free",
+     "pt": "Turistas podem comprar sem o imposto de consumo em lojas com o aviso \"Tax-Free\", acima de um valor mínimo. Para isso, é preciso mostrar o passaporte original. Essas regras mudam de tempos em tempos: confira as regras atuais antes da viagem.",
+     "dos": [
+      "Levar o passaporte original nas compras",
+      "Perguntar: \"Is this tax-free?\"",
+      "Guardar os recibos"
+     ],
+     "donts": [
+      "Levar só uma foto do passaporte",
+      "Abrir ou usar produtos lacrados antes de sair do Japão"
+     ],
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "choice",
+     "prompt": "O passaporte ficou no hotel… mas você tem uma foto no celular. O que faz?",
+     "options": [
+      {
+       "text": "Sorry, I don't have my passport. I will come back later.",
+       "tone": "good",
+       "fb": "Honesto e prático! Sem o passaporte original, não tem tax-free.",
+       "pt": "Desculpe, não estou com o passaporte. Volto mais tarde.",
+       "lang": "en",
+       "next": "harajuku.0"
+      },
+      {
+       "text": "Can I show a photo of my passport?",
+       "tone": "ok",
+       "fb": "Boa tentativa! Mas a maioria das lojas precisa do passaporte original. Veja:",
+       "pt": "Posso mostrar uma foto do meu passaporte?",
+       "lang": "en",
+       "next": "photo.0"
+      }
+     ]
+    },
+    "photo.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Sorry, we need the real passport.",
+     "pt": "Desculpe, precisamos do passaporte original.",
+     "next": "photo.1"
+    },
+    "photo.1": {
+     "type": "narration",
+     "pt": "Pois é: foto não vale. Vocês voltam ao hotel, pegam o passaporte… e aproveitam para descansar os pés. 😅",
+     "mood": "oops",
+     "next": "photo.2"
+    },
+    "photo.2": {
+     "type": "build",
+     "pt": "Esta compra é livre de impostos?",
+     "en": "Is this purchase tax free?",
+     "extra": [
+      "price",
+      "money"
+     ],
+     "next": "harajuku.0"
+    },
+    "harajuku.0": {
+     "type": "narration",
+     "pt": "À tarde, Harajuku! {spousePtCap} amou uma camiseta, mas o tamanho parece pequeno.",
+     "mood": "talk",
+     "next": "harajuku.1"
+    },
+    "harajuku.1": {
+     "type": "explain",
+     "title": "Tamanhos no Japão",
+     "pt": "As roupas japonesas costumam ser menores que as brasileiras: um M de lá pode ser um P daqui. Sempre peça para provar!",
+     "examples": [
+      {
+       "en": "Can I try this on?",
+       "pt": "Posso experimentar?"
+      },
+      {
+       "en": "Do you have a bigger size?",
+       "pt": "Vocês têm um tamanho maior?"
+      },
+      {
+       "en": "It's too small.",
+       "pt": "Está pequeno demais."
+      }
+     ],
+     "next": "harajuku.2"
+    },
+    "harajuku.2": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "{spousePtCap}",
+     "en": "Do you have a ___ size?",
+     "answer": "bigger",
+     "options": [
+      "bigger",
+      "big",
+      "more",
+      "tall"
+     ],
+     "pt": "Vocês têm um tamanho maior?",
+     "next": "harajuku.3"
+    },
+    "harajuku.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Yes, here is a large. The fitting room is over there.",
+     "pt": "Sim, aqui está um G. O provador fica ali.",
+     "next": "harajuku.4"
+    },
+    "harajuku.4": {
+     "type": "narration",
+     "pt": "Na rua, vocês encontram uma parede cheia de máquinas de brinquedo em cápsula! Gira a manivela, cai uma bolinha com uma surpresa. 🎁",
+     "mood": "talk",
+     "next": "harajuku.5"
+    },
+    "harajuku.5": {
+     "type": "explain",
+     "title": "Moedas no Japão",
+     "pt": "Essas máquinas de cápsula aceitam só moedas. E muitas lojinhas pequenas ainda preferem dinheiro. Leve sempre algumas moedas e notas, além do cartão. No caixa, coloque o dinheiro na bandejinha, e não na mão da pessoa.",
+     "examples": [
+      {
+       "en": "Do you take cards?",
+       "pt": "Vocês aceitam cartão?"
+      },
+      {
+       "en": "Cash only?",
+       "pt": "Só dinheiro?"
+      },
+      {
+       "en": "Where can I get change?",
+       "pt": "Onde posso trocar dinheiro por moedas?"
+      }
+     ],
+     "next": "harajuku.6"
+    },
+    "harajuku.6": {
+     "type": "narration",
+     "pt": "E para fechar, o famoso crepe de Harajuku: morango, chantilly e sorvete. 🍓 Vocês pedem um.",
+     "mood": "talk",
+     "next": "harajuku.7"
+    },
+    "harajuku.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Here you are! Please eat it here.",
+     "pt": "Aqui está! Por favor, coma aqui.",
+     "next": "harajuku.8"
+    },
+    "harajuku.8": {
+     "type": "choice",
+     "prompt": "O que vocês fazem com o crepe?",
+     "options": [
+      {
+       "text": "Comer ali perto da barraca",
+       "tone": "good",
+       "fb": "Isso! No Japão, comer andando pela rua não é bem-visto. Comam perto da barraca e joguem o papel no lixo de lá.",
+       "pt": null,
+       "lang": "pt",
+       "next": "crepe.0"
+      },
+      {
+       "text": "Sair andando e comendo pela rua",
+       "tone": "bad",
+       "fb": "Hmm… a rua está lotada e não tem lixeira. Veja o que acontece!",
+       "pt": null,
+       "lang": "pt",
+       "next": "walk.0"
+      }
+     ]
+    },
+    "crepe.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you! It's delicious!",
+     "pt": "Obrigado! Está delicioso!",
+     "next": "crepe.1"
+    },
+    "crepe.1": {
+     "type": "build",
+     "pt": "Onde fica a lixeira, por favor?",
+     "en": "Where is the trash can please?",
+     "extra": [
+      "bin",
+      "garbage"
+     ],
+     "next": "crepe.2"
+    },
+    "crepe.2": {
+     "type": "end",
+     "ending": "crepe",
+     "title": "Final: crepe com etiqueta",
+     "pt": "Câmera escolhida, camiseta no tamanho certo e crepe comido do jeito japonês. Que dia! 🍓"
+    },
+    "walk.0": {
+     "type": "narration",
+     "pt": "No meio da multidão, o sorvete escorre na camiseta nova de {spousePt}… e vocês ficam com o papel melado na mão, sem lixeira à vista. 🍦😂",
+     "mood": "oops",
+     "next": "walk.1"
+    },
+    "walk.1": {
+     "type": "tip",
+     "icon": "🗑️",
+     "title": "Coma no lugar e leve o lixo",
+     "pt": "No Japão, quase não há lixeiras nas ruas. O costume é comer perto de onde comprou, e usar o lixo do próprio lugar, ou levar o lixo com você até o hotel.",
+     "dos": [
+      "Comer perto da barraca",
+      "Levar um saquinho para o lixo"
+     ],
+     "donts": [
+      "Comer andando na multidão",
+      "Deixar lixo em qualquer canto"
+     ],
+     "next": "walk.2"
+    },
+    "walk.2": {
+     "type": "build",
+     "pt": "Onde fica a lixeira, por favor?",
+     "en": "Where is the trash can please?",
+     "extra": [
+      "bin",
+      "garbage"
+     ],
+     "next": "walk.3"
+    },
+    "walk.3": {
+     "type": "end",
+     "ending": "melado",
+     "title": "Final: crepe na camiseta",
+     "pt": "Camiseta lavada no hotel e lição aprendida: crepe se come parado, perto da barraca! 🍓"
+    }
+   },
+   "island": [
+    "🛍️",
+    "🎮"
+   ]
+  },
+  {
+   "id": "c7",
+   "emoji": "♨️",
+   "title": "Hakone: ryokan e onsen",
+   "titleEn": "Hakone: ryokan and hot spring",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "🗻",
+      "pulse"
+     ],
+     [
+      "♨️",
+      "float"
+     ],
+     [
+      "🌲",
+      "sway"
+     ]
+    ]
+   },
+   "summary": "Monte Fuji, ryokan, yukata, regras do onsen, tatuagens e o futon.",
+   "start": "start.0",
+   "endings": [
+    "futon"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Saímos da agitação de Tóquio para as montanhas de Hakone! 🗻 Em dias limpos, dá para ver o Monte Fuji daqui. Hoje vocês dormem num ryokan, a pousada tradicional japonesa, com banho termal: o onsen.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "narration",
+     "pt": "Da janela do ônibus, as nuvens se abrem… e lá está ele, o Fuji, com o topo branquinho. {spousePtCap} fica sem palavras. Dica do Kiko: o Fuji é tímido e vive escondido nas nuvens, então aproveite quando ele aparecer!",
+     "mood": "talk",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Welcome! Please take off your shoes here.",
+     "pt": "Bem-vindos! Por favor, tirem os sapatos aqui.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "tip",
+     "icon": "🥿",
+     "title": "Sapatos e chinelos",
+     "pt": "No ryokan, você tira os sapatos na entrada e usa os chinelos da casa. Mas atenção: no tatame (o piso de palha dos quartos), só se pisa de meia ou descalço!",
+     "dos": [
+      "Deixar os sapatos na entrada",
+      "Tirar os chinelos antes de pisar no tatame"
+     ],
+     "donts": [
+      "Andar de sapato dentro do ryokan",
+      "Pisar no tatame de chinelo"
+     ],
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Hello! We have a reservation under the name {name}.",
+     "pt": "Olá! Temos uma reserva no nome de {name}.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Thank you. Dinner is at six or seven. Which time do you prefer?",
+     "pt": "Obrigado. O jantar é às seis ou às sete. Que horário vocês preferem?",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Seven o'clock, ___.",
+     "answer": "please",
+     "options": [
+      "please",
+      "thanks",
+      "sorry",
+      "welcome"
+     ],
+     "pt": "Às sete horas, por favor.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "There is a yukata in your room. You can wear it at dinner and in the onsen area.",
+     "pt": "Há um yukata no seu quarto. Vocês podem usá-lo no jantar e na área do onsen.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "explain",
+     "title": "O yukata",
+     "pt": "O yukata é um roupão de algodão, tipo um quimono leve. Regra de ouro: o lado esquerdo sempre vai por cima do direito. O contrário é usado só em funerais!",
+     "examples": [
+      {
+       "en": "How do I wear this?",
+       "pt": "Como eu visto isto?"
+      },
+      {
+       "en": "Is this correct?",
+       "pt": "Assim está certo?"
+      }
+     ],
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "narration",
+     "pt": "Yukata vestido, é hora do onsen! Mas antes, uma pergunta importante…",
+     "mood": "talk",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "choice",
+     "prompt": "Você tem uma tatuagem no braço. O que faz?",
+     "options": [
+      {
+       "text": "Excuse me. I have a tattoo. Can I use the onsen?",
+       "tone": "good",
+       "fb": "Excelente! Muitos onsens proíbem tatuagens, e perguntar antes evita constrangimento.",
+       "pt": "Com licença. Eu tenho uma tatuagem. Posso usar o onsen?",
+       "lang": "en",
+       "next": "tattoo.0"
+      },
+      {
+       "text": "Não tenho tatuagem, vou direto ao banho",
+       "tone": "good",
+       "fb": "Tudo certo! Então vamos conhecer as regras do banho.",
+       "pt": null,
+       "lang": "pt",
+       "next": "bath.0"
+      }
+     ]
+    },
+    "tattoo.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "Sorry, not in the big bath. But you can use our private bath.",
+     "pt": "Desculpe, no banho grande não. Mas vocês podem usar o nosso banho privativo.",
+     "next": "tattoo.1"
+    },
+    "tattoo.1": {
+     "type": "narration",
+     "pt": "Banho privativo só para o casal! Às vezes, perguntar abre portas ainda melhores. 😉",
+     "mood": "talk",
+     "next": "tattoo.2"
+    },
+    "tattoo.2": {
+     "type": "build",
+     "pt": "Posso usar o banho privativo agora?",
+     "en": "Can I use the private bath now?",
+     "extra": [
+      "big",
+      "later"
+     ],
+     "next": "bath.0"
+    },
+    "bath.0": {
+     "type": "tip",
+     "icon": "♨️",
+     "title": "As regras do onsen",
+     "pt": "No onsen, todo mundo entra sem roupa, separado por sexo (exceto nos banhos privativos). Primeiro você se lava sentado no banquinho do chuveiro, e só depois entra na água quente.",
+     "dos": [
+      "Lavar o corpo todo antes de entrar",
+      "Prender o cabelo comprido",
+      "Deixar a toalhinha na cabeça ou na borda"
+     ],
+     "donts": [
+      "Entrar de roupa de banho",
+      "Colocar a toalha dentro da água",
+      "Nadar ou mergulhar a cabeça"
+     ],
+     "next": "bath.1"
+    },
+    "bath.1": {
+     "type": "choice",
+     "prompt": "Você entrou na área do banho. Qual é o primeiro passo?",
+     "options": [
+      {
+       "text": "Sentar no banquinho e se lavar no chuveiro",
+       "tone": "good",
+       "fb": "Perfeito! Corpo limpo antes da água quente. Você parece um japonês! 🧼",
+       "pt": null,
+       "lang": "pt",
+       "next": "dinner.0"
+      },
+      {
+       "text": "Pular direto na água com a toalha",
+       "tone": "bad",
+       "fb": "Splash! 😱 Veja o que acontece…",
+       "pt": null,
+       "lang": "pt",
+       "next": "splash.0"
+      }
+     ]
+    },
+    "splash.0": {
+     "type": "narration",
+     "pt": "Um senhor japonês olha para você com cara de susto e aponta para o chuveiro e para a toalha na água. Ops! 😅",
+     "mood": "oops",
+     "next": "splash.1"
+    },
+    "splash.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhor",
+     "en": "Excuse me. Please wash first. And no towel in the water.",
+     "pt": "Com licença. Por favor, lave-se primeiro. E nada de toalha na água.",
+     "next": "splash.2"
+    },
+    "splash.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I'm so sorry! Thank you for telling me.",
+     "pt": "Ah, me desculpe! Obrigado por me avisar.",
+     "next": "dinner.0"
+    },
+    "dinner.0": {
+     "type": "narration",
+     "pt": "Depois do banho, o jantar: vários pratinhos lindos, servidos no quarto ou num salão. Antes de comer, diga \"Itadakimasu\", o jeito japonês de agradecer pela comida. 🍱",
+     "mood": "talk",
+     "next": "dinner.1"
+    },
+    "dinner.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "While you eat, we will prepare your futon.",
+     "pt": "Enquanto vocês comem, vamos preparar o seu futon.",
+     "next": "dinner.2"
+    },
+    "dinner.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you. Everything is beautiful!",
+     "pt": "Obrigado. Está tudo lindo!",
+     "next": "dinner.3"
+    },
+    "dinner.3": {
+     "type": "end",
+     "ending": "futon",
+     "title": "Final: noite no futon",
+     "pt": "Fuji avistado, onsen com etiqueta e sono gostoso no futon, direto no tatame. Hakone é paz pura! ♨️"
+    }
+   },
+   "island": [
+    "♨️",
+    "🗻"
+   ]
+  },
+  {
+   "id": "c8",
+   "emoji": "🚄",
+   "title": "Trem-bala para Kyoto",
+   "titleEn": "Bullet train to Kyoto",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🚄",
+      "drive"
+     ],
+     [
+      "🗻",
+      "pulse"
+     ],
+     [
+      "🍱",
+      "bob"
+     ]
+    ]
+   },
+   "summary": "Assento reservado, malas grandes, ekiben, silêncio no vagão e chegada pontual.",
+   "start": "start.0",
+   "endings": [
+    "lixo",
+    "pontual"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hoje vocês pegam o famoso trem-bala, o shinkansen, rumo a Kyoto! 🚄 Ele passa dos 280 km/h e é conhecido pela pontualidade. Primeiro: comprar a passagem com assento reservado.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Hello. Where are you going?",
+     "pt": "Olá. Para onde vocês vão?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Two reserved seats to Kyoto, please.",
+     "pt": "Dois assentos reservados para Kyoto, por favor.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Window or aisle?",
+     "pt": "Janela ou corredor?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "explain",
+     "title": "Window e aisle",
+     "pt": "\"Window seat\" é o assento na janela, e \"aisle seat\" é o do corredor. Dica do Kiko: indo de Tóquio para Kyoto, peça o lado direito do trem. Com céu limpo, dá para ver o Monte Fuji!",
+     "examples": [
+      {
+       "en": "A window seat, please.",
+       "pt": "Um assento na janela, por favor."
+      },
+      {
+       "en": "Can we sit together?",
+       "pt": "Podemos sentar juntos?"
+      }
+     ],
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can we sit ___, please?",
+     "answer": "together",
+     "options": [
+      "together",
+      "alone",
+      "near",
+      "with"
+     ],
+     "pt": "Podemos sentar juntos, por favor?",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Do you have big suitcases?",
+     "pt": "Vocês têm malas grandes?",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "tip",
+     "icon": "🧳",
+     "title": "Malas grandes no trem-bala",
+     "pt": "Em algumas linhas do shinkansen, malas muito grandes precisam de um assento especial reservado, com espaço para bagagem. As regras podem mudar: sempre avise no guichê e confira antes.",
+     "dos": [
+      "Avisar que tem mala grande ao comprar a passagem",
+      "Enviar malas grandes de hotel para hotel, um serviço comum no Japão"
+     ],
+     "donts": [
+      "Embarcar com malão sem reserva",
+      "Bloquear o corredor com a bagagem"
+     ],
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "choice",
+     "prompt": "Vocês têm duas malas enormes. O que você diz?",
+     "options": [
+      {
+       "text": "Yes, we have two big suitcases.",
+       "tone": "good",
+       "fb": "Muito bem! O atendente reserva os assentos com espaço para as malas.",
+       "pt": "Sim, temos duas malas grandes.",
+       "lang": "en",
+       "next": "platform.0"
+      },
+      {
+       "text": "No, just small bags.",
+       "tone": "bad",
+       "fb": "Hmm… e aquelas duas malas gigantes? Veja o que acontece na plataforma.",
+       "pt": "Não, só bolsas pequenas.",
+       "lang": "en",
+       "next": "bags.0"
+      }
+     ]
+    },
+    "bags.0": {
+     "type": "narration",
+     "pt": "Na plataforma, o funcionário vê as malas enormes e vem conversar com vocês. 😬",
+     "mood": "oops",
+     "next": "bags.1"
+    },
+    "bags.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Excuse me. These bags are very big. You need a special seat.",
+     "pt": "Com licença. Estas malas são muito grandes. Vocês precisam de um assento especial.",
+     "next": "bags.2"
+    },
+    "bags.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! Where can I change my ticket?",
+     "pt": "Ah, desculpe! Onde posso trocar a minha passagem?",
+     "next": "bags.3"
+    },
+    "bags.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "At the ticket office. Don't worry, there is another train soon.",
+     "pt": "No guichê. Não se preocupe, logo tem outro trem.",
+     "next": "platform.0"
+    },
+    "platform.0": {
+     "type": "narration",
+     "pt": "Na plataforma, o número de cada vagão está pintado no chão, e as pessoas fazem fila bem certinha. Vocês estão no vagão 7.",
+     "mood": "talk",
+     "next": "platform.1"
+    },
+    "platform.1": {
+     "type": "build",
+     "pt": "Onde fica a fila do vagão sete?",
+     "en": "Where is the line for car seven?",
+     "extra": [
+      "wait",
+      "train"
+     ],
+     "next": "platform.2"
+    },
+    "platform.2": {
+     "type": "narration",
+     "pt": "Antes de embarcar, vocês compram um ekiben: a marmita de estação, bonita e caprichada. 🍱 Comer no trem-bala é permitido e faz parte da diversão!",
+     "mood": "talk",
+     "next": "platform.3"
+    },
+    "platform.3": {
+     "type": "narration",
+     "pt": "O trem chega, e uma equipe de limpeza entra, arruma tudo em poucos minutos e ainda faz uma reverência na saída. Os bancos até giram para ficar de frente para o destino! 🙇",
+     "mood": "talk",
+     "next": "platform.4"
+    },
+    "platform.4": {
+     "type": "narration",
+     "pt": "Viagem começou. Tudo em silêncio… até que o celular de {spousePt} toca bem alto. 📱",
+     "mood": "talk",
+     "next": "platform.5"
+    },
+    "platform.5": {
+     "type": "choice",
+     "prompt": "O que {spousePt} deve fazer?",
+     "options": [
+      {
+       "text": "Ir até o espaço entre os vagões para atender",
+       "tone": "good",
+       "fb": "Isso! No trem japonês, ligações são feitas no espaço entre os vagões, e o celular fica no silencioso.",
+       "pt": null,
+       "lang": "pt",
+       "next": "platform.6"
+      },
+      {
+       "text": "Atender ali mesmo e falar alto",
+       "tone": "bad",
+       "fb": "Todo mundo olha em silêncio… 😳 No Japão, falar ao telefone dentro do vagão é falta de educação. Vá para o espaço entre os vagões!",
+       "pt": null,
+       "lang": "pt",
+       "next": "platform.6"
+      }
+     ]
+    },
+    "platform.6": {
+     "type": "narration",
+     "pt": "Na hora de reclinar o banco, uma gentileza: peça licença a quem está atrás. Em japonês, um simples \"Sumimasen\" já ajuda.",
+     "mood": "talk",
+     "next": "platform.7"
+    },
+    "platform.7": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, is it OK if I recline my seat?",
+     "pt": "Com licença, tudo bem se eu reclinar o meu banco?",
+     "next": "platform.8"
+    },
+    "platform.8": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Passageiro",
+     "en": "Sure, no problem.",
+     "pt": "Claro, sem problema.",
+     "next": "platform.9"
+    },
+    "platform.9": {
+     "type": "choice",
+     "prompt": "O trem chega a Kyoto exatamente no horário. O que você faz antes de descer?",
+     "options": [
+      {
+       "text": "Recolher o lixo do ekiben e levar com você",
+       "tone": "good",
+       "fb": "Perfeito! Deixar o lugar limpo é parte da educação japonesa.",
+       "pt": null,
+       "lang": "pt",
+       "next": "arrive.0"
+      },
+      {
+       "text": "Deixar a marmita vazia no banco",
+       "tone": "bad",
+       "fb": "Ih… a equipe de limpeza limpa, mas o costume é levar o seu lixo. Veja:",
+       "pt": null,
+       "lang": "pt",
+       "next": "trash.0"
+      }
+     ]
+    },
+    "arrive.0": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Wow, we arrived right on time!",
+     "pt": "Uau, chegamos bem na hora!",
+     "next": "arrive.1"
+    },
+    "arrive.1": {
+     "type": "end",
+     "ending": "pontual",
+     "title": "Final: pontual como o shinkansen",
+     "pt": "Assento reservado, silêncio no vagão e lixo recolhido. Kyoto, aí vamos nós! ⛩️"
+    },
+    "trash.0": {
+     "type": "narration",
+     "pt": "Um passageiro vê a marmita no banco e aponta gentilmente para as lixeiras perto da porta. 😅",
+     "mood": "oops",
+     "next": "trash.1"
+    },
+    "trash.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, sorry! Where is the trash can?",
+     "pt": "Ah, desculpe! Onde fica a lixeira?",
+     "next": "trash.2"
+    },
+    "trash.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Passageiro",
+     "en": "Near the door, between the cars.",
+     "pt": "Perto da porta, entre os vagões.",
+     "next": "trash.3"
+    },
+    "trash.3": {
+     "type": "end",
+     "ending": "lixo",
+     "title": "Final: lixo no lugar certo",
+     "pt": "Chegaram a Kyoto no horário e aprenderam: no Japão, cada um leva o seu lixo. 🚄"
+    }
+   },
+   "island": [
+    "🚄",
+    "🍱"
+   ]
+  },
+  {
+   "id": "c9",
+   "emoji": "⛩️",
+   "title": "Templos de Kyoto",
+   "titleEn": "Kyoto temples",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "⛩️",
+      "pulse"
+     ],
+     [
+      "🦊",
+      "walk"
+     ],
+     [
+      "🍁",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Fonte de purificação, reverências, omikuji e a etiqueta em Gion.",
+   "start": "start.0",
+   "endings": [
+    "respeito",
+    "rua-privada"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Konnichiwa, {name}! Bem-vindos a Kyoto, a antiga capital do Japão, com mais de mil templos e santuários. Hoje o roteiro é espiritual: portões vermelhos, fontes de purificação e, à noite, o bairro de Gion. Respira fundo e anda devagar, que aqui ninguém tem pressa. 🍁",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "⛩️",
+     "title": "Santuário ou templo?",
+     "pt": "O portão vermelho, o torii, marca a entrada de um santuário xintoísta. Os templos budistas costumam ter portões grandes de madeira e incenso. Nos dois, vale a mesma regra de ouro: respeito e silêncio.",
+     "dos": [
+      "Fazer uma pequena reverência antes de passar pelo torii",
+      "Andar pelas laterais do caminho: o centro é simbolicamente dos deuses"
+     ],
+     "donts": [
+      "Falar alto ou fazer bagunça",
+      "Sentar ou pendurar-se nos portões para foto"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "narration",
+     "pt": "Logo depois do portão tem uma fonte de pedra com conchas de bambu. É o temizuya, a fonte de purificação. Você fica na dúvida e pergunta a uma senhora japonesa com um educado \"Sumimasen\".",
+     "mood": "talk",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, how do I use this fountain?",
+     "pt": "Com licença, como eu uso esta fonte?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhora",
+     "en": "First your left hand, then your right hand. Then rinse your mouth.",
+     "pt": "Primeiro a mão esquerda, depois a direita. Depois enxágue a boca.",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "gap",
+     "who": "them",
+     "speaker": "Senhora",
+     "en": "Pour water in your hand. Don't ___ from the ladle.",
+     "answer": "drink",
+     "options": [
+      "drink",
+      "eat",
+      "wash",
+      "cook"
+     ],
+     "pt": "Coloque água na mão. Não beba direto da concha.",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "explain",
+     "title": "Os passos da purificação",
+     "pt": "A ordem é: 1) concha na mão direita, lava a esquerda; 2) troca de mão, lava a direita; 3) põe um pouco de água na palma e enxágua a boca, sem encostar a boca na concha; 4) deixa a concha em pé para a água escorrer pelo cabo. Se quiser, pule a parte da boca: lavar as mãos já está ótimo.",
+     "examples": [
+      {
+       "en": "Left hand first.",
+       "pt": "Primeiro a mão esquerda."
+      },
+      {
+       "en": "Don't touch the ladle with your mouth.",
+       "pt": "Não encoste a boca na concha."
+      }
+     ],
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "narration",
+     "pt": "No salão principal, você joga uma moedinha na caixa de oferendas, faz duas reverências, bate palmas duas vezes, faz um pedido e termina com mais uma reverência. Do lado, tem uma barraquinha de omikuji: os papeizinhos da sorte!",
+     "mood": "talk",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "choice",
+     "prompt": "Quer tirar a sorte?",
+     "options": [
+      {
+       "text": "Can I get a fortune, please?",
+       "tone": "good",
+       "fb": "Bora! Educado e direto. Vamos ver o que o destino diz…",
+       "pt": "Posso pegar uma sorte, por favor?",
+       "lang": "en",
+       "next": "fortune.0"
+      },
+      {
+       "text": "Pular a sorte e ir para Gion",
+       "tone": "ok",
+       "fb": "Tudo bem! Mas o omikuji é divertido… fica para a próxima.",
+       "pt": null,
+       "lang": "pt",
+       "next": "gion.0"
+      }
+     ]
+    },
+    "fortune.0": {
+     "type": "narration",
+     "pt": "Você chacoalha uma caixinha, sai um palito com um número e a atendente te entrega o papel. Nele está escrito… \"kyo\": má sorte! 😱",
+     "mood": "oops",
+     "next": "fortune.1"
+    },
+    "fortune.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh no! What does this mean?",
+     "pt": "Ah, não! O que isso significa?",
+     "next": "fortune.2"
+    },
+    "fortune.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "It's bad luck. But don't worry! Tie it here and leave the bad luck behind.",
+     "pt": "É má sorte. Mas não se preocupe! Amarre aqui e deixe a má sorte para trás.",
+     "next": "fortune.3"
+    },
+    "fortune.3": {
+     "type": "explain",
+     "title": "Omikuji",
+     "pt": "Quando a sorte é ruim, a tradição é amarrar o papel num varal ou numa árvore do santuário, para a má sorte ficar ali. Se for boa sorte, muita gente leva para casa. E no fim, um \"Arigatou gozaimasu\" (muito obrigado) cai sempre bem.",
+     "examples": [
+      {
+       "en": "Good luck!",
+       "pt": "Boa sorte!"
+      },
+      {
+       "en": "Bad luck.",
+       "pt": "Má sorte."
+      }
+     ],
+     "next": "gion.0"
+    },
+    "gion.0": {
+     "type": "narration",
+     "pt": "À noite, vocês chegam a Gion: casinhas de madeira, lanternas acesas… e, de repente, uma maiko (aprendiz de gueixa) passa apressada, com o quimono colorido e os tamancos fazendo toc-toc. 👘",
+     "mood": "talk",
+     "next": "gion.1"
+    },
+    "gion.1": {
+     "type": "tip",
+     "icon": "🏮",
+     "title": "Etiqueta em Gion",
+     "pt": "As geiko e maiko são profissionais indo trabalhar, não atrações turísticas. Várias vielas de Gion são particulares, e há placas proibindo fotos nelas.",
+     "dos": [
+      "Dar espaço e deixá-las passar",
+      "Obedecer às placas de proibido fotografar"
+     ],
+     "donts": [
+      "Correr atrás, tocar ou bloquear o caminho",
+      "Entrar em vielas particulares"
+     ],
+     "next": "gion.2"
+    },
+    "gion.2": {
+     "type": "build",
+     "pt": "Posso tirar fotos aqui?",
+     "en": "Is it OK to take photos here?",
+     "extra": [
+      "make",
+      "there"
+     ],
+     "next": "gion.3"
+    },
+    "gion.3": {
+     "type": "choice",
+     "prompt": "A maiko está passando bem na sua frente. O que você faz?",
+     "options": [
+      {
+       "text": "Dar um passo para o lado e deixá-la passar",
+       "tone": "good",
+       "fb": "Perfeito! Respeito total. Ela até faz uma pequena reverência de agradecimento.",
+       "pt": null,
+       "lang": "pt",
+       "next": "calm.0"
+      },
+      {
+       "text": "Wait! Photo, photo, please!",
+       "tone": "bad",
+       "fb": "Ai, ai, ai… correr atrás com o celular é justamente o que não se faz. Veja:",
+       "pt": "Espera! Foto, foto, por favor!",
+       "lang": "en",
+       "next": "chase.0"
+      }
+     ]
+    },
+    "calm.0": {
+     "type": "narration",
+     "pt": "Ela desaparece na esquina, e o momento fica guardado na memória, que é o melhor álbum. Vocês continuam passeando pela rua principal, que tem várias lojinhas de doces.",
+     "mood": "talk",
+     "next": "calm.1"
+    },
+    "calm.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "That was beautiful. Let's walk to the river.",
+     "pt": "Isso foi lindo. Vamos caminhar até o rio.",
+     "next": "calm.2"
+    },
+    "calm.2": {
+     "type": "end",
+     "ending": "respeito",
+     "title": "Final: turista nota dez",
+     "pt": "Purificação certinha, reverências no lugar e respeito em Gion. Kyoto aprovou vocês! ⛩️"
+    },
+    "chase.0": {
+     "type": "narration",
+     "pt": "Você sai correndo e entra numa viela estreita… e dá de cara com um senhor de braços cruzados, ao lado de uma placa com uma câmera riscada. 😬",
+     "mood": "oops",
+     "next": "chase.1"
+    },
+    "chase.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Morador",
+     "en": "Excuse me. No photos here. This is a private street.",
+     "pt": "Com licença. Sem fotos aqui. Esta é uma rua particular.",
+     "next": "chase.2"
+    },
+    "chase.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "I'm so sorry. I didn't know. We'll leave now.",
+     "pt": "Me desculpe. Eu não sabia. Já vamos sair.",
+     "next": "chase.3"
+    },
+    "chase.3": {
+     "type": "explain",
+     "title": "Pedindo desculpas",
+     "pt": "Errou? Peça desculpas curto e saia com calma. \"Sumimasen\" em japonês ou \"I'm sorry\" em inglês resolvem quase tudo.",
+     "examples": [
+      {
+       "en": "I'm so sorry.",
+       "pt": "Me desculpe."
+      },
+      {
+       "en": "I didn't know.",
+       "pt": "Eu não sabia."
+      }
+     ],
+     "next": "chase.4"
+    },
+    "chase.4": {
+     "type": "end",
+     "ending": "rua-privada",
+     "title": "Final: a viela particular",
+     "pt": "Susto passado e lição aprendida: em Gion, a maiko passa e a gente só admira de longe. 🏮"
+    }
+   },
+   "island": [
+    "⛩️",
+    "🦊"
+   ]
+  },
+  {
+   "id": "c10",
+   "emoji": "👘",
+   "title": "Kimono e cerimônia do chá",
+   "titleEn": "Kimono and tea ceremony",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "👘",
+      "sway"
+     ],
+     [
+      "🍵",
+      "pulse"
+     ],
+     [
+      "🌸",
+      "float"
+     ]
+    ]
+   },
+   "summary": "Tamanhos, aluguel de quimono e a etiqueta da cerimônia do chá.",
+   "start": "start.0",
+   "endings": [
+    "cha-perfeito",
+    "sem-acucar"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hoje é dia de se vestir a caráter! Vocês reservaram uma loja de aluguel de quimono em Kyoto, e depois tem cerimônia do chá. {spousePtCap} mal pode esperar para escolher as cores. 🌸",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Welcome! Do you have a reservation?",
+     "pt": "Bem-vindos! Vocês têm reserva?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, for two people. It's under the name {name}.",
+     "pt": "Sim, para duas pessoas. Está no nome de {name}.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Please choose a kimono. Then we will help you put it on.",
+     "pt": "Por favor, escolham um quimono. Depois nós ajudamos a vestir.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "narration",
+     "pt": "Você escolhe um lindo, mas na prova ele fica apertado nos ombros.",
+     "mood": "talk",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "It's a little tight. Do you have a ___ size?",
+     "answer": "bigger",
+     "options": [
+      "bigger",
+      "smaller",
+      "shorter",
+      "cheaper"
+     ],
+     "pt": "Está um pouco apertado. Vocês têm um tamanho maior?",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "explain",
+     "title": "Tamanhos",
+     "pt": "Para falar de roupa: \"tight\" é apertado, \"loose\" é folgado, \"a bigger size\" é um tamanho maior e \"a smaller size\" é um menor.",
+     "examples": [
+      {
+       "en": "It's too loose.",
+       "pt": "Está folgado demais."
+      },
+      {
+       "en": "This one fits well.",
+       "pt": "Este serviu bem."
+      }
+     ],
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Would you like a hair set too? It's extra.",
+     "pt": "Vocês querem arrumar o cabelo também? É cobrado à parte.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "Yes, please. That sounds great!",
+       "tone": "good",
+       "fb": "Penteado com enfeite de flor combina demais com o quimono!",
+       "pt": "Sim, por favor. Parece ótimo!",
+       "lang": "en",
+       "next": "start.9"
+      },
+      {
+       "text": "No, thank you. Just the kimono.",
+       "tone": "good",
+       "fb": "Também está ótimo: educado e claro.",
+       "pt": "Não, obrigado. Só o quimono.",
+       "lang": "en",
+       "next": "start.9"
+      }
+     ]
+    },
+    "start.9": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Please return the kimono by five o'clock.",
+     "pt": "Por favor, devolvam o quimono até as cinco horas.",
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "tip",
+     "icon": "👘",
+     "title": "Usando quimono",
+     "pt": "No quimono, o lado esquerdo fica por cima do direito. O contrário é usado para vestir os falecidos! A equipe da loja veste você, então é só confiar. E fique de olho no horário de devolução: atrasos costumam ter taxa.",
+     "dos": [
+      "Lado esquerdo por cima do direito",
+      "Dar passinhos curtos com as sandálias",
+      "Perguntar o horário de devolução"
+     ],
+     "donts": [
+      "Correr ou subir escadas com pressa",
+      "Comer algo que suja perto do quimono alugado"
+     ],
+     "next": "start.11"
+    },
+    "start.11": {
+     "type": "narration",
+     "pt": "Vestidos a caráter, vocês chegam a uma casa de chá tradicional. Tiram os sapatos, sentam no tatame e a mestra do chá prepara o matcha em silêncio, batendo com um pincel de bambu.",
+     "mood": "talk",
+     "next": "start.12"
+    },
+    "start.12": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Mestra do chá",
+     "en": "Please eat the sweet first. Then I will serve the tea.",
+     "pt": "Por favor, comam o docinho primeiro. Depois eu sirvo o chá.",
+     "next": "start.13"
+    },
+    "start.13": {
+     "type": "narration",
+     "pt": "O docinho japonês (wagashi) tem formato de flor. Aí chega a tigela de matcha: verde, espumoso… e bem amarguinho.",
+     "mood": "talk",
+     "next": "start.14"
+    },
+    "start.14": {
+     "type": "choice",
+     "prompt": "O que você faz com o chá?",
+     "options": [
+      {
+       "text": "Agradecer, girar a tigela e beber em goles curtos",
+       "tone": "good",
+       "fb": "Isso! Etiqueta de mestre. Veja os detalhes:",
+       "pt": null,
+       "lang": "pt",
+       "next": "tea.0"
+      },
+      {
+       "text": "Excuse me, can I have some sugar and milk?",
+       "tone": "bad",
+       "fb": "Hahaha! Açúcar no matcha da cerimônia? A mestra vai sorrir amarelo… 😅",
+       "pt": "Com licença, pode me dar açúcar e leite?",
+       "lang": "en",
+       "next": "sugar.0"
+      }
+     ]
+    },
+    "tea.0": {
+     "type": "explain",
+     "title": "Etiqueta do chá",
+     "pt": "Faça uma pequena reverência, pegue a tigela com a mão direita e apoie na palma esquerda. Gire a tigela duas vezes no sentido horário, para não beber pela frente decorada. Beba em poucos goles; o último pode fazer um barulhinho, que mostra que você gostou. Antes de começar, diga \"Itadakimasu\".",
+     "examples": [
+      {
+       "en": "Thank you for the tea.",
+       "pt": "Obrigado pelo chá."
+      },
+      {
+       "en": "It's delicious.",
+       "pt": "Está delicioso."
+      }
+     ],
+     "next": "tea.1"
+    },
+    "tea.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "It's delicious. Thank you for the tea.",
+     "pt": "Está delicioso. Obrigado pelo chá.",
+     "next": "tea.2"
+    },
+    "tea.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Mestra do chá",
+     "en": "Thank you for coming. You did very well!",
+     "pt": "Obrigada pela visita. Vocês se saíram muito bem!",
+     "next": "tea.3"
+    },
+    "tea.3": {
+     "type": "build",
+     "pt": "Obrigado pela linda cerimônia do chá.",
+     "en": "Thank you for the beautiful tea ceremony.",
+     "extra": [
+      "coffee",
+      "party"
+     ],
+     "next": "tea.4"
+    },
+    "tea.4": {
+     "type": "end",
+     "ending": "cha-perfeito",
+     "title": "Final: mestres do chá",
+     "pt": "Quimono, docinho e matcha na etiqueta certa. A mestra ficou orgulhosa! 🍵"
+    },
+    "sugar.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Mestra do chá",
+     "en": "Sorry, we don't use sugar. The sweet makes the tea taste softer.",
+     "pt": "Desculpe, não usamos açúcar. O docinho deixa o chá mais suave.",
+     "next": "sugar.1"
+    },
+    "sugar.1": {
+     "type": "narration",
+     "pt": "Ahá! É por isso que o docinho vem antes: ele prepara a boca para o amargor do matcha.",
+     "mood": "oops",
+     "next": "sugar.2"
+    },
+    "sugar.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, I see. Let me try it.",
+     "pt": "Ah, entendi. Deixa eu experimentar.",
+     "next": "sugar.3"
+    },
+    "sugar.3": {
+     "type": "narration",
+     "pt": "Você dá um gole e… surpresa! Com o doce ainda na boca, o chá fica macio e gostoso. Você termina com um \"Arigatou gozaimasu\" e uma reverência.",
+     "mood": "talk",
+     "next": "sugar.4"
+    },
+    "sugar.4": {
+     "type": "end",
+     "ending": "sem-acucar",
+     "title": "Final: o matcha sem açúcar",
+     "pt": "Pediu açúcar, mas descobriu o segredo do docinho. Agora você entende o matcha! 😄"
+    }
+   },
+   "island": [
+    "👘",
+    "🍵"
+   ]
+  },
+  {
+   "id": "c11",
+   "emoji": "🦌",
+   "title": "Nara e os cervos",
+   "titleEn": "Nara and the deer",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🦌",
+      "walk"
+     ],
+     [
+      "🍘",
+      "bob"
+     ],
+     [
+      "🌳",
+      "sway"
+     ]
+    ]
+   },
+   "summary": "Biscoitos para os cervos, o Grande Buda e como pedir uma foto.",
+   "start": "start.0",
+   "endings": [
+    "foto-perfeita",
+    "selfie-cervo"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Bate-volta de trem até Nara! Aqui, centenas de cervos andam soltos pelo parque, pelas ruas e até na porta dos templos. Eles são considerados mensageiros sagrados e são muito… famintos. 🦌",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🦌",
+     "title": "Regras dos cervos",
+     "pt": "Os cervos de Nara são selvagens, mesmo parecendo mansos. Só dê a eles os biscoitos próprios, vendidos nas barraquinhas do parque (shika senbei). Muitos cervos fazem uma reverência com a cabeça antes de ganhar o biscoito!",
+     "dos": [
+      "Guardar mapas, papéis e sacolas: eles comem papel",
+      "Mostrar as mãos vazias quando o biscoito acabar"
+     ],
+     "donts": [
+      "Dar outra comida ou provocar os cervos",
+      "Ficar balançando o biscoito no alto"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Excuse me, one pack of deer crackers, please.",
+     "pt": "Com licença, um pacote de biscoitos para cervos, por favor.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Here you are. Be careful, they can bite a little!",
+     "pt": "Aqui está. Cuidado, eles podem dar uma mordidinha!",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "narration",
+     "pt": "Nem deu tempo de abrir o pacote: cinco cervos já estão em volta de você, olhando fixo. 👀",
+     "mood": "talk",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Fazer uma reverência e dar um biscoito de cada vez",
+       "tone": "good",
+       "fb": "Muito bem! Olha só: o cervo faz uma reverência de volta! 🙇",
+       "pt": null,
+       "lang": "pt",
+       "next": "bow.0"
+      },
+      {
+       "text": "Levantar o pacote bem alto e brincar com eles",
+       "tone": "bad",
+       "fb": "Xiii… provocar cervo faminto nunca termina bem. 😂",
+       "pt": null,
+       "lang": "pt",
+       "next": "tease.0"
+      }
+     ]
+    },
+    "bow.0": {
+     "type": "narration",
+     "pt": "Você faz uma reverência, o cervo abaixa a cabeça também, e você entrega o biscoito. Que fofura! {spousePtCap} filma tudo para mandar para a família.",
+     "mood": "talk",
+     "next": "bow.1"
+    },
+    "bow.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Look! The deer is bowing to me!",
+     "pt": "Olha! O cervo está fazendo reverência para mim!",
+     "next": "temple.0"
+    },
+    "tease.0": {
+     "type": "narration",
+     "pt": "Os cervos perdem a paciência: um puxa a sua camisa com a boca, outro dá uma cabeçadinha e um terceiro… come metade do seu mapa! 🗺️",
+     "mood": "oops",
+     "next": "tease.1"
+    },
+    "tease.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Hey! Not my map! OK, OK, here you go!",
+     "pt": "Ei! Meu mapa não! Tá bom, tá bom, toma!",
+     "next": "tease.2"
+    },
+    "tease.2": {
+     "type": "explain",
+     "title": "Acabou!",
+     "pt": "Quando o biscoito acabar, mostre as duas mãos abertas e vazias, e os cervos entendem. Dá para falar também:",
+     "examples": [
+      {
+       "en": "Sorry, no more crackers.",
+       "pt": "Desculpa, acabaram os biscoitos."
+      },
+      {
+       "en": "All gone!",
+       "pt": "Acabou tudo!"
+      }
+     ],
+     "next": "temple.0"
+    },
+    "temple.0": {
+     "type": "narration",
+     "pt": "Agora, o Todai-ji: um templo de madeira gigantesco que guarda o Grande Buda, uma estátua de bronze com uns quinze metros de altura. Você fica de boca aberta!",
+     "mood": "talk",
+     "next": "temple.1"
+    },
+    "temple.1": {
+     "type": "explain",
+     "title": "Big, bigger, the biggest",
+     "pt": "Para comparar tamanhos: \"big\" é grande, \"bigger\" é maior e \"the biggest\" é o maior de todos.",
+     "examples": [
+      {
+       "en": "It's huge!",
+       "pt": "É enorme!"
+      },
+      {
+       "en": "This is the biggest Buddha I've ever seen.",
+       "pt": "Este é o maior Buda que eu já vi."
+      }
+     ],
+     "next": "temple.2"
+    },
+    "temple.2": {
+     "type": "narration",
+     "pt": "Lá dentro, tem uma coluna com um buraco na base, do tamanho da narina do Buda. Dizem que quem passa por ele tem sorte. As crianças passam fácil… os adultos, nem sempre! 😂",
+     "mood": "talk",
+     "next": "temple.3"
+    },
+    "temple.3": {
+     "type": "narration",
+     "pt": "Na saída, vocês querem uma foto juntos, com o templo ao fundo. Um casal simpático está passando.",
+     "mood": "talk",
+     "next": "temple.4"
+    },
+    "temple.4": {
+     "type": "choice",
+     "prompt": "Como você pede a foto?",
+     "options": [
+      {
+       "text": "Excuse me, could you take a picture of us, please?",
+       "tone": "good",
+       "fb": "Perfeito! \"Could you…?\" é educadíssimo.",
+       "pt": "Com licença, você poderia tirar uma foto nossa, por favor?",
+       "lang": "en",
+       "next": "photo.0"
+      },
+      {
+       "text": "Esticar o braço e fazer uma selfie",
+       "tone": "ok",
+       "fb": "Funciona! Mas o templo inteiro não coube… e o inglês ficou de fora.",
+       "pt": null,
+       "lang": "pt",
+       "next": "selfie.0"
+      }
+     ]
+    },
+    "photo.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Turista",
+     "en": "Sure! Which button do I press?",
+     "pt": "Claro! Qual botão eu aperto?",
+     "next": "photo.1"
+    },
+    "photo.1": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Just press this ___. Thank you so much!",
+     "answer": "button",
+     "options": [
+      "button",
+      "bottle",
+      "screen",
+      "door"
+     ],
+     "pt": "É só apertar este botão. Muito obrigado!",
+     "next": "photo.2"
+    },
+    "photo.2": {
+     "type": "build",
+     "pt": "Você poderia tirar uma foto nossa, por favor?",
+     "en": "Could you take a picture of us, please?",
+     "extra": [
+      "make",
+      "our"
+     ],
+     "next": "photo.3"
+    },
+    "photo.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Turista",
+     "en": "One, two, three… smile!",
+     "pt": "Um, dois, três… sorriam!",
+     "next": "photo.4"
+    },
+    "photo.4": {
+     "type": "end",
+     "ending": "foto-perfeita",
+     "title": "Final: a foto perfeita",
+     "pt": "Cervos que fazem reverência, o Grande Buda e uma foto linda para a família. Nara foi um sonho! 🦌📸"
+    },
+    "selfie.0": {
+     "type": "narration",
+     "pt": "A selfie ficou com vocês dois, metade do telhado… e um cervo curioso lambendo a sua orelha. 😂",
+     "mood": "talk",
+     "next": "selfie.1"
+    },
+    "selfie.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Let's ask someone next time!",
+     "pt": "Da próxima vez, vamos pedir para alguém!",
+     "next": "selfie.2"
+    },
+    "selfie.2": {
+     "type": "end",
+     "ending": "selfie-cervo",
+     "title": "Final: selfie com cervo",
+     "pt": "A foto não mostrou o templo, mas o cervo virou a estrela do álbum da família! 🤳🦌"
+    }
+   },
+   "island": [
+    "🦌",
+    "🛕"
+   ]
+  },
+  {
+   "id": "c12",
+   "emoji": "🐙",
+   "title": "Comida de rua em Osaka",
+   "titleEn": "Osaka street food",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🐙",
+      "swim"
+     ],
+     [
+      "🏮",
+      "pulse"
+     ],
+     [
+      "🍢",
+      "bob"
+     ]
+    ]
+   },
+   "summary": "Takoyaki quentíssimo, okonomiyaki, o molho do kushikatsu e a escada rolante de Osaka.",
+   "start": "start.0",
+   "endings": [
+    "kuidaore",
+    "molho-duplo"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Osaka! Aqui o lema é \"kuidaore\": comer até cair. 😋 Vocês estão em Dotonbori, a rua do canal cheia de letreiros gigantes, luzes piscando e barraquinhas de comida por todo lado.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🛗",
+     "title": "Escada rolante em Osaka",
+     "pt": "Em Tóquio, quem fica parado na escada rolante fica à esquerda. Em Osaka, é o contrário: fica-se à direita, e a esquerda é para quem sobe andando! Na dúvida, copie quem está na sua frente.",
+     "dos": [
+      "Em Osaka, ficar parado à direita",
+      "Comer perto da barraca onde comprou"
+     ],
+     "donts": [
+      "Sair andando e comendo pela rua lotada",
+      "Deixar o lixo por aí: guarde até achar uma lixeira"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "narration",
+     "pt": "Primeira parada: takoyaki, bolinhos de massa com pedacinhos de polvo, cobertos de molho e flocos de peixe seco que ficam \"dançando\" com o calor.",
+     "mood": "talk",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Hi! One takoyaki, please. Six pieces.",
+     "pt": "Oi! Um takoyaki, por favor. Seis bolinhos.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Here you go. Be careful, it's very hot!",
+     "pt": "Aqui está. Cuidado, está muito quente!",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "choice",
+     "prompt": "O takoyaki acabou de sair da chapa. E aí?",
+     "options": [
+      {
+       "text": "Esperar um pouco e assoprar antes de morder",
+       "tone": "good",
+       "fb": "Sábio! Por dentro ele é quase líquido e muito quente.",
+       "pt": null,
+       "lang": "pt",
+       "next": "wait.0"
+      },
+      {
+       "text": "Colocar o bolinho inteiro na boca de uma vez",
+       "tone": "bad",
+       "fb": "Nãooo! Lava na boca! 🔥",
+       "pt": null,
+       "lang": "pt",
+       "next": "hot.0"
+      }
+     ]
+    },
+    "hot.0": {
+     "type": "narration",
+     "pt": "Você enfia o bolinho inteiro na boca e… AAAH! Parece lava de vulcão! Você abana a boca, pula e faz umas caretas enquanto {spousePt} morre de rir. 🥵",
+     "mood": "oops",
+     "next": "hot.1"
+    },
+    "hot.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Water, please! It's so hot!",
+     "pt": "Água, por favor! Está muito quente!",
+     "next": "hot.2"
+    },
+    "hot.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedor",
+     "en": "Ha ha! Everybody does that the first time. Here, some water.",
+     "pt": "Ha ha! Todo mundo faz isso na primeira vez. Tome, um pouco de água.",
+     "next": "food.0"
+    },
+    "wait.0": {
+     "type": "narration",
+     "pt": "Vocês ficam do ladinho da barraca, assopram e dão mordidinhas. Crocante por fora, cremoso por dentro. Uma delícia!",
+     "mood": "talk",
+     "next": "wait.1"
+    },
+    "wait.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Wow, this is delicious!",
+     "pt": "Nossa, isto está delicioso!",
+     "next": "food.0"
+    },
+    "food.0": {
+     "type": "explain",
+     "title": "Delicioso!",
+     "pt": "Para elogiar comida: \"delicious\" é delicioso, \"so good\" é muito bom. Em japonês, \"Oishii!\" é gostoso. E em Osaka, muita gente diz \"Ookini\" no lugar de obrigado!",
+     "examples": [
+      {
+       "en": "This is so good!",
+       "pt": "Isto está muito bom!"
+      },
+      {
+       "en": "What is this called?",
+       "pt": "Como se chama isto?"
+      }
+     ],
+     "next": "food.1"
+    },
+    "food.1": {
+     "type": "narration",
+     "pt": "Próxima parada: okonomiyaki, uma panqueca salgada de repolho feita na chapa na sua frente, com o que você quiser dentro.",
+     "mood": "talk",
+     "next": "food.2"
+    },
+    "food.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Pork, shrimp or squid?",
+     "pt": "Porco, camarão ou lula?",
+     "next": "food.3"
+    },
+    "food.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can I have one ___ shrimp, please?",
+     "answer": "with",
+     "options": [
+      "with",
+      "for",
+      "at",
+      "on"
+     ],
+     "pt": "Pode me dar um com camarão, por favor?",
+     "next": "food.4"
+    },
+    "food.4": {
+     "type": "build",
+     "pt": "Podemos comer aqui perto da barraca?",
+     "en": "Can we eat here near the stall?",
+     "extra": [
+      "walk",
+      "there"
+     ],
+     "next": "food.5"
+    },
+    "food.5": {
+     "type": "narration",
+     "pt": "Última parada: kushikatsu, espetinhos empanados e fritos. No balcão tem uma vasilha de molho que todo mundo usa. E uma plaquinha: \"No double dipping!\"",
+     "mood": "talk",
+     "next": "food.6"
+    },
+    "food.6": {
+     "type": "explain",
+     "title": "No double dipping",
+     "pt": "O molho é compartilhado, então só pode mergulhar o espetinho UMA vez, antes de morder. Quer mais molho? Use uma folha de repolho como colher.",
+     "examples": [
+      {
+       "en": "Only dip once.",
+       "pt": "Só mergulhe uma vez."
+      },
+      {
+       "en": "Use the cabbage.",
+       "pt": "Use o repolho."
+      }
+     ],
+     "next": "food.7"
+    },
+    "food.7": {
+     "type": "choice",
+     "prompt": "Você mordeu o espetinho e quer mais molho. O que faz?",
+     "options": [
+      {
+       "text": "Pegar molho com a folha de repolho",
+       "tone": "good",
+       "fb": "Isso! O truque do repolho é a etiqueta oficial. 🥬",
+       "pt": null,
+       "lang": "pt",
+       "next": "cabbage.0"
+      },
+      {
+       "text": "Mergulhar de novo o espetinho mordido",
+       "tone": "bad",
+       "fb": "Epa! Todo o balcão viu… 😳",
+       "pt": null,
+       "lang": "pt",
+       "next": "double.0"
+      }
+     ]
+    },
+    "cabbage.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Good job! You know the rules!",
+     "pt": "Muito bem! Você conhece as regras!",
+     "next": "cabbage.1"
+    },
+    "cabbage.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you! Everything was delicious.",
+     "pt": "Obrigado! Estava tudo delicioso.",
+     "next": "cabbage.2"
+    },
+    "cabbage.2": {
+     "type": "end",
+     "ending": "kuidaore",
+     "title": "Final: comer até cair",
+     "pt": "Takoyaki, okonomiyaki e kushikatsu com etiqueta perfeita. Osaka te adotou! 🐙🍢"
+    },
+    "double.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Oh! No double dipping, please. Use the cabbage for more sauce.",
+     "pt": "Oh! Não mergulhe duas vezes, por favor. Use o repolho para pegar mais molho.",
+     "next": "double.1"
+    },
+    "double.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Sorry! I didn't know. Thanks for telling me.",
+     "pt": "Desculpe! Eu não sabia. Obrigado por me avisar.",
+     "next": "double.2"
+    },
+    "double.2": {
+     "type": "narration",
+     "pt": "O cozinheiro sorri e troca o molho. Você aprendeu do jeito mais constrangedor, mas nunca mais vai esquecer! 😅",
+     "mood": "oops",
+     "next": "double.3"
+    },
+    "double.3": {
+     "type": "end",
+     "ending": "molho-duplo",
+     "title": "Final: o molho duplo",
+     "pt": "Um vacilo no molho, mas a barriga ficou feliz. Da próxima vez, repolho neles! 🥬"
+    }
+   },
+   "island": [
+    "🐙",
+    "🏮"
+   ]
+  },
+  {
+   "id": "c13",
+   "emoji": "🏯",
+   "title": "Castelo de Osaka e achados e perdidos",
+   "titleEn": "Osaka Castle and lost and found",
+   "scene": {
+    "sky": "day",
+    "items": [
+     [
+      "🏯",
+      "bob"
+     ],
+     [
+      "🌸",
+      "float"
+     ],
+     [
+      "👛",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "Castelo de Osaka, a carteira esquecida no trem e o achados e perdidos.",
+   "start": "start.0",
+   "endings": [
+    "honestidade"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Konnichiwa, {name}! Hoje o passeio é no Castelo de Osaka: muralhas de pedra gigantes, fosso com água em volta e uma torre branca com detalhes dourados. Parece cenário de filme de samurai! 🏯",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "Hello! Two adult tickets?",
+     "pt": "Olá! Dois ingressos de adulto?",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, two adults, please.",
+     "pt": "Sim, dois adultos, por favor.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "The museum is inside the tower. The view from the top floor is beautiful.",
+     "pt": "O museu fica dentro da torre. A vista do último andar é linda.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "narration",
+     "pt": "Vocês sobem andar por andar e, lá no alto, a cidade inteira aparece. {spousePtCap} tira umas cem fotos. 📸",
+     "mood": "talk",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "narration",
+     "pt": "Na volta, vocês pegam o trem para o hotel. Descem na estação, andam um pouquinho… e você bate no bolso. Cadê a carteira?! 😱",
+     "mood": "oops",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "narration",
+     "pt": "Calma, respira. Você lembra: deixou a carteira no banco do trem. Estamos no Japão, e aqui a história costuma ter final feliz.",
+     "mood": "talk",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Ir até o balcão da estação e pedir ajuda",
+       "tone": "good",
+       "fb": "Isso! Os funcionários da estação são os melhores aliados.",
+       "pt": null,
+       "lang": "pt",
+       "next": "station.0"
+      },
+      {
+       "text": "Correr atrás do trem pela plataforma",
+       "tone": "bad",
+       "fb": "Hahaha, o trem japonês não espera ninguém! Veja…",
+       "pt": null,
+       "lang": "pt",
+       "next": "run.0"
+      }
+     ]
+    },
+    "run.0": {
+     "type": "narration",
+     "pt": "Você corre pela plataforma… mas o trem já foi embora, pontualíssimo como sempre. Um funcionário de uniforme se aproxima, preocupado. 🚆💨",
+     "mood": "oops",
+     "next": "run.1"
+    },
+    "run.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Excuse me, is everything OK?",
+     "pt": "Com licença, está tudo bem?",
+     "next": "run.2"
+    },
+    "run.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "I'm sorry. I left my wallet on the train.",
+     "pt": "Desculpe. Eu deixei minha carteira no trem.",
+     "next": "run.3"
+    },
+    "run.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Don't worry. Please come to the station office with me.",
+     "pt": "Não se preocupe. Por favor, venha comigo ao escritório da estação.",
+     "next": "station.0"
+    },
+    "station.0": {
+     "type": "explain",
+     "title": "Lost and found",
+     "pt": "\"Lost and found\" é o setor de achados e perdidos. Para contar o que aconteceu, use \"I left… on the train\" (eu deixei… no trem) ou \"I lost my…\" (eu perdi meu…).",
+     "examples": [
+      {
+       "en": "I left my wallet on the train.",
+       "pt": "Eu deixei minha carteira no trem."
+      },
+      {
+       "en": "Where is the lost and found?",
+       "pt": "Onde fica o achados e perdidos?"
+      }
+     ],
+     "next": "station.1"
+    },
+    "station.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Which train were you on? And what time?",
+     "pt": "Em qual trem você estava? E a que horas?",
+     "next": "station.2"
+    },
+    "station.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "We got off here about ten minutes ___.",
+     "answer": "ago",
+     "options": [
+      "ago",
+      "before",
+      "later",
+      "after"
+     ],
+     "pt": "Nós descemos aqui uns dez minutos atrás.",
+     "next": "station.3"
+    },
+    "station.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Can you describe your wallet?",
+     "pt": "Você pode descrever a sua carteira?",
+     "next": "station.4"
+    },
+    "station.4": {
+     "type": "build",
+     "pt": "É uma carteira pequena de couro marrom.",
+     "en": "It is a small brown leather wallet.",
+     "extra": [
+      "big",
+      "bag"
+     ],
+     "next": "station.5"
+    },
+    "station.5": {
+     "type": "explain",
+     "title": "Descrever objetos",
+     "pt": "Em inglês, a ordem é: tamanho, cor, material e depois o objeto. \"A small black phone case\", \"a big blue backpack\".",
+     "examples": [
+      {
+       "en": "It's a black phone with a green case.",
+       "pt": "É um celular preto com capinha verde."
+      },
+      {
+       "en": "There is a Brazil sticker on it.",
+       "pt": "Tem um adesivo do Brasil nele."
+      }
+     ],
+     "next": "station.6"
+    },
+    "station.6": {
+     "type": "narration",
+     "pt": "O funcionário faz uma ligação e fala rapidinho em japonês. Minutos depois, ele sorri.",
+     "mood": "talk",
+     "next": "station.7"
+    },
+    "station.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Good news! A passenger found it. It's at the last station.",
+     "pt": "Boa notícia! Um passageiro encontrou. Está na última estação.",
+     "next": "station.8"
+    },
+    "station.8": {
+     "type": "tip",
+     "icon": "🇯🇵",
+     "title": "A cultura da honestidade",
+     "pt": "No Japão, quem encontra algo perdido costuma entregar no balcão da estação ou no posto policial (koban). Carteiras voltam com o dinheiro dentro! Por isso, sempre vale a pena perguntar.",
+     "dos": [
+      "Procurar logo um funcionário da estação",
+      "Anotar a linha, o horário e o vagão",
+      "Levar o passaporte para retirar o objeto"
+     ],
+     "donts": [
+      "Achar que perdeu para sempre",
+      "Abandonar o objeto dos outros: entregue ao balcão"
+     ],
+     "next": "station.9"
+    },
+    "station.9": {
+     "type": "choice",
+     "prompt": "Como você agradece?",
+     "options": [
+      {
+       "text": "Thank you so much! You saved our day!",
+       "tone": "good",
+       "fb": "Lindo! E um \"Arigatou gozaimasu\" com uma pequena reverência deixa tudo perfeito.",
+       "pt": "Muito obrigado! Você salvou o nosso dia!",
+       "lang": "en",
+       "next": "happy.0"
+      },
+      {
+       "text": "Can you bring it to my hotel?",
+       "tone": "ok",
+       "fb": "Hmm, ele ajudou muito, mas é você quem vai buscar. Veja:",
+       "pt": "Você pode levar até o meu hotel?",
+       "lang": "en",
+       "next": "pickup.0"
+      }
+     ]
+    },
+    "pickup.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário",
+     "en": "Sorry, you need to go there. Please bring your passport.",
+     "pt": "Desculpe, você precisa ir até lá. Por favor, leve seu passaporte.",
+     "next": "pickup.1"
+    },
+    "pickup.1": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Of course. Thank you very much for your help.",
+     "pt": "Claro. Muito obrigado pela sua ajuda.",
+     "next": "happy.0"
+    },
+    "happy.0": {
+     "type": "narration",
+     "pt": "Vocês vão até a última estação, mostram o passaporte e… lá está a carteira, com tudo dentro, até as moedinhas. 👛✨",
+     "mood": "talk",
+     "next": "happy.1"
+    },
+    "happy.1": {
+     "type": "end",
+     "ending": "honestidade",
+     "title": "Final: carteira de volta",
+     "pt": "Susto resolvido e uma lição sobre o Japão: aqui, a honestidade é regra. \"Arigatou gozaimasu\", passageiro desconhecido! 🙏"
+    }
+   },
+   "island": [
+    "🏯",
+    "👛"
+   ]
+  },
+  {
+   "id": "c14",
+   "emoji": "⛴️",
+   "title": "Hiroshima e Miyajima",
+   "titleEn": "Hiroshima and Miyajima",
+   "scene": {
+    "sky": "sea",
+    "items": [
+     [
+      "⛩️",
+      "float"
+     ],
+     [
+      "⛴️",
+      "swim"
+     ],
+     [
+      "🕊️",
+      "fly"
+     ]
+    ]
+   },
+   "summary": "Visita respeitosa ao Parque da Paz, balsa, maré e okonomiyaki de Hiroshima.",
+   "start": "start.0",
+   "endings": [
+    "miyajima"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Hoje vocês chegam a Hiroshima. Antes de tudo, uma visita que pede silêncio e respeito: o Parque Memorial da Paz. Aqui eu falo baixinho também. 🕊️",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🕊️",
+     "title": "Parque Memorial da Paz",
+     "pt": "O parque lembra as vítimas da bomba atômica de 1945 e é um lugar dedicado à paz. As pessoas visitam em silêncio, deixam tsurus de papel (garças de origami) e fazem uma oração ou um minuto de reflexão.",
+     "dos": [
+      "Falar baixo e caminhar com calma",
+      "Tirar fotos com respeito",
+      "Ler as placas e ouvir com atenção"
+     ],
+     "donts": [
+      "Fazer poses engraçadas nas fotos",
+      "Rir alto ou brincar perto dos memoriais"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Guia voluntária",
+     "en": "Welcome. This park is a place to remember and to pray for peace.",
+     "pt": "Bem-vindos. Este parque é um lugar para lembrar e rezar pela paz.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you for sharing this with us.",
+     "pt": "Obrigado por compartilhar isso com a gente.",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "narration",
+     "pt": "Vocês ficam um momento em silêncio diante da chama da paz. {spousePtCap} segura a sua mão. Hiroshima hoje é uma cidade viva, verde e cheia de esperança.",
+     "mood": "talk",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "narration",
+     "pt": "Depois, com o coração mais leve, vocês seguem para o porto. Próximo destino: a ilha de Miyajima, de balsa! ⛴️",
+     "mood": "talk",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionário do porto",
+     "en": "The ferry leaves every fifteen minutes. The trip is about ten minutes.",
+     "pt": "A balsa sai a cada quinze minutos. A viagem leva uns dez minutos.",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "What time does the next ferry ___?",
+     "answer": "leave",
+     "options": [
+      "leave",
+      "leaves",
+      "live",
+      "leaving"
+     ],
+     "pt": "A que horas sai a próxima balsa?",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "narration",
+     "pt": "Da balsa, vocês já veem: o grande portal vermelho (torii) que parece flutuar no mar. ⛩️🌊",
+     "mood": "talk",
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "explain",
+     "title": "Tide: a maré",
+     "pt": "O torii de Miyajima parece flutuar na maré alta (high tide). Na maré baixa (low tide), dá para caminhar até ele pela areia! Pergunte o horário da maré no porto ou no hotel.",
+     "examples": [
+      {
+       "en": "When is high tide today?",
+       "pt": "Quando é a maré alta hoje?"
+      },
+      {
+       "en": "Can we walk to the gate at low tide?",
+       "pt": "Podemos caminhar até o portal na maré baixa?"
+      }
+     ],
+     "next": "start.10"
+    },
+    "start.10": {
+     "type": "narration",
+     "pt": "Na ilha, cervos passeiam tranquilos entre as lojinhas. Vocês querem ver o torii de pertinho.",
+     "mood": "talk",
+     "next": "start.11"
+    },
+    "start.11": {
+     "type": "choice",
+     "prompt": "O que vocês fazem?",
+     "options": [
+      {
+       "text": "When is low tide today?",
+       "tone": "good",
+       "fb": "Ótima pergunta! Assim vocês planejam a caminhada até o portal.",
+       "pt": "Quando é a maré baixa hoje?",
+       "lang": "en",
+       "next": "tide.0"
+      },
+      {
+       "text": "Tirar os sapatos e entrar no mar agora mesmo",
+       "tone": "bad",
+       "fb": "Opa! A maré está alta e a água bate na cintura. Veja…",
+       "pt": null,
+       "lang": "pt",
+       "next": "wet.0"
+      }
+     ]
+    },
+    "wet.0": {
+     "type": "narration",
+     "pt": "Você dá dois passos e a água já está no joelho. Um senhor japonês acena da areia, rindo gentilmente. 😅🌊",
+     "mood": "oops",
+     "next": "wet.1"
+    },
+    "wet.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhor",
+     "en": "The tide is high now. Come back in the afternoon!",
+     "pt": "A maré está alta agora. Volte à tarde!",
+     "next": "wet.2"
+    },
+    "wet.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Oh, thank you! What time is low tide?",
+     "pt": "Ah, obrigado! Que horas é a maré baixa?",
+     "next": "wet.3"
+    },
+    "wet.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Senhor",
+     "en": "Around four o'clock.",
+     "pt": "Por volta das quatro horas.",
+     "next": "tide.0"
+    },
+    "tide.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Low tide is around four. You can walk to the gate then.",
+     "pt": "A maré baixa é por volta das quatro. Aí vocês podem caminhar até o portal.",
+     "next": "tide.1"
+    },
+    "tide.1": {
+     "type": "narration",
+     "pt": "Enquanto esperam, a fome bate. Hora de provar o famoso okonomiyaki estilo Hiroshima, feito em camadas com macarrão no meio! 🥞",
+     "mood": "talk",
+     "next": "tide.2"
+    },
+    "tide.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Cozinheiro",
+     "en": "Hiroshima style has noodles inside. Would you like an egg on top?",
+     "pt": "O estilo Hiroshima tem macarrão dentro. Querem um ovo por cima?",
+     "next": "tide.3"
+    },
+    "tide.3": {
+     "type": "choice",
+     "prompt": "Vocês estão com muita fome. Como pedem?",
+     "options": [
+      {
+       "text": "Yes, please! Can we share one? They look big.",
+       "tone": "good",
+       "fb": "Esperto! O okonomiyaki de Hiroshima é bem servido, e dividir é normal.",
+       "pt": "Sim, por favor! Podemos dividir um? Parecem grandes.",
+       "lang": "en",
+       "next": "tide.4"
+      },
+      {
+       "text": "Apontar para a foto do cardápio e sorrir",
+       "tone": "ok",
+       "fb": "Funciona! Apontar é super comum no Japão. Mas vamos treinar a frase também:",
+       "pt": null,
+       "lang": "pt",
+       "next": "tide.4"
+      }
+     ]
+    },
+    "tide.4": {
+     "type": "build",
+     "pt": "Nós queremos um com ovo, por favor.",
+     "en": "We would like one with egg, please.",
+     "extra": [
+      "want",
+      "eggs"
+     ],
+     "next": "tide.5"
+    },
+    "tide.5": {
+     "type": "narration",
+     "pt": "Antes de comer, vocês dizem \"Itadakimasu\", o \"bom apetite\" japonês. O cozinheiro sorri. 😊",
+     "mood": "talk",
+     "next": "tide.6"
+    },
+    "tide.6": {
+     "type": "end",
+     "ending": "miyajima",
+     "title": "Final: paz e maré baixa",
+     "pt": "Um dia de reflexão em Hiroshima e de encanto em Miyajima. Vocês caminharam até o torii na maré baixa e voltaram com o coração cheio. 🕊️⛩️"
+    }
+   },
+   "island": [
+    "⛩️",
+    "🕊️"
+   ]
+  },
+  {
+   "id": "c15",
+   "emoji": "🌀",
+   "title": "Tufão, farmácia e imprevistos",
+   "titleEn": "Typhoon, drugstore and surprises",
+   "scene": {
+    "sky": "night",
+    "items": [
+     [
+      "🌀",
+      "spin"
+     ],
+     [
+      "☔",
+      "sway"
+     ],
+     [
+      "💊",
+      "pulse"
+     ]
+    ]
+   },
+   "summary": "Alerta de tufão, trem cancelado, farmácia e o que fazer num terremoto.",
+   "start": "start.0",
+   "endings": [
+    "imprevistos"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "{name}, viagem longa também tem imprevistos! Hoje de manhã, o celular apita: alerta de tufão chegando à região. 🌀 Nada de pânico: o Japão está muito preparado para isso.",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista",
+     "en": "A typhoon is coming tonight. Many trains may be canceled tomorrow.",
+     "pt": "Um tufão está chegando hoje à noite. Muitos trens podem ser cancelados amanhã.",
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "explain",
+     "title": "Canceled e delayed",
+     "pt": "\"Canceled\" é cancelado; \"delayed\" é atrasado; \"suspended\" é suspenso (parado por um tempo). São palavras que aparecem nos painéis das estações.",
+     "examples": [
+      {
+       "en": "Is my train canceled?",
+       "pt": "O meu trem foi cancelado?"
+      },
+      {
+       "en": "The train is delayed.",
+       "pt": "O trem está atrasado."
+      }
+     ],
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "narration",
+     "pt": "E, para completar, {spousePt} acorda espirrando e com a garganta arranhando. 🤧 Que tal resolver uma coisa de cada vez?",
+     "mood": "talk",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "choice",
+     "prompt": "O que vocês fazem primeiro?",
+     "options": [
+      {
+       "text": "Ir à farmácia comprar remédio para resfriado",
+       "tone": "good",
+       "fb": "Boa! Primeiro a saúde. As drogarias japonesas são enormes.",
+       "pt": null,
+       "lang": "pt",
+       "next": "pharmacy.0"
+      },
+      {
+       "text": "Ir direto à estação ver os trens",
+       "tone": "ok",
+       "fb": "Também faz sentido. Mas não esqueça do resfriado!",
+       "pt": null,
+       "lang": "pt",
+       "next": "station.0"
+      }
+     ]
+    },
+    "pharmacy.0": {
+     "type": "narration",
+     "pt": "Na drogaria, os remédios têm caixas cheias de letrinhas em japonês. Melhor pedir ajuda ao farmacêutico. \"Sumimasen!\" 💊",
+     "mood": "talk",
+     "next": "pharmacy.1"
+    },
+    "pharmacy.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutico",
+     "en": "Hello. How can I help you?",
+     "pt": "Olá. Como posso ajudar?",
+     "next": "pharmacy.2"
+    },
+    "pharmacy.2": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "My {spouse} has a ___ and a sore throat.",
+     "answer": "cold",
+     "options": [
+      "cold",
+      "coat",
+      "cool",
+      "code"
+     ],
+     "pt": "{spousePtCap} está com resfriado e dor de garganta.",
+     "next": "pharmacy.3"
+    },
+    "pharmacy.3": {
+     "type": "explain",
+     "title": "Sintomas básicos",
+     "pt": "Use \"I have…\" ou \"{She} has…\" para sintomas: \"a cold\" (resfriado), \"a fever\" (febre), \"a headache\" (dor de cabeça), \"a sore throat\" (dor de garganta).",
+     "examples": [
+      {
+       "en": "{She} has a fever.",
+       "pt": "{ElaPt} está com febre."
+      },
+      {
+       "en": "I have a headache.",
+       "pt": "Estou com dor de cabeça."
+      }
+     ],
+     "next": "pharmacy.4"
+    },
+    "pharmacy.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutico",
+     "en": "This medicine is for colds. Take it after meals, three times a day.",
+     "pt": "Este remédio é para resfriado. Tome depois das refeições, três vezes ao dia.",
+     "next": "pharmacy.5"
+    },
+    "pharmacy.5": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Thank you. Is it OK with other medicine?",
+     "pt": "Obrigado. Pode tomar com outros remédios?",
+     "next": "pharmacy.6"
+    },
+    "pharmacy.6": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Farmacêutico",
+     "en": "Yes. If the fever is high, please see a doctor.",
+     "pt": "Sim. Se a febre ficar alta, por favor procure um médico.",
+     "next": "station.0"
+    },
+    "station.0": {
+     "type": "narration",
+     "pt": "Na estação, o painel está cheio de avisos em vermelho: vários trens cancelados. ☔",
+     "mood": "talk",
+     "next": "station.1"
+    },
+    "station.1": {
+     "type": "build",
+     "pt": "O nosso trem para Tóquio foi cancelado?",
+     "en": "Is our train to Tokyo canceled?",
+     "extra": [
+      "for",
+      "late"
+     ],
+     "next": "station.2"
+    },
+    "station.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "Yes, it is canceled. You can get a refund or change to another day.",
+     "pt": "Sim, está cancelado. Vocês podem pedir reembolso ou trocar para outro dia.",
+     "next": "station.3"
+    },
+    "station.3": {
+     "type": "choice",
+     "prompt": "O que você responde?",
+     "options": [
+      {
+       "text": "Can we change to the first train tomorrow?",
+       "tone": "good",
+       "fb": "Perfeito! Pedir uma alternativa é o mais prático.",
+       "pt": "Podemos trocar para o primeiro trem de amanhã?",
+       "lang": "en",
+       "next": "quake.0"
+      },
+      {
+       "text": "This is terrible! I want to go now!",
+       "tone": "bad",
+       "fb": "Calma! Ninguém controla o tufão. Veja:",
+       "pt": "Isso é horrível! Eu quero ir agora!",
+       "lang": "en",
+       "next": "angry.0"
+      }
+     ]
+    },
+    "angry.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "I'm very sorry. It's not safe to travel today.",
+     "pt": "Sinto muito. Não é seguro viajar hoje.",
+     "next": "angry.1"
+    },
+    "angry.1": {
+     "type": "narration",
+     "pt": "A funcionária faz uma reverência de desculpas, mesmo sem culpa nenhuma. Você percebe que exagerou. 😅",
+     "mood": "oops",
+     "next": "angry.2"
+    },
+    "angry.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "I understand. Sorry. Can we change to tomorrow, please?",
+     "pt": "Eu entendo. Desculpe. Podemos trocar para amanhã, por favor?",
+     "next": "quake.0"
+    },
+    "quake.0": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Funcionária",
+     "en": "Of course. Here are your new tickets for tomorrow morning.",
+     "pt": "Claro. Aqui estão as novas passagens para amanhã de manhã.",
+     "next": "quake.1"
+    },
+    "quake.1": {
+     "type": "narration",
+     "pt": "De noite, no hotel, o celular toca um som diferente e o quarto balança um pouquinho. Um pequeno terremoto! Em segundos, tudo para. 📳",
+     "mood": "oops",
+     "next": "quake.2"
+    },
+    "quake.2": {
+     "type": "tip",
+     "icon": "📳",
+     "title": "Alerta de terremoto",
+     "pt": "Pequenos tremores são comuns no Japão, e os prédios são feitos para aguentar. Se o alerta tocar, mantenha a calma, proteja a cabeça, fique longe de janelas e siga as orientações dos funcionários.",
+     "dos": [
+      "Ficar calmo e proteger a cabeça",
+      "Seguir as instruções do hotel ou da estação",
+      "Saber onde ficam as saídas de emergência"
+     ],
+     "donts": [
+      "Correr para a rua durante o tremor",
+      "Usar o elevador logo depois do tremor"
+     ],
+     "next": "quake.3"
+    },
+    "quake.3": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Recepcionista (telefone)",
+     "en": "Everything is OK. There is no danger. Please stay in your room.",
+     "pt": "Está tudo bem. Não há perigo. Por favor, fiquem no quarto.",
+     "next": "quake.4"
+    },
+    "quake.4": {
+     "type": "end",
+     "ending": "imprevistos",
+     "title": "Final: imprevistos resolvidos",
+     "pt": "Tufão, resfriado e até um tremorzinho: você resolveu tudo em inglês, com calma. Isso sim é viajante de verdade! 🌀💪"
+    }
+   },
+   "island": [
+    "🌀",
+    "💊"
+   ]
+  },
+  {
+   "id": "c16",
+   "emoji": "🛫",
+   "title": "Lembrancinhas e volta para casa",
+   "titleEn": "Souvenirs and going home",
+   "scene": {
+    "sky": "dusk",
+    "items": [
+     [
+      "🎁",
+      "bob"
+     ],
+     [
+      "✈️",
+      "fly"
+     ],
+     [
+      "🧳",
+      "walk"
+     ]
+    ]
+   },
+   "summary": "Omiyage, embrulho para presente, mala acima do peso e o adeus ao Japão.",
+   "start": "start.0",
+   "endings": [
+    "sayonara"
+   ],
+   "nodes": {
+    "start.0": {
+     "type": "narration",
+     "pt": "Último dia no Japão, {name}! 😢 Mas antes de voar, uma tradição japonesa deliciosa: o omiyage, as lembrancinhas para dividir com a família e os amigos. 🎁",
+     "mood": "talk",
+     "next": "start.1"
+    },
+    "start.1": {
+     "type": "tip",
+     "icon": "🎁",
+     "title": "Omiyage",
+     "pt": "No Japão, quem viaja traz caixas de doces embrulhados um a um para dividir no trabalho e com a família. As lojas das estações e dos aeroportos são cheias delas, com embalagens lindas.",
+     "dos": [
+      "Contar quantas pessoas vão ganhar antes de comprar",
+      "Olhar a data de validade dos doces",
+      "Pedir sacolinhas extras para presentear"
+     ],
+     "donts": [
+      "Deixar tudo para o último minuto",
+      "Esquecer do peso da mala!"
+     ],
+     "next": "start.2"
+    },
+    "start.2": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "These cookies are very popular. There are twelve in a box.",
+     "pt": "Estes biscoitos são muito populares. São doze em uma caixa.",
+     "next": "start.3"
+    },
+    "start.3": {
+     "type": "gap",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Can you ___ it as a gift, please?",
+     "answer": "wrap",
+     "options": [
+      "wrap",
+      "rap",
+      "wraps",
+      "wrapping"
+     ],
+     "pt": "Você pode embrulhar para presente, por favor?",
+     "next": "start.4"
+    },
+    "start.4": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Vendedora",
+     "en": "Of course. Would you like extra bags for your friends?",
+     "pt": "Claro. Gostaria de sacolinhas extras para os seus amigos?",
+     "next": "start.5"
+    },
+    "start.5": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "Yes, three extra bags, please. Thank you!",
+     "pt": "Sim, três sacolinhas extras, por favor. Obrigado!",
+     "next": "start.6"
+    },
+    "start.6": {
+     "type": "narration",
+     "pt": "Chegando ao aeroporto, vocês vão ao balcão de check-in. As malas estão… hmm… bem mais gordinhas do que na ida. 🧳😅",
+     "mood": "talk",
+     "next": "start.7"
+    },
+    "start.7": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Your bag is four kilos overweight.",
+     "pt": "A sua mala está quatro quilos acima do peso.",
+     "next": "start.8"
+    },
+    "start.8": {
+     "type": "explain",
+     "title": "Overweight",
+     "pt": "\"Overweight\" é acima do peso; \"carry-on\" é a bagagem de mão; \"checked bag\" é a mala despachada. Pergunte sempre o limite antes de pagar.",
+     "examples": [
+      {
+       "en": "What is the weight limit?",
+       "pt": "Qual é o limite de peso?"
+      },
+      {
+       "en": "Can I move some things to my carry-on?",
+       "pt": "Posso passar algumas coisas para a bagagem de mão?"
+      }
+     ],
+     "next": "start.9"
+    },
+    "start.9": {
+     "type": "choice",
+     "prompt": "O que você faz?",
+     "options": [
+      {
+       "text": "Can I move some things to my carry-on?",
+       "tone": "good",
+       "fb": "Esperto! Vocês reorganizam as malas ali mesmo e resolvem.",
+       "pt": "Posso passar algumas coisas para a bagagem de mão?",
+       "lang": "en",
+       "next": "repack.0"
+      },
+      {
+       "text": "Sentar em cima da mala para ela pesar menos",
+       "tone": "bad",
+       "fb": "Hahaha! Kiko precisa te contar uma coisa sobre a física… 😂",
+       "pt": null,
+       "lang": "pt",
+       "next": "sit.0"
+      }
+     ]
+    },
+    "sit.0": {
+     "type": "narration",
+     "pt": "Você senta na mala, fecha o zíper com força e coloca de volta na balança. O número… é exatamente o mesmo. 😂",
+     "mood": "oops",
+     "next": "sit.1"
+    },
+    "sit.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "It's still overweight. You can pay a fee or move some items.",
+     "pt": "Continua acima do peso. Você pode pagar uma taxa ou tirar alguns itens.",
+     "next": "sit.2"
+    },
+    "sit.2": {
+     "type": "line",
+     "who": "you",
+     "speaker": "Você",
+     "en": "OK, I'll move some things to my carry-on.",
+     "pt": "OK, vou passar algumas coisas para a bagagem de mão.",
+     "next": "repack.0"
+    },
+    "repack.0": {
+     "type": "narration",
+     "pt": "Os biscoitos de omiyage vão para a mochila, e a mala passa no limite. Ufa! ✅",
+     "mood": "talk",
+     "next": "repack.1"
+    },
+    "repack.1": {
+     "type": "line",
+     "who": "them",
+     "speaker": "Atendente",
+     "en": "Perfect. Here is your boarding pass. Boarding starts at gate 23.",
+     "pt": "Perfeito. Aqui está o seu cartão de embarque. O embarque começa no portão 23.",
+     "next": "repack.2"
+    },
+    "repack.2": {
+     "type": "build",
+     "pt": "Onde podemos comprar um último lanche?",
+     "en": "Where can we buy one last snack?",
+     "extra": [
+      "eat",
+      "lunch"
+     ],
+     "next": "repack.3"
+    },
+    "repack.3": {
+     "type": "narration",
+     "pt": "Claro que o último lanche foi no konbini do aeroporto: um onigiri e um chá gelado, como no primeiro dia. Fechando o ciclo! 🍙",
+     "mood": "talk",
+     "next": "repack.4"
+    },
+    "repack.4": {
+     "type": "choice",
+     "prompt": "{spousePtCap} pergunta qual foi a sua parte preferida da viagem. O que você diz?",
+     "options": [
+      {
+       "text": "Everything! But the people were the best part.",
+       "tone": "good",
+       "fb": "Que lindo! A gentileza dos japoneses marca qualquer viagem.",
+       "pt": "Tudo! Mas as pessoas foram a melhor parte.",
+       "lang": "en",
+       "next": "goodbye.0"
+      },
+      {
+       "text": "The food, of course! I want ramen again!",
+       "tone": "good",
+       "fb": "Hahaha, justo! Ninguém esquece o lámen japonês. 🍜",
+       "pt": "A comida, claro! Quero lámen de novo!",
+       "lang": "en",
+       "next": "goodbye.0"
+      }
+     ]
+    },
+    "goodbye.0": {
+     "type": "narration",
+     "pt": "No portão, você olha pela janela o avião que vai levar vocês para casa. Em japonês, \"Arigatou gozaimashita\" é o obrigado por tudo que já passou. Obrigado, Japão! 🇯🇵",
+     "mood": "talk",
+     "next": "goodbye.1"
+    },
+    "goodbye.1": {
+     "type": "end",
+     "ending": "sayonara",
+     "title": "Final: Aventura no Japão completa! 🇯🇵✈️🇧🇷",
+     "pt": "Parabéns, {name}! Você completou a Aventura no Japão! 🎉 Foram vinte dias de trem-bala, templos, onsen, lámen e muito inglês. Você mostrou que dá para viajar sem travar. Agora, que tal jogar os capítulos de novo e descobrir outros caminhos e finais? O Professor Kiko espera você na próxima aventura! 🎓🦜🇯🇵✈️🇧🇷"
+    }
+   },
+   "island": [
+    "🛫",
+    "🎁"
+   ]
+  }
+ ],
+ "theme": "sakura",
+ "route": "🛫 São Paulo → Tóquio",
+ "boss": {
+  "name": "O Ninja do Trem-Bala",
+  "emoji": "🥷",
+  "intro": "Shhh… O Ninja do Trem-Bala é rápido como o shinkansen! Mostre tudo o que você aprendeu no Japão antes que o trem parta!"
+ }
+}

@@ -19,6 +19,7 @@ if (!document.getElementById('hf-trip-styles')) {
 export const THEMES = {
   ocean: { bg: '#1B4FA8', decos: ['💎', '⛵', '🐠', '🚤', '🐟', '💎', '🛶', '🐬'] },
   sunset: { bg: '#8A2F6B', decos: ['🌴', '🦩', '🎈', '🐊', '✨', '🌴', '🎆', '🦩'] },
+  sakura: { bg: '#B8487E', decos: ['🌸', '🗻', '🎏', '⛩️', '🍣', '🌸', '🏮', '🍡'] },
   sky: { bg: '#6DB8EA', decos: ['☁️', '🎈', '🐦', '🌈', '☁️', '🪁', '🦋', '☁️'] },
 };
 

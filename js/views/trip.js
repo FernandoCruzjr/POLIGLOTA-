@@ -12,7 +12,7 @@ import { renderBoss } from './boss.js';
 
 const XP = { chapterFirst: 10, chapterRepeat: 3, perGood: 2 };
 const COINS = { chapterFirst: 10, chapterRepeat: 2, chest: 100 };
-const SOON = [['🇵🇹', 'Portugal'], ['🇬🇧', 'Londres'], ['🇫🇷', 'Paris'], ['🇯🇵', 'Japão']];
+const SOON = [['🇵🇹', 'Portugal'], ['🇬🇧', 'Londres'], ['🇫🇷', 'Paris'], ['🇮🇹', 'Itália']];
 const cache = new Map();
 const INKS = ['#1D4ED8', '#B91C1C', '#0F7A4A', '#7C3AED', '#C2410C', '#0E7490', '#BE185D', '#4D7C0F', '#1E3A8A', '#9A3412'];
 const inkFor = (i) => INKS[i % INKS.length];

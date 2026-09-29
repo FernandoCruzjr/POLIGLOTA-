@@ -69,6 +69,7 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **Treino de fala 🗣️** (`#/fala`): shadowing e chorusing por situação de viagem, gravação da própria voz para comparar, conferência pelo reconhecimento de voz do navegador (quando existe) e frases-escudo
 - [x] **Meu plano 🧭** (`#/plano`): rotina semanal de 30 min ligada às telas do app, micro-hábitos do dia, imersão nos tempos mortos, técnicas de imersão ativa (com pedidos prontos para correção e roleplay com IA), barril de conteúdos, dicas contra a vergonha e estimativa de tempo
 - [x] **v0.8**: Treino de fala com **500 frases de turismo** em 10 situações (`data/phrases.json`, gerado de `tools/phrases_src/` por `tools/make_phrases.py`), com subtemas, progresso por frase e "minhas difíceis"; Área Kids com **926 palavras** (bichos, cores, números, cozinha, quarto, banheiro e sala; fontes em `tools/kids_src/`, `tools/make_kids.py` gera números, cores e o `data/kids.json`), com busca, grupos e frase de exemplo traduzida; **Kiko novo**: 11 cores (`tools/make_kiko_skins.py` gera `img/kiko/`), 7 espaços (cor, cabeça, rosto, pescoço, mão, amiguinho, fundo), 70 itens e provador na lojinha
+- [x] **v0.9 — Aventura no Japão 🇯🇵**: 16 capítulos (~20 dias: Tóquio, Hakone, Kyoto, Nara, Osaka, Hiroshima/Miyajima e volta), tema sakura e chefão "O Ninja do Trem-Bala". Fontes em `tools/story_japan_part1..4.py`; rode `python3 tools/story_japan.py`
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
 
@@ -80,7 +81,7 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 
 ## Escrever histórias de viagem
 
-As histórias ficam em `tools/story_thailand.py` e `tools/story_usa.py`, numa mini-linguagem simples (`tools/story_dsl.py`):
+As histórias ficam em `tools/story_thailand.py`, `tools/story_usa.py` e `tools/story_japan*.py`, numa mini-linguagem simples (`tools/story_dsl.py`):
 `N()` narração do Kiko, `T()` fala de outra pessoa, `Y()` sua fala, `TIP()` dica cultural, `EX()` explicação,
 `C()` escolha (cada opção `O()` pode levar a outro trecho com `go=`), `G()` lacuna, `B()` monte a frase,
 `GO()` salto e `END()` final. Depois de editar, rode `python3 tools/story_thailand.py`: ele recria o JSON e
