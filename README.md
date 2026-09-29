@@ -65,6 +65,9 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **Chefão** no fim de cada mapa (7 acertos, 3 corações, 15 s por pergunta), com perguntas tiradas das próprias histórias/lições; o **baú do tesouro** só abre depois dele
 - [x] **Moedas 🪙 e Lojinha do Kiko** (`#/loja`): chapéus, óculos e acessórios que aparecem no Kiko em todo o app
 - [x] **Aprender virou mapa**: lições como ilhas no céu, placas de unidade, Kiko caminhando e o Dragão das Palavras como chefão do nível
+- [x] **Área Kids 🎈** (`#/kids`): 92 palavras com imagem, som, nome e tradução (animais com o som do bicho, cores, números 0–20 e objetos da cozinha, quarto, banheiro e sala), com cartões, jogo "ouça e toque" e jogo da memória. Dados em `data/kids.json` (gerado por `tools/make_kids.py`)
+- [x] **Treino de fala 🗣️** (`#/fala`): shadowing e chorusing por situação de viagem, gravação da própria voz para comparar, conferência pelo reconhecimento de voz do navegador (quando existe) e frases-escudo
+- [x] **Meu plano 🧭** (`#/plano`): rotina semanal de 30 min ligada às telas do app, micro-hábitos do dia, imersão nos tempos mortos, técnicas de imersão ativa (com pedidos prontos para correção e roleplay com IA), barril de conteúdos, dicas contra a vergonha e estimativa de tempo
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
 

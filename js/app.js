@@ -15,6 +15,9 @@ import * as ranking from './views/ranking.js';
 import * as room from './views/room.js';
 import * as trip from './views/trip.js';
 import * as shop from './views/shop.js';
+import * as kids from './views/kids.js';
+import * as speakView from './views/speak.js';
+import * as plan from './views/plan.js';
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -32,6 +35,12 @@ const ROUTES = [
   { re: /^#\/viagem\/([\w-]+)$/, nav: 'viagem', title: 'Mapa da viagem', view: trip, noRefresh: true, params: (m) => ({ trip: m[1] }) },
   { re: /^#\/passaporte(?:\?([\w-]*))?$/, nav: 'viagem', title: 'Passaporte', view: trip, params: (m) => ({ passport: m[1] || true }) },
   { re: /^#\/loja$/, nav: 'perfil', title: 'Lojinha do Kiko', view: shop },
+  { re: /^#\/kids$/, nav: 'jogar', title: 'Área Kids', view: kids, params: () => ({}) },
+  { re: /^#\/kids\/([\w-]+)$/, nav: 'jogar', title: 'Área Kids', view: kids, params: (m) => ({ cat: m[1] }) },
+  { re: /^#\/kids\/([\w-]+)\/(ouvir|memoria)(?:\?\d*)?$/, nav: 'jogar', title: 'Área Kids', view: kids, focusless: true, params: (m) => ({ cat: m[1], game: m[2] }) },
+  { re: /^#\/fala$/, nav: 'jogar', title: 'Treino de fala', view: speakView, params: () => ({}) },
+  { re: /^#\/fala\/([\w-]+)(?:\?\d*)?$/, nav: 'jogar', title: 'Treino de fala', view: speakView, focusless: true, params: (m) => ({ sit: m[1] }) },
+  { re: /^#\/plano(?:#[\w-]*)?$/, nav: 'inicio', title: 'Meu plano', view: plan },
   { re: /^#\/viagem\/([\w-]+)\/([\w-]+)(?:\?\d*)?$/, nav: 'viagem', title: 'Viagem', view: trip, focusless: true, params: (m) => ({ trip: m[1], chapter: m[2] }) },
   { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },
   { re: /^#\/ranking$/, nav: 'ranking', title: 'Ranking', view: ranking, noRefresh: true },

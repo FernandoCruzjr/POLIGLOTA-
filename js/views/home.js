@@ -4,6 +4,7 @@ import * as vocab from '../vocab.js';
 import { currentTripSummary } from './trip.js';
 import { kikoHtml } from '../kiko.js';
 import { coinChip } from '../game.js';
+import { WEEK, todayIdx } from './plan.js';
 import { icon } from '../icons.js';
 import { esc, formatNumber, progressBar, ring, relativeTime, plural } from '../ui.js';
 
@@ -77,6 +78,16 @@ export function render(root) {
       </div>
     </section>
 
+    <a class="card trip-hero plan-today" href="#/plano">
+      <span class="trip-flag" aria-hidden="true">🧭</span>
+      <span class="trip-hero-text">
+        <span class="eyebrow">Meu plano · ${WEEK[todayIdx()].name}</span>
+        <strong>${esc(WEEK[todayIdx()].theme)}</strong>
+        <span class="muted small">${WEEK[todayIdx()].blocks.map((b) => `${b.icon} ${esc(b.title)}`).join(' · ')}</span>
+      </span>
+      <span class="play-cta">Ver</span>
+    </a>
+
     <div data-trip-slot></div>
 
     <a class="card play-hero" href="#/sala">
@@ -88,6 +99,8 @@ export function render(root) {
     <div class="quick-row">
       <a class="card quick" href="#/revisao"><span class="quick-emoji">🔄</span><span><strong>Revisão</strong><span class="muted small">${due ? `${plural(due, 'palavra', 'palavras')} para hoje` : 'Nada pendente'}</span></span></a>
       <a class="card quick" href="#/ranking"><span class="quick-emoji">🏆</span><span><strong>Ranking</strong><span class="muted small">Veja sua posição</span></span></a>
+      <a class="card quick" href="#/fala"><span class="quick-emoji">🗣️</span><span><strong>Treino de fala</strong><span class="muted small">Ouça, repita, grave</span></span></a>
+      <a class="card quick" href="#/kids"><span class="quick-emoji">🎈</span><span><strong>Área Kids</strong><span class="muted small">Bichos, cores, casa</span></span></a>
     </div>
 
     <div class="grid-2">

@@ -1,0 +1,838 @@
+{
+ "categories": [
+  {
+   "id": "animais",
+   "name": "Animais",
+   "nameEn": "Animals",
+   "emoji": "🦁",
+   "color": "#FFB74D",
+   "kind": "animal",
+   "items": [
+    {
+     "emoji": "🐶",
+     "en": "dog",
+     "pt": "cachorro",
+     "pron": "DÓG",
+     "sound": "Woof woof!",
+     "say": "The dog says: Woof woof!",
+     "id": "animais.0"
+    },
+    {
+     "emoji": "🐱",
+     "en": "cat",
+     "pt": "gato",
+     "pron": "KÉT",
+     "sound": "Meow!",
+     "say": "The cat says: Meow!",
+     "id": "animais.1"
+    },
+    {
+     "emoji": "🐮",
+     "en": "cow",
+     "pt": "vaca",
+     "pron": "KÁU",
+     "sound": "Moo!",
+     "say": "The cow says: Moo!",
+     "id": "animais.2"
+    },
+    {
+     "emoji": "🐷",
+     "en": "pig",
+     "pt": "porco",
+     "pron": "PÍG",
+     "sound": "Oink oink!",
+     "say": "The pig says: Oink oink!",
+     "id": "animais.3"
+    },
+    {
+     "emoji": "🐑",
+     "en": "sheep",
+     "pt": "ovelha",
+     "pron": "XIIP",
+     "sound": "Baa!",
+     "say": "The sheep says: Baa!",
+     "id": "animais.4"
+    },
+    {
+     "emoji": "🐴",
+     "en": "horse",
+     "pt": "cavalo",
+     "pron": "RÓRS",
+     "sound": "Neigh!",
+     "say": "The horse says: Neigh!",
+     "id": "animais.5"
+    },
+    {
+     "emoji": "🐔",
+     "en": "chicken",
+     "pt": "galinha",
+     "pron": "TXÍ-kin",
+     "sound": "Cluck cluck!",
+     "say": "The chicken says: Cluck cluck!",
+     "id": "animais.6"
+    },
+    {
+     "emoji": "🦆",
+     "en": "duck",
+     "pt": "pato",
+     "pron": "DÂK",
+     "sound": "Quack quack!",
+     "say": "The duck says: Quack quack!",
+     "id": "animais.7"
+    },
+    {
+     "emoji": "🐸",
+     "en": "frog",
+     "pt": "sapo",
+     "pron": "FRÓG",
+     "sound": "Ribbit!",
+     "say": "The frog says: Ribbit!",
+     "id": "animais.8"
+    },
+    {
+     "emoji": "🐦",
+     "en": "bird",
+     "pt": "passarinho",
+     "pron": "BÂRD",
+     "sound": "Tweet tweet!",
+     "say": "The bird says: Tweet tweet!",
+     "id": "animais.9"
+    },
+    {
+     "emoji": "🦉",
+     "en": "owl",
+     "pt": "coruja",
+     "pron": "ÁUL",
+     "sound": "Hoot hoot!",
+     "say": "The owl says: Hoot hoot!",
+     "id": "animais.10"
+    },
+    {
+     "emoji": "🐝",
+     "en": "bee",
+     "pt": "abelha",
+     "pron": "BII",
+     "sound": "Buzz!",
+     "say": "The bee says: Buzz!",
+     "id": "animais.11"
+    },
+    {
+     "emoji": "🐍",
+     "en": "snake",
+     "pt": "cobra",
+     "pron": "SNÊIK",
+     "sound": "Hiss!",
+     "say": "The snake says: Hiss!",
+     "id": "animais.12"
+    },
+    {
+     "emoji": "🐭",
+     "en": "mouse",
+     "pt": "ratinho",
+     "pron": "MÁUS",
+     "sound": "Squeak!",
+     "say": "The mouse says: Squeak!",
+     "id": "animais.13"
+    },
+    {
+     "emoji": "🐵",
+     "en": "monkey",
+     "pt": "macaco",
+     "pron": "MÂN-ki",
+     "sound": "Ooh ooh ah ah!",
+     "say": "The monkey says: Ooh ooh ah ah!",
+     "id": "animais.14"
+    },
+    {
+     "emoji": "🦁",
+     "en": "lion",
+     "pt": "leão",
+     "pron": "LÁI-on",
+     "sound": "Roar!",
+     "say": "The lion says: Roar!",
+     "id": "animais.15"
+    },
+    {
+     "emoji": "🐯",
+     "en": "tiger",
+     "pt": "tigre",
+     "pron": "TÁI-guer",
+     "sound": "Grrr!",
+     "say": "The tiger says: Grrr!",
+     "id": "animais.16"
+    },
+    {
+     "emoji": "🐘",
+     "en": "elephant",
+     "pt": "elefante",
+     "pron": "É-le-fant",
+     "sound": "Toot toot!",
+     "say": "The elephant says: Toot toot!",
+     "id": "animais.17"
+    },
+    {
+     "emoji": "🐻",
+     "en": "bear",
+     "pt": "urso",
+     "pron": "BÉR",
+     "sound": "Grrr!",
+     "say": "The bear says: Grrr!",
+     "id": "animais.18"
+    },
+    {
+     "emoji": "🐺",
+     "en": "wolf",
+     "pt": "lobo",
+     "pron": "UÓLF",
+     "sound": "Awoooo!",
+     "say": "The wolf says: Awoooo!",
+     "id": "animais.19"
+    },
+    {
+     "emoji": "🫏",
+     "en": "donkey",
+     "pt": "burro",
+     "pron": "DÔN-ki",
+     "sound": "Hee-haw!",
+     "say": "The donkey says: Hee-haw!",
+     "id": "animais.20"
+    },
+    {
+     "emoji": "🐐",
+     "en": "goat",
+     "pt": "cabra",
+     "pron": "GÔUT",
+     "sound": "Maa!",
+     "say": "The goat says: Maa!",
+     "id": "animais.21"
+    },
+    {
+     "emoji": "🐟",
+     "en": "fish",
+     "pt": "peixe",
+     "pron": "FÍX",
+     "sound": "Blub blub!",
+     "say": "The fish says: Blub blub!",
+     "id": "animais.22"
+    },
+    {
+     "emoji": "🐓",
+     "en": "rooster",
+     "pt": "galo",
+     "pron": "RUUS-ter",
+     "sound": "Cock-a-doodle-doo!",
+     "say": "The rooster says: Cock-a-doodle-doo!",
+     "id": "animais.23"
+    }
+   ]
+  },
+  {
+   "id": "cores",
+   "name": "Cores",
+   "nameEn": "Colors",
+   "emoji": "🎨",
+   "color": "#BA68C8",
+   "kind": "color",
+   "items": [
+    {
+     "hex": "#E53935",
+     "en": "red",
+     "pt": "vermelho",
+     "pron": "RÉD",
+     "say": "It's red!",
+     "id": "cores.0"
+    },
+    {
+     "hex": "#1E63D6",
+     "en": "blue",
+     "pt": "azul",
+     "pron": "BLUU",
+     "say": "It's blue!",
+     "id": "cores.1"
+    },
+    {
+     "hex": "#FDD835",
+     "en": "yellow",
+     "pt": "amarelo",
+     "pron": "IÉ-lou",
+     "say": "It's yellow!",
+     "id": "cores.2"
+    },
+    {
+     "hex": "#2E9E4F",
+     "en": "green",
+     "pt": "verde",
+     "pron": "GRIIN",
+     "say": "It's green!",
+     "id": "cores.3"
+    },
+    {
+     "hex": "#FB8C00",
+     "en": "orange",
+     "pt": "laranja",
+     "pron": "Ó-rindj",
+     "say": "It's orange!",
+     "id": "cores.4"
+    },
+    {
+     "hex": "#8E44AD",
+     "en": "purple",
+     "pt": "roxo",
+     "pron": "PÂR-pol",
+     "say": "It's purple!",
+     "id": "cores.5"
+    },
+    {
+     "hex": "#F06292",
+     "en": "pink",
+     "pt": "rosa",
+     "pron": "PÍNK",
+     "say": "It's pink!",
+     "id": "cores.6"
+    },
+    {
+     "hex": "#795548",
+     "en": "brown",
+     "pt": "marrom",
+     "pron": "BRÁUN",
+     "say": "It's brown!",
+     "id": "cores.7"
+    },
+    {
+     "hex": "#212121",
+     "en": "black",
+     "pt": "preto",
+     "pron": "BLÉK",
+     "say": "It's black!",
+     "id": "cores.8"
+    },
+    {
+     "hex": "#FFFFFF",
+     "en": "white",
+     "pt": "branco",
+     "pron": "UÁIT",
+     "say": "It's white!",
+     "id": "cores.9"
+    },
+    {
+     "hex": "#9E9E9E",
+     "en": "gray",
+     "pt": "cinza",
+     "pron": "GRÊI",
+     "say": "It's gray!",
+     "id": "cores.10"
+    }
+   ]
+  },
+  {
+   "id": "numeros",
+   "name": "Números",
+   "nameEn": "Numbers",
+   "emoji": "🔢",
+   "color": "#4FC3F7",
+   "kind": "number",
+   "items": [
+    {
+     "n": 0,
+     "en": "zero",
+     "pt": "zero",
+     "pron": "ZI-rou",
+     "say": "zero",
+     "id": "numeros.0"
+    },
+    {
+     "n": 1,
+     "en": "one",
+     "pt": "um",
+     "pron": "UÂN",
+     "say": "one",
+     "id": "numeros.1"
+    },
+    {
+     "n": 2,
+     "en": "two",
+     "pt": "dois",
+     "pron": "TUU",
+     "say": "two",
+     "id": "numeros.2"
+    },
+    {
+     "n": 3,
+     "en": "three",
+     "pt": "três",
+     "pron": "THRII",
+     "say": "three",
+     "id": "numeros.3"
+    },
+    {
+     "n": 4,
+     "en": "four",
+     "pt": "quatro",
+     "pron": "FÓR",
+     "say": "four",
+     "id": "numeros.4"
+    },
+    {
+     "n": 5,
+     "en": "five",
+     "pt": "cinco",
+     "pron": "FÁIV",
+     "say": "five",
+     "id": "numeros.5"
+    },
+    {
+     "n": 6,
+     "en": "six",
+     "pt": "seis",
+     "pron": "SÍKS",
+     "say": "six",
+     "id": "numeros.6"
+    },
+    {
+     "n": 7,
+     "en": "seven",
+     "pt": "sete",
+     "pron": "SÉ-ven",
+     "say": "seven",
+     "id": "numeros.7"
+    },
+    {
+     "n": 8,
+     "en": "eight",
+     "pt": "oito",
+     "pron": "ÊIT",
+     "say": "eight",
+     "id": "numeros.8"
+    },
+    {
+     "n": 9,
+     "en": "nine",
+     "pt": "nove",
+     "pron": "NÁIN",
+     "say": "nine",
+     "id": "numeros.9"
+    },
+    {
+     "n": 10,
+     "en": "ten",
+     "pt": "dez",
+     "pron": "TÉN",
+     "say": "ten",
+     "id": "numeros.10"
+    },
+    {
+     "n": 11,
+     "en": "eleven",
+     "pt": "onze",
+     "pron": "i-LÉ-ven",
+     "say": "eleven",
+     "id": "numeros.11"
+    },
+    {
+     "n": 12,
+     "en": "twelve",
+     "pt": "doze",
+     "pron": "TUÉLV",
+     "say": "twelve",
+     "id": "numeros.12"
+    },
+    {
+     "n": 13,
+     "en": "thirteen",
+     "pt": "treze",
+     "pron": "thâr-TIIN",
+     "say": "thirteen",
+     "id": "numeros.13"
+    },
+    {
+     "n": 14,
+     "en": "fourteen",
+     "pt": "catorze",
+     "pron": "for-TIIN",
+     "say": "fourteen",
+     "id": "numeros.14"
+    },
+    {
+     "n": 15,
+     "en": "fifteen",
+     "pt": "quinze",
+     "pron": "fif-TIIN",
+     "say": "fifteen",
+     "id": "numeros.15"
+    },
+    {
+     "n": 16,
+     "en": "sixteen",
+     "pt": "dezesseis",
+     "pron": "siks-TIIN",
+     "say": "sixteen",
+     "id": "numeros.16"
+    },
+    {
+     "n": 17,
+     "en": "seventeen",
+     "pt": "dezessete",
+     "pron": "se-ven-TIIN",
+     "say": "seventeen",
+     "id": "numeros.17"
+    },
+    {
+     "n": 18,
+     "en": "eighteen",
+     "pt": "dezoito",
+     "pron": "ei-TIIN",
+     "say": "eighteen",
+     "id": "numeros.18"
+    },
+    {
+     "n": 19,
+     "en": "nineteen",
+     "pt": "dezenove",
+     "pron": "nain-TIIN",
+     "say": "nineteen",
+     "id": "numeros.19"
+    },
+    {
+     "n": 20,
+     "en": "twenty",
+     "pt": "vinte",
+     "pron": "TUÉN-ti",
+     "say": "twenty",
+     "id": "numeros.20"
+    }
+   ]
+  },
+  {
+   "id": "cozinha",
+   "name": "Cozinha",
+   "nameEn": "Kitchen",
+   "emoji": "🍳",
+   "color": "#FF8A65",
+   "kind": "object",
+   "room": true,
+   "items": [
+    {
+     "emoji": "🧊",
+     "en": "fridge",
+     "pt": "geladeira",
+     "pron": "FRÍDJ",
+     "say": "A fridge. It's in the kitchen.",
+     "id": "cozinha.0"
+    },
+    {
+     "emoji": "🔥",
+     "en": "stove",
+     "pt": "fogão",
+     "pron": "STÔUV",
+     "say": "A stove. It's in the kitchen.",
+     "id": "cozinha.1"
+    },
+    {
+     "emoji": "🚰",
+     "en": "sink",
+     "pt": "pia",
+     "pron": "SÍNK",
+     "say": "A sink. It's in the kitchen.",
+     "id": "cozinha.2"
+    },
+    {
+     "emoji": "🍽️",
+     "en": "plate",
+     "pt": "prato",
+     "pron": "PLÊIT",
+     "say": "A plate. It's in the kitchen.",
+     "id": "cozinha.3"
+    },
+    {
+     "emoji": "☕",
+     "en": "cup",
+     "pt": "xícara",
+     "pron": "KÂP",
+     "say": "A cup. It's in the kitchen.",
+     "id": "cozinha.4"
+    },
+    {
+     "emoji": "🥄",
+     "en": "spoon",
+     "pt": "colher",
+     "pron": "SPUUN",
+     "say": "A spoon. It's in the kitchen.",
+     "id": "cozinha.5"
+    },
+    {
+     "emoji": "🍴",
+     "en": "fork",
+     "pt": "garfo",
+     "pron": "FÓRK",
+     "say": "A fork. It's in the kitchen.",
+     "id": "cozinha.6"
+    },
+    {
+     "emoji": "🔪",
+     "en": "knife",
+     "pt": "faca",
+     "pron": "NÁIF",
+     "say": "A knife. It's in the kitchen.",
+     "id": "cozinha.7"
+    },
+    {
+     "emoji": "🍳",
+     "en": "pan",
+     "pt": "frigideira",
+     "pron": "PÉN",
+     "say": "A pan. It's in the kitchen.",
+     "id": "cozinha.8"
+    },
+    {
+     "emoji": "🥛",
+     "en": "glass",
+     "pt": "copo",
+     "pron": "GLÉS",
+     "say": "A glass. It's in the kitchen.",
+     "id": "cozinha.9"
+    }
+   ]
+  },
+  {
+   "id": "quarto",
+   "name": "Quarto",
+   "nameEn": "Bedroom",
+   "emoji": "🛏️",
+   "color": "#9575CD",
+   "kind": "object",
+   "room": true,
+   "items": [
+    {
+     "emoji": "🛏️",
+     "en": "bed",
+     "pt": "cama",
+     "pron": "BÉD",
+     "say": "A bed. It's in the bedroom.",
+     "id": "quarto.0"
+    },
+    {
+     "emoji": "🧸",
+     "en": "teddy bear",
+     "pt": "ursinho de pelúcia",
+     "pron": "TÉ-di BÉR",
+     "say": "A teddy bear. It's in the bedroom.",
+     "id": "quarto.1"
+    },
+    {
+     "emoji": "🪟",
+     "en": "window",
+     "pt": "janela",
+     "pron": "UÍN-dou",
+     "say": "A window. It's in the bedroom.",
+     "id": "quarto.2"
+    },
+    {
+     "emoji": "💡",
+     "en": "lamp",
+     "pt": "abajur",
+     "pron": "LÉMP",
+     "say": "A lamp. It's in the bedroom.",
+     "id": "quarto.3"
+    },
+    {
+     "emoji": "⏰",
+     "en": "alarm clock",
+     "pt": "despertador",
+     "pron": "a-LÁRM KLÓK",
+     "say": "An alarm clock. It's in the bedroom.",
+     "id": "quarto.4"
+    },
+    {
+     "emoji": "👕",
+     "en": "T-shirt",
+     "pt": "camiseta",
+     "pron": "TII-xârt",
+     "say": "A T-shirt. It's in the bedroom.",
+     "id": "quarto.5"
+    },
+    {
+     "emoji": "🧦",
+     "en": "socks",
+     "pt": "meias",
+     "pron": "SÓKS",
+     "say": "Socks. They're in the bedroom.",
+     "id": "quarto.6"
+    },
+    {
+     "emoji": "👟",
+     "en": "shoes",
+     "pt": "sapatos",
+     "pron": "XUUZ",
+     "say": "Shoes. They're in the bedroom.",
+     "id": "quarto.7"
+    },
+    {
+     "emoji": "📚",
+     "en": "books",
+     "pt": "livros",
+     "pron": "BÚKS",
+     "say": "Books. They're in the bedroom.",
+     "id": "quarto.8"
+    }
+   ]
+  },
+  {
+   "id": "banheiro",
+   "name": "Banheiro",
+   "nameEn": "Bathroom",
+   "emoji": "🛁",
+   "color": "#4DD0E1",
+   "kind": "object",
+   "room": true,
+   "items": [
+    {
+     "emoji": "🚽",
+     "en": "toilet",
+     "pt": "vaso sanitário",
+     "pron": "TÓI-let",
+     "say": "A toilet. It's in the bathroom.",
+     "id": "banheiro.0"
+    },
+    {
+     "emoji": "🚿",
+     "en": "shower",
+     "pt": "chuveiro",
+     "pron": "XÁU-er",
+     "say": "A shower. It's in the bathroom.",
+     "id": "banheiro.1"
+    },
+    {
+     "emoji": "🛁",
+     "en": "bathtub",
+     "pt": "banheira",
+     "pron": "BÉTH-tâb",
+     "say": "A bathtub. It's in the bathroom.",
+     "id": "banheiro.2"
+    },
+    {
+     "emoji": "🪥",
+     "en": "toothbrush",
+     "pt": "escova de dentes",
+     "pron": "TUUTH-brâx",
+     "say": "A toothbrush. It's in the bathroom.",
+     "id": "banheiro.3"
+    },
+    {
+     "emoji": "🧼",
+     "en": "soap",
+     "pt": "sabonete",
+     "pron": "SÔUP",
+     "say": "Soap. It's in the bathroom.",
+     "id": "banheiro.4"
+    },
+    {
+     "emoji": "🪞",
+     "en": "mirror",
+     "pt": "espelho",
+     "pron": "MÍ-ror",
+     "say": "A mirror. It's in the bathroom.",
+     "id": "banheiro.5"
+    },
+    {
+     "emoji": "🧻",
+     "en": "toilet paper",
+     "pt": "papel higiênico",
+     "pron": "TÓI-let PÊI-per",
+     "say": "Toilet paper. It's in the bathroom.",
+     "id": "banheiro.6"
+    },
+    {
+     "emoji": "🧴",
+     "en": "shampoo",
+     "pt": "xampu",
+     "pron": "xem-PUU",
+     "say": "Shampoo. It's in the bathroom.",
+     "id": "banheiro.7"
+    }
+   ]
+  },
+  {
+   "id": "sala",
+   "name": "Sala",
+   "nameEn": "Living room",
+   "emoji": "🛋️",
+   "color": "#81C784",
+   "kind": "object",
+   "room": true,
+   "items": [
+    {
+     "emoji": "🛋️",
+     "en": "sofa",
+     "pt": "sofá",
+     "pron": "SÔU-fa",
+     "say": "A sofa. It's in the living room.",
+     "id": "sala.0"
+    },
+    {
+     "emoji": "📺",
+     "en": "TV",
+     "pt": "televisão",
+     "pron": "TII-VII",
+     "say": "A TV. It's in the living room.",
+     "id": "sala.1"
+    },
+    {
+     "emoji": "🪑",
+     "en": "chair",
+     "pt": "cadeira",
+     "pron": "TXÉR",
+     "say": "A chair. It's in the living room.",
+     "id": "sala.2"
+    },
+    {
+     "emoji": "🚪",
+     "en": "door",
+     "pt": "porta",
+     "pron": "DÓR",
+     "say": "A door. It's in the living room.",
+     "id": "sala.3"
+    },
+    {
+     "emoji": "🖼️",
+     "en": "picture",
+     "pt": "quadro",
+     "pron": "PÍK-tcher",
+     "say": "A picture. It's in the living room.",
+     "id": "sala.4"
+    },
+    {
+     "emoji": "🪴",
+     "en": "plant",
+     "pt": "planta",
+     "pron": "PLÉNT",
+     "say": "A plant. It's in the living room.",
+     "id": "sala.5"
+    },
+    {
+     "emoji": "📱",
+     "en": "phone",
+     "pt": "celular",
+     "pron": "FÔUN",
+     "say": "A phone. It's in the living room.",
+     "id": "sala.6"
+    },
+    {
+     "emoji": "🕰️",
+     "en": "clock",
+     "pt": "relógio",
+     "pron": "KLÓK",
+     "say": "A clock. It's in the living room.",
+     "id": "sala.7"
+    },
+    {
+     "emoji": "🎮",
+     "en": "video game",
+     "pt": "videogame",
+     "pron": "VÍ-di-ou GUÊIM",
+     "say": "A video game. It's in the living room.",
+     "id": "sala.8"
+    }
+   ]
+  }
+ ]
+}
