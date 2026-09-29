@@ -82,7 +82,7 @@ def chapter(cid, emoji, title, title_en, scene, seqs, summary):
             "summary": summary, "start": start, "endings": endings, "nodes": out}
 
 
-ORDER = ["thailand", "usa"]
+ORDER = ["thailand", "usa", "japan"]
 
 def save_trip(trip, root):
     """Grava data/trips/<id>.json e refaz o index.json com todos os destinos."""
