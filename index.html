@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Inglês em Família</title>
-  <meta name="description" content="Aprenda inglês de graça, no seu ritmo, com lições curtas, áudio e progresso diário.">
-  <meta name="theme-color" content="#15803d">
+  <title>Hi Family</title>
+  <meta name="description" content="Hi Family: aprenda inglês de graça, no seu ritmo, com a família toda.">
+  <meta name="theme-color" content="#0F7A4A">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/app.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script type="module" src="js/app.js"></script>
@@ -19,29 +19,51 @@
 <body>
   <a class="skip-link" href="#view">Pular para o conteúdo</a>
 
-  <div id="boot" class="boot" aria-label="Carregando"><span class="boot-dot"></span></div>
+  <div id="boot" class="boot" aria-label="Carregando"><img src="img/app-icon-256.png" alt="" width="88" height="88"><span class="boot-dot"></span></div>
 
   <!-- Tela de acesso -->
   <div id="auth-screen" class="auth" hidden>
+    <section class="auth-hero" aria-hidden="true">
+      <div class="auth-logo">
+        <span class="logo"><span class="logo-hi">Hi</span><span class="logo-family">Family</span></span>
+        <p>Aprenda inglês.<br>Conecte-se com o mundo.</p>
+      </div>
+      <img class="auth-mascot" src="img/login-hero.jpg" alt="" width="512" height="640">
+      <ul class="auth-perks">
+        <li><span class="perk-icon">🌍</span> Aprenda no seu ritmo</li>
+        <li><span class="perk-icon">⭐</span> Ganhe XP e conquiste seus objetivos</li>
+        <li><span class="perk-icon">✈️</span> Explore o mundo com mais confiança</li>
+      </ul>
+    </section>
+
     <div class="auth-card">
-      <div class="auth-brand">
-        <svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#15803d"/><path d="M16 20a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H30l-8 7v-7a6 6 0 0 1-6-6z" fill="#fff"/><path d="M24 21v10M32 21v10M24 26h8M39 25.5V31" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><circle cx="39" cy="21.3" r="1.8" fill="#15803d"/></svg>
-        <h1 id="app-name">Inglês em Família</h1>
-        <p>Inglês grátis, no seu ritmo, para toda a família.</p>
+      <div class="auth-brand-mobile">
+        <span class="logo"><span class="logo-hi">Hi</span><span class="logo-family">Family</span></span>
       </div>
 
-      <div class="auth-tabs" role="tablist" aria-label="Acesso">
-        <button type="button" role="tab" data-tab="login" aria-controls="form-login" aria-selected="true">Entrar</button>
-        <button type="button" role="tab" data-tab="signup" aria-controls="form-signup" aria-selected="false" tabindex="-1">Criar conta</button>
+      <div data-panel="login">
+        <h1 class="auth-title">Bem-vindo ao Hi Family!</h1>
+        <p class="auth-sub">Faça login e continue sua jornada de aprendizado.</p>
+      </div>
+      <div data-panel="signup" hidden>
+        <h1 class="auth-title">Crie sua conta grátis</h1>
+        <p class="auth-sub">Leva menos de um minuto.</p>
       </div>
 
       <form id="form-login" class="form" data-panel="login" novalidate>
-        <label for="login-email">E-mail</label>
-        <input id="login-email" name="email" type="email" autocomplete="email" required>
-        <label for="login-password">Senha</label>
-        <input id="login-password" name="password" type="password" autocomplete="current-password" required>
-        <button class="btn btn-primary btn-lg" type="submit">Entrar</button>
-        <button class="link-btn" type="button" data-go="forgot">Esqueci minha senha</button>
+        <label for="login-email" class="sr-only">E-mail</label>
+        <div class="field"><span class="field-icon" aria-hidden="true">✉️</span><input id="login-email" name="email" type="email" autocomplete="email" placeholder="E-mail" required></div>
+        <label for="login-password" class="sr-only">Senha</label>
+        <div class="field"><span class="field-icon" aria-hidden="true">🔒</span><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Senha" required><button type="button" class="eye" data-toggle-pass="login-password" aria-label="Mostrar senha">👁️</button></div>
+        <div class="row-between auth-row">
+          <label class="check"><input type="checkbox" name="remember" checked> Lembrar de mim</label>
+          <button class="link-btn" type="button" data-go="forgot">Esqueci minha senha</button>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">Entrar →</button>
+        <div class="or" data-google-block hidden><span>ou</span></div>
+        <button class="btn btn-google btn-lg" type="button" data-google hidden><svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2c-2 1.5-4.5 2.4-7.2 2.4-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg> Continuar com o Google</button>
+        <p class="auth-switch">Ainda não tem uma conta?</p>
+        <button class="btn btn-soft btn-lg" type="button" data-go="signup">Criar conta gratuita</button>
       </form>
 
       <form id="form-signup" class="form" data-panel="signup" hidden novalidate>
@@ -50,8 +72,9 @@
         <label for="signup-email">E-mail</label>
         <input id="signup-email" name="email" type="email" autocomplete="email" required>
         <label for="signup-password">Senha <span class="muted">(mínimo 6 caracteres)</span></label>
-        <input id="signup-password" name="password" type="password" autocomplete="new-password" minlength="6" required>
+        <div class="field"><input id="signup-password" name="password" type="password" autocomplete="new-password" minlength="6" required><button type="button" class="eye" data-toggle-pass="signup-password" aria-label="Mostrar senha">👁️</button></div>
         <button class="btn btn-primary btn-lg" type="submit">Criar conta grátis</button>
+        <button class="link-btn" type="button" data-go="login">Já tenho conta: entrar</button>
       </form>
 
       <form id="form-forgot" class="form" data-panel="forgot" hidden novalidate>
@@ -71,20 +94,23 @@
       </form>
 
       <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+      <p class="auth-safe">🛡️ Seus dados estão seguros conosco. 100% gratuito.</p>
     </div>
   </div>
 
   <!-- Aplicativo -->
   <div id="app-shell" class="shell" hidden>
     <nav class="nav" aria-label="Navegação principal">
-      <a class="nav-brand" href="#/inicio" aria-label="Início">
-        <svg viewBox="0 0 64 64" width="36" height="36" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#15803d"/><path d="M16 20a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H30l-8 7v-7a6 6 0 0 1-6-6z" fill="#fff"/><path d="M24 21v10M32 21v10M24 26h8M39 25.5V31" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/><circle cx="39" cy="21.3" r="1.8" fill="#15803d"/></svg>
-        <span>Inglês em Família</span>
+      <a class="nav-brand" href="#/inicio" aria-label="Hi Family, início">
+        <img src="img/app-icon-256.png" alt="" width="40" height="40">
+        <span class="logo small"><span class="logo-family">Hi Family</span></span>
       </a>
       <a data-nav="inicio" href="#/inicio"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20h5v-6h4v6h5V9.5"/></svg><span>Início</span></a>
       <a data-nav="aprender" href="#/aprender"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M9 8h7M9 12h5"/></svg><span>Aprender</span></a>
       <a data-nav="vocabulario" href="#/vocabulario"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="13" height="16" rx="2.5"/><path d="M8 4v-.5A1.5 1.5 0 0 1 9.5 2H19a2 2 0 0 1 2 2v13.5a1.5 1.5 0 0 1-1.5 1.5H16"/><path d="M7 9h5M7 13h4"/></svg><span>Vocabulário</span></a>
-      <a data-nav="revisao" href="#/revisao"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 3v5h5"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 21v-5h-5"/></svg><span>Revisão</span></a>
+      <a data-nav="revisao" class="nav-desktop" href="#/revisao"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 3v5h5"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 21v-5h-5"/></svg><span>Revisão</span></a>
+      <a data-nav="jogar" href="#/jogar"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7" width="19" height="11" rx="5.5"/><path d="M7 10.5v4M5 12.5h4"/><circle cx="15.5" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg><span>Jogar</span></a>
+      <a data-nav="ranking" class="nav-desktop" href="#/ranking"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg><span>Ranking</span></a>
       <a data-nav="perfil" href="#/perfil"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span>Perfil</span></a>
     </nav>
     <main id="view" class="view" tabindex="-1"></main>

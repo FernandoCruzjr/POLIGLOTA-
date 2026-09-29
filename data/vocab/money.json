@@ -7,7 +7,8 @@
 "example": "I don't have much money.",
 "exampleTranslation": "Eu não tenho muito dinheiro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💰"
 },
 {
 "slug": "cash",
@@ -17,7 +18,8 @@
 "example": "Do you have cash?",
 "exampleTranslation": "Você tem dinheiro vivo?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💵"
 },
 {
 "slug": "coin",
@@ -27,7 +29,8 @@
 "example": "I found a coin on the floor.",
 "exampleTranslation": "Eu achei uma moeda no chão.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪙"
 },
 {
 "slug": "bill",
@@ -37,7 +40,8 @@
 "example": "A fifty-real bill.",
 "exampleTranslation": "Uma nota de cinquenta reais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💵"
 },
 {
 "slug": "dollar",
@@ -47,7 +51,8 @@
 "example": "It costs ten dollars.",
 "exampleTranslation": "Custa dez dólares.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💲"
 },
 {
 "slug": "real",
@@ -57,7 +62,8 @@
 "example": "The Brazilian real is our currency.",
 "exampleTranslation": "O real é a nossa moeda.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🇧🇷"
 },
 {
 "slug": "spend",
@@ -67,7 +73,8 @@
 "example": "I spent too much money.",
 "exampleTranslation": "Eu gastei dinheiro demais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💸"
 },
 {
 "slug": "save-money",
@@ -77,7 +84,8 @@
 "example": "We're saving money for a trip.",
 "exampleTranslation": "Estamos economizando para uma viagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐷"
 },
 {
 "slug": "lend",
@@ -87,7 +95,8 @@
 "example": "Can you lend me ten reais?",
 "exampleTranslation": "Você pode me emprestar dez reais?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "borrow",
@@ -97,7 +106,8 @@
 "example": "Can I borrow your car?",
 "exampleTranslation": "Posso pegar seu carro emprestado?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙏"
 },
 {
 "slug": "owe",
@@ -107,7 +117,8 @@
 "example": "I owe you twenty reais.",
 "exampleTranslation": "Eu te devo vinte reais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📉"
 },
 {
 "slug": "debt",
@@ -117,7 +128,8 @@
 "example": "We paid off our debt.",
 "exampleTranslation": "Nós quitamos nossa dívida.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📉"
 },
 {
 "slug": "budget",
@@ -127,7 +139,8 @@
 "example": "We have a small budget.",
 "exampleTranslation": "Temos um orçamento pequeno.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📊"
 },
 {
 "slug": "afford",
@@ -147,7 +160,8 @@
 "example": "He is very rich.",
 "exampleTranslation": "Ele é muito rico.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤑"
 },
 {
 "slug": "poor",
@@ -157,7 +171,8 @@
 "example": "They were poor, but happy.",
 "exampleTranslation": "Eles eram pobres, mas felizes.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😔"
 },
 {
 "slug": "free",
@@ -167,7 +182,8 @@
 "example": "The museum is free on Sundays.",
 "exampleTranslation": "O museu é grátis aos domingos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🆓"
 },
 {
 "slug": "credit",
@@ -177,7 +193,8 @@
 "example": "I have credit on my phone.",
 "exampleTranslation": "Eu tenho crédito no celular.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💳"
 },
 {
 "slug": "tax",
@@ -187,7 +204,8 @@
 "example": "The price includes tax.",
 "exampleTranslation": "O preço inclui imposto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧾"
 },
 {
 "slug": "bills",
@@ -197,7 +215,8 @@
 "example": "I have to pay the bills.",
 "exampleTranslation": "Eu tenho que pagar as contas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧾"
 },
 {
 "slug": "expense",
@@ -217,7 +236,8 @@
 "example": "What is your monthly income?",
 "exampleTranslation": "Qual é a sua renda mensal?",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📈"
 },
 {
 "slug": "profit",
@@ -227,7 +247,8 @@
 "example": "The store made a big profit.",
 "exampleTranslation": "A loja teve um grande lucro.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📈"
 },
 {
 "slug": "invest",
@@ -237,7 +258,8 @@
 "example": "I want to invest my savings.",
 "exampleTranslation": "Eu quero investir minhas economias.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📈"
 },
 {
 "slug": "savings",
@@ -247,7 +269,8 @@
 "example": "We used our savings to buy a house.",
 "exampleTranslation": "Usamos nossas economias para comprar uma casa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏦"
 },
 {
 "slug": "piggy-bank",
@@ -257,7 +280,8 @@
 "example": "My son puts coins in his piggy bank.",
 "exampleTranslation": "Meu filho coloca moedas no cofrinho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐷"
 },
 {
 "slug": "price-tag",
@@ -267,7 +291,8 @@
 "example": "Check the price tag.",
 "exampleTranslation": "Confira a etiqueta de preço.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏷️"
 },
 {
 "slug": "how-much",
@@ -277,7 +302,8 @@
 "example": "How much is this?",
 "exampleTranslation": "Quanto é isto?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❓"
 },
 {
 "slug": "worth-it",
@@ -297,7 +323,8 @@
 "example": "Don't waste money.",
 "exampleTranslation": "Não desperdice dinheiro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗑️"
 },
 {
 "slug": "pay-back",
@@ -307,7 +334,8 @@
 "example": "I'll pay you back tomorrow.",
 "exampleTranslation": "Eu te pago de volta amanhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "↩️"
 },
 {
 "slug": "allowance",
@@ -317,7 +345,8 @@
 "example": "My kids get an allowance every week.",
 "exampleTranslation": "Meus filhos ganham mesada toda semana.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "👛"
 },
 {
 "slug": "fee",
@@ -327,7 +356,8 @@
 "example": "There's a small fee.",
 "exampleTranslation": "Tem uma pequena taxa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💲"
 },
 {
 "slug": "total",
@@ -337,7 +367,8 @@
 "example": "The total is 80 reais.",
 "exampleTranslation": "O total é 80 reais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧮"
 },
 {
 "slug": "cheaper",
@@ -347,6 +378,7 @@
 "example": "Do you have something cheaper?",
 "exampleTranslation": "Você tem algo mais barato?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬇️"
 }
 ]

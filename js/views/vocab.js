@@ -69,6 +69,11 @@ function renderIndex(root) {
       <p class="muted">${formatNumber(seen)} de ${formatNumber(totalWords)} palavras estudadas, em ${cats.length} situações do dia a dia.</p>
     </header>
 
+    <div class="quick-row">
+      <a class="card quick" href="#/revisao"><span class="quick-emoji">🔄</span><span><strong>Revisão</strong><span class="muted small">${plural(store.dueWordsCount(), 'palavra', 'palavras')} para hoje</span></span></a>
+      <a class="card quick" href="#/quiz/misto"><span class="quick-emoji">🎲</span><span><strong>Quiz misturado</strong><span class="muted small">10 palavras de vários temas</span></span></a>
+    </div>
+
     <div class="search card">
       <label for="vocab-search">Pesquisar palavra</label>
       <input id="vocab-search" type="search" placeholder="ex.: airport ou aeroporto" autocomplete="off" autocapitalize="off" spellcheck="false">
@@ -158,7 +163,10 @@ async function renderCategory(root, catId) {
         <p class="muted">${plural(st.total, 'palavra', 'palavras')} · ${st.seen} vistas · ${st.mastered} dominadas</p>
         ${progressBar(st.mastery, `Domínio em ${cat.name}`)}
       </div>
-      <a class="btn btn-primary btn-lg" href="#/vocabulario/${esc(cat.id)}/estudar">${icon('play', 18)} ${hasNew ? 'Estudar' : 'Praticar de novo'}</a>
+      <div class="cat-actions">
+        <a class="btn btn-primary btn-lg" href="#/vocabulario/${esc(cat.id)}/estudar">${icon('play', 18)} ${hasNew ? 'Estudar' : 'Praticar de novo'}</a>
+        <a class="btn btn-soft btn-lg" href="#/quiz/${esc(cat.id)}">🎯 Quiz</a>
+      </div>
     </header>
     <div class="filters" role="group" aria-label="Filtrar palavras">
       ${FILTERS.map((f) => `<button type="button" class="filter" data-filter="${f.id}" aria-pressed="${f.id === filter}">${f.label}</button>`).join('')}

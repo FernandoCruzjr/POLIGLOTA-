@@ -7,7 +7,8 @@
 "example": "My car is in the garage.",
 "exampleTranslation": "Meu carro está na garagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚗"
 },
 {
 "slug": "bus",
@@ -17,7 +18,8 @@
 "example": "I take the bus to work.",
 "exampleTranslation": "Eu pego o ônibus para o trabalho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚌"
 },
 {
 "slug": "bus-stop",
@@ -27,7 +29,8 @@
 "example": "The bus stop is on the corner.",
 "exampleTranslation": "O ponto de ônibus fica na esquina.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚏"
 },
 {
 "slug": "train",
@@ -37,7 +40,8 @@
 "example": "The train is fast.",
 "exampleTranslation": "O trem é rápido.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚆"
 },
 {
 "slug": "subway",
@@ -47,7 +51,8 @@
 "example": "Let's take the subway.",
 "exampleTranslation": "Vamos de metrô.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚇"
 },
 {
 "slug": "station",
@@ -57,7 +62,8 @@
 "example": "Where is the train station?",
 "exampleTranslation": "Onde fica a estação de trem?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚉"
 },
 {
 "slug": "taxi",
@@ -67,7 +73,8 @@
 "example": "Let's take a taxi.",
 "exampleTranslation": "Vamos pegar um táxi.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚕"
 },
 {
 "slug": "bike",
@@ -77,7 +84,8 @@
 "example": "I ride my bike to school.",
 "exampleTranslation": "Eu vou de bicicleta para a escola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚲"
 },
 {
 "slug": "motorcycle",
@@ -87,7 +95,8 @@
 "example": "He has a red motorcycle.",
 "exampleTranslation": "Ele tem uma moto vermelha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏍️"
 },
 {
 "slug": "truck",
@@ -97,7 +106,8 @@
 "example": "A big truck is blocking the road.",
 "exampleTranslation": "Um caminhão grande está bloqueando a estrada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚚"
 },
 {
 "slug": "boat",
@@ -107,7 +117,8 @@
 "example": "We went to the island by boat.",
 "exampleTranslation": "Fomos para a ilha de barco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚤"
 },
 {
 "slug": "ship",
@@ -117,7 +128,8 @@
 "example": "The ship is leaving the port.",
 "exampleTranslation": "O navio está saindo do porto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚢"
 },
 {
 "slug": "ferry",
@@ -127,7 +139,8 @@
 "example": "We took the ferry to the island.",
 "exampleTranslation": "Pegamos a balsa para a ilha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⛴️"
 },
 {
 "slug": "drive",
@@ -137,7 +150,8 @@
 "example": "Can you drive?",
 "exampleTranslation": "Você sabe dirigir?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚙"
 },
 {
 "slug": "driver",
@@ -147,7 +161,8 @@
 "example": "The driver was very careful.",
 "exampleTranslation": "O motorista foi muito cuidadoso.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍✈️"
 },
 {
 "slug": "drivers-license",
@@ -157,7 +172,8 @@
 "example": "Do you have a driver's license?",
 "exampleTranslation": "Você tem carteira de motorista?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪪"
 },
 {
 "slug": "ride",
@@ -167,7 +183,8 @@
 "example": "Can you give me a ride?",
 "exampleTranslation": "Você pode me dar uma carona?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚴"
 },
 {
 "slug": "get-on",
@@ -197,7 +214,8 @@
 "example": "How much is the bus fare?",
 "exampleTranslation": "Quanto custa a passagem de ônibus?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💵"
 },
 {
 "slug": "schedule",
@@ -207,7 +225,8 @@
 "example": "Check the train schedule.",
 "exampleTranslation": "Confira o horário dos trens.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗓️"
 },
 {
 "slug": "platform",
@@ -217,7 +236,8 @@
 "example": "The train leaves from platform 3.",
 "exampleTranslation": "O trem sai da plataforma 3.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚉"
 },
 {
 "slug": "stop",
@@ -227,7 +247,8 @@
 "example": "Stop the car, please.",
 "exampleTranslation": "Pare o carro, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛑"
 },
 {
 "slug": "traffic",
@@ -237,7 +258,8 @@
 "example": "The traffic is terrible today.",
 "exampleTranslation": "O trânsito está terrível hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚦"
 },
 {
 "slug": "traffic-light",
@@ -247,7 +269,8 @@
 "example": "Turn right at the traffic light.",
 "exampleTranslation": "Vire à direita no semáforo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚦"
 },
 {
 "slug": "traffic-jam",
@@ -257,7 +280,8 @@
 "example": "We were stuck in a traffic jam.",
 "exampleTranslation": "Ficamos presos num engarrafamento.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚗"
 },
 {
 "slug": "road",
@@ -267,7 +291,8 @@
 "example": "This road goes to the beach.",
 "exampleTranslation": "Esta estrada vai para a praia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛣️"
 },
 {
 "slug": "highway",
@@ -277,7 +302,8 @@
 "example": "Take the highway north.",
 "exampleTranslation": "Pegue a rodovia para o norte.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛣️"
 },
 {
 "slug": "gas-station",
@@ -287,7 +313,8 @@
 "example": "We need to stop at a gas station.",
 "exampleTranslation": "Precisamos parar num posto de gasolina.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛽"
 },
 {
 "slug": "gas",
@@ -297,7 +324,8 @@
 "example": "The car needs gas.",
 "exampleTranslation": "O carro precisa de gasolina.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛽"
 },
 {
 "slug": "parking-lot",
@@ -307,7 +335,8 @@
 "example": "The parking lot is full.",
 "exampleTranslation": "O estacionamento está lotado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🅿️"
 },
 {
 "slug": "park-the-car",
@@ -317,7 +346,8 @@
 "example": "Where can I park the car?",
 "exampleTranslation": "Onde posso estacionar o carro?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🅿️"
 },
 {
 "slug": "speed",
@@ -327,7 +357,8 @@
 "example": "Slow down, watch your speed!",
 "exampleTranslation": "Mais devagar, cuidado com a velocidade!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💨"
 },
 {
 "slug": "tire",
@@ -337,7 +368,8 @@
 "example": "We have a flat tire.",
 "exampleTranslation": "Estamos com um pneu furado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛞"
 },
 {
 "slug": "wheel",
@@ -347,7 +379,8 @@
 "example": "Keep your hands on the wheel.",
 "exampleTranslation": "Mantenha as mãos no volante.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛞"
 },
 {
 "slug": "helmet",
@@ -357,7 +390,8 @@
 "example": "Always wear a helmet.",
 "exampleTranslation": "Use sempre capacete.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⛑️"
 },
 {
 "slug": "passenger-seat",
@@ -377,7 +411,8 @@
 "example": "There was an accident on the highway.",
 "exampleTranslation": "Houve um acidente na rodovia.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💥"
 },
 {
 "slug": "rent-a-car",
@@ -387,7 +422,8 @@
 "example": "We rented a car for the trip.",
 "exampleTranslation": "Alugamos um carro para a viagem.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔑"
 },
 {
 "slug": "walk",
@@ -397,7 +433,8 @@
 "example": "Let's walk to the park.",
 "exampleTranslation": "Vamos a pé até o parque.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚶"
 },
 {
 "slug": "on-foot",
@@ -407,7 +444,8 @@
 "example": "We went there on foot.",
 "exampleTranslation": "Fomos lá a pé.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👣"
 },
 {
 "slug": "public-transportation",
@@ -427,7 +465,8 @@
 "example": "Buy your ticket at the ticket machine.",
 "exampleTranslation": "Compre o bilhete na máquina.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎟️"
 },
 {
 "slug": "next-stop",
@@ -437,7 +476,8 @@
 "example": "The next stop is Central Station.",
 "exampleTranslation": "A próxima parada é a Estação Central.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚏"
 },
 {
 "slug": "route",
@@ -447,7 +487,8 @@
 "example": "What's the fastest route?",
 "exampleTranslation": "Qual é o caminho mais rápido?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗺️"
 },
 {
 "slug": "commute",
@@ -487,7 +528,8 @@
 "example": "Avoid the subway at rush hour.",
 "exampleTranslation": "Evite o metrô no horário de pico.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⏰"
 },
 {
 "slug": "pedestrian",
@@ -497,6 +539,7 @@
 "example": "Watch out for pedestrians.",
 "exampleTranslation": "Cuidado com os pedestres.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🚶"
 }
 ]

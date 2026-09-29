@@ -7,7 +7,8 @@
 "example": "We live in a small house.",
 "exampleTranslation": "Nós moramos numa casa pequena.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏠"
 },
 {
 "slug": "home",
@@ -17,7 +18,8 @@
 "example": "I'm going home.",
 "exampleTranslation": "Estou indo para casa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏡"
 },
 {
 "slug": "apartment",
@@ -27,7 +29,8 @@
 "example": "Our apartment is on the third floor.",
 "exampleTranslation": "Nosso apartamento fica no terceiro andar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏢"
 },
 {
 "slug": "kitchen",
@@ -37,7 +40,8 @@
 "example": "Mom is in the kitchen.",
 "exampleTranslation": "A mamãe está na cozinha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍳"
 },
 {
 "slug": "bedroom",
@@ -47,7 +51,8 @@
 "example": "The baby is sleeping in the bedroom.",
 "exampleTranslation": "O bebê está dormindo no quarto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛏️"
 },
 {
 "slug": "bathroom",
@@ -57,7 +62,8 @@
 "example": "The bathroom is upstairs.",
 "exampleTranslation": "O banheiro fica no andar de cima.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛁"
 },
 {
 "slug": "living-room",
@@ -67,7 +73,8 @@
 "example": "We watch TV in the living room.",
 "exampleTranslation": "Nós vemos TV na sala.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛋️"
 },
 {
 "slug": "dining-room",
@@ -77,7 +84,8 @@
 "example": "Dinner is in the dining room.",
 "exampleTranslation": "O jantar é na sala de jantar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍽️"
 },
 {
 "slug": "garage",
@@ -87,7 +95,8 @@
 "example": "The car is in the garage.",
 "exampleTranslation": "O carro está na garagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚗"
 },
 {
 "slug": "garden",
@@ -97,7 +106,8 @@
 "example": "My grandmother loves her garden.",
 "exampleTranslation": "Minha avó adora o jardim dela.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌷"
 },
 {
 "slug": "backyard",
@@ -107,7 +117,8 @@
 "example": "The kids play in the backyard.",
 "exampleTranslation": "As crianças brincam no quintal.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌳"
 },
 {
 "slug": "balcony",
@@ -117,7 +128,8 @@
 "example": "I drink coffee on the balcony.",
 "exampleTranslation": "Eu tomo café na sacada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪴"
 },
 {
 "slug": "roof",
@@ -127,7 +139,8 @@
 "example": "The roof needs repair.",
 "exampleTranslation": "O telhado precisa de conserto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏠"
 },
 {
 "slug": "wall",
@@ -137,7 +150,8 @@
 "example": "Hang the picture on the wall.",
 "exampleTranslation": "Pendure o quadro na parede.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧱"
 },
 {
 "slug": "door",
@@ -147,7 +161,8 @@
 "example": "Close the door, please.",
 "exampleTranslation": "Feche a porta, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "window",
@@ -157,7 +172,8 @@
 "example": "Open the window.",
 "exampleTranslation": "Abra a janela.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪟"
 },
 {
 "slug": "floor",
@@ -167,7 +183,8 @@
 "example": "Don't sit on the floor.",
 "exampleTranslation": "Não sente no chão.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🟫"
 },
 {
 "slug": "ceiling",
@@ -177,7 +194,8 @@
 "example": "The ceiling is very high.",
 "exampleTranslation": "O teto é muito alto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💡"
 },
 {
 "slug": "upstairs",
@@ -187,7 +205,8 @@
 "example": "My room is upstairs.",
 "exampleTranslation": "Meu quarto fica no andar de cima.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⬆️"
 },
 {
 "slug": "downstairs",
@@ -197,7 +216,8 @@
 "example": "Breakfast is downstairs.",
 "exampleTranslation": "O café da manhã é no andar de baixo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⬇️"
 },
 {
 "slug": "bed",
@@ -207,7 +227,8 @@
 "example": "Time for bed!",
 "exampleTranslation": "Hora de ir para a cama!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛏️"
 },
 {
 "slug": "sofa",
@@ -217,7 +238,8 @@
 "example": "The cat sleeps on the sofa.",
 "exampleTranslation": "O gato dorme no sofá.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛋️"
 },
 {
 "slug": "chair",
@@ -227,7 +249,8 @@
 "example": "Take a chair.",
 "exampleTranslation": "Pegue uma cadeira.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪑"
 },
 {
 "slug": "desk",
@@ -237,7 +260,8 @@
 "example": "My laptop is on the desk.",
 "exampleTranslation": "Meu notebook está na escrivaninha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🖥️"
 },
 {
 "slug": "closet",
@@ -247,7 +271,8 @@
 "example": "Your clothes are in the closet.",
 "exampleTranslation": "Suas roupas estão no guarda-roupa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👔"
 },
 {
 "slug": "drawer",
@@ -257,7 +282,8 @@
 "example": "The spoons are in the drawer.",
 "exampleTranslation": "As colheres estão na gaveta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗄️"
 },
 {
 "slug": "bookcase",
@@ -267,7 +293,8 @@
 "example": "Put the books in the bookcase.",
 "exampleTranslation": "Coloque os livros na estante.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📚"
 },
 {
 "slug": "lamp",
@@ -277,7 +304,8 @@
 "example": "Turn on the lamp.",
 "exampleTranslation": "Acenda o abajur.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪔"
 },
 {
 "slug": "light",
@@ -287,7 +315,8 @@
 "example": "Turn off the light.",
 "exampleTranslation": "Apague a luz.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💡"
 },
 {
 "slug": "mirror",
@@ -297,7 +326,8 @@
 "example": "Look in the mirror.",
 "exampleTranslation": "Olhe no espelho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪞"
 },
 {
 "slug": "carpet",
@@ -307,7 +337,8 @@
 "example": "The carpet is soft.",
 "exampleTranslation": "O tapete é macio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🟥"
 },
 {
 "slug": "curtain",
@@ -317,7 +348,8 @@
 "example": "Close the curtains.",
 "exampleTranslation": "Feche as cortinas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪟"
 },
 {
 "slug": "fridge",
@@ -327,7 +359,8 @@
 "example": "The milk is in the fridge.",
 "exampleTranslation": "O leite está na geladeira.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧊"
 },
 {
 "slug": "freezer",
@@ -337,7 +370,8 @@
 "example": "Put the ice cream in the freezer.",
 "exampleTranslation": "Coloque o sorvete no congelador.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❄️"
 },
 {
 "slug": "stove",
@@ -347,7 +381,8 @@
 "example": "Be careful, the stove is hot.",
 "exampleTranslation": "Cuidado, o fogão está quente.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔥"
 },
 {
 "slug": "oven",
@@ -357,7 +392,8 @@
 "example": "The cake is in the oven.",
 "exampleTranslation": "O bolo está no forno.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "♨️"
 },
 {
 "slug": "microwave",
@@ -367,7 +403,8 @@
 "example": "Heat it in the microwave.",
 "exampleTranslation": "Esquente no micro-ondas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📟"
 },
 {
 "slug": "sink",
@@ -377,7 +414,8 @@
 "example": "The dishes are in the sink.",
 "exampleTranslation": "A louça está na pia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚰"
 },
 {
 "slug": "dishwasher",
@@ -387,7 +425,8 @@
 "example": "Put the plates in the dishwasher.",
 "exampleTranslation": "Coloque os pratos na lava-louças.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍽️"
 },
 {
 "slug": "washing-machine",
@@ -397,7 +436,8 @@
 "example": "The washing machine is running.",
 "exampleTranslation": "A máquina de lavar está ligada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧺"
 },
 {
 "slug": "pan",
@@ -407,7 +447,8 @@
 "example": "Heat the pan first.",
 "exampleTranslation": "Esquente a panela primeiro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍳"
 },
 {
 "slug": "shower",
@@ -417,7 +458,8 @@
 "example": "I take a shower every morning.",
 "exampleTranslation": "Eu tomo banho toda manhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚿"
 },
 {
 "slug": "bathtub",
@@ -427,7 +469,8 @@
 "example": "The baby loves the bathtub.",
 "exampleTranslation": "O bebê adora a banheira.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛁"
 },
 {
 "slug": "toilet",
@@ -437,7 +480,8 @@
 "example": "Don't forget to flush the toilet.",
 "exampleTranslation": "Não esqueça de dar descarga.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚽"
 },
 {
 "slug": "toilet-paper",
@@ -447,7 +491,8 @@
 "example": "We need toilet paper.",
 "exampleTranslation": "Precisamos de papel higiênico.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧻"
 },
 {
 "slug": "soap",
@@ -457,7 +502,8 @@
 "example": "Wash your hands with soap.",
 "exampleTranslation": "Lave as mãos com sabonete.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧼"
 },
 {
 "slug": "shampoo",
@@ -467,7 +513,8 @@
 "example": "This shampoo smells good.",
 "exampleTranslation": "Este xampu é cheiroso.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧴"
 },
 {
 "slug": "toothbrush",
@@ -477,7 +524,8 @@
 "example": "Where is my toothbrush?",
 "exampleTranslation": "Cadê minha escova de dentes?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪥"
 },
 {
 "slug": "toothpaste",
@@ -487,7 +535,8 @@
 "example": "We're out of toothpaste.",
 "exampleTranslation": "A pasta de dente acabou.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪥"
 },
 {
 "slug": "trash",
@@ -497,7 +546,8 @@
 "example": "Take out the trash, please.",
 "exampleTranslation": "Leve o lixo para fora, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗑️"
 },
 {
 "slug": "broom",
@@ -507,7 +557,8 @@
 "example": "Where is the broom?",
 "exampleTranslation": "Onde está a vassoura?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧹"
 },
 {
 "slug": "clean-the-house",
@@ -517,7 +568,8 @@
 "example": "We clean the house on Saturdays.",
 "exampleTranslation": "Nós limpamos a casa aos sábados.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧽"
 },
 {
 "slug": "do-the-dishes",
@@ -527,7 +579,8 @@
 "example": "It's your turn to do the dishes.",
 "exampleTranslation": "É a sua vez de lavar a louça.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍽️"
 },
 {
 "slug": "do-the-laundry",
@@ -537,7 +590,8 @@
 "example": "I do the laundry on Mondays.",
 "exampleTranslation": "Eu lavo roupa às segundas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧺"
 },
 {
 "slug": "make-the-bed",
@@ -547,7 +601,8 @@
 "example": "Make your bed before school.",
 "exampleTranslation": "Arrume a cama antes da escola.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "cook-dinner",
@@ -557,7 +612,8 @@
 "example": "Who is cooking dinner tonight?",
 "exampleTranslation": "Quem vai fazer o jantar hoje?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍲"
 },
 {
 "slug": "neighbor",
@@ -567,7 +623,8 @@
 "example": "Our neighbor is very friendly.",
 "exampleTranslation": "Nosso vizinho é muito simpático.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👋"
 },
 {
 "slug": "rent",
@@ -577,7 +634,8 @@
 "example": "The rent is due on the fifth.",
 "exampleTranslation": "O aluguel vence no dia cinco.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏷️"
 },
 {
 "slug": "move",
@@ -587,7 +645,8 @@
 "example": "We are moving next month.",
 "exampleTranslation": "Vamos nos mudar no mês que vem.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📦"
 },
 {
 "slug": "furniture",
@@ -597,7 +656,8 @@
 "example": "We bought new furniture.",
 "exampleTranslation": "Compramos móveis novos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪑"
 },
 {
 "slug": "key-chain",
@@ -607,7 +667,8 @@
 "example": "My keys are on the key chain.",
 "exampleTranslation": "Minhas chaves estão no chaveiro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔑"
 },
 {
 "slug": "doorbell",
@@ -617,7 +678,8 @@
 "example": "Someone is ringing the doorbell.",
 "exampleTranslation": "Alguém está tocando a campainha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔔"
 },
 {
 "slug": "fan",
@@ -627,7 +689,8 @@
 "example": "Turn on the fan, it's hot.",
 "exampleTranslation": "Liga o ventilador, está calor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌀"
 },
 {
 "slug": "pillowcase",
@@ -647,7 +710,8 @@
 "example": "I need to iron my shirt.",
 "exampleTranslation": "Eu preciso passar minha camisa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👕"
 },
 {
 "slug": "vacuum-cleaner",
@@ -657,7 +721,8 @@
 "example": "The vacuum cleaner is very loud.",
 "exampleTranslation": "O aspirador é muito barulhento.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧹"
 },
 {
 "slug": "plant",
@@ -667,7 +732,8 @@
 "example": "Water the plants, please.",
 "exampleTranslation": "Regue as plantas, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪴"
 },
 {
 "slug": "cozy",
@@ -677,7 +743,8 @@
 "example": "Your house is so cozy.",
 "exampleTranslation": "Sua casa é tão aconchegante.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "☕"
 },
 {
 "slug": "messy",
@@ -687,7 +754,8 @@
 "example": "Your room is very messy!",
 "exampleTranslation": "Seu quarto está muito bagunçado!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌪️"
 },
 {
 "slug": "tidy",
@@ -697,6 +765,7 @@
 "example": "Keep your room tidy.",
 "exampleTranslation": "Mantenha seu quarto arrumado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✨"
 }
 ]

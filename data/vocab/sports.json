@@ -7,7 +7,8 @@
 "example": "What sports do you play?",
 "exampleTranslation": "Que esportes você pratica?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏅"
 },
 {
 "slug": "soccer",
@@ -17,7 +18,8 @@
 "example": "Soccer is very popular in Brazil.",
 "exampleTranslation": "O futebol é muito popular no Brasil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⚽"
 },
 {
 "slug": "football",
@@ -27,7 +29,8 @@
 "example": "Do you watch American football?",
 "exampleTranslation": "Você assiste futebol americano?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏈"
 },
 {
 "slug": "basketball",
@@ -37,7 +40,8 @@
 "example": "He plays basketball at school.",
 "exampleTranslation": "Ele joga basquete na escola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏀"
 },
 {
 "slug": "volleyball",
@@ -47,7 +51,8 @@
 "example": "Let's play volleyball on the beach.",
 "exampleTranslation": "Vamos jogar vôlei na praia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏐"
 },
 {
 "slug": "tennis",
@@ -57,7 +62,8 @@
 "example": "I play tennis on Saturdays.",
 "exampleTranslation": "Eu jogo tênis aos sábados.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎾"
 },
 {
 "slug": "swimming",
@@ -67,7 +73,8 @@
 "example": "Swimming is good exercise.",
 "exampleTranslation": "Natação é um bom exercício.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏊"
 },
 {
 "slug": "swim",
@@ -77,7 +84,8 @@
 "example": "Can you swim?",
 "exampleTranslation": "Você sabe nadar?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏊"
 },
 {
 "slug": "run",
@@ -87,7 +95,8 @@
 "example": "I run every morning.",
 "exampleTranslation": "Eu corro toda manhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏃"
 },
 {
 "slug": "running",
@@ -97,7 +106,8 @@
 "example": "Running is my favorite sport.",
 "exampleTranslation": "Corrida é o meu esporte favorito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏃"
 },
 {
 "slug": "cycling",
@@ -107,7 +117,8 @@
 "example": "Cycling is great for your legs.",
 "exampleTranslation": "Ciclismo é ótimo para as pernas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚴"
 },
 {
 "slug": "surfing",
@@ -117,7 +128,8 @@
 "example": "Surfing is popular in Florianópolis.",
 "exampleTranslation": "O surfe é popular em Florianópolis.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏄"
 },
 {
 "slug": "skateboard",
@@ -127,7 +139,8 @@
 "example": "My son got a skateboard.",
 "exampleTranslation": "Meu filho ganhou um skate.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛹"
 },
 {
 "slug": "martial-arts",
@@ -137,7 +150,8 @@
 "example": "He practices martial arts.",
 "exampleTranslation": "Ele pratica artes marciais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥋"
 },
 {
 "slug": "yoga",
@@ -147,7 +161,8 @@
 "example": "I do yoga to relax.",
 "exampleTranslation": "Eu faço ioga para relaxar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧘"
 },
 {
 "slug": "play",
@@ -157,7 +172,8 @@
 "example": "Let's play soccer!",
 "exampleTranslation": "Vamos jogar futebol!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎮"
 },
 {
 "slug": "game",
@@ -167,7 +183,8 @@
 "example": "The game starts at four.",
 "exampleTranslation": "O jogo começa às quatro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎲"
 },
 {
 "slug": "match",
@@ -177,7 +194,8 @@
 "example": "It was a great match.",
 "exampleTranslation": "Foi uma ótima partida.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏟️"
 },
 {
 "slug": "team-sport",
@@ -197,7 +215,8 @@
 "example": "He is the best player on the team.",
 "exampleTranslation": "Ele é o melhor jogador do time.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛹️"
 },
 {
 "slug": "fan",
@@ -207,7 +226,8 @@
 "example": "I'm a big fan of this team.",
 "exampleTranslation": "Eu sou muito torcedor deste time.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📣"
 },
 {
 "slug": "ball",
@@ -217,7 +237,8 @@
 "example": "Kick the ball!",
 "exampleTranslation": "Chuta a bola!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⚽"
 },
 {
 "slug": "goal",
@@ -227,7 +248,8 @@
 "example": "What a goal!",
 "exampleTranslation": "Que golaço!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥅"
 },
 {
 "slug": "score",
@@ -237,7 +259,8 @@
 "example": "What's the score?",
 "exampleTranslation": "Qual é o placar?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔢"
 },
 {
 "slug": "win",
@@ -247,7 +270,8 @@
 "example": "We won the game!",
 "exampleTranslation": "Nós ganhamos o jogo!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏆"
 },
 {
 "slug": "lose",
@@ -257,7 +281,8 @@
 "example": "Our team lost again.",
 "exampleTranslation": "Nosso time perdeu de novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😞"
 },
 {
 "slug": "tie",
@@ -267,7 +292,8 @@
 "example": "The game ended in a tie.",
 "exampleTranslation": "O jogo terminou empatado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "winner",
@@ -277,7 +303,8 @@
 "example": "And the winner is...",
 "exampleTranslation": "E o vencedor é...",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏆"
 },
 {
 "slug": "champion",
@@ -287,7 +314,8 @@
 "example": "Brazil is a five-time world champion.",
 "exampleTranslation": "O Brasil é pentacampeão mundial.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏆"
 },
 {
 "slug": "championship",
@@ -297,7 +325,8 @@
 "example": "We won the championship.",
 "exampleTranslation": "Nós ganhamos o campeonato.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏆"
 },
 {
 "slug": "medal",
@@ -307,7 +336,8 @@
 "example": "She won a gold medal.",
 "exampleTranslation": "Ela ganhou uma medalha de ouro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏅"
 },
 {
 "slug": "olympics",
@@ -317,7 +347,8 @@
 "example": "The Olympics are every four years.",
 "exampleTranslation": "As Olimpíadas são a cada quatro anos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏅"
 },
 {
 "slug": "world-cup",
@@ -327,7 +358,8 @@
 "example": "We watched the World Cup together.",
 "exampleTranslation": "Assistimos à Copa do Mundo juntos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏆"
 },
 {
 "slug": "soccer-field",
@@ -337,7 +369,8 @@
 "example": "The kids play on the soccer field.",
 "exampleTranslation": "As crianças jogam no campo de futebol.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏟️"
 },
 {
 "slug": "court",
@@ -347,7 +380,8 @@
 "example": "The tennis court is wet.",
 "exampleTranslation": "A quadra de tênis está molhada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎾"
 },
 {
 "slug": "referee",
@@ -357,7 +391,8 @@
 "example": "The referee gave a yellow card.",
 "exampleTranslation": "O juiz deu cartão amarelo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🟨"
 },
 {
 "slug": "kick",
@@ -367,7 +402,8 @@
 "example": "Kick the ball to me.",
 "exampleTranslation": "Chuta a bola para mim.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦵"
 },
 {
 "slug": "throw",
@@ -377,7 +413,8 @@
 "example": "Throw the ball!",
 "exampleTranslation": "Joga a bola!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤾"
 },
 {
 "slug": "catch",
@@ -387,7 +424,8 @@
 "example": "Catch!",
 "exampleTranslation": "Pega!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧤"
 },
 {
 "slug": "train",
@@ -397,7 +435,8 @@
 "example": "We train twice a week.",
 "exampleTranslation": "Nós treinamos duas vezes por semana.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏋️"
 },
 {
 "slug": "workout",
@@ -407,7 +446,8 @@
 "example": "That was a hard workout.",
 "exampleTranslation": "Aquele foi um treino puxado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏋️"
 },
 {
 "slug": "in-shape",
@@ -417,7 +457,8 @@
 "example": "I want to get in shape.",
 "exampleTranslation": "Eu quero entrar em forma.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💪"
 },
 {
 "slug": "race",
@@ -427,7 +468,8 @@
 "example": "He won the race.",
 "exampleTranslation": "Ele ganhou a corrida.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏁"
 },
 {
 "slug": "cheer",
@@ -437,7 +479,8 @@
 "example": "We cheered for our team.",
 "exampleTranslation": "Nós torcemos pelo nosso time.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📣"
 },
 {
 "slug": "warm-up",
@@ -447,6 +490,7 @@
 "example": "Always warm up before running.",
 "exampleTranslation": "Sempre aqueça antes de correr.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤸"
 }
 ]

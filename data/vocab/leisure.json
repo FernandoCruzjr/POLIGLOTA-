@@ -7,7 +7,8 @@
 "example": "What do you do in your free time?",
 "exampleTranslation": "O que você faz no seu tempo livre?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🕶️"
 },
 {
 "slug": "hobby",
@@ -17,7 +18,8 @@
 "example": "My hobby is painting.",
 "exampleTranslation": "Meu hobby é pintar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎨"
 },
 {
 "slug": "fun",
@@ -27,7 +29,8 @@
 "example": "The party was fun.",
 "exampleTranslation": "A festa foi divertida.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤪"
 },
 {
 "slug": "have-fun",
@@ -37,7 +40,8 @@
 "example": "Have fun at the beach!",
 "exampleTranslation": "Divirta-se na praia!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥳"
 },
 {
 "slug": "movie",
@@ -47,7 +51,8 @@
 "example": "Let's watch a movie tonight.",
 "exampleTranslation": "Vamos assistir a um filme hoje à noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎬"
 },
 {
 "slug": "series",
@@ -57,7 +62,8 @@
 "example": "I'm watching a new series.",
 "exampleTranslation": "Estou assistindo a uma série nova.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📺"
 },
 {
 "slug": "music",
@@ -67,7 +73,8 @@
 "example": "I listen to music every day.",
 "exampleTranslation": "Eu escuto música todo dia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎵"
 },
 {
 "slug": "song",
@@ -77,7 +84,8 @@
 "example": "This is my favorite song.",
 "exampleTranslation": "Esta é minha música favorita.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎶"
 },
 {
 "slug": "sing",
@@ -87,7 +95,8 @@
 "example": "She loves to sing.",
 "exampleTranslation": "Ela adora cantar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎤"
 },
 {
 "slug": "dance",
@@ -97,7 +106,8 @@
 "example": "Let's dance!",
 "exampleTranslation": "Vamos dançar!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💃"
 },
 {
 "slug": "party",
@@ -107,7 +117,8 @@
 "example": "You're invited to my party.",
 "exampleTranslation": "Você está convidado para minha festa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎉"
 },
 {
 "slug": "concert",
@@ -117,7 +128,8 @@
 "example": "We went to a concert last night.",
 "exampleTranslation": "Fomos a um show ontem à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎸"
 },
 {
 "slug": "theater",
@@ -127,7 +139,8 @@
 "example": "We saw a play at the theater.",
 "exampleTranslation": "Vimos uma peça no teatro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎭"
 },
 {
 "slug": "read",
@@ -137,7 +150,8 @@
 "example": "I read before bed.",
 "exampleTranslation": "Eu leio antes de dormir.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📖"
 },
 {
 "slug": "draw",
@@ -147,7 +161,8 @@
 "example": "My daughter loves to draw.",
 "exampleTranslation": "Minha filha adora desenhar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✏️"
 },
 {
 "slug": "paint-a-picture",
@@ -157,7 +172,8 @@
 "example": "I like to paint pictures of the sea.",
 "exampleTranslation": "Eu gosto de pintar quadros do mar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🖼️"
 },
 {
 "slug": "play-the-guitar",
@@ -167,7 +183,8 @@
 "example": "He plays the guitar very well.",
 "exampleTranslation": "Ele toca violão muito bem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎸"
 },
 {
 "slug": "instrument",
@@ -177,7 +194,8 @@
 "example": "Do you play an instrument?",
 "exampleTranslation": "Você toca algum instrumento?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎻"
 },
 {
 "slug": "camping",
@@ -187,7 +205,8 @@
 "example": "We go camping every summer.",
 "exampleTranslation": "Nós acampamos todo verão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏕️"
 },
 {
 "slug": "fishing",
@@ -197,7 +216,8 @@
 "example": "My father loves fishing.",
 "exampleTranslation": "Meu pai adora pescar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎣"
 },
 {
 "slug": "hiking",
@@ -207,7 +227,8 @@
 "example": "Let's go hiking this weekend.",
 "exampleTranslation": "Vamos fazer trilha neste fim de semana.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥾"
 },
 {
 "slug": "picnic",
@@ -217,7 +238,8 @@
 "example": "Let's have a picnic in the park.",
 "exampleTranslation": "Vamos fazer um piquenique no parque.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧺"
 },
 {
 "slug": "barbecue",
@@ -227,7 +249,8 @@
 "example": "We're having a barbecue on Sunday.",
 "exampleTranslation": "Vamos fazer churrasco no domingo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍖"
 },
 {
 "slug": "board-game",
@@ -237,7 +260,8 @@
 "example": "We play board games on Friday night.",
 "exampleTranslation": "Jogamos jogos de tabuleiro na sexta à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎲"
 },
 {
 "slug": "cards",
@@ -247,7 +271,8 @@
 "example": "Grandpa taught me to play cards.",
 "exampleTranslation": "O vovô me ensinou a jogar cartas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🃏"
 },
 {
 "slug": "puzzle",
@@ -257,7 +282,8 @@
 "example": "We finished the puzzle!",
 "exampleTranslation": "Terminamos o quebra-cabeça!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧩"
 },
 {
 "slug": "toy",
@@ -267,7 +293,8 @@
 "example": "The baby loves this toy.",
 "exampleTranslation": "O bebê adora este brinquedo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧸"
 },
 {
 "slug": "doll",
@@ -277,7 +304,8 @@
 "example": "She has many dolls.",
 "exampleTranslation": "Ela tem muitas bonecas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪆"
 },
 {
 "slug": "watch-tv",
@@ -287,7 +315,8 @@
 "example": "We watch TV after dinner.",
 "exampleTranslation": "Vemos TV depois do jantar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📺"
 },
 {
 "slug": "cinema",
@@ -297,7 +326,8 @@
 "example": "Let's go to the cinema.",
 "exampleTranslation": "Vamos ao cinema.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍿"
 },
 {
 "slug": "show-tickets",
@@ -307,7 +337,8 @@
 "example": "I bought two tickets for the show.",
 "exampleTranslation": "Eu comprei dois ingressos para o show.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎟️"
 },
 {
 "slug": "festival",
@@ -317,7 +348,8 @@
 "example": "There's a music festival in town.",
 "exampleTranslation": "Tem um festival de música na cidade.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎪"
 },
 {
 "slug": "carnival",
@@ -327,7 +359,8 @@
 "example": "Carnival is the biggest party in Brazil.",
 "exampleTranslation": "O Carnaval é a maior festa do Brasil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎭"
 },
 {
 "slug": "relax",
@@ -337,7 +370,8 @@
 "example": "I want to relax this weekend.",
 "exampleTranslation": "Eu quero relaxar neste fim de semana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😌"
 },
 {
 "slug": "bored",
@@ -347,7 +381,8 @@
 "example": "The kids are bored.",
 "exampleTranslation": "As crianças estão entediadas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥱"
 },
 {
 "slug": "boring",
@@ -357,7 +392,8 @@
 "example": "This movie is boring.",
 "exampleTranslation": "Este filme é chato.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😴"
 },
 {
 "slug": "interesting",
@@ -367,7 +403,8 @@
 "example": "This book is very interesting.",
 "exampleTranslation": "Este livro é muito interessante.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤔"
 },
 {
 "slug": "exciting",
@@ -377,7 +414,8 @@
 "example": "The game was exciting!",
 "exampleTranslation": "O jogo foi emocionante!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤩"
 },
 {
 "slug": "go-out",
@@ -387,7 +425,8 @@
 "example": "Let's go out tonight.",
 "exampleTranslation": "Vamos sair hoje à noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌃"
 },
 {
 "slug": "hang-out",
@@ -397,7 +436,8 @@
 "example": "We hang out every weekend.",
 "exampleTranslation": "A gente se encontra todo fim de semana.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍🤝‍🧑"
 },
 {
 "slug": "invite",
@@ -407,7 +447,8 @@
 "example": "I invited my friends to dinner.",
 "exampleTranslation": "Eu convidei meus amigos para jantar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💌"
 },
 {
 "slug": "photography",
@@ -417,7 +458,8 @@
 "example": "Photography is my hobby.",
 "exampleTranslation": "Fotografia é o meu hobby.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📷"
 },
 {
 "slug": "gardening",
@@ -427,7 +469,8 @@
 "example": "Grandma loves gardening.",
 "exampleTranslation": "A vovó adora jardinagem.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌻"
 },
 {
 "slug": "knit",
@@ -437,7 +480,8 @@
 "example": "My mother knits scarves.",
 "exampleTranslation": "Minha mãe tricota cachecóis.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧶"
 },
 {
 "slug": "amusement-park",
@@ -447,6 +491,7 @@
 "example": "The kids want to go to the amusement park.",
 "exampleTranslation": "As crianças querem ir ao parque de diversões.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎡"
 }
 ]

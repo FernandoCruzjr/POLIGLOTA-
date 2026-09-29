@@ -7,7 +7,8 @@
 "example": "This restaurant is very good.",
 "exampleTranslation": "Este restaurante é muito bom.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍽️"
 },
 {
 "slug": "menu",
@@ -17,7 +18,8 @@
 "example": "Can I see the menu?",
 "exampleTranslation": "Posso ver o cardápio?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📜"
 },
 {
 "slug": "waiter",
@@ -27,7 +29,8 @@
 "example": "The waiter is coming.",
 "exampleTranslation": "O garçom está vindo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤵"
 },
 {
 "slug": "waitress",
@@ -37,7 +40,8 @@
 "example": "The waitress was very kind.",
 "exampleTranslation": "A garçonete foi muito gentil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💁‍♀️"
 },
 {
 "slug": "order",
@@ -47,7 +51,8 @@
 "example": "Are you ready to order?",
 "exampleTranslation": "Vocês estão prontos para pedir?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "dish",
@@ -57,7 +62,8 @@
 "example": "What is the best dish here?",
 "exampleTranslation": "Qual é o melhor prato daqui?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍲"
 },
 {
 "slug": "starter",
@@ -67,7 +73,8 @@
 "example": "We'll share a starter.",
 "exampleTranslation": "Vamos dividir uma entrada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥗"
 },
 {
 "slug": "main-course",
@@ -77,7 +84,8 @@
 "example": "For the main course, I want fish.",
 "exampleTranslation": "De prato principal, eu quero peixe.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍛"
 },
 {
 "slug": "dessert",
@@ -87,7 +95,8 @@
 "example": "What do you have for dessert?",
 "exampleTranslation": "O que vocês têm de sobremesa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍰"
 },
 {
 "slug": "check",
@@ -97,7 +106,8 @@
 "example": "Can we have the check, please?",
 "exampleTranslation": "Pode trazer a conta, por favor?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧾"
 },
 {
 "slug": "tip",
@@ -107,7 +117,8 @@
 "example": "Is the tip included?",
 "exampleTranslation": "A gorjeta está incluída?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💵"
 },
 {
 "slug": "table",
@@ -117,7 +128,8 @@
 "example": "A table for four, please.",
 "exampleTranslation": "Uma mesa para quatro, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪑"
 },
 {
 "slug": "chef",
@@ -127,7 +139,8 @@
 "example": "The chef is from Italy.",
 "exampleTranslation": "O chef é da Itália.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👨‍🍳"
 },
 {
 "slug": "plate",
@@ -137,7 +150,8 @@
 "example": "This plate is dirty.",
 "exampleTranslation": "Este prato está sujo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍽️"
 },
 {
 "slug": "bowl",
@@ -147,7 +161,8 @@
 "example": "A bowl of soup, please.",
 "exampleTranslation": "Uma tigela de sopa, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥣"
 },
 {
 "slug": "fork",
@@ -157,7 +172,8 @@
 "example": "I need a fork.",
 "exampleTranslation": "Eu preciso de um garfo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍴"
 },
 {
 "slug": "knife",
@@ -167,7 +183,8 @@
 "example": "This knife is not sharp.",
 "exampleTranslation": "Esta faca não está afiada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔪"
 },
 {
 "slug": "spoon",
@@ -177,7 +194,8 @@
 "example": "Can I have a spoon?",
 "exampleTranslation": "Pode me dar uma colher?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥄"
 },
 {
 "slug": "napkin",
@@ -187,7 +205,8 @@
 "example": "More napkins, please.",
 "exampleTranslation": "Mais guardanapos, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧻"
 },
 {
 "slug": "glass",
@@ -197,7 +216,8 @@
 "example": "A glass of water, please.",
 "exampleTranslation": "Um copo d'água, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥛"
 },
 {
 "slug": "cup",
@@ -207,7 +227,8 @@
 "example": "A cup of coffee, please.",
 "exampleTranslation": "Uma xícara de café, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☕"
 },
 {
 "slug": "salt",
@@ -217,7 +238,8 @@
 "example": "Can you pass the salt?",
 "exampleTranslation": "Pode passar o sal?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧂"
 },
 {
 "slug": "pepper",
@@ -227,7 +249,8 @@
 "example": "This needs more pepper.",
 "exampleTranslation": "Isto precisa de mais pimenta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌶️"
 },
 {
 "slug": "spicy",
@@ -237,7 +260,8 @@
 "example": "Is this dish spicy?",
 "exampleTranslation": "Este prato é apimentado?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌶️"
 },
 {
 "slug": "vegetarian",
@@ -247,7 +271,8 @@
 "example": "Do you have vegetarian options?",
 "exampleTranslation": "Vocês têm opções vegetarianas?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥦"
 },
 {
 "slug": "allergic",
@@ -297,7 +322,8 @@
 "example": "Can I get this as takeout?",
 "exampleTranslation": "Pode ser para viagem?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥡"
 },
 {
 "slug": "to-go",
@@ -307,7 +333,8 @@
 "example": "Two coffees to go, please.",
 "exampleTranslation": "Dois cafés para levar, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥤"
 },
 {
 "slug": "delivery",
@@ -317,7 +344,8 @@
 "example": "Do you have delivery?",
 "exampleTranslation": "Vocês fazem entrega?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛵"
 },
 {
 "slug": "fast-food",
@@ -327,7 +355,8 @@
 "example": "Let's get some fast food.",
 "exampleTranslation": "Vamos comer um fast food.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍟"
 },
 {
 "slug": "buffet",
@@ -337,7 +366,8 @@
 "example": "The buffet has many options.",
 "exampleTranslation": "O bufê tem muitas opções.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍱"
 },
 {
 "slug": "reservation-for-two",
@@ -357,7 +387,8 @@
 "example": "I like my steak rare.",
 "exampleTranslation": "Eu gosto do bife malpassado.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🥩"
 },
 {
 "slug": "medium",
@@ -367,7 +398,8 @@
 "example": "Medium, please.",
 "exampleTranslation": "Ao ponto, por favor.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🥩"
 },
 {
 "slug": "well-done",
@@ -377,7 +409,8 @@
 "example": "I want it well done.",
 "exampleTranslation": "Eu quero bem passado.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🥩"
 },
 {
 "slug": "free-refill",
@@ -417,7 +450,8 @@
 "example": "This cake is delicious!",
 "exampleTranslation": "Este bolo está delicioso!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😋"
 },
 {
 "slug": "tasty",
@@ -427,7 +461,8 @@
 "example": "The food here is very tasty.",
 "exampleTranslation": "A comida aqui é muito saborosa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😋"
 },
 {
 "slug": "full",
@@ -437,7 +472,8 @@
 "example": "No dessert, thanks. I'm full.",
 "exampleTranslation": "Sem sobremesa, obrigado. Estou satisfeito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😌"
 },
 {
 "slug": "share",
@@ -447,7 +483,8 @@
 "example": "Let's share a pizza.",
 "exampleTranslation": "Vamos dividir uma pizza.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤝"
 },
 {
 "slug": "cook",
@@ -457,7 +494,8 @@
 "example": "My father loves to cook.",
 "exampleTranslation": "Meu pai adora cozinhar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🍳"
 },
 {
 "slug": "bake",
@@ -467,7 +505,8 @@
 "example": "She bakes bread every Sunday.",
 "exampleTranslation": "Ela assa pão todo domingo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥖"
 },
 {
 "slug": "fry",
@@ -477,7 +516,8 @@
 "example": "Fry the eggs in butter.",
 "exampleTranslation": "Frite os ovos na manteiga.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍳"
 },
 {
 "slug": "grilled",
@@ -487,7 +527,8 @@
 "example": "I'll have the grilled chicken.",
 "exampleTranslation": "Eu vou querer o frango grelhado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍢"
 },
 {
 "slug": "raw",
@@ -497,6 +538,7 @@
 "example": "Sushi has raw fish.",
 "exampleTranslation": "Sushi tem peixe cru.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍣"
 }
 ]

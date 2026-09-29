@@ -180,6 +180,53 @@ function markPendingWord(id) {
   if (!state.pending.words.includes(id)) state.pending.words.push(id);
 }
 
+// Quiz: acertar sobe o domínio e espaça a próxima revisão; errar desce um nível
+// e traz a palavra de volta em poucos minutos.
+const REVIEW_DAYS = [0, 1, 3, 7, 21];
+
+export function recordQuizAnswer(id, correct) {
+  const now = Date.now();
+  const w = state.words[id] || { mastery: 0, reviews: 0, correct: 0, wrong: 0, lastReview: null, nextReview: null };
+  w.reviews += 1;
+  w.lastReview = new Date(now).toISOString();
+  if (correct) {
+    w.correct += 1;
+    w.mastery = w.mastery === 0 ? 2 : Math.min(4, w.mastery + 1);
+    w.nextReview = new Date(now + REVIEW_DAYS[w.mastery] * 86400000).toISOString();
+  } else {
+    w.wrong += 1;
+    w.mastery = Math.max(1, w.mastery - 1);
+    w.nextReview = new Date(now + 10 * 60000).toISOString();
+  }
+  state.words[id] = w;
+  markPendingWord(id);
+  persist();
+  return w.mastery;
+}
+
+export function dueWordIds(limit = 10) {
+  const now = Date.now();
+  return Object.entries(state.words)
+    .filter(([, w]) => w.nextReview && new Date(w.nextReview).getTime() <= now)
+    .sort((a, b) => (a[1].mastery - b[1].mastery) || (a[1].nextReview < b[1].nextReview ? -1 : 1))
+    .slice(0, limit)
+    .map(([id]) => id);
+}
+
+export function weakestSeenIds(limit = 10) {
+  return Object.entries(state.words)
+    .filter(([, w]) => w.mastery > 0 && w.mastery < 4)
+    .sort((a, b) => (a[1].mastery - b[1].mastery) || String(a[1].lastReview).localeCompare(String(b[1].lastReview)))
+    .slice(0, limit)
+    .map(([id]) => id);
+}
+
+export function recordQuizSession({ xp, seconds, title, ref, type = 'quiz' }) {
+  registerStudy({ xp, seconds, type, ref, title });
+  commit();
+  sync();
+}
+
 // Estudo por cartões: a palavra passa de "nova" para "aprendendo" e entra na fila de revisão de amanhã.
 export function recordWordsStudied({ ids, xp, seconds, title, ref }) {
   const now = new Date();

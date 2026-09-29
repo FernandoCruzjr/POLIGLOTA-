@@ -7,7 +7,8 @@
 "example": "Exercise is good for your body.",
 "exampleTranslation": "Exercício faz bem para o corpo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧍"
 },
 {
 "slug": "head",
@@ -17,7 +18,8 @@
 "example": "My head hurts.",
 "exampleTranslation": "Minha cabeça dói.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗣️"
 },
 {
 "slug": "hair",
@@ -27,7 +29,8 @@
 "example": "She has long hair.",
 "exampleTranslation": "Ela tem cabelo comprido.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💇"
 },
 {
 "slug": "face",
@@ -37,7 +40,8 @@
 "example": "Wash your face.",
 "exampleTranslation": "Lave o rosto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙂"
 },
 {
 "slug": "eye",
@@ -47,7 +51,8 @@
 "example": "Close your eyes.",
 "exampleTranslation": "Feche os olhos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👁️"
 },
 {
 "slug": "ear",
@@ -57,7 +62,8 @@
 "example": "My ear hurts.",
 "exampleTranslation": "Meu ouvido está doendo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👂"
 },
 {
 "slug": "nose",
@@ -67,7 +73,8 @@
 "example": "The baby has a small nose.",
 "exampleTranslation": "O bebê tem um narizinho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👃"
 },
 {
 "slug": "mouth",
@@ -77,7 +84,8 @@
 "example": "Open your mouth.",
 "exampleTranslation": "Abra a boca.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👄"
 },
 {
 "slug": "lips",
@@ -87,7 +95,8 @@
 "example": "My lips are dry.",
 "exampleTranslation": "Meus lábios estão secos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💋"
 },
 {
 "slug": "tooth",
@@ -97,7 +106,8 @@
 "example": "The baby has her first tooth!",
 "exampleTranslation": "O bebê está com o primeiro dentinho!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦷"
 },
 {
 "slug": "teeth",
@@ -107,7 +117,8 @@
 "example": "Brush your teeth.",
 "exampleTranslation": "Escove os dentes.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦷"
 },
 {
 "slug": "tongue",
@@ -117,7 +128,8 @@
 "example": "Don't stick out your tongue!",
 "exampleTranslation": "Não mostre a língua!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👅"
 },
 {
 "slug": "cheek",
@@ -127,7 +139,8 @@
 "example": "She kissed my cheek.",
 "exampleTranslation": "Ela beijou minha bochecha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "😊"
 },
 {
 "slug": "chin",
@@ -137,7 +150,8 @@
 "example": "He hit his chin.",
 "exampleTranslation": "Ele bateu o queixo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧔"
 },
 {
 "slug": "forehead",
@@ -167,7 +181,8 @@
 "example": "My father has a beard.",
 "exampleTranslation": "Meu pai tem barba.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧔"
 },
 {
 "slug": "neck",
@@ -177,7 +192,8 @@
 "example": "My neck is stiff.",
 "exampleTranslation": "Meu pescoço está duro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦒"
 },
 {
 "slug": "throat",
@@ -187,7 +203,8 @@
 "example": "I have a sore throat.",
 "exampleTranslation": "Estou com dor de garganta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗣️"
 },
 {
 "slug": "shoulder",
@@ -197,7 +214,8 @@
 "example": "My shoulder hurts.",
 "exampleTranslation": "Meu ombro dói.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤷"
 },
 {
 "slug": "arm",
@@ -207,7 +225,8 @@
 "example": "He broke his arm.",
 "exampleTranslation": "Ele quebrou o braço.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💪"
 },
 {
 "slug": "elbow",
@@ -217,7 +236,8 @@
 "example": "I hit my elbow on the table.",
 "exampleTranslation": "Eu bati o cotovelo na mesa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💪"
 },
 {
 "slug": "wrist",
@@ -227,7 +247,8 @@
 "example": "I wear my watch on my left wrist.",
 "exampleTranslation": "Eu uso o relógio no pulso esquerdo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⌚"
 },
 {
 "slug": "hand",
@@ -237,7 +258,8 @@
 "example": "Raise your hand.",
 "exampleTranslation": "Levante a mão.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✋"
 },
 {
 "slug": "finger",
@@ -247,7 +269,8 @@
 "example": "I cut my finger.",
 "exampleTranslation": "Eu cortei o dedo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☝️"
 },
 {
 "slug": "thumb",
@@ -257,7 +280,8 @@
 "example": "Thumbs up!",
 "exampleTranslation": "Joia! (polegar para cima)",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👍"
 },
 {
 "slug": "nail",
@@ -267,7 +291,8 @@
 "example": "She painted her nails red.",
 "exampleTranslation": "Ela pintou as unhas de vermelho.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💅"
 },
 {
 "slug": "chest",
@@ -277,7 +302,8 @@
 "example": "I have a pain in my chest.",
 "exampleTranslation": "Estou com dor no peito.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🫁"
 },
 {
 "slug": "back",
@@ -287,7 +313,8 @@
 "example": "My back hurts.",
 "exampleTranslation": "Minhas costas doem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔙"
 },
 {
 "slug": "stomach",
@@ -297,7 +324,8 @@
 "example": "My stomach hurts.",
 "exampleTranslation": "Minha barriga está doendo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤰"
 },
 {
 "slug": "belly",
@@ -307,7 +335,8 @@
 "example": "The baby has a round belly.",
 "exampleTranslation": "O bebê tem uma barriguinha redonda.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤰"
 },
 {
 "slug": "waist",
@@ -337,7 +366,8 @@
 "example": "My legs are tired.",
 "exampleTranslation": "Minhas pernas estão cansadas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦵"
 },
 {
 "slug": "knee",
@@ -347,7 +377,8 @@
 "example": "I fell and hurt my knee.",
 "exampleTranslation": "Eu caí e machuquei o joelho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦵"
 },
 {
 "slug": "foot",
@@ -357,7 +388,8 @@
 "example": "My foot hurts.",
 "exampleTranslation": "Meu pé está doendo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦶"
 },
 {
 "slug": "feet",
@@ -367,7 +399,8 @@
 "example": "Wipe your feet.",
 "exampleTranslation": "Limpe os pés.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦶"
 },
 {
 "slug": "toe",
@@ -377,7 +410,8 @@
 "example": "I hurt my toe.",
 "exampleTranslation": "Eu machuquei o dedo do pé.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦶"
 },
 {
 "slug": "ankle",
@@ -387,7 +421,8 @@
 "example": "I twisted my ankle.",
 "exampleTranslation": "Eu torci o tornozelo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦶"
 },
 {
 "slug": "heel",
@@ -397,7 +432,8 @@
 "example": "My heel hurts in these shoes.",
 "exampleTranslation": "Meu calcanhar dói com estes sapatos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👠"
 },
 {
 "slug": "skin",
@@ -407,7 +443,8 @@
 "example": "Protect your skin from the sun.",
 "exampleTranslation": "Proteja a pele do sol.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤚"
 },
 {
 "slug": "bone",
@@ -417,7 +454,8 @@
 "example": "The dog has a bone.",
 "exampleTranslation": "O cachorro está com um osso.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦴"
 },
 {
 "slug": "blood",
@@ -427,7 +465,8 @@
 "example": "He lost a lot of blood.",
 "exampleTranslation": "Ele perdeu muito sangue.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🩸"
 },
 {
 "slug": "heart",
@@ -437,7 +476,8 @@
 "example": "My heart is beating fast.",
 "exampleTranslation": "Meu coração está batendo rápido.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❤️"
 },
 {
 "slug": "brain",
@@ -447,7 +487,8 @@
 "example": "The brain is an amazing organ.",
 "exampleTranslation": "O cérebro é um órgão incrível.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧠"
 },
 {
 "slug": "lungs",
@@ -457,7 +498,8 @@
 "example": "Smoking is bad for your lungs.",
 "exampleTranslation": "Fumar faz mal para os pulmões.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🫁"
 },
 {
 "slug": "muscle",
@@ -467,7 +509,8 @@
 "example": "He has strong muscles.",
 "exampleTranslation": "Ele tem músculos fortes.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💪"
 },
 {
 "slug": "tall",
@@ -477,7 +520,8 @@
 "example": "My brother is very tall.",
 "exampleTranslation": "Meu irmão é muito alto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦒"
 },
 {
 "slug": "short",
@@ -487,7 +531,8 @@
 "example": "I'm short, like my mother.",
 "exampleTranslation": "Eu sou baixo, como minha mãe.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐭"
 },
 {
 "slug": "thin",
@@ -497,7 +542,8 @@
 "example": "She is tall and thin.",
 "exampleTranslation": "Ela é alta e magra.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥢"
 },
 {
 "slug": "fat",
@@ -517,7 +563,8 @@
 "example": "Dad is very strong.",
 "exampleTranslation": "O papai é muito forte.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💪"
 },
 {
 "slug": "weak",
@@ -527,7 +574,8 @@
 "example": "I feel weak today.",
 "exampleTranslation": "Estou me sentindo fraco hoje.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥀"
 },
 {
 "slug": "left-handed",
@@ -537,7 +585,8 @@
 "example": "My son is left-handed.",
 "exampleTranslation": "Meu filho é canhoto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤚"
 },
 {
 "slug": "right-handed",
@@ -547,6 +596,7 @@
 "example": "Most people are right-handed.",
 "exampleTranslation": "A maioria das pessoas é destra.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✋"
 }
 ]

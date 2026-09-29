@@ -87,3 +87,41 @@ begin
     );
   end loop;
 end $$;
+
+-- =====================================================================
+-- Ranking (geral e da semana)
+-- =====================================================================
+-- As tabelas continuam protegidas: cada aluno só lê as próprias linhas.
+-- Esta função devolve SÓ o necessário para o ranking (primeiro nome, XP,
+-- sequência e palavras estudadas) de quem usa o app de inglês.
+create or replace function public.en_ranking(p_period text default 'geral')
+returns table (pos bigint, user_id uuid, name text, xp bigint, streak integer, words bigint, is_me boolean)
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  with base as (
+    select
+      p.user_id,
+      coalesce(nullif(split_part(trim(p.display_name), ' ', 1), ''), 'Aluno') as name,
+      case
+        when p_period = 'semana' then coalesce((
+          select sum(a.xp) from public.en_activity a
+          where a.user_id = p.user_id and a.created_at >= date_trunc('week', now())
+        ), 0)
+        else p.xp
+      end::bigint as xp,
+      case when p.last_study_date >= current_date - 1 then p.streak else 0 end as streak,
+      (select count(*) from public.en_word_progress w where w.user_id = p.user_id and w.mastery > 0) as words
+    from public.en_profile p
+  )
+  select rank() over (order by b.xp desc) as pos, b.user_id, b.name, b.xp, b.streak, b.words, b.user_id = auth.uid() as is_me
+  from base b
+  where b.xp > 0 or b.user_id = auth.uid()
+  order by b.xp desc, b.name
+  limit 100;
+$$;
+
+revoke all on function public.en_ranking(text) from public, anon;
+grant execute on function public.en_ranking(text) to authenticated;

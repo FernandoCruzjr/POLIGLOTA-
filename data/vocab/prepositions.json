@@ -7,7 +7,8 @@
 "example": "The keys are in the bag.",
 "exampleTranslation": "As chaves estão na bolsa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📥"
 },
 {
 "slug": "on",
@@ -17,7 +18,8 @@
 "example": "The book is on the table.",
 "exampleTranslation": "O livro está na mesa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔛"
 },
 {
 "slug": "at",
@@ -27,7 +29,8 @@
 "example": "I'm at home.",
 "exampleTranslation": "Estou em casa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📍"
 },
 {
 "slug": "under",
@@ -37,7 +40,8 @@
 "example": "The cat is under the bed.",
 "exampleTranslation": "O gato está debaixo da cama.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬇️"
 },
 {
 "slug": "over",
@@ -47,7 +51,8 @@
 "example": "The plane flew over the city.",
 "exampleTranslation": "O avião voou sobre a cidade.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬆️"
 },
 {
 "slug": "above",
@@ -57,7 +62,8 @@
 "example": "The picture is above the sofa.",
 "exampleTranslation": "O quadro está acima do sofá.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⬆️"
 },
 {
 "slug": "below",
@@ -67,7 +73,8 @@
 "example": "Write your name below.",
 "exampleTranslation": "Escreva seu nome abaixo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⬇️"
 },
 {
 "slug": "next-to",
@@ -77,7 +84,8 @@
 "example": "The bank is next to the pharmacy.",
 "exampleTranslation": "O banco fica ao lado da farmácia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "↔️"
 },
 {
 "slug": "between",
@@ -87,7 +95,8 @@
 "example": "The shop is between the bank and the café.",
 "exampleTranslation": "A loja fica entre o banco e o café.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "↔️"
 },
 {
 "slug": "among",
@@ -107,7 +116,8 @@
 "example": "The garden is behind the house.",
 "exampleTranslation": "O jardim fica atrás da casa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔙"
 },
 {
 "slug": "in-front-of",
@@ -117,7 +127,8 @@
 "example": "I'll wait in front of the school.",
 "exampleTranslation": "Eu espero na frente da escola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔜"
 },
 {
 "slug": "across-from",
@@ -157,7 +168,8 @@
 "example": "He jumped into the pool.",
 "exampleTranslation": "Ele pulou na piscina.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📥"
 },
 {
 "slug": "out-of",
@@ -167,7 +179,8 @@
 "example": "Get out of the car.",
 "exampleTranslation": "Saia do carro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📤"
 },
 {
 "slug": "to",
@@ -197,7 +210,8 @@
 "example": "I live with my parents.",
 "exampleTranslation": "Eu moro com meus pais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤝"
 },
 {
 "slug": "without",
@@ -207,7 +221,8 @@
 "example": "Coffee without sugar, please.",
 "exampleTranslation": "Café sem açúcar, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚫"
 },
 {
 "slug": "for",
@@ -307,7 +322,8 @@
 "example": "We walked through the park.",
 "exampleTranslation": "Nós caminhamos pelo parque.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚇"
 },
 {
 "slug": "around",
@@ -317,7 +333,8 @@
 "example": "Let's meet around seven.",
 "exampleTranslation": "Vamos nos encontrar por volta das sete.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔄"
 },
 {
 "slug": "along",
@@ -337,7 +354,8 @@
 "example": "Brazil plays against Argentina today.",
 "exampleTranslation": "O Brasil joga contra a Argentina hoje.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🆚"
 },
 {
 "slug": "like",
@@ -357,7 +375,8 @@
 "example": "Look up!",
 "exampleTranslation": "Olhe para cima!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬆️"
 },
 {
 "slug": "down",
@@ -367,6 +386,7 @@
 "example": "Sit down, please.",
 "exampleTranslation": "Sente-se, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬇️"
 }
 ]

@@ -7,7 +7,8 @@
 "example": "Our hotel is near the beach.",
 "exampleTranslation": "Nosso hotel fica perto da praia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏨"
 },
 {
 "slug": "room",
@@ -17,7 +18,8 @@
 "example": "I have a room for three nights.",
 "exampleTranslation": "Eu tenho um quarto por três noites.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "single-room",
@@ -27,7 +29,8 @@
 "example": "I need a single room.",
 "exampleTranslation": "Eu preciso de um quarto de solteiro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "double-room",
@@ -37,7 +40,8 @@
 "example": "A double room, please.",
 "exampleTranslation": "Um quarto de casal, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "key",
@@ -47,7 +51,8 @@
 "example": "Here is your room key.",
 "exampleTranslation": "Aqui está a chave do seu quarto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔑"
 },
 {
 "slug": "key-card",
@@ -57,7 +62,8 @@
 "example": "My key card doesn't work.",
 "exampleTranslation": "Meu cartão-chave não funciona.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💳"
 },
 {
 "slug": "reception",
@@ -67,7 +73,8 @@
 "example": "Please call the reception.",
 "exampleTranslation": "Por favor, ligue para a recepção.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛎️"
 },
 {
 "slug": "receptionist",
@@ -77,7 +84,8 @@
 "example": "The receptionist was very nice.",
 "exampleTranslation": "A recepcionista foi muito simpática.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💁"
 },
 {
 "slug": "lobby",
@@ -87,7 +95,8 @@
 "example": "Let's meet in the lobby.",
 "exampleTranslation": "Vamos nos encontrar no saguão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛋️"
 },
 {
 "slug": "check-out",
@@ -107,7 +116,8 @@
 "example": "The hotel has many guests.",
 "exampleTranslation": "O hotel tem muitos hóspedes.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧳"
 },
 {
 "slug": "floor",
@@ -117,7 +127,8 @@
 "example": "My room is on the fifth floor.",
 "exampleTranslation": "Meu quarto fica no quinto andar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏢"
 },
 {
 "slug": "elevator",
@@ -127,7 +138,8 @@
 "example": "The elevator is on the left.",
 "exampleTranslation": "O elevador fica à esquerda.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛗"
 },
 {
 "slug": "stairs",
@@ -137,7 +149,8 @@
 "example": "You can take the stairs.",
 "exampleTranslation": "Você pode ir pela escada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪜"
 },
 {
 "slug": "towel",
@@ -147,7 +160,8 @@
 "example": "Can I have more towels?",
 "exampleTranslation": "Pode me dar mais toalhas?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧺"
 },
 {
 "slug": "sheet",
@@ -157,7 +171,8 @@
 "example": "Please change the sheets.",
 "exampleTranslation": "Por favor, troque os lençóis.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "air-conditioning",
@@ -167,7 +182,8 @@
 "example": "The air conditioning is broken.",
 "exampleTranslation": "O ar-condicionado está quebrado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❄️"
 },
 {
 "slug": "heating",
@@ -177,7 +193,8 @@
 "example": "Is there heating in the room?",
 "exampleTranslation": "Tem aquecimento no quarto?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔥"
 },
 {
 "slug": "breakfast",
@@ -187,7 +204,8 @@
 "example": "Breakfast is from six to ten.",
 "exampleTranslation": "O café da manhã é das seis às dez.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥐"
 },
 {
 "slug": "room-service",
@@ -197,7 +215,8 @@
 "example": "I ordered room service.",
 "exampleTranslation": "Eu pedi serviço de quarto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛎️"
 },
 {
 "slug": "wake-up-call",
@@ -207,7 +226,8 @@
 "example": "I need a wake-up call at six.",
 "exampleTranslation": "Eu preciso que me acordem às seis.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "⏰"
 },
 {
 "slug": "wi-fi-password",
@@ -217,7 +237,8 @@
 "example": "What is the Wi-Fi password?",
 "exampleTranslation": "Qual é a senha do Wi-Fi?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📶"
 },
 {
 "slug": "safe",
@@ -227,7 +248,8 @@
 "example": "Put your passport in the safe.",
 "exampleTranslation": "Coloque o passaporte no cofre.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔐"
 },
 {
 "slug": "minibar",
@@ -237,7 +259,8 @@
 "example": "The minibar is empty.",
 "exampleTranslation": "O frigobar está vazio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧃"
 },
 {
 "slug": "pool",
@@ -247,7 +270,8 @@
 "example": "The hotel has a big pool.",
 "exampleTranslation": "O hotel tem uma piscina grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏊"
 },
 {
 "slug": "gym",
@@ -257,7 +281,8 @@
 "example": "Is the gym open now?",
 "exampleTranslation": "A academia está aberta agora?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏋️"
 },
 {
 "slug": "parking",
@@ -267,7 +292,8 @@
 "example": "Is parking free?",
 "exampleTranslation": "O estacionamento é grátis?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🅿️"
 },
 {
 "slug": "available",
@@ -317,7 +343,8 @@
 "example": "The hostel is cheap and clean.",
 "exampleTranslation": "O albergue é barato e limpo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏠"
 },
 {
 "slug": "suite",
@@ -337,7 +364,8 @@
 "example": "I want a room with a view of the sea.",
 "exampleTranslation": "Eu quero um quarto com vista para o mar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌊"
 },
 {
 "slug": "noisy",
@@ -347,7 +375,8 @@
 "example": "The room is too noisy.",
 "exampleTranslation": "O quarto é barulhento demais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔊"
 },
 {
 "slug": "quiet",
@@ -357,7 +386,8 @@
 "example": "I'd like a quiet room.",
 "exampleTranslation": "Eu gostaria de um quarto silencioso.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤫"
 },
 {
 "slug": "clean",
@@ -367,7 +397,8 @@
 "example": "The room is very clean.",
 "exampleTranslation": "O quarto está muito limpo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✨"
 },
 {
 "slug": "dirty",
@@ -377,7 +408,8 @@
 "example": "The bathroom is dirty.",
 "exampleTranslation": "O banheiro está sujo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧹"
 },
 {
 "slug": "housekeeping",
@@ -407,7 +439,8 @@
 "example": "Can I have the bill, please?",
 "exampleTranslation": "Pode me dar a conta, por favor?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧾"
 },
 {
 "slug": "deposit",
@@ -427,7 +460,8 @@
 "example": "I want to cancel my reservation.",
 "exampleTranslation": "Eu quero cancelar minha reserva.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❌"
 },
 {
 "slug": "extra-bed",
@@ -437,7 +471,8 @@
 "example": "Can you add an extra bed?",
 "exampleTranslation": "Vocês podem colocar uma cama extra?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "hair-dryer",
@@ -447,7 +482,8 @@
 "example": "Is there a hair dryer?",
 "exampleTranslation": "Tem secador de cabelo?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💨"
 },
 {
 "slug": "toiletries",
@@ -457,7 +493,8 @@
 "example": "The toiletries are in the bathroom.",
 "exampleTranslation": "Os itens de higiene estão no banheiro.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧴"
 },
 {
 "slug": "front-desk",
@@ -467,7 +504,8 @@
 "example": "Leave the key at the front desk.",
 "exampleTranslation": "Deixe a chave na recepção.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛎️"
 },
 {
 "slug": "included",
@@ -487,7 +525,8 @@
 "example": "I want to make a complaint.",
 "exampleTranslation": "Eu quero fazer uma reclamação.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "😠"
 },
 {
 "slug": "do-not-disturb",
@@ -497,6 +536,7 @@
 "example": "Put the \"Do not disturb\" sign on the door.",
 "exampleTranslation": "Coloque a placa de \"Não perturbe\" na porta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚫"
 }
 ]

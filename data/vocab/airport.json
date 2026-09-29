@@ -7,7 +7,8 @@
 "example": "I am at the airport.",
 "exampleTranslation": "Eu estou no aeroporto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛫"
 },
 {
 "slug": "flight",
@@ -17,7 +18,8 @@
 "example": "My flight is at nine.",
 "exampleTranslation": "Meu voo é às nove.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✈️"
 },
 {
 "slug": "passport",
@@ -27,7 +29,8 @@
 "example": "Here is my passport.",
 "exampleTranslation": "Aqui está o meu passaporte.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛂"
 },
 {
 "slug": "boarding-pass",
@@ -37,7 +40,8 @@
 "example": "Please show your boarding pass.",
 "exampleTranslation": "Por favor, mostre seu cartão de embarque.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎫"
 },
 {
 "slug": "gate",
@@ -47,7 +51,8 @@
 "example": "Our flight leaves from gate 12.",
 "exampleTranslation": "Nosso voo sai do portão 12.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "check-in",
@@ -57,7 +62,8 @@
 "example": "Check-in opens at six.",
 "exampleTranslation": "O check-in abre às seis.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✅"
 },
 {
 "slug": "luggage",
@@ -67,7 +73,8 @@
 "example": "Where can I pick up my luggage?",
 "exampleTranslation": "Onde posso pegar minha bagagem?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧳"
 },
 {
 "slug": "baggage-claim",
@@ -77,7 +84,8 @@
 "example": "Let's go to baggage claim.",
 "exampleTranslation": "Vamos para a esteira de bagagens.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛄"
 },
 {
 "slug": "carry-on",
@@ -87,7 +95,8 @@
 "example": "This bag is my carry-on.",
 "exampleTranslation": "Esta bolsa é minha bagagem de mão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👜"
 },
 {
 "slug": "terminal",
@@ -107,7 +116,8 @@
 "example": "Check the departure board.",
 "exampleTranslation": "Confira o painel de partidas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛫"
 },
 {
 "slug": "arrival",
@@ -117,7 +127,8 @@
 "example": "I'll wait for you at arrivals.",
 "exampleTranslation": "Eu espero você no desembarque.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛬"
 },
 {
 "slug": "delay",
@@ -127,7 +138,8 @@
 "example": "There is a two-hour delay.",
 "exampleTranslation": "Há um atraso de duas horas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⏳"
 },
 {
 "slug": "delayed",
@@ -137,7 +149,8 @@
 "example": "Our flight is delayed.",
 "exampleTranslation": "Nosso voo está atrasado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⏳"
 },
 {
 "slug": "canceled",
@@ -147,7 +160,8 @@
 "example": "The flight was canceled.",
 "exampleTranslation": "O voo foi cancelado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❌"
 },
 {
 "slug": "on-time",
@@ -157,7 +171,8 @@
 "example": "Is the flight on time?",
 "exampleTranslation": "O voo está no horário?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏰"
 },
 {
 "slug": "customs",
@@ -167,7 +182,8 @@
 "example": "We went through customs quickly.",
 "exampleTranslation": "Passamos rápido pela alfândega.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛃"
 },
 {
 "slug": "immigration",
@@ -187,7 +203,8 @@
 "example": "Take off your shoes at the security check.",
 "exampleTranslation": "Tire os sapatos na inspeção de segurança.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔍"
 },
 {
 "slug": "connection",
@@ -197,7 +214,8 @@
 "example": "I have a connection in Miami.",
 "exampleTranslation": "Eu tenho uma conexão em Miami.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔀"
 },
 {
 "slug": "layover",
@@ -217,7 +235,8 @@
 "example": "Which airline are you flying?",
 "exampleTranslation": "Por qual companhia aérea você vai voar?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✈️"
 },
 {
 "slug": "counter",
@@ -267,7 +286,8 @@
 "example": "Ask at the lost and found.",
 "exampleTranslation": "Pergunte nos achados e perdidos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔎"
 },
 {
 "slug": "trolley",
@@ -277,7 +297,8 @@
 "example": "Take a trolley for the bags.",
 "exampleTranslation": "Pegue um carrinho para as malas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛒"
 },
 {
 "slug": "duty-free",
@@ -287,7 +308,8 @@
 "example": "Let's look at the duty-free shops.",
 "exampleTranslation": "Vamos olhar as lojas do free shop.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛍️"
 },
 {
 "slug": "domestic",
@@ -307,7 +329,8 @@
 "example": "International flights leave from here.",
 "exampleTranslation": "Os voos internacionais saem daqui.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌐"
 },
 {
 "slug": "passenger",
@@ -317,7 +340,8 @@
 "example": "All passengers must show ID.",
 "exampleTranslation": "Todos os passageiros devem mostrar documento.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧍"
 },
 {
 "slug": "weight",
@@ -327,7 +351,8 @@
 "example": "What is the weight limit?",
 "exampleTranslation": "Qual é o limite de peso?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚖️"
 },
 {
 "slug": "overweight",
@@ -337,7 +362,8 @@
 "example": "My bag is overweight.",
 "exampleTranslation": "Minha mala está acima do peso.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "⚖️"
 },
 {
 "slug": "excess-baggage",
@@ -367,7 +393,8 @@
 "example": "Check the screen for your gate.",
 "exampleTranslation": "Confira o painel para ver o seu portão.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🖥️"
 },
 {
 "slug": "announcement",
@@ -377,7 +404,8 @@
 "example": "Listen to the announcement.",
 "exampleTranslation": "Escute o aviso.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📢"
 },
 {
 "slug": "shuttle",
@@ -387,7 +415,8 @@
 "example": "Take the shuttle to terminal 2.",
 "exampleTranslation": "Pegue o traslado para o terminal 2.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚐"
 },
 {
 "slug": "pick-up",
@@ -417,7 +446,8 @@
 "example": "Can I see your ID?",
 "exampleTranslation": "Posso ver seu documento?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪪"
 },
 {
 "slug": "declare",
@@ -437,7 +467,8 @@
 "example": "Put a tag on your suitcase.",
 "exampleTranslation": "Coloque uma etiqueta na sua mala.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏷️"
 },
 {
 "slug": "information-desk",
@@ -447,6 +478,7 @@
 "example": "Ask at the information desk.",
 "exampleTranslation": "Pergunte no balcão de informações.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "ℹ️"
 }
 ]

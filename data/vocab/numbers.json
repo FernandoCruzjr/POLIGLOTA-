@@ -7,7 +7,8 @@
 "example": "The score is two to zero.",
 "exampleTranslation": "O placar é dois a zero.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "0️⃣"
 },
 {
 "slug": "eleven",
@@ -17,7 +18,8 @@
 "example": "My son is eleven.",
 "exampleTranslation": "Meu filho tem onze anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "twelve",
@@ -27,7 +29,8 @@
 "example": "There are twelve months in a year.",
 "exampleTranslation": "Há doze meses em um ano.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🕛"
 },
 {
 "slug": "thirteen",
@@ -37,7 +40,8 @@
 "example": "She is thirteen years old.",
 "exampleTranslation": "Ela tem treze anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "fourteen",
@@ -47,7 +51,8 @@
 "example": "The class has fourteen students.",
 "exampleTranslation": "A turma tem catorze alunos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "fifteen",
@@ -57,7 +62,8 @@
 "example": "Wait fifteen minutes.",
 "exampleTranslation": "Espere quinze minutos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "sixteen",
@@ -67,7 +73,8 @@
 "example": "He is sixteen.",
 "exampleTranslation": "Ele tem dezesseis anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "seventeen",
@@ -77,7 +84,8 @@
 "example": "Bus number seventeen.",
 "exampleTranslation": "Ônibus número dezessete.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "eighteen",
@@ -87,7 +95,8 @@
 "example": "You must be eighteen to drive.",
 "exampleTranslation": "É preciso ter dezoito anos para dirigir.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔞"
 },
 {
 "slug": "nineteen",
@@ -97,7 +106,8 @@
 "example": "She was nineteen when she married.",
 "exampleTranslation": "Ela tinha dezenove anos quando casou.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "twenty",
@@ -107,7 +117,8 @@
 "example": "I have twenty dollars.",
 "exampleTranslation": "Eu tenho vinte dólares.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "thirty",
@@ -117,7 +128,8 @@
 "example": "My father is thirty.",
 "exampleTranslation": "Meu pai tem trinta anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "forty",
@@ -127,7 +139,8 @@
 "example": "It costs forty reais.",
 "exampleTranslation": "Custa quarenta reais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "fifty",
@@ -137,7 +150,8 @@
 "example": "My mother is fifty.",
 "exampleTranslation": "Minha mãe tem cinquenta anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "sixty",
@@ -147,7 +161,8 @@
 "example": "There are sixty minutes in an hour.",
 "exampleTranslation": "Há sessenta minutos em uma hora.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏱️"
 },
 {
 "slug": "seventy",
@@ -157,7 +172,8 @@
 "example": "My grandfather is seventy.",
 "exampleTranslation": "Meu avô tem setenta anos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "eighty",
@@ -167,7 +183,8 @@
 "example": "The book has eighty pages.",
 "exampleTranslation": "O livro tem oitenta páginas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "ninety",
@@ -177,7 +194,8 @@
 "example": "She lived to ninety.",
 "exampleTranslation": "Ela viveu até os noventa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "hundred",
@@ -187,7 +205,8 @@
 "example": "One hundred people came.",
 "exampleTranslation": "Cem pessoas vieram.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💯"
 },
 {
 "slug": "thousand",
@@ -197,7 +216,8 @@
 "example": "It costs a thousand dollars.",
 "exampleTranslation": "Custa mil dólares.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔢"
 },
 {
 "slug": "million",
@@ -207,7 +227,8 @@
 "example": "The city has two million people.",
 "exampleTranslation": "A cidade tem dois milhões de habitantes.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💰"
 },
 {
 "slug": "first",
@@ -217,7 +238,8 @@
 "example": "This is my first time here.",
 "exampleTranslation": "É a minha primeira vez aqui.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥇"
 },
 {
 "slug": "second",
@@ -227,7 +249,8 @@
 "example": "We live on the second floor.",
 "exampleTranslation": "Moramos no segundo andar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥈"
 },
 {
 "slug": "third",
@@ -237,7 +260,8 @@
 "example": "She finished in third place.",
 "exampleTranslation": "Ela terminou em terceiro lugar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥉"
 },
 {
 "slug": "fourth",
@@ -277,7 +301,8 @@
 "example": "This is the last question.",
 "exampleTranslation": "Esta é a última pergunta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏁"
 },
 {
 "slug": "number",
@@ -287,7 +312,8 @@
 "example": "What's your phone number?",
 "exampleTranslation": "Qual é o seu número de telefone?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "#️⃣"
 },
 {
 "slug": "count",
@@ -297,7 +323,8 @@
 "example": "Can you count to ten in English?",
 "exampleTranslation": "Você sabe contar até dez em inglês?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧮"
 },
 {
 "slug": "add",
@@ -307,7 +334,8 @@
 "example": "Add two and three.",
 "exampleTranslation": "Some dois e três.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "➕"
 },
 {
 "slug": "plus",
@@ -317,7 +345,8 @@
 "example": "Two plus two is four.",
 "exampleTranslation": "Dois mais dois são quatro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "➕"
 },
 {
 "slug": "minus",
@@ -327,7 +356,8 @@
 "example": "Ten minus four is six.",
 "exampleTranslation": "Dez menos quatro são seis.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "➖"
 },
 {
 "slug": "times",
@@ -337,7 +367,8 @@
 "example": "Three times three is nine.",
 "exampleTranslation": "Três vezes três são nove.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✖️"
 },
 {
 "slug": "divided-by",
@@ -347,7 +378,8 @@
 "example": "Ten divided by two is five.",
 "exampleTranslation": "Dez dividido por dois são cinco.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "➗"
 },
 {
 "slug": "equals",
@@ -357,7 +389,8 @@
 "example": "Four plus four equals eight.",
 "exampleTranslation": "Quatro mais quatro é igual a oito.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🟰"
 },
 {
 "slug": "percent",
@@ -367,7 +400,8 @@
 "example": "There's a ten percent discount.",
 "exampleTranslation": "Tem dez por cento de desconto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💯"
 },
 {
 "slug": "double",
@@ -377,7 +411,8 @@
 "example": "The price is double.",
 "exampleTranslation": "O preço é o dobro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✌️"
 },
 {
 "slug": "dozen",
@@ -387,7 +422,8 @@
 "example": "A dozen eggs, please.",
 "exampleTranslation": "Uma dúzia de ovos, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥚"
 },
 {
 "slug": "pair",
@@ -397,7 +433,8 @@
 "example": "I bought a pair of shoes.",
 "exampleTranslation": "Eu comprei um par de sapatos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👟"
 },
 {
 "slug": "once",
@@ -407,7 +444,8 @@
 "example": "I've been there once.",
 "exampleTranslation": "Eu fui lá uma vez.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "1️⃣"
 },
 {
 "slug": "twice",
@@ -417,7 +455,8 @@
 "example": "I call my mother twice a week.",
 "exampleTranslation": "Eu ligo para minha mãe duas vezes por semana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "2️⃣"
 },
 {
 "slug": "even-number",
@@ -447,6 +486,7 @@
 "example": "Cut the pizza into quarters.",
 "exampleTranslation": "Corte a pizza em quatro partes.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍕"
 }
 ]

@@ -7,7 +7,8 @@
 "example": "She is my best friend.",
 "exampleTranslation": "Ela é minha melhor amiga.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🤝‍🧑"
 },
 {
 "slug": "best-friend",
@@ -17,7 +18,8 @@
 "example": "We've been best friends since school.",
 "exampleTranslation": "Somos melhores amigos desde a escola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👯"
 },
 {
 "slug": "friendship",
@@ -27,7 +29,8 @@
 "example": "Our friendship is very important to me.",
 "exampleTranslation": "Nossa amizade é muito importante para mim.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "boyfriend",
@@ -37,7 +40,8 @@
 "example": "Her boyfriend is very nice.",
 "exampleTranslation": "O namorado dela é muito legal.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💑"
 },
 {
 "slug": "girlfriend",
@@ -47,7 +51,8 @@
 "example": "This is my girlfriend.",
 "exampleTranslation": "Esta é minha namorada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💑"
 },
 {
 "slug": "partner",
@@ -57,7 +62,8 @@
 "example": "My partner and I live together.",
 "exampleTranslation": "Eu e minha companheira moramos juntos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💞"
 },
 {
 "slug": "couple",
@@ -67,7 +73,8 @@
 "example": "They are a beautiful couple.",
 "exampleTranslation": "Eles são um casal lindo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💑"
 },
 {
 "slug": "date",
@@ -77,7 +84,8 @@
 "example": "We went on a date.",
 "exampleTranslation": "Nós saímos num encontro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌹"
 },
 {
 "slug": "love",
@@ -87,7 +95,8 @@
 "example": "I love you so much.",
 "exampleTranslation": "Eu te amo muito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❤️"
 },
 {
 "slug": "in-love",
@@ -97,7 +106,8 @@
 "example": "They are in love.",
 "exampleTranslation": "Eles estão apaixonados.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😍"
 },
 {
 "slug": "fall-in-love",
@@ -107,7 +117,8 @@
 "example": "They fell in love in Paris.",
 "exampleTranslation": "Eles se apaixonaram em Paris.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💘"
 },
 {
 "slug": "kiss",
@@ -117,7 +128,8 @@
 "example": "Give me a kiss.",
 "exampleTranslation": "Me dá um beijo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💋"
 },
 {
 "slug": "hug",
@@ -127,7 +139,8 @@
 "example": "Come here and give me a hug!",
 "exampleTranslation": "Vem cá me dar um abraço!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤗"
 },
 {
 "slug": "marry",
@@ -137,7 +150,8 @@
 "example": "Will you marry me?",
 "exampleTranslation": "Você quer casar comigo?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💍"
 },
 {
 "slug": "get-married",
@@ -147,7 +161,8 @@
 "example": "They got married last year.",
 "exampleTranslation": "Eles se casaram ano passado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💒"
 },
 {
 "slug": "married",
@@ -157,7 +172,8 @@
 "example": "Are you married?",
 "exampleTranslation": "Você é casado?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💍"
 },
 {
 "slug": "single",
@@ -167,7 +183,8 @@
 "example": "I'm single.",
 "exampleTranslation": "Eu sou solteiro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙋"
 },
 {
 "slug": "divorced",
@@ -177,7 +194,8 @@
 "example": "My parents are divorced.",
 "exampleTranslation": "Meus pais são divorciados.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💔"
 },
 {
 "slug": "engaged",
@@ -187,7 +205,8 @@
 "example": "We got engaged in June.",
 "exampleTranslation": "Nós ficamos noivos em junho.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💍"
 },
 {
 "slug": "wedding",
@@ -197,7 +216,8 @@
 "example": "The wedding is on Saturday.",
 "exampleTranslation": "O casamento é no sábado.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💒"
 },
 {
 "slug": "bride",
@@ -207,7 +227,8 @@
 "example": "The bride looks beautiful.",
 "exampleTranslation": "A noiva está linda.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👰"
 },
 {
 "slug": "groom",
@@ -217,7 +238,8 @@
 "example": "The groom is nervous.",
 "exampleTranslation": "O noivo está nervoso.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤵"
 },
 {
 "slug": "anniversary",
@@ -227,7 +249,8 @@
 "example": "Happy anniversary, my love!",
 "exampleTranslation": "Feliz aniversário de casamento, meu amor!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥂"
 },
 {
 "slug": "break-up",
@@ -237,7 +260,8 @@
 "example": "They broke up last month.",
 "exampleTranslation": "Eles terminaram no mês passado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💔"
 },
 {
 "slug": "get-along",
@@ -247,7 +271,8 @@
 "example": "I get along well with my sister.",
 "exampleTranslation": "Eu me dou bem com a minha irmã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "argue",
@@ -257,7 +282,8 @@
 "example": "They argue all the time.",
 "exampleTranslation": "Eles brigam o tempo todo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗯️"
 },
 {
 "slug": "fight",
@@ -267,7 +293,8 @@
 "example": "We had a fight yesterday.",
 "exampleTranslation": "Tivemos uma briga ontem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😤"
 },
 {
 "slug": "forgive",
@@ -277,7 +304,8 @@
 "example": "Please forgive me.",
 "exampleTranslation": "Por favor, me perdoe.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕊️"
 },
 {
 "slug": "apologize",
@@ -287,7 +315,8 @@
 "example": "I want to apologize.",
 "exampleTranslation": "Eu quero pedir desculpas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙏"
 },
 {
 "slug": "trust",
@@ -297,7 +326,8 @@
 "example": "I trust you.",
 "exampleTranslation": "Eu confio em você.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤞"
 },
 {
 "slug": "respect",
@@ -307,7 +337,8 @@
 "example": "Respect your elders.",
 "exampleTranslation": "Respeite os mais velhos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙇"
 },
 {
 "slug": "support",
@@ -317,7 +348,8 @@
 "example": "My family always supports me.",
 "exampleTranslation": "Minha família sempre me apoia.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🫂"
 },
 {
 "slug": "miss",
@@ -327,7 +359,8 @@
 "example": "I miss you so much.",
 "exampleTranslation": "Eu sinto muito a sua falta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥺"
 },
 {
 "slug": "meet",
@@ -337,7 +370,8 @@
 "example": "Where did you meet your wife?",
 "exampleTranslation": "Onde você conheceu sua esposa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👋"
 },
 {
 "slug": "stranger",
@@ -347,7 +381,8 @@
 "example": "Don't talk to strangers.",
 "exampleTranslation": "Não fale com estranhos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕵️"
 },
 {
 "slug": "acquaintance",
@@ -367,7 +402,8 @@
 "example": "They went to Bahia on their honeymoon.",
 "exampleTranslation": "Eles foram para a Bahia na lua de mel.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌴"
 },
 {
 "slug": "close-friend",
@@ -377,7 +413,8 @@
 "example": "He is a close friend of the family.",
 "exampleTranslation": "Ele é um amigo próximo da família.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🫶"
 },
 {
 "slug": "together",
@@ -387,7 +424,8 @@
 "example": "We are always together.",
 "exampleTranslation": "Nós estamos sempre juntos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👫"
 },
 {
 "slug": "alone",
@@ -397,6 +435,7 @@
 "example": "I don't want to be alone.",
 "exampleTranslation": "Eu não quero ficar sozinho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧍"
 }
 ]

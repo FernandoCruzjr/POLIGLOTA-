@@ -1,19 +1,36 @@
 {
-  "name": "Inglês em Família",
-  "short_name": "Inglês",
-  "description": "Aprenda inglês de graça, no seu ritmo, com lições curtas, áudio e progresso diário.",
+  "name": "Hi Family",
+  "short_name": "Hi Family",
+  "description": "Aprenda inglês. Conecte-se com o mundo. Grátis, para toda a família.",
   "id": "/",
   "start_url": "/#/inicio",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#f4f7f5",
-  "theme_color": "#15803d",
+  "background_color": "#EBF9EE",
+  "theme_color": "#0F7A4A",
   "lang": "pt-BR",
-  "categories": ["education"],
+  "categories": [
+    "education"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

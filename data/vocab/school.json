@@ -7,7 +7,8 @@
 "example": "The kids are at school.",
 "exampleTranslation": "As crianças estão na escola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏫"
 },
 {
 "slug": "teacher",
@@ -17,7 +18,8 @@
 "example": "My teacher is very patient.",
 "exampleTranslation": "Minha professora é muito paciente.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🏫"
 },
 {
 "slug": "student",
@@ -27,7 +29,8 @@
 "example": "She is a good student.",
 "exampleTranslation": "Ela é uma boa aluna.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🎓"
 },
 {
 "slug": "classroom",
@@ -37,7 +40,8 @@
 "example": "The classroom is on the second floor.",
 "exampleTranslation": "A sala de aula fica no segundo andar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏫"
 },
 {
 "slug": "class",
@@ -47,7 +51,8 @@
 "example": "English class starts at eight.",
 "exampleTranslation": "A aula de inglês começa às oito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📚"
 },
 {
 "slug": "lesson",
@@ -57,7 +62,8 @@
 "example": "Today's lesson is about animals.",
 "exampleTranslation": "A lição de hoje é sobre animais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📘"
 },
 {
 "slug": "homework",
@@ -67,7 +73,8 @@
 "example": "Did you do your homework?",
 "exampleTranslation": "Você fez o dever de casa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "test",
@@ -77,7 +84,8 @@
 "example": "I have a math test tomorrow.",
 "exampleTranslation": "Eu tenho prova de matemática amanhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "exam",
@@ -87,7 +95,8 @@
 "example": "The exam was difficult.",
 "exampleTranslation": "A prova foi difícil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "grade",
@@ -97,7 +106,8 @@
 "example": "I got a good grade.",
 "exampleTranslation": "Eu tirei uma boa nota.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💯"
 },
 {
 "slug": "pass",
@@ -107,7 +117,8 @@
 "example": "I passed the test!",
 "exampleTranslation": "Eu passei na prova!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✅"
 },
 {
 "slug": "fail",
@@ -117,7 +128,8 @@
 "example": "Don't worry if you fail once.",
 "exampleTranslation": "Não se preocupe se você falhar uma vez.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❌"
 },
 {
 "slug": "study",
@@ -127,7 +139,8 @@
 "example": "I study English every day.",
 "exampleTranslation": "Eu estudo inglês todo dia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📖"
 },
 {
 "slug": "learn",
@@ -137,7 +150,8 @@
 "example": "We learn new words every week.",
 "exampleTranslation": "Aprendemos palavras novas toda semana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧠"
 },
 {
 "slug": "teach",
@@ -147,7 +161,8 @@
 "example": "My mother teaches math.",
 "exampleTranslation": "Minha mãe ensina matemática.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🏫"
 },
 {
 "slug": "book",
@@ -157,7 +172,8 @@
 "example": "Open your books to page ten.",
 "exampleTranslation": "Abram os livros na página dez.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📕"
 },
 {
 "slug": "notebook",
@@ -167,7 +183,8 @@
 "example": "Write it in your notebook.",
 "exampleTranslation": "Escreva no seu caderno.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📓"
 },
 {
 "slug": "pen",
@@ -177,7 +194,8 @@
 "example": "Can I borrow a pen?",
 "exampleTranslation": "Posso pegar uma caneta emprestada?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🖊️"
 },
 {
 "slug": "pencil",
@@ -187,7 +205,8 @@
 "example": "Use a pencil for the drawing.",
 "exampleTranslation": "Use um lápis para o desenho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✏️"
 },
 {
 "slug": "eraser",
@@ -197,7 +216,8 @@
 "example": "I need an eraser.",
 "exampleTranslation": "Eu preciso de uma borracha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧽"
 },
 {
 "slug": "ruler",
@@ -207,7 +227,8 @@
 "example": "Draw a line with the ruler.",
 "exampleTranslation": "Faça uma linha com a régua.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📏"
 },
 {
 "slug": "scissors",
@@ -217,7 +238,8 @@
 "example": "Be careful with the scissors.",
 "exampleTranslation": "Cuidado com a tesoura.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✂️"
 },
 {
 "slug": "glue",
@@ -227,7 +249,8 @@
 "example": "We need glue for this project.",
 "exampleTranslation": "Precisamos de cola para este trabalho.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧴"
 },
 {
 "slug": "board",
@@ -237,7 +260,8 @@
 "example": "Look at the board.",
 "exampleTranslation": "Olhem para o quadro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🏫"
 },
 {
 "slug": "page",
@@ -247,7 +271,8 @@
 "example": "Turn to page twenty.",
 "exampleTranslation": "Vão para a página vinte.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📄"
 },
 {
 "slug": "question",
@@ -257,7 +282,8 @@
 "example": "Can I ask a question?",
 "exampleTranslation": "Posso fazer uma pergunta?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❓"
 },
 {
 "slug": "answer",
@@ -267,7 +293,8 @@
 "example": "What's the answer?",
 "exampleTranslation": "Qual é a resposta?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "mistake",
@@ -277,7 +304,8 @@
 "example": "Everyone makes mistakes.",
 "exampleTranslation": "Todo mundo erra.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❌"
 },
 {
 "slug": "correct",
@@ -287,7 +315,8 @@
 "example": "Your answer is correct.",
 "exampleTranslation": "Sua resposta está correta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✅"
 },
 {
 "slug": "wrong",
@@ -297,7 +326,8 @@
 "example": "That's the wrong answer.",
 "exampleTranslation": "Essa é a resposta errada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❌"
 },
 {
 "slug": "subject",
@@ -317,7 +347,8 @@
 "example": "Math is easy for her.",
 "exampleTranslation": "Matemática é fácil para ela.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "➗"
 },
 {
 "slug": "science",
@@ -327,7 +358,8 @@
 "example": "We did an experiment in science class.",
 "exampleTranslation": "Fizemos um experimento na aula de ciências.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔬"
 },
 {
 "slug": "history",
@@ -337,7 +369,8 @@
 "example": "I love history.",
 "exampleTranslation": "Eu adoro história.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📜"
 },
 {
 "slug": "geography",
@@ -347,7 +380,8 @@
 "example": "We study maps in geography.",
 "exampleTranslation": "Estudamos mapas em geografia.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗺️"
 },
 {
 "slug": "art",
@@ -357,7 +391,8 @@
 "example": "In art class, we paint.",
 "exampleTranslation": "Na aula de artes, nós pintamos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎨"
 },
 {
 "slug": "physical-education",
@@ -367,7 +402,8 @@
 "example": "We play soccer in physical education.",
 "exampleTranslation": "Jogamos futebol na educação física.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤸"
 },
 {
 "slug": "break-time",
@@ -377,7 +413,8 @@
 "example": "We eat a snack at break time.",
 "exampleTranslation": "Comemos um lanche no recreio.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍎"
 },
 {
 "slug": "principal",
@@ -387,7 +424,8 @@
 "example": "The principal wants to see you.",
 "exampleTranslation": "A diretora quer falar com você.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👩‍💼"
 },
 {
 "slug": "university",
@@ -397,7 +435,8 @@
 "example": "My sister is at university.",
 "exampleTranslation": "Minha irmã está na universidade.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎓"
 },
 {
 "slug": "college",
@@ -407,7 +446,8 @@
 "example": "He goes to college in Rio.",
 "exampleTranslation": "Ele faz faculdade no Rio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎓"
 },
 {
 "slug": "degree",
@@ -417,7 +457,8 @@
 "example": "She has a degree in law.",
 "exampleTranslation": "Ela é formada em direito.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🎓"
 },
 {
 "slug": "graduate",
@@ -427,7 +468,8 @@
 "example": "I graduated in 2015.",
 "exampleTranslation": "Eu me formei em 2015.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🎓"
 },
 {
 "slug": "course",
@@ -437,7 +479,8 @@
 "example": "I'm taking an English course.",
 "exampleTranslation": "Estou fazendo um curso de inglês.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📚"
 },
 {
 "slug": "kindergarten",
@@ -447,7 +490,8 @@
 "example": "My son is in kindergarten.",
 "exampleTranslation": "Meu filho está no jardim de infância.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧸"
 },
 {
 "slug": "uniform",
@@ -457,7 +501,8 @@
 "example": "Students wear a uniform.",
 "exampleTranslation": "Os alunos usam uniforme.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👕"
 },
 {
 "slug": "school-supplies",
@@ -467,7 +512,8 @@
 "example": "We bought school supplies for the year.",
 "exampleTranslation": "Compramos o material escolar do ano.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎒"
 },
 {
 "slug": "dictionary",
@@ -477,7 +523,8 @@
 "example": "Look it up in the dictionary.",
 "exampleTranslation": "Procure no dicionário.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📖"
 },
 {
 "slug": "spell",
@@ -487,7 +534,8 @@
 "example": "How do you spell your name?",
 "exampleTranslation": "Como se soletra o seu nome?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔤"
 },
 {
 "slug": "repeat",
@@ -497,7 +545,8 @@
 "example": "Can you repeat, please?",
 "exampleTranslation": "Pode repetir, por favor?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔁"
 },
 {
 "slug": "understand",
@@ -507,7 +556,8 @@
 "example": "I don't understand.",
 "exampleTranslation": "Eu não entendo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💡"
 },
 {
 "slug": "explain",
@@ -527,7 +577,8 @@
 "example": "Practice makes perfect.",
 "exampleTranslation": "A prática leva à perfeição.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏋️"
 },
 {
 "slug": "knowledge",
@@ -537,7 +588,8 @@
 "example": "Knowledge is power.",
 "exampleTranslation": "Conhecimento é poder.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧠"
 },
 {
 "slug": "scholarship",
@@ -547,6 +599,7 @@
 "example": "She won a scholarship.",
 "exampleTranslation": "Ela ganhou uma bolsa de estudos.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🏅"
 }
 ]

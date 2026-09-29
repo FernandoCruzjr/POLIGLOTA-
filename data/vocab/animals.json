@@ -7,7 +7,8 @@
 "example": "What's your favorite animal?",
 "exampleTranslation": "Qual é o seu animal favorito?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐾"
 },
 {
 "slug": "dog",
@@ -17,7 +18,8 @@
 "example": "Our dog is very friendly.",
 "exampleTranslation": "Nosso cachorro é muito dócil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐶"
 },
 {
 "slug": "cat",
@@ -27,7 +29,8 @@
 "example": "The cat is sleeping.",
 "exampleTranslation": "O gato está dormindo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐱"
 },
 {
 "slug": "puppy",
@@ -37,7 +40,8 @@
 "example": "Look at the cute puppy!",
 "exampleTranslation": "Olha o filhotinho fofo!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐕"
 },
 {
 "slug": "kitten",
@@ -47,7 +51,8 @@
 "example": "The kitten is playing.",
 "exampleTranslation": "O gatinho está brincando.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐈"
 },
 {
 "slug": "pet",
@@ -57,7 +62,8 @@
 "example": "Do you have a pet?",
 "exampleTranslation": "Você tem animal de estimação?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐹"
 },
 {
 "slug": "bird",
@@ -67,7 +73,8 @@
 "example": "A bird is singing.",
 "exampleTranslation": "Um passarinho está cantando.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐦"
 },
 {
 "slug": "fish",
@@ -77,7 +84,8 @@
 "example": "The kids watched the fish in the aquarium.",
 "exampleTranslation": "As crianças viram os peixes no aquário.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐠"
 },
 {
 "slug": "horse",
@@ -87,7 +95,8 @@
 "example": "Can you ride a horse?",
 "exampleTranslation": "Você sabe andar a cavalo?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐴"
 },
 {
 "slug": "cow",
@@ -97,7 +106,8 @@
 "example": "The cow gives milk.",
 "exampleTranslation": "A vaca dá leite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐮"
 },
 {
 "slug": "pig",
@@ -107,7 +117,8 @@
 "example": "The pig is in the mud.",
 "exampleTranslation": "O porco está na lama.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐷"
 },
 {
 "slug": "hen",
@@ -117,7 +128,8 @@
 "example": "The hen laid an egg.",
 "exampleTranslation": "A galinha botou um ovo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐔"
 },
 {
 "slug": "rooster",
@@ -127,7 +139,8 @@
 "example": "The rooster wakes us up.",
 "exampleTranslation": "O galo nos acorda.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐓"
 },
 {
 "slug": "duck",
@@ -137,7 +150,8 @@
 "example": "The ducks are in the lake.",
 "exampleTranslation": "Os patos estão no lago.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦆"
 },
 {
 "slug": "sheep",
@@ -147,7 +161,8 @@
 "example": "The sheep are in the field.",
 "exampleTranslation": "As ovelhas estão no campo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐑"
 },
 {
 "slug": "goat",
@@ -157,7 +172,8 @@
 "example": "The goat eats everything.",
 "exampleTranslation": "A cabra come de tudo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐐"
 },
 {
 "slug": "rabbit",
@@ -167,7 +183,8 @@
 "example": "The rabbit is eating a carrot.",
 "exampleTranslation": "O coelho está comendo uma cenoura.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐰"
 },
 {
 "slug": "mouse",
@@ -177,7 +194,8 @@
 "example": "I saw a mouse in the kitchen!",
 "exampleTranslation": "Eu vi um rato na cozinha!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐭"
 },
 {
 "slug": "rat",
@@ -187,7 +205,8 @@
 "example": "There are rats in the old house.",
 "exampleTranslation": "Tem ratos na casa velha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐀"
 },
 {
 "slug": "lion",
@@ -197,7 +216,8 @@
 "example": "The lion is the king of the jungle.",
 "exampleTranslation": "O leão é o rei da selva.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦁"
 },
 {
 "slug": "tiger",
@@ -207,7 +227,8 @@
 "example": "Tigers have stripes.",
 "exampleTranslation": "Tigres têm listras.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐯"
 },
 {
 "slug": "elephant",
@@ -217,7 +238,8 @@
 "example": "Elephants are very big.",
 "exampleTranslation": "Elefantes são muito grandes.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐘"
 },
 {
 "slug": "monkey",
@@ -227,7 +249,8 @@
 "example": "The monkey is eating a banana.",
 "exampleTranslation": "O macaco está comendo uma banana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐒"
 },
 {
 "slug": "giraffe",
@@ -237,7 +260,8 @@
 "example": "Giraffes have long necks.",
 "exampleTranslation": "Girafas têm pescoço comprido.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦒"
 },
 {
 "slug": "zebra",
@@ -247,7 +271,8 @@
 "example": "The zebra is black and white.",
 "exampleTranslation": "A zebra é preta e branca.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦓"
 },
 {
 "slug": "bear",
@@ -257,7 +282,8 @@
 "example": "Bears sleep in winter.",
 "exampleTranslation": "Ursos dormem no inverno.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐻"
 },
 {
 "slug": "wolf",
@@ -267,7 +293,8 @@
 "example": "The wolf howls at night.",
 "exampleTranslation": "O lobo uiva à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐺"
 },
 {
 "slug": "fox",
@@ -277,7 +304,8 @@
 "example": "The fox is very clever.",
 "exampleTranslation": "A raposa é muito esperta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦊"
 },
 {
 "slug": "snake",
@@ -287,7 +315,8 @@
 "example": "Be careful, there's a snake!",
 "exampleTranslation": "Cuidado, tem uma cobra!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐍"
 },
 {
 "slug": "frog",
@@ -297,7 +326,8 @@
 "example": "The frog jumped into the water.",
 "exampleTranslation": "O sapo pulou na água.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐸"
 },
 {
 "slug": "turtle",
@@ -307,7 +337,8 @@
 "example": "Sea turtles are protected.",
 "exampleTranslation": "Tartarugas marinhas são protegidas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐢"
 },
 {
 "slug": "crocodile",
@@ -317,7 +348,8 @@
 "example": "Crocodiles live in rivers.",
 "exampleTranslation": "Crocodilos vivem em rios.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐊"
 },
 {
 "slug": "shark",
@@ -327,7 +359,8 @@
 "example": "Sharks live in the ocean.",
 "exampleTranslation": "Tubarões vivem no oceano.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦈"
 },
 {
 "slug": "whale",
@@ -337,7 +370,8 @@
 "example": "We saw a whale from the boat!",
 "exampleTranslation": "Vimos uma baleia do barco!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐋"
 },
 {
 "slug": "dolphin",
@@ -347,7 +381,8 @@
 "example": "Dolphins are very smart.",
 "exampleTranslation": "Golfinhos são muito inteligentes.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐬"
 },
 {
 "slug": "parrot",
@@ -357,7 +392,8 @@
 "example": "The parrot can talk.",
 "exampleTranslation": "O papagaio sabe falar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦜"
 },
 {
 "slug": "owl",
@@ -367,7 +403,8 @@
 "example": "Owls hunt at night.",
 "exampleTranslation": "Corujas caçam à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦉"
 },
 {
 "slug": "eagle",
@@ -377,7 +414,8 @@
 "example": "The eagle flies very high.",
 "exampleTranslation": "A águia voa muito alto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦅"
 },
 {
 "slug": "insect",
@@ -387,7 +425,8 @@
 "example": "There are many insects in summer.",
 "exampleTranslation": "Tem muitos insetos no verão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐞"
 },
 {
 "slug": "bee",
@@ -397,7 +436,8 @@
 "example": "Bees make honey.",
 "exampleTranslation": "Abelhas fazem mel.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐝"
 },
 {
 "slug": "butterfly",
@@ -407,7 +447,8 @@
 "example": "Look at the butterfly!",
 "exampleTranslation": "Olha a borboleta!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦋"
 },
 {
 "slug": "ant",
@@ -417,7 +458,8 @@
 "example": "There are ants in the sugar.",
 "exampleTranslation": "Tem formigas no açúcar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐜"
 },
 {
 "slug": "spider",
@@ -427,7 +469,8 @@
 "example": "I'm afraid of spiders.",
 "exampleTranslation": "Eu tenho medo de aranha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🕷️"
 },
 {
 "slug": "mosquito",
@@ -437,7 +480,8 @@
 "example": "The mosquitoes are biting me.",
 "exampleTranslation": "Os pernilongos estão me picando.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦟"
 },
 {
 "slug": "fly",
@@ -447,7 +491,8 @@
 "example": "There's a fly in my soup!",
 "exampleTranslation": "Tem uma mosca na minha sopa!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪰"
 },
 {
 "slug": "cockroach",
@@ -457,7 +502,8 @@
 "example": "I saw a cockroach in the kitchen.",
 "exampleTranslation": "Eu vi uma barata na cozinha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪳"
 },
 {
 "slug": "worm",
@@ -467,7 +513,8 @@
 "example": "Birds eat worms.",
 "exampleTranslation": "Pássaros comem minhocas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪱"
 },
 {
 "slug": "bat",
@@ -477,7 +524,8 @@
 "example": "Bats come out at night.",
 "exampleTranslation": "Morcegos saem à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦇"
 },
 {
 "slug": "squirrel",
@@ -487,7 +535,8 @@
 "example": "A squirrel ran up the tree.",
 "exampleTranslation": "Um esquilo subiu na árvore.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐿️"
 },
 {
 "slug": "deer",
@@ -497,7 +546,8 @@
 "example": "We saw a deer in the forest.",
 "exampleTranslation": "Vimos um cervo na floresta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦌"
 },
 {
 "slug": "penguin",
@@ -507,7 +557,8 @@
 "example": "Penguins can't fly.",
 "exampleTranslation": "Pinguins não sabem voar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐧"
 },
 {
 "slug": "tail",
@@ -517,7 +568,8 @@
 "example": "The dog is wagging its tail.",
 "exampleTranslation": "O cachorro está abanando o rabo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐕"
 },
 {
 "slug": "fur",
@@ -527,7 +579,8 @@
 "example": "The cat has soft fur.",
 "exampleTranslation": "O gato tem pelo macio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐈"
 },
 {
 "slug": "feather",
@@ -537,7 +590,8 @@
 "example": "I found a blue feather.",
 "exampleTranslation": "Eu achei uma pena azul.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪶"
 },
 {
 "slug": "paw",
@@ -547,7 +601,8 @@
 "example": "The dog hurt its paw.",
 "exampleTranslation": "O cachorro machucou a pata.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐾"
 },
 {
 "slug": "bark",
@@ -557,7 +612,8 @@
 "example": "The dog barks at strangers.",
 "exampleTranslation": "O cachorro late para estranhos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐕"
 },
 {
 "slug": "feed",
@@ -567,7 +623,8 @@
 "example": "Don't forget to feed the cat.",
 "exampleTranslation": "Não esqueça de dar comida ao gato.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦴"
 },
 {
 "slug": "walk-the-dog",
@@ -577,7 +634,8 @@
 "example": "I walk the dog every morning.",
 "exampleTranslation": "Eu passeio com o cachorro toda manhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐕‍🦺"
 },
 {
 "slug": "cage",
@@ -587,7 +645,8 @@
 "example": "The bird is in the cage.",
 "exampleTranslation": "O pássaro está na gaiola.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐦"
 },
 {
 "slug": "vet",
@@ -597,6 +656,7 @@
 "example": "Take the dog to the vet.",
 "exampleTranslation": "Leve o cachorro ao veterinário.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍⚕️"
 }
 ]

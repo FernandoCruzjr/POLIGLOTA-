@@ -7,7 +7,8 @@
 "example": "I need to go to the bank.",
 "exampleTranslation": "Eu preciso ir ao banco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏦"
 },
 {
 "slug": "bank-account",
@@ -17,7 +18,8 @@
 "example": "I opened a bank account.",
 "exampleTranslation": "Eu abri uma conta bancária.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏦"
 },
 {
 "slug": "atm",
@@ -27,7 +29,8 @@
 "example": "Is there an ATM nearby?",
 "exampleTranslation": "Tem um caixa eletrônico aqui perto?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏧"
 },
 {
 "slug": "withdraw",
@@ -37,7 +40,8 @@
 "example": "I want to withdraw 100 reais.",
 "exampleTranslation": "Eu quero sacar 100 reais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💵"
 },
 {
 "slug": "withdrawal",
@@ -47,7 +51,8 @@
 "example": "There's a limit on withdrawals.",
 "exampleTranslation": "Tem limite de saques.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "💵"
 },
 {
 "slug": "deposit-money",
@@ -57,7 +62,8 @@
 "example": "I deposited my paycheck.",
 "exampleTranslation": "Eu depositei meu salário.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📥"
 },
 {
 "slug": "transfer",
@@ -67,7 +73,8 @@
 "example": "I'll make a transfer to you.",
 "exampleTranslation": "Vou fazer uma transferência para você.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔁"
 },
 {
 "slug": "balance",
@@ -77,7 +84,8 @@
 "example": "Check your balance.",
 "exampleTranslation": "Confira o seu saldo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚖️"
 },
 {
 "slug": "statement",
@@ -87,7 +95,8 @@
 "example": "I need my bank statement.",
 "exampleTranslation": "Eu preciso do meu extrato.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📄"
 },
 {
 "slug": "debit-card",
@@ -97,7 +106,8 @@
 "example": "I'll pay with my debit card.",
 "exampleTranslation": "Vou pagar com o cartão de débito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💳"
 },
 {
 "slug": "pin",
@@ -107,7 +117,8 @@
 "example": "Enter your PIN.",
 "exampleTranslation": "Digite sua senha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔢"
 },
 {
 "slug": "loan",
@@ -117,7 +128,8 @@
 "example": "We got a loan to buy the car.",
 "exampleTranslation": "Pegamos um empréstimo para comprar o carro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "interest",
@@ -127,7 +139,8 @@
 "example": "The interest rate is high.",
 "exampleTranslation": "A taxa de juros está alta.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📈"
 },
 {
 "slug": "bank-teller",
@@ -137,7 +150,8 @@
 "example": "Ask the bank teller.",
 "exampleTranslation": "Pergunte ao caixa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👩‍💼"
 },
 {
 "slug": "branch-office",
@@ -157,7 +171,8 @@
 "example": "I do everything by online banking.",
 "exampleTranslation": "Eu faço tudo pelo banco na internet.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💻"
 },
 {
 "slug": "banking-app",
@@ -167,7 +182,8 @@
 "example": "Pay with the banking app.",
 "exampleTranslation": "Pague pelo aplicativo do banco.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📱"
 },
 {
 "slug": "check",
@@ -177,7 +193,8 @@
 "example": "Nobody uses checks anymore.",
 "exampleTranslation": "Ninguém usa mais cheque.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📃"
 },
 {
 "slug": "sign-a-form",
@@ -197,7 +214,8 @@
 "example": "Fill out this form.",
 "exampleTranslation": "Preencha este formulário.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📋"
 },
 {
 "slug": "fill-out",
@@ -207,7 +225,8 @@
 "example": "Fill out the form, please.",
 "exampleTranslation": "Preencha o formulário, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✍️"
 },
 {
 "slug": "open-an-account",
@@ -237,7 +256,8 @@
 "example": "What's the exchange rate today?",
 "exampleTranslation": "Qual é o câmbio hoje?",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "💱"
 },
 {
 "slug": "payment",
@@ -247,7 +267,8 @@
 "example": "The payment was approved.",
 "exampleTranslation": "O pagamento foi aprovado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💳"
 },
 {
 "slug": "approved",
@@ -257,7 +278,8 @@
 "example": "Your loan was approved.",
 "exampleTranslation": "Seu empréstimo foi aprovado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✅"
 },
 {
 "slug": "declined",
@@ -267,7 +289,8 @@
 "example": "My card was declined.",
 "exampleTranslation": "Meu cartão foi recusado.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "❌"
 },
 {
 "slug": "due-date",
@@ -277,7 +300,8 @@
 "example": "What's the due date?",
 "exampleTranslation": "Qual é a data de vencimento?",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📅"
 },
 {
 "slug": "fraud",
@@ -287,7 +311,8 @@
 "example": "Call the bank if you suspect fraud.",
 "exampleTranslation": "Ligue para o banco se suspeitar de fraude.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🚨"
 },
 {
 "slug": "block-the-card",
@@ -297,7 +322,8 @@
 "example": "I lost my card. Please block it.",
 "exampleTranslation": "Eu perdi meu cartão. Por favor, bloqueie.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🔒"
 },
 {
 "slug": "safe-deposit-box",
@@ -307,7 +333,8 @@
 "example": "The jewels are in a safe deposit box.",
 "exampleTranslation": "As joias estão num cofre do banco.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🔐"
 },
 {
 "slug": "security-code",
@@ -317,7 +344,8 @@
 "example": "Enter the security code.",
 "exampleTranslation": "Digite o código de segurança.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔐"
 },
 {
 "slug": "signature",
@@ -327,7 +355,8 @@
 "example": "Your signature, please.",
 "exampleTranslation": "Sua assinatura, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✍️"
 },
 {
 "slug": "id-card",
@@ -337,7 +366,8 @@
 "example": "Bring your ID card.",
 "exampleTranslation": "Traga sua carteira de identidade.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪪"
 },
 {
 "slug": "wire-transfer",
@@ -347,6 +377,7 @@
 "example": "I sent the money by wire transfer.",
 "exampleTranslation": "Eu mandei o dinheiro por transferência bancária.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🔁"
 }
 ]

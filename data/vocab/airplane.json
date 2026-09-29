@@ -7,7 +7,8 @@
 "example": "The airplane is very big.",
 "exampleTranslation": "O avião é muito grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✈️"
 },
 {
 "slug": "plane",
@@ -17,7 +18,8 @@
 "example": "The plane lands at noon.",
 "exampleTranslation": "O avião pousa ao meio-dia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✈️"
 },
 {
 "slug": "pilot",
@@ -27,7 +29,8 @@
 "example": "The pilot said hello to us.",
 "exampleTranslation": "O piloto nos cumprimentou.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👨‍✈️"
 },
 {
 "slug": "flight-attendant",
@@ -37,7 +40,8 @@
 "example": "Ask the flight attendant for water.",
 "exampleTranslation": "Peça água ao comissário de bordo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍✈️"
 },
 {
 "slug": "crew",
@@ -47,7 +51,8 @@
 "example": "The crew was very friendly.",
 "exampleTranslation": "A tripulação foi muito simpática.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👥"
 },
 {
 "slug": "seat",
@@ -57,7 +62,8 @@
 "example": "This is my seat.",
 "exampleTranslation": "Este é o meu assento.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💺"
 },
 {
 "slug": "window-seat",
@@ -67,7 +73,8 @@
 "example": "I prefer a window seat.",
 "exampleTranslation": "Eu prefiro assento na janela.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪟"
 },
 {
 "slug": "aisle-seat",
@@ -77,7 +84,8 @@
 "example": "Can I have an aisle seat?",
 "exampleTranslation": "Posso ficar num assento no corredor?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💺"
 },
 {
 "slug": "aisle",
@@ -107,7 +115,8 @@
 "example": "Fasten your seat belt.",
 "exampleTranslation": "Aperte o cinto de segurança.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔒"
 },
 {
 "slug": "fasten",
@@ -127,7 +136,8 @@
 "example": "The plane will take off soon.",
 "exampleTranslation": "O avião vai decolar logo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛫"
 },
 {
 "slug": "takeoff",
@@ -137,7 +147,8 @@
 "example": "Takeoff was very smooth.",
 "exampleTranslation": "A decolagem foi bem tranquila.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛫"
 },
 {
 "slug": "land",
@@ -147,7 +158,8 @@
 "example": "We will land in twenty minutes.",
 "exampleTranslation": "Vamos pousar em vinte minutos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛬"
 },
 {
 "slug": "landing",
@@ -157,7 +169,8 @@
 "example": "The landing was a little bumpy.",
 "exampleTranslation": "O pouso foi um pouco turbulento.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛬"
 },
 {
 "slug": "turbulence",
@@ -167,7 +180,8 @@
 "example": "Please sit down, there is turbulence.",
 "exampleTranslation": "Por favor, sentem-se, há turbulência.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🌪️"
 },
 {
 "slug": "wing",
@@ -177,7 +191,8 @@
 "example": "I can see the wing from my window.",
 "exampleTranslation": "Consigo ver a asa da minha janela.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪽"
 },
 {
 "slug": "engine",
@@ -187,7 +202,8 @@
 "example": "The engines are very loud.",
 "exampleTranslation": "Os motores são muito barulhentos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚙️"
 },
 {
 "slug": "cabin",
@@ -227,7 +243,8 @@
 "example": "Can I have a blanket, please?",
 "exampleTranslation": "Pode me dar uma manta, por favor?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛏️"
 },
 {
 "slug": "pillow",
@@ -237,7 +254,8 @@
 "example": "This pillow is very small.",
 "exampleTranslation": "Este travesseiro é muito pequeno.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛌"
 },
 {
 "slug": "headphones",
@@ -247,7 +265,8 @@
 "example": "Do you have headphones?",
 "exampleTranslation": "Você tem fones de ouvido?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎧"
 },
 {
 "slug": "life-jacket",
@@ -257,7 +276,8 @@
 "example": "Your life jacket is under your seat.",
 "exampleTranslation": "Seu colete salva-vidas fica debaixo do assento.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦺"
 },
 {
 "slug": "emergency-exit",
@@ -267,7 +287,8 @@
 "example": "Please note the emergency exits.",
 "exampleTranslation": "Observem as saídas de emergência.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚪"
 },
 {
 "slug": "oxygen-mask",
@@ -277,7 +298,8 @@
 "example": "An oxygen mask will drop from above.",
 "exampleTranslation": "Uma máscara de oxigênio cairá do alto.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "😷"
 },
 {
 "slug": "lavatory",
@@ -297,7 +319,8 @@
 "example": "They serve a meal on this flight.",
 "exampleTranslation": "Servem uma refeição neste voo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍱"
 },
 {
 "slug": "snack",
@@ -307,7 +330,8 @@
 "example": "Would you like a snack?",
 "exampleTranslation": "Gostaria de um lanche?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥨"
 },
 {
 "slug": "economy-class",
@@ -347,7 +371,8 @@
 "example": "This is your captain speaking.",
 "exampleTranslation": "Aqui quem fala é o comandante.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👨‍✈️"
 },
 {
 "slug": "altitude",
@@ -377,7 +402,8 @@
 "example": "I feel a little airsick.",
 "exampleTranslation": "Estou um pouco enjoado.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🤢"
 },
 {
 "slug": "direct-flight",
@@ -387,7 +413,8 @@
 "example": "Is there a direct flight to London?",
 "exampleTranslation": "Tem voo direto para Londres?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "➡️"
 },
 {
 "slug": "fly",
@@ -397,6 +424,7 @@
 "example": "I like to fly at night.",
 "exampleTranslation": "Eu gosto de voar à noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🕊️"
 }
 ]

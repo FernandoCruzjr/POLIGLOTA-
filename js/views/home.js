@@ -35,19 +35,22 @@ export function render(root) {
   const heroAction = next
     ? `<p class="hero-next">Próxima lição</p>
        <p class="hero-lesson">${esc(next.lesson.title)} <span>· ${esc(next.lesson.titleEn)}</span></p>
-       <a class="btn btn-light btn-lg" href="#/licao/${esc(next.lesson.id)}">${icon('play', 18)} ${lessonsDone ? 'Continuar' : 'Começar'}</a>`
+       <a class="btn btn-primary btn-lg" href="#/licao/${esc(next.lesson.id)}">${icon('play', 18)} ${lessonsDone ? 'Continuar' : 'Começar'}</a>`
     : `<p class="hero-lesson">Você concluiu todas as lições disponíveis! 🎉</p>
-       <a class="btn btn-light btn-lg" href="#/aprender">Rever lições</a>`;
+       <a class="btn btn-primary btn-lg" href="#/aprender">Rever lições</a>`;
 
   root.innerHTML = `
-    <header class="page-head">
-      <h1>Olá, ${esc(p.name || 'aluno')}!</h1>
-      <p class="muted"><span lang="en">${englishGreeting()}!</span> Vamos praticar um pouco hoje?</p>
+    <header class="home-head">
+      <img class="home-avatar" src="img/mascot-avatar.png" alt="" width="64" height="64">
+      <div>
+        <h1>Olá, ${esc(p.name || 'aluno')}!</h1>
+        <p><span lang="en">${englishGreeting()}!</span> Hoje é um ótimo dia para aprender.</p>
+      </div>
     </header>
 
     <section class="card hero" aria-labelledby="hero-title">
       <div class="hero-top">
-        <span class="chip chip-on-green">Nível ${level.number} · ${esc(level.title)}</span>
+        <span class="chip chip-green">Nível ${level.number} · ${esc(level.title)}</span>
         <span class="hero-pct">${Math.round(overall * 100)}%</span>
       </div>
       <h2 id="hero-title" class="sr-only">Seu progresso</h2>
@@ -69,6 +72,17 @@ export function render(root) {
         <div><strong>${minutesToday >= goal ? 'Meta batida!' : `${goal} min`}</strong><span class="muted">Meta de hoje</span></div>
       </div>
     </section>
+
+    <a class="card play-hero" href="#/sala">
+      <span class="quick-emoji" aria-hidden="true">👥</span>
+      <span><strong>Sala de quiz ao vivo</strong><span>Jogue com a família em tempo real</span></span>
+      <span class="play-cta">Jogar</span>
+    </a>
+
+    <div class="quick-row">
+      <a class="card quick" href="#/revisao"><span class="quick-emoji">🔄</span><span><strong>Revisão</strong><span class="muted small">${due ? `${plural(due, 'palavra', 'palavras')} para hoje` : 'Nada pendente'}</span></span></a>
+      <a class="card quick" href="#/ranking"><span class="quick-emoji">🏆</span><span><strong>Ranking</strong><span class="muted small">Veja sua posição</span></span></a>
+    </div>
 
     <div class="grid-2">
       <section class="card" aria-labelledby="units-title">
@@ -96,12 +110,12 @@ export function render(root) {
         <div class="empty-inline">
           <span class="stat-icon review">${icon('review')}</span>
           <p>${due
-            ? `<strong>${plural(due, 'palavra', 'palavras')}</strong> já ${due === 1 ? 'pode' : 'podem'} ser revisada${due === 1 ? '' : 's'}. Os exercícios de revisão chegam na próxima atualização.`
+            ? `<strong>${plural(due, 'palavra', 'palavras')}</strong> ${due === 1 ? 'está esperando' : 'estão esperando'} revisão. Leva só 2 minutos!`
             : seenWords
               ? 'Nenhuma palavra para revisar hoje. As palavras estudadas voltam para revisão no dia seguinte.'
               : 'Nenhuma palavra para revisar ainda. Estude palavras no Vocabulário e elas aparecem aqui para revisão.'}</p>
         </div>
-        <a class="btn btn-ghost" href="#/revisao">Abrir revisão</a>
+        <a class="btn ${due ? 'btn-primary' : 'btn-ghost'}" href="#/revisao">${due ? 'Revisar agora' : 'Abrir revisão'}</a>
       </section>
 
       <section class="card" aria-labelledby="activity-title">

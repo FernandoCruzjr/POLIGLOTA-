@@ -7,7 +7,8 @@
 "example": "We are planning a trip to Rio.",
 "exampleTranslation": "Estamos planejando uma viagem ao Rio.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧳"
 },
 {
 "slug": "travel",
@@ -17,7 +18,8 @@
 "example": "I love to travel with my family.",
 "exampleTranslation": "Eu adoro viajar com a minha família.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌍"
 },
 {
 "slug": "journey",
@@ -27,7 +29,8 @@
 "example": "The journey took ten hours.",
 "exampleTranslation": "A viagem levou dez horas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛤️"
 },
 {
 "slug": "vacation",
@@ -37,7 +40,8 @@
 "example": "We are on vacation this week.",
 "exampleTranslation": "Estamos de férias esta semana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏖️"
 },
 {
 "slug": "holiday",
@@ -47,7 +51,8 @@
 "example": "Monday is a holiday.",
 "exampleTranslation": "Segunda-feira é feriado.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎉"
 },
 {
 "slug": "tourist",
@@ -57,7 +62,8 @@
 "example": "The city is full of tourists.",
 "exampleTranslation": "A cidade está cheia de turistas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📸"
 },
 {
 "slug": "tour",
@@ -67,7 +73,8 @@
 "example": "We took a tour of the old city.",
 "exampleTranslation": "Fizemos um passeio pela cidade antiga.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚌"
 },
 {
 "slug": "guide",
@@ -77,7 +84,8 @@
 "example": "Our guide speaks English and Spanish.",
 "exampleTranslation": "Nosso guia fala inglês e espanhol.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧭"
 },
 {
 "slug": "map",
@@ -87,7 +95,8 @@
 "example": "Can you show me on the map?",
 "exampleTranslation": "Você pode me mostrar no mapa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗺️"
 },
 {
 "slug": "suitcase",
@@ -97,7 +106,8 @@
 "example": "My suitcase is very heavy.",
 "exampleTranslation": "Minha mala está muito pesada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧳"
 },
 {
 "slug": "backpack",
@@ -107,7 +117,8 @@
 "example": "I only have a backpack.",
 "exampleTranslation": "Eu só tenho uma mochila.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎒"
 },
 {
 "slug": "ticket",
@@ -117,7 +128,8 @@
 "example": "I bought the tickets online.",
 "exampleTranslation": "Eu comprei as passagens pela internet.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎫"
 },
 {
 "slug": "reservation",
@@ -127,7 +139,8 @@
 "example": "I have a reservation for two.",
 "exampleTranslation": "Eu tenho uma reserva para dois.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📋"
 },
 {
 "slug": "book",
@@ -137,7 +150,8 @@
 "example": "I want to book a room.",
 "exampleTranslation": "Eu quero reservar um quarto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📖"
 },
 {
 "slug": "destination",
@@ -147,7 +161,8 @@
 "example": "Paris is a popular destination.",
 "exampleTranslation": "Paris é um destino popular.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📍"
 },
 {
 "slug": "abroad",
@@ -157,7 +172,8 @@
 "example": "She lives abroad now.",
 "exampleTranslation": "Ela mora no exterior agora.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌎"
 },
 {
 "slug": "foreign",
@@ -177,7 +193,8 @@
 "example": "Brazil is a big country.",
 "exampleTranslation": "O Brasil é um país grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏳️"
 },
 {
 "slug": "beach",
@@ -187,7 +204,8 @@
 "example": "Let's go to the beach!",
 "exampleTranslation": "Vamos à praia!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏖️"
 },
 {
 "slug": "sightseeing",
@@ -197,7 +215,8 @@
 "example": "We went sightseeing all day.",
 "exampleTranslation": "Fizemos passeios turísticos o dia todo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗽"
 },
 {
 "slug": "souvenir",
@@ -207,7 +226,8 @@
 "example": "I bought a souvenir for my mother.",
 "exampleTranslation": "Eu comprei uma lembrancinha para minha mãe.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎁"
 },
 {
 "slug": "camera",
@@ -217,7 +237,8 @@
 "example": "Don't forget your camera.",
 "exampleTranslation": "Não esqueça sua câmera.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📷"
 },
 {
 "slug": "photo",
@@ -227,7 +248,8 @@
 "example": "Can you take a photo of us?",
 "exampleTranslation": "Você pode tirar uma foto nossa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🖼️"
 },
 {
 "slug": "visit",
@@ -237,7 +259,8 @@
 "example": "I want to visit the museum.",
 "exampleTranslation": "Eu quero visitar o museu.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏛️"
 },
 {
 "slug": "arrive",
@@ -247,7 +270,8 @@
 "example": "We arrive tomorrow morning.",
 "exampleTranslation": "Nós chegamos amanhã de manhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛬"
 },
 {
 "slug": "leave",
@@ -257,7 +281,8 @@
 "example": "The bus leaves at eight.",
 "exampleTranslation": "O ônibus sai às oito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛫"
 },
 {
 "slug": "return",
@@ -277,7 +302,8 @@
 "example": "I need to pack tonight.",
 "exampleTranslation": "Eu preciso fazer as malas hoje à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧳"
 },
 {
 "slug": "unpack",
@@ -317,7 +343,8 @@
 "example": "What is the local currency?",
 "exampleTranslation": "Qual é a moeda local?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💱"
 },
 {
 "slug": "exchange",
@@ -327,7 +354,8 @@
 "example": "Where can I exchange money?",
 "exampleTranslation": "Onde posso trocar dinheiro?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💱"
 },
 {
 "slug": "visa",
@@ -337,7 +365,8 @@
 "example": "Do I need a visa?",
 "exampleTranslation": "Eu preciso de visto?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛂"
 },
 {
 "slug": "border",
@@ -347,7 +376,8 @@
 "example": "We crossed the border by car.",
 "exampleTranslation": "Cruzamos a fronteira de carro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚧"
 },
 {
 "slug": "adventure",
@@ -357,7 +387,8 @@
 "example": "This trip was a great adventure.",
 "exampleTranslation": "Esta viagem foi uma grande aventura.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧗"
 },
 {
 "slug": "view",
@@ -367,7 +398,8 @@
 "example": "The view from here is beautiful.",
 "exampleTranslation": "A vista daqui é linda.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌄"
 },
 {
 "slug": "travel-insurance",
@@ -387,7 +419,8 @@
 "example": "The tour package includes breakfast.",
 "exampleTranslation": "O pacote de viagem inclui café da manhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📦"
 },
 {
 "slug": "travel-agency",
@@ -397,7 +430,8 @@
 "example": "I booked the trip at a travel agency.",
 "exampleTranslation": "Eu reservei a viagem numa agência de viagens.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏢"
 },
 {
 "slug": "cruise",
@@ -407,7 +441,8 @@
 "example": "We went on a cruise last year.",
 "exampleTranslation": "Fizemos um cruzeiro no ano passado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛳️"
 },
 {
 "slug": "campsite",
@@ -417,7 +452,8 @@
 "example": "The campsite is near the lake.",
 "exampleTranslation": "A área de camping fica perto do lago.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏕️"
 },
 {
 "slug": "tent",
@@ -427,7 +463,8 @@
 "example": "We slept in a tent.",
 "exampleTranslation": "Nós dormimos numa barraca.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⛺"
 },
 {
 "slug": "sunscreen",
@@ -437,7 +474,8 @@
 "example": "Put on some sunscreen.",
 "exampleTranslation": "Passe um pouco de protetor solar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧴"
 },
 {
 "slug": "sunglasses",
@@ -447,7 +485,8 @@
 "example": "I forgot my sunglasses.",
 "exampleTranslation": "Eu esqueci meus óculos de sol.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🕶️"
 },
 {
 "slug": "local",
@@ -467,7 +506,8 @@
 "example": "The beach is very crowded today.",
 "exampleTranslation": "A praia está muito lotada hoje.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👥"
 },
 {
 "slug": "jet-lag",
@@ -477,7 +517,8 @@
 "example": "I have terrible jet lag.",
 "exampleTranslation": "Estou com um cansaço terrível do fuso horário.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "😴"
 },
 {
 "slug": "round-trip",
@@ -487,7 +528,8 @@
 "example": "A round trip ticket, please.",
 "exampleTranslation": "Uma passagem de ida e volta, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔁"
 },
 {
 "slug": "one-way",
@@ -497,6 +539,7 @@
 "example": "I need a one way ticket.",
 "exampleTranslation": "Eu preciso de uma passagem só de ida.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "➡️"
 }
 ]

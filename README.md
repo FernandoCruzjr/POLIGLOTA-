@@ -1,6 +1,6 @@
-# Inglês em Família
+# Hi Family
 
-Plataforma gratuita para aprender inglês: lições curtas, áudio, XP, sequência diária e (nas próximas fases) vocabulário com cerca de 2.000 palavras e revisão espaçada.
+Aprenda inglês. Conecte-se com o mundo. Plataforma gratuita para a família: lições curtas, áudio, 2.061 palavras com quiz ilustrado, revisão espaçada, ranking e salas de quiz ao vivo.
 
 Site estático (HTML + CSS + JavaScript puro, sem etapa de build), hospedado na Vercel, com login e progresso no mesmo Supabase do Alfa-Alfa, em tabelas separadas (`en_*`).
 
@@ -25,7 +25,9 @@ js/store.js           progresso do aluno: salva no aparelho e sincroniza com o S
 js/vocab.js           lê o vocabulário por categoria e faz a busca
 js/content.js         lê o curso de data/course.json (trilha, desbloqueio, nível atual)
 js/speech.js          áudio grátis pela voz em inglês do aparelho
-js/views/*.js         telas: início, aprender, lição, perfil, vocabulário/revisão (em construção)
+js/quiz-engine.js     monta as perguntas de múltipla escolha
+js/views/*.js         telas: início, aprender, lição, vocabulário, quiz/revisão, jogar, ranking, sala, perfil
+img/                  mascote, ícone e imagem da tela de login
 data/vocab/           categories.json + um arquivo por categoria
 tools/check-vocab.mjs confere o banco e atualiza categories.json
 data/course.json      níveis → unidades → lições → itens (en, pt, pron, note, audio opcional)
@@ -48,6 +50,15 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 
 - [x] **Fase 1**: dashboard, visual verde, navegação (barra inferior no celular, lateral no computador), trilha com 3 unidades / 10 lições, XP, sequência e meta diária
 - [x] **Fase 2**: área de vocabulário com 2.061 palavras em 40 categorias (`data/vocab/*.json`), busca em inglês ou português, estudo por cartões, status por palavra
-- [ ] **Fase 3**: exercícios, domínio 0–4 por palavra, revisão espaçada (tabela `en_word_progress` já criada)
+- [x] **Identidade Hi Family**: nome, paleta, Poppins, ícone, mascote e tela de login
+- [x] **Quiz com ícone** (1.682 palavras com emoji; as demais usam o emoji da categoria), revisão espaçada (1, 3, 7 e 21 dias; erro volta em 10 min)
+- [x] **Ranking** geral e da semana (função `en_ranking` no schema.sql)
+- [x] **Sala de quiz ao vivo** com código de 4 letras (Supabase Realtime, sem tabelas)
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
 - [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
+
+## Recursos que dependem do Supabase
+
+- **Ranking:** rode de novo o `supabase/schema.sql` inteiro (ele só acrescenta; não apaga nada).
+- **Sala ao vivo:** usa o Realtime do Supabase, que já vem ligado. Se em Realtime → Settings estiver marcado para aceitar só canais privados, desmarque.
+- **Login com Google (opcional):** crie credenciais OAuth no Google Cloud, ative em Supabase → Authentication → Sign In / Providers → Google, e mude `GOOGLE_LOGIN_ENABLED` para `true` em `js/config.js`. Enquanto estiver `false`, o botão não aparece.

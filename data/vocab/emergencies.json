@@ -7,7 +7,8 @@
 "example": "Help! Someone help me!",
 "exampleTranslation": "Socorro! Alguém me ajude!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🆘"
 },
 {
 "slug": "emergency",
@@ -17,7 +18,8 @@
 "example": "This is an emergency!",
 "exampleTranslation": "Isto é uma emergência!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚨"
 },
 {
 "slug": "call-an-ambulance",
@@ -27,7 +29,8 @@
 "example": "Call an ambulance, now!",
 "exampleTranslation": "Chame uma ambulância, agora!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚑"
 },
 {
 "slug": "ambulance",
@@ -37,7 +40,8 @@
 "example": "The ambulance is on its way.",
 "exampleTranslation": "A ambulância está a caminho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚑"
 },
 {
 "slug": "police",
@@ -47,7 +51,8 @@
 "example": "Call the police!",
 "exampleTranslation": "Chame a polícia!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚓"
 },
 {
 "slug": "fire-department",
@@ -57,7 +62,8 @@
 "example": "Call the fire department!",
 "exampleTranslation": "Chame os bombeiros!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚒"
 },
 {
 "slug": "emergency-room",
@@ -67,7 +73,8 @@
 "example": "Take him to the emergency room.",
 "exampleTranslation": "Leve-o ao pronto-socorro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏥"
 },
 {
 "slug": "hurt",
@@ -77,7 +84,8 @@
 "example": "Is anyone hurt?",
 "exampleTranslation": "Tem alguém ferido?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤕"
 },
 {
 "slug": "injured",
@@ -87,7 +95,8 @@
 "example": "Two people were injured.",
 "exampleTranslation": "Duas pessoas ficaram feridas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤕"
 },
 {
 "slug": "bleeding",
@@ -97,7 +106,8 @@
 "example": "He's bleeding a lot.",
 "exampleTranslation": "Ele está sangrando muito.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🩸"
 },
 {
 "slug": "unconscious",
@@ -107,7 +117,8 @@
 "example": "She's unconscious!",
 "exampleTranslation": "Ela está inconsciente!",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "😵"
 },
 {
 "slug": "breathe",
@@ -117,7 +128,8 @@
 "example": "I can't breathe.",
 "exampleTranslation": "Eu não consigo respirar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🫁"
 },
 {
 "slug": "heart-attack",
@@ -127,7 +139,8 @@
 "example": "I think he's having a heart attack.",
 "exampleTranslation": "Acho que ele está tendo um ataque cardíaco.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "💔"
 },
 {
 "slug": "fire",
@@ -137,7 +150,8 @@
 "example": "Fire! Get out of the building!",
 "exampleTranslation": "Fogo! Saiam do prédio!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔥"
 },
 {
 "slug": "smoke",
@@ -147,7 +161,8 @@
 "example": "There's smoke in the kitchen.",
 "exampleTranslation": "Tem fumaça na cozinha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💨"
 },
 {
 "slug": "thief",
@@ -157,7 +172,8 @@
 "example": "Stop! Thief!",
 "exampleTranslation": "Pare! Ladrão!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦹"
 },
 {
 "slug": "steal",
@@ -167,7 +183,8 @@
 "example": "Someone stole my wallet.",
 "exampleTranslation": "Alguém roubou minha carteira.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👜"
 },
 {
 "slug": "robbed",
@@ -177,7 +194,8 @@
 "example": "I was robbed.",
 "exampleTranslation": "Eu fui assaltado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦹"
 },
 {
 "slug": "missing",
@@ -187,7 +205,8 @@
 "example": "My child is missing!",
 "exampleTranslation": "Meu filho está desaparecido!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❓"
 },
 {
 "slug": "lost-child",
@@ -197,7 +216,8 @@
 "example": "We found a lost child.",
 "exampleTranslation": "Achamos uma criança perdida.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧒"
 },
 {
 "slug": "danger",
@@ -207,7 +227,8 @@
 "example": "Danger! Keep out.",
 "exampleTranslation": "Perigo! Não entre.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⚠️"
 },
 {
 "slug": "safe-now",
@@ -217,7 +238,8 @@
 "example": "Don't worry, you're safe now.",
 "exampleTranslation": "Não se preocupe, você está seguro agora.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛡️"
 },
 {
 "slug": "exit",
@@ -227,7 +249,8 @@
 "example": "Where is the exit?",
 "exampleTranslation": "Onde fica a saída?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "emergency-number",
@@ -237,7 +260,8 @@
 "example": "What's the emergency number here?",
 "exampleTranslation": "Qual é o número de emergência aqui?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "☎️"
 },
 {
 "slug": "stop",
@@ -247,7 +271,8 @@
 "example": "Stop! Don't move!",
 "exampleTranslation": "Pare! Não se mexa!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛑"
 },
 {
 "slug": "get-help",
@@ -257,7 +282,8 @@
 "example": "Go and get help!",
 "exampleTranslation": "Vá buscar ajuda!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🆘"
 },
 {
 "slug": "accident-report",
@@ -277,7 +303,8 @@
 "example": "There was an earthquake in Chile.",
 "exampleTranslation": "Houve um terremoto no Chile.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🌋"
 },
 {
 "slug": "evacuate",
@@ -287,7 +314,8 @@
 "example": "Please evacuate the building.",
 "exampleTranslation": "Por favor, evacuem o prédio.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🏃"
 },
 {
 "slug": "first-aid",
@@ -297,7 +325,8 @@
 "example": "Do you know first aid?",
 "exampleTranslation": "Você sabe primeiros socorros?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⛑️"
 },
 {
 "slug": "poison",
@@ -307,7 +336,8 @@
 "example": "Keep poison away from children.",
 "exampleTranslation": "Mantenha veneno longe das crianças.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "☠️"
 },
 {
 "slug": "choke",
@@ -317,7 +347,8 @@
 "example": "The baby is choking!",
 "exampleTranslation": "O bebê está engasgando!",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "😮‍💨"
 },
 {
 "slug": "i-need-a-doctor",
@@ -327,7 +358,8 @@
 "example": "Please, I need a doctor.",
 "exampleTranslation": "Por favor, eu preciso de um médico.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍⚕️"
 },
 {
 "slug": "its-urgent",
@@ -337,7 +369,8 @@
 "example": "Please hurry, it's urgent.",
 "exampleTranslation": "Por favor, rápido, é urgente.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏰"
 },
 {
 "slug": "are-you-ok",
@@ -347,6 +380,7 @@
 "example": "You fell! Are you OK?",
 "exampleTranslation": "Você caiu! Você está bem?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙋"
 }
 ]

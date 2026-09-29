@@ -7,7 +7,8 @@
 "example": "I love being in nature.",
 "exampleTranslation": "Eu adoro estar na natureza.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌿"
 },
 {
 "slug": "tree",
@@ -17,7 +18,8 @@
 "example": "There's a big tree in the garden.",
 "exampleTranslation": "Tem uma árvore grande no jardim.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌳"
 },
 {
 "slug": "flower",
@@ -27,7 +29,8 @@
 "example": "She gave me a flower.",
 "exampleTranslation": "Ela me deu uma flor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌸"
 },
 {
 "slug": "leaf",
@@ -37,7 +40,8 @@
 "example": "A leaf fell on my head.",
 "exampleTranslation": "Uma folha caiu na minha cabeça.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍃"
 },
 {
 "slug": "grass",
@@ -47,7 +51,8 @@
 "example": "Don't walk on the grass.",
 "exampleTranslation": "Não pise na grama.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌱"
 },
 {
 "slug": "forest",
@@ -57,7 +62,8 @@
 "example": "The Amazon is a huge forest.",
 "exampleTranslation": "A Amazônia é uma floresta enorme.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌲"
 },
 {
 "slug": "jungle",
@@ -67,7 +73,8 @@
 "example": "Monkeys live in the jungle.",
 "exampleTranslation": "Macacos vivem na selva.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌴"
 },
 {
 "slug": "mountain",
@@ -77,7 +84,8 @@
 "example": "We climbed the mountain.",
 "exampleTranslation": "Nós subimos a montanha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛰️"
 },
 {
 "slug": "hill",
@@ -87,7 +95,8 @@
 "example": "Our house is on a hill.",
 "exampleTranslation": "Nossa casa fica num morro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏞️"
 },
 {
 "slug": "river",
@@ -97,7 +106,8 @@
 "example": "The river is very long.",
 "exampleTranslation": "O rio é muito longo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏞️"
 },
 {
 "slug": "lake",
@@ -107,7 +117,8 @@
 "example": "We swam in the lake.",
 "exampleTranslation": "Nadamos no lago.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏞️"
 },
 {
 "slug": "sea",
@@ -117,7 +128,8 @@
 "example": "The sea is calm today.",
 "exampleTranslation": "O mar está calmo hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌊"
 },
 {
 "slug": "ocean",
@@ -127,7 +139,8 @@
 "example": "The Atlantic Ocean is huge.",
 "exampleTranslation": "O Oceano Atlântico é enorme.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌊"
 },
 {
 "slug": "wave",
@@ -137,7 +150,8 @@
 "example": "The waves are big today.",
 "exampleTranslation": "As ondas estão grandes hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌊"
 },
 {
 "slug": "sand",
@@ -147,7 +161,8 @@
 "example": "The kids play in the sand.",
 "exampleTranslation": "As crianças brincam na areia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏖️"
 },
 {
 "slug": "island",
@@ -157,7 +172,8 @@
 "example": "We visited a small island.",
 "exampleTranslation": "Visitamos uma ilha pequena.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏝️"
 },
 {
 "slug": "waterfall",
@@ -167,7 +183,8 @@
 "example": "Let's swim in the waterfall.",
 "exampleTranslation": "Vamos nadar na cachoeira.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💦"
 },
 {
 "slug": "rock",
@@ -177,7 +194,8 @@
 "example": "Sit on that rock.",
 "exampleTranslation": "Sente naquela pedra.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪨"
 },
 {
 "slug": "stone",
@@ -187,7 +205,8 @@
 "example": "He threw a stone in the water.",
 "exampleTranslation": "Ele jogou uma pedra na água.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪨"
 },
 {
 "slug": "sky",
@@ -197,7 +216,8 @@
 "example": "The sky is clear tonight.",
 "exampleTranslation": "O céu está limpo hoje à noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌤️"
 },
 {
 "slug": "star",
@@ -207,7 +227,8 @@
 "example": "Look at the stars!",
 "exampleTranslation": "Olhe as estrelas!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⭐"
 },
 {
 "slug": "moon",
@@ -217,7 +238,8 @@
 "example": "There's a full moon tonight.",
 "exampleTranslation": "Tem lua cheia hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌙"
 },
 {
 "slug": "earth",
@@ -227,7 +249,8 @@
 "example": "The Earth goes around the sun.",
 "exampleTranslation": "A Terra gira em torno do sol.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌍"
 },
 {
 "slug": "world",
@@ -237,7 +260,8 @@
 "example": "I want to travel around the world.",
 "exampleTranslation": "Eu quero viajar pelo mundo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌎"
 },
 {
 "slug": "air",
@@ -247,7 +271,8 @@
 "example": "The mountain air is fresh.",
 "exampleTranslation": "O ar da montanha é fresco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💨"
 },
 {
 "slug": "fire",
@@ -257,7 +282,8 @@
 "example": "We made a fire at the campsite.",
 "exampleTranslation": "Fizemos uma fogueira no acampamento.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔥"
 },
 {
 "slug": "field",
@@ -267,7 +293,8 @@
 "example": "The horses run in the field.",
 "exampleTranslation": "Os cavalos correm no campo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌾"
 },
 {
 "slug": "farm",
@@ -277,7 +304,8 @@
 "example": "My uncle has a farm.",
 "exampleTranslation": "Meu tio tem um sítio.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚜"
 },
 {
 "slug": "countryside",
@@ -287,7 +315,8 @@
 "example": "I grew up in the countryside.",
 "exampleTranslation": "Eu cresci no interior.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏡"
 },
 {
 "slug": "desert",
@@ -297,7 +326,8 @@
 "example": "It's hot in the desert.",
 "exampleTranslation": "Faz calor no deserto.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏜️"
 },
 {
 "slug": "volcano",
@@ -307,7 +337,8 @@
 "example": "The volcano is active.",
 "exampleTranslation": "O vulcão está ativo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌋"
 },
 {
 "slug": "cave",
@@ -317,7 +348,8 @@
 "example": "We explored a cave.",
 "exampleTranslation": "Exploramos uma caverna.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕳️"
 },
 {
 "slug": "valley",
@@ -327,7 +359,8 @@
 "example": "The village is in a valley.",
 "exampleTranslation": "O vilarejo fica num vale.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏞️"
 },
 {
 "slug": "coast",
@@ -337,7 +370,8 @@
 "example": "They live on the coast.",
 "exampleTranslation": "Eles moram no litoral.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏖️"
 },
 {
 "slug": "trail",
@@ -347,7 +381,8 @@
 "example": "We walked the trail to the top.",
 "exampleTranslation": "Fizemos a trilha até o topo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥾"
 },
 {
 "slug": "seed",
@@ -357,7 +392,8 @@
 "example": "Plant the seeds in spring.",
 "exampleTranslation": "Plante as sementes na primavera.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌰"
 },
 {
 "slug": "root",
@@ -367,7 +403,8 @@
 "example": "The roots of this tree are deep.",
 "exampleTranslation": "As raízes desta árvore são profundas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌱"
 },
 {
 "slug": "branch",
@@ -377,7 +414,8 @@
 "example": "A bird is on the branch.",
 "exampleTranslation": "Tem um pássaro no galho.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌿"
 },
 {
 "slug": "wood",
@@ -387,7 +425,8 @@
 "example": "The table is made of wood.",
 "exampleTranslation": "A mesa é feita de madeira.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪵"
 },
 {
 "slug": "soil",
@@ -397,7 +436,8 @@
 "example": "This soil is good for plants.",
 "exampleTranslation": "Este solo é bom para plantas.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🟫"
 },
 {
 "slug": "environment",
@@ -407,7 +447,8 @@
 "example": "We must protect the environment.",
 "exampleTranslation": "Precisamos proteger o meio ambiente.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "♻️"
 },
 {
 "slug": "recycle",
@@ -417,7 +458,8 @@
 "example": "We recycle paper and plastic.",
 "exampleTranslation": "Nós reciclamos papel e plástico.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "♻️"
 },
 {
 "slug": "plastic",
@@ -427,7 +469,8 @@
 "example": "Don't throw plastic in the sea.",
 "exampleTranslation": "Não jogue plástico no mar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧴"
 },
 {
 "slug": "garbage",
@@ -437,7 +480,8 @@
 "example": "Put the garbage in the bin.",
 "exampleTranslation": "Coloque o lixo na lixeira.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗑️"
 },
 {
 "slug": "planet",
@@ -447,7 +491,8 @@
 "example": "We only have one planet.",
 "exampleTranslation": "Só temos um planeta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪐"
 },
 {
 "slug": "landscape",
@@ -457,7 +502,8 @@
 "example": "What a beautiful landscape!",
 "exampleTranslation": "Que paisagem linda!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏞️"
 },
 {
 "slug": "shadow",
@@ -467,7 +513,8 @@
 "example": "Look at our shadows on the wall.",
 "exampleTranslation": "Olhe as nossas sombras na parede.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👤"
 },
 {
 "slug": "pick-flowers",
@@ -477,7 +524,8 @@
 "example": "The kids picked flowers for Mom.",
 "exampleTranslation": "As crianças colheram flores para a mamãe.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💐"
 },
 {
 "slug": "wild",
@@ -487,7 +535,8 @@
 "example": "These are wild animals.",
 "exampleTranslation": "Estes são animais selvagens.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🐺"
 },
 {
 "slug": "natural",
@@ -497,6 +546,7 @@
 "example": "This juice is 100% natural.",
 "exampleTranslation": "Este suco é 100% natural.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍃"
 }
 ]

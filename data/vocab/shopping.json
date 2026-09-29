@@ -7,7 +7,8 @@
 "example": "I like to shop on weekends.",
 "exampleTranslation": "Eu gosto de fazer compras nos fins de semana.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏪"
 },
 {
 "slug": "store",
@@ -17,7 +18,8 @@
 "example": "The store opens at nine.",
 "exampleTranslation": "A loja abre às nove.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏬"
 },
 {
 "slug": "mall",
@@ -27,7 +29,8 @@
 "example": "Let's go to the mall.",
 "exampleTranslation": "Vamos ao shopping.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏬"
 },
 {
 "slug": "supermarket",
@@ -37,7 +40,8 @@
 "example": "I need to go to the supermarket.",
 "exampleTranslation": "Eu preciso ir ao supermercado.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛒"
 },
 {
 "slug": "market",
@@ -47,7 +51,8 @@
 "example": "The market has fresh fruit.",
 "exampleTranslation": "A feira tem frutas frescas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧺"
 },
 {
 "slug": "bakery",
@@ -57,7 +62,8 @@
 "example": "I buy bread at the bakery.",
 "exampleTranslation": "Eu compro pão na padaria.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥖"
 },
 {
 "slug": "pharmacy",
@@ -67,7 +73,8 @@
 "example": "Is there a pharmacy near here?",
 "exampleTranslation": "Tem uma farmácia aqui perto?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💊"
 },
 {
 "slug": "buy",
@@ -77,7 +84,8 @@
 "example": "I want to buy a new phone.",
 "exampleTranslation": "Eu quero comprar um celular novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛍️"
 },
 {
 "slug": "sell",
@@ -87,7 +95,8 @@
 "example": "Do you sell batteries?",
 "exampleTranslation": "Vocês vendem pilhas?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏷️"
 },
 {
 "slug": "price",
@@ -97,7 +106,8 @@
 "example": "What is the price of this?",
 "exampleTranslation": "Qual é o preço disto?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏷️"
 },
 {
 "slug": "cost",
@@ -107,7 +117,8 @@
 "example": "How much does it cost?",
 "exampleTranslation": "Quanto custa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💲"
 },
 {
 "slug": "cheap",
@@ -117,7 +128,8 @@
 "example": "This shirt is cheap.",
 "exampleTranslation": "Esta camisa é barata.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👍"
 },
 {
 "slug": "expensive",
@@ -127,7 +139,8 @@
 "example": "It's too expensive.",
 "exampleTranslation": "É caro demais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💎"
 },
 {
 "slug": "sale",
@@ -137,7 +150,8 @@
 "example": "Everything is on sale today.",
 "exampleTranslation": "Está tudo em promoção hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔖"
 },
 {
 "slug": "discount",
@@ -147,7 +161,8 @@
 "example": "Is there a discount?",
 "exampleTranslation": "Tem desconto?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💯"
 },
 {
 "slug": "cashier",
@@ -157,7 +172,8 @@
 "example": "Pay at the cashier.",
 "exampleTranslation": "Pague no caixa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍💼"
 },
 {
 "slug": "checkout",
@@ -167,7 +183,8 @@
 "example": "The checkout line is long.",
 "exampleTranslation": "A fila do caixa está longa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧾"
 },
 {
 "slug": "receipt",
@@ -177,7 +194,8 @@
 "example": "Can I have the receipt?",
 "exampleTranslation": "Pode me dar a nota?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧾"
 },
 {
 "slug": "change",
@@ -187,7 +205,8 @@
 "example": "Here is your change.",
 "exampleTranslation": "Aqui está o seu troco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪙"
 },
 {
 "slug": "shopping-cart",
@@ -197,7 +216,8 @@
 "example": "Get a shopping cart.",
 "exampleTranslation": "Pegue um carrinho de compras.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛒"
 },
 {
 "slug": "basket",
@@ -207,7 +227,8 @@
 "example": "I only need a basket.",
 "exampleTranslation": "Eu só preciso de uma cesta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧺"
 },
 {
 "slug": "bag",
@@ -217,7 +238,8 @@
 "example": "Do you need a bag?",
 "exampleTranslation": "Você precisa de sacola?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛍️"
 },
 {
 "slug": "size",
@@ -227,7 +249,8 @@
 "example": "What size are you?",
 "exampleTranslation": "Qual é o seu tamanho?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📏"
 },
 {
 "slug": "small",
@@ -237,7 +260,8 @@
 "example": "Do you have it in small?",
 "exampleTranslation": "Tem no tamanho pequeno?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤏"
 },
 {
 "slug": "large",
@@ -247,7 +271,8 @@
 "example": "I need a large one.",
 "exampleTranslation": "Eu preciso de um grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🐘"
 },
 {
 "slug": "fitting-room",
@@ -257,7 +282,8 @@
 "example": "Where is the fitting room?",
 "exampleTranslation": "Onde fica o provador?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚪"
 },
 {
 "slug": "try-on",
@@ -267,7 +293,8 @@
 "example": "Can I try on these shoes?",
 "exampleTranslation": "Posso experimentar estes sapatos?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👗"
 },
 {
 "slug": "fit",
@@ -307,7 +334,8 @@
 "example": "What brand is this?",
 "exampleTranslation": "De que marca é isso?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "™️"
 },
 {
 "slug": "product",
@@ -317,7 +345,8 @@
 "example": "This product is new.",
 "exampleTranslation": "Este produto é novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📦"
 },
 {
 "slug": "customer",
@@ -327,7 +356,8 @@
 "example": "The customer is always right.",
 "exampleTranslation": "O cliente tem sempre razão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙋"
 },
 {
 "slug": "salesperson",
@@ -347,7 +377,8 @@
 "example": "Is the store open on Sunday?",
 "exampleTranslation": "A loja abre no domingo?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔓"
 },
 {
 "slug": "closed",
@@ -357,7 +388,8 @@
 "example": "The store is closed.",
 "exampleTranslation": "A loja está fechada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔒"
 },
 {
 "slug": "aisle-number",
@@ -377,7 +409,8 @@
 "example": "It's on the top shelf.",
 "exampleTranslation": "Está na prateleira de cima.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🗄️"
 },
 {
 "slug": "in-stock",
@@ -407,7 +440,8 @@
 "example": "I do a lot of online shopping.",
 "exampleTranslation": "Eu faço muitas compras pela internet.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💻"
 },
 {
 "slug": "shopping-list",
@@ -417,7 +451,8 @@
 "example": "Don't forget the shopping list.",
 "exampleTranslation": "Não esqueça a lista de compras.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "gift",
@@ -427,7 +462,8 @@
 "example": "It's a gift for my daughter.",
 "exampleTranslation": "É um presente para minha filha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎁"
 },
 {
 "slug": "gift-wrap",
@@ -437,7 +473,8 @@
 "example": "Can you gift wrap it?",
 "exampleTranslation": "Pode embrulhar para presente?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎀"
 },
 {
 "slug": "pay",
@@ -447,7 +484,8 @@
 "example": "Can I pay with card?",
 "exampleTranslation": "Posso pagar com cartão?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💳"
 },
 {
 "slug": "credit-card",
@@ -457,7 +495,8 @@
 "example": "Do you accept credit cards?",
 "exampleTranslation": "Vocês aceitam cartão de crédito?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💳"
 },
 {
 "slug": "installments",
@@ -507,7 +546,8 @@
 "example": "There's a long queue at the checkout.",
 "exampleTranslation": "Tem uma fila longa no caixa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚶"
 },
 {
 "slug": "line",
@@ -517,7 +557,8 @@
 "example": "Please wait in line.",
 "exampleTranslation": "Por favor, aguarde na fila.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚶"
 },
 {
 "slug": "kilo",
@@ -527,7 +568,8 @@
 "example": "A kilo of tomatoes, please.",
 "exampleTranslation": "Um quilo de tomates, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⚖️"
 },
 {
 "slug": "half",
@@ -537,7 +579,8 @@
 "example": "Half a kilo of cheese.",
 "exampleTranslation": "Meio quilo de queijo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌓"
 },
 {
 "slug": "worth",

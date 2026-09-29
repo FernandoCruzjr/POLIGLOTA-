@@ -7,7 +7,8 @@
 "example": "I want to be a doctor.",
 "exampleTranslation": "Eu quero ser médico.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙂"
 },
 {
 "slug": "have",
@@ -17,7 +18,8 @@
 "example": "I have two brothers.",
 "exampleTranslation": "Eu tenho dois irmãos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤲"
 },
 {
 "slug": "do",
@@ -27,7 +29,8 @@
 "example": "What are you doing?",
 "exampleTranslation": "O que você está fazendo?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✅"
 },
 {
 "slug": "make",
@@ -37,7 +40,8 @@
 "example": "I'll make a cake.",
 "exampleTranslation": "Vou fazer um bolo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛠️"
 },
 {
 "slug": "go",
@@ -47,7 +51,8 @@
 "example": "Let's go!",
 "exampleTranslation": "Vamos!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "➡️"
 },
 {
 "slug": "come",
@@ -57,7 +62,8 @@
 "example": "Come here, please.",
 "exampleTranslation": "Venha aqui, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👋"
 },
 {
 "slug": "get",
@@ -67,7 +73,8 @@
 "example": "Did you get my message?",
 "exampleTranslation": "Você recebeu minha mensagem?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤲"
 },
 {
 "slug": "give",
@@ -77,7 +84,8 @@
 "example": "Give me the ball.",
 "exampleTranslation": "Me dá a bola.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎁"
 },
 {
 "slug": "take",
@@ -87,7 +95,8 @@
 "example": "Take an umbrella.",
 "exampleTranslation": "Leve um guarda-chuva.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✋"
 },
 {
 "slug": "bring",
@@ -97,7 +106,8 @@
 "example": "Bring your friends.",
 "exampleTranslation": "Traga seus amigos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛍️"
 },
 {
 "slug": "put",
@@ -107,7 +117,8 @@
 "example": "Put the book on the table.",
 "exampleTranslation": "Coloque o livro na mesa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📥"
 },
 {
 "slug": "say",
@@ -117,7 +128,8 @@
 "example": "What did you say?",
 "exampleTranslation": "O que você disse?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "tell",
@@ -127,7 +139,8 @@
 "example": "Tell me a story.",
 "exampleTranslation": "Me conte uma história.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗣️"
 },
 {
 "slug": "speak",
@@ -137,7 +150,8 @@
 "example": "Do you speak English?",
 "exampleTranslation": "Você fala inglês?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗣️"
 },
 {
 "slug": "talk",
@@ -147,7 +161,8 @@
 "example": "Can we talk?",
 "exampleTranslation": "Podemos conversar?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "ask",
@@ -157,7 +172,8 @@
 "example": "Can I ask you something?",
 "exampleTranslation": "Posso te perguntar uma coisa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❓"
 },
 {
 "slug": "answer",
@@ -167,7 +183,8 @@
 "example": "Can you answer the phone?",
 "exampleTranslation": "Você pode atender o telefone?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "see",
@@ -177,7 +194,8 @@
 "example": "I can't see anything.",
 "exampleTranslation": "Não consigo ver nada.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👀"
 },
 {
 "slug": "look",
@@ -187,7 +205,8 @@
 "example": "Look at this!",
 "exampleTranslation": "Olha isto!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👁️"
 },
 {
 "slug": "watch",
@@ -197,7 +216,8 @@
 "example": "Watch the baby for a minute.",
 "exampleTranslation": "Olhe o bebê por um minuto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📺"
 },
 {
 "slug": "hear",
@@ -207,7 +227,8 @@
 "example": "Can you hear me?",
 "exampleTranslation": "Você consegue me ouvir?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👂"
 },
 {
 "slug": "listen",
@@ -217,7 +238,8 @@
 "example": "Listen to me.",
 "exampleTranslation": "Me escute.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎧"
 },
 {
 "slug": "know",
@@ -227,7 +249,8 @@
 "example": "I don't know.",
 "exampleTranslation": "Eu não sei.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💡"
 },
 {
 "slug": "think",
@@ -237,7 +260,8 @@
 "example": "I think it's a good idea.",
 "exampleTranslation": "Eu acho que é uma boa ideia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💭"
 },
 {
 "slug": "believe",
@@ -247,7 +271,8 @@
 "example": "I believe you.",
 "exampleTranslation": "Eu acredito em você.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙏"
 },
 {
 "slug": "remember",
@@ -257,7 +282,8 @@
 "example": "Do you remember me?",
 "exampleTranslation": "Você se lembra de mim?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💭"
 },
 {
 "slug": "forget",
@@ -267,7 +293,8 @@
 "example": "Don't forget your keys.",
 "exampleTranslation": "Não esqueça suas chaves.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤷"
 },
 {
 "slug": "want",
@@ -277,7 +304,8 @@
 "example": "I want some water.",
 "exampleTranslation": "Eu quero um pouco de água.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙏"
 },
 {
 "slug": "need",
@@ -287,7 +315,8 @@
 "example": "I need help.",
 "exampleTranslation": "Eu preciso de ajuda.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❗"
 },
 {
 "slug": "like",
@@ -297,7 +326,8 @@
 "example": "I like chocolate.",
 "exampleTranslation": "Eu gosto de chocolate.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👍"
 },
 {
 "slug": "love-to",
@@ -307,7 +337,8 @@
 "example": "I love to cook.",
 "exampleTranslation": "Eu adoro cozinhar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❤️"
 },
 {
 "slug": "prefer",
@@ -317,7 +348,8 @@
 "example": "I prefer tea.",
 "exampleTranslation": "Eu prefiro chá.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👉"
 },
 {
 "slug": "can",
@@ -327,7 +359,8 @@
 "example": "Can you help me?",
 "exampleTranslation": "Você pode me ajudar?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💪"
 },
 {
 "slug": "try",
@@ -337,7 +370,8 @@
 "example": "Try again.",
 "exampleTranslation": "Tente de novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💪"
 },
 {
 "slug": "use",
@@ -347,7 +381,8 @@
 "example": "Can I use your phone?",
 "exampleTranslation": "Posso usar o seu telefone?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔧"
 },
 {
 "slug": "help",
@@ -357,7 +392,8 @@
 "example": "Can you help me?",
 "exampleTranslation": "Pode me ajudar?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤝"
 },
 {
 "slug": "work",
@@ -367,7 +403,8 @@
 "example": "My parents work hard.",
 "exampleTranslation": "Meus pais trabalham duro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💼"
 },
 {
 "slug": "live",
@@ -377,7 +414,8 @@
 "example": "I live in São Paulo.",
 "exampleTranslation": "Eu moro em São Paulo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏠"
 },
 {
 "slug": "eat",
@@ -387,7 +425,8 @@
 "example": "Let's eat!",
 "exampleTranslation": "Vamos comer!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍽️"
 },
 {
 "slug": "drink",
@@ -397,7 +436,8 @@
 "example": "Drink more water.",
 "exampleTranslation": "Beba mais água.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥤"
 },
 {
 "slug": "wake-up",
@@ -407,7 +447,8 @@
 "example": "I wake up at six.",
 "exampleTranslation": "Eu acordo às seis.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏰"
 },
 {
 "slug": "get-up",
@@ -417,7 +458,8 @@
 "example": "Get up, it's late!",
 "exampleTranslation": "Levanta, está tarde!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛏️"
 },
 {
 "slug": "go-to-bed",
@@ -427,7 +469,8 @@
 "example": "I go to bed at ten.",
 "exampleTranslation": "Eu vou para a cama às dez.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🛌"
 },
 {
 "slug": "sit",
@@ -437,7 +480,8 @@
 "example": "Please sit down.",
 "exampleTranslation": "Por favor, sente-se.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🪑"
 },
 {
 "slug": "stand",
@@ -447,7 +491,8 @@
 "example": "Stand up, please.",
 "exampleTranslation": "Levante-se, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧍"
 },
 {
 "slug": "open",
@@ -457,7 +502,8 @@
 "example": "Open the door.",
 "exampleTranslation": "Abra a porta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔓"
 },
 {
 "slug": "close",
@@ -467,7 +513,8 @@
 "example": "Close the window.",
 "exampleTranslation": "Feche a janela.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔒"
 },
 {
 "slug": "start",
@@ -477,7 +524,8 @@
 "example": "The movie starts at eight.",
 "exampleTranslation": "O filme começa às oito.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "▶️"
 },
 {
 "slug": "begin",
@@ -487,7 +535,8 @@
 "example": "Let's begin the lesson.",
 "exampleTranslation": "Vamos começar a lição.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚀"
 },
 {
 "slug": "finish",
@@ -497,7 +546,8 @@
 "example": "Did you finish your homework?",
 "exampleTranslation": "Você terminou o dever de casa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏁"
 },
 {
 "slug": "end",
@@ -507,7 +557,8 @@
 "example": "The party ends at midnight.",
 "exampleTranslation": "A festa termina à meia-noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔚"
 },
 {
 "slug": "stay",
@@ -517,7 +568,8 @@
 "example": "Let's stay home tonight.",
 "exampleTranslation": "Vamos ficar em casa hoje à noite.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏠"
 },
 {
 "slug": "wait",
@@ -527,7 +579,8 @@
 "example": "Wait for me!",
 "exampleTranslation": "Espere por mim!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏳"
 },
 {
 "slug": "call",
@@ -537,7 +590,8 @@
 "example": "Call me later.",
 "exampleTranslation": "Me liga mais tarde.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📞"
 },
 {
 "slug": "write",
@@ -547,7 +601,8 @@
 "example": "Write your name here.",
 "exampleTranslation": "Escreva seu nome aqui.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✍️"
 },
 {
 "slug": "find",
@@ -557,7 +612,8 @@
 "example": "I can't find my keys.",
 "exampleTranslation": "Não consigo achar minhas chaves.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔍"
 },
 {
 "slug": "lose",
@@ -567,7 +623,8 @@
 "example": "Don't lose your ticket.",
 "exampleTranslation": "Não perca seu bilhete.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😞"
 },
 {
 "slug": "look-for",
@@ -577,7 +634,8 @@
 "example": "I'm looking for my glasses.",
 "exampleTranslation": "Estou procurando meus óculos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔎"
 },
 {
 "slug": "send",
@@ -587,7 +645,8 @@
 "example": "Send me a photo.",
 "exampleTranslation": "Me manda uma foto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📤"
 },
 {
 "slug": "receive",
@@ -597,7 +656,8 @@
 "example": "Did you receive my email?",
 "exampleTranslation": "Você recebeu meu e-mail?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📥"
 },
 {
 "slug": "pay-attention",
@@ -607,7 +667,8 @@
 "example": "Pay attention in class.",
 "exampleTranslation": "Preste atenção na aula.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👀"
 },
 {
 "slug": "play-with",
@@ -617,7 +678,8 @@
 "example": "Play with your sister.",
 "exampleTranslation": "Brinque com a sua irmã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧸"
 },
 {
 "slug": "change",
@@ -627,7 +689,8 @@
 "example": "I want to change my life.",
 "exampleTranslation": "Eu quero mudar minha vida.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔄"
 },
 {
 "slug": "choose",
@@ -637,7 +700,8 @@
 "example": "Choose a color.",
 "exampleTranslation": "Escolha uma cor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👆"
 },
 {
 "slug": "decide",
@@ -647,7 +711,8 @@
 "example": "I can't decide.",
 "exampleTranslation": "Não consigo decidir.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚖️"
 },
 {
 "slug": "agree",
@@ -657,7 +722,8 @@
 "example": "I agree with you.",
 "exampleTranslation": "Eu concordo com você.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👍"
 },
 {
 "slug": "disagree",
@@ -667,7 +733,8 @@
 "example": "I disagree.",
 "exampleTranslation": "Eu discordo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👎"
 },
 {
 "slug": "understand",
@@ -677,7 +744,8 @@
 "example": "I understand you.",
 "exampleTranslation": "Eu entendo você.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💡"
 },
 {
 "slug": "mean",
@@ -687,7 +755,8 @@
 "example": "What does this word mean?",
 "exampleTranslation": "O que essa palavra significa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❓"
 },
 {
 "slug": "show",
@@ -697,7 +766,8 @@
 "example": "Show me your drawing.",
 "exampleTranslation": "Me mostra o seu desenho.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👉"
 },
 {
 "slug": "teach",
@@ -707,7 +777,8 @@
 "example": "Can you teach me?",
 "exampleTranslation": "Você pode me ensinar?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🏫"
 },
 {
 "slug": "build",
@@ -717,7 +788,8 @@
 "example": "They are building a house.",
 "exampleTranslation": "Eles estão construindo uma casa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏗️"
 },
 {
 "slug": "break",
@@ -727,7 +799,8 @@
 "example": "Don't break the glass!",
 "exampleTranslation": "Não quebre o copo!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💥"
 },
 {
 "slug": "fix",
@@ -737,7 +810,8 @@
 "example": "Dad can fix it.",
 "exampleTranslation": "O papai consegue consertar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔧"
 },
 {
 "slug": "clean",
@@ -747,7 +821,8 @@
 "example": "Clean your room.",
 "exampleTranslation": "Limpe o seu quarto.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧽"
 },
 {
 "slug": "wash",
@@ -757,7 +832,8 @@
 "example": "Wash your hands.",
 "exampleTranslation": "Lave as mãos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧼"
 },
 {
 "slug": "cut",
@@ -767,7 +843,8 @@
 "example": "Cut the bread, please.",
 "exampleTranslation": "Corte o pão, por favor.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✂️"
 },
 {
 "slug": "carry",
@@ -777,7 +854,8 @@
 "example": "Can you carry this bag?",
 "exampleTranslation": "Você pode carregar esta sacola?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎒"
 },
 {
 "slug": "hold",
@@ -787,7 +865,8 @@
 "example": "Hold my hand.",
 "exampleTranslation": "Segure a minha mão.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤲"
 },
 {
 "slug": "push",
@@ -797,7 +876,8 @@
 "example": "Push the door.",
 "exampleTranslation": "Empurre a porta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👉"
 },
 {
 "slug": "pull",
@@ -807,7 +887,8 @@
 "example": "Pull the rope.",
 "exampleTranslation": "Puxe a corda.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👈"
 },
 {
 "slug": "jump",
@@ -817,7 +898,8 @@
 "example": "The kids love to jump.",
 "exampleTranslation": "As crianças adoram pular.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🦘"
 },
 {
 "slug": "climb",
@@ -827,7 +909,8 @@
 "example": "Don't climb the tree!",
 "exampleTranslation": "Não suba na árvore!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧗"
 },
 {
 "slug": "fall",
@@ -837,7 +920,8 @@
 "example": "The baby fell down.",
 "exampleTranslation": "O bebê caiu.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍂"
 },
 {
 "slug": "grow",
@@ -847,7 +931,8 @@
 "example": "The baby is growing fast.",
 "exampleTranslation": "O bebê está crescendo rápido.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌱"
 },
 {
 "slug": "learn-by-heart",
@@ -867,7 +952,8 @@
 "example": "What happened?",
 "exampleTranslation": "O que aconteceu?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❗"
 },
 {
 "slug": "seem",
@@ -877,7 +963,8 @@
 "example": "You seem tired.",
 "exampleTranslation": "Você parece cansado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤔"
 },
 {
 "slug": "become",
@@ -887,7 +974,8 @@
 "example": "She became a doctor.",
 "exampleTranslation": "Ela se tornou médica.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦋"
 },
 {
 "slug": "let",
@@ -897,7 +985,8 @@
 "example": "Let me help you.",
 "exampleTranslation": "Deixa eu te ajudar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙆"
 },
 {
 "slug": "allow",
@@ -907,7 +996,8 @@
 "example": "Dogs are not allowed here.",
 "exampleTranslation": "Cachorros não são permitidos aqui.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✅"
 },
 {
 "slug": "keep",
@@ -917,7 +1007,8 @@
 "example": "Keep the change.",
 "exampleTranslation": "Pode ficar com o troco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔐"
 },
 {
 "slug": "leave",
@@ -927,7 +1018,8 @@
 "example": "I left my phone at home.",
 "exampleTranslation": "Eu deixei meu celular em casa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "meet",
@@ -937,7 +1029,8 @@
 "example": "Let's meet at six.",
 "exampleTranslation": "Vamos nos encontrar às seis.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🤝"
 },
 {
 "slug": "travel",
@@ -947,7 +1040,8 @@
 "example": "I want to travel abroad next year.",
 "exampleTranslation": "Eu quero viajar para o exterior ano que vem.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✈️"
 },
 {
 "slug": "drive",
@@ -957,7 +1051,8 @@
 "example": "I drive to work every day.",
 "exampleTranslation": "Eu vou de carro ao trabalho todo dia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚗"
 },
 {
 "slug": "sleep",
@@ -967,7 +1062,8 @@
 "example": "Did you sleep well?",
 "exampleTranslation": "Você dormiu bem?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😴"
 },
 {
 "slug": "dream",
@@ -977,7 +1073,8 @@
 "example": "I dreamed about you.",
 "exampleTranslation": "Eu sonhei com você.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💤"
 },
 {
 "slug": "hurry",
@@ -987,7 +1084,8 @@
 "example": "Hurry up!",
 "exampleTranslation": "Anda logo!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏃"
 },
 {
 "slug": "worry",
@@ -997,7 +1095,8 @@
 "example": "Don't worry.",
 "exampleTranslation": "Não se preocupe.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😟"
 },
 {
 "slug": "smell",
@@ -1007,7 +1106,8 @@
 "example": "It smells good!",
 "exampleTranslation": "Está cheiroso!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👃"
 },
 {
 "slug": "taste",
@@ -1017,7 +1117,8 @@
 "example": "Taste this soup.",
 "exampleTranslation": "Prove esta sopa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👅"
 },
 {
 "slug": "touch",
@@ -1027,7 +1128,8 @@
 "example": "Don't touch that!",
 "exampleTranslation": "Não toque nisso!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✋"
 },
 {
 "slug": "enjoy",
@@ -1037,7 +1139,8 @@
 "example": "Enjoy your meal!",
 "exampleTranslation": "Bom apetite!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😊"
 },
 {
 "slug": "arrive",
@@ -1047,7 +1150,8 @@
 "example": "What time do you arrive home?",
 "exampleTranslation": "Que horas você chega em casa?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏁"
 },
 {
 "slug": "return",
@@ -1057,7 +1161,8 @@
 "example": "I need to return this book.",
 "exampleTranslation": "Eu preciso devolver este livro.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "↩️"
 },
 {
 "slug": "guess",
@@ -1067,7 +1172,8 @@
 "example": "Guess what!",
 "exampleTranslation": "Adivinha!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "❓"
 },
 {
 "slug": "explain",
@@ -1077,7 +1183,8 @@
 "example": "Let me explain.",
 "exampleTranslation": "Deixa eu explicar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "thank",
@@ -1087,7 +1194,8 @@
 "example": "I want to thank you.",
 "exampleTranslation": "Eu quero te agradecer.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🙏"
 },
 {
 "slug": "invite",
@@ -1097,7 +1205,8 @@
 "example": "Invite your cousins.",
 "exampleTranslation": "Convide seus primos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💌"
 },
 {
 "slug": "plan",
@@ -1107,7 +1216,8 @@
 "example": "Let's plan our trip.",
 "exampleTranslation": "Vamos planejar nossa viagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗓️"
 },
 {
 "slug": "prepare",
@@ -1117,7 +1227,8 @@
 "example": "I'm preparing dinner.",
 "exampleTranslation": "Estou preparando o jantar.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍳"
 },
 {
 "slug": "move",
@@ -1127,7 +1238,8 @@
 "example": "We moved house last year.",
 "exampleTranslation": "Nós mudamos de casa ano passado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📦"
 },
 {
 "slug": "turn",
@@ -1137,7 +1249,8 @@
 "example": "Turn left here.",
 "exampleTranslation": "Vire à esquerda aqui.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "↩️"
 },
 {
 "slug": "check",
@@ -1147,7 +1260,8 @@
 "example": "Check your email.",
 "exampleTranslation": "Confira seu e-mail.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✅"
 },
 {
 "slug": "fill",
@@ -1157,7 +1271,8 @@
 "example": "Fill the glass with water.",
 "exampleTranslation": "Encha o copo de água.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🫗"
 },
 {
 "slug": "hide",
@@ -1167,7 +1282,8 @@
 "example": "The kids are hiding.",
 "exampleTranslation": "As crianças estão se escondendo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙈"
 },
 {
 "slug": "win",
@@ -1177,7 +1293,8 @@
 "example": "She won a prize at school.",
 "exampleTranslation": "Ela ganhou um prêmio na escola.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏆"
 },
 {
 "slug": "spend-time",
@@ -1187,7 +1304,8 @@
 "example": "I love to spend time with my family.",
 "exampleTranslation": "Eu adoro passar tempo com a minha família.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⏳"
 },
 {
 "slug": "save-a-life",
@@ -1197,7 +1315,8 @@
 "example": "The doctor saved his life.",
 "exampleTranslation": "O médico salvou a vida dele.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚑"
 },
 {
 "slug": "kill-time",
@@ -1207,7 +1326,8 @@
 "example": "I read to kill time.",
 "exampleTranslation": "Eu leio para matar o tempo.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "⏳"
 },
 {
 "slug": "imagine",
@@ -1217,6 +1337,7 @@
 "example": "Imagine a world without war.",
 "exampleTranslation": "Imagine um mundo sem guerra.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌈"
 }
 ]

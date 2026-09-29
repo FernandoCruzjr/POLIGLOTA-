@@ -7,7 +7,8 @@
 "example": "I work from Monday to Friday.",
 "exampleTranslation": "Eu trabalho de segunda a sexta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💼"
 },
 {
 "slug": "job",
@@ -17,7 +18,8 @@
 "example": "She has a new job.",
 "exampleTranslation": "Ela tem um emprego novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💼"
 },
 {
 "slug": "office",
@@ -27,7 +29,8 @@
 "example": "I'm at the office.",
 "exampleTranslation": "Estou no escritório.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏢"
 },
 {
 "slug": "company",
@@ -37,7 +40,8 @@
 "example": "I work for a big company.",
 "exampleTranslation": "Eu trabalho numa empresa grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏭"
 },
 {
 "slug": "boss",
@@ -47,7 +51,8 @@
 "example": "My boss is very fair.",
 "exampleTranslation": "Meu chefe é muito justo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍💼"
 },
 {
 "slug": "manager",
@@ -57,7 +62,8 @@
 "example": "I want to talk to the manager.",
 "exampleTranslation": "Eu quero falar com o gerente.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👔"
 },
 {
 "slug": "coworker",
@@ -67,7 +73,8 @@
 "example": "My coworkers are great.",
 "exampleTranslation": "Meus colegas de trabalho são ótimos.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍🤝‍🧑"
 },
 {
 "slug": "employee",
@@ -87,7 +94,8 @@
 "example": "Our team works well together.",
 "exampleTranslation": "Nossa equipe trabalha bem junta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👥"
 },
 {
 "slug": "meeting",
@@ -97,7 +105,8 @@
 "example": "I have a meeting at ten.",
 "exampleTranslation": "Eu tenho uma reunião às dez.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗣️"
 },
 {
 "slug": "schedule-a-meeting",
@@ -117,7 +126,8 @@
 "example": "We are starting a new project.",
 "exampleTranslation": "Estamos começando um projeto novo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📁"
 },
 {
 "slug": "task",
@@ -127,7 +137,8 @@
 "example": "I have many tasks today.",
 "exampleTranslation": "Eu tenho muitas tarefas hoje.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✅"
 },
 {
 "slug": "deadline",
@@ -137,7 +148,8 @@
 "example": "The deadline is tomorrow.",
 "exampleTranslation": "O prazo é amanhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⏰"
 },
 {
 "slug": "report",
@@ -147,7 +159,8 @@
 "example": "I need to finish this report.",
 "exampleTranslation": "Eu preciso terminar este relatório.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📊"
 },
 {
 "slug": "email",
@@ -157,7 +170,8 @@
 "example": "I'll send you an email.",
 "exampleTranslation": "Eu vou te mandar um e-mail.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📧"
 },
 {
 "slug": "salary",
@@ -167,7 +181,8 @@
 "example": "The salary is good.",
 "exampleTranslation": "O salário é bom.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💰"
 },
 {
 "slug": "raise",
@@ -177,7 +192,8 @@
 "example": "I asked for a raise in salary.",
 "exampleTranslation": "Eu pedi um aumento de salário.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "📈"
 },
 {
 "slug": "interview",
@@ -187,7 +203,8 @@
 "example": "I have a job interview tomorrow.",
 "exampleTranslation": "Eu tenho uma entrevista de emprego amanhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "resume",
@@ -197,7 +214,8 @@
 "example": "Send us your resume.",
 "exampleTranslation": "Envie-nos seu currículo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📄"
 },
 {
 "slug": "hire",
@@ -207,7 +225,8 @@
 "example": "They hired five new people.",
 "exampleTranslation": "Eles contrataram cinco pessoas novas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🤝"
 },
 {
 "slug": "fire",
@@ -217,7 +236,8 @@
 "example": "He was fired last week.",
 "exampleTranslation": "Ele foi demitido semana passada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚪"
 },
 {
 "slug": "quit",
@@ -237,7 +257,8 @@
 "example": "My father retired last year.",
 "exampleTranslation": "Meu pai se aposentou ano passado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏖️"
 },
 {
 "slug": "full-time",
@@ -267,7 +288,8 @@
 "example": "I work the night shift.",
 "exampleTranslation": "Eu trabalho no turno da noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕘"
 },
 {
 "slug": "overtime",
@@ -277,7 +299,8 @@
 "example": "I worked overtime yesterday.",
 "exampleTranslation": "Eu fiz hora extra ontem.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "⏱️"
 },
 {
 "slug": "break",
@@ -287,7 +310,8 @@
 "example": "Let's take a break.",
 "exampleTranslation": "Vamos fazer uma pausa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☕"
 },
 {
 "slug": "lunch-break",
@@ -297,7 +321,8 @@
 "example": "My lunch break is at noon.",
 "exampleTranslation": "Meu horário de almoço é ao meio-dia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥪"
 },
 {
 "slug": "day-off",
@@ -307,7 +332,8 @@
 "example": "Tomorrow is my day off.",
 "exampleTranslation": "Amanhã é meu dia de folga.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛋️"
 },
 {
 "slug": "busy",
@@ -317,7 +343,8 @@
 "example": "I'm very busy today.",
 "exampleTranslation": "Estou muito ocupado hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏃"
 },
 {
 "slug": "client",
@@ -327,7 +354,8 @@
 "example": "I'm meeting a client at three.",
 "exampleTranslation": "Vou encontrar um cliente às três.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙋"
 },
 {
 "slug": "contract",
@@ -337,7 +365,8 @@
 "example": "Please sign the contract.",
 "exampleTranslation": "Por favor, assine o contrato.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📝"
 },
 {
 "slug": "sign",
@@ -347,7 +376,8 @@
 "example": "Sign here, please.",
 "exampleTranslation": "Assine aqui, por favor.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "✍️"
 },
 {
 "slug": "business",
@@ -357,7 +387,8 @@
 "example": "He has his own business.",
 "exampleTranslation": "Ele tem o próprio negócio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏪"
 },
 {
 "slug": "career",
@@ -367,7 +398,8 @@
 "example": "She has a great career.",
 "exampleTranslation": "Ela tem uma ótima carreira.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪜"
 },
 {
 "slug": "experience",
@@ -387,7 +419,8 @@
 "example": "Communication is an important skill.",
 "exampleTranslation": "Comunicação é uma habilidade importante.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🛠️"
 },
 {
 "slug": "goal",
@@ -397,7 +430,8 @@
 "example": "Our goal is to sell more.",
 "exampleTranslation": "Nossa meta é vender mais.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎯"
 },
 {
 "slug": "work-from-home",
@@ -407,7 +441,8 @@
 "example": "I work from home on Fridays.",
 "exampleTranslation": "Eu trabalho de casa às sextas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏠"
 },
 {
 "slug": "coffee-break",
@@ -417,7 +452,8 @@
 "example": "Let's have a coffee break.",
 "exampleTranslation": "Vamos fazer uma pausa para o café.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☕"
 },
 {
 "slug": "presentation",
@@ -427,7 +463,8 @@
 "example": "My presentation went well.",
 "exampleTranslation": "Minha apresentação foi bem.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📽️"
 },
 {
 "slug": "colleague",
@@ -447,7 +484,8 @@
 "example": "She got a promotion.",
 "exampleTranslation": "Ela foi promovida.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "⬆️"
 },
 {
 "slug": "earn",
@@ -457,7 +495,8 @@
 "example": "How much do you earn?",
 "exampleTranslation": "Quanto você ganha?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💵"
 },
 {
 "slug": "paycheck",
@@ -477,7 +516,8 @@
 "example": "The printer isn't working.",
 "exampleTranslation": "A impressora não está funcionando.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🖨️"
 },
 {
 "slug": "document",
@@ -487,7 +527,8 @@
 "example": "Please read this document.",
 "exampleTranslation": "Por favor, leia este documento.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📄"
 },
 {
 "slug": "call",
@@ -497,7 +538,8 @@
 "example": "I have to make a call.",
 "exampleTranslation": "Eu tenho que fazer uma ligação.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📞"
 },
 {
 "slug": "unemployed",
@@ -527,7 +569,8 @@
 "example": "Safety in the workplace is important.",
 "exampleTranslation": "A segurança no local de trabalho é importante.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🏢"
 },
 {
 "slug": "hard-working",

@@ -7,7 +7,8 @@
 "example": "My brother is an engineer.",
 "exampleTranslation": "Meu irmão é engenheiro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👷"
 },
 {
 "slug": "lawyer",
@@ -17,7 +18,8 @@
 "example": "I need to talk to a lawyer.",
 "exampleTranslation": "Eu preciso falar com um advogado.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⚖️"
 },
 {
 "slug": "judge",
@@ -27,7 +29,8 @@
 "example": "The judge made a decision.",
 "exampleTranslation": "O juiz tomou uma decisão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👨‍⚖️"
 },
 {
 "slug": "police-officer",
@@ -37,7 +40,8 @@
 "example": "The police officer helped us.",
 "exampleTranslation": "O policial nos ajudou.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👮"
 },
 {
 "slug": "firefighter",
@@ -47,7 +51,8 @@
 "example": "Firefighters are very brave.",
 "exampleTranslation": "Os bombeiros são muito corajosos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🚒"
 },
 {
 "slug": "soldier",
@@ -57,7 +62,8 @@
 "example": "My grandfather was a soldier.",
 "exampleTranslation": "Meu avô era soldado.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💂"
 },
 {
 "slug": "sailor",
@@ -67,7 +73,8 @@
 "example": "The sailor works on a ship.",
 "exampleTranslation": "O marinheiro trabalha num navio.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚓"
 },
 {
 "slug": "officer",
@@ -77,7 +84,8 @@
 "example": "He is an officer in the Navy.",
 "exampleTranslation": "Ele é oficial da Marinha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎖️"
 },
 {
 "slug": "farmer",
@@ -87,7 +95,8 @@
 "example": "The farmer grows vegetables.",
 "exampleTranslation": "O agricultor planta legumes.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🌾"
 },
 {
 "slug": "mechanic",
@@ -97,7 +106,8 @@
 "example": "The mechanic fixed my car.",
 "exampleTranslation": "O mecânico consertou meu carro.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🔧"
 },
 {
 "slug": "electrician",
@@ -107,7 +117,8 @@
 "example": "Call an electrician.",
 "exampleTranslation": "Chame um eletricista.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚡"
 },
 {
 "slug": "plumber",
@@ -117,7 +128,8 @@
 "example": "The plumber is coming tomorrow.",
 "exampleTranslation": "O encanador vem amanhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔧"
 },
 {
 "slug": "carpenter",
@@ -127,7 +139,8 @@
 "example": "The carpenter made this table.",
 "exampleTranslation": "O marceneiro fez esta mesa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🪚"
 },
 {
 "slug": "kitchen-assistant",
@@ -137,7 +150,8 @@
 "example": "He works as a kitchen assistant.",
 "exampleTranslation": "Ele trabalha como ajudante de cozinha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍🍳"
 },
 {
 "slug": "baker",
@@ -147,7 +161,8 @@
 "example": "The baker starts work at 4 a.m.",
 "exampleTranslation": "O padeiro começa às 4 da manhã.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥖"
 },
 {
 "slug": "butcher",
@@ -157,7 +172,8 @@
 "example": "Buy meat at the butcher.",
 "exampleTranslation": "Compre carne no açougue.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥩"
 },
 {
 "slug": "hairdresser",
@@ -167,7 +183,8 @@
 "example": "My hairdresser is great.",
 "exampleTranslation": "Minha cabeleireira é ótima.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💇"
 },
 {
 "slug": "barber",
@@ -177,7 +194,8 @@
 "example": "I go to the barber every month.",
 "exampleTranslation": "Eu vou ao barbeiro todo mês.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💈"
 },
 {
 "slug": "architect",
@@ -187,7 +205,8 @@
 "example": "The architect designed our house.",
 "exampleTranslation": "O arquiteto projetou nossa casa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📐"
 },
 {
 "slug": "accountant",
@@ -197,7 +216,8 @@
 "example": "My accountant does my taxes.",
 "exampleTranslation": "Meu contador faz meu imposto de renda.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧮"
 },
 {
 "slug": "secretary",
@@ -207,7 +227,8 @@
 "example": "Talk to the secretary.",
 "exampleTranslation": "Fale com a secretária.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🗂️"
 },
 {
 "slug": "dentists-assistant",
@@ -227,7 +248,8 @@
 "example": "The salesman was very helpful.",
 "exampleTranslation": "O vendedor foi muito prestativo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍💼"
 },
 {
 "slug": "businessman",
@@ -237,7 +259,8 @@
 "example": "He is a successful businessman.",
 "exampleTranslation": "Ele é um empresário de sucesso.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👔"
 },
 {
 "slug": "journalist",
@@ -247,7 +270,8 @@
 "example": "The journalist wrote about the city.",
 "exampleTranslation": "O jornalista escreveu sobre a cidade.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📰"
 },
 {
 "slug": "writer",
@@ -257,7 +281,8 @@
 "example": "She wants to be a writer.",
 "exampleTranslation": "Ela quer ser escritora.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "✍️"
 },
 {
 "slug": "artist",
@@ -267,7 +292,8 @@
 "example": "My daughter wants to be an artist.",
 "exampleTranslation": "Minha filha quer ser artista.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🧑‍🎨"
 },
 {
 "slug": "musician",
@@ -277,7 +303,8 @@
 "example": "He is a talented musician.",
 "exampleTranslation": "Ele é um músico talentoso.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎸"
 },
 {
 "slug": "singer",
@@ -287,7 +314,8 @@
 "example": "She is a famous singer.",
 "exampleTranslation": "Ela é uma cantora famosa.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎤"
 },
 {
 "slug": "actor",
@@ -297,7 +325,8 @@
 "example": "The actor is from Brazil.",
 "exampleTranslation": "O ator é do Brasil.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎭"
 },
 {
 "slug": "actress",
@@ -307,7 +336,8 @@
 "example": "She is a great actress.",
 "exampleTranslation": "Ela é uma ótima atriz.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🎭"
 },
 {
 "slug": "photographer",
@@ -317,7 +347,8 @@
 "example": "We hired a photographer for the wedding.",
 "exampleTranslation": "Contratamos um fotógrafo para o casamento.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📷"
 },
 {
 "slug": "designer",
@@ -327,7 +358,8 @@
 "example": "She is a graphic designer.",
 "exampleTranslation": "Ela é designer gráfica.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎨"
 },
 {
 "slug": "programmer",
@@ -337,7 +369,8 @@
 "example": "He works as a programmer.",
 "exampleTranslation": "Ele trabalha como programador.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍💻"
 },
 {
 "slug": "scientist",
@@ -347,7 +380,8 @@
 "example": "The scientist works in a lab.",
 "exampleTranslation": "O cientista trabalha num laboratório.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍🔬"
 },
 {
 "slug": "pharmacist",
@@ -357,7 +391,8 @@
 "example": "Ask the pharmacist.",
 "exampleTranslation": "Pergunte ao farmacêutico.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💊"
 },
 {
 "slug": "veterinarian",
@@ -367,7 +402,8 @@
 "example": "My cousin is a veterinarian.",
 "exampleTranslation": "Minha prima é veterinária.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🐶"
 },
 {
 "slug": "psychologist",
@@ -377,7 +413,8 @@
 "example": "She is a child psychologist.",
 "exampleTranslation": "Ela é psicóloga infantil.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧠"
 },
 {
 "slug": "bus-driver",
@@ -387,7 +424,8 @@
 "example": "He works as a bus driver.",
 "exampleTranslation": "Ele trabalha como motorista de ônibus.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚌"
 },
 {
 "slug": "mail-carrier",
@@ -397,7 +435,8 @@
 "example": "The mail carrier comes at ten.",
 "exampleTranslation": "O carteiro passa às dez.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📬"
 },
 {
 "slug": "cleaner",
@@ -407,7 +446,8 @@
 "example": "The cleaner comes on Fridays.",
 "exampleTranslation": "A faxineira vem às sextas.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧹"
 },
 {
 "slug": "babysitter",
@@ -417,7 +457,8 @@
 "example": "We need a babysitter tonight.",
 "exampleTranslation": "Precisamos de uma babá hoje à noite.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍼"
 },
 {
 "slug": "nanny",
@@ -427,7 +468,8 @@
 "example": "The nanny takes care of the baby.",
 "exampleTranslation": "A babá cuida do bebê.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍼"
 },
 {
 "slug": "security-guard",
@@ -437,7 +479,8 @@
 "example": "The security guard is at the door.",
 "exampleTranslation": "O segurança está na porta.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💂"
 },
 {
 "slug": "housewife",
@@ -447,7 +490,8 @@
 "example": "My grandmother was a housewife.",
 "exampleTranslation": "Minha avó era dona de casa.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏠"
 },
 {
 "slug": "volunteer",
@@ -457,7 +501,8 @@
 "example": "She works as a volunteer.",
 "exampleTranslation": "Ela trabalha como voluntária.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🙋"
 },
 {
 "slug": "athlete",
@@ -467,7 +512,8 @@
 "example": "He is a professional athlete.",
 "exampleTranslation": "Ele é atleta profissional.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🏅"
 },
 {
 "slug": "coach",
@@ -477,7 +523,8 @@
 "example": "The coach is proud of the team.",
 "exampleTranslation": "O treinador tem orgulho do time.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📣"
 },
 {
 "slug": "tour-guide",
@@ -487,7 +534,8 @@
 "example": "Our tour guide was excellent.",
 "exampleTranslation": "Nosso guia de turismo foi excelente.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚩"
 },
 {
 "slug": "profession",
@@ -527,7 +575,8 @@
 "example": "She is an intern at the bank.",
 "exampleTranslation": "Ela é estagiária no banco.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧑‍🎓"
 },
 {
 "slug": "gardener",
@@ -537,7 +586,8 @@
 "example": "The gardener cuts the grass.",
 "exampleTranslation": "O jardineiro corta a grama.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧑‍🌾"
 },
 {
 "slug": "construction-worker",
@@ -547,6 +597,7 @@
 "example": "The construction workers start early.",
 "exampleTranslation": "Os pedreiros começam cedo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👷"
 }
 ]

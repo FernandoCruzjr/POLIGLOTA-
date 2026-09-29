@@ -2,14 +2,17 @@ import * as auth from './auth.js';
 import * as store from './store.js';
 import * as content from './content.js';
 import { toast } from './ui.js';
-import { APP_NAME } from './config.js';
+import { APP_NAME, GOOGLE_LOGIN_ENABLED } from './config.js';
 import * as home from './views/home.js';
 import * as learn from './views/learn.js';
 import * as lesson from './views/lesson.js';
-import * as soon from './views/soon.js';
 import * as vocabView from './views/vocab.js';
 import * as vocab from './vocab.js';
 import * as profile from './views/profile.js';
+import * as quiz from './views/quiz.js';
+import * as play from './views/play.js';
+import * as ranking from './views/ranking.js';
+import * as room from './views/room.js';
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -20,7 +23,12 @@ const ROUTES = [
   { re: /^#\/vocabulario$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: () => ({ mode: 'index' }) },
   { re: /^#\/vocabulario\/([\w-]+)$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: (m) => ({ mode: 'category', cat: m[1] }) },
   { re: /^#\/vocabulario\/([\w-]+)\/estudar(?:\?\d*)?$/, nav: 'vocabulario', title: 'Estudar palavras', view: vocabView, focusless: true, params: (m) => ({ mode: 'study', cat: m[1] }) },
-  { re: /^#\/revisao$/, nav: 'revisao', title: 'Revisão', view: soon, params: () => ({ screen: 'revisao' }) },
+  { re: /^#\/revisao(?:\?\d*)?$/, nav: 'revisao', title: 'Revisão', view: quiz, focusless: true, params: () => ({ mode: 'review' }) },
+  { re: /^#\/quiz\/([\w-]+)(?:\?\d*)?$/, nav: 'jogar', title: 'Quiz', view: quiz, focusless: true, params: (m) => ({ mode: 'category', cat: m[1] }) },
+  { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },
+  { re: /^#\/ranking$/, nav: 'ranking', title: 'Ranking', view: ranking, noRefresh: true },
+  { re: /^#\/sala$/, nav: 'jogar', title: 'Sala de quiz', view: room, noRefresh: true, params: () => ({}) },
+  { re: /^#\/sala\/([A-Z0-9]{4,6})$/, nav: 'jogar', title: 'Sala de quiz', view: room, focusless: true, params: (m) => ({ code: m[1] }) },
   { re: /^#\/perfil$/, nav: 'perfil', title: 'Perfil', view: profile },
 ];
 
@@ -89,12 +97,6 @@ function showAuth(panel = 'login') {
 
 function showPanel(name) {
   document.querySelectorAll('[data-panel]').forEach((el) => { el.hidden = el.dataset.panel !== name; });
-  document.querySelectorAll('[data-tab]').forEach((t) => {
-    const active = t.dataset.tab === name;
-    t.setAttribute('aria-selected', String(active));
-    t.tabIndex = active ? 0 : -1;
-  });
-  $('.auth-tabs').hidden = !(name === 'login' || name === 'signup');
   setAuthMessage('');
 }
 
@@ -113,7 +115,18 @@ async function withBusy(form, fn) {
 }
 
 function wireAuthForms() {
-  document.querySelectorAll('[data-tab]').forEach((t) => t.addEventListener('click', () => showPanel(t.dataset.tab)));
+  document.querySelectorAll('[data-toggle-pass]').forEach((b) => b.addEventListener('click', () => {
+    const input = document.getElementById(b.dataset.togglePass);
+    const show = input.type === 'password';
+    input.type = show ? 'text' : 'password';
+    b.setAttribute('aria-label', show ? 'Ocultar senha' : 'Mostrar senha');
+  }));
+  if (GOOGLE_LOGIN_ENABLED) {
+    document.querySelectorAll('[data-google], [data-google-block]').forEach((el) => { el.hidden = false; });
+    $('[data-google]').addEventListener('click', async () => {
+      try { await auth.signInWithGoogle(); } catch (err) { setAuthMessage(auth.translateError(err), 'error'); }
+    });
+  }
   document.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => showPanel(b.dataset.go)));
 
   $('#form-login').addEventListener('submit', (e) => {
@@ -121,7 +134,7 @@ function wireAuthForms() {
     const f = e.target;
     withBusy(f, async () => {
       setAuthMessage('Entrando…');
-      await auth.signIn(f.email.value.trim(), f.password.value);
+      await auth.signIn(f.email.value.trim(), f.password.value, f.remember.checked);
     });
   });
 
@@ -173,7 +186,7 @@ async function enterApp(u) {
   if (switching) {
     await store.pull();
     const r = currentRoute();
-    if (r && r.route.view !== lesson && !r.route.focusless) renderRoute();
+    if (r && r.route.view !== lesson && !r.route.focusless && !r.route.noRefresh) renderRoute();
   }
 }
 
@@ -187,7 +200,6 @@ function leaveApp() {
 }
 
 async function start() {
-  $('#app-name').textContent = APP_NAME;
   wireAuthForms();
 
   try {
@@ -198,6 +210,7 @@ async function start() {
 
   try {
     auth.sb();
+    await auth.applyRememberChoice();
   } catch (e) {
     showAuth('login');
     setAuthMessage(auth.translateError(e), 'error');

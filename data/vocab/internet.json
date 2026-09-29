@@ -7,7 +7,8 @@
 "example": "The internet is slow today.",
 "exampleTranslation": "A internet está lenta hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌐"
 },
 {
 "slug": "online",
@@ -17,7 +18,8 @@
 "example": "Are you online?",
 "exampleTranslation": "Você está online?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🟢"
 },
 {
 "slug": "offline",
@@ -27,7 +29,8 @@
 "example": "The app works offline.",
 "exampleTranslation": "O aplicativo funciona sem internet.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔴"
 },
 {
 "slug": "website",
@@ -37,7 +40,8 @@
 "example": "Visit our website.",
 "exampleTranslation": "Visite o nosso site.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌐"
 },
 {
 "slug": "link",
@@ -47,7 +51,8 @@
 "example": "Send me the link.",
 "exampleTranslation": "Me manda o link.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔗"
 },
 {
 "slug": "password",
@@ -57,7 +62,8 @@
 "example": "I forgot my password.",
 "exampleTranslation": "Eu esqueci minha senha.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔑"
 },
 {
 "slug": "username",
@@ -67,7 +73,8 @@
 "example": "Enter your username.",
 "exampleTranslation": "Digite seu nome de usuário.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👤"
 },
 {
 "slug": "log-in",
@@ -77,7 +84,8 @@
 "example": "Log in with your email.",
 "exampleTranslation": "Entre com o seu e-mail.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔓"
 },
 {
 "slug": "log-out",
@@ -87,7 +95,8 @@
 "example": "Don't forget to log out.",
 "exampleTranslation": "Não esqueça de sair da conta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🚪"
 },
 {
 "slug": "sign-up",
@@ -97,7 +106,8 @@
 "example": "Sign up for free.",
 "exampleTranslation": "Cadastre-se de graça.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "account",
@@ -107,7 +117,8 @@
 "example": "Create an account.",
 "exampleTranslation": "Crie uma conta.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👤"
 },
 {
 "slug": "download",
@@ -117,7 +128,8 @@
 "example": "Download the file.",
 "exampleTranslation": "Baixe o arquivo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⬇️"
 },
 {
 "slug": "upload",
@@ -127,7 +139,8 @@
 "example": "Upload your photo here.",
 "exampleTranslation": "Envie sua foto aqui.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⬆️"
 },
 {
 "slug": "search",
@@ -137,7 +150,8 @@
 "example": "Search for it on the internet.",
 "exampleTranslation": "Pesquise na internet.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔍"
 },
 {
 "slug": "social-media",
@@ -147,7 +161,8 @@
 "example": "She spends hours on social media.",
 "exampleTranslation": "Ela passa horas nas redes sociais.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📱"
 },
 {
 "slug": "post",
@@ -157,7 +172,8 @@
 "example": "I liked your post.",
 "exampleTranslation": "Eu curti sua postagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📝"
 },
 {
 "slug": "share",
@@ -167,7 +183,8 @@
 "example": "Share this post with your friends.",
 "exampleTranslation": "Compartilhe esta postagem com seus amigos.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🔁"
 },
 {
 "slug": "like",
@@ -177,7 +194,8 @@
 "example": "Like and share!",
 "exampleTranslation": "Curta e compartilhe!",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "👍"
 },
 {
 "slug": "comment",
@@ -187,7 +205,8 @@
 "example": "Leave a comment below.",
 "exampleTranslation": "Deixe um comentário abaixo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "follow",
@@ -197,7 +216,8 @@
 "example": "Follow us on Instagram.",
 "exampleTranslation": "Siga-nos no Instagram.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "➕"
 },
 {
 "slug": "followers",
@@ -207,7 +227,8 @@
 "example": "She has many followers.",
 "exampleTranslation": "Ela tem muitos seguidores.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "👥"
 },
 {
 "slug": "message",
@@ -217,7 +238,8 @@
 "example": "Send me a message.",
 "exampleTranslation": "Me manda uma mensagem.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💬"
 },
 {
 "slug": "text",
@@ -227,7 +249,8 @@
 "example": "Text me when you arrive.",
 "exampleTranslation": "Me manda mensagem quando chegar.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📩"
 },
 {
 "slug": "video-call",
@@ -237,7 +260,8 @@
 "example": "Let's make a video call.",
 "exampleTranslation": "Vamos fazer uma chamada de vídeo.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📹"
 },
 {
 "slug": "stream",
@@ -247,7 +271,8 @@
 "example": "We streamed the game online.",
 "exampleTranslation": "Assistimos ao jogo pela internet.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📡"
 },
 {
 "slug": "connection-speed",
@@ -257,7 +282,8 @@
 "example": "The connection speed is great.",
 "exampleTranslation": "A velocidade da conexão é ótima.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚀"
 },
 {
 "slug": "wi-fi",
@@ -267,7 +293,8 @@
 "example": "Is there Wi-Fi here?",
 "exampleTranslation": "Tem Wi-Fi aqui?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📶"
 },
 {
 "slug": "network",
@@ -277,7 +304,8 @@
 "example": "Connect to this network.",
 "exampleTranslation": "Conecte-se a esta rede.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕸️"
 },
 {
 "slug": "browser",
@@ -287,7 +315,8 @@
 "example": "Open the browser.",
 "exampleTranslation": "Abra o navegador.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🧭"
 },
 {
 "slug": "email-address",
@@ -297,7 +326,8 @@
 "example": "What's your email address?",
 "exampleTranslation": "Qual é o seu e-mail?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "📧"
 },
 {
 "slug": "attachment",
@@ -307,7 +337,8 @@
 "example": "Open the attachment.",
 "exampleTranslation": "Abra o anexo.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📎"
 },
 {
 "slug": "spam",
@@ -317,7 +348,8 @@
 "example": "Check your spam folder.",
 "exampleTranslation": "Confira sua caixa de spam.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🚮"
 },
 {
 "slug": "hacker",
@@ -327,7 +359,8 @@
 "example": "A hacker stole my password.",
 "exampleTranslation": "Um hacker roubou minha senha.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🕵️"
 },
 {
 "slug": "virus",
@@ -337,7 +370,8 @@
 "example": "My computer has a virus.",
 "exampleTranslation": "Meu computador está com vírus.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🦠"
 },
 {
 "slug": "secure",
@@ -347,7 +381,8 @@
 "example": "Is this website secure?",
 "exampleTranslation": "Este site é seguro?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔒"
 },
 {
 "slug": "blog",
@@ -357,7 +392,8 @@
 "example": "She writes a travel blog.",
 "exampleTranslation": "Ela escreve um blog de viagens.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📰"
 },
 {
 "slug": "podcast",
@@ -367,7 +403,8 @@
 "example": "I listen to podcasts in English.",
 "exampleTranslation": "Eu escuto podcasts em inglês.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🎙️"
 },
 {
 "slug": "subscribe",
@@ -377,7 +414,8 @@
 "example": "Subscribe to our channel.",
 "exampleTranslation": "Inscreva-se no nosso canal.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🔔"
 },
 {
 "slug": "emoji",
@@ -387,7 +425,8 @@
 "example": "She always sends emojis.",
 "exampleTranslation": "Ela sempre manda emojis.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😀"
 },
 {
 "slug": "screenshot",
@@ -397,6 +436,7 @@
 "example": "Take a screenshot.",
 "exampleTranslation": "Tire um print da tela.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📸"
 }
 ]

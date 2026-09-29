@@ -7,7 +7,8 @@
 "example": "How is the weather today?",
 "exampleTranslation": "Como está o tempo hoje?",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌤️"
 },
 {
 "slug": "sun",
@@ -17,7 +18,8 @@
 "example": "The sun is very strong.",
 "exampleTranslation": "O sol está muito forte.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☀️"
 },
 {
 "slug": "sunny",
@@ -27,7 +29,8 @@
 "example": "It's sunny today.",
 "exampleTranslation": "Está ensolarado hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☀️"
 },
 {
 "slug": "rain",
@@ -37,7 +40,8 @@
 "example": "It's going to rain.",
 "exampleTranslation": "Vai chover.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌧️"
 },
 {
 "slug": "rainy",
@@ -47,7 +51,8 @@
 "example": "It was a rainy day.",
 "exampleTranslation": "Foi um dia chuvoso.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌧️"
 },
 {
 "slug": "cloud",
@@ -57,7 +62,8 @@
 "example": "Look at that big cloud.",
 "exampleTranslation": "Olha aquela nuvem grande.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☁️"
 },
 {
 "slug": "cloudy",
@@ -67,7 +73,8 @@
 "example": "It's cloudy this morning.",
 "exampleTranslation": "Está nublado hoje de manhã.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☁️"
 },
 {
 "slug": "wind",
@@ -77,7 +84,8 @@
 "example": "The wind is very strong.",
 "exampleTranslation": "O vento está muito forte.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌬️"
 },
 {
 "slug": "windy",
@@ -87,7 +95,8 @@
 "example": "It's windy at the beach.",
 "exampleTranslation": "Está ventando na praia.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌬️"
 },
 {
 "slug": "storm",
@@ -97,7 +106,8 @@
 "example": "A storm is coming.",
 "exampleTranslation": "Uma tempestade está chegando.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛈️"
 },
 {
 "slug": "thunder",
@@ -107,7 +117,8 @@
 "example": "The baby is afraid of thunder.",
 "exampleTranslation": "O bebê tem medo de trovão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌩️"
 },
 {
 "slug": "lightning",
@@ -117,7 +128,8 @@
 "example": "Lightning hit the tree.",
 "exampleTranslation": "Um raio atingiu a árvore.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "⚡"
 },
 {
 "slug": "snow",
@@ -127,7 +139,8 @@
 "example": "I have never seen snow.",
 "exampleTranslation": "Eu nunca vi neve.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "❄️"
 },
 {
 "slug": "fog",
@@ -137,7 +150,8 @@
 "example": "There's a lot of fog on the road.",
 "exampleTranslation": "Tem muita neblina na estrada.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌫️"
 },
 {
 "slug": "hot",
@@ -147,7 +161,8 @@
 "example": "It's very hot today.",
 "exampleTranslation": "Está muito calor hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🥵"
 },
 {
 "slug": "cool",
@@ -157,7 +172,8 @@
 "example": "The evenings are cool.",
 "exampleTranslation": "As noites estão fresquinhas.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "😎"
 },
 {
 "slug": "humid",
@@ -167,7 +183,8 @@
 "example": "Rio is very humid in summer.",
 "exampleTranslation": "O Rio é muito abafado no verão.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "💦"
 },
 {
 "slug": "dry",
@@ -177,7 +194,8 @@
 "example": "The air is very dry.",
 "exampleTranslation": "O ar está muito seco.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏜️"
 },
 {
 "slug": "wet",
@@ -187,7 +205,8 @@
 "example": "My shoes are wet.",
 "exampleTranslation": "Meus sapatos estão molhados.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "💧"
 },
 {
 "slug": "degrees",
@@ -197,7 +216,8 @@
 "example": "It's thirty degrees outside.",
 "exampleTranslation": "Está fazendo trinta graus lá fora.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌡️"
 },
 {
 "slug": "forecast",
@@ -207,7 +227,8 @@
 "example": "What's the forecast for tomorrow?",
 "exampleTranslation": "Qual é a previsão para amanhã?",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "📺"
 },
 {
 "slug": "umbrella",
@@ -217,7 +238,8 @@
 "example": "Take an umbrella.",
 "exampleTranslation": "Leve um guarda-chuva.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "☂️"
 },
 {
 "slug": "summer",
@@ -227,7 +249,8 @@
 "example": "Summer in Brazil is very hot.",
 "exampleTranslation": "O verão no Brasil é muito quente.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🏖️"
 },
 {
 "slug": "winter",
@@ -237,7 +260,8 @@
 "example": "Winter is short here.",
 "exampleTranslation": "O inverno é curto aqui.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "⛄"
 },
 {
 "slug": "spring",
@@ -247,7 +271,8 @@
 "example": "Flowers bloom in spring.",
 "exampleTranslation": "As flores desabrocham na primavera.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌸"
 },
 {
 "slug": "fall",
@@ -257,7 +282,8 @@
 "example": "The leaves fall in the fall.",
 "exampleTranslation": "As folhas caem no outono.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🍂"
 },
 {
 "slug": "autumn",
@@ -267,7 +293,8 @@
 "example": "Autumn is my favorite season.",
 "exampleTranslation": "O outono é a minha estação favorita.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🍁"
 },
 {
 "slug": "heat-wave",
@@ -277,7 +304,8 @@
 "example": "We are having a heat wave.",
 "exampleTranslation": "Estamos passando por uma onda de calor.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🔥"
 },
 {
 "slug": "freezing",
@@ -287,7 +315,8 @@
 "example": "It's freezing outside!",
 "exampleTranslation": "Está um frio de congelar lá fora!",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🥶"
 },
 {
 "slug": "drizzle",
@@ -297,7 +326,8 @@
 "example": "It's just a drizzle.",
 "exampleTranslation": "É só uma garoa.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🌦️"
 },
 {
 "slug": "flood",
@@ -307,7 +337,8 @@
 "example": "The rain caused a flood.",
 "exampleTranslation": "A chuva causou uma enchente.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌊"
 },
 {
 "slug": "hail",
@@ -317,7 +348,8 @@
 "example": "Hail damaged the cars.",
 "exampleTranslation": "O granizo danificou os carros.",
 "difficulty": 3,
-"level": "elementary"
+"level": "elementary",
+"emoji": "🧊"
 },
 {
 "slug": "sunrise",
@@ -327,7 +359,8 @@
 "example": "We watched the sunrise at the beach.",
 "exampleTranslation": "Vimos o nascer do sol na praia.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌅"
 },
 {
 "slug": "sunset",
@@ -337,7 +370,8 @@
 "example": "The sunset is beautiful today.",
 "exampleTranslation": "O pôr do sol está lindo hoje.",
 "difficulty": 1,
-"level": "beginner"
+"level": "beginner",
+"emoji": "🌇"
 },
 {
 "slug": "climate",
@@ -347,6 +381,7 @@
 "example": "The climate here is tropical.",
 "exampleTranslation": "O clima aqui é tropical.",
 "difficulty": 2,
-"level": "basic"
+"level": "basic",
+"emoji": "🌍"
 }
 ]
