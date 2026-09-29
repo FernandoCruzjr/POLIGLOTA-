@@ -1,0 +1,452 @@
+[
+{
+"slug": "sport",
+"word": "sport",
+"translation": "esporte",
+"pron": "SPÓRT",
+"example": "What sports do you play?",
+"exampleTranslation": "Que esportes você pratica?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soccer",
+"word": "soccer",
+"translation": "futebol",
+"pron": "SÓ-ker",
+"example": "Soccer is very popular in Brazil.",
+"exampleTranslation": "O futebol é muito popular no Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "football",
+"word": "football",
+"translation": "futebol americano (EUA); futebol (Reino Unido)",
+"pron": "FUT-ból",
+"example": "Do you watch American football?",
+"exampleTranslation": "Você assiste futebol americano?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "basketball",
+"word": "basketball",
+"translation": "basquete",
+"pron": "BÉS-ket-ból",
+"example": "He plays basketball at school.",
+"exampleTranslation": "Ele joga basquete na escola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "volleyball",
+"word": "volleyball",
+"translation": "vôlei",
+"pron": "VÓ-li-ból",
+"example": "Let's play volleyball on the beach.",
+"exampleTranslation": "Vamos jogar vôlei na praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tennis",
+"word": "tennis",
+"translation": "tênis (esporte)",
+"pron": "TÉ-nis",
+"example": "I play tennis on Saturdays.",
+"exampleTranslation": "Eu jogo tênis aos sábados.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "swimming",
+"word": "swimming",
+"translation": "natação",
+"pron": "SUI-min",
+"example": "Swimming is good exercise.",
+"exampleTranslation": "Natação é um bom exercício.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "swim",
+"word": "swim",
+"translation": "nadar",
+"pron": "SUIM",
+"example": "Can you swim?",
+"exampleTranslation": "Você sabe nadar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "run",
+"word": "run",
+"translation": "correr",
+"pron": "RÂN",
+"example": "I run every morning.",
+"exampleTranslation": "Eu corro toda manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "running",
+"word": "running",
+"translation": "corrida",
+"pron": "RÂ-nin",
+"example": "Running is my favorite sport.",
+"exampleTranslation": "Corrida é o meu esporte favorito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cycling",
+"word": "cycling",
+"translation": "ciclismo",
+"pron": "SAI-klin",
+"example": "Cycling is great for your legs.",
+"exampleTranslation": "Ciclismo é ótimo para as pernas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "surfing",
+"word": "surfing",
+"translation": "surfe",
+"pron": "SÂR-fin",
+"example": "Surfing is popular in Florianópolis.",
+"exampleTranslation": "O surfe é popular em Florianópolis.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "skateboard",
+"word": "skateboard",
+"translation": "skate",
+"pron": "SKEIT-bórd",
+"example": "My son got a skateboard.",
+"exampleTranslation": "Meu filho ganhou um skate.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "martial-arts",
+"word": "martial arts",
+"translation": "artes marciais",
+"pron": "MAR-shal arts",
+"example": "He practices martial arts.",
+"exampleTranslation": "Ele pratica artes marciais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "yoga",
+"word": "yoga",
+"translation": "ioga",
+"pron": "IÔU-ga",
+"example": "I do yoga to relax.",
+"exampleTranslation": "Eu faço ioga para relaxar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "play",
+"word": "play",
+"translation": "jogar; brincar",
+"pron": "PLEI",
+"example": "Let's play soccer!",
+"exampleTranslation": "Vamos jogar futebol!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "game",
+"word": "game",
+"translation": "jogo, partida",
+"pron": "GUEIM",
+"example": "The game starts at four.",
+"exampleTranslation": "O jogo começa às quatro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "match",
+"word": "match",
+"translation": "partida",
+"pron": "MÉTCH",
+"example": "It was a great match.",
+"exampleTranslation": "Foi uma ótima partida.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "team-sport",
+"word": "team sport",
+"translation": "esporte coletivo",
+"pron": "TIIM spórt",
+"example": "Soccer is a team sport.",
+"exampleTranslation": "Futebol é um esporte coletivo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "player",
+"word": "player",
+"translation": "jogador",
+"pron": "PLEI-er",
+"example": "He is the best player on the team.",
+"exampleTranslation": "Ele é o melhor jogador do time.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fan",
+"word": "fan",
+"translation": "torcedor, fã",
+"pron": "FÉN",
+"example": "I'm a big fan of this team.",
+"exampleTranslation": "Eu sou muito torcedor deste time.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ball",
+"word": "ball",
+"translation": "bola",
+"pron": "BÓL",
+"example": "Kick the ball!",
+"exampleTranslation": "Chuta a bola!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "goal",
+"word": "goal",
+"translation": "gol",
+"pron": "GÔUL",
+"example": "What a goal!",
+"exampleTranslation": "Que golaço!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "score",
+"word": "score",
+"translation": "placar; marcar (ponto)",
+"pron": "SKÓR",
+"example": "What's the score?",
+"exampleTranslation": "Qual é o placar?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "win",
+"word": "win",
+"translation": "ganhar, vencer",
+"pron": "UIN",
+"example": "We won the game!",
+"exampleTranslation": "Nós ganhamos o jogo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lose",
+"word": "lose",
+"translation": "perder",
+"pron": "LUUZ",
+"example": "Our team lost again.",
+"exampleTranslation": "Nosso time perdeu de novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tie",
+"word": "tie",
+"translation": "empate",
+"pron": "TAI",
+"example": "The game ended in a tie.",
+"exampleTranslation": "O jogo terminou empatado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "winner",
+"word": "winner",
+"translation": "vencedor",
+"pron": "UI-ner",
+"example": "And the winner is...",
+"exampleTranslation": "E o vencedor é...",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "champion",
+"word": "champion",
+"translation": "campeão",
+"pron": "TCHÉM-pi-on",
+"example": "Brazil is a five-time world champion.",
+"exampleTranslation": "O Brasil é pentacampeão mundial.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "championship",
+"word": "championship",
+"translation": "campeonato",
+"pron": "TCHÉM-pi-on-ship",
+"example": "We won the championship.",
+"exampleTranslation": "Nós ganhamos o campeonato.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "medal",
+"word": "medal",
+"translation": "medalha",
+"pron": "MÉ-dal",
+"example": "She won a gold medal.",
+"exampleTranslation": "Ela ganhou uma medalha de ouro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "olympics",
+"word": "Olympics",
+"translation": "Olimpíadas",
+"pron": "o-LIM-piks",
+"example": "The Olympics are every four years.",
+"exampleTranslation": "As Olimpíadas são a cada quatro anos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "world-cup",
+"word": "World Cup",
+"translation": "Copa do Mundo",
+"pron": "UÂRLD kâp",
+"example": "We watched the World Cup together.",
+"exampleTranslation": "Assistimos à Copa do Mundo juntos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soccer-field",
+"word": "soccer field",
+"translation": "campo de futebol",
+"pron": "SÓ-ker fiild",
+"example": "The kids play on the soccer field.",
+"exampleTranslation": "As crianças jogam no campo de futebol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "court",
+"word": "court",
+"translation": "quadra",
+"pron": "KÓRT",
+"example": "The tennis court is wet.",
+"exampleTranslation": "A quadra de tênis está molhada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "referee",
+"word": "referee",
+"translation": "juiz, árbitro",
+"pron": "ré-fe-RII",
+"example": "The referee gave a yellow card.",
+"exampleTranslation": "O juiz deu cartão amarelo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "kick",
+"word": "kick",
+"translation": "chutar",
+"pron": "KIK",
+"example": "Kick the ball to me.",
+"exampleTranslation": "Chuta a bola para mim.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "throw",
+"word": "throw",
+"translation": "arremessar, jogar",
+"pron": "THRÔU",
+"example": "Throw the ball!",
+"exampleTranslation": "Joga a bola!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "catch",
+"word": "catch",
+"translation": "pegar (no ar)",
+"pron": "KÉTCH",
+"example": "Catch!",
+"exampleTranslation": "Pega!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "train",
+"word": "train",
+"translation": "treinar",
+"pron": "TREIN",
+"example": "We train twice a week.",
+"exampleTranslation": "Nós treinamos duas vezes por semana.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "workout",
+"word": "workout",
+"translation": "treino",
+"pron": "UÂRK-aut",
+"example": "That was a hard workout.",
+"exampleTranslation": "Aquele foi um treino puxado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "in-shape",
+"word": "in shape",
+"translation": "em forma",
+"pron": "in SHEIP",
+"example": "I want to get in shape.",
+"exampleTranslation": "Eu quero entrar em forma.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "race",
+"word": "race",
+"translation": "corrida (competição)",
+"pron": "REIS",
+"example": "He won the race.",
+"exampleTranslation": "Ele ganhou a corrida.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cheer",
+"word": "cheer",
+"translation": "torcer, aplaudir",
+"pron": "TCHÍR",
+"example": "We cheered for our team.",
+"exampleTranslation": "Nós torcemos pelo nosso time.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "warm-up",
+"word": "warm up",
+"translation": "aquecer (antes do exercício)",
+"pron": "uórm ÂP",
+"example": "Always warm up before running.",
+"exampleTranslation": "Sempre aqueça antes de correr.",
+"difficulty": 2,
+"level": "basic"
+}
+]

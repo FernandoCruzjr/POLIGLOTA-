@@ -5,7 +5,7 @@ export const SUPABASE_URL = 'https://doioejeyihuhfqhzdbbq.supabase.co';
 export const SUPABASE_ANON_KEY = 'sb_publishable_jERifRcO4VPPITWcT3rHzw_KBrY--dH';
 
 export const APP_NAME = 'Inglês em Família';
-export const APP_VERSION = '0.1.0 (Fase 1)';
+export const APP_VERSION = '0.2.0 (Fase 2)';
 
 export const XP_RULES = {
   lessonFirstTime: 20,

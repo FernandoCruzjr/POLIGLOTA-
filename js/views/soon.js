@@ -3,12 +3,6 @@ import { icon } from '../icons.js';
 // Telas que ganham conteúdo nas próximas fases. Mantidas na navegação desde
 // já para o aluno conhecer o caminho Aprender → Vocabulário → Revisar.
 const SCREENS = {
-  vocabulario: {
-    title: 'Vocabulário',
-    icon: 'vocab',
-    lead: 'Cerca de 2.000 palavras organizadas por situações reais: viagens, restaurante, hotel, trabalho, família e muito mais.',
-    points: ['Busca em inglês ou português', 'Progresso por categoria', 'Pronúncia, áudio e frase de exemplo em cada palavra'],
-  },
   revisao: {
     title: 'Revisão',
     icon: 'review',

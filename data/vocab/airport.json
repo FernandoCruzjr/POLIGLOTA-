@@ -1,0 +1,452 @@
+[
+{
+"slug": "airport",
+"word": "airport",
+"translation": "aeroporto",
+"pron": "ÉR-port",
+"example": "I am at the airport.",
+"exampleTranslation": "Eu estou no aeroporto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flight",
+"word": "flight",
+"translation": "voo",
+"pron": "FLAIT",
+"example": "My flight is at nine.",
+"exampleTranslation": "Meu voo é às nove.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "passport",
+"word": "passport",
+"translation": "passaporte",
+"pron": "PÉS-port",
+"example": "Here is my passport.",
+"exampleTranslation": "Aqui está o meu passaporte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boarding-pass",
+"word": "boarding pass",
+"translation": "cartão de embarque",
+"pron": "BÓR-din pés",
+"example": "Please show your boarding pass.",
+"exampleTranslation": "Por favor, mostre seu cartão de embarque.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "gate",
+"word": "gate",
+"translation": "portão de embarque",
+"pron": "GÊIT",
+"example": "Our flight leaves from gate 12.",
+"exampleTranslation": "Nosso voo sai do portão 12.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "check-in",
+"word": "check-in",
+"translation": "check-in",
+"pron": "TCHÉK-in",
+"example": "Check-in opens at six.",
+"exampleTranslation": "O check-in abre às seis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "luggage",
+"word": "luggage",
+"translation": "bagagem",
+"pron": "LÂ-guidj",
+"example": "Where can I pick up my luggage?",
+"exampleTranslation": "Onde posso pegar minha bagagem?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "baggage-claim",
+"word": "baggage claim",
+"translation": "esteira de bagagens",
+"pron": "BÉ-guidj kleim",
+"example": "Let's go to baggage claim.",
+"exampleTranslation": "Vamos para a esteira de bagagens.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "carry-on",
+"word": "carry-on",
+"translation": "bagagem de mão",
+"pron": "KÉ-ri on",
+"example": "This bag is my carry-on.",
+"exampleTranslation": "Esta bolsa é minha bagagem de mão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "terminal",
+"word": "terminal",
+"translation": "terminal",
+"pron": "TÂR-mi-nal",
+"example": "Which terminal do you need?",
+"exampleTranslation": "De qual terminal você precisa?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "departure",
+"word": "departure",
+"translation": "partida, embarque",
+"pron": "di-PAR-tcher",
+"example": "Check the departure board.",
+"exampleTranslation": "Confira o painel de partidas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "arrival",
+"word": "arrival",
+"translation": "chegada, desembarque",
+"pron": "a-RAI-val",
+"example": "I'll wait for you at arrivals.",
+"exampleTranslation": "Eu espero você no desembarque.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "delay",
+"word": "delay",
+"translation": "atraso",
+"pron": "di-LEI",
+"example": "There is a two-hour delay.",
+"exampleTranslation": "Há um atraso de duas horas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "delayed",
+"word": "delayed",
+"translation": "atrasado",
+"pron": "di-LEID",
+"example": "Our flight is delayed.",
+"exampleTranslation": "Nosso voo está atrasado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "canceled",
+"word": "canceled",
+"translation": "cancelado",
+"pron": "KÉN-seld",
+"example": "The flight was canceled.",
+"exampleTranslation": "O voo foi cancelado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "on-time",
+"word": "on time",
+"translation": "no horário",
+"pron": "on TAIM",
+"example": "Is the flight on time?",
+"exampleTranslation": "O voo está no horário?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "customs",
+"word": "customs",
+"translation": "alfândega",
+"pron": "KÂS-tâmz",
+"example": "We went through customs quickly.",
+"exampleTranslation": "Passamos rápido pela alfândega.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "immigration",
+"word": "immigration",
+"translation": "imigração",
+"pron": "i-mi-GRÊI-shân",
+"example": "The immigration line is long.",
+"exampleTranslation": "A fila da imigração está longa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "security-check",
+"word": "security check",
+"translation": "inspeção de segurança",
+"pron": "si-KIÚ-ri-ti tchék",
+"example": "Take off your shoes at the security check.",
+"exampleTranslation": "Tire os sapatos na inspeção de segurança.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "connection",
+"word": "connection",
+"translation": "conexão",
+"pron": "ko-NÉK-shân",
+"example": "I have a connection in Miami.",
+"exampleTranslation": "Eu tenho uma conexão em Miami.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "layover",
+"word": "layover",
+"translation": "escala",
+"pron": "LEI-ou-ver",
+"example": "We have a three-hour layover.",
+"exampleTranslation": "Temos uma escala de três horas.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "airline",
+"word": "airline",
+"translation": "companhia aérea",
+"pron": "ÉR-lain",
+"example": "Which airline are you flying?",
+"exampleTranslation": "Por qual companhia aérea você vai voar?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "counter",
+"word": "counter",
+"translation": "balcão",
+"pron": "KAUN-ter",
+"example": "Go to the airline counter.",
+"exampleTranslation": "Vá ao balcão da companhia aérea.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "board",
+"word": "board",
+"translation": "embarcar",
+"pron": "BÓRD",
+"example": "We board at ten thirty.",
+"exampleTranslation": "Nós embarcamos às dez e meia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "boarding",
+"word": "boarding",
+"translation": "embarque",
+"pron": "BÓR-din",
+"example": "Boarding starts in ten minutes.",
+"exampleTranslation": "O embarque começa em dez minutos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "last-call",
+"word": "last call",
+"translation": "última chamada",
+"pron": "LÉST kól",
+"example": "This is the last call for flight 205.",
+"exampleTranslation": "Esta é a última chamada para o voo 205.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lost-and-found",
+"word": "lost and found",
+"translation": "achados e perdidos",
+"pron": "LÓST end FAUND",
+"example": "Ask at the lost and found.",
+"exampleTranslation": "Pergunte nos achados e perdidos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "trolley",
+"word": "trolley",
+"translation": "carrinho de bagagem",
+"pron": "TRÓ-li",
+"example": "Take a trolley for the bags.",
+"exampleTranslation": "Pegue um carrinho para as malas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "duty-free",
+"word": "duty-free",
+"translation": "free shop",
+"pron": "diu-ti FRII",
+"example": "Let's look at the duty-free shops.",
+"exampleTranslation": "Vamos olhar as lojas do free shop.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "domestic",
+"word": "domestic",
+"translation": "doméstico, nacional",
+"pron": "do-MÉS-tik",
+"example": "This is a domestic flight.",
+"exampleTranslation": "Este é um voo nacional.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "international",
+"word": "international",
+"translation": "internacional",
+"pron": "in-ter-NÉ-sho-nal",
+"example": "International flights leave from here.",
+"exampleTranslation": "Os voos internacionais saem daqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "passenger",
+"word": "passenger",
+"translation": "passageiro",
+"pron": "PÉ-sen-djer",
+"example": "All passengers must show ID.",
+"exampleTranslation": "Todos os passageiros devem mostrar documento.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "weight",
+"word": "weight",
+"translation": "peso",
+"pron": "UÊIT",
+"example": "What is the weight limit?",
+"exampleTranslation": "Qual é o limite de peso?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "overweight",
+"word": "overweight",
+"translation": "acima do peso",
+"pron": "ou-ver-UÊIT",
+"example": "My bag is overweight.",
+"exampleTranslation": "Minha mala está acima do peso.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "excess-baggage",
+"word": "excess baggage",
+"translation": "excesso de bagagem",
+"pron": "ék-SÉS BÉ-guidj",
+"example": "I paid for excess baggage.",
+"exampleTranslation": "Eu paguei por excesso de bagagem.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "e-ticket",
+"word": "e-ticket",
+"translation": "bilhete eletrônico",
+"pron": "Í-ti-ket",
+"example": "I have an e-ticket on my phone.",
+"exampleTranslation": "Eu tenho um bilhete eletrônico no celular.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "screen",
+"word": "screen",
+"translation": "tela, painel",
+"pron": "SKRIIN",
+"example": "Check the screen for your gate.",
+"exampleTranslation": "Confira o painel para ver o seu portão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "announcement",
+"word": "announcement",
+"translation": "anúncio, aviso",
+"pron": "a-NAUNS-ment",
+"example": "Listen to the announcement.",
+"exampleTranslation": "Escute o aviso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shuttle",
+"word": "shuttle",
+"translation": "ônibus de traslado",
+"pron": "SHÂ-tol",
+"example": "Take the shuttle to terminal 2.",
+"exampleTranslation": "Pegue o traslado para o terminal 2.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pick-up",
+"word": "pick up",
+"translation": "buscar (alguém)",
+"pron": "pik ÂP",
+"example": "My brother will pick me up.",
+"exampleTranslation": "Meu irmão vai me buscar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "drop-off",
+"word": "drop off",
+"translation": "deixar (alguém)",
+"pron": "dróp ÓF",
+"example": "Can you drop me off at the airport?",
+"exampleTranslation": "Você pode me deixar no aeroporto?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "id",
+"word": "ID",
+"translation": "documento de identidade",
+"pron": "ai-DII",
+"example": "Can I see your ID?",
+"exampleTranslation": "Posso ver seu documento?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "declare",
+"word": "declare",
+"translation": "declarar",
+"pron": "di-KLÉR",
+"example": "Do you have anything to declare?",
+"exampleTranslation": "Você tem algo a declarar?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "tag",
+"word": "tag",
+"translation": "etiqueta",
+"pron": "TÉG",
+"example": "Put a tag on your suitcase.",
+"exampleTranslation": "Coloque uma etiqueta na sua mala.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "information-desk",
+"word": "information desk",
+"translation": "balcão de informações",
+"pron": "in-for-MÊI-shân désk",
+"example": "Ask at the information desk.",
+"exampleTranslation": "Pergunte no balcão de informações.",
+"difficulty": 2,
+"level": "basic"
+}
+]

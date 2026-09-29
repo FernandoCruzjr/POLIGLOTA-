@@ -1,0 +1,352 @@
+[
+{
+"slug": "money",
+"word": "money",
+"translation": "dinheiro",
+"pron": "MÂ-ni",
+"example": "I don't have much money.",
+"exampleTranslation": "Eu não tenho muito dinheiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cash",
+"word": "cash",
+"translation": "dinheiro vivo",
+"pron": "KÉSH",
+"example": "Do you have cash?",
+"exampleTranslation": "Você tem dinheiro vivo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "coin",
+"word": "coin",
+"translation": "moeda",
+"pron": "KÓIN",
+"example": "I found a coin on the floor.",
+"exampleTranslation": "Eu achei uma moeda no chão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bill",
+"word": "bill",
+"translation": "nota (de dinheiro)",
+"pron": "BIL",
+"example": "A fifty-real bill.",
+"exampleTranslation": "Uma nota de cinquenta reais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dollar",
+"word": "dollar",
+"translation": "dólar",
+"pron": "DÓ-lar",
+"example": "It costs ten dollars.",
+"exampleTranslation": "Custa dez dólares.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "real",
+"word": "real",
+"translation": "real (moeda)",
+"pron": "ri-AU",
+"example": "The Brazilian real is our currency.",
+"exampleTranslation": "O real é a nossa moeda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "spend",
+"word": "spend",
+"translation": "gastar",
+"pron": "SPÉND",
+"example": "I spent too much money.",
+"exampleTranslation": "Eu gastei dinheiro demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "save-money",
+"word": "save money",
+"translation": "economizar",
+"pron": "SEIV mâ-ni",
+"example": "We're saving money for a trip.",
+"exampleTranslation": "Estamos economizando para uma viagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lend",
+"word": "lend",
+"translation": "emprestar (para alguém)",
+"pron": "LÉND",
+"example": "Can you lend me ten reais?",
+"exampleTranslation": "Você pode me emprestar dez reais?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "borrow",
+"word": "borrow",
+"translation": "pegar emprestado",
+"pron": "BÓ-rou",
+"example": "Can I borrow your car?",
+"exampleTranslation": "Posso pegar seu carro emprestado?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "owe",
+"word": "owe",
+"translation": "dever (dinheiro)",
+"pron": "ÔU",
+"example": "I owe you twenty reais.",
+"exampleTranslation": "Eu te devo vinte reais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "debt",
+"word": "debt",
+"translation": "dívida",
+"pron": "DÉT",
+"example": "We paid off our debt.",
+"exampleTranslation": "Nós quitamos nossa dívida.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "budget",
+"word": "budget",
+"translation": "orçamento",
+"pron": "BÂ-djet",
+"example": "We have a small budget.",
+"exampleTranslation": "Temos um orçamento pequeno.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "afford",
+"word": "afford",
+"translation": "ter condições de pagar",
+"pron": "a-FÓRD",
+"example": "I can't afford a new car.",
+"exampleTranslation": "Não tenho condições de comprar um carro novo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "rich",
+"word": "rich",
+"translation": "rico",
+"pron": "RITCH",
+"example": "He is very rich.",
+"exampleTranslation": "Ele é muito rico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "poor",
+"word": "poor",
+"translation": "pobre",
+"pron": "PÓR",
+"example": "They were poor, but happy.",
+"exampleTranslation": "Eles eram pobres, mas felizes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "free",
+"word": "free",
+"translation": "grátis",
+"pron": "FRII",
+"example": "The museum is free on Sundays.",
+"exampleTranslation": "O museu é grátis aos domingos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "credit",
+"word": "credit",
+"translation": "crédito",
+"pron": "KRÉ-dit",
+"example": "I have credit on my phone.",
+"exampleTranslation": "Eu tenho crédito no celular.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tax",
+"word": "tax",
+"translation": "imposto",
+"pron": "TÉKS",
+"example": "The price includes tax.",
+"exampleTranslation": "O preço inclui imposto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bills",
+"word": "bills",
+"translation": "contas (a pagar)",
+"pron": "BILZ",
+"example": "I have to pay the bills.",
+"exampleTranslation": "Eu tenho que pagar as contas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "expense",
+"word": "expense",
+"translation": "despesa, gasto",
+"pron": "iks-PÉNS",
+"example": "Food is our biggest expense.",
+"exampleTranslation": "Comida é o nosso maior gasto.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "income",
+"word": "income",
+"translation": "renda",
+"pron": "IN-kâm",
+"example": "What is your monthly income?",
+"exampleTranslation": "Qual é a sua renda mensal?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "profit",
+"word": "profit",
+"translation": "lucro",
+"pron": "PRÓ-fit",
+"example": "The store made a big profit.",
+"exampleTranslation": "A loja teve um grande lucro.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "invest",
+"word": "invest",
+"translation": "investir",
+"pron": "in-VÉST",
+"example": "I want to invest my savings.",
+"exampleTranslation": "Eu quero investir minhas economias.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "savings",
+"word": "savings",
+"translation": "economias, poupança",
+"pron": "SÊI-vinz",
+"example": "We used our savings to buy a house.",
+"exampleTranslation": "Usamos nossas economias para comprar uma casa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "piggy-bank",
+"word": "piggy bank",
+"translation": "cofrinho",
+"pron": "PI-gui bénk",
+"example": "My son puts coins in his piggy bank.",
+"exampleTranslation": "Meu filho coloca moedas no cofrinho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "price-tag",
+"word": "price tag",
+"translation": "etiqueta de preço",
+"pron": "PRAIS tég",
+"example": "Check the price tag.",
+"exampleTranslation": "Confira a etiqueta de preço.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "how-much",
+"word": "how much",
+"translation": "quanto",
+"pron": "rau MÂTCH",
+"example": "How much is this?",
+"exampleTranslation": "Quanto é isto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "worth-it",
+"word": "worth it",
+"translation": "vale a pena",
+"pron": "UÂRTH it",
+"example": "It's expensive, but it's worth it.",
+"exampleTranslation": "É caro, mas vale a pena.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "waste",
+"word": "waste",
+"translation": "desperdiçar",
+"pron": "UEIST",
+"example": "Don't waste money.",
+"exampleTranslation": "Não desperdice dinheiro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pay-back",
+"word": "pay back",
+"translation": "pagar de volta",
+"pron": "pei BÉK",
+"example": "I'll pay you back tomorrow.",
+"exampleTranslation": "Eu te pago de volta amanhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "allowance",
+"word": "allowance",
+"translation": "mesada",
+"pron": "a-LAU-ens",
+"example": "My kids get an allowance every week.",
+"exampleTranslation": "Meus filhos ganham mesada toda semana.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "fee",
+"word": "fee",
+"translation": "taxa, tarifa",
+"pron": "FII",
+"example": "There's a small fee.",
+"exampleTranslation": "Tem uma pequena taxa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "total",
+"word": "total",
+"translation": "total",
+"pron": "TÔU-tal",
+"example": "The total is 80 reais.",
+"exampleTranslation": "O total é 80 reais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cheaper",
+"word": "cheaper",
+"translation": "mais barato",
+"pron": "TCHII-per",
+"example": "Do you have something cheaper?",
+"exampleTranslation": "Você tem algo mais barato?",
+"difficulty": 1,
+"level": "beginner"
+}
+]

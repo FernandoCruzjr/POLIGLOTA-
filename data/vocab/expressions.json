@@ -1,0 +1,602 @@
+[
+{
+"slug": "thank-you-so-much",
+"word": "Thank you so much!",
+"translation": "Muito obrigado!",
+"pron": "THÉNK iu sou MÂTCH",
+"example": "Thank you so much for your help!",
+"exampleTranslation": "Muito obrigado pela sua ajuda!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "youre-welcome",
+"word": "You're welcome.",
+"translation": "De nada.",
+"pron": "iur UÉL-kâm",
+"example": "You're welcome, anytime!",
+"exampleTranslation": "De nada, quando precisar!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "no-problem",
+"word": "No problem.",
+"translation": "Sem problema.",
+"pron": "nôu PRÓ-blem",
+"example": "No problem, I can wait.",
+"exampleTranslation": "Sem problema, eu posso esperar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "excuse-me",
+"word": "Excuse me.",
+"translation": "Com licença.",
+"pron": "iks-KIUZ mi",
+"example": "Excuse me, where is the exit?",
+"exampleTranslation": "Com licença, onde fica a saída?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "im-sorry",
+"word": "I'm sorry.",
+"translation": "Desculpe. / Sinto muito.",
+"pron": "aim SÓ-ri",
+"example": "I'm sorry I'm late.",
+"exampleTranslation": "Desculpe o atraso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "never-mind",
+"word": "Never mind.",
+"translation": "Deixa pra lá.",
+"pron": "NÉ-ver maind",
+"example": "Never mind, it's not important.",
+"exampleTranslation": "Deixa pra lá, não é importante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "of-course",
+"word": "Of course!",
+"translation": "Claro!",
+"pron": "óv KÓRS",
+"example": "Of course! Come in.",
+"exampleTranslation": "Claro! Entre.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sure",
+"word": "Sure!",
+"translation": "Claro! / Com certeza!",
+"pron": "SHUR",
+"example": "Sure, I can help you.",
+"exampleTranslation": "Claro, eu posso te ajudar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "me-too",
+"word": "Me too.",
+"translation": "Eu também.",
+"pron": "mi TUU",
+"example": "I'm hungry. - Me too.",
+"exampleTranslation": "Estou com fome. - Eu também.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "me-neither",
+"word": "Me neither.",
+"translation": "Nem eu.",
+"pron": "mi NII-dher",
+"example": "I don't like fish. - Me neither.",
+"exampleTranslation": "Eu não gosto de peixe. - Nem eu.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "i-dont-know",
+"word": "I don't know.",
+"translation": "Eu não sei.",
+"pron": "ai dount NÔU",
+"example": "I don't know the answer.",
+"exampleTranslation": "Eu não sei a resposta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "i-dont-understand",
+"word": "I don't understand.",
+"translation": "Eu não entendo.",
+"pron": "ai dount ân-der-STÉND",
+"example": "Sorry, I don't understand.",
+"exampleTranslation": "Desculpe, eu não entendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-luck",
+"word": "Good luck!",
+"translation": "Boa sorte!",
+"pron": "gud LÂK",
+"example": "Good luck on your test!",
+"exampleTranslation": "Boa sorte na prova!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "congratulations",
+"word": "Congratulations!",
+"translation": "Parabéns! (conquista)",
+"pron": "kon-gré-tchu-LÊI-shânz",
+"example": "Congratulations on your new job!",
+"exampleTranslation": "Parabéns pelo emprego novo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "happy-birthday",
+"word": "Happy birthday!",
+"translation": "Feliz aniversário!",
+"pron": "RÉ-pi BÂRTH-dei",
+"example": "Happy birthday, my love!",
+"exampleTranslation": "Feliz aniversário, meu amor!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "merry-christmas",
+"word": "Merry Christmas!",
+"translation": "Feliz Natal!",
+"pron": "MÉ-ri KRIS-mas",
+"example": "Merry Christmas to you all!",
+"exampleTranslation": "Feliz Natal a todos vocês!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "have-a-nice-day",
+"word": "Have a nice day!",
+"translation": "Tenha um bom dia!",
+"pron": "rév a nais DEI",
+"example": "Thank you! Have a nice day!",
+"exampleTranslation": "Obrigado! Tenha um bom dia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "take-it-easy",
+"word": "Take it easy.",
+"translation": "Vai com calma. / Relaxa.",
+"pron": "teik it II-zi",
+"example": "Take it easy, it's just a game.",
+"exampleTranslation": "Relaxa, é só um jogo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "whats-up",
+"word": "What's up?",
+"translation": "E aí?",
+"pron": "uóts ÂP",
+"example": "Hey! What's up?",
+"exampleTranslation": "Oi! E aí?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hows-it-going",
+"word": "How's it going?",
+"translation": "Como vai? / Tudo certo?",
+"pron": "rauz it GÔU-in",
+"example": "How's it going at work?",
+"exampleTranslation": "Como vão as coisas no trabalho?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "not-bad",
+"word": "Not bad.",
+"translation": "Nada mal.",
+"pron": "nót BÉD",
+"example": "How are you? - Not bad.",
+"exampleTranslation": "Como você está? - Nada mal.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "so-so",
+"word": "So-so.",
+"translation": "Mais ou menos.",
+"pron": "SÔU-sôu",
+"example": "How was the movie? - So-so.",
+"exampleTranslation": "Como foi o filme? - Mais ou menos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thats-right",
+"word": "That's right.",
+"translation": "Isso mesmo. / Exatamente.",
+"pron": "dhéts RAIT",
+"example": "That's right, good job!",
+"exampleTranslation": "Isso mesmo, muito bem!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thats-ok",
+"word": "That's OK.",
+"translation": "Tudo bem. / Não tem problema.",
+"pron": "dhéts ôu-KEI",
+"example": "That's OK, don't worry.",
+"exampleTranslation": "Tudo bem, não se preocupe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dont-worry",
+"word": "Don't worry.",
+"translation": "Não se preocupe.",
+"pron": "dount UÂ-ri",
+"example": "Don't worry, I'll help you.",
+"exampleTranslation": "Não se preocupe, eu te ajudo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hurry-up",
+"word": "Hurry up!",
+"translation": "Anda logo!",
+"pron": "RÂ-ri âp",
+"example": "Hurry up, the bus is coming!",
+"exampleTranslation": "Anda logo, o ônibus está vindo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "watch-out",
+"word": "Watch out!",
+"translation": "Cuidado!",
+"pron": "uótch AUT",
+"example": "Watch out! A car!",
+"exampleTranslation": "Cuidado! Um carro!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "be-careful",
+"word": "Be careful!",
+"translation": "Tome cuidado!",
+"pron": "bi KÉR-ful",
+"example": "Be careful on the stairs.",
+"exampleTranslation": "Tome cuidado na escada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lets-go",
+"word": "Let's go!",
+"translation": "Vamos!",
+"pron": "léts GÔU",
+"example": "Let's go to the park!",
+"exampleTranslation": "Vamos ao parque!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wait-a-minute",
+"word": "Wait a minute.",
+"translation": "Espere um minuto.",
+"pron": "ueit a MI-nit",
+"example": "Wait a minute, I'm coming.",
+"exampleTranslation": "Espere um minuto, já vou.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "no-way",
+"word": "No way!",
+"translation": "De jeito nenhum! / Não acredito!",
+"pron": "nôu UEI",
+"example": "No way! That's amazing!",
+"exampleTranslation": "Não acredito! Que incrível!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "im-just-kidding",
+"word": "I'm just kidding.",
+"translation": "Estou só brincando.",
+"pron": "aim djâst KI-din",
+"example": "Relax, I'm just kidding!",
+"exampleTranslation": "Relaxa, estou só brincando!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "it-depends",
+"word": "It depends.",
+"translation": "Depende.",
+"pron": "it di-PÉNDZ",
+"example": "Are you coming? - It depends.",
+"exampleTranslation": "Você vem? - Depende.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "why-not",
+"word": "Why not?",
+"translation": "Por que não?",
+"pron": "uai NÓT",
+"example": "Let's go to the beach. - Why not?",
+"exampleTranslation": "Vamos à praia. - Por que não?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-idea",
+"word": "Good idea!",
+"translation": "Boa ideia!",
+"pron": "gud ai-DII-a",
+"example": "Pizza tonight? Good idea!",
+"exampleTranslation": "Pizza hoje à noite? Boa ideia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cool",
+"word": "Cool!",
+"translation": "Legal!",
+"pron": "KUUL",
+"example": "You got a new bike? Cool!",
+"exampleTranslation": "Você ganhou uma bicicleta nova? Legal!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bless-you",
+"word": "Bless you!",
+"translation": "Saúde! (quando alguém espirra)",
+"pron": "BLÉS iu",
+"example": "Atchoo! - Bless you!",
+"exampleTranslation": "Atchim! - Saúde!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "enjoy-your-meal",
+"word": "Enjoy your meal!",
+"translation": "Bom apetite!",
+"pron": "in-DJÓI iur MIIL",
+"example": "Here's your food. Enjoy your meal!",
+"exampleTranslation": "Aqui está sua comida. Bom apetite!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "its-up-to-you",
+"word": "It's up to you.",
+"translation": "Você que sabe. / Você decide.",
+"pron": "its ÂP tu iu",
+"example": "Pizza or pasta? It's up to you.",
+"exampleTranslation": "Pizza ou macarrão? Você decide.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "i-have-no-idea",
+"word": "I have no idea.",
+"translation": "Não faço ideia.",
+"pron": "ai rév nôu ai-DII-a",
+"example": "Where is Dad? - I have no idea.",
+"exampleTranslation": "Cadê o papai? - Não faço ideia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "same-to-you",
+"word": "Same to you.",
+"translation": "Pra você também.",
+"pron": "SEIM tu iu",
+"example": "Have a nice weekend! - Same to you!",
+"exampleTranslation": "Bom fim de semana! - Pra você também!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "youre-right",
+"word": "You're right.",
+"translation": "Você tem razão.",
+"pron": "iur RAIT",
+"example": "You're right, I'm sorry.",
+"exampleTranslation": "Você tem razão, desculpe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sounds-good",
+"word": "Sounds good!",
+"translation": "Parece bom! / Combinado!",
+"pron": "saundz GUD",
+"example": "Dinner at eight? - Sounds good!",
+"exampleTranslation": "Jantar às oito? - Combinado!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "make-yourself-at-home",
+"word": "Make yourself at home.",
+"translation": "Fique à vontade.",
+"pron": "meik iur-SÉLF ét rôum",
+"example": "Come in, make yourself at home.",
+"exampleTranslation": "Entre, fique à vontade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "its-a-deal",
+"word": "It's a deal!",
+"translation": "Fechado! / Combinado!",
+"pron": "its a DIIL",
+"example": "Ten reais? It's a deal!",
+"exampleTranslation": "Dez reais? Fechado!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "just-a-moment",
+"word": "Just a moment.",
+"translation": "Só um momento.",
+"pron": "djâst a MÔU-ment",
+"example": "Just a moment, please.",
+"exampleTranslation": "Só um momento, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "here-you-are",
+"word": "Here you are.",
+"translation": "Aqui está.",
+"pron": "RÍR iu ar",
+"example": "Here you are, your coffee.",
+"exampleTranslation": "Aqui está seu café.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "im-on-my-way",
+"word": "I'm on my way.",
+"translation": "Estou a caminho.",
+"pron": "aim ón mai UEI",
+"example": "Don't worry, I'm on my way.",
+"exampleTranslation": "Não se preocupe, estou a caminho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "time-to-go",
+"word": "Time to go.",
+"translation": "Hora de ir.",
+"pron": "TAIM tu gôu",
+"example": "Come on, kids, time to go.",
+"exampleTranslation": "Vamos, crianças, hora de ir.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-a-pity",
+"word": "What a pity!",
+"translation": "Que pena!",
+"pron": "uót a PI-ri",
+"example": "You can't come? What a pity!",
+"exampleTranslation": "Você não pode vir? Que pena!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "good-job",
+"word": "Good job!",
+"translation": "Bom trabalho! / Muito bem!",
+"pron": "gud DJÓB",
+"example": "Good job, son!",
+"exampleTranslation": "Muito bem, filho!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "well-done",
+"word": "Well done!",
+"translation": "Muito bem!",
+"pron": "uél DÂN",
+"example": "You passed! Well done!",
+"exampleTranslation": "Você passou! Muito bem!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "keep-calm",
+"word": "Keep calm.",
+"translation": "Mantenha a calma.",
+"pron": "kiip KÁM",
+"example": "Keep calm and breathe.",
+"exampleTranslation": "Mantenha a calma e respire.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nice-to-see-you",
+"word": "Nice to see you.",
+"translation": "Bom te ver.",
+"pron": "NAIS tu SII iu",
+"example": "Nice to see you again!",
+"exampleTranslation": "Bom te ver de novo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "long-time-no-see",
+"word": "Long time no see!",
+"translation": "Quanto tempo!",
+"pron": "LÓN taim nôu SII",
+"example": "Hi, Paulo! Long time no see!",
+"exampleTranslation": "Oi, Paulo! Quanto tempo!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "by-the-way",
+"word": "By the way",
+"translation": "A propósito, aliás",
+"pron": "bai dhe UEI",
+"example": "By the way, your mom called.",
+"exampleTranslation": "Aliás, sua mãe ligou.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "anything-else",
+"word": "Anything else?",
+"translation": "Mais alguma coisa?",
+"pron": "É-ni-thin éls",
+"example": "Anything else? - No, thanks.",
+"exampleTranslation": "Mais alguma coisa? - Não, obrigado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "is-everything-ok",
+"word": "Is everything OK?",
+"translation": "Está tudo bem?",
+"pron": "iz ÉV-ri-thin ôu-kei",
+"example": "Is everything OK with the baby?",
+"exampleTranslation": "Está tudo bem com o bebê?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "im-starving",
+"word": "I'm starving!",
+"translation": "Estou morrendo de fome!",
+"pron": "aim STAR-vin",
+"example": "Let's eat, I'm starving!",
+"exampleTranslation": "Vamos comer, estou morrendo de fome!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "its-none-of-your-business",
+"word": "It's none of your business.",
+"translation": "Não é da sua conta.",
+"pron": "its NÂN óv iur BIZ-nis",
+"example": "Who called? - It's none of your business!",
+"exampleTranslation": "Quem ligou? - Não é da sua conta!",
+"difficulty": 3,
+"level": "elementary"
+}
+]

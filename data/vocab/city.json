@@ -1,0 +1,552 @@
+[
+{
+"slug": "city",
+"word": "city",
+"translation": "cidade",
+"pron": "SI-ri",
+"example": "São Paulo is a huge city.",
+"exampleTranslation": "São Paulo é uma cidade enorme.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "town",
+"word": "town",
+"translation": "cidade pequena",
+"pron": "TAUN",
+"example": "I grew up in a small town.",
+"exampleTranslation": "Eu cresci numa cidade pequena.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "village",
+"word": "village",
+"translation": "vila, vilarejo",
+"pron": "VI-lidj",
+"example": "My grandparents live in a village.",
+"exampleTranslation": "Meus avós moram num vilarejo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "downtown",
+"word": "downtown",
+"translation": "centro da cidade",
+"pron": "daun-TAUN",
+"example": "Let's go downtown.",
+"exampleTranslation": "Vamos ao centro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "neighborhood",
+"word": "neighborhood",
+"translation": "bairro",
+"pron": "NEI-ber-rud",
+"example": "This is a quiet neighborhood.",
+"exampleTranslation": "Este é um bairro tranquilo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "street",
+"word": "street",
+"translation": "rua",
+"pron": "STRIIT",
+"example": "I live on this street.",
+"exampleTranslation": "Eu moro nesta rua.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "avenue",
+"word": "avenue",
+"translation": "avenida",
+"pron": "É-ve-niu",
+"example": "The bank is on Paulista Avenue.",
+"exampleTranslation": "O banco fica na Avenida Paulista.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "corner",
+"word": "corner",
+"translation": "esquina",
+"pron": "KÓR-ner",
+"example": "The café is on the corner.",
+"exampleTranslation": "O café fica na esquina.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "block",
+"word": "block",
+"translation": "quarteirão",
+"pron": "BLÓK",
+"example": "It's two blocks from here.",
+"exampleTranslation": "Fica a dois quarteirões daqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sidewalk",
+"word": "sidewalk",
+"translation": "calçada",
+"pron": "SAID-uók",
+"example": "Walk on the sidewalk.",
+"exampleTranslation": "Ande na calçada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "crosswalk",
+"word": "crosswalk",
+"translation": "faixa de pedestres",
+"pron": "KRÓS-uók",
+"example": "Cross at the crosswalk.",
+"exampleTranslation": "Atravesse na faixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "square",
+"word": "square",
+"translation": "praça",
+"pron": "SKUÉR",
+"example": "There is a market in the square.",
+"exampleTranslation": "Tem uma feira na praça.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "park",
+"word": "park",
+"translation": "parque",
+"pron": "PARK",
+"example": "The kids are playing in the park.",
+"exampleTranslation": "As crianças estão brincando no parque.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "building",
+"word": "building",
+"translation": "prédio",
+"pron": "BIL-din",
+"example": "I work in that tall building.",
+"exampleTranslation": "Eu trabalho naquele prédio alto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bridge",
+"word": "bridge",
+"translation": "ponte",
+"pron": "BRIDJ",
+"example": "We crossed the bridge.",
+"exampleTranslation": "Nós atravessamos a ponte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "church",
+"word": "church",
+"translation": "igreja",
+"pron": "TCHÂRTCH",
+"example": "The old church is beautiful.",
+"exampleTranslation": "A igreja antiga é linda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "museum",
+"word": "museum",
+"translation": "museu",
+"pron": "miu-ZII-um",
+"example": "The museum is closed on Mondays.",
+"exampleTranslation": "O museu fecha às segundas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "library",
+"word": "library",
+"translation": "biblioteca",
+"pron": "LAI-bré-ri",
+"example": "I study at the library.",
+"exampleTranslation": "Eu estudo na biblioteca.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "post-office",
+"word": "post office",
+"translation": "correio (agência)",
+"pron": "PÔUST ó-fis",
+"example": "Where is the post office?",
+"exampleTranslation": "Onde fica o correio?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "police-station",
+"word": "police station",
+"translation": "delegacia",
+"pron": "po-LIIS stêi-shân",
+"example": "The police station is near the square.",
+"exampleTranslation": "A delegacia fica perto da praça.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hospital",
+"word": "hospital",
+"translation": "hospital",
+"pron": "RÓS-pi-tal",
+"example": "The hospital is on this avenue.",
+"exampleTranslation": "O hospital fica nesta avenida.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "city-hall",
+"word": "city hall",
+"translation": "prefeitura",
+"pron": "SI-ri ról",
+"example": "City hall is downtown.",
+"exampleTranslation": "A prefeitura fica no centro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "movie-theater",
+"word": "movie theater",
+"translation": "cinema",
+"pron": "MUU-vi thii-a-ter",
+"example": "Let's meet at the movie theater.",
+"exampleTranslation": "Vamos nos encontrar no cinema.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stadium",
+"word": "stadium",
+"translation": "estádio",
+"pron": "STÊI-di-um",
+"example": "The stadium was full.",
+"exampleTranslation": "O estádio estava lotado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "zoo",
+"word": "zoo",
+"translation": "zoológico",
+"pron": "ZUU",
+"example": "We took the kids to the zoo.",
+"exampleTranslation": "Levamos as crianças ao zoológico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "playground",
+"word": "playground",
+"translation": "parquinho",
+"pron": "PLEI-graund",
+"example": "The baby loves the playground.",
+"exampleTranslation": "O bebê adora o parquinho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fountain",
+"word": "fountain",
+"translation": "fonte, chafariz",
+"pron": "FAUN-ten",
+"example": "There's a fountain in the park.",
+"exampleTranslation": "Tem uma fonte no parque.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "statue",
+"word": "statue",
+"translation": "estátua",
+"pron": "STÉ-tchu",
+"example": "Take a picture with the statue.",
+"exampleTranslation": "Tire uma foto com a estátua.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "monument",
+"word": "monument",
+"translation": "monumento",
+"pron": "MÓ-niu-ment",
+"example": "This monument is very old.",
+"exampleTranslation": "Este monumento é muito antigo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tower",
+"word": "tower",
+"translation": "torre",
+"pron": "TAU-er",
+"example": "You can see the tower from here.",
+"exampleTranslation": "Dá para ver a torre daqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cathedral",
+"word": "cathedral",
+"translation": "catedral",
+"pron": "ka-THII-dral",
+"example": "The cathedral is in the main square.",
+"exampleTranslation": "A catedral fica na praça principal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "suburb",
+"word": "suburb",
+"translation": "subúrbio, bairro afastado",
+"pron": "SÂ-bârb",
+"example": "They live in the suburbs.",
+"exampleTranslation": "Eles moram num bairro afastado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "address",
+"word": "address",
+"translation": "endereço",
+"pron": "a-DRÉS",
+"example": "What's your address?",
+"exampleTranslation": "Qual é o seu endereço?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "direction",
+"word": "direction",
+"translation": "direção",
+"pron": "di-RÉK-shân",
+"example": "Which direction is the beach?",
+"exampleTranslation": "Para que lado fica a praia?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn-left",
+"word": "turn left",
+"translation": "virar à esquerda",
+"pron": "târn LÉFT",
+"example": "Turn left at the bank.",
+"exampleTranslation": "Vire à esquerda no banco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "turn-right",
+"word": "turn right",
+"translation": "virar à direita",
+"pron": "târn RAIT",
+"example": "Turn right on the next street.",
+"exampleTranslation": "Vire à direita na próxima rua.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "go-straight",
+"word": "go straight",
+"translation": "seguir em frente",
+"pron": "gôu STREIT",
+"example": "Go straight for two blocks.",
+"exampleTranslation": "Siga em frente por dois quarteirões.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cross",
+"word": "cross",
+"translation": "atravessar",
+"pron": "KRÓS",
+"example": "Be careful when you cross the street.",
+"exampleTranslation": "Tome cuidado ao atravessar a rua.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "near",
+"word": "near",
+"translation": "perto",
+"pron": "NÍR",
+"example": "Is it near here?",
+"exampleTranslation": "É perto daqui?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "far",
+"word": "far",
+"translation": "longe",
+"pron": "FAR",
+"example": "The airport is far from the city.",
+"exampleTranslation": "O aeroporto é longe da cidade.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lost",
+"word": "lost",
+"translation": "perdido",
+"pron": "LÓST",
+"example": "Excuse me, I'm lost.",
+"exampleTranslation": "Com licença, estou perdido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sign",
+"word": "sign",
+"translation": "placa",
+"pron": "SAIN",
+"example": "Follow the signs to the center.",
+"exampleTranslation": "Siga as placas para o centro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "crowd",
+"word": "crowd",
+"translation": "multidão",
+"pron": "KRAUD",
+"example": "There is a big crowd in the square.",
+"exampleTranslation": "Tem uma multidão na praça.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "noise",
+"word": "noise",
+"translation": "barulho",
+"pron": "NÓIZ",
+"example": "The city is full of noise.",
+"exampleTranslation": "A cidade é cheia de barulho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pollution",
+"word": "pollution",
+"translation": "poluição",
+"pron": "po-LUU-shân",
+"example": "Pollution is a big problem here.",
+"exampleTranslation": "A poluição é um grande problema aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "safe",
+"word": "safe",
+"translation": "seguro (sem perigo)",
+"pron": "SEIF",
+"example": "Is this area safe at night?",
+"exampleTranslation": "Esta região é segura à noite?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dangerous",
+"word": "dangerous",
+"translation": "perigoso",
+"pron": "DÊIN-dje-râs",
+"example": "This street is dangerous at night.",
+"exampleTranslation": "Esta rua é perigosa à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tunnel",
+"word": "tunnel",
+"translation": "túnel",
+"pron": "TÂ-nel",
+"example": "The bus goes through a long tunnel.",
+"exampleTranslation": "O ônibus passa por um túnel longo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shopping-street",
+"word": "shopping street",
+"translation": "rua de comércio",
+"pron": "SHÓ-pin striit",
+"example": "This is the main shopping street.",
+"exampleTranslation": "Esta é a principal rua de comércio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "nightlife",
+"word": "nightlife",
+"translation": "vida noturna",
+"pron": "NAIT-laif",
+"example": "The nightlife here is great.",
+"exampleTranslation": "A vida noturna aqui é ótima.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "resident",
+"word": "resident",
+"translation": "morador",
+"pron": "RÉ-zi-dent",
+"example": "Only residents can park here.",
+"exampleTranslation": "Só moradores podem estacionar aqui.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "population",
+"word": "population",
+"translation": "população",
+"pron": "pó-piu-LÊI-shân",
+"example": "The city has a large population.",
+"exampleTranslation": "A cidade tem uma população grande.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "capital",
+"word": "capital",
+"translation": "capital",
+"pron": "KÉ-pi-tal",
+"example": "Brasília is the capital of Brazil.",
+"exampleTranslation": "Brasília é a capital do Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "landmark",
+"word": "landmark",
+"translation": "ponto de referência",
+"pron": "LÉND-mark",
+"example": "The tower is a famous landmark.",
+"exampleTranslation": "A torre é um ponto de referência famoso.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "around-the-corner",
+"word": "around the corner",
+"translation": "virando a esquina",
+"pron": "a-RAUND dhe KÓR-ner",
+"example": "The pharmacy is just around the corner.",
+"exampleTranslation": "A farmácia fica logo ali, virando a esquina.",
+"difficulty": 2,
+"level": "basic"
+}
+]

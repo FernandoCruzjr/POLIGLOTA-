@@ -22,8 +22,9 @@ function blankState() {
       studyDays: 0,
     },
     lessons: {},
+    words: {},
     activity: [],
-    pending: { profile: false, lessons: [], activity: [] },
+    pending: { profile: false, lessons: [], words: [], activity: [] },
   };
 }
 
@@ -101,10 +102,10 @@ export function isLessonDone(lessonId) {
   return Boolean(state.lessons[lessonId]);
 }
 
-export function recordLesson({ lessonId, title, xp, seconds, score }) {
+// Parte comum a qualquer estudo: sequência, tempo, XP e histórico.
+function registerStudy({ xp, seconds, type, ref, title }) {
   const p = state.profile;
   const t = today();
-
   if (p.lastStudyDate !== t) {
     const continues = p.lastStudyDate && daysBetween(p.lastStudyDate, t) === 1;
     p.streak = continues ? p.streak + 1 : 1;
@@ -119,6 +120,13 @@ export function recordLesson({ lessonId, title, xp, seconds, score }) {
   p.totalSeconds += seconds;
   p.xp += xp;
 
+  const activity = { id: crypto.randomUUID(), type, ref, title, xp, at: new Date().toISOString() };
+  state.activity = [activity, ...state.activity].slice(0, MAX_ACTIVITY);
+  state.pending.profile = true;
+  state.pending.activity.push(activity);
+}
+
+export function recordLesson({ lessonId, title, xp, seconds, score }) {
   const previous = state.lessons[lessonId];
   const now = new Date().toISOString();
   state.lessons[lessonId] = {
@@ -127,17 +135,69 @@ export function recordLesson({ lessonId, title, xp, seconds, score }) {
     score,
     times: (previous ? previous.times : 0) + 1,
   };
-
-  const activity = { id: crypto.randomUUID(), type: 'lesson', ref: lessonId, title, xp, at: now };
-  state.activity = [activity, ...state.activity].slice(0, MAX_ACTIVITY);
-
-  state.pending.profile = true;
   if (!state.pending.lessons.includes(lessonId)) state.pending.lessons.push(lessonId);
-  state.pending.activity.push(activity);
-
+  registerStudy({ xp, seconds, type: 'lesson', ref: lessonId, title });
   commit();
   sync();
   return { firstTime: !previous };
+}
+
+// ---------- Palavras ----------
+// Domínio: 0 nova · 1 aprendendo · 2 reconhecida · 3 conhecida · 4 dominada.
+// O id da palavra é "categoria.palavra", então a categoria sai do próprio id.
+
+export const MASTERY_LABELS = ['Nova', 'Aprendendo', 'Reconhecida', 'Conhecida', 'Dominada'];
+
+export function wordState(id) {
+  return state.words[id] || null;
+}
+
+export function masteryOf(id) {
+  return state.words[id] ? state.words[id].mastery : 0;
+}
+
+export function wordStats(ids) {
+  let seen = 0; let mastered = 0; let points = 0;
+  ids.forEach((id) => {
+    const m = masteryOf(id);
+    if (m > 0) seen += 1;
+    if (m === 4) mastered += 1;
+    points += m;
+  });
+  return { total: ids.length, seen, mastered, mastery: ids.length ? points / (ids.length * 4) : 0 };
+}
+
+export function seenWordsCount() {
+  return Object.values(state.words).filter((w) => w.mastery > 0).length;
+}
+
+export function dueWordsCount() {
+  const now = Date.now();
+  return Object.values(state.words).filter((w) => w.nextReview && new Date(w.nextReview).getTime() <= now).length;
+}
+
+function markPendingWord(id) {
+  if (!state.pending.words.includes(id)) state.pending.words.push(id);
+}
+
+// Estudo por cartões: a palavra passa de "nova" para "aprendendo" e entra na fila de revisão de amanhã.
+export function recordWordsStudied({ ids, xp, seconds, title, ref }) {
+  const now = new Date();
+  const tomorrow = new Date(now.getTime() + 24 * 3600 * 1000).toISOString();
+  ids.forEach((id) => {
+    const w = state.words[id] || { mastery: 0, reviews: 0, correct: 0, wrong: 0, lastReview: null, nextReview: null };
+    w.reviews += 1;
+    w.lastReview = now.toISOString();
+    if (w.mastery === 0) {
+      w.mastery = 1;
+      w.nextReview = tomorrow;
+    }
+    state.words[id] = w;
+    markPendingWord(id);
+  });
+  registerStudy({ xp, seconds, type: 'vocab', ref, title });
+  commit();
+  sync();
 }
 
 export function updateProfile(changes) {
@@ -154,7 +214,7 @@ let syncing = false;
 export async function sync() {
   if (!userId || syncing || !navigator.onLine) return;
   const pending = state.pending;
-  if (!pending.profile && !pending.lessons.length && !pending.activity.length) return;
+  if (!pending.profile && !pending.lessons.length && !pending.words.length && !pending.activity.length) return;
   syncing = true;
   const db = sb();
   try {
@@ -186,6 +246,20 @@ export async function sync() {
       const { error } = await db.from('en_lesson_progress').upsert(rows, { onConflict: 'user_id,lesson_id' });
       if (error) throw error;
       pending.lessons = [];
+    }
+    if (pending.words.length) {
+      const rows = pending.words.filter((id) => state.words[id]).map((id) => {
+        const w = state.words[id];
+        return {
+          user_id: userId, word_id: id, mastery: w.mastery, reviews: w.reviews, correct: w.correct,
+          wrong: w.wrong, last_review: w.lastReview, next_review: w.nextReview,
+        };
+      });
+      for (let i = 0; i < rows.length; i += 500) {
+        const { error } = await db.from('en_word_progress').upsert(rows.slice(i, i + 500), { onConflict: 'user_id,word_id' });
+        if (error) throw error;
+      }
+      pending.words = [];
     }
     if (pending.activity.length) {
       const rows = pending.activity.map((a) => ({
@@ -237,6 +311,18 @@ export async function pull() {
       }
     });
 
+    const words = await pullWords(db);
+    words.forEach((r) => {
+      if (state.pending.words.includes(r.word_id)) return;
+      const local = state.words[r.word_id];
+      if (!local || (r.reviews || 0) >= local.reviews) {
+        state.words[r.word_id] = {
+          mastery: r.mastery, reviews: r.reviews, correct: r.correct, wrong: r.wrong,
+          lastReview: r.last_review, nextReview: r.next_review,
+        };
+      }
+    });
+
     const byId = new Map(state.activity.map((a) => [a.id, a]));
     (acts.data || []).forEach((r) => {
       if (!byId.has(r.id)) byId.set(r.id, { id: r.id, type: r.type, ref: r.ref, title: r.title, xp: r.xp, at: r.created_at });
@@ -248,6 +334,18 @@ export async function pull() {
     console.warn('[pull] usando só os dados do aparelho:', (e && e.message) || e);
   }
   sync();
+}
+
+// O Supabase devolve no máximo 1.000 linhas por consulta; busca em páginas.
+async function pullWords(db) {
+  const all = [];
+  for (let from = 0; ; from += 1000) {
+    const { data, error } = await db.from('en_word_progress').select('*').eq('user_id', userId).range(from, from + 999);
+    if (error || !data) break;
+    all.push(...data);
+    if (data.length < 1000) break;
+  }
+  return all;
 }
 
 window.addEventListener('online', () => sync());

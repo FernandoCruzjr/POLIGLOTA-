@@ -1,0 +1,502 @@
+[
+{
+"slug": "hello",
+"word": "Hello!",
+"translation": "Olá!",
+"pron": "rê-LOU",
+"example": "Hello! Nice to meet you.",
+"exampleTranslation": "Olá! Prazer em conhecer.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hi",
+"word": "Hi!",
+"translation": "Oi!",
+"pron": "RAI",
+"example": "Hi! How are you?",
+"exampleTranslation": "Oi! Como vai?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-morning",
+"word": "Good morning!",
+"translation": "Bom dia!",
+"pron": "gud MÓR-nin",
+"example": "Good morning, everyone!",
+"exampleTranslation": "Bom dia, pessoal!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-afternoon",
+"word": "Good afternoon!",
+"translation": "Boa tarde!",
+"pron": "gud é-fter-NUUN",
+"example": "Good afternoon, can I help you?",
+"exampleTranslation": "Boa tarde, posso ajudar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-evening",
+"word": "Good evening!",
+"translation": "Boa noite! (chegando)",
+"pron": "gud ÍV-nin",
+"example": "Good evening, table for two?",
+"exampleTranslation": "Boa noite, mesa para dois?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "good-night",
+"word": "Good night!",
+"translation": "Boa noite! (despedida)",
+"pron": "gud NAIT",
+"example": "Good night, sweet dreams.",
+"exampleTranslation": "Boa noite, bons sonhos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "goodbye",
+"word": "Goodbye!",
+"translation": "Tchau! / Adeus!",
+"pron": "gud-BAI",
+"example": "Goodbye, see you tomorrow.",
+"exampleTranslation": "Tchau, até amanhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bye",
+"word": "Bye!",
+"translation": "Tchau!",
+"pron": "BAI",
+"example": "Bye! Call me later.",
+"exampleTranslation": "Tchau! Me liga depois.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "see-you-later",
+"word": "See you later!",
+"translation": "Até mais!",
+"pron": "SI iu LÊI-rer",
+"example": "See you later, Mom!",
+"exampleTranslation": "Até mais, mãe!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "see-you-tomorrow",
+"word": "See you tomorrow!",
+"translation": "Até amanhã!",
+"pron": "SI iu tu-MÓ-rou",
+"example": "See you tomorrow at school!",
+"exampleTranslation": "Até amanhã na escola!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "how-are-you",
+"word": "How are you?",
+"translation": "Como você está?",
+"pron": "rau ar IU",
+"example": "Hi, Ana! How are you?",
+"exampleTranslation": "Oi, Ana! Como você está?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "im-fine-thanks",
+"word": "I'm fine, thanks.",
+"translation": "Estou bem, obrigado.",
+"pron": "aim FAIN, THÉNKS",
+"example": "I'm fine, thanks. And you?",
+"exampleTranslation": "Estou bem, obrigado. E você?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "and-you",
+"word": "And you?",
+"translation": "E você?",
+"pron": "énd IU",
+"example": "I'm great. And you?",
+"exampleTranslation": "Estou ótimo. E você?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "whats-your-name",
+"word": "What's your name?",
+"translation": "Qual é o seu nome?",
+"pron": "uóts iór NÊIM",
+"example": "What's your name? - I'm Lucas.",
+"exampleTranslation": "Qual é o seu nome? - Sou o Lucas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "my-name-is",
+"word": "My name is...",
+"translation": "Meu nome é...",
+"pron": "mai NÊIM iz",
+"example": "My name is Fernanda.",
+"exampleTranslation": "Meu nome é Fernanda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nice-to-meet-you",
+"word": "Nice to meet you.",
+"translation": "Prazer em conhecer.",
+"pron": "NAIS tu MIIT iu",
+"example": "Nice to meet you, too.",
+"exampleTranslation": "O prazer é meu.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "where-are-you-from",
+"word": "Where are you from?",
+"translation": "De onde você é?",
+"pron": "uér ar iu FRÂM",
+"example": "Where are you from? - I'm from Brazil.",
+"exampleTranslation": "De onde você é? - Sou do Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "where-do-you-live",
+"word": "Where do you live?",
+"translation": "Onde você mora?",
+"pron": "uér du iu LIV",
+"example": "Where do you live? - In Salvador.",
+"exampleTranslation": "Onde você mora? - Em Salvador.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "how-old-are-you",
+"word": "How old are you?",
+"translation": "Quantos anos você tem?",
+"pron": "rau ÔULD ar iu",
+"example": "How old are you? - I'm thirty.",
+"exampleTranslation": "Quantos anos você tem? - Tenho trinta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-do-you-do-for-a-living",
+"word": "What do you do for a living?",
+"translation": "Com o que você trabalha?",
+"pron": "uót du iu du for a LI-vin",
+"example": "What do you do for a living? - I'm a teacher.",
+"exampleTranslation": "Com o que você trabalha? - Sou professor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "do-you-speak-english",
+"word": "Do you speak English?",
+"translation": "Você fala inglês?",
+"pron": "du iu spiik ÍN-glish",
+"example": "Do you speak English? - A little.",
+"exampleTranslation": "Você fala inglês? - Um pouco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "can-you-help-me",
+"word": "Can you help me?",
+"translation": "Você pode me ajudar?",
+"pron": "kén iu RÉLP mi",
+"example": "Excuse me, can you help me?",
+"exampleTranslation": "Com licença, você pode me ajudar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "can-you-repeat-that",
+"word": "Can you repeat that?",
+"translation": "Pode repetir?",
+"pron": "kén iu ri-PIIT dhét",
+"example": "Sorry, can you repeat that?",
+"exampleTranslation": "Desculpe, pode repetir?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "please-speak-slowly",
+"word": "Please speak slowly.",
+"translation": "Por favor, fale devagar.",
+"pron": "pliiz spiik SLÔU-li",
+"example": "I'm learning English. Please speak slowly.",
+"exampleTranslation": "Estou aprendendo inglês. Fale devagar, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-does-it-mean",
+"word": "What does it mean?",
+"translation": "O que significa?",
+"pron": "uót dâz it MIIN",
+"example": "\"Awesome\"? What does it mean?",
+"exampleTranslation": "\"Awesome\"? O que significa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "how-do-you-say-in-english",
+"word": "How do you say... in English?",
+"translation": "Como se diz... em inglês?",
+"pron": "rau du iu SEI in ÍN-glish",
+"example": "How do you say \"saudade\" in English?",
+"exampleTranslation": "Como se diz \"saudade\" em inglês?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-time-is-it",
+"word": "What time is it?",
+"translation": "Que horas são?",
+"pron": "uót TAIM iz it",
+"example": "Excuse me, what time is it?",
+"exampleTranslation": "Com licença, que horas são?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "where-is-the-bathroom",
+"word": "Where is the bathroom?",
+"translation": "Onde fica o banheiro?",
+"pron": "uér iz dhe BÉTH-rum",
+"example": "Excuse me, where is the bathroom?",
+"exampleTranslation": "Com licença, onde fica o banheiro?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "id-like",
+"word": "I'd like...",
+"translation": "Eu gostaria de...",
+"pron": "aid LAIK",
+"example": "I'd like a coffee, please.",
+"exampleTranslation": "Eu gostaria de um café, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "please",
+"word": "please",
+"translation": "por favor",
+"pron": "PLIIZ",
+"example": "Water, please.",
+"exampleTranslation": "Água, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thank-you",
+"word": "thank you",
+"translation": "obrigado(a)",
+"pron": "THÉNK iu",
+"example": "Thank you for the gift.",
+"exampleTranslation": "Obrigado pelo presente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thanks",
+"word": "thanks",
+"translation": "valeu, obrigado",
+"pron": "THÉNKS",
+"example": "Thanks for coming!",
+"exampleTranslation": "Obrigado por vir!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "yes",
+"word": "yes",
+"translation": "sim",
+"pron": "IÉS",
+"example": "Yes, I want some.",
+"exampleTranslation": "Sim, eu quero um pouco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "no",
+"word": "no",
+"translation": "não",
+"pron": "NÔU",
+"example": "No, thank you.",
+"exampleTranslation": "Não, obrigado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "maybe-later",
+"word": "maybe later",
+"translation": "talvez mais tarde",
+"pron": "MEI-bi LÊI-rer",
+"example": "Coffee? - Maybe later.",
+"exampleTranslation": "Café? - Talvez mais tarde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "welcome",
+"word": "Welcome!",
+"translation": "Bem-vindo!",
+"pron": "UÉL-kâm",
+"example": "Welcome to our home!",
+"exampleTranslation": "Bem-vindo à nossa casa!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "let-me-introduce",
+"word": "Let me introduce...",
+"translation": "Deixe-me apresentar...",
+"pron": "lét mi in-tro-DUUS",
+"example": "Let me introduce my wife, Carla.",
+"exampleTranslation": "Deixe-me apresentar minha esposa, Carla.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "this-is-my",
+"word": "This is my...",
+"translation": "Este(a) é meu/minha...",
+"pron": "DHIS iz mai",
+"example": "This is my daughter, Fernanda.",
+"exampleTranslation": "Esta é minha filha, Fernanda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-do-you-like-to-do",
+"word": "What do you like to do?",
+"translation": "O que você gosta de fazer?",
+"pron": "uót du iu LAIK tu du",
+"example": "What do you like to do on weekends?",
+"exampleTranslation": "O que você gosta de fazer nos fins de semana?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "do-you-have",
+"word": "Do you have...?",
+"translation": "Você tem...?",
+"pron": "du iu RÉV",
+"example": "Do you have any brothers?",
+"exampleTranslation": "Você tem irmãos?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "how-much-is-it",
+"word": "How much is it?",
+"translation": "Quanto custa?",
+"pron": "rau MÂTCH iz it",
+"example": "I like this bag. How much is it?",
+"exampleTranslation": "Eu gostei desta bolsa. Quanto custa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "whats-your-phone-number",
+"word": "What's your phone number?",
+"translation": "Qual é o seu telefone?",
+"pron": "uóts iór FÔUN nâm-ber",
+"example": "What's your phone number? I'll call you.",
+"exampleTranslation": "Qual é o seu telefone? Eu te ligo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "whats-the-weather-like",
+"word": "What's the weather like?",
+"translation": "Como está o tempo?",
+"pron": "uóts dhe UÉ-dher laik",
+"example": "What's the weather like in London?",
+"exampleTranslation": "Como está o tempo em Londres?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "how-was-your-day",
+"word": "How was your day?",
+"translation": "Como foi o seu dia?",
+"pron": "rau uóz iór DEI",
+"example": "How was your day at school?",
+"exampleTranslation": "Como foi o seu dia na escola?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "see-you-soon",
+"word": "See you soon!",
+"translation": "Até logo!",
+"pron": "SI iu SUUN",
+"example": "Bye, see you soon!",
+"exampleTranslation": "Tchau, até logo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "have-a-good-weekend",
+"word": "Have a good weekend!",
+"translation": "Bom fim de semana!",
+"pron": "rév a gud UIIK-énd",
+"example": "Have a good weekend, everyone!",
+"exampleTranslation": "Bom fim de semana, pessoal!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "im-learning-english",
+"word": "I'm learning English.",
+"translation": "Estou aprendendo inglês.",
+"pron": "aim LÂR-nin ÍN-glish",
+"example": "I'm learning English with my family.",
+"exampleTranslation": "Estou aprendendo inglês com minha família.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "what-about-you",
+"word": "What about you?",
+"translation": "E você? (e quanto a você?)",
+"pron": "uót a-baut IU",
+"example": "I love pizza. What about you?",
+"exampleTranslation": "Eu adoro pizza. E você?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lets-keep-in-touch",
+"word": "Let's keep in touch.",
+"translation": "Vamos manter contato.",
+"pron": "léts kiip in TÂTCH",
+"example": "It was nice to meet you. Let's keep in touch.",
+"exampleTranslation": "Foi um prazer. Vamos manter contato.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "talk-to-you-later",
+"word": "Talk to you later.",
+"translation": "Falo com você depois.",
+"pron": "TÓK tu iu LÊI-rer",
+"example": "I have to go. Talk to you later!",
+"exampleTranslation": "Tenho que ir. Falo com você depois!",
+"difficulty": 1,
+"level": "beginner"
+}
+]

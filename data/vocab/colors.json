@@ -1,0 +1,252 @@
+[
+{
+"slug": "color",
+"word": "color",
+"translation": "cor",
+"pron": "KÂ-ler",
+"example": "What's your favorite color?",
+"exampleTranslation": "Qual é a sua cor favorita?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "red",
+"word": "red",
+"translation": "vermelho",
+"pron": "RÉD",
+"example": "I have a red car.",
+"exampleTranslation": "Eu tenho um carro vermelho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "blue",
+"word": "blue",
+"translation": "azul",
+"pron": "BLUU",
+"example": "The sky is blue.",
+"exampleTranslation": "O céu está azul.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "green",
+"word": "green",
+"translation": "verde",
+"pron": "GRIIN",
+"example": "Brazil's flag is green and yellow.",
+"exampleTranslation": "A bandeira do Brasil é verde e amarela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "yellow",
+"word": "yellow",
+"translation": "amarelo",
+"pron": "IÉ-lou",
+"example": "Bananas are yellow.",
+"exampleTranslation": "Bananas são amarelas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "black",
+"word": "black",
+"translation": "preto",
+"pron": "BLÉK",
+"example": "I love my black dress.",
+"exampleTranslation": "Eu adoro meu vestido preto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "white",
+"word": "white",
+"translation": "branco",
+"pron": "UAIT",
+"example": "The walls are white.",
+"exampleTranslation": "As paredes são brancas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "orange",
+"word": "orange",
+"translation": "laranja (cor)",
+"pron": "Ó-rindj",
+"example": "Her room is painted orange.",
+"exampleTranslation": "O quarto dela é pintado de laranja.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pink",
+"word": "pink",
+"translation": "rosa",
+"pron": "PINK",
+"example": "The baby's room is pink.",
+"exampleTranslation": "O quarto do bebê é rosa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "purple",
+"word": "purple",
+"translation": "roxo",
+"pron": "PÂR-pol",
+"example": "Grapes are purple.",
+"exampleTranslation": "Uvas são roxas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "brown",
+"word": "brown",
+"translation": "marrom",
+"pron": "BRAUN",
+"example": "The dog has brown eyes.",
+"exampleTranslation": "O cachorro tem olhos castanhos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "gray",
+"word": "gray",
+"translation": "cinza",
+"pron": "GREI",
+"example": "The sky is gray today.",
+"exampleTranslation": "O céu está cinza hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beige",
+"word": "beige",
+"translation": "bege",
+"pron": "BEIJ",
+"example": "The sofa is beige.",
+"exampleTranslation": "O sofá é bege.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "gold",
+"word": "gold",
+"translation": "dourado, ouro",
+"pron": "GÔULD",
+"example": "She wore a gold dress.",
+"exampleTranslation": "Ela usou um vestido dourado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "silver",
+"word": "silver",
+"translation": "prateado, prata",
+"pron": "SIL-ver",
+"example": "I have a silver car.",
+"exampleTranslation": "Eu tenho um carro prata.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dark",
+"word": "dark",
+"translation": "escuro",
+"pron": "DARK",
+"example": "I prefer dark colors.",
+"exampleTranslation": "Eu prefiro cores escuras.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "light-blue",
+"word": "light blue",
+"translation": "azul-claro",
+"pron": "lait BLUU",
+"example": "The baby's shirt is light blue.",
+"exampleTranslation": "A camisa do bebê é azul-clara.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dark-green",
+"word": "dark green",
+"translation": "verde-escuro",
+"pron": "dark GRIIN",
+"example": "He wore a dark green jacket.",
+"exampleTranslation": "Ele usou uma jaqueta verde-escura.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bright",
+"word": "bright",
+"translation": "vivo, brilhante",
+"pron": "BRAIT",
+"example": "I like bright colors.",
+"exampleTranslation": "Eu gosto de cores vivas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "colorful",
+"word": "colorful",
+"translation": "colorido",
+"pron": "KÂ-ler-ful",
+"example": "The market is very colorful.",
+"exampleTranslation": "A feira é muito colorida.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "navy-blue",
+"word": "navy blue",
+"translation": "azul-marinho",
+"pron": "NÊI-vi bluu",
+"example": "The uniform is navy blue.",
+"exampleTranslation": "O uniforme é azul-marinho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turquoise",
+"word": "turquoise",
+"translation": "azul-turquesa",
+"pron": "TÂR-kuóiz",
+"example": "The sea is turquoise here.",
+"exampleTranslation": "O mar aqui é azul-turquesa.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "rainbow",
+"word": "rainbow",
+"translation": "arco-íris",
+"pron": "REIN-bou",
+"example": "Look, a rainbow!",
+"exampleTranslation": "Olha, um arco-íris!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "paint",
+"word": "paint",
+"translation": "tinta; pintar",
+"pron": "PEINT",
+"example": "We need more blue paint.",
+"exampleTranslation": "Precisamos de mais tinta azul.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shade",
+"word": "shade",
+"translation": "tom (de cor)",
+"pron": "SHEID",
+"example": "I want a lighter shade of green.",
+"exampleTranslation": "Eu quero um tom de verde mais claro.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

@@ -1,0 +1,552 @@
+[
+{
+"slug": "time",
+"word": "time",
+"translation": "tempo; hora",
+"pron": "TAIM",
+"example": "What time is it?",
+"exampleTranslation": "Que horas são?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hour",
+"word": "hour",
+"translation": "hora",
+"pron": "ÁU-er",
+"example": "The movie is two hours long.",
+"exampleTranslation": "O filme tem duas horas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "minute",
+"word": "minute",
+"translation": "minuto",
+"pron": "MI-nit",
+"example": "Wait a minute, please.",
+"exampleTranslation": "Espere um minuto, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "second",
+"word": "second",
+"translation": "segundo (tempo)",
+"pron": "SÉ-kond",
+"example": "It only takes a second.",
+"exampleTranslation": "Leva só um segundo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "oclock",
+"word": "o'clock",
+"translation": "em ponto (horas)",
+"pron": "o-KLÓK",
+"example": "It's three o'clock.",
+"exampleTranslation": "São três horas em ponto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "half-past",
+"word": "half past",
+"translation": "e meia",
+"pron": "RÉF pést",
+"example": "It's half past six.",
+"exampleTranslation": "São seis e meia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quarter-past",
+"word": "quarter past",
+"translation": "e quinze",
+"pron": "KUÓ-rer pést",
+"example": "It's quarter past nine.",
+"exampleTranslation": "São nove e quinze.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quarter-to",
+"word": "quarter to",
+"translation": "quinze para",
+"pron": "KUÓ-rer tu",
+"example": "It's quarter to five.",
+"exampleTranslation": "São quinze para as cinco.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "day",
+"word": "day",
+"translation": "dia",
+"pron": "DEI",
+"example": "Have a nice day!",
+"exampleTranslation": "Tenha um bom dia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "week",
+"word": "week",
+"translation": "semana",
+"pron": "UIIK",
+"example": "See you next week.",
+"exampleTranslation": "Até a semana que vem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "weekend",
+"word": "weekend",
+"translation": "fim de semana",
+"pron": "UIIK-énd",
+"example": "What are you doing this weekend?",
+"exampleTranslation": "O que você vai fazer neste fim de semana?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "month",
+"word": "month",
+"translation": "mês",
+"pron": "MÂNTH",
+"example": "My birthday is next month.",
+"exampleTranslation": "Meu aniversário é no mês que vem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "year",
+"word": "year",
+"translation": "ano",
+"pron": "IÍR",
+"example": "Happy New Year!",
+"exampleTranslation": "Feliz Ano-Novo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "today",
+"word": "today",
+"translation": "hoje",
+"pron": "tu-DEI",
+"example": "Today is Monday.",
+"exampleTranslation": "Hoje é segunda-feira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tomorrow",
+"word": "tomorrow",
+"translation": "amanhã",
+"pron": "tu-MÓ-rou",
+"example": "See you tomorrow!",
+"exampleTranslation": "Até amanhã!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "yesterday",
+"word": "yesterday",
+"translation": "ontem",
+"pron": "IÉS-ter-dei",
+"example": "I saw her yesterday.",
+"exampleTranslation": "Eu a vi ontem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "morning",
+"word": "morning",
+"translation": "manhã",
+"pron": "MÓR-nin",
+"example": "I run in the morning.",
+"exampleTranslation": "Eu corro de manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "afternoon",
+"word": "afternoon",
+"translation": "tarde",
+"pron": "é-fter-NUUN",
+"example": "See you this afternoon.",
+"exampleTranslation": "Até hoje à tarde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "evening",
+"word": "evening",
+"translation": "noite (início)",
+"pron": "ÍV-nin",
+"example": "We go for a walk in the evening.",
+"exampleTranslation": "Nós caminhamos à noitinha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "night",
+"word": "night",
+"translation": "noite",
+"pron": "NAIT",
+"example": "Good night, sleep well.",
+"exampleTranslation": "Boa noite, durma bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "noon",
+"word": "noon",
+"translation": "meio-dia",
+"pron": "NUUN",
+"example": "Lunch is at noon.",
+"exampleTranslation": "O almoço é ao meio-dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "midnight",
+"word": "midnight",
+"translation": "meia-noite",
+"pron": "MID-nait",
+"example": "The party ended at midnight.",
+"exampleTranslation": "A festa terminou à meia-noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "monday",
+"word": "Monday",
+"translation": "segunda-feira",
+"pron": "MÂN-dei",
+"example": "I start work on Monday.",
+"exampleTranslation": "Eu começo a trabalhar na segunda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tuesday",
+"word": "Tuesday",
+"translation": "terça-feira",
+"pron": "TUUZ-dei",
+"example": "The meeting is on Tuesday.",
+"exampleTranslation": "A reunião é na terça.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wednesday",
+"word": "Wednesday",
+"translation": "quarta-feira",
+"pron": "UÉNZ-dei",
+"example": "Wednesday is my busy day.",
+"exampleTranslation": "Quarta-feira é meu dia mais corrido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thursday",
+"word": "Thursday",
+"translation": "quinta-feira",
+"pron": "THÂRZ-dei",
+"example": "See you on Thursday.",
+"exampleTranslation": "Até quinta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "friday",
+"word": "Friday",
+"translation": "sexta-feira",
+"pron": "FRAI-dei",
+"example": "Friday is pizza night!",
+"exampleTranslation": "Sexta é noite de pizza!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "saturday",
+"word": "Saturday",
+"translation": "sábado",
+"pron": "SÉ-rer-dei",
+"example": "We go to the beach on Saturday.",
+"exampleTranslation": "Vamos à praia no sábado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sunday",
+"word": "Sunday",
+"translation": "domingo",
+"pron": "SÂN-dei",
+"example": "Sunday is family day.",
+"exampleTranslation": "Domingo é dia de família.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "january",
+"word": "January",
+"translation": "janeiro",
+"pron": "DJÉ-niu-é-ri",
+"example": "School starts in January.",
+"exampleTranslation": "As aulas começam em janeiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "february",
+"word": "February",
+"translation": "fevereiro",
+"pron": "FÉ-bru-é-ri",
+"example": "Carnival is in February.",
+"exampleTranslation": "O Carnaval é em fevereiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "march",
+"word": "March",
+"translation": "março",
+"pron": "MARTCH",
+"example": "My birthday is in March.",
+"exampleTranslation": "Meu aniversário é em março.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "april",
+"word": "April",
+"translation": "abril",
+"pron": "ÊI-pril",
+"example": "It rains a lot in April.",
+"exampleTranslation": "Chove muito em abril.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "may",
+"word": "May",
+"translation": "maio",
+"pron": "MEI",
+"example": "Mother's Day is in May.",
+"exampleTranslation": "O Dia das Mães é em maio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "june",
+"word": "June",
+"translation": "junho",
+"pron": "DJUUN",
+"example": "We have parties in June.",
+"exampleTranslation": "Temos festas em junho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "july",
+"word": "July",
+"translation": "julho",
+"pron": "dju-LAI",
+"example": "July is winter in Brazil.",
+"exampleTranslation": "Julho é inverno no Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "august",
+"word": "August",
+"translation": "agosto",
+"pron": "Ó-gâst",
+"example": "Father's Day is in August.",
+"exampleTranslation": "O Dia dos Pais é em agosto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "september",
+"word": "September",
+"translation": "setembro",
+"pron": "sép-TÉM-ber",
+"example": "Spring starts in September.",
+"exampleTranslation": "A primavera começa em setembro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "october",
+"word": "October",
+"translation": "outubro",
+"pron": "ók-TÔU-ber",
+"example": "Children's Day is in October.",
+"exampleTranslation": "O Dia das Crianças é em outubro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "november",
+"word": "November",
+"translation": "novembro",
+"pron": "no-VÉM-ber",
+"example": "It gets hot in November.",
+"exampleTranslation": "Esquenta em novembro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "december",
+"word": "December",
+"translation": "dezembro",
+"pron": "di-SÉM-ber",
+"example": "Christmas is in December.",
+"exampleTranslation": "O Natal é em dezembro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "calendar",
+"word": "calendar",
+"translation": "calendário",
+"pron": "KÉ-len-der",
+"example": "Check the calendar.",
+"exampleTranslation": "Olhe o calendário.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "date",
+"word": "date",
+"translation": "data",
+"pron": "DEIT",
+"example": "What's the date today?",
+"exampleTranslation": "Que dia é hoje?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "clock",
+"word": "clock",
+"translation": "relógio (de parede)",
+"pron": "KLÓK",
+"example": "The clock is slow.",
+"exampleTranslation": "O relógio está atrasado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "early",
+"word": "early",
+"translation": "cedo",
+"pron": "ÂR-li",
+"example": "I wake up early.",
+"exampleTranslation": "Eu acordo cedo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "late",
+"word": "late",
+"translation": "tarde, atrasado",
+"pron": "LEIT",
+"example": "Sorry, I'm late.",
+"exampleTranslation": "Desculpe, estou atrasado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "now",
+"word": "now",
+"translation": "agora",
+"pron": "NAU",
+"example": "I'm busy now.",
+"exampleTranslation": "Estou ocupado agora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "later",
+"word": "later",
+"translation": "mais tarde",
+"pron": "LÊI-rer",
+"example": "Call me later.",
+"exampleTranslation": "Me liga mais tarde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soon",
+"word": "soon",
+"translation": "logo, em breve",
+"pron": "SUUN",
+"example": "See you soon!",
+"exampleTranslation": "Até logo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "always",
+"word": "always",
+"translation": "sempre",
+"pron": "ÓL-ueiz",
+"example": "I always drink coffee.",
+"exampleTranslation": "Eu sempre tomo café.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "never",
+"word": "never",
+"translation": "nunca",
+"pron": "NÉ-ver",
+"example": "I never eat fish.",
+"exampleTranslation": "Eu nunca como peixe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "century",
+"word": "century",
+"translation": "século",
+"pron": "SÉN-tcha-ri",
+"example": "This house is a century old.",
+"exampleTranslation": "Esta casa tem um século.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "season",
+"word": "season",
+"translation": "estação do ano",
+"pron": "SII-zon",
+"example": "What's your favorite season?",
+"exampleTranslation": "Qual é a sua estação favorita?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "next-week",
+"word": "next week",
+"translation": "semana que vem",
+"pron": "nékst UIIK",
+"example": "Let's meet next week.",
+"exampleTranslation": "Vamos nos encontrar semana que vem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "last-year",
+"word": "last year",
+"translation": "ano passado",
+"pron": "lést IÍR",
+"example": "We moved here last year.",
+"exampleTranslation": "Nós nos mudamos para cá no ano passado.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

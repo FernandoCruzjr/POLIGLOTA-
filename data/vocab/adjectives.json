@@ -1,0 +1,982 @@
+[
+{
+"slug": "good",
+"word": "good",
+"translation": "bom",
+"pron": "GUD",
+"example": "This is a good book.",
+"exampleTranslation": "Este é um bom livro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bad",
+"word": "bad",
+"translation": "ruim, mau",
+"pron": "BÉD",
+"example": "That's a bad idea.",
+"exampleTranslation": "Essa é uma má ideia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "big",
+"word": "big",
+"translation": "grande",
+"pron": "BIG",
+"example": "They have a big house.",
+"exampleTranslation": "Eles têm uma casa grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "little",
+"word": "little",
+"translation": "pequeno, pouco",
+"pron": "LI-rol",
+"example": "My little sister is five.",
+"exampleTranslation": "Minha irmã pequena tem cinco anos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "new",
+"word": "new",
+"translation": "novo",
+"pron": "NUU",
+"example": "I have a new job.",
+"exampleTranslation": "Eu tenho um emprego novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "old",
+"word": "old",
+"translation": "velho, antigo",
+"pron": "ÔULD",
+"example": "This is an old photo.",
+"exampleTranslation": "Esta é uma foto antiga.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "young",
+"word": "young",
+"translation": "jovem",
+"pron": "IÂN",
+"example": "My parents are young.",
+"exampleTranslation": "Meus pais são jovens.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "long",
+"word": "long",
+"translation": "longo, comprido",
+"pron": "LÓN",
+"example": "It was a long day.",
+"exampleTranslation": "Foi um dia longo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "high",
+"word": "high",
+"translation": "alto (altura)",
+"pron": "RAI",
+"example": "The mountain is very high.",
+"exampleTranslation": "A montanha é muito alta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "low",
+"word": "low",
+"translation": "baixo",
+"pron": "LÔU",
+"example": "The price is low.",
+"exampleTranslation": "O preço está baixo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "easy",
+"word": "easy",
+"translation": "fácil",
+"pron": "II-zi",
+"example": "This exercise is easy.",
+"exampleTranslation": "Este exercício é fácil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "difficult",
+"word": "difficult",
+"translation": "difícil",
+"pron": "DI-fi-kolt",
+"example": "English isn't difficult.",
+"exampleTranslation": "Inglês não é difícil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hard",
+"word": "hard",
+"translation": "difícil; duro",
+"pron": "RARD",
+"example": "The test was hard.",
+"exampleTranslation": "A prova foi difícil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fast",
+"word": "fast",
+"translation": "rápido",
+"pron": "FÉST",
+"example": "This car is very fast.",
+"exampleTranslation": "Este carro é muito rápido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "slow",
+"word": "slow",
+"translation": "lento, devagar",
+"pron": "SLÔU",
+"example": "The internet is slow.",
+"exampleTranslation": "A internet está lenta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beautiful",
+"word": "beautiful",
+"translation": "bonito, lindo",
+"pron": "BIU-ri-ful",
+"example": "What a beautiful day!",
+"exampleTranslation": "Que dia lindo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pretty",
+"word": "pretty",
+"translation": "bonita (fofa)",
+"pron": "PRI-ri",
+"example": "She is very pretty.",
+"exampleTranslation": "Ela é muito bonita.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "handsome",
+"word": "handsome",
+"translation": "bonito (homem)",
+"pron": "RÉN-som",
+"example": "Her husband is handsome.",
+"exampleTranslation": "O marido dela é bonito.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ugly",
+"word": "ugly",
+"translation": "feio",
+"pron": "Â-gli",
+"example": "This shirt is ugly.",
+"exampleTranslation": "Esta camisa é feia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cute",
+"word": "cute",
+"translation": "fofo",
+"pron": "KIUUT",
+"example": "The baby is so cute!",
+"exampleTranslation": "O bebê é tão fofo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nice",
+"word": "nice",
+"translation": "legal, agradável",
+"pron": "NAIS",
+"example": "Your friend is very nice.",
+"exampleTranslation": "Seu amigo é muito legal.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kind",
+"word": "kind",
+"translation": "gentil, bondoso",
+"pron": "KAIND",
+"example": "She is kind to everyone.",
+"exampleTranslation": "Ela é gentil com todo mundo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "friendly",
+"word": "friendly",
+"translation": "simpático, amigável",
+"pron": "FRÉND-li",
+"example": "The people here are friendly.",
+"exampleTranslation": "As pessoas aqui são simpáticas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "funny",
+"word": "funny",
+"translation": "engraçado",
+"pron": "FÂ-ni",
+"example": "My uncle is very funny.",
+"exampleTranslation": "Meu tio é muito engraçado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "smart",
+"word": "smart",
+"translation": "inteligente, esperto",
+"pron": "SMART",
+"example": "She is a smart girl.",
+"exampleTranslation": "Ela é uma menina inteligente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "intelligent",
+"word": "intelligent",
+"translation": "inteligente",
+"pron": "in-TÉ-li-djent",
+"example": "Dolphins are intelligent.",
+"exampleTranslation": "Golfinhos são inteligentes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "stupid",
+"word": "stupid",
+"translation": "burro, bobo",
+"pron": "STUU-pid",
+"example": "That was a stupid mistake.",
+"exampleTranslation": "Foi um erro bobo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "important",
+"word": "important",
+"translation": "importante",
+"pron": "im-PÓR-tant",
+"example": "This is very important.",
+"exampleTranslation": "Isto é muito importante.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "great",
+"word": "great",
+"translation": "ótimo",
+"pron": "GREIT",
+"example": "That's a great idea!",
+"exampleTranslation": "Que ótima ideia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wonderful",
+"word": "wonderful",
+"translation": "maravilhoso",
+"pron": "UÂN-der-ful",
+"example": "We had a wonderful time.",
+"exampleTranslation": "Nós nos divertimos muito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "amazing",
+"word": "amazing",
+"translation": "incrível",
+"pron": "a-MÊI-zin",
+"example": "The view is amazing.",
+"exampleTranslation": "A vista é incrível.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "awesome",
+"word": "awesome",
+"translation": "demais, incrível",
+"pron": "Ó-sâm",
+"example": "That's awesome!",
+"exampleTranslation": "Isso é demais!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "terrible",
+"word": "terrible",
+"translation": "terrível",
+"pron": "TÉ-ri-bol",
+"example": "The traffic is terrible.",
+"exampleTranslation": "O trânsito está terrível.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "awful",
+"word": "awful",
+"translation": "horrível",
+"pron": "Ó-ful",
+"example": "The food was awful.",
+"exampleTranslation": "A comida estava horrível.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "perfect",
+"word": "perfect",
+"translation": "perfeito",
+"pron": "PÂR-fékt",
+"example": "Everything is perfect.",
+"exampleTranslation": "Está tudo perfeito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "right",
+"word": "right",
+"translation": "certo, correto",
+"pron": "RAIT",
+"example": "You're right.",
+"exampleTranslation": "Você tem razão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "true",
+"word": "true",
+"translation": "verdadeiro",
+"pron": "TRUU",
+"example": "Is it true?",
+"exampleTranslation": "É verdade?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "false",
+"word": "false",
+"translation": "falso",
+"pron": "FÓLS",
+"example": "True or false?",
+"exampleTranslation": "Verdadeiro ou falso?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "same",
+"word": "same",
+"translation": "mesmo, igual",
+"pron": "SEIM",
+"example": "We have the same shoes.",
+"exampleTranslation": "Nós temos os mesmos sapatos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "different",
+"word": "different",
+"translation": "diferente",
+"pron": "DI-frent",
+"example": "We are very different.",
+"exampleTranslation": "Nós somos muito diferentes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "possible",
+"word": "possible",
+"translation": "possível",
+"pron": "PÓ-si-bol",
+"example": "Is it possible?",
+"exampleTranslation": "É possível?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "impossible",
+"word": "impossible",
+"translation": "impossível",
+"pron": "im-PÓ-si-bol",
+"example": "Nothing is impossible.",
+"exampleTranslation": "Nada é impossível.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ready",
+"word": "ready",
+"translation": "pronto",
+"pron": "RÉ-di",
+"example": "Are you ready?",
+"exampleTranslation": "Você está pronto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "free",
+"word": "free",
+"translation": "livre, desocupado",
+"pron": "FRII",
+"example": "Are you free tonight?",
+"exampleTranslation": "Você está livre hoje à noite?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "full-of",
+"word": "full of",
+"translation": "cheio de",
+"pron": "FUL óv",
+"example": "The box is full of toys.",
+"exampleTranslation": "A caixa está cheia de brinquedos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "empty",
+"word": "empty",
+"translation": "vazio",
+"pron": "ÉMP-ti",
+"example": "The fridge is empty.",
+"exampleTranslation": "A geladeira está vazia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "heavy",
+"word": "heavy",
+"translation": "pesado",
+"pron": "RÉ-vi",
+"example": "This box is heavy.",
+"exampleTranslation": "Esta caixa é pesada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "light",
+"word": "light",
+"translation": "leve",
+"pron": "LAIT",
+"example": "This bag is very light.",
+"exampleTranslation": "Esta bolsa é bem leve.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soft",
+"word": "soft",
+"translation": "macio, mole",
+"pron": "SÓFT",
+"example": "The bed is very soft.",
+"exampleTranslation": "A cama é muito macia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wide",
+"word": "wide",
+"translation": "largo",
+"pron": "UAID",
+"example": "The river is very wide.",
+"exampleTranslation": "O rio é muito largo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "narrow",
+"word": "narrow",
+"translation": "estreito",
+"pron": "NÉ-rou",
+"example": "The street is narrow.",
+"exampleTranslation": "A rua é estreita.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "deep",
+"word": "deep",
+"translation": "fundo, profundo",
+"pron": "DIIP",
+"example": "The pool is deep here.",
+"exampleTranslation": "A piscina é funda aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shallow",
+"word": "shallow",
+"translation": "raso",
+"pron": "SHÉ-lou",
+"example": "The water is shallow.",
+"exampleTranslation": "A água é rasa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thick",
+"word": "thick",
+"translation": "grosso",
+"pron": "THIK",
+"example": "This book is thick.",
+"exampleTranslation": "Este livro é grosso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "loud",
+"word": "loud",
+"translation": "alto (som), barulhento",
+"pron": "LAUD",
+"example": "The music is too loud.",
+"exampleTranslation": "A música está alta demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "famous",
+"word": "famous",
+"translation": "famoso",
+"pron": "FÊI-mâs",
+"example": "He is a famous singer.",
+"exampleTranslation": "Ele é um cantor famoso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "popular",
+"word": "popular",
+"translation": "popular",
+"pron": "PÓ-piu-lar",
+"example": "This restaurant is very popular.",
+"exampleTranslation": "Este restaurante é muito popular.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "normal",
+"word": "normal",
+"translation": "normal",
+"pron": "NÓR-mal",
+"example": "It's a normal day.",
+"exampleTranslation": "É um dia normal.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "strange",
+"word": "strange",
+"translation": "estranho",
+"pron": "STRÊINDJ",
+"example": "That's strange.",
+"exampleTranslation": "Que estranho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "simple",
+"word": "simple",
+"translation": "simples",
+"pron": "SIM-pol",
+"example": "The recipe is simple.",
+"exampleTranslation": "A receita é simples.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "special",
+"word": "special",
+"translation": "especial",
+"pron": "SPÉ-shal",
+"example": "Today is a special day.",
+"exampleTranslation": "Hoje é um dia especial.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "favorite",
+"word": "favorite",
+"translation": "favorito",
+"pron": "FÊI-vo-rit",
+"example": "What's your favorite food?",
+"exampleTranslation": "Qual é a sua comida favorita?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "useful",
+"word": "useful",
+"translation": "útil",
+"pron": "IUUS-ful",
+"example": "This app is very useful.",
+"exampleTranslation": "Este aplicativo é muito útil.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "useless",
+"word": "useless",
+"translation": "inútil",
+"pron": "IUUS-les",
+"example": "This old phone is useless.",
+"exampleTranslation": "Este celular velho é inútil.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "careful",
+"word": "careful",
+"translation": "cuidadoso",
+"pron": "KÉR-ful",
+"example": "Be careful!",
+"exampleTranslation": "Tome cuidado!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lazy",
+"word": "lazy",
+"translation": "preguiçoso",
+"pron": "LÊI-zi",
+"example": "Don't be lazy!",
+"exampleTranslation": "Não seja preguiçoso!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "polite",
+"word": "polite",
+"translation": "educado",
+"pron": "po-LAIT",
+"example": "The kids are very polite.",
+"exampleTranslation": "As crianças são muito educadas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rude",
+"word": "rude",
+"translation": "grosso, mal-educado",
+"pron": "RUUD",
+"example": "Don't be rude.",
+"exampleTranslation": "Não seja grosso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "honest",
+"word": "honest",
+"translation": "honesto",
+"pron": "Ó-nest",
+"example": "He is an honest man.",
+"exampleTranslation": "Ele é um homem honesto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "generous",
+"word": "generous",
+"translation": "generoso",
+"pron": "DJÉ-ne-râs",
+"example": "My grandmother is very generous.",
+"exampleTranslation": "Minha avó é muito generosa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "selfish",
+"word": "selfish",
+"translation": "egoísta",
+"pron": "SÉL-fish",
+"example": "Don't be selfish, share your toys.",
+"exampleTranslation": "Não seja egoísta, divida seus brinquedos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quick",
+"word": "quick",
+"translation": "rápido, ligeiro",
+"pron": "KUIK",
+"example": "Can I ask a quick question?",
+"exampleTranslation": "Posso fazer uma pergunta rápida?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "clear",
+"word": "clear",
+"translation": "claro, limpo",
+"pron": "KLÍR",
+"example": "The water is very clear.",
+"exampleTranslation": "A água é bem limpa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "next",
+"word": "next",
+"translation": "próximo",
+"pron": "NÉKST",
+"example": "See you next time.",
+"exampleTranslation": "Até a próxima.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "own",
+"word": "own",
+"translation": "próprio",
+"pron": "ÔUN",
+"example": "I have my own room.",
+"exampleTranslation": "Eu tenho meu próprio quarto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "whole",
+"word": "whole",
+"translation": "inteiro",
+"pron": "RÔUL",
+"example": "I ate the whole pizza.",
+"exampleTranslation": "Eu comi a pizza inteira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "public",
+"word": "public",
+"translation": "público",
+"pron": "PÂ-blik",
+"example": "This is a public park.",
+"exampleTranslation": "Este é um parque público.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "private",
+"word": "private",
+"translation": "particular, privado",
+"pron": "PRAI-vet",
+"example": "This is a private beach.",
+"exampleTranslation": "Esta é uma praia particular.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "modern",
+"word": "modern",
+"translation": "moderno",
+"pron": "MÓ-dern",
+"example": "The building is very modern.",
+"exampleTranslation": "O prédio é muito moderno.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ancient",
+"word": "ancient",
+"translation": "antigo (muito antigo)",
+"pron": "ÊIN-shent",
+"example": "Rome is an ancient city.",
+"exampleTranslation": "Roma é uma cidade muito antiga.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "huge",
+"word": "huge",
+"translation": "enorme",
+"pron": "RIUUDJ",
+"example": "The house is huge!",
+"exampleTranslation": "A casa é enorme!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tiny",
+"word": "tiny",
+"translation": "minúsculo",
+"pron": "TAI-ni",
+"example": "The baby has tiny hands.",
+"exampleTranslation": "O bebê tem mãozinhas minúsculas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sharp",
+"word": "sharp",
+"translation": "afiado",
+"pron": "SHARP",
+"example": "The knife is sharp.",
+"exampleTranslation": "A faca está afiada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lucky",
+"word": "lucky",
+"translation": "sortudo, com sorte",
+"pron": "LÂ-ki",
+"example": "You are so lucky!",
+"exampleTranslation": "Você tem tanta sorte!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fine",
+"word": "fine",
+"translation": "bem, ótimo",
+"pron": "FAIN",
+"example": "Everything is fine.",
+"exampleTranslation": "Está tudo bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "alive",
+"word": "alive",
+"translation": "vivo",
+"pron": "a-LAIV",
+"example": "The fish is still alive.",
+"exampleTranslation": "O peixe ainda está vivo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dead",
+"word": "dead",
+"translation": "morto",
+"pron": "DÉD",
+"example": "The plant is dead.",
+"exampleTranslation": "A planta morreu.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fair",
+"word": "fair",
+"translation": "justo",
+"pron": "FÉR",
+"example": "That's not fair!",
+"exampleTranslation": "Isso não é justo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "necessary",
+"word": "necessary",
+"translation": "necessário",
+"pron": "NÉ-se-sé-ri",
+"example": "Is it necessary?",
+"exampleTranslation": "É necessário?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "similar",
+"word": "similar",
+"translation": "parecido",
+"pron": "SI-mi-lar",
+"example": "Our houses are similar.",
+"exampleTranslation": "Nossas casas são parecidas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "excellent",
+"word": "excellent",
+"translation": "excelente",
+"pron": "ÉK-se-lent",
+"example": "Excellent work!",
+"exampleTranslation": "Excelente trabalho!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "complete",
+"word": "complete",
+"translation": "completo",
+"pron": "kom-PLIIT",
+"example": "The list is complete.",
+"exampleTranslation": "A lista está completa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "complicated",
+"word": "complicated",
+"translation": "complicado",
+"pron": "KÓM-pli-kei-rid",
+"example": "It's a complicated story.",
+"exampleTranslation": "É uma história complicada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "crazy",
+"word": "crazy",
+"translation": "louco",
+"pron": "KRÊI-zi",
+"example": "Are you crazy?",
+"exampleTranslation": "Você está louco?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "silly",
+"word": "silly",
+"translation": "bobo",
+"pron": "SI-li",
+"example": "Don't be silly!",
+"exampleTranslation": "Deixa de ser bobo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "serious",
+"word": "serious",
+"translation": "sério",
+"pron": "SÍ-ri-âs",
+"example": "Are you serious?",
+"exampleTranslation": "Você está falando sério?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sure",
+"word": "sure",
+"translation": "certo, seguro (de algo)",
+"pron": "SHUR",
+"example": "Are you sure?",
+"exampleTranslation": "Você tem certeza?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "main",
+"word": "main",
+"translation": "principal",
+"pron": "MEIN",
+"example": "This is the main street.",
+"exampleTranslation": "Esta é a rua principal.",
+"difficulty": 2,
+"level": "basic"
+}
+]

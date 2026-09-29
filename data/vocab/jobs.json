@@ -1,0 +1,552 @@
+[
+{
+"slug": "engineer",
+"word": "engineer",
+"translation": "engenheiro",
+"pron": "én-dji-NÍR",
+"example": "My brother is an engineer.",
+"exampleTranslation": "Meu irmão é engenheiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lawyer",
+"word": "lawyer",
+"translation": "advogado",
+"pron": "LÓ-ier",
+"example": "I need to talk to a lawyer.",
+"exampleTranslation": "Eu preciso falar com um advogado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "judge",
+"word": "judge",
+"translation": "juiz",
+"pron": "DJÂDJ",
+"example": "The judge made a decision.",
+"exampleTranslation": "O juiz tomou uma decisão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "police-officer",
+"word": "police officer",
+"translation": "policial",
+"pron": "po-LIIS ó-fi-ser",
+"example": "The police officer helped us.",
+"exampleTranslation": "O policial nos ajudou.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "firefighter",
+"word": "firefighter",
+"translation": "bombeiro",
+"pron": "FAI-er-fai-rer",
+"example": "Firefighters are very brave.",
+"exampleTranslation": "Os bombeiros são muito corajosos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soldier",
+"word": "soldier",
+"translation": "soldado",
+"pron": "SÔUL-djer",
+"example": "My grandfather was a soldier.",
+"exampleTranslation": "Meu avô era soldado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sailor",
+"word": "sailor",
+"translation": "marinheiro",
+"pron": "SÊI-ler",
+"example": "The sailor works on a ship.",
+"exampleTranslation": "O marinheiro trabalha num navio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "officer",
+"word": "officer",
+"translation": "oficial",
+"pron": "Ó-fi-ser",
+"example": "He is an officer in the Navy.",
+"exampleTranslation": "Ele é oficial da Marinha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "farmer",
+"word": "farmer",
+"translation": "fazendeiro, agricultor",
+"pron": "FAR-mer",
+"example": "The farmer grows vegetables.",
+"exampleTranslation": "O agricultor planta legumes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mechanic",
+"word": "mechanic",
+"translation": "mecânico",
+"pron": "me-KÉ-nik",
+"example": "The mechanic fixed my car.",
+"exampleTranslation": "O mecânico consertou meu carro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "electrician",
+"word": "electrician",
+"translation": "eletricista",
+"pron": "i-lék-TRI-shân",
+"example": "Call an electrician.",
+"exampleTranslation": "Chame um eletricista.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "plumber",
+"word": "plumber",
+"translation": "encanador",
+"pron": "PLÂ-mer",
+"example": "The plumber is coming tomorrow.",
+"exampleTranslation": "O encanador vem amanhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "carpenter",
+"word": "carpenter",
+"translation": "carpinteiro, marceneiro",
+"pron": "KAR-pen-ter",
+"example": "The carpenter made this table.",
+"exampleTranslation": "O marceneiro fez esta mesa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "kitchen-assistant",
+"word": "kitchen assistant",
+"translation": "ajudante de cozinha",
+"pron": "KI-tchen a-SIS-tant",
+"example": "He works as a kitchen assistant.",
+"exampleTranslation": "Ele trabalha como ajudante de cozinha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "baker",
+"word": "baker",
+"translation": "padeiro",
+"pron": "BÊI-ker",
+"example": "The baker starts work at 4 a.m.",
+"exampleTranslation": "O padeiro começa às 4 da manhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "butcher",
+"word": "butcher",
+"translation": "açougueiro",
+"pron": "BU-tcher",
+"example": "Buy meat at the butcher.",
+"exampleTranslation": "Compre carne no açougue.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hairdresser",
+"word": "hairdresser",
+"translation": "cabeleireiro",
+"pron": "RÉR-dré-ser",
+"example": "My hairdresser is great.",
+"exampleTranslation": "Minha cabeleireira é ótima.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "barber",
+"word": "barber",
+"translation": "barbeiro",
+"pron": "BAR-ber",
+"example": "I go to the barber every month.",
+"exampleTranslation": "Eu vou ao barbeiro todo mês.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "architect",
+"word": "architect",
+"translation": "arquiteto",
+"pron": "AR-ki-tékt",
+"example": "The architect designed our house.",
+"exampleTranslation": "O arquiteto projetou nossa casa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "accountant",
+"word": "accountant",
+"translation": "contador",
+"pron": "a-KAUN-tant",
+"example": "My accountant does my taxes.",
+"exampleTranslation": "Meu contador faz meu imposto de renda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "secretary",
+"word": "secretary",
+"translation": "secretária",
+"pron": "SÉ-kre-té-ri",
+"example": "Talk to the secretary.",
+"exampleTranslation": "Fale com a secretária.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dentists-assistant",
+"word": "dentist's assistant",
+"translation": "auxiliar de dentista",
+"pron": "DÉN-tists a-SIS-tant",
+"example": "She works as a dentist's assistant.",
+"exampleTranslation": "Ela trabalha como auxiliar de dentista.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "salesman",
+"word": "salesman",
+"translation": "vendedor",
+"pron": "SEILZ-man",
+"example": "The salesman was very helpful.",
+"exampleTranslation": "O vendedor foi muito prestativo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "businessman",
+"word": "businessman",
+"translation": "empresário",
+"pron": "BIZ-nis-man",
+"example": "He is a successful businessman.",
+"exampleTranslation": "Ele é um empresário de sucesso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "journalist",
+"word": "journalist",
+"translation": "jornalista",
+"pron": "DJÂR-na-list",
+"example": "The journalist wrote about the city.",
+"exampleTranslation": "O jornalista escreveu sobre a cidade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "writer",
+"word": "writer",
+"translation": "escritor",
+"pron": "RAI-rer",
+"example": "She wants to be a writer.",
+"exampleTranslation": "Ela quer ser escritora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "artist",
+"word": "artist",
+"translation": "artista",
+"pron": "AR-tist",
+"example": "My daughter wants to be an artist.",
+"exampleTranslation": "Minha filha quer ser artista.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "musician",
+"word": "musician",
+"translation": "músico",
+"pron": "miu-ZI-shân",
+"example": "He is a talented musician.",
+"exampleTranslation": "Ele é um músico talentoso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "singer",
+"word": "singer",
+"translation": "cantor",
+"pron": "SIN-er",
+"example": "She is a famous singer.",
+"exampleTranslation": "Ela é uma cantora famosa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "actor",
+"word": "actor",
+"translation": "ator",
+"pron": "ÉK-ter",
+"example": "The actor is from Brazil.",
+"exampleTranslation": "O ator é do Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "actress",
+"word": "actress",
+"translation": "atriz",
+"pron": "ÉK-tres",
+"example": "She is a great actress.",
+"exampleTranslation": "Ela é uma ótima atriz.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "photographer",
+"word": "photographer",
+"translation": "fotógrafo",
+"pron": "fo-TÓ-gra-fer",
+"example": "We hired a photographer for the wedding.",
+"exampleTranslation": "Contratamos um fotógrafo para o casamento.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "designer",
+"word": "designer",
+"translation": "designer",
+"pron": "di-ZAI-ner",
+"example": "She is a graphic designer.",
+"exampleTranslation": "Ela é designer gráfica.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "programmer",
+"word": "programmer",
+"translation": "programador",
+"pron": "PRÔU-gré-mer",
+"example": "He works as a programmer.",
+"exampleTranslation": "Ele trabalha como programador.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "scientist",
+"word": "scientist",
+"translation": "cientista",
+"pron": "SAI-en-tist",
+"example": "The scientist works in a lab.",
+"exampleTranslation": "O cientista trabalha num laboratório.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pharmacist",
+"word": "pharmacist",
+"translation": "farmacêutico",
+"pron": "FAR-ma-sist",
+"example": "Ask the pharmacist.",
+"exampleTranslation": "Pergunte ao farmacêutico.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "veterinarian",
+"word": "veterinarian",
+"translation": "veterinário",
+"pron": "vé-te-ri-NÉ-ri-an",
+"example": "My cousin is a veterinarian.",
+"exampleTranslation": "Minha prima é veterinária.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "psychologist",
+"word": "psychologist",
+"translation": "psicólogo",
+"pron": "sai-KÓ-lo-djist",
+"example": "She is a child psychologist.",
+"exampleTranslation": "Ela é psicóloga infantil.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "bus-driver",
+"word": "bus driver",
+"translation": "motorista de ônibus",
+"pron": "DRAI-ver",
+"example": "He works as a bus driver.",
+"exampleTranslation": "Ele trabalha como motorista de ônibus.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mail-carrier",
+"word": "mail carrier",
+"translation": "carteiro",
+"pron": "MEIL ké-ri-er",
+"example": "The mail carrier comes at ten.",
+"exampleTranslation": "O carteiro passa às dez.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cleaner",
+"word": "cleaner",
+"translation": "faxineiro(a)",
+"pron": "KLII-ner",
+"example": "The cleaner comes on Fridays.",
+"exampleTranslation": "A faxineira vem às sextas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "babysitter",
+"word": "babysitter",
+"translation": "babá",
+"pron": "BÊI-bi-si-rer",
+"example": "We need a babysitter tonight.",
+"exampleTranslation": "Precisamos de uma babá hoje à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "nanny",
+"word": "nanny",
+"translation": "babá (fixa)",
+"pron": "NÉ-ni",
+"example": "The nanny takes care of the baby.",
+"exampleTranslation": "A babá cuida do bebê.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "security-guard",
+"word": "security guard",
+"translation": "segurança, vigia",
+"pron": "si-KIÚ-ri-ti gard",
+"example": "The security guard is at the door.",
+"exampleTranslation": "O segurança está na porta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "housewife",
+"word": "housewife",
+"translation": "dona de casa",
+"pron": "RAUS-uaif",
+"example": "My grandmother was a housewife.",
+"exampleTranslation": "Minha avó era dona de casa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "volunteer",
+"word": "volunteer",
+"translation": "voluntário",
+"pron": "vó-lun-TÍR",
+"example": "She works as a volunteer.",
+"exampleTranslation": "Ela trabalha como voluntária.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "athlete",
+"word": "athlete",
+"translation": "atleta",
+"pron": "ÉTH-liit",
+"example": "He is a professional athlete.",
+"exampleTranslation": "Ele é atleta profissional.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "coach",
+"word": "coach",
+"translation": "treinador",
+"pron": "KÔUTCH",
+"example": "The coach is proud of the team.",
+"exampleTranslation": "O treinador tem orgulho do time.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tour-guide",
+"word": "tour guide",
+"translation": "guia de turismo",
+"pron": "TÚR gaid",
+"example": "Our tour guide was excellent.",
+"exampleTranslation": "Nosso guia de turismo foi excelente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "profession",
+"word": "profession",
+"translation": "profissão",
+"pron": "pro-FÉ-shân",
+"example": "What's your profession?",
+"exampleTranslation": "Qual é a sua profissão?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "what-do-you-do",
+"word": "What do you do?",
+"translation": "O que você faz (profissão)?",
+"pron": "uót du iu DU",
+"example": "What do you do? - I'm a nurse.",
+"exampleTranslation": "O que você faz? - Sou enfermeira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "self-employed",
+"word": "self-employed",
+"translation": "autônomo",
+"pron": "sélf-im-PLÓID",
+"example": "My father is self-employed.",
+"exampleTranslation": "Meu pai é autônomo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "intern",
+"word": "intern",
+"translation": "estagiário",
+"pron": "IN-târn",
+"example": "She is an intern at the bank.",
+"exampleTranslation": "Ela é estagiária no banco.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "gardener",
+"word": "gardener",
+"translation": "jardineiro",
+"pron": "GAR-de-ner",
+"example": "The gardener cuts the grass.",
+"exampleTranslation": "O jardineiro corta a grama.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "construction-worker",
+"word": "construction worker",
+"translation": "pedreiro, operário de obra",
+"pron": "kons-TRÂK-shân uâr-ker",
+"example": "The construction workers start early.",
+"exampleTranslation": "Os pedreiros começam cedo.",
+"difficulty": 2,
+"level": "basic"
+}
+]

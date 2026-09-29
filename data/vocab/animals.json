@@ -1,0 +1,602 @@
+[
+{
+"slug": "animal",
+"word": "animal",
+"translation": "animal",
+"pron": "É-ni-mal",
+"example": "What's your favorite animal?",
+"exampleTranslation": "Qual é o seu animal favorito?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dog",
+"word": "dog",
+"translation": "cachorro",
+"pron": "DÓG",
+"example": "Our dog is very friendly.",
+"exampleTranslation": "Nosso cachorro é muito dócil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cat",
+"word": "cat",
+"translation": "gato",
+"pron": "KÉT",
+"example": "The cat is sleeping.",
+"exampleTranslation": "O gato está dormindo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "puppy",
+"word": "puppy",
+"translation": "filhote de cachorro",
+"pron": "PÂ-pi",
+"example": "Look at the cute puppy!",
+"exampleTranslation": "Olha o filhotinho fofo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kitten",
+"word": "kitten",
+"translation": "gatinho (filhote)",
+"pron": "KI-ten",
+"example": "The kitten is playing.",
+"exampleTranslation": "O gatinho está brincando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pet",
+"word": "pet",
+"translation": "animal de estimação",
+"pron": "PÉT",
+"example": "Do you have a pet?",
+"exampleTranslation": "Você tem animal de estimação?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bird",
+"word": "bird",
+"translation": "pássaro",
+"pron": "BÂRD",
+"example": "A bird is singing.",
+"exampleTranslation": "Um passarinho está cantando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fish",
+"word": "fish",
+"translation": "peixe (animal)",
+"pron": "FISH",
+"example": "The kids watched the fish in the aquarium.",
+"exampleTranslation": "As crianças viram os peixes no aquário.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "horse",
+"word": "horse",
+"translation": "cavalo",
+"pron": "RÓRS",
+"example": "Can you ride a horse?",
+"exampleTranslation": "Você sabe andar a cavalo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cow",
+"word": "cow",
+"translation": "vaca",
+"pron": "KAU",
+"example": "The cow gives milk.",
+"exampleTranslation": "A vaca dá leite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pig",
+"word": "pig",
+"translation": "porco",
+"pron": "PIG",
+"example": "The pig is in the mud.",
+"exampleTranslation": "O porco está na lama.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hen",
+"word": "hen",
+"translation": "galinha",
+"pron": "RÉN",
+"example": "The hen laid an egg.",
+"exampleTranslation": "A galinha botou um ovo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rooster",
+"word": "rooster",
+"translation": "galo",
+"pron": "RUUS-ter",
+"example": "The rooster wakes us up.",
+"exampleTranslation": "O galo nos acorda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "duck",
+"word": "duck",
+"translation": "pato",
+"pron": "DÂK",
+"example": "The ducks are in the lake.",
+"exampleTranslation": "Os patos estão no lago.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sheep",
+"word": "sheep",
+"translation": "ovelha",
+"pron": "SHIIP",
+"example": "The sheep are in the field.",
+"exampleTranslation": "As ovelhas estão no campo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "goat",
+"word": "goat",
+"translation": "cabra, bode",
+"pron": "GÔUT",
+"example": "The goat eats everything.",
+"exampleTranslation": "A cabra come de tudo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rabbit",
+"word": "rabbit",
+"translation": "coelho",
+"pron": "RÉ-bit",
+"example": "The rabbit is eating a carrot.",
+"exampleTranslation": "O coelho está comendo uma cenoura.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mouse",
+"word": "mouse",
+"translation": "camundongo",
+"pron": "MAUS",
+"example": "I saw a mouse in the kitchen!",
+"exampleTranslation": "Eu vi um rato na cozinha!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rat",
+"word": "rat",
+"translation": "rato (ratazana)",
+"pron": "RÉT",
+"example": "There are rats in the old house.",
+"exampleTranslation": "Tem ratos na casa velha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lion",
+"word": "lion",
+"translation": "leão",
+"pron": "LAI-on",
+"example": "The lion is the king of the jungle.",
+"exampleTranslation": "O leão é o rei da selva.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tiger",
+"word": "tiger",
+"translation": "tigre",
+"pron": "TAI-guer",
+"example": "Tigers have stripes.",
+"exampleTranslation": "Tigres têm listras.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "elephant",
+"word": "elephant",
+"translation": "elefante",
+"pron": "É-le-fant",
+"example": "Elephants are very big.",
+"exampleTranslation": "Elefantes são muito grandes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "monkey",
+"word": "monkey",
+"translation": "macaco",
+"pron": "MÂN-ki",
+"example": "The monkey is eating a banana.",
+"exampleTranslation": "O macaco está comendo uma banana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "giraffe",
+"word": "giraffe",
+"translation": "girafa",
+"pron": "dji-RÉF",
+"example": "Giraffes have long necks.",
+"exampleTranslation": "Girafas têm pescoço comprido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "zebra",
+"word": "zebra",
+"translation": "zebra",
+"pron": "ZII-bra",
+"example": "The zebra is black and white.",
+"exampleTranslation": "A zebra é preta e branca.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bear",
+"word": "bear",
+"translation": "urso",
+"pron": "BÉR",
+"example": "Bears sleep in winter.",
+"exampleTranslation": "Ursos dormem no inverno.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wolf",
+"word": "wolf",
+"translation": "lobo",
+"pron": "UULF",
+"example": "The wolf howls at night.",
+"exampleTranslation": "O lobo uiva à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fox",
+"word": "fox",
+"translation": "raposa",
+"pron": "FÓKS",
+"example": "The fox is very clever.",
+"exampleTranslation": "A raposa é muito esperta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "snake",
+"word": "snake",
+"translation": "cobra",
+"pron": "SNEIK",
+"example": "Be careful, there's a snake!",
+"exampleTranslation": "Cuidado, tem uma cobra!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "frog",
+"word": "frog",
+"translation": "sapo",
+"pron": "FRÓG",
+"example": "The frog jumped into the water.",
+"exampleTranslation": "O sapo pulou na água.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "turtle",
+"word": "turtle",
+"translation": "tartaruga",
+"pron": "TÂR-rol",
+"example": "Sea turtles are protected.",
+"exampleTranslation": "Tartarugas marinhas são protegidas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "crocodile",
+"word": "crocodile",
+"translation": "crocodilo",
+"pron": "KRÓ-ko-dail",
+"example": "Crocodiles live in rivers.",
+"exampleTranslation": "Crocodilos vivem em rios.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shark",
+"word": "shark",
+"translation": "tubarão",
+"pron": "SHARK",
+"example": "Sharks live in the ocean.",
+"exampleTranslation": "Tubarões vivem no oceano.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "whale",
+"word": "whale",
+"translation": "baleia",
+"pron": "UEIL",
+"example": "We saw a whale from the boat!",
+"exampleTranslation": "Vimos uma baleia do barco!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dolphin",
+"word": "dolphin",
+"translation": "golfinho",
+"pron": "DÓL-fin",
+"example": "Dolphins are very smart.",
+"exampleTranslation": "Golfinhos são muito inteligentes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "parrot",
+"word": "parrot",
+"translation": "papagaio",
+"pron": "PÉ-rot",
+"example": "The parrot can talk.",
+"exampleTranslation": "O papagaio sabe falar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "owl",
+"word": "owl",
+"translation": "coruja",
+"pron": "AUL",
+"example": "Owls hunt at night.",
+"exampleTranslation": "Corujas caçam à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "eagle",
+"word": "eagle",
+"translation": "águia",
+"pron": "II-gol",
+"example": "The eagle flies very high.",
+"exampleTranslation": "A águia voa muito alto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "insect",
+"word": "insect",
+"translation": "inseto",
+"pron": "IN-sékt",
+"example": "There are many insects in summer.",
+"exampleTranslation": "Tem muitos insetos no verão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bee",
+"word": "bee",
+"translation": "abelha",
+"pron": "BII",
+"example": "Bees make honey.",
+"exampleTranslation": "Abelhas fazem mel.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "butterfly",
+"word": "butterfly",
+"translation": "borboleta",
+"pron": "BÂ-rer-flai",
+"example": "Look at the butterfly!",
+"exampleTranslation": "Olha a borboleta!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ant",
+"word": "ant",
+"translation": "formiga",
+"pron": "ÉNT",
+"example": "There are ants in the sugar.",
+"exampleTranslation": "Tem formigas no açúcar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "spider",
+"word": "spider",
+"translation": "aranha",
+"pron": "SPAI-der",
+"example": "I'm afraid of spiders.",
+"exampleTranslation": "Eu tenho medo de aranha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mosquito",
+"word": "mosquito",
+"translation": "mosquito, pernilongo",
+"pron": "mos-KII-tou",
+"example": "The mosquitoes are biting me.",
+"exampleTranslation": "Os pernilongos estão me picando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fly",
+"word": "fly",
+"translation": "mosca",
+"pron": "FLAI",
+"example": "There's a fly in my soup!",
+"exampleTranslation": "Tem uma mosca na minha sopa!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cockroach",
+"word": "cockroach",
+"translation": "barata",
+"pron": "KÓK-rôutch",
+"example": "I saw a cockroach in the kitchen.",
+"exampleTranslation": "Eu vi uma barata na cozinha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "worm",
+"word": "worm",
+"translation": "minhoca, verme",
+"pron": "UÂRM",
+"example": "Birds eat worms.",
+"exampleTranslation": "Pássaros comem minhocas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bat",
+"word": "bat",
+"translation": "morcego",
+"pron": "BÉT",
+"example": "Bats come out at night.",
+"exampleTranslation": "Morcegos saem à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "squirrel",
+"word": "squirrel",
+"translation": "esquilo",
+"pron": "SKUÂ-rol",
+"example": "A squirrel ran up the tree.",
+"exampleTranslation": "Um esquilo subiu na árvore.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "deer",
+"word": "deer",
+"translation": "veado, cervo",
+"pron": "DÍR",
+"example": "We saw a deer in the forest.",
+"exampleTranslation": "Vimos um cervo na floresta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "penguin",
+"word": "penguin",
+"translation": "pinguim",
+"pron": "PÉN-guin",
+"example": "Penguins can't fly.",
+"exampleTranslation": "Pinguins não sabem voar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tail",
+"word": "tail",
+"translation": "rabo, cauda",
+"pron": "TEIL",
+"example": "The dog is wagging its tail.",
+"exampleTranslation": "O cachorro está abanando o rabo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fur",
+"word": "fur",
+"translation": "pelo (de animal)",
+"pron": "FÂR",
+"example": "The cat has soft fur.",
+"exampleTranslation": "O gato tem pelo macio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "feather",
+"word": "feather",
+"translation": "pena",
+"pron": "FÉ-dher",
+"example": "I found a blue feather.",
+"exampleTranslation": "Eu achei uma pena azul.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "paw",
+"word": "paw",
+"translation": "pata",
+"pron": "PÓ",
+"example": "The dog hurt its paw.",
+"exampleTranslation": "O cachorro machucou a pata.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bark",
+"word": "bark",
+"translation": "latir",
+"pron": "BARK",
+"example": "The dog barks at strangers.",
+"exampleTranslation": "O cachorro late para estranhos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "feed",
+"word": "feed",
+"translation": "alimentar, dar comida",
+"pron": "FIID",
+"example": "Don't forget to feed the cat.",
+"exampleTranslation": "Não esqueça de dar comida ao gato.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "walk-the-dog",
+"word": "walk the dog",
+"translation": "levar o cachorro para passear",
+"pron": "uók dhe DÓG",
+"example": "I walk the dog every morning.",
+"exampleTranslation": "Eu passeio com o cachorro toda manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cage",
+"word": "cage",
+"translation": "gaiola, jaula",
+"pron": "KEIDJ",
+"example": "The bird is in the cage.",
+"exampleTranslation": "O pássaro está na gaiola.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vet",
+"word": "vet",
+"translation": "veterinário",
+"pron": "VÉT",
+"example": "Take the dog to the vet.",
+"exampleTranslation": "Leve o cachorro ao veterinário.",
+"difficulty": 2,
+"level": "basic"
+}
+]

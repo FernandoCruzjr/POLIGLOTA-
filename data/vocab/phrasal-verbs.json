@@ -1,0 +1,602 @@
+[
+{
+"slug": "turn-into",
+"word": "turn into",
+"translation": "transformar-se em",
+"pron": "târn IN-tu",
+"example": "The caterpillar turned into a butterfly.",
+"exampleTranslation": "A lagarta virou borboleta.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "get-along-with",
+"word": "get along with",
+"translation": "dar-se bem com",
+"pron": "guét a-LÓN uidh",
+"example": "Do you get along with your boss?",
+"exampleTranslation": "Você se dá bem com seu chefe?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn-up",
+"word": "turn up",
+"translation": "aumentar (volume)",
+"pron": "târn ÂP",
+"example": "Turn up the music!",
+"exampleTranslation": "Aumenta a música!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn-down",
+"word": "turn down",
+"translation": "abaixar (volume); recusar",
+"pron": "târn DAUN",
+"example": "Turn down the TV, the baby is sleeping.",
+"exampleTranslation": "Abaixe a TV, o bebê está dormindo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "look-after",
+"word": "look after",
+"translation": "cuidar de",
+"pron": "luk ÉF-ter",
+"example": "Can you look after the baby?",
+"exampleTranslation": "Você pode cuidar do bebê?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "look-up",
+"word": "look up",
+"translation": "procurar (informação)",
+"pron": "luk ÂP",
+"example": "Look up the word in the dictionary.",
+"exampleTranslation": "Procure a palavra no dicionário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "look-forward-to",
+"word": "look forward to",
+"translation": "estar ansioso por (algo bom)",
+"pron": "luk FÓR-uârd tu",
+"example": "I'm looking forward to the trip.",
+"exampleTranslation": "Estou ansioso pela viagem.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "find-out",
+"word": "find out",
+"translation": "descobrir",
+"pron": "faind AUT",
+"example": "I found out the truth.",
+"exampleTranslation": "Eu descobri a verdade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "give-up",
+"word": "give up",
+"translation": "desistir",
+"pron": "guiv ÂP",
+"example": "Don't give up!",
+"exampleTranslation": "Não desista!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "give-back",
+"word": "give back",
+"translation": "devolver",
+"pron": "guiv BÉK",
+"example": "Give back my pen!",
+"exampleTranslation": "Devolve minha caneta!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "come-back",
+"word": "come back",
+"translation": "voltar",
+"pron": "kâm BÉK",
+"example": "Come back soon!",
+"exampleTranslation": "Volte logo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "come-in",
+"word": "come in",
+"translation": "entrar",
+"pron": "kâm IN",
+"example": "Come in, please.",
+"exampleTranslation": "Entre, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "come-on",
+"word": "come on",
+"translation": "vamos!, anda!",
+"pron": "kâm ÓN",
+"example": "Come on, we're late!",
+"exampleTranslation": "Anda, estamos atrasados!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "go-back",
+"word": "go back",
+"translation": "voltar (para lá)",
+"pron": "gôu BÉK",
+"example": "Let's go back home.",
+"exampleTranslation": "Vamos voltar para casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "go-on",
+"word": "go on",
+"translation": "continuar",
+"pron": "gôu ÓN",
+"example": "Please go on.",
+"exampleTranslation": "Por favor, continue.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "get-in",
+"word": "get in",
+"translation": "entrar (no carro)",
+"pron": "guét IN",
+"example": "Get in the car.",
+"exampleTranslation": "Entre no carro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-out",
+"word": "get out",
+"translation": "sair",
+"pron": "guét AUT",
+"example": "Get out of the water.",
+"exampleTranslation": "Saia da água.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-back",
+"word": "get back",
+"translation": "voltar, retornar",
+"pron": "guét BÉK",
+"example": "When did you get back?",
+"exampleTranslation": "Quando você voltou?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "get-over",
+"word": "get over",
+"translation": "superar",
+"pron": "guét ÔU-ver",
+"example": "She got over her cold.",
+"exampleTranslation": "Ela superou o resfriado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "sit-down",
+"word": "sit down",
+"translation": "sentar-se",
+"pron": "sit DAUN",
+"example": "Sit down and relax.",
+"exampleTranslation": "Sente-se e relaxe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stand-up",
+"word": "stand up",
+"translation": "levantar-se (ficar de pé)",
+"pron": "stend ÂP",
+"example": "Stand up, please.",
+"exampleTranslation": "Levante-se, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "put-away",
+"word": "put away",
+"translation": "guardar",
+"pron": "put a-UEI",
+"example": "Put away your toys.",
+"exampleTranslation": "Guarde seus brinquedos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "put-off",
+"word": "put off",
+"translation": "adiar",
+"pron": "put ÓF",
+"example": "Don't put it off until tomorrow.",
+"exampleTranslation": "Não deixe para amanhã.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "take-out",
+"word": "take out",
+"translation": "tirar; levar para fora",
+"pron": "teik AUT",
+"example": "Take out the trash.",
+"exampleTranslation": "Leve o lixo para fora.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "throw-away",
+"word": "throw away",
+"translation": "jogar fora",
+"pron": "throu a-UEI",
+"example": "Don't throw away the box.",
+"exampleTranslation": "Não jogue fora a caixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pick-out",
+"word": "pick out",
+"translation": "escolher",
+"pron": "pik AUT",
+"example": "Pick out a toy.",
+"exampleTranslation": "Escolha um brinquedo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "set-up",
+"word": "set up",
+"translation": "montar, configurar",
+"pron": "sét ÂP",
+"example": "Can you set up my new phone?",
+"exampleTranslation": "Você pode configurar meu celular novo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fill-in",
+"word": "fill in",
+"translation": "preencher (lacunas)",
+"pron": "fil IN",
+"example": "Fill in the blanks.",
+"exampleTranslation": "Preencha as lacunas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hold-on",
+"word": "hold on",
+"translation": "espere um pouco",
+"pron": "rôuld ÓN",
+"example": "Hold on a second.",
+"exampleTranslation": "Espere um segundo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "calm-down",
+"word": "calm down",
+"translation": "acalmar-se",
+"pron": "kám DAUN",
+"example": "Calm down, everything is fine.",
+"exampleTranslation": "Calma, está tudo bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cheer-up",
+"word": "cheer up",
+"translation": "animar-se",
+"pron": "tchír ÂP",
+"example": "Cheer up! It's not so bad.",
+"exampleTranslation": "Anime-se! Não é tão ruim.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "slow-down",
+"word": "slow down",
+"translation": "ir mais devagar",
+"pron": "slôu DAUN",
+"example": "Slow down, please.",
+"exampleTranslation": "Vá mais devagar, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "speed-up",
+"word": "speed up",
+"translation": "acelerar",
+"pron": "spiid ÂP",
+"example": "We need to speed up.",
+"exampleTranslation": "Precisamos acelerar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "run-out-of",
+"word": "run out of",
+"translation": "ficar sem",
+"pron": "rân AUT óv",
+"example": "We ran out of milk.",
+"exampleTranslation": "Ficamos sem leite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "break-down",
+"word": "break down",
+"translation": "quebrar (máquina, carro)",
+"pron": "breik DAUN",
+"example": "Our car broke down.",
+"exampleTranslation": "Nosso carro quebrou.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "show-up",
+"word": "show up",
+"translation": "aparecer",
+"pron": "shôu ÂP",
+"example": "He didn't show up.",
+"exampleTranslation": "Ele não apareceu.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "work-out",
+"word": "work out",
+"translation": "malhar; dar certo",
+"pron": "uârk AUT",
+"example": "I work out at the gym.",
+"exampleTranslation": "Eu malho na academia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "figure-out",
+"word": "figure out",
+"translation": "entender, descobrir",
+"pron": "fi-guer AUT",
+"example": "I can't figure it out.",
+"exampleTranslation": "Não consigo entender.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "go-ahead",
+"word": "go ahead",
+"translation": "pode ir, fique à vontade",
+"pron": "gôu a-RÉD",
+"example": "Go ahead, eat!",
+"exampleTranslation": "Pode comer, fique à vontade!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "check-in",
+"word": "check in",
+"translation": "fazer check-in",
+"pron": "tchék IN",
+"example": "We checked in at noon.",
+"exampleTranslation": "Fizemos o check-in ao meio-dia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fall-asleep",
+"word": "fall asleep",
+"translation": "pegar no sono",
+"pron": "fól a-SLIIP",
+"example": "The baby fell asleep.",
+"exampleTranslation": "O bebê pegou no sono.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dress-up",
+"word": "dress up",
+"translation": "arrumar-se, fantasiar-se",
+"pron": "drés ÂP",
+"example": "The kids dressed up as pirates.",
+"exampleTranslation": "As crianças se fantasiaram de piratas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "eat-out",
+"word": "eat out",
+"translation": "comer fora",
+"pron": "iit AUT",
+"example": "Let's eat out tonight.",
+"exampleTranslation": "Vamos comer fora hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "go-over",
+"word": "go over",
+"translation": "revisar",
+"pron": "gôu ÔU-ver",
+"example": "Let's go over the lesson.",
+"exampleTranslation": "Vamos revisar a lição.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "call-back",
+"word": "call back",
+"translation": "retornar a ligação",
+"pron": "kól BÉK",
+"example": "I'll call you back.",
+"exampleTranslation": "Eu te retorno a ligação.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hang-up",
+"word": "hang up",
+"translation": "desligar (telefone)",
+"pron": "réng ÂP",
+"example": "Don't hang up!",
+"exampleTranslation": "Não desligue!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "write-down",
+"word": "write down",
+"translation": "anotar",
+"pron": "rait DAUN",
+"example": "Write down my number.",
+"exampleTranslation": "Anote o meu número.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cross-out",
+"word": "cross out",
+"translation": "riscar",
+"pron": "krós AUT",
+"example": "Cross out the wrong answer.",
+"exampleTranslation": "Risque a resposta errada.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "clean-up",
+"word": "clean up",
+"translation": "arrumar, limpar",
+"pron": "kliin ÂP",
+"example": "Let's clean up the kitchen.",
+"exampleTranslation": "Vamos arrumar a cozinha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pick-up",
+"word": "pick up",
+"translation": "buscar; pegar do chão",
+"pron": "pik ÂP",
+"example": "Pick up your clothes from the floor.",
+"exampleTranslation": "Pegue suas roupas do chão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fill-up",
+"word": "fill up",
+"translation": "encher (o tanque)",
+"pron": "fil ÂP",
+"example": "Fill up the tank, please.",
+"exampleTranslation": "Complete o tanque, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn-around",
+"word": "turn around",
+"translation": "virar-se",
+"pron": "târn a-RAUND",
+"example": "Turn around, please.",
+"exampleTranslation": "Vire-se, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "keep-going",
+"word": "keep going",
+"translation": "continuar (seguir)",
+"pron": "kiip GÔU-in",
+"example": "Keep going, you can do it!",
+"exampleTranslation": "Continue, você consegue!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "let-go",
+"word": "let go",
+"translation": "soltar",
+"pron": "lét GÔU",
+"example": "Don't let go of my hand.",
+"exampleTranslation": "Não solte a minha mão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grow-out-of",
+"word": "grow out of",
+"translation": "perder (roupa, por crescer)",
+"pron": "grôu AUT óv",
+"example": "The baby grew out of her shoes.",
+"exampleTranslation": "O sapatinho do bebê não serve mais.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "catch-up",
+"word": "catch up",
+"translation": "alcançar; pôr em dia",
+"pron": "kétch ÂP",
+"example": "Let's meet and catch up.",
+"exampleTranslation": "Vamos nos encontrar e pôr a conversa em dia.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "move-on",
+"word": "move on",
+"translation": "seguir em frente",
+"pron": "muuv ÓN",
+"example": "It's time to move on.",
+"exampleTranslation": "É hora de seguir em frente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "take-care",
+"word": "take care",
+"translation": "cuidar-se",
+"pron": "teik KÉR",
+"example": "Take care!",
+"exampleTranslation": "Se cuida!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wait-for",
+"word": "wait for",
+"translation": "esperar por",
+"pron": "UEIT for",
+"example": "Wait for me!",
+"exampleTranslation": "Espere por mim!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "belong-to",
+"word": "belong to",
+"translation": "pertencer a",
+"pron": "bi-LÓN tu",
+"example": "This bag belongs to me.",
+"exampleTranslation": "Esta bolsa é minha.",
+"difficulty": 2,
+"level": "basic"
+}
+]

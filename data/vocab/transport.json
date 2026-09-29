@@ -1,0 +1,502 @@
+[
+{
+"slug": "car",
+"word": "car",
+"translation": "carro",
+"pron": "KAR",
+"example": "My car is in the garage.",
+"exampleTranslation": "Meu carro está na garagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bus",
+"word": "bus",
+"translation": "ônibus",
+"pron": "BÂS",
+"example": "I take the bus to work.",
+"exampleTranslation": "Eu pego o ônibus para o trabalho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bus-stop",
+"word": "bus stop",
+"translation": "ponto de ônibus",
+"pron": "BÂS stóp",
+"example": "The bus stop is on the corner.",
+"exampleTranslation": "O ponto de ônibus fica na esquina.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "train",
+"word": "train",
+"translation": "trem",
+"pron": "TREIN",
+"example": "The train is fast.",
+"exampleTranslation": "O trem é rápido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "subway",
+"word": "subway",
+"translation": "metrô",
+"pron": "SÂB-uei",
+"example": "Let's take the subway.",
+"exampleTranslation": "Vamos de metrô.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "station",
+"word": "station",
+"translation": "estação",
+"pron": "STÊI-shân",
+"example": "Where is the train station?",
+"exampleTranslation": "Onde fica a estação de trem?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "taxi",
+"word": "taxi",
+"translation": "táxi",
+"pron": "TÉK-si",
+"example": "Let's take a taxi.",
+"exampleTranslation": "Vamos pegar um táxi.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bike",
+"word": "bike",
+"translation": "bicicleta",
+"pron": "BAIK",
+"example": "I ride my bike to school.",
+"exampleTranslation": "Eu vou de bicicleta para a escola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "motorcycle",
+"word": "motorcycle",
+"translation": "moto",
+"pron": "MÔU-ter-sai-kol",
+"example": "He has a red motorcycle.",
+"exampleTranslation": "Ele tem uma moto vermelha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "truck",
+"word": "truck",
+"translation": "caminhão",
+"pron": "TRÂK",
+"example": "A big truck is blocking the road.",
+"exampleTranslation": "Um caminhão grande está bloqueando a estrada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boat",
+"word": "boat",
+"translation": "barco",
+"pron": "BÔUT",
+"example": "We went to the island by boat.",
+"exampleTranslation": "Fomos para a ilha de barco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ship",
+"word": "ship",
+"translation": "navio",
+"pron": "SHIP",
+"example": "The ship is leaving the port.",
+"exampleTranslation": "O navio está saindo do porto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ferry",
+"word": "ferry",
+"translation": "balsa",
+"pron": "FÉ-ri",
+"example": "We took the ferry to the island.",
+"exampleTranslation": "Pegamos a balsa para a ilha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "drive",
+"word": "drive",
+"translation": "dirigir",
+"pron": "DRAIV",
+"example": "Can you drive?",
+"exampleTranslation": "Você sabe dirigir?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "driver",
+"word": "driver",
+"translation": "motorista",
+"pron": "DRAI-ver",
+"example": "The driver was very careful.",
+"exampleTranslation": "O motorista foi muito cuidadoso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "drivers-license",
+"word": "driver's license",
+"translation": "carteira de motorista",
+"pron": "DRAI-verz LAI-sens",
+"example": "Do you have a driver's license?",
+"exampleTranslation": "Você tem carteira de motorista?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ride",
+"word": "ride",
+"translation": "andar (de bicicleta, cavalo); carona",
+"pron": "RAID",
+"example": "Can you give me a ride?",
+"exampleTranslation": "Você pode me dar uma carona?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-on",
+"word": "get on",
+"translation": "subir (no ônibus, trem)",
+"pron": "guét ÓN",
+"example": "Get on the bus here.",
+"exampleTranslation": "Suba no ônibus aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "get-off",
+"word": "get off",
+"translation": "descer (do ônibus, trem)",
+"pron": "guét ÓF",
+"example": "Get off at the next stop.",
+"exampleTranslation": "Desça no próximo ponto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fare",
+"word": "fare",
+"translation": "tarifa, preço da passagem",
+"pron": "FÉR",
+"example": "How much is the bus fare?",
+"exampleTranslation": "Quanto custa a passagem de ônibus?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "schedule",
+"word": "schedule",
+"translation": "horário (tabela)",
+"pron": "SKÉ-djul",
+"example": "Check the train schedule.",
+"exampleTranslation": "Confira o horário dos trens.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "platform",
+"word": "platform",
+"translation": "plataforma",
+"pron": "PLÉT-form",
+"example": "The train leaves from platform 3.",
+"exampleTranslation": "O trem sai da plataforma 3.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "stop",
+"word": "stop",
+"translation": "parada; parar",
+"pron": "STÓP",
+"example": "Stop the car, please.",
+"exampleTranslation": "Pare o carro, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "traffic",
+"word": "traffic",
+"translation": "trânsito",
+"pron": "TRÉ-fik",
+"example": "The traffic is terrible today.",
+"exampleTranslation": "O trânsito está terrível hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "traffic-light",
+"word": "traffic light",
+"translation": "semáforo",
+"pron": "TRÉ-fik lait",
+"example": "Turn right at the traffic light.",
+"exampleTranslation": "Vire à direita no semáforo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "traffic-jam",
+"word": "traffic jam",
+"translation": "engarrafamento",
+"pron": "TRÉ-fik djém",
+"example": "We were stuck in a traffic jam.",
+"exampleTranslation": "Ficamos presos num engarrafamento.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "road",
+"word": "road",
+"translation": "estrada",
+"pron": "RÔUD",
+"example": "This road goes to the beach.",
+"exampleTranslation": "Esta estrada vai para a praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "highway",
+"word": "highway",
+"translation": "rodovia",
+"pron": "RAI-uei",
+"example": "Take the highway north.",
+"exampleTranslation": "Pegue a rodovia para o norte.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "gas-station",
+"word": "gas station",
+"translation": "posto de gasolina",
+"pron": "GÉS stêi-shân",
+"example": "We need to stop at a gas station.",
+"exampleTranslation": "Precisamos parar num posto de gasolina.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "gas",
+"word": "gas",
+"translation": "gasolina",
+"pron": "GÉS",
+"example": "The car needs gas.",
+"exampleTranslation": "O carro precisa de gasolina.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "parking-lot",
+"word": "parking lot",
+"translation": "estacionamento",
+"pron": "PAR-kin lót",
+"example": "The parking lot is full.",
+"exampleTranslation": "O estacionamento está lotado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "park-the-car",
+"word": "park the car",
+"translation": "estacionar o carro",
+"pron": "park dhe KAR",
+"example": "Where can I park the car?",
+"exampleTranslation": "Onde posso estacionar o carro?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "speed",
+"word": "speed",
+"translation": "velocidade",
+"pron": "SPIID",
+"example": "Slow down, watch your speed!",
+"exampleTranslation": "Mais devagar, cuidado com a velocidade!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tire",
+"word": "tire",
+"translation": "pneu",
+"pron": "TAI-er",
+"example": "We have a flat tire.",
+"exampleTranslation": "Estamos com um pneu furado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wheel",
+"word": "wheel",
+"translation": "roda; volante",
+"pron": "UIIL",
+"example": "Keep your hands on the wheel.",
+"exampleTranslation": "Mantenha as mãos no volante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "helmet",
+"word": "helmet",
+"translation": "capacete",
+"pron": "RÉL-met",
+"example": "Always wear a helmet.",
+"exampleTranslation": "Use sempre capacete.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "passenger-seat",
+"word": "passenger seat",
+"translation": "banco do passageiro",
+"pron": "PÉ-sen-djer siit",
+"example": "Sit in the passenger seat.",
+"exampleTranslation": "Sente-se no banco do passageiro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "accident",
+"word": "accident",
+"translation": "acidente",
+"pron": "ÉK-si-dent",
+"example": "There was an accident on the highway.",
+"exampleTranslation": "Houve um acidente na rodovia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rent-a-car",
+"word": "rent a car",
+"translation": "alugar um carro",
+"pron": "rént a KAR",
+"example": "We rented a car for the trip.",
+"exampleTranslation": "Alugamos um carro para a viagem.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "walk",
+"word": "walk",
+"translation": "andar a pé, caminhar",
+"pron": "UÓK",
+"example": "Let's walk to the park.",
+"exampleTranslation": "Vamos a pé até o parque.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "on-foot",
+"word": "on foot",
+"translation": "a pé",
+"pron": "ón FUT",
+"example": "We went there on foot.",
+"exampleTranslation": "Fomos lá a pé.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "public-transportation",
+"word": "public transportation",
+"translation": "transporte público",
+"pron": "PÂ-blik trens-por-TÊI-shân",
+"example": "Public transportation here is good.",
+"exampleTranslation": "O transporte público aqui é bom.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ticket-machine",
+"word": "ticket machine",
+"translation": "máquina de bilhetes",
+"pron": "TI-ket ma-SHIIN",
+"example": "Buy your ticket at the ticket machine.",
+"exampleTranslation": "Compre o bilhete na máquina.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "next-stop",
+"word": "next stop",
+"translation": "próxima parada",
+"pron": "NÉKST stóp",
+"example": "The next stop is Central Station.",
+"exampleTranslation": "A próxima parada é a Estação Central.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "route",
+"word": "route",
+"translation": "rota, trajeto",
+"pron": "RUUT",
+"example": "What's the fastest route?",
+"exampleTranslation": "Qual é o caminho mais rápido?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "commute",
+"word": "commute",
+"translation": "trajeto diário (casa-trabalho)",
+"pron": "ko-MIUT",
+"example": "My commute takes an hour.",
+"exampleTranslation": "Meu trajeto para o trabalho leva uma hora.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "miss-the-bus",
+"word": "miss the bus",
+"translation": "perder o ônibus",
+"pron": "MIS dhe bâs",
+"example": "Hurry, or we'll miss the bus!",
+"exampleTranslation": "Rápido, senão vamos perder o ônibus!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "catch-the-train",
+"word": "catch the train",
+"translation": "pegar o trem",
+"pron": "KÉTCH dhe trein",
+"example": "I have to catch the 7 o'clock train.",
+"exampleTranslation": "Eu tenho que pegar o trem das 7.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rush-hour",
+"word": "rush hour",
+"translation": "horário de pico",
+"pron": "RÂSH aur",
+"example": "Avoid the subway at rush hour.",
+"exampleTranslation": "Evite o metrô no horário de pico.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pedestrian",
+"word": "pedestrian",
+"translation": "pedestre",
+"pron": "pe-DÉS-tri-an",
+"example": "Watch out for pedestrians.",
+"exampleTranslation": "Cuidado com os pedestres.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

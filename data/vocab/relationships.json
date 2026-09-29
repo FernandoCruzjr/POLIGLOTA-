@@ -1,0 +1,402 @@
+[
+{
+"slug": "friend",
+"word": "friend",
+"translation": "amigo",
+"pron": "FRÉND",
+"example": "She is my best friend.",
+"exampleTranslation": "Ela é minha melhor amiga.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "best-friend",
+"word": "best friend",
+"translation": "melhor amigo",
+"pron": "bést FRÉND",
+"example": "We've been best friends since school.",
+"exampleTranslation": "Somos melhores amigos desde a escola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "friendship",
+"word": "friendship",
+"translation": "amizade",
+"pron": "FRÉND-ship",
+"example": "Our friendship is very important to me.",
+"exampleTranslation": "Nossa amizade é muito importante para mim.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "boyfriend",
+"word": "boyfriend",
+"translation": "namorado",
+"pron": "BÓI-frénd",
+"example": "Her boyfriend is very nice.",
+"exampleTranslation": "O namorado dela é muito legal.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "girlfriend",
+"word": "girlfriend",
+"translation": "namorada",
+"pron": "GÂRL-frénd",
+"example": "This is my girlfriend.",
+"exampleTranslation": "Esta é minha namorada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "partner",
+"word": "partner",
+"translation": "parceiro, companheiro",
+"pron": "PART-ner",
+"example": "My partner and I live together.",
+"exampleTranslation": "Eu e minha companheira moramos juntos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "couple",
+"word": "couple",
+"translation": "casal",
+"pron": "KÂ-pol",
+"example": "They are a beautiful couple.",
+"exampleTranslation": "Eles são um casal lindo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "date",
+"word": "date",
+"translation": "encontro (romântico)",
+"pron": "DEIT",
+"example": "We went on a date.",
+"exampleTranslation": "Nós saímos num encontro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "love",
+"word": "love",
+"translation": "amor; amar",
+"pron": "LÂV",
+"example": "I love you so much.",
+"exampleTranslation": "Eu te amo muito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "in-love",
+"word": "in love",
+"translation": "apaixonado",
+"pron": "in LÂV",
+"example": "They are in love.",
+"exampleTranslation": "Eles estão apaixonados.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fall-in-love",
+"word": "fall in love",
+"translation": "apaixonar-se",
+"pron": "fól in LÂV",
+"example": "They fell in love in Paris.",
+"exampleTranslation": "Eles se apaixonaram em Paris.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "kiss",
+"word": "kiss",
+"translation": "beijo; beijar",
+"pron": "KIS",
+"example": "Give me a kiss.",
+"exampleTranslation": "Me dá um beijo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hug",
+"word": "hug",
+"translation": "abraço; abraçar",
+"pron": "RÂG",
+"example": "Come here and give me a hug!",
+"exampleTranslation": "Vem cá me dar um abraço!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "marry",
+"word": "marry",
+"translation": "casar-se com",
+"pron": "MÉ-ri",
+"example": "Will you marry me?",
+"exampleTranslation": "Você quer casar comigo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "get-married",
+"word": "get married",
+"translation": "casar-se",
+"pron": "guét MÉ-rid",
+"example": "They got married last year.",
+"exampleTranslation": "Eles se casaram ano passado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "married",
+"word": "married",
+"translation": "casado",
+"pron": "MÉ-rid",
+"example": "Are you married?",
+"exampleTranslation": "Você é casado?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "single",
+"word": "single",
+"translation": "solteiro",
+"pron": "SIN-gol",
+"example": "I'm single.",
+"exampleTranslation": "Eu sou solteiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "divorced",
+"word": "divorced",
+"translation": "divorciado",
+"pron": "di-VÓRST",
+"example": "My parents are divorced.",
+"exampleTranslation": "Meus pais são divorciados.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "engaged",
+"word": "engaged",
+"translation": "noivo (comprometido)",
+"pron": "in-GUÊIDJD",
+"example": "We got engaged in June.",
+"exampleTranslation": "Nós ficamos noivos em junho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wedding",
+"word": "wedding",
+"translation": "casamento (festa)",
+"pron": "UÉ-din",
+"example": "The wedding is on Saturday.",
+"exampleTranslation": "O casamento é no sábado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bride",
+"word": "bride",
+"translation": "noiva",
+"pron": "BRAID",
+"example": "The bride looks beautiful.",
+"exampleTranslation": "A noiva está linda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "groom",
+"word": "groom",
+"translation": "noivo",
+"pron": "GRUUM",
+"example": "The groom is nervous.",
+"exampleTranslation": "O noivo está nervoso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "anniversary",
+"word": "anniversary",
+"translation": "aniversário de casamento",
+"pron": "é-ni-VÂR-sa-ri",
+"example": "Happy anniversary, my love!",
+"exampleTranslation": "Feliz aniversário de casamento, meu amor!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "break-up",
+"word": "break up",
+"translation": "terminar (namoro)",
+"pron": "breik ÂP",
+"example": "They broke up last month.",
+"exampleTranslation": "Eles terminaram no mês passado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "get-along",
+"word": "get along",
+"translation": "dar-se bem",
+"pron": "guét a-LÓN",
+"example": "I get along well with my sister.",
+"exampleTranslation": "Eu me dou bem com a minha irmã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "argue",
+"word": "argue",
+"translation": "discutir, brigar",
+"pron": "AR-guiu",
+"example": "They argue all the time.",
+"exampleTranslation": "Eles brigam o tempo todo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fight",
+"word": "fight",
+"translation": "briga; brigar",
+"pron": "FAIT",
+"example": "We had a fight yesterday.",
+"exampleTranslation": "Tivemos uma briga ontem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "forgive",
+"word": "forgive",
+"translation": "perdoar",
+"pron": "for-GUIV",
+"example": "Please forgive me.",
+"exampleTranslation": "Por favor, me perdoe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "apologize",
+"word": "apologize",
+"translation": "pedir desculpas",
+"pron": "a-PÓ-lo-djaiz",
+"example": "I want to apologize.",
+"exampleTranslation": "Eu quero pedir desculpas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "trust",
+"word": "trust",
+"translation": "confiar; confiança",
+"pron": "TRÂST",
+"example": "I trust you.",
+"exampleTranslation": "Eu confio em você.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "respect",
+"word": "respect",
+"translation": "respeito; respeitar",
+"pron": "ris-PÉKT",
+"example": "Respect your elders.",
+"exampleTranslation": "Respeite os mais velhos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "support",
+"word": "support",
+"translation": "apoiar; apoio",
+"pron": "sa-PÓRT",
+"example": "My family always supports me.",
+"exampleTranslation": "Minha família sempre me apoia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "miss",
+"word": "miss",
+"translation": "sentir falta de",
+"pron": "MIS",
+"example": "I miss you so much.",
+"exampleTranslation": "Eu sinto muito a sua falta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "meet",
+"word": "meet",
+"translation": "conhecer; encontrar",
+"pron": "MIIT",
+"example": "Where did you meet your wife?",
+"exampleTranslation": "Onde você conheceu sua esposa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stranger",
+"word": "stranger",
+"translation": "estranho, desconhecido",
+"pron": "STRÊIN-djer",
+"example": "Don't talk to strangers.",
+"exampleTranslation": "Não fale com estranhos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "acquaintance",
+"word": "acquaintance",
+"translation": "conhecido (pessoa)",
+"pron": "a-KUÊIN-tans",
+"example": "He's just an acquaintance.",
+"exampleTranslation": "Ele é só um conhecido.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "honeymoon",
+"word": "honeymoon",
+"translation": "lua de mel",
+"pron": "RÂ-ni-muun",
+"example": "They went to Bahia on their honeymoon.",
+"exampleTranslation": "Eles foram para a Bahia na lua de mel.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "close-friend",
+"word": "close friend",
+"translation": "amigo próximo",
+"pron": "KLÔUS frénd",
+"example": "He is a close friend of the family.",
+"exampleTranslation": "Ele é um amigo próximo da família.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "together",
+"word": "together",
+"translation": "juntos",
+"pron": "tu-GUÉ-dher",
+"example": "We are always together.",
+"exampleTranslation": "Nós estamos sempre juntos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "alone",
+"word": "alone",
+"translation": "sozinho",
+"pron": "a-LÔUN",
+"example": "I don't want to be alone.",
+"exampleTranslation": "Eu não quero ficar sozinho.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

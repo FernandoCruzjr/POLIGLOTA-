@@ -1,0 +1,452 @@
+[
+{
+"slug": "computer",
+"word": "computer",
+"translation": "computador",
+"pron": "kom-PIU-rer",
+"example": "I work on the computer.",
+"exampleTranslation": "Eu trabalho no computador.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "laptop",
+"word": "laptop",
+"translation": "notebook",
+"pron": "LÉP-tóp",
+"example": "My laptop is very slow.",
+"exampleTranslation": "Meu notebook está muito lento.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "phone",
+"word": "phone",
+"translation": "telefone, celular",
+"pron": "FÔUN",
+"example": "Where is my phone?",
+"exampleTranslation": "Cadê meu celular?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cell-phone",
+"word": "cell phone",
+"translation": "celular",
+"pron": "SÉL fôun",
+"example": "Turn off your cell phone.",
+"exampleTranslation": "Desligue o celular.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "smartphone",
+"word": "smartphone",
+"translation": "smartphone",
+"pron": "SMART-fôun",
+"example": "Everyone has a smartphone now.",
+"exampleTranslation": "Todo mundo tem smartphone hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tablet",
+"word": "tablet",
+"translation": "tablet",
+"pron": "TÉ-blet",
+"example": "The kids watch cartoons on the tablet.",
+"exampleTranslation": "As crianças veem desenho no tablet.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "usb-drive",
+"word": "USB drive",
+"translation": "pen drive",
+"pron": "iu-és-BII draiv",
+"example": "Save it on a USB drive.",
+"exampleTranslation": "Salve num pen drive.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "keyboard",
+"word": "keyboard",
+"translation": "teclado",
+"pron": "KII-bórd",
+"example": "The keyboard is wireless.",
+"exampleTranslation": "O teclado é sem fio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mouse",
+"word": "mouse",
+"translation": "mouse (do computador)",
+"pron": "MAUS",
+"example": "Click with the mouse.",
+"exampleTranslation": "Clique com o mouse.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "charger",
+"word": "charger",
+"translation": "carregador",
+"pron": "TCHAR-djer",
+"example": "Can I borrow your charger?",
+"exampleTranslation": "Posso pegar seu carregador emprestado?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "battery",
+"word": "battery",
+"translation": "bateria",
+"pron": "BÉ-re-ri",
+"example": "My battery is low.",
+"exampleTranslation": "Minha bateria está fraca.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "charge",
+"word": "charge",
+"translation": "carregar (bateria)",
+"pron": "TCHARDJ",
+"example": "I need to charge my phone.",
+"exampleTranslation": "Eu preciso carregar meu celular.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cable",
+"word": "cable",
+"translation": "cabo",
+"pron": "KÊI-bol",
+"example": "I need a longer cable.",
+"exampleTranslation": "Eu preciso de um cabo mais longo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "plug",
+"word": "plug",
+"translation": "tomada (plugue); plugar",
+"pron": "PLÂG",
+"example": "Where can I plug this in?",
+"exampleTranslation": "Onde posso ligar isto?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn-on",
+"word": "turn on",
+"translation": "ligar",
+"pron": "târn ÓN",
+"example": "Turn on the computer.",
+"exampleTranslation": "Ligue o computador.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "turn-off",
+"word": "turn off",
+"translation": "desligar",
+"pron": "târn ÓF",
+"example": "Turn off the TV.",
+"exampleTranslation": "Desligue a TV.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "restart",
+"word": "restart",
+"translation": "reiniciar",
+"pron": "rii-START",
+"example": "Try to restart your phone.",
+"exampleTranslation": "Tente reiniciar o celular.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "app",
+"word": "app",
+"translation": "aplicativo",
+"pron": "ÉP",
+"example": "Download this app.",
+"exampleTranslation": "Baixe este aplicativo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "software",
+"word": "software",
+"translation": "programa, software",
+"pron": "SÓFT-uér",
+"example": "Update the software.",
+"exampleTranslation": "Atualize o programa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "update",
+"word": "update",
+"translation": "atualizar; atualização",
+"pron": "âp-DEIT",
+"example": "Your phone needs an update.",
+"exampleTranslation": "Seu celular precisa de uma atualização.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "file",
+"word": "file",
+"translation": "arquivo",
+"pron": "FAIL",
+"example": "Save the file.",
+"exampleTranslation": "Salve o arquivo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "folder",
+"word": "folder",
+"translation": "pasta",
+"pron": "FÔUL-der",
+"example": "Put the photos in a folder.",
+"exampleTranslation": "Coloque as fotos numa pasta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "save",
+"word": "save",
+"translation": "salvar",
+"pron": "SEIV",
+"example": "Don't forget to save.",
+"exampleTranslation": "Não esqueça de salvar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "delete",
+"word": "delete",
+"translation": "apagar, excluir",
+"pron": "di-LIIT",
+"example": "I deleted the photo by mistake.",
+"exampleTranslation": "Eu apaguei a foto sem querer.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "copy",
+"word": "copy",
+"translation": "copiar",
+"pron": "KÓ-pi",
+"example": "Copy the text.",
+"exampleTranslation": "Copie o texto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "paste",
+"word": "paste",
+"translation": "colar",
+"pron": "PEIST",
+"example": "Paste it here.",
+"exampleTranslation": "Cole aqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "print",
+"word": "print",
+"translation": "imprimir",
+"pron": "PRINT",
+"example": "Can you print this for me?",
+"exampleTranslation": "Você pode imprimir isto para mim?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "type",
+"word": "type",
+"translation": "digitar",
+"pron": "TAIP",
+"example": "She types very fast.",
+"exampleTranslation": "Ela digita muito rápido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "click",
+"word": "click",
+"translation": "clicar",
+"pron": "KLIK",
+"example": "Click on the link.",
+"exampleTranslation": "Clique no link.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "screen",
+"word": "screen",
+"translation": "tela",
+"pron": "SKRIIN",
+"example": "The screen is broken.",
+"exampleTranslation": "A tela está quebrada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "microphone",
+"word": "microphone",
+"translation": "microfone",
+"pron": "MAI-kro-fôun",
+"example": "Turn on your microphone.",
+"exampleTranslation": "Ligue o seu microfone.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "headset",
+"word": "headset",
+"translation": "fone com microfone",
+"pron": "RÉD-sét",
+"example": "I use a headset for meetings.",
+"exampleTranslation": "Eu uso um fone com microfone nas reuniões.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "speaker",
+"word": "speaker",
+"translation": "caixa de som",
+"pron": "SPII-ker",
+"example": "Connect the phone to the speaker.",
+"exampleTranslation": "Conecte o celular na caixa de som.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tv",
+"word": "TV",
+"translation": "TV",
+"pron": "ti-VII",
+"example": "The kids are watching TV.",
+"exampleTranslation": "As crianças estão vendo TV.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "remote-control",
+"word": "remote control",
+"translation": "controle remoto",
+"pron": "ri-MÔUT kon-TRÔUL",
+"example": "Where is the remote control?",
+"exampleTranslation": "Onde está o controle remoto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "device",
+"word": "device",
+"translation": "aparelho, dispositivo",
+"pron": "di-VAIS",
+"example": "Turn off all devices.",
+"exampleTranslation": "Desliguem todos os aparelhos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "technology",
+"word": "technology",
+"translation": "tecnologia",
+"pron": "ték-NÓ-lo-dji",
+"example": "Technology changes fast.",
+"exampleTranslation": "A tecnologia muda rápido.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "robot",
+"word": "robot",
+"translation": "robô",
+"pron": "RÔU-bót",
+"example": "This robot cleans the floor.",
+"exampleTranslation": "Este robô limpa o chão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "artificial-intelligence",
+"word": "artificial intelligence",
+"translation": "inteligência artificial",
+"pron": "ar-ti-FI-shal in-TÉ-li-djens",
+"example": "Artificial intelligence can help us learn.",
+"exampleTranslation": "A inteligência artificial pode nos ajudar a aprender.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "video-game",
+"word": "video game",
+"translation": "videogame",
+"pron": "VI-di-ou guéim",
+"example": "My son plays video games.",
+"exampleTranslation": "Meu filho joga videogame.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bug",
+"word": "bug",
+"translation": "defeito, erro (de programa)",
+"pron": "BÂG",
+"example": "There's a bug in the app.",
+"exampleTranslation": "Tem um erro no aplicativo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "crash",
+"word": "crash",
+"translation": "travar (de vez)",
+"pron": "KRÉSH",
+"example": "My computer crashed.",
+"exampleTranslation": "Meu computador travou.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "freeze",
+"word": "freeze",
+"translation": "congelar (tela)",
+"pron": "FRIIZ",
+"example": "The screen froze again.",
+"exampleTranslation": "A tela congelou de novo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "backup",
+"word": "backup",
+"translation": "cópia de segurança",
+"pron": "BÉK-âp",
+"example": "Always make a backup.",
+"exampleTranslation": "Faça sempre uma cópia de segurança.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "touch-screen",
+"word": "touch screen",
+"translation": "tela sensível ao toque",
+"pron": "TÂTCH skriin",
+"example": "The tablet has a touch screen.",
+"exampleTranslation": "O tablet tem tela sensível ao toque.",
+"difficulty": 2,
+"level": "basic"
+}
+]

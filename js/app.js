@@ -7,6 +7,8 @@ import * as home from './views/home.js';
 import * as learn from './views/learn.js';
 import * as lesson from './views/lesson.js';
 import * as soon from './views/soon.js';
+import * as vocabView from './views/vocab.js';
+import * as vocab from './vocab.js';
 import * as profile from './views/profile.js';
 
 const $ = (sel) => document.querySelector(sel);
@@ -15,7 +17,9 @@ const ROUTES = [
   { re: /^#?\/?(inicio)?$/, nav: 'inicio', title: 'Início', view: home },
   { re: /^#\/aprender$/, nav: 'aprender', title: 'Aprender', view: learn },
   { re: /^#\/licao\/([\w-]+)$/, nav: 'aprender', title: 'Lição', view: lesson, params: (m) => ({ id: m[1] }) },
-  { re: /^#\/vocabulario$/, nav: 'vocabulario', title: 'Vocabulário', view: soon, params: () => ({ screen: 'vocabulario' }) },
+  { re: /^#\/vocabulario$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: () => ({ mode: 'index' }) },
+  { re: /^#\/vocabulario\/([\w-]+)$/, nav: 'vocabulario', title: 'Vocabulário', view: vocabView, params: (m) => ({ mode: 'category', cat: m[1] }) },
+  { re: /^#\/vocabulario\/([\w-]+)\/estudar(?:\?\d*)?$/, nav: 'vocabulario', title: 'Estudar palavras', view: vocabView, focusless: true, params: (m) => ({ mode: 'study', cat: m[1] }) },
   { re: /^#\/revisao$/, nav: 'revisao', title: 'Revisão', view: soon, params: () => ({ screen: 'revisao' }) },
   { re: /^#\/perfil$/, nav: 'perfil', title: 'Perfil', view: profile },
 ];
@@ -23,6 +27,7 @@ const ROUTES = [
 let user = null;
 let cleanup = null;
 let recovering = false;
+let renderCount = 0;
 
 function currentRoute() {
   const hash = location.hash || '#/inicio';
@@ -41,7 +46,18 @@ function renderRoute() {
   const view = $('#view');
 
   if (typeof cleanup === 'function') cleanup();
-  cleanup = route.view.render(view, { ...params, user }) || null;
+  cleanup = null;
+  const myRender = ++renderCount;
+  const result = route.view.render(view, { ...params, user });
+  if (result && typeof result.then === 'function') {
+    // Telas que baixam dados: só guarda a limpeza se ninguém navegou nesse meio-tempo.
+    result.then((fn) => {
+      if (typeof fn !== 'function') return;
+      if (myRender === renderCount) cleanup = fn; else fn();
+    });
+  } else {
+    cleanup = result || null;
+  }
 
   document.querySelectorAll('[data-nav]').forEach((a) => {
     if (a.dataset.nav === route.nav) a.setAttribute('aria-current', 'page');
@@ -51,7 +67,7 @@ function renderRoute() {
   window.scrollTo(0, 0);
 
   const h1 = view.querySelector('h1');
-  if (h1 && route.view !== lesson) {
+  if (h1 && route.view !== lesson && !route.focusless) {
     h1.setAttribute('tabindex', '-1');
     h1.focus({ preventScroll: true });
   }
@@ -156,7 +172,8 @@ async function enterApp(u) {
   renderRoute();
   if (switching) {
     await store.pull();
-    if (currentRoute()?.route.view !== lesson) renderRoute();
+    const r = currentRoute();
+    if (r && r.route.view !== lesson && !r.route.focusless) renderRoute();
   }
 }
 
@@ -174,7 +191,7 @@ async function start() {
   wireAuthForms();
 
   try {
-    await content.loadCourse();
+    await Promise.all([content.loadCourse(), vocab.loadCategories()]);
   } catch (e) {
     setAuthMessage('Não foi possível carregar as lições. Verifique a internet e recarregue a página.', 'error');
   }

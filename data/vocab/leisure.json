@@ -1,0 +1,452 @@
+[
+{
+"slug": "free-time",
+"word": "free time",
+"translation": "tempo livre",
+"pron": "frii TAIM",
+"example": "What do you do in your free time?",
+"exampleTranslation": "O que você faz no seu tempo livre?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hobby",
+"word": "hobby",
+"translation": "passatempo, hobby",
+"pron": "RÓ-bi",
+"example": "My hobby is painting.",
+"exampleTranslation": "Meu hobby é pintar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fun",
+"word": "fun",
+"translation": "divertido; diversão",
+"pron": "FÂN",
+"example": "The party was fun.",
+"exampleTranslation": "A festa foi divertida.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "have-fun",
+"word": "have fun",
+"translation": "divertir-se",
+"pron": "rév FÂN",
+"example": "Have fun at the beach!",
+"exampleTranslation": "Divirta-se na praia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "movie",
+"word": "movie",
+"translation": "filme",
+"pron": "MUU-vi",
+"example": "Let's watch a movie tonight.",
+"exampleTranslation": "Vamos assistir a um filme hoje à noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "series",
+"word": "series",
+"translation": "série",
+"pron": "SÍ-riiz",
+"example": "I'm watching a new series.",
+"exampleTranslation": "Estou assistindo a uma série nova.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "music",
+"word": "music",
+"translation": "música",
+"pron": "MIU-zik",
+"example": "I listen to music every day.",
+"exampleTranslation": "Eu escuto música todo dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "song",
+"word": "song",
+"translation": "música, canção",
+"pron": "SÓN",
+"example": "This is my favorite song.",
+"exampleTranslation": "Esta é minha música favorita.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sing",
+"word": "sing",
+"translation": "cantar",
+"pron": "SIN",
+"example": "She loves to sing.",
+"exampleTranslation": "Ela adora cantar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dance",
+"word": "dance",
+"translation": "dançar",
+"pron": "DÉNS",
+"example": "Let's dance!",
+"exampleTranslation": "Vamos dançar!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "party",
+"word": "party",
+"translation": "festa",
+"pron": "PAR-ri",
+"example": "You're invited to my party.",
+"exampleTranslation": "Você está convidado para minha festa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "concert",
+"word": "concert",
+"translation": "show (de música)",
+"pron": "KÓN-sert",
+"example": "We went to a concert last night.",
+"exampleTranslation": "Fomos a um show ontem à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "theater",
+"word": "theater",
+"translation": "teatro",
+"pron": "THII-a-ter",
+"example": "We saw a play at the theater.",
+"exampleTranslation": "Vimos uma peça no teatro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "read",
+"word": "read",
+"translation": "ler",
+"pron": "RIID",
+"example": "I read before bed.",
+"exampleTranslation": "Eu leio antes de dormir.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "draw",
+"word": "draw",
+"translation": "desenhar",
+"pron": "DRÓ",
+"example": "My daughter loves to draw.",
+"exampleTranslation": "Minha filha adora desenhar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "paint-a-picture",
+"word": "paint a picture",
+"translation": "pintar um quadro",
+"pron": "peint a PIK-tcher",
+"example": "I like to paint pictures of the sea.",
+"exampleTranslation": "Eu gosto de pintar quadros do mar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "play-the-guitar",
+"word": "play the guitar",
+"translation": "tocar violão",
+"pron": "plei dhe gui-TAR",
+"example": "He plays the guitar very well.",
+"exampleTranslation": "Ele toca violão muito bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "instrument",
+"word": "instrument",
+"translation": "instrumento",
+"pron": "INS-tru-ment",
+"example": "Do you play an instrument?",
+"exampleTranslation": "Você toca algum instrumento?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "camping",
+"word": "camping",
+"translation": "acampar, acampamento",
+"pron": "KÉM-pin",
+"example": "We go camping every summer.",
+"exampleTranslation": "Nós acampamos todo verão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fishing",
+"word": "fishing",
+"translation": "pescaria",
+"pron": "FI-shin",
+"example": "My father loves fishing.",
+"exampleTranslation": "Meu pai adora pescar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hiking",
+"word": "hiking",
+"translation": "caminhada (trilha)",
+"pron": "RAI-kin",
+"example": "Let's go hiking this weekend.",
+"exampleTranslation": "Vamos fazer trilha neste fim de semana.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "picnic",
+"word": "picnic",
+"translation": "piquenique",
+"pron": "PIK-nik",
+"example": "Let's have a picnic in the park.",
+"exampleTranslation": "Vamos fazer um piquenique no parque.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "barbecue",
+"word": "barbecue",
+"translation": "churrasco",
+"pron": "BAR-bi-kiu",
+"example": "We're having a barbecue on Sunday.",
+"exampleTranslation": "Vamos fazer churrasco no domingo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "board-game",
+"word": "board game",
+"translation": "jogo de tabuleiro",
+"pron": "BÓRD gueim",
+"example": "We play board games on Friday night.",
+"exampleTranslation": "Jogamos jogos de tabuleiro na sexta à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cards",
+"word": "cards",
+"translation": "cartas, baralho",
+"pron": "KARDZ",
+"example": "Grandpa taught me to play cards.",
+"exampleTranslation": "O vovô me ensinou a jogar cartas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "puzzle",
+"word": "puzzle",
+"translation": "quebra-cabeça",
+"pron": "PÂ-zol",
+"example": "We finished the puzzle!",
+"exampleTranslation": "Terminamos o quebra-cabeça!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "toy",
+"word": "toy",
+"translation": "brinquedo",
+"pron": "TÓI",
+"example": "The baby loves this toy.",
+"exampleTranslation": "O bebê adora este brinquedo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "doll",
+"word": "doll",
+"translation": "boneca",
+"pron": "DÓL",
+"example": "She has many dolls.",
+"exampleTranslation": "Ela tem muitas bonecas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "watch-tv",
+"word": "watch TV",
+"translation": "ver TV",
+"pron": "uótch ti-VII",
+"example": "We watch TV after dinner.",
+"exampleTranslation": "Vemos TV depois do jantar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cinema",
+"word": "cinema",
+"translation": "cinema",
+"pron": "SI-ne-ma",
+"example": "Let's go to the cinema.",
+"exampleTranslation": "Vamos ao cinema.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "show-tickets",
+"word": "show tickets",
+"translation": "ingressos (de show)",
+"pron": "SHÔU ti-kets",
+"example": "I bought two tickets for the show.",
+"exampleTranslation": "Eu comprei dois ingressos para o show.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "festival",
+"word": "festival",
+"translation": "festival",
+"pron": "FÉS-ti-val",
+"example": "There's a music festival in town.",
+"exampleTranslation": "Tem um festival de música na cidade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "carnival",
+"word": "carnival",
+"translation": "carnaval",
+"pron": "KAR-ni-val",
+"example": "Carnival is the biggest party in Brazil.",
+"exampleTranslation": "O Carnaval é a maior festa do Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "relax",
+"word": "relax",
+"translation": "relaxar",
+"pron": "ri-LÉKS",
+"example": "I want to relax this weekend.",
+"exampleTranslation": "Eu quero relaxar neste fim de semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bored",
+"word": "bored",
+"translation": "entediado",
+"pron": "BÓRD",
+"example": "The kids are bored.",
+"exampleTranslation": "As crianças estão entediadas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boring",
+"word": "boring",
+"translation": "chato, entediante",
+"pron": "BÓ-rin",
+"example": "This movie is boring.",
+"exampleTranslation": "Este filme é chato.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "interesting",
+"word": "interesting",
+"translation": "interessante",
+"pron": "IN-tres-tin",
+"example": "This book is very interesting.",
+"exampleTranslation": "Este livro é muito interessante.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "exciting",
+"word": "exciting",
+"translation": "emocionante",
+"pron": "ik-SAI-tin",
+"example": "The game was exciting!",
+"exampleTranslation": "O jogo foi emocionante!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "go-out",
+"word": "go out",
+"translation": "sair (para se divertir)",
+"pron": "gôu AUT",
+"example": "Let's go out tonight.",
+"exampleTranslation": "Vamos sair hoje à noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hang-out",
+"word": "hang out",
+"translation": "passar tempo junto",
+"pron": "réng AUT",
+"example": "We hang out every weekend.",
+"exampleTranslation": "A gente se encontra todo fim de semana.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "invite",
+"word": "invite",
+"translation": "convidar",
+"pron": "in-VAIT",
+"example": "I invited my friends to dinner.",
+"exampleTranslation": "Eu convidei meus amigos para jantar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "photography",
+"word": "photography",
+"translation": "fotografia",
+"pron": "fo-TÓ-gra-fi",
+"example": "Photography is my hobby.",
+"exampleTranslation": "Fotografia é o meu hobby.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "gardening",
+"word": "gardening",
+"translation": "jardinagem",
+"pron": "GAR-de-nin",
+"example": "Grandma loves gardening.",
+"exampleTranslation": "A vovó adora jardinagem.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "knit",
+"word": "knit",
+"translation": "tricotar",
+"pron": "NIT",
+"example": "My mother knits scarves.",
+"exampleTranslation": "Minha mãe tricota cachecóis.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "amusement-park",
+"word": "amusement park",
+"translation": "parque de diversões",
+"pron": "a-MIUZ-ment park",
+"example": "The kids want to go to the amusement park.",
+"exampleTranslation": "As crianças querem ir ao parque de diversões.",
+"difficulty": 2,
+"level": "basic"
+}
+]

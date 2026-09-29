@@ -1,0 +1,502 @@
+[
+{
+"slug": "trip",
+"word": "trip",
+"translation": "viagem (passeio)",
+"pron": "TRIP",
+"example": "We are planning a trip to Rio.",
+"exampleTranslation": "Estamos planejando uma viagem ao Rio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "travel",
+"word": "travel",
+"translation": "viajar",
+"pron": "TRÉ-vel",
+"example": "I love to travel with my family.",
+"exampleTranslation": "Eu adoro viajar com a minha família.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "journey",
+"word": "journey",
+"translation": "jornada, viagem longa",
+"pron": "DJÂR-ni",
+"example": "The journey took ten hours.",
+"exampleTranslation": "A viagem levou dez horas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vacation",
+"word": "vacation",
+"translation": "férias",
+"pron": "vei-KÊI-shân",
+"example": "We are on vacation this week.",
+"exampleTranslation": "Estamos de férias esta semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "holiday",
+"word": "holiday",
+"translation": "feriado; férias",
+"pron": "RÓ-li-dei",
+"example": "Monday is a holiday.",
+"exampleTranslation": "Segunda-feira é feriado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tourist",
+"word": "tourist",
+"translation": "turista",
+"pron": "TÚ-rist",
+"example": "The city is full of tourists.",
+"exampleTranslation": "A cidade está cheia de turistas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tour",
+"word": "tour",
+"translation": "passeio guiado",
+"pron": "TÚR",
+"example": "We took a tour of the old city.",
+"exampleTranslation": "Fizemos um passeio pela cidade antiga.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "guide",
+"word": "guide",
+"translation": "guia",
+"pron": "GAID",
+"example": "Our guide speaks English and Spanish.",
+"exampleTranslation": "Nosso guia fala inglês e espanhol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "map",
+"word": "map",
+"translation": "mapa",
+"pron": "MÉP",
+"example": "Can you show me on the map?",
+"exampleTranslation": "Você pode me mostrar no mapa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "suitcase",
+"word": "suitcase",
+"translation": "mala",
+"pron": "SUUT-keis",
+"example": "My suitcase is very heavy.",
+"exampleTranslation": "Minha mala está muito pesada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "backpack",
+"word": "backpack",
+"translation": "mochila",
+"pron": "BÉK-pék",
+"example": "I only have a backpack.",
+"exampleTranslation": "Eu só tenho uma mochila.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ticket",
+"word": "ticket",
+"translation": "passagem, bilhete, ingresso",
+"pron": "TI-ket",
+"example": "I bought the tickets online.",
+"exampleTranslation": "Eu comprei as passagens pela internet.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "reservation",
+"word": "reservation",
+"translation": "reserva",
+"pron": "ré-zer-VÊI-shân",
+"example": "I have a reservation for two.",
+"exampleTranslation": "Eu tenho uma reserva para dois.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "book",
+"word": "book",
+"translation": "reservar",
+"pron": "BUK",
+"example": "I want to book a room.",
+"exampleTranslation": "Eu quero reservar um quarto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "destination",
+"word": "destination",
+"translation": "destino",
+"pron": "dés-ti-NÊI-shân",
+"example": "Paris is a popular destination.",
+"exampleTranslation": "Paris é um destino popular.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "abroad",
+"word": "abroad",
+"translation": "no exterior",
+"pron": "a-BRÓD",
+"example": "She lives abroad now.",
+"exampleTranslation": "Ela mora no exterior agora.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "foreign",
+"word": "foreign",
+"translation": "estrangeiro",
+"pron": "FÓ-ren",
+"example": "I like to learn foreign languages.",
+"exampleTranslation": "Eu gosto de aprender línguas estrangeiras.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "country",
+"word": "country",
+"translation": "país",
+"pron": "KÂN-tri",
+"example": "Brazil is a big country.",
+"exampleTranslation": "O Brasil é um país grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beach",
+"word": "beach",
+"translation": "praia",
+"pron": "BIITCH",
+"example": "Let's go to the beach!",
+"exampleTranslation": "Vamos à praia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sightseeing",
+"word": "sightseeing",
+"translation": "passeio turístico",
+"pron": "SAIT-si-in",
+"example": "We went sightseeing all day.",
+"exampleTranslation": "Fizemos passeios turísticos o dia todo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "souvenir",
+"word": "souvenir",
+"translation": "lembrancinha",
+"pron": "su-ve-NÍR",
+"example": "I bought a souvenir for my mother.",
+"exampleTranslation": "Eu comprei uma lembrancinha para minha mãe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "camera",
+"word": "camera",
+"translation": "câmera",
+"pron": "KÉ-me-ra",
+"example": "Don't forget your camera.",
+"exampleTranslation": "Não esqueça sua câmera.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "photo",
+"word": "photo",
+"translation": "foto",
+"pron": "FÔU-tou",
+"example": "Can you take a photo of us?",
+"exampleTranslation": "Você pode tirar uma foto nossa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "visit",
+"word": "visit",
+"translation": "visitar",
+"pron": "VI-zit",
+"example": "I want to visit the museum.",
+"exampleTranslation": "Eu quero visitar o museu.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "arrive",
+"word": "arrive",
+"translation": "chegar",
+"pron": "a-RAIV",
+"example": "We arrive tomorrow morning.",
+"exampleTranslation": "Nós chegamos amanhã de manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "leave",
+"word": "leave",
+"translation": "partir, sair",
+"pron": "LIIV",
+"example": "The bus leaves at eight.",
+"exampleTranslation": "O ônibus sai às oito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "return",
+"word": "return",
+"translation": "voltar, retornar",
+"pron": "ri-TÂRN",
+"example": "We return on Sunday.",
+"exampleTranslation": "Nós voltamos no domingo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pack",
+"word": "pack",
+"translation": "fazer as malas",
+"pron": "PÉK",
+"example": "I need to pack tonight.",
+"exampleTranslation": "Eu preciso fazer as malas hoje à noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "unpack",
+"word": "unpack",
+"translation": "desfazer as malas",
+"pron": "ân-PÉK",
+"example": "Let's unpack and rest.",
+"exampleTranslation": "Vamos desfazer as malas e descansar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "itinerary",
+"word": "itinerary",
+"translation": "roteiro",
+"pron": "ai-TI-ne-ré-ri",
+"example": "Here is our itinerary for the week.",
+"exampleTranslation": "Aqui está o nosso roteiro da semana.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "tourist-information",
+"word": "tourist information",
+"translation": "informações turísticas",
+"pron": "TÚ-rist in-for-MÊI-shân",
+"example": "Where is the tourist information office?",
+"exampleTranslation": "Onde fica o posto de informações turísticas?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "currency",
+"word": "currency",
+"translation": "moeda (de um país)",
+"pron": "KÂ-ren-si",
+"example": "What is the local currency?",
+"exampleTranslation": "Qual é a moeda local?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "exchange",
+"word": "exchange",
+"translation": "câmbio, trocar",
+"pron": "iks-TCHÊINDJ",
+"example": "Where can I exchange money?",
+"exampleTranslation": "Onde posso trocar dinheiro?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "visa",
+"word": "visa",
+"translation": "visto",
+"pron": "VII-za",
+"example": "Do I need a visa?",
+"exampleTranslation": "Eu preciso de visto?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "border",
+"word": "border",
+"translation": "fronteira",
+"pron": "BÓR-der",
+"example": "We crossed the border by car.",
+"exampleTranslation": "Cruzamos a fronteira de carro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "adventure",
+"word": "adventure",
+"translation": "aventura",
+"pron": "ad-VÉN-tcher",
+"example": "This trip was a great adventure.",
+"exampleTranslation": "Esta viagem foi uma grande aventura.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "view",
+"word": "view",
+"translation": "vista",
+"pron": "VIU",
+"example": "The view from here is beautiful.",
+"exampleTranslation": "A vista daqui é linda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "travel-insurance",
+"word": "travel insurance",
+"translation": "seguro-viagem",
+"pron": "TRÉ-vel in-SHU-rans",
+"example": "Do you have travel insurance?",
+"exampleTranslation": "Você tem seguro-viagem?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "tour-package",
+"word": "tour package",
+"translation": "pacote de viagem",
+"pron": "TÚR PÉ-kidj",
+"example": "The tour package includes breakfast.",
+"exampleTranslation": "O pacote de viagem inclui café da manhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "travel-agency",
+"word": "travel agency",
+"translation": "agência de viagens",
+"pron": "TRÉ-vel ÊI-djen-si",
+"example": "I booked the trip at a travel agency.",
+"exampleTranslation": "Eu reservei a viagem numa agência de viagens.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cruise",
+"word": "cruise",
+"translation": "cruzeiro",
+"pron": "KRUUZ",
+"example": "We went on a cruise last year.",
+"exampleTranslation": "Fizemos um cruzeiro no ano passado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "campsite",
+"word": "campsite",
+"translation": "área de camping",
+"pron": "KÉMP-sait",
+"example": "The campsite is near the lake.",
+"exampleTranslation": "A área de camping fica perto do lago.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tent",
+"word": "tent",
+"translation": "barraca",
+"pron": "TÉNT",
+"example": "We slept in a tent.",
+"exampleTranslation": "Nós dormimos numa barraca.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sunscreen",
+"word": "sunscreen",
+"translation": "protetor solar",
+"pron": "SÂN-skriin",
+"example": "Put on some sunscreen.",
+"exampleTranslation": "Passe um pouco de protetor solar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sunglasses",
+"word": "sunglasses",
+"translation": "óculos de sol",
+"pron": "SÂN-glé-siz",
+"example": "I forgot my sunglasses.",
+"exampleTranslation": "Eu esqueci meus óculos de sol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "local",
+"word": "local",
+"translation": "local, da região",
+"pron": "LÔU-kal",
+"example": "Let's try the local food.",
+"exampleTranslation": "Vamos provar a comida local.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "crowded",
+"word": "crowded",
+"translation": "lotado",
+"pron": "KRAU-did",
+"example": "The beach is very crowded today.",
+"exampleTranslation": "A praia está muito lotada hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "jet-lag",
+"word": "jet lag",
+"translation": "cansaço do fuso horário",
+"pron": "DJÉT lég",
+"example": "I have terrible jet lag.",
+"exampleTranslation": "Estou com um cansaço terrível do fuso horário.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "round-trip",
+"word": "round trip",
+"translation": "ida e volta",
+"pron": "RAUND trip",
+"example": "A round trip ticket, please.",
+"exampleTranslation": "Uma passagem de ida e volta, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "one-way",
+"word": "one way",
+"translation": "só ida",
+"pron": "UÂN uei",
+"example": "I need a one way ticket.",
+"exampleTranslation": "Eu preciso de uma passagem só de ida.",
+"difficulty": 2,
+"level": "basic"
+}
+]

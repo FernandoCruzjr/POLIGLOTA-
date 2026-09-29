@@ -1,0 +1,392 @@
+[
+{
+"slug": "drink",
+"word": "drink",
+"translation": "beber; bebida",
+"pron": "DRINK",
+"example": "What do you want to drink?",
+"exampleTranslation": "O que você quer beber?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "water",
+"word": "water",
+"translation": "água",
+"pron": "UÓ-rer",
+"example": "Can I have some water?",
+"exampleTranslation": "Pode me dar um pouco de água?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sparkling-water",
+"word": "sparkling water",
+"translation": "água com gás",
+"pron": "SPAR-klin UÓ-rer",
+"example": "A sparkling water, please.",
+"exampleTranslation": "Uma água com gás, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "still-water",
+"word": "still water",
+"translation": "água sem gás",
+"pron": "STIL UÓ-rer",
+"example": "Still water, no ice.",
+"exampleTranslation": "Água sem gás, sem gelo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ice",
+"word": "ice",
+"translation": "gelo",
+"pron": "AIS",
+"example": "With ice, please.",
+"exampleTranslation": "Com gelo, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "coffee",
+"word": "coffee",
+"translation": "café",
+"pron": "KÓ-fi",
+"example": "I drink coffee every morning.",
+"exampleTranslation": "Eu tomo café toda manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tea",
+"word": "tea",
+"translation": "chá",
+"pron": "TII",
+"example": "Would you like some tea?",
+"exampleTranslation": "Você gostaria de um chá?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "milk",
+"word": "milk",
+"translation": "leite",
+"pron": "MILK",
+"example": "The baby drinks milk.",
+"exampleTranslation": "O bebê toma leite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "juice",
+"word": "juice",
+"translation": "suco",
+"pron": "DJUUS",
+"example": "An orange juice, please.",
+"exampleTranslation": "Um suco de laranja, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soda",
+"word": "soda",
+"translation": "refrigerante",
+"pron": "SÔU-da",
+"example": "I don't drink soda.",
+"exampleTranslation": "Eu não tomo refrigerante.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beer",
+"word": "beer",
+"translation": "cerveja",
+"pron": "BÍR",
+"example": "A cold beer, please.",
+"exampleTranslation": "Uma cerveja gelada, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wine",
+"word": "wine",
+"translation": "vinho",
+"pron": "UAIN",
+"example": "Red or white wine?",
+"exampleTranslation": "Vinho tinto ou branco?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "red-wine",
+"word": "red wine",
+"translation": "vinho tinto",
+"pron": "RÉD uain",
+"example": "A glass of red wine.",
+"exampleTranslation": "Uma taça de vinho tinto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "white-wine",
+"word": "white wine",
+"translation": "vinho branco",
+"pron": "UAIT uain",
+"example": "White wine goes well with fish.",
+"exampleTranslation": "Vinho branco combina com peixe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cocktail",
+"word": "cocktail",
+"translation": "coquetel, drinque",
+"pron": "KÓK-teil",
+"example": "This cocktail is very strong.",
+"exampleTranslation": "Este drinque é muito forte.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "smoothie",
+"word": "smoothie",
+"translation": "vitamina (de fruta)",
+"pron": "SMUU-dhi",
+"example": "A banana smoothie, please.",
+"exampleTranslation": "Uma vitamina de banana, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hot-chocolate",
+"word": "hot chocolate",
+"translation": "chocolate quente",
+"pron": "rót TCHÓK-lat",
+"example": "Hot chocolate is perfect on cold days.",
+"exampleTranslation": "Chocolate quente é perfeito nos dias frios.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "coconut-water",
+"word": "coconut water",
+"translation": "água de coco",
+"pron": "KÔU-ko-nât UÓ-rer",
+"example": "Let's drink coconut water at the beach.",
+"exampleTranslation": "Vamos tomar água de coco na praia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lemonade",
+"word": "lemonade",
+"translation": "limonada",
+"pron": "lé-mo-NEID",
+"example": "Homemade lemonade is the best.",
+"exampleTranslation": "Limonada caseira é a melhor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bottle",
+"word": "bottle",
+"translation": "garrafa",
+"pron": "BÓ-rol",
+"example": "A bottle of water, please.",
+"exampleTranslation": "Uma garrafa de água, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "can",
+"word": "can",
+"translation": "lata",
+"pron": "KÉN",
+"example": "I bought a can of soda.",
+"exampleTranslation": "Eu comprei uma lata de refrigerante.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mug",
+"word": "mug",
+"translation": "caneca",
+"pron": "MÂG",
+"example": "This is my favorite mug.",
+"exampleTranslation": "Esta é minha caneca favorita.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "straw",
+"word": "straw",
+"translation": "canudo",
+"pron": "STRÓ",
+"example": "Can I have a straw?",
+"exampleTranslation": "Pode me dar um canudo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thirsty",
+"word": "thirsty",
+"translation": "com sede",
+"pron": "THÂRS-ti",
+"example": "I'm thirsty.",
+"exampleTranslation": "Estou com sede.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cold",
+"word": "cold",
+"translation": "gelado, frio",
+"pron": "KÔULD",
+"example": "I want something cold to drink.",
+"exampleTranslation": "Eu quero algo gelado para beber.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "warm",
+"word": "warm",
+"translation": "morno",
+"pron": "UÓRM",
+"example": "Drink warm water with lemon.",
+"exampleTranslation": "Beba água morna com limão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "black-coffee",
+"word": "black coffee",
+"translation": "café puro",
+"pron": "blék KÓ-fi",
+"example": "I drink my coffee black.",
+"exampleTranslation": "Eu tomo meu café puro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "decaf",
+"word": "decaf",
+"translation": "descafeinado",
+"pron": "DII-kéf",
+"example": "A decaf coffee, please.",
+"exampleTranslation": "Um café descafeinado, por favor.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "sugar-free",
+"word": "sugar-free",
+"translation": "sem açúcar",
+"pron": "SHU-gar frii",
+"example": "Is this juice sugar-free?",
+"exampleTranslation": "Este suco é sem açúcar?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cheers",
+"word": "cheers",
+"translation": "saúde! (brinde)",
+"pron": "TCHÍRZ",
+"example": "Cheers! To our family!",
+"exampleTranslation": "Saúde! À nossa família!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sip",
+"word": "sip",
+"translation": "gole; bebericar",
+"pron": "SIP",
+"example": "Can I have a sip?",
+"exampleTranslation": "Posso dar um gole?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pour",
+"word": "pour",
+"translation": "servir, despejar (líquido)",
+"pron": "PÓR",
+"example": "Can you pour me some water?",
+"exampleTranslation": "Você pode me servir um pouco de água?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "refill",
+"word": "refill",
+"translation": "encher de novo",
+"pron": "rii-FIL",
+"example": "Can you refill my glass?",
+"exampleTranslation": "Pode encher meu copo de novo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "alcohol",
+"word": "alcohol",
+"translation": "álcool",
+"pron": "ÉL-ko-ról",
+"example": "I don't drink alcohol.",
+"exampleTranslation": "Eu não bebo álcool.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "non-alcoholic",
+"word": "non-alcoholic",
+"translation": "sem álcool",
+"pron": "nón-él-ko-RÓ-lik",
+"example": "Do you have non-alcoholic beer?",
+"exampleTranslation": "Vocês têm cerveja sem álcool?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "tap-water",
+"word": "tap water",
+"translation": "água da torneira",
+"pron": "TÉP uó-rer",
+"example": "Is tap water safe to drink here?",
+"exampleTranslation": "A água da torneira é boa para beber aqui?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "energy-drink",
+"word": "energy drink",
+"translation": "energético",
+"pron": "É-ner-dji drink",
+"example": "Energy drinks have a lot of caffeine.",
+"exampleTranslation": "Energéticos têm muita cafeína.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "milkshake",
+"word": "milkshake",
+"translation": "milk-shake",
+"pron": "MILK-sheik",
+"example": "A chocolate milkshake, please.",
+"exampleTranslation": "Um milk-shake de chocolate, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "glass-of-wine",
+"word": "glass of wine",
+"translation": "taça de vinho",
+"pron": "GLÉS óv UAIN",
+"example": "Just one glass of wine for me.",
+"exampleTranslation": "Só uma taça de vinho para mim.",
+"difficulty": 2,
+"level": "basic"
+}
+]

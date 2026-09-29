@@ -1,0 +1,352 @@
+[
+{
+"slug": "help",
+"word": "Help!",
+"translation": "Socorro!",
+"pron": "RÉLP",
+"example": "Help! Someone help me!",
+"exampleTranslation": "Socorro! Alguém me ajude!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "emergency",
+"word": "emergency",
+"translation": "emergência",
+"pron": "i-MÂR-djen-si",
+"example": "This is an emergency!",
+"exampleTranslation": "Isto é uma emergência!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "call-an-ambulance",
+"word": "Call an ambulance!",
+"translation": "Chame uma ambulância!",
+"pron": "kól an ÉM-biu-lans",
+"example": "Call an ambulance, now!",
+"exampleTranslation": "Chame uma ambulância, agora!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ambulance",
+"word": "ambulance",
+"translation": "ambulância",
+"pron": "ÉM-biu-lans",
+"example": "The ambulance is on its way.",
+"exampleTranslation": "A ambulância está a caminho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "police",
+"word": "police",
+"translation": "polícia",
+"pron": "po-LIIS",
+"example": "Call the police!",
+"exampleTranslation": "Chame a polícia!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fire-department",
+"word": "fire department",
+"translation": "corpo de bombeiros",
+"pron": "FAI-er di-part-ment",
+"example": "Call the fire department!",
+"exampleTranslation": "Chame os bombeiros!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "emergency-room",
+"word": "emergency room",
+"translation": "pronto-socorro",
+"pron": "i-MÂR-djen-si ruum",
+"example": "Take him to the emergency room.",
+"exampleTranslation": "Leve-o ao pronto-socorro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hurt",
+"word": "hurt",
+"translation": "ferido, machucado",
+"pron": "RÂRT",
+"example": "Is anyone hurt?",
+"exampleTranslation": "Tem alguém ferido?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "injured",
+"word": "injured",
+"translation": "ferido",
+"pron": "IN-djerd",
+"example": "Two people were injured.",
+"exampleTranslation": "Duas pessoas ficaram feridas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bleeding",
+"word": "bleeding",
+"translation": "sangrando",
+"pron": "BLII-din",
+"example": "He's bleeding a lot.",
+"exampleTranslation": "Ele está sangrando muito.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "unconscious",
+"word": "unconscious",
+"translation": "inconsciente",
+"pron": "ân-KÓN-shâs",
+"example": "She's unconscious!",
+"exampleTranslation": "Ela está inconsciente!",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "breathe",
+"word": "breathe",
+"translation": "respirar",
+"pron": "BRIIDH",
+"example": "I can't breathe.",
+"exampleTranslation": "Eu não consigo respirar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "heart-attack",
+"word": "heart attack",
+"translation": "ataque cardíaco",
+"pron": "RART a-ték",
+"example": "I think he's having a heart attack.",
+"exampleTranslation": "Acho que ele está tendo um ataque cardíaco.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "fire",
+"word": "fire!",
+"translation": "fogo!",
+"pron": "FAI-er",
+"example": "Fire! Get out of the building!",
+"exampleTranslation": "Fogo! Saiam do prédio!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "smoke",
+"word": "smoke",
+"translation": "fumaça",
+"pron": "SMÔUK",
+"example": "There's smoke in the kitchen.",
+"exampleTranslation": "Tem fumaça na cozinha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thief",
+"word": "thief",
+"translation": "ladrão",
+"pron": "THIIF",
+"example": "Stop! Thief!",
+"exampleTranslation": "Pare! Ladrão!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "steal",
+"word": "steal",
+"translation": "roubar",
+"pron": "STIIL",
+"example": "Someone stole my wallet.",
+"exampleTranslation": "Alguém roubou minha carteira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "robbed",
+"word": "robbed",
+"translation": "assaltado",
+"pron": "RÓBD",
+"example": "I was robbed.",
+"exampleTranslation": "Eu fui assaltado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "missing",
+"word": "missing",
+"translation": "desaparecido",
+"pron": "MI-sin",
+"example": "My child is missing!",
+"exampleTranslation": "Meu filho está desaparecido!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lost-child",
+"word": "lost child",
+"translation": "criança perdida",
+"pron": "lóst TCHAILD",
+"example": "We found a lost child.",
+"exampleTranslation": "Achamos uma criança perdida.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "danger",
+"word": "danger",
+"translation": "perigo",
+"pron": "DÊIN-djer",
+"example": "Danger! Keep out.",
+"exampleTranslation": "Perigo! Não entre.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "safe-now",
+"word": "safe now",
+"translation": "seguro agora",
+"pron": "SEIF nau",
+"example": "Don't worry, you're safe now.",
+"exampleTranslation": "Não se preocupe, você está seguro agora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "exit",
+"word": "exit",
+"translation": "saída",
+"pron": "ÉK-zit",
+"example": "Where is the exit?",
+"exampleTranslation": "Onde fica a saída?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "emergency-number",
+"word": "emergency number",
+"translation": "número de emergência",
+"pron": "i-MÂR-djen-si nâm-ber",
+"example": "What's the emergency number here?",
+"exampleTranslation": "Qual é o número de emergência aqui?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "stop",
+"word": "Stop!",
+"translation": "Pare!",
+"pron": "STÓP",
+"example": "Stop! Don't move!",
+"exampleTranslation": "Pare! Não se mexa!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-help",
+"word": "Get help!",
+"translation": "Busque ajuda!",
+"pron": "guét RÉLP",
+"example": "Go and get help!",
+"exampleTranslation": "Vá buscar ajuda!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "accident-report",
+"word": "accident report",
+"translation": "boletim de ocorrência",
+"pron": "ÉK-si-dent ri-pórt",
+"example": "We need an accident report.",
+"exampleTranslation": "Precisamos fazer um boletim de ocorrência.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "earthquake",
+"word": "earthquake",
+"translation": "terremoto",
+"pron": "ÂRTH-kueik",
+"example": "There was an earthquake in Chile.",
+"exampleTranslation": "Houve um terremoto no Chile.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "evacuate",
+"word": "evacuate",
+"translation": "evacuar",
+"pron": "i-VÉ-kiu-eit",
+"example": "Please evacuate the building.",
+"exampleTranslation": "Por favor, evacuem o prédio.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "first-aid",
+"word": "first aid",
+"translation": "primeiros socorros",
+"pron": "fârst EID",
+"example": "Do you know first aid?",
+"exampleTranslation": "Você sabe primeiros socorros?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "poison",
+"word": "poison",
+"translation": "veneno",
+"pron": "PÓI-zon",
+"example": "Keep poison away from children.",
+"exampleTranslation": "Mantenha veneno longe das crianças.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "choke",
+"word": "choke",
+"translation": "engasgar",
+"pron": "TCHÔUK",
+"example": "The baby is choking!",
+"exampleTranslation": "O bebê está engasgando!",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "i-need-a-doctor",
+"word": "I need a doctor.",
+"translation": "Eu preciso de um médico.",
+"pron": "ai niid a DÓK-ter",
+"example": "Please, I need a doctor.",
+"exampleTranslation": "Por favor, eu preciso de um médico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "its-urgent",
+"word": "It's urgent.",
+"translation": "É urgente.",
+"pron": "its ÂR-djent",
+"example": "Please hurry, it's urgent.",
+"exampleTranslation": "Por favor, rápido, é urgente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "are-you-ok",
+"word": "Are you OK?",
+"translation": "Você está bem?",
+"pron": "ar iu ôu-KEI",
+"example": "You fell! Are you OK?",
+"exampleTranslation": "Você caiu! Você está bem?",
+"difficulty": 1,
+"level": "beginner"
+}
+]

@@ -1,0 +1,502 @@
+[
+{
+"slug": "restaurant",
+"word": "restaurant",
+"translation": "restaurante",
+"pron": "RÉS-to-rant",
+"example": "This restaurant is very good.",
+"exampleTranslation": "Este restaurante é muito bom.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "menu",
+"word": "menu",
+"translation": "cardápio",
+"pron": "MÉ-niu",
+"example": "Can I see the menu?",
+"exampleTranslation": "Posso ver o cardápio?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "waiter",
+"word": "waiter",
+"translation": "garçom",
+"pron": "UÊI-rer",
+"example": "The waiter is coming.",
+"exampleTranslation": "O garçom está vindo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "waitress",
+"word": "waitress",
+"translation": "garçonete",
+"pron": "UÊI-tres",
+"example": "The waitress was very kind.",
+"exampleTranslation": "A garçonete foi muito gentil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "order",
+"word": "order",
+"translation": "pedir; pedido",
+"pron": "ÓR-der",
+"example": "Are you ready to order?",
+"exampleTranslation": "Vocês estão prontos para pedir?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dish",
+"word": "dish",
+"translation": "prato (comida)",
+"pron": "DISH",
+"example": "What is the best dish here?",
+"exampleTranslation": "Qual é o melhor prato daqui?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "starter",
+"word": "starter",
+"translation": "entrada",
+"pron": "STAR-ter",
+"example": "We'll share a starter.",
+"exampleTranslation": "Vamos dividir uma entrada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "main-course",
+"word": "main course",
+"translation": "prato principal",
+"pron": "MEIN kórs",
+"example": "For the main course, I want fish.",
+"exampleTranslation": "De prato principal, eu quero peixe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dessert",
+"word": "dessert",
+"translation": "sobremesa",
+"pron": "di-ZÂRT",
+"example": "What do you have for dessert?",
+"exampleTranslation": "O que vocês têm de sobremesa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "check",
+"word": "check",
+"translation": "conta (EUA)",
+"pron": "TCHÉK",
+"example": "Can we have the check, please?",
+"exampleTranslation": "Pode trazer a conta, por favor?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tip",
+"word": "tip",
+"translation": "gorjeta",
+"pron": "TIP",
+"example": "Is the tip included?",
+"exampleTranslation": "A gorjeta está incluída?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "table",
+"word": "table",
+"translation": "mesa",
+"pron": "TÊI-bol",
+"example": "A table for four, please.",
+"exampleTranslation": "Uma mesa para quatro, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "chef",
+"word": "chef",
+"translation": "chef, cozinheiro-chefe",
+"pron": "SHÉF",
+"example": "The chef is from Italy.",
+"exampleTranslation": "O chef é da Itália.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "plate",
+"word": "plate",
+"translation": "prato (louça)",
+"pron": "PLEIT",
+"example": "This plate is dirty.",
+"exampleTranslation": "Este prato está sujo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bowl",
+"word": "bowl",
+"translation": "tigela",
+"pron": "BÔUL",
+"example": "A bowl of soup, please.",
+"exampleTranslation": "Uma tigela de sopa, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fork",
+"word": "fork",
+"translation": "garfo",
+"pron": "FÓRK",
+"example": "I need a fork.",
+"exampleTranslation": "Eu preciso de um garfo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "knife",
+"word": "knife",
+"translation": "faca",
+"pron": "NAIF",
+"example": "This knife is not sharp.",
+"exampleTranslation": "Esta faca não está afiada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "spoon",
+"word": "spoon",
+"translation": "colher",
+"pron": "SPUUN",
+"example": "Can I have a spoon?",
+"exampleTranslation": "Pode me dar uma colher?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "napkin",
+"word": "napkin",
+"translation": "guardanapo",
+"pron": "NÉP-kin",
+"example": "More napkins, please.",
+"exampleTranslation": "Mais guardanapos, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "glass",
+"word": "glass",
+"translation": "copo",
+"pron": "GLÉS",
+"example": "A glass of water, please.",
+"exampleTranslation": "Um copo d'água, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cup",
+"word": "cup",
+"translation": "xícara",
+"pron": "KÂP",
+"example": "A cup of coffee, please.",
+"exampleTranslation": "Uma xícara de café, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "salt",
+"word": "salt",
+"translation": "sal",
+"pron": "SÓLT",
+"example": "Can you pass the salt?",
+"exampleTranslation": "Pode passar o sal?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pepper",
+"word": "pepper",
+"translation": "pimenta-do-reino",
+"pron": "PÉ-per",
+"example": "This needs more pepper.",
+"exampleTranslation": "Isto precisa de mais pimenta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "spicy",
+"word": "spicy",
+"translation": "apimentado, picante",
+"pron": "SPAI-si",
+"example": "Is this dish spicy?",
+"exampleTranslation": "Este prato é apimentado?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "vegetarian",
+"word": "vegetarian",
+"translation": "vegetariano",
+"pron": "vé-dje-TÉ-ri-an",
+"example": "Do you have vegetarian options?",
+"exampleTranslation": "Vocês têm opções vegetarianas?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "allergic",
+"word": "allergic",
+"translation": "alérgico",
+"pron": "a-LÂR-djik",
+"example": "I'm allergic to peanuts.",
+"exampleTranslation": "Eu sou alérgico a amendoim.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "recommend",
+"word": "recommend",
+"translation": "recomendar",
+"pron": "ré-ko-MÉND",
+"example": "What do you recommend?",
+"exampleTranslation": "O que você recomenda?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "special",
+"word": "special",
+"translation": "prato do dia",
+"pron": "SPÉ-shal",
+"example": "What is today's special?",
+"exampleTranslation": "Qual é o prato do dia?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "portion",
+"word": "portion",
+"translation": "porção",
+"pron": "PÓR-shân",
+"example": "The portions are very big.",
+"exampleTranslation": "As porções são muito grandes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "takeout",
+"word": "takeout",
+"translation": "para viagem",
+"pron": "TEIK-aut",
+"example": "Can I get this as takeout?",
+"exampleTranslation": "Pode ser para viagem?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "to-go",
+"word": "to go",
+"translation": "para levar",
+"pron": "tu GÔU",
+"example": "Two coffees to go, please.",
+"exampleTranslation": "Dois cafés para levar, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "delivery",
+"word": "delivery",
+"translation": "entrega, delivery",
+"pron": "di-LI-ve-ri",
+"example": "Do you have delivery?",
+"exampleTranslation": "Vocês fazem entrega?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fast-food",
+"word": "fast food",
+"translation": "fast food",
+"pron": "FÉST fuud",
+"example": "Let's get some fast food.",
+"exampleTranslation": "Vamos comer um fast food.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "buffet",
+"word": "buffet",
+"translation": "bufê",
+"pron": "bâ-FÊI",
+"example": "The buffet has many options.",
+"exampleTranslation": "O bufê tem muitas opções.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "reservation-for-two",
+"word": "reservation for two",
+"translation": "reserva para dois",
+"pron": "ré-zer-VÊI-shân for TUU",
+"example": "I have a reservation for two at eight.",
+"exampleTranslation": "Eu tenho uma reserva para dois às oito.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "rare",
+"word": "rare",
+"translation": "malpassado",
+"pron": "RÉR",
+"example": "I like my steak rare.",
+"exampleTranslation": "Eu gosto do bife malpassado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "medium",
+"word": "medium",
+"translation": "ao ponto",
+"pron": "MII-di-um",
+"example": "Medium, please.",
+"exampleTranslation": "Ao ponto, por favor.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "well-done",
+"word": "well done",
+"translation": "bem passado",
+"pron": "uél DÂN",
+"example": "I want it well done.",
+"exampleTranslation": "Eu quero bem passado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "free-refill",
+"word": "free refill",
+"translation": "refil grátis",
+"pron": "frii RII-fil",
+"example": "Is there a free refill?",
+"exampleTranslation": "O refil é grátis?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "service-charge",
+"word": "service charge",
+"translation": "taxa de serviço",
+"pron": "SÂR-vis tcharj",
+"example": "Is the service charge included?",
+"exampleTranslation": "A taxa de serviço está incluída?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "split-the-bill",
+"word": "split the bill",
+"translation": "dividir a conta",
+"pron": "SPLIT dhe bil",
+"example": "Can we split the bill?",
+"exampleTranslation": "Podemos dividir a conta?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "delicious",
+"word": "delicious",
+"translation": "delicioso",
+"pron": "di-LI-shâs",
+"example": "This cake is delicious!",
+"exampleTranslation": "Este bolo está delicioso!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tasty",
+"word": "tasty",
+"translation": "saboroso",
+"pron": "TÊIS-ti",
+"example": "The food here is very tasty.",
+"exampleTranslation": "A comida aqui é muito saborosa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "full",
+"word": "full",
+"translation": "satisfeito, cheio",
+"pron": "FUL",
+"example": "No dessert, thanks. I'm full.",
+"exampleTranslation": "Sem sobremesa, obrigado. Estou satisfeito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "share",
+"word": "share",
+"translation": "dividir, compartilhar",
+"pron": "SHÉR",
+"example": "Let's share a pizza.",
+"exampleTranslation": "Vamos dividir uma pizza.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cook",
+"word": "cook",
+"translation": "cozinhar; cozinheiro",
+"pron": "KUK",
+"example": "My father loves to cook.",
+"exampleTranslation": "Meu pai adora cozinhar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bake",
+"word": "bake",
+"translation": "assar (no forno)",
+"pron": "BEIK",
+"example": "She bakes bread every Sunday.",
+"exampleTranslation": "Ela assa pão todo domingo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fry",
+"word": "fry",
+"translation": "fritar",
+"pron": "FRAI",
+"example": "Fry the eggs in butter.",
+"exampleTranslation": "Frite os ovos na manteiga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grilled",
+"word": "grilled",
+"translation": "grelhado",
+"pron": "GRILD",
+"example": "I'll have the grilled chicken.",
+"exampleTranslation": "Eu vou querer o frango grelhado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "raw",
+"word": "raw",
+"translation": "cru",
+"pron": "RÓ",
+"example": "Sushi has raw fish.",
+"exampleTranslation": "Sushi tem peixe cru.",
+"difficulty": 2,
+"level": "basic"
+}
+]

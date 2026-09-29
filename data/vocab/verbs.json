@@ -1,0 +1,1222 @@
+[
+{
+"slug": "be",
+"word": "be",
+"translation": "ser, estar",
+"pron": "BII",
+"example": "I want to be a doctor.",
+"exampleTranslation": "Eu quero ser médico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "have",
+"word": "have",
+"translation": "ter",
+"pron": "RÉV",
+"example": "I have two brothers.",
+"exampleTranslation": "Eu tenho dois irmãos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "do",
+"word": "do",
+"translation": "fazer (ação)",
+"pron": "DUU",
+"example": "What are you doing?",
+"exampleTranslation": "O que você está fazendo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "make",
+"word": "make",
+"translation": "fazer (produzir)",
+"pron": "MEIK",
+"example": "I'll make a cake.",
+"exampleTranslation": "Vou fazer um bolo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "go",
+"word": "go",
+"translation": "ir",
+"pron": "GÔU",
+"example": "Let's go!",
+"exampleTranslation": "Vamos!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "come",
+"word": "come",
+"translation": "vir",
+"pron": "KÂM",
+"example": "Come here, please.",
+"exampleTranslation": "Venha aqui, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get",
+"word": "get",
+"translation": "pegar, conseguir, receber",
+"pron": "GUÉT",
+"example": "Did you get my message?",
+"exampleTranslation": "Você recebeu minha mensagem?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "give",
+"word": "give",
+"translation": "dar",
+"pron": "GUIV",
+"example": "Give me the ball.",
+"exampleTranslation": "Me dá a bola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "take",
+"word": "take",
+"translation": "pegar, levar",
+"pron": "TEIK",
+"example": "Take an umbrella.",
+"exampleTranslation": "Leve um guarda-chuva.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bring",
+"word": "bring",
+"translation": "trazer",
+"pron": "BRIN",
+"example": "Bring your friends.",
+"exampleTranslation": "Traga seus amigos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "put",
+"word": "put",
+"translation": "colocar, pôr",
+"pron": "PUT",
+"example": "Put the book on the table.",
+"exampleTranslation": "Coloque o livro na mesa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "say",
+"word": "say",
+"translation": "dizer",
+"pron": "SEI",
+"example": "What did you say?",
+"exampleTranslation": "O que você disse?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tell",
+"word": "tell",
+"translation": "contar, dizer (a alguém)",
+"pron": "TÉL",
+"example": "Tell me a story.",
+"exampleTranslation": "Me conte uma história.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "speak",
+"word": "speak",
+"translation": "falar (idioma)",
+"pron": "SPIIK",
+"example": "Do you speak English?",
+"exampleTranslation": "Você fala inglês?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "talk",
+"word": "talk",
+"translation": "conversar, falar",
+"pron": "TÓK",
+"example": "Can we talk?",
+"exampleTranslation": "Podemos conversar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ask",
+"word": "ask",
+"translation": "perguntar, pedir",
+"pron": "ÉSK",
+"example": "Can I ask you something?",
+"exampleTranslation": "Posso te perguntar uma coisa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "answer",
+"word": "answer",
+"translation": "atender; responder",
+"pron": "ÉN-ser",
+"example": "Can you answer the phone?",
+"exampleTranslation": "Você pode atender o telefone?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "see",
+"word": "see",
+"translation": "ver",
+"pron": "SII",
+"example": "I can't see anything.",
+"exampleTranslation": "Não consigo ver nada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "look",
+"word": "look",
+"translation": "olhar",
+"pron": "LUK",
+"example": "Look at this!",
+"exampleTranslation": "Olha isto!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "watch",
+"word": "watch",
+"translation": "assistir, observar",
+"pron": "UÓTCH",
+"example": "Watch the baby for a minute.",
+"exampleTranslation": "Olhe o bebê por um minuto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hear",
+"word": "hear",
+"translation": "ouvir (escutar sem querer)",
+"pron": "RÍR",
+"example": "Can you hear me?",
+"exampleTranslation": "Você consegue me ouvir?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "listen",
+"word": "listen",
+"translation": "escutar",
+"pron": "LI-sen",
+"example": "Listen to me.",
+"exampleTranslation": "Me escute.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "know",
+"word": "know",
+"translation": "saber, conhecer",
+"pron": "NÔU",
+"example": "I don't know.",
+"exampleTranslation": "Eu não sei.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "think",
+"word": "think",
+"translation": "pensar, achar",
+"pron": "THINK",
+"example": "I think it's a good idea.",
+"exampleTranslation": "Eu acho que é uma boa ideia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "believe",
+"word": "believe",
+"translation": "acreditar",
+"pron": "bi-LIIV",
+"example": "I believe you.",
+"exampleTranslation": "Eu acredito em você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "remember",
+"word": "remember",
+"translation": "lembrar",
+"pron": "ri-MÉM-ber",
+"example": "Do you remember me?",
+"exampleTranslation": "Você se lembra de mim?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "forget",
+"word": "forget",
+"translation": "esquecer",
+"pron": "for-GUÉT",
+"example": "Don't forget your keys.",
+"exampleTranslation": "Não esqueça suas chaves.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "want",
+"word": "want",
+"translation": "querer",
+"pron": "UÓNT",
+"example": "I want some water.",
+"exampleTranslation": "Eu quero um pouco de água.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "need",
+"word": "need",
+"translation": "precisar",
+"pron": "NIID",
+"example": "I need help.",
+"exampleTranslation": "Eu preciso de ajuda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "like",
+"word": "like",
+"translation": "gostar",
+"pron": "LAIK",
+"example": "I like chocolate.",
+"exampleTranslation": "Eu gosto de chocolate.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "love-to",
+"word": "love to",
+"translation": "amar, adorar (fazer algo)",
+"pron": "LÂV tu",
+"example": "I love to cook.",
+"exampleTranslation": "Eu adoro cozinhar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "prefer",
+"word": "prefer",
+"translation": "preferir",
+"pron": "pri-FÂR",
+"example": "I prefer tea.",
+"exampleTranslation": "Eu prefiro chá.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "can",
+"word": "can",
+"translation": "poder, conseguir",
+"pron": "KÉN",
+"example": "Can you help me?",
+"exampleTranslation": "Você pode me ajudar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "try",
+"word": "try",
+"translation": "tentar; provar",
+"pron": "TRAI",
+"example": "Try again.",
+"exampleTranslation": "Tente de novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "use",
+"word": "use",
+"translation": "usar",
+"pron": "IUUZ",
+"example": "Can I use your phone?",
+"exampleTranslation": "Posso usar o seu telefone?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "help",
+"word": "help",
+"translation": "ajudar",
+"pron": "RÉLP",
+"example": "Can you help me?",
+"exampleTranslation": "Pode me ajudar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "work",
+"word": "work",
+"translation": "trabalhar",
+"pron": "UÂRK",
+"example": "My parents work hard.",
+"exampleTranslation": "Meus pais trabalham duro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "live",
+"word": "live",
+"translation": "morar, viver",
+"pron": "LIV",
+"example": "I live in São Paulo.",
+"exampleTranslation": "Eu moro em São Paulo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "eat",
+"word": "eat",
+"translation": "comer",
+"pron": "IIT",
+"example": "Let's eat!",
+"exampleTranslation": "Vamos comer!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "drink",
+"word": "drink",
+"translation": "beber",
+"pron": "DRINK",
+"example": "Drink more water.",
+"exampleTranslation": "Beba mais água.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wake-up",
+"word": "wake up",
+"translation": "acordar",
+"pron": "ueik ÂP",
+"example": "I wake up at six.",
+"exampleTranslation": "Eu acordo às seis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-up",
+"word": "get up",
+"translation": "levantar-se",
+"pron": "guét ÂP",
+"example": "Get up, it's late!",
+"exampleTranslation": "Levanta, está tarde!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "go-to-bed",
+"word": "go to bed",
+"translation": "ir para a cama",
+"pron": "gôu tu BÉD",
+"example": "I go to bed at ten.",
+"exampleTranslation": "Eu vou para a cama às dez.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sit",
+"word": "sit",
+"translation": "sentar",
+"pron": "SIT",
+"example": "Please sit down.",
+"exampleTranslation": "Por favor, sente-se.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stand",
+"word": "stand",
+"translation": "ficar de pé",
+"pron": "STÉND",
+"example": "Stand up, please.",
+"exampleTranslation": "Levante-se, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "open",
+"word": "open",
+"translation": "abrir",
+"pron": "ÔU-pen",
+"example": "Open the door.",
+"exampleTranslation": "Abra a porta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "close",
+"word": "close",
+"translation": "fechar",
+"pron": "KLÔUZ",
+"example": "Close the window.",
+"exampleTranslation": "Feche a janela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "start",
+"word": "start",
+"translation": "começar",
+"pron": "START",
+"example": "The movie starts at eight.",
+"exampleTranslation": "O filme começa às oito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "begin",
+"word": "begin",
+"translation": "começar, iniciar",
+"pron": "bi-GUIN",
+"example": "Let's begin the lesson.",
+"exampleTranslation": "Vamos começar a lição.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "finish",
+"word": "finish",
+"translation": "terminar",
+"pron": "FI-nish",
+"example": "Did you finish your homework?",
+"exampleTranslation": "Você terminou o dever de casa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "end",
+"word": "end",
+"translation": "terminar, acabar",
+"pron": "ÉND",
+"example": "The party ends at midnight.",
+"exampleTranslation": "A festa termina à meia-noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stay",
+"word": "stay",
+"translation": "ficar",
+"pron": "STEI",
+"example": "Let's stay home tonight.",
+"exampleTranslation": "Vamos ficar em casa hoje à noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wait",
+"word": "wait",
+"translation": "esperar (aguardar)",
+"pron": "UEIT",
+"example": "Wait for me!",
+"exampleTranslation": "Espere por mim!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "call",
+"word": "call",
+"translation": "ligar, chamar",
+"pron": "KÓL",
+"example": "Call me later.",
+"exampleTranslation": "Me liga mais tarde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "write",
+"word": "write",
+"translation": "escrever",
+"pron": "RAIT",
+"example": "Write your name here.",
+"exampleTranslation": "Escreva seu nome aqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "find",
+"word": "find",
+"translation": "encontrar, achar",
+"pron": "FAIND",
+"example": "I can't find my keys.",
+"exampleTranslation": "Não consigo achar minhas chaves.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lose",
+"word": "lose",
+"translation": "perder",
+"pron": "LUUZ",
+"example": "Don't lose your ticket.",
+"exampleTranslation": "Não perca seu bilhete.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "look-for",
+"word": "look for",
+"translation": "procurar",
+"pron": "LUK for",
+"example": "I'm looking for my glasses.",
+"exampleTranslation": "Estou procurando meus óculos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "send",
+"word": "send",
+"translation": "enviar, mandar",
+"pron": "SÉND",
+"example": "Send me a photo.",
+"exampleTranslation": "Me manda uma foto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "receive",
+"word": "receive",
+"translation": "receber",
+"pron": "ri-SIIV",
+"example": "Did you receive my email?",
+"exampleTranslation": "Você recebeu meu e-mail?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pay-attention",
+"word": "pay attention",
+"translation": "prestar atenção",
+"pron": "pei a-TÉN-shân",
+"example": "Pay attention in class.",
+"exampleTranslation": "Preste atenção na aula.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "play-with",
+"word": "play with",
+"translation": "brincar com",
+"pron": "PLEI uidh",
+"example": "Play with your sister.",
+"exampleTranslation": "Brinque com a sua irmã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "change",
+"word": "change",
+"translation": "mudar, trocar",
+"pron": "TCHÊINDJ",
+"example": "I want to change my life.",
+"exampleTranslation": "Eu quero mudar minha vida.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "choose",
+"word": "choose",
+"translation": "escolher",
+"pron": "TCHUUZ",
+"example": "Choose a color.",
+"exampleTranslation": "Escolha uma cor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "decide",
+"word": "decide",
+"translation": "decidir",
+"pron": "di-SAID",
+"example": "I can't decide.",
+"exampleTranslation": "Não consigo decidir.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "agree",
+"word": "agree",
+"translation": "concordar",
+"pron": "a-GRII",
+"example": "I agree with you.",
+"exampleTranslation": "Eu concordo com você.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "disagree",
+"word": "disagree",
+"translation": "discordar",
+"pron": "dis-a-GRII",
+"example": "I disagree.",
+"exampleTranslation": "Eu discordo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "understand",
+"word": "understand",
+"translation": "entender",
+"pron": "ân-der-STÉND",
+"example": "I understand you.",
+"exampleTranslation": "Eu entendo você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mean",
+"word": "mean",
+"translation": "significar; querer dizer",
+"pron": "MIIN",
+"example": "What does this word mean?",
+"exampleTranslation": "O que essa palavra significa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "show",
+"word": "show",
+"translation": "mostrar",
+"pron": "SHÔU",
+"example": "Show me your drawing.",
+"exampleTranslation": "Me mostra o seu desenho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "teach",
+"word": "teach",
+"translation": "ensinar",
+"pron": "TIITCH",
+"example": "Can you teach me?",
+"exampleTranslation": "Você pode me ensinar?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "build",
+"word": "build",
+"translation": "construir",
+"pron": "BILD",
+"example": "They are building a house.",
+"exampleTranslation": "Eles estão construindo uma casa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "break",
+"word": "break",
+"translation": "quebrar",
+"pron": "BREIK",
+"example": "Don't break the glass!",
+"exampleTranslation": "Não quebre o copo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fix",
+"word": "fix",
+"translation": "consertar",
+"pron": "FIKS",
+"example": "Dad can fix it.",
+"exampleTranslation": "O papai consegue consertar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "clean",
+"word": "clean",
+"translation": "limpar",
+"pron": "KLIIN",
+"example": "Clean your room.",
+"exampleTranslation": "Limpe o seu quarto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wash",
+"word": "wash",
+"translation": "lavar",
+"pron": "UÓSH",
+"example": "Wash your hands.",
+"exampleTranslation": "Lave as mãos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cut",
+"word": "cut",
+"translation": "cortar",
+"pron": "KÂT",
+"example": "Cut the bread, please.",
+"exampleTranslation": "Corte o pão, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "carry",
+"word": "carry",
+"translation": "carregar (levar nos braços)",
+"pron": "KÉ-ri",
+"example": "Can you carry this bag?",
+"exampleTranslation": "Você pode carregar esta sacola?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hold",
+"word": "hold",
+"translation": "segurar",
+"pron": "RÔULD",
+"example": "Hold my hand.",
+"exampleTranslation": "Segure a minha mão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "push",
+"word": "push",
+"translation": "empurrar",
+"pron": "PUSH",
+"example": "Push the door.",
+"exampleTranslation": "Empurre a porta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pull",
+"word": "pull",
+"translation": "puxar",
+"pron": "PUL",
+"example": "Pull the rope.",
+"exampleTranslation": "Puxe a corda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "jump",
+"word": "jump",
+"translation": "pular",
+"pron": "DJÂMP",
+"example": "The kids love to jump.",
+"exampleTranslation": "As crianças adoram pular.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "climb",
+"word": "climb",
+"translation": "escalar, subir",
+"pron": "KLAIM",
+"example": "Don't climb the tree!",
+"exampleTranslation": "Não suba na árvore!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fall",
+"word": "fall",
+"translation": "cair",
+"pron": "FÓL",
+"example": "The baby fell down.",
+"exampleTranslation": "O bebê caiu.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grow",
+"word": "grow",
+"translation": "crescer; cultivar",
+"pron": "GRÔU",
+"example": "The baby is growing fast.",
+"exampleTranslation": "O bebê está crescendo rápido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "learn-by-heart",
+"word": "learn by heart",
+"translation": "decorar",
+"pron": "lârn bai RART",
+"example": "I learned the song by heart.",
+"exampleTranslation": "Eu decorei a música.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "happen",
+"word": "happen",
+"translation": "acontecer",
+"pron": "RÉ-pen",
+"example": "What happened?",
+"exampleTranslation": "O que aconteceu?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "seem",
+"word": "seem",
+"translation": "parecer",
+"pron": "SIIM",
+"example": "You seem tired.",
+"exampleTranslation": "Você parece cansado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "become",
+"word": "become",
+"translation": "tornar-se",
+"pron": "bi-KÂM",
+"example": "She became a doctor.",
+"exampleTranslation": "Ela se tornou médica.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "let",
+"word": "let",
+"translation": "deixar, permitir",
+"pron": "LÉT",
+"example": "Let me help you.",
+"exampleTranslation": "Deixa eu te ajudar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "allow",
+"word": "allow",
+"translation": "permitir",
+"pron": "a-LAU",
+"example": "Dogs are not allowed here.",
+"exampleTranslation": "Cachorros não são permitidos aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "keep",
+"word": "keep",
+"translation": "manter, guardar",
+"pron": "KIIP",
+"example": "Keep the change.",
+"exampleTranslation": "Pode ficar com o troco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "leave",
+"word": "leave",
+"translation": "deixar; sair",
+"pron": "LIIV",
+"example": "I left my phone at home.",
+"exampleTranslation": "Eu deixei meu celular em casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "meet",
+"word": "meet",
+"translation": "encontrar; conhecer",
+"pron": "MIIT",
+"example": "Let's meet at six.",
+"exampleTranslation": "Vamos nos encontrar às seis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "travel",
+"word": "travel",
+"translation": "viajar",
+"pron": "TRÉ-vel",
+"example": "I want to travel abroad next year.",
+"exampleTranslation": "Eu quero viajar para o exterior ano que vem.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "drive",
+"word": "drive",
+"translation": "dirigir",
+"pron": "DRAIV",
+"example": "I drive to work every day.",
+"exampleTranslation": "Eu vou de carro ao trabalho todo dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sleep",
+"word": "sleep",
+"translation": "dormir",
+"pron": "SLIIP",
+"example": "Did you sleep well?",
+"exampleTranslation": "Você dormiu bem?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dream",
+"word": "dream",
+"translation": "sonhar; sonho",
+"pron": "DRIIM",
+"example": "I dreamed about you.",
+"exampleTranslation": "Eu sonhei com você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hurry",
+"word": "hurry",
+"translation": "apressar-se",
+"pron": "RÂ-ri",
+"example": "Hurry up!",
+"exampleTranslation": "Anda logo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "worry",
+"word": "worry",
+"translation": "preocupar-se",
+"pron": "UÂ-ri",
+"example": "Don't worry.",
+"exampleTranslation": "Não se preocupe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "smell",
+"word": "smell",
+"translation": "cheirar; cheiro",
+"pron": "SMÉL",
+"example": "It smells good!",
+"exampleTranslation": "Está cheiroso!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "taste",
+"word": "taste",
+"translation": "provar; ter gosto de",
+"pron": "TEIST",
+"example": "Taste this soup.",
+"exampleTranslation": "Prove esta sopa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "touch",
+"word": "touch",
+"translation": "tocar",
+"pron": "TÂTCH",
+"example": "Don't touch that!",
+"exampleTranslation": "Não toque nisso!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "enjoy",
+"word": "enjoy",
+"translation": "aproveitar, curtir",
+"pron": "in-DJÓI",
+"example": "Enjoy your meal!",
+"exampleTranslation": "Bom apetite!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "arrive",
+"word": "arrive",
+"translation": "chegar",
+"pron": "a-RAIV",
+"example": "What time do you arrive home?",
+"exampleTranslation": "Que horas você chega em casa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "return",
+"word": "return",
+"translation": "devolver; voltar",
+"pron": "ri-TÂRN",
+"example": "I need to return this book.",
+"exampleTranslation": "Eu preciso devolver este livro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "guess",
+"word": "guess",
+"translation": "adivinhar, chutar",
+"pron": "GUÉS",
+"example": "Guess what!",
+"exampleTranslation": "Adivinha!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "explain",
+"word": "explain",
+"translation": "explicar",
+"pron": "iks-PLEIN",
+"example": "Let me explain.",
+"exampleTranslation": "Deixa eu explicar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thank",
+"word": "thank",
+"translation": "agradecer",
+"pron": "THÉNK",
+"example": "I want to thank you.",
+"exampleTranslation": "Eu quero te agradecer.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "invite",
+"word": "invite",
+"translation": "convidar",
+"pron": "in-VAIT",
+"example": "Invite your cousins.",
+"exampleTranslation": "Convide seus primos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "plan",
+"word": "plan",
+"translation": "planejar; plano",
+"pron": "PLÉN",
+"example": "Let's plan our trip.",
+"exampleTranslation": "Vamos planejar nossa viagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "prepare",
+"word": "prepare",
+"translation": "preparar",
+"pron": "pri-PÉR",
+"example": "I'm preparing dinner.",
+"exampleTranslation": "Estou preparando o jantar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "move",
+"word": "move",
+"translation": "mudar(-se), mover",
+"pron": "MUUV",
+"example": "We moved house last year.",
+"exampleTranslation": "Nós mudamos de casa ano passado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turn",
+"word": "turn",
+"translation": "virar",
+"pron": "TÂRN",
+"example": "Turn left here.",
+"exampleTranslation": "Vire à esquerda aqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "check",
+"word": "check",
+"translation": "verificar, conferir",
+"pron": "TCHÉK",
+"example": "Check your email.",
+"exampleTranslation": "Confira seu e-mail.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fill",
+"word": "fill",
+"translation": "encher",
+"pron": "FIL",
+"example": "Fill the glass with water.",
+"exampleTranslation": "Encha o copo de água.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hide",
+"word": "hide",
+"translation": "esconder",
+"pron": "RAID",
+"example": "The kids are hiding.",
+"exampleTranslation": "As crianças estão se escondendo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "win",
+"word": "win",
+"translation": "ganhar, vencer",
+"pron": "UIN",
+"example": "She won a prize at school.",
+"exampleTranslation": "Ela ganhou um prêmio na escola.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "spend-time",
+"word": "spend time",
+"translation": "passar tempo",
+"pron": "spénd TAIM",
+"example": "I love to spend time with my family.",
+"exampleTranslation": "Eu adoro passar tempo com a minha família.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "save-a-life",
+"word": "save a life",
+"translation": "salvar uma vida",
+"pron": "seiv a LAIF",
+"example": "The doctor saved his life.",
+"exampleTranslation": "O médico salvou a vida dele.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "kill-time",
+"word": "kill time",
+"translation": "matar o tempo",
+"pron": "kil TAIM",
+"example": "I read to kill time.",
+"exampleTranslation": "Eu leio para matar o tempo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "imagine",
+"word": "imagine",
+"translation": "imaginar",
+"pron": "i-MÉ-djin",
+"example": "Imagine a world without war.",
+"exampleTranslation": "Imagine um mundo sem guerra.",
+"difficulty": 2,
+"level": "basic"
+}
+]

@@ -1,0 +1,452 @@
+[
+{
+"slug": "family",
+"word": "family",
+"translation": "família",
+"pron": "FÉ-mi-li",
+"example": "I love my family.",
+"exampleTranslation": "Eu amo minha família.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mother",
+"word": "mother",
+"translation": "mãe",
+"pron": "MÂ-dher",
+"example": "My mother is a teacher.",
+"exampleTranslation": "Minha mãe é professora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "father",
+"word": "father",
+"translation": "pai",
+"pron": "FÁ-dher",
+"example": "My father works a lot.",
+"exampleTranslation": "Meu pai trabalha muito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mom",
+"word": "mom",
+"translation": "mãe (informal)",
+"pron": "MÓM",
+"example": "Mom, I'm hungry!",
+"exampleTranslation": "Mãe, estou com fome!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dad",
+"word": "dad",
+"translation": "pai (informal)",
+"pron": "DÉD",
+"example": "Dad is cooking today.",
+"exampleTranslation": "O papai está cozinhando hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "parents",
+"word": "parents",
+"translation": "pais (pai e mãe)",
+"pron": "PÉ-rents",
+"example": "My parents live in Recife.",
+"exampleTranslation": "Meus pais moram em Recife.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "son",
+"word": "son",
+"translation": "filho",
+"pron": "SÂN",
+"example": "Their son is five years old.",
+"exampleTranslation": "O filho deles tem cinco anos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "daughter",
+"word": "daughter",
+"translation": "filha",
+"pron": "DÓ-rer",
+"example": "Our daughter just turned one.",
+"exampleTranslation": "Nossa filha acabou de fazer um ano.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "children",
+"word": "children",
+"translation": "filhos, crianças",
+"pron": "TCHIL-dren",
+"example": "They have three children.",
+"exampleTranslation": "Eles têm três filhos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kid",
+"word": "kid",
+"translation": "criança",
+"pron": "KID",
+"example": "The kids are playing outside.",
+"exampleTranslation": "As crianças estão brincando lá fora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "baby",
+"word": "baby",
+"translation": "bebê",
+"pron": "BÊI-bi",
+"example": "The baby is sleeping.",
+"exampleTranslation": "O bebê está dormindo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "brother",
+"word": "brother",
+"translation": "irmão",
+"pron": "BRÂ-dher",
+"example": "My brother is older than me.",
+"exampleTranslation": "Meu irmão é mais velho que eu.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sister",
+"word": "sister",
+"translation": "irmã",
+"pron": "SIS-ter",
+"example": "My sister lives in Canada.",
+"exampleTranslation": "Minha irmã mora no Canadá.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "siblings",
+"word": "siblings",
+"translation": "irmãos (em geral)",
+"pron": "SI-blinz",
+"example": "Do you have any siblings?",
+"exampleTranslation": "Você tem irmãos?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grandmother",
+"word": "grandmother",
+"translation": "avó",
+"pron": "GRÉND-mâ-dher",
+"example": "My grandmother makes great cakes.",
+"exampleTranslation": "Minha avó faz bolos ótimos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grandfather",
+"word": "grandfather",
+"translation": "avô",
+"pron": "GRÉND-fá-dher",
+"example": "My grandfather tells funny stories.",
+"exampleTranslation": "Meu avô conta histórias engraçadas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grandma",
+"word": "grandma",
+"translation": "vovó",
+"pron": "GRÉND-má",
+"example": "Let's visit Grandma on Sunday.",
+"exampleTranslation": "Vamos visitar a vovó no domingo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grandpa",
+"word": "grandpa",
+"translation": "vovô",
+"pron": "GRÉND-pá",
+"example": "Grandpa is ninety years old.",
+"exampleTranslation": "O vovô tem noventa anos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grandparents",
+"word": "grandparents",
+"translation": "avós",
+"pron": "GRÉND-pé-rents",
+"example": "My grandparents live on a farm.",
+"exampleTranslation": "Meus avós moram num sítio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grandson",
+"word": "grandson",
+"translation": "neto",
+"pron": "GRÉND-sân",
+"example": "Her grandson is a doctor.",
+"exampleTranslation": "O neto dela é médico.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "granddaughter",
+"word": "granddaughter",
+"translation": "neta",
+"pron": "GRÉND-dó-rer",
+"example": "She has one granddaughter.",
+"exampleTranslation": "Ela tem uma neta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grandchildren",
+"word": "grandchildren",
+"translation": "netos",
+"pron": "GRÉND-tchil-dren",
+"example": "They have six grandchildren.",
+"exampleTranslation": "Eles têm seis netos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "uncle",
+"word": "uncle",
+"translation": "tio",
+"pron": "ÂN-kol",
+"example": "My uncle lives in Portugal.",
+"exampleTranslation": "Meu tio mora em Portugal.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "aunt",
+"word": "aunt",
+"translation": "tia",
+"pron": "ÉNT",
+"example": "My aunt is very funny.",
+"exampleTranslation": "Minha tia é muito engraçada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cousin",
+"word": "cousin",
+"translation": "primo, prima",
+"pron": "KÂ-zin",
+"example": "My cousin is my best friend.",
+"exampleTranslation": "Meu primo é meu melhor amigo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nephew",
+"word": "nephew",
+"translation": "sobrinho",
+"pron": "NÉ-fiu",
+"example": "My nephew is starting school.",
+"exampleTranslation": "Meu sobrinho está começando na escola.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "niece",
+"word": "niece",
+"translation": "sobrinha",
+"pron": "NIIS",
+"example": "My niece loves to draw.",
+"exampleTranslation": "Minha sobrinha adora desenhar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "husband",
+"word": "husband",
+"translation": "marido",
+"pron": "RÂZ-band",
+"example": "Her husband is a pilot.",
+"exampleTranslation": "O marido dela é piloto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wife",
+"word": "wife",
+"translation": "esposa",
+"pron": "UAIF",
+"example": "This is my wife, Ana.",
+"exampleTranslation": "Esta é minha esposa, Ana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "twins",
+"word": "twins",
+"translation": "gêmeos",
+"pron": "TUINZ",
+"example": "My sisters are twins.",
+"exampleTranslation": "Minhas irmãs são gêmeas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "only-child",
+"word": "only child",
+"translation": "filho único",
+"pron": "ÔUN-li tchaild",
+"example": "I'm an only child.",
+"exampleTranslation": "Eu sou filho único.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "father-in-law",
+"word": "father-in-law",
+"translation": "sogro",
+"pron": "FÁ-dher in ló",
+"example": "My father-in-law is very kind.",
+"exampleTranslation": "Meu sogro é muito gentil.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "mother-in-law",
+"word": "mother-in-law",
+"translation": "sogra",
+"pron": "MÂ-dher in ló",
+"example": "My mother-in-law lives with us.",
+"exampleTranslation": "Minha sogra mora com a gente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "brother-in-law",
+"word": "brother-in-law",
+"translation": "cunhado",
+"pron": "BRÂ-dher in ló",
+"example": "My brother-in-law is a mechanic.",
+"exampleTranslation": "Meu cunhado é mecânico.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sister-in-law",
+"word": "sister-in-law",
+"translation": "cunhada",
+"pron": "SIS-ter in ló",
+"example": "My sister-in-law is visiting us.",
+"exampleTranslation": "Minha cunhada está nos visitando.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "stepfather",
+"word": "stepfather",
+"translation": "padrasto",
+"pron": "STÉP-fá-dher",
+"example": "My stepfather is a good man.",
+"exampleTranslation": "Meu padrasto é um bom homem.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "stepmother",
+"word": "stepmother",
+"translation": "madrasta",
+"pron": "STÉP-mâ-dher",
+"example": "She gets along with her stepmother.",
+"exampleTranslation": "Ela se dá bem com a madrasta.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "relatives",
+"word": "relatives",
+"translation": "parentes",
+"pron": "RÉ-la-tivz",
+"example": "All our relatives came for Christmas.",
+"exampleTranslation": "Todos os parentes vieram no Natal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "godmother",
+"word": "godmother",
+"translation": "madrinha",
+"pron": "GÓD-mâ-dher",
+"example": "My sister is the baby's godmother.",
+"exampleTranslation": "Minha irmã é a madrinha do bebê.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "godfather",
+"word": "godfather",
+"translation": "padrinho",
+"pron": "GÓD-fá-dher",
+"example": "Who is your godfather?",
+"exampleTranslation": "Quem é o seu padrinho?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "raise",
+"word": "raise",
+"translation": "criar (filhos)",
+"pron": "REIZ",
+"example": "They raised four children.",
+"exampleTranslation": "Eles criaram quatro filhos.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "take-care-of",
+"word": "take care of",
+"translation": "cuidar de",
+"pron": "teik KÉR óv",
+"example": "I take care of my little brother.",
+"exampleTranslation": "Eu cuido do meu irmão mais novo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "look-like",
+"word": "look like",
+"translation": "parecer-se com",
+"pron": "LUK laik",
+"example": "You look like your father.",
+"exampleTranslation": "Você se parece com seu pai.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grow-up",
+"word": "grow up",
+"translation": "crescer",
+"pron": "grôu ÂP",
+"example": "Children grow up so fast.",
+"exampleTranslation": "As crianças crescem tão rápido.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "birthday",
+"word": "birthday",
+"translation": "aniversário",
+"pron": "BÂRTH-dei",
+"example": "Today is my daughter's birthday.",
+"exampleTranslation": "Hoje é o aniversário da minha filha.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

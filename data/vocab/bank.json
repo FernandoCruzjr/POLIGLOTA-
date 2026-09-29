@@ -1,0 +1,352 @@
+[
+{
+"slug": "bank",
+"word": "bank",
+"translation": "banco",
+"pron": "BÉNK",
+"example": "I need to go to the bank.",
+"exampleTranslation": "Eu preciso ir ao banco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bank-account",
+"word": "bank account",
+"translation": "conta bancária",
+"pron": "bénk a-KAUNT",
+"example": "I opened a bank account.",
+"exampleTranslation": "Eu abri uma conta bancária.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "atm",
+"word": "ATM",
+"translation": "caixa eletrônico",
+"pron": "ei-ti-ÉM",
+"example": "Is there an ATM nearby?",
+"exampleTranslation": "Tem um caixa eletrônico aqui perto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "withdraw",
+"word": "withdraw",
+"translation": "sacar",
+"pron": "uidh-DRÓ",
+"example": "I want to withdraw 100 reais.",
+"exampleTranslation": "Eu quero sacar 100 reais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "withdrawal",
+"word": "withdrawal",
+"translation": "saque",
+"pron": "uidh-DRÓ-al",
+"example": "There's a limit on withdrawals.",
+"exampleTranslation": "Tem limite de saques.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "deposit-money",
+"word": "deposit money",
+"translation": "depositar",
+"pron": "di-PÓ-zit",
+"example": "I deposited my paycheck.",
+"exampleTranslation": "Eu depositei meu salário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "transfer",
+"word": "transfer",
+"translation": "transferência; transferir",
+"pron": "TRÉNS-fer",
+"example": "I'll make a transfer to you.",
+"exampleTranslation": "Vou fazer uma transferência para você.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "balance",
+"word": "balance",
+"translation": "saldo",
+"pron": "BÉ-lans",
+"example": "Check your balance.",
+"exampleTranslation": "Confira o seu saldo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "statement",
+"word": "statement",
+"translation": "extrato",
+"pron": "STÊIT-ment",
+"example": "I need my bank statement.",
+"exampleTranslation": "Eu preciso do meu extrato.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "debit-card",
+"word": "debit card",
+"translation": "cartão de débito",
+"pron": "DÉ-bit kard",
+"example": "I'll pay with my debit card.",
+"exampleTranslation": "Vou pagar com o cartão de débito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pin",
+"word": "PIN",
+"translation": "senha do cartão",
+"pron": "PIN",
+"example": "Enter your PIN.",
+"exampleTranslation": "Digite sua senha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "loan",
+"word": "loan",
+"translation": "empréstimo",
+"pron": "LÔUN",
+"example": "We got a loan to buy the car.",
+"exampleTranslation": "Pegamos um empréstimo para comprar o carro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "interest",
+"word": "interest",
+"translation": "juros",
+"pron": "IN-trest",
+"example": "The interest rate is high.",
+"exampleTranslation": "A taxa de juros está alta.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "bank-teller",
+"word": "bank teller",
+"translation": "caixa (atendente de banco)",
+"pron": "bénk TÉ-ler",
+"example": "Ask the bank teller.",
+"exampleTranslation": "Pergunte ao caixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "branch-office",
+"word": "branch office",
+"translation": "agência bancária",
+"pron": "BRÉNTCH ó-fis",
+"example": "Which branch office do you use?",
+"exampleTranslation": "Qual agência você usa?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "online-banking",
+"word": "online banking",
+"translation": "banco pela internet",
+"pron": "ÓN-lain BÉN-kin",
+"example": "I do everything by online banking.",
+"exampleTranslation": "Eu faço tudo pelo banco na internet.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "banking-app",
+"word": "banking app",
+"translation": "aplicativo do banco",
+"pron": "BÉN-kin ép",
+"example": "Pay with the banking app.",
+"exampleTranslation": "Pague pelo aplicativo do banco.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "check",
+"word": "check",
+"translation": "cheque",
+"pron": "TCHÉK",
+"example": "Nobody uses checks anymore.",
+"exampleTranslation": "Ninguém usa mais cheque.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sign-a-form",
+"word": "sign a form",
+"translation": "assinar um formulário",
+"pron": "sain a FÓRM",
+"example": "Please sign this form.",
+"exampleTranslation": "Por favor, assine este formulário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "form",
+"word": "form",
+"translation": "formulário",
+"pron": "FÓRM",
+"example": "Fill out this form.",
+"exampleTranslation": "Preencha este formulário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fill-out",
+"word": "fill out",
+"translation": "preencher",
+"pron": "fil AUT",
+"example": "Fill out the form, please.",
+"exampleTranslation": "Preencha o formulário, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "open-an-account",
+"word": "open an account",
+"translation": "abrir uma conta",
+"pron": "ôu-pen an a-KAUNT",
+"example": "I want to open an account.",
+"exampleTranslation": "Eu quero abrir uma conta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "close-an-account",
+"word": "close an account",
+"translation": "encerrar uma conta",
+"pron": "klôuz an a-KAUNT",
+"example": "I want to close my account.",
+"exampleTranslation": "Eu quero encerrar minha conta.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "exchange-rate",
+"word": "exchange rate",
+"translation": "taxa de câmbio",
+"pron": "iks-TCHÊINDJ reit",
+"example": "What's the exchange rate today?",
+"exampleTranslation": "Qual é o câmbio hoje?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "payment",
+"word": "payment",
+"translation": "pagamento",
+"pron": "PEI-ment",
+"example": "The payment was approved.",
+"exampleTranslation": "O pagamento foi aprovado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "approved",
+"word": "approved",
+"translation": "aprovado",
+"pron": "a-PRUUVD",
+"example": "Your loan was approved.",
+"exampleTranslation": "Seu empréstimo foi aprovado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "declined",
+"word": "declined",
+"translation": "recusado (cartão)",
+"pron": "di-KLAIND",
+"example": "My card was declined.",
+"exampleTranslation": "Meu cartão foi recusado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "due-date",
+"word": "due date",
+"translation": "data de vencimento",
+"pron": "DUU deit",
+"example": "What's the due date?",
+"exampleTranslation": "Qual é a data de vencimento?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "fraud",
+"word": "fraud",
+"translation": "fraude",
+"pron": "FRÓD",
+"example": "Call the bank if you suspect fraud.",
+"exampleTranslation": "Ligue para o banco se suspeitar de fraude.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "block-the-card",
+"word": "block the card",
+"translation": "bloquear o cartão",
+"pron": "blók dhe KARD",
+"example": "I lost my card. Please block it.",
+"exampleTranslation": "Eu perdi meu cartão. Por favor, bloqueie.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "safe-deposit-box",
+"word": "safe deposit box",
+"translation": "cofre (de banco)",
+"pron": "SEIF di-pó-zit bóks",
+"example": "The jewels are in a safe deposit box.",
+"exampleTranslation": "As joias estão num cofre do banco.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "security-code",
+"word": "security code",
+"translation": "código de segurança",
+"pron": "si-KIÚ-ri-ti kôud",
+"example": "Enter the security code.",
+"exampleTranslation": "Digite o código de segurança.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "signature",
+"word": "signature",
+"translation": "assinatura",
+"pron": "SIG-na-tcher",
+"example": "Your signature, please.",
+"exampleTranslation": "Sua assinatura, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "id-card",
+"word": "ID card",
+"translation": "carteira de identidade",
+"pron": "ai-DII kard",
+"example": "Bring your ID card.",
+"exampleTranslation": "Traga sua carteira de identidade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wire-transfer",
+"word": "wire transfer",
+"translation": "transferência bancária",
+"pron": "UAI-er tréns-fer",
+"example": "I sent the money by wire transfer.",
+"exampleTranslation": "Eu mandei o dinheiro por transferência bancária.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

@@ -1,0 +1,462 @@
+[
+{
+"slug": "very",
+"word": "very",
+"translation": "muito",
+"pron": "VÉ-ri",
+"example": "It's very hot.",
+"exampleTranslation": "Está muito quente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "really",
+"word": "really",
+"translation": "realmente, muito",
+"pron": "RII-li",
+"example": "I really like it.",
+"exampleTranslation": "Eu gosto muito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "too",
+"word": "too",
+"translation": "demais; também",
+"pron": "TUU",
+"example": "It's too expensive.",
+"exampleTranslation": "É caro demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "also",
+"word": "also",
+"translation": "também",
+"pron": "ÓL-sou",
+"example": "I also speak Spanish.",
+"exampleTranslation": "Eu também falo espanhol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "only",
+"word": "only",
+"translation": "só, apenas",
+"pron": "ÔUN-li",
+"example": "I only have five reais.",
+"exampleTranslation": "Eu só tenho cinco reais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "just",
+"word": "just",
+"translation": "só; acabou de",
+"pron": "DJÂST",
+"example": "I just arrived.",
+"exampleTranslation": "Eu acabei de chegar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "already",
+"word": "already",
+"translation": "já",
+"pron": "ól-RÉ-di",
+"example": "I already ate.",
+"exampleTranslation": "Eu já comi.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "still",
+"word": "still",
+"translation": "ainda",
+"pron": "STIL",
+"example": "Are you still at work?",
+"exampleTranslation": "Você ainda está no trabalho?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "yet",
+"word": "yet",
+"translation": "ainda (negativas); já (perguntas)",
+"pron": "IÉT",
+"example": "I haven't finished yet.",
+"exampleTranslation": "Eu ainda não terminei.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "again",
+"word": "again",
+"translation": "de novo",
+"pron": "a-GUÉN",
+"example": "Say it again.",
+"exampleTranslation": "Diga de novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "often",
+"word": "often",
+"translation": "frequentemente",
+"pron": "Ó-fen",
+"example": "I often go to the beach.",
+"exampleTranslation": "Eu vou à praia com frequência.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "usually",
+"word": "usually",
+"translation": "geralmente",
+"pron": "IUU-ju-a-li",
+"example": "I usually wake up at six.",
+"exampleTranslation": "Eu geralmente acordo às seis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sometimes",
+"word": "sometimes",
+"translation": "às vezes",
+"pron": "SÂM-taimz",
+"example": "Sometimes I work at home.",
+"exampleTranslation": "Às vezes eu trabalho em casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rarely",
+"word": "rarely",
+"translation": "raramente",
+"pron": "RÉR-li",
+"example": "I rarely eat meat.",
+"exampleTranslation": "Eu raramente como carne.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ever",
+"word": "ever",
+"translation": "alguma vez, já",
+"pron": "É-ver",
+"example": "Have you ever been to Italy?",
+"exampleTranslation": "Você já foi à Itália?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "here",
+"word": "here",
+"translation": "aqui",
+"pron": "RÍR",
+"example": "Come here.",
+"exampleTranslation": "Venha aqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "there",
+"word": "there",
+"translation": "lá, ali",
+"pron": "DHÉR",
+"example": "Put it over there.",
+"exampleTranslation": "Coloque ali.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "everywhere",
+"word": "everywhere",
+"translation": "em todo lugar",
+"pron": "ÉV-ri-uér",
+"example": "I looked everywhere.",
+"exampleTranslation": "Eu procurei em todo lugar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "somewhere",
+"word": "somewhere",
+"translation": "em algum lugar",
+"pron": "SÂM-uér",
+"example": "My keys are somewhere here.",
+"exampleTranslation": "Minhas chaves estão em algum lugar aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "nowhere",
+"word": "nowhere",
+"translation": "em lugar nenhum",
+"pron": "NÔU-uér",
+"example": "I found it nowhere.",
+"exampleTranslation": "Não achei em lugar nenhum.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "outside",
+"word": "outside",
+"translation": "lá fora",
+"pron": "aut-SAID",
+"example": "The kids are playing outside.",
+"exampleTranslation": "As crianças estão brincando lá fora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "inside",
+"word": "inside",
+"translation": "dentro",
+"pron": "in-SAID",
+"example": "Come inside, it's raining.",
+"exampleTranslation": "Entre, está chovendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "well",
+"word": "well",
+"translation": "bem",
+"pron": "UÉL",
+"example": "You speak English very well.",
+"exampleTranslation": "Você fala inglês muito bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "badly",
+"word": "badly",
+"translation": "mal",
+"pron": "BÉD-li",
+"example": "I slept badly.",
+"exampleTranslation": "Eu dormi mal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quickly",
+"word": "quickly",
+"translation": "rapidamente",
+"pron": "KUIK-li",
+"example": "Come quickly!",
+"exampleTranslation": "Venha rápido!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "slowly",
+"word": "slowly",
+"translation": "devagar",
+"pron": "SLÔU-li",
+"example": "Please speak slowly.",
+"exampleTranslation": "Por favor, fale devagar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "carefully",
+"word": "carefully",
+"translation": "com cuidado",
+"pron": "KÉR-fu-li",
+"example": "Drive carefully.",
+"exampleTranslation": "Dirija com cuidado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "easily",
+"word": "easily",
+"translation": "facilmente",
+"pron": "II-zi-li",
+"example": "You can do it easily.",
+"exampleTranslation": "Você consegue fazer isso fácil.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "almost",
+"word": "almost",
+"translation": "quase",
+"pron": "ÓL-moust",
+"example": "I'm almost ready.",
+"exampleTranslation": "Estou quase pronto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "enough",
+"word": "enough",
+"translation": "suficiente",
+"pron": "i-NÂF",
+"example": "That's enough, thank you.",
+"exampleTranslation": "Já está bom, obrigado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "maybe",
+"word": "maybe",
+"translation": "talvez",
+"pron": "MEI-bi",
+"example": "Maybe tomorrow.",
+"exampleTranslation": "Talvez amanhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "probably",
+"word": "probably",
+"translation": "provavelmente",
+"pron": "PRÓ-ba-bli",
+"example": "It will probably rain.",
+"exampleTranslation": "Provavelmente vai chover.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "of-course",
+"word": "of course",
+"translation": "claro, com certeza",
+"pron": "óv KÓRS",
+"example": "Of course I can help.",
+"exampleTranslation": "Claro que posso ajudar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "actually",
+"word": "actually",
+"translation": "na verdade",
+"pron": "ÉK-tchu-a-li",
+"example": "Actually, I'm from Recife.",
+"exampleTranslation": "Na verdade, eu sou de Recife.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "finally",
+"word": "finally",
+"translation": "finalmente",
+"pron": "FAI-na-li",
+"example": "Finally, it's Friday!",
+"exampleTranslation": "Finalmente é sexta!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "suddenly",
+"word": "suddenly",
+"translation": "de repente",
+"pron": "SÂ-den-li",
+"example": "Suddenly, it started to rain.",
+"exampleTranslation": "De repente, começou a chover.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "immediately",
+"word": "immediately",
+"translation": "imediatamente",
+"pron": "i-MII-di-at-li",
+"example": "Call me immediately.",
+"exampleTranslation": "Me ligue imediatamente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tonight",
+"word": "tonight",
+"translation": "hoje à noite",
+"pron": "tu-NAIT",
+"example": "What are you doing tonight?",
+"exampleTranslation": "O que você vai fazer hoje à noite?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "recently",
+"word": "recently",
+"translation": "recentemente",
+"pron": "RII-sent-li",
+"example": "I recently moved here.",
+"exampleTranslation": "Eu me mudei para cá recentemente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "a-lot",
+"word": "a lot",
+"translation": "muito",
+"pron": "a LÓT",
+"example": "I like it a lot.",
+"exampleTranslation": "Eu gosto muito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "a-little",
+"word": "a little",
+"translation": "um pouco",
+"pron": "a LI-rol",
+"example": "I speak a little English.",
+"exampleTranslation": "Eu falo um pouco de inglês.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "especially",
+"word": "especially",
+"translation": "especialmente",
+"pron": "is-PÉ-sha-li",
+"example": "I love fruit, especially mango.",
+"exampleTranslation": "Eu adoro fruta, especialmente manga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "anyway",
+"word": "anyway",
+"translation": "de qualquer forma",
+"pron": "É-ni-uei",
+"example": "Thanks anyway.",
+"exampleTranslation": "Obrigado de qualquer forma.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hardly",
+"word": "hardly",
+"translation": "mal, quase não",
+"pron": "RARD-li",
+"example": "I can hardly hear you.",
+"exampleTranslation": "Eu mal consigo te ouvir.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "late-at-night",
+"word": "late at night",
+"translation": "tarde da noite",
+"pron": "leit ét NAIT",
+"example": "He works late at night.",
+"exampleTranslation": "Ele trabalha até tarde da noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "right-now",
+"word": "right now",
+"translation": "agora mesmo",
+"pron": "rait NAU",
+"example": "I'm busy right now.",
+"exampleTranslation": "Estou ocupado agora mesmo.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

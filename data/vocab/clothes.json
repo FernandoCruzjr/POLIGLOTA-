@@ -1,0 +1,502 @@
+[
+{
+"slug": "clothes",
+"word": "clothes",
+"translation": "roupas",
+"pron": "KLÔUZ",
+"example": "I need new clothes.",
+"exampleTranslation": "Eu preciso de roupas novas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shirt",
+"word": "shirt",
+"translation": "camisa",
+"pron": "SHÂRT",
+"example": "I like your shirt.",
+"exampleTranslation": "Eu gostei da sua camisa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "t-shirt",
+"word": "T-shirt",
+"translation": "camiseta",
+"pron": "TII-shârt",
+"example": "He always wears a T-shirt.",
+"exampleTranslation": "Ele sempre usa camiseta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pants",
+"word": "pants",
+"translation": "calça",
+"pron": "PÉNTS",
+"example": "These pants are too long.",
+"exampleTranslation": "Esta calça está comprida demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "jeans",
+"word": "jeans",
+"translation": "calça jeans",
+"pron": "DJIINZ",
+"example": "I wear jeans every day.",
+"exampleTranslation": "Eu uso jeans todo dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shorts",
+"word": "shorts",
+"translation": "bermuda, short",
+"pron": "SHÓRTS",
+"example": "It's hot, wear shorts.",
+"exampleTranslation": "Está calor, use bermuda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "skirt",
+"word": "skirt",
+"translation": "saia",
+"pron": "SKÂRT",
+"example": "She has a blue skirt.",
+"exampleTranslation": "Ela tem uma saia azul.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dress",
+"word": "dress",
+"translation": "vestido",
+"pron": "DRÉS",
+"example": "What a beautiful dress!",
+"exampleTranslation": "Que vestido lindo!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "jacket",
+"word": "jacket",
+"translation": "jaqueta",
+"pron": "DJÉ-ket",
+"example": "Take a jacket, it's cold.",
+"exampleTranslation": "Leve uma jaqueta, está frio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "coat",
+"word": "coat",
+"translation": "casaco (pesado)",
+"pron": "KÔUT",
+"example": "I need a warm coat for winter.",
+"exampleTranslation": "Eu preciso de um casaco quente para o inverno.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sweater",
+"word": "sweater",
+"translation": "suéter, blusa de frio",
+"pron": "SUÉ-rer",
+"example": "Grandma knitted this sweater.",
+"exampleTranslation": "A vovó tricotou este suéter.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hoodie",
+"word": "hoodie",
+"translation": "moletom com capuz",
+"pron": "RU-di",
+"example": "My son loves his black hoodie.",
+"exampleTranslation": "Meu filho adora o moletom preto dele.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "suit",
+"word": "suit",
+"translation": "terno",
+"pron": "SUUT",
+"example": "He wore a suit to the wedding.",
+"exampleTranslation": "Ele usou terno no casamento.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tie",
+"word": "tie",
+"translation": "gravata",
+"pron": "TAI",
+"example": "You don't need a tie.",
+"exampleTranslation": "Você não precisa de gravata.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shoes",
+"word": "shoes",
+"translation": "sapatos",
+"pron": "SHUUZ",
+"example": "Take off your shoes.",
+"exampleTranslation": "Tire os sapatos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sneakers",
+"word": "sneakers",
+"translation": "tênis",
+"pron": "SNII-kerz",
+"example": "I bought new sneakers.",
+"exampleTranslation": "Eu comprei tênis novos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sandals",
+"word": "sandals",
+"translation": "sandálias",
+"pron": "SÉN-dolz",
+"example": "I wear sandals at the beach.",
+"exampleTranslation": "Eu uso sandália na praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flip-flops",
+"word": "flip-flops",
+"translation": "chinelo",
+"pron": "FLIP-flóps",
+"example": "Brazilians love flip-flops.",
+"exampleTranslation": "Os brasileiros adoram chinelo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boots",
+"word": "boots",
+"translation": "botas",
+"pron": "BUUTS",
+"example": "These boots are very comfortable.",
+"exampleTranslation": "Estas botas são muito confortáveis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "socks",
+"word": "socks",
+"translation": "meias",
+"pron": "SÓKS",
+"example": "Put on your socks.",
+"exampleTranslation": "Coloque as meias.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "underwear",
+"word": "underwear",
+"translation": "roupa íntima",
+"pron": "ÂN-der-uér",
+"example": "Pack enough underwear.",
+"exampleTranslation": "Leve roupa íntima suficiente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pajamas",
+"word": "pajamas",
+"translation": "pijama",
+"pron": "pa-DJÁ-maz",
+"example": "Put on your pajamas.",
+"exampleTranslation": "Coloque o pijama.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "swimsuit",
+"word": "swimsuit",
+"translation": "maiô, roupa de banho",
+"pron": "SUIM-suut",
+"example": "Don't forget your swimsuit.",
+"exampleTranslation": "Não esqueça sua roupa de banho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bikini",
+"word": "bikini",
+"translation": "biquíni",
+"pron": "bi-KII-ni",
+"example": "She bought a new bikini.",
+"exampleTranslation": "Ela comprou um biquíni novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hat",
+"word": "hat",
+"translation": "chapéu",
+"pron": "RÉT",
+"example": "Wear a hat in the sun.",
+"exampleTranslation": "Use chapéu no sol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cap",
+"word": "cap",
+"translation": "boné",
+"pron": "KÉP",
+"example": "He wears his cap backwards.",
+"exampleTranslation": "Ele usa o boné virado para trás.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "scarf",
+"word": "scarf",
+"translation": "cachecol",
+"pron": "SKARF",
+"example": "Take a scarf, it's windy.",
+"exampleTranslation": "Leve um cachecol, está ventando.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "gloves",
+"word": "gloves",
+"translation": "luvas",
+"pron": "GLÂVZ",
+"example": "I need gloves in the snow.",
+"exampleTranslation": "Eu preciso de luvas na neve.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "belt",
+"word": "belt",
+"translation": "cinto",
+"pron": "BÉLT",
+"example": "These pants need a belt.",
+"exampleTranslation": "Esta calça precisa de cinto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bag",
+"word": "bag",
+"translation": "bolsa",
+"pron": "BÉG",
+"example": "My bag is very heavy.",
+"exampleTranslation": "Minha bolsa está muito pesada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wallet",
+"word": "wallet",
+"translation": "carteira",
+"pron": "UÓ-let",
+"example": "I lost my wallet.",
+"exampleTranslation": "Eu perdi minha carteira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "watch",
+"word": "watch",
+"translation": "relógio (de pulso)",
+"pron": "UÓTCH",
+"example": "What a nice watch!",
+"exampleTranslation": "Que relógio bonito!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ring",
+"word": "ring",
+"translation": "anel",
+"pron": "RIN",
+"example": "She has a gold ring.",
+"exampleTranslation": "Ela tem um anel de ouro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "necklace",
+"word": "necklace",
+"translation": "colar",
+"pron": "NÉK-les",
+"example": "This necklace was my mother's.",
+"exampleTranslation": "Este colar era da minha mãe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "earrings",
+"word": "earrings",
+"translation": "brincos",
+"pron": "ÍR-rinz",
+"example": "I love your earrings.",
+"exampleTranslation": "Eu adorei seus brincos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "button",
+"word": "button",
+"translation": "botão",
+"pron": "BÂ-ton",
+"example": "A button is missing.",
+"exampleTranslation": "Está faltando um botão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pocket",
+"word": "pocket",
+"translation": "bolso",
+"pron": "PÓ-ket",
+"example": "My keys are in my pocket.",
+"exampleTranslation": "As chaves estão no meu bolso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sleeve",
+"word": "sleeve",
+"translation": "manga (de roupa)",
+"pron": "SLIIV",
+"example": "I prefer short sleeves.",
+"exampleTranslation": "Eu prefiro manga curta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "zipper",
+"word": "zipper",
+"translation": "zíper",
+"pron": "ZI-per",
+"example": "The zipper is broken.",
+"exampleTranslation": "O zíper está quebrado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wear",
+"word": "wear",
+"translation": "usar, vestir",
+"pron": "UÉR",
+"example": "What are you going to wear?",
+"exampleTranslation": "O que você vai vestir?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "put-on",
+"word": "put on",
+"translation": "colocar, vestir",
+"pron": "put ÓN",
+"example": "Put on your jacket.",
+"exampleTranslation": "Coloque sua jaqueta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "take-off",
+"word": "take off",
+"translation": "tirar (roupa)",
+"pron": "teik ÓF",
+"example": "Take off your wet clothes.",
+"exampleTranslation": "Tire as roupas molhadas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-dressed",
+"word": "get dressed",
+"translation": "vestir-se",
+"pron": "guét DRÉST",
+"example": "Get dressed, we're late!",
+"exampleTranslation": "Vista-se, estamos atrasados!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tight",
+"word": "tight",
+"translation": "apertado",
+"pron": "TAIT",
+"example": "These jeans are too tight.",
+"exampleTranslation": "Este jeans está apertado demais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "loose",
+"word": "loose",
+"translation": "largo, folgado",
+"pron": "LUUS",
+"example": "I like loose clothes.",
+"exampleTranslation": "Eu gosto de roupa larga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "comfortable",
+"word": "comfortable",
+"translation": "confortável",
+"pron": "KÂMF-ter-ta-bol",
+"example": "These shoes are comfortable.",
+"exampleTranslation": "Estes sapatos são confortáveis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fashion",
+"word": "fashion",
+"translation": "moda",
+"pron": "FÉ-shân",
+"example": "She loves fashion.",
+"exampleTranslation": "Ela adora moda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cotton",
+"word": "cotton",
+"translation": "algodão",
+"pron": "KÓ-ton",
+"example": "This shirt is 100% cotton.",
+"exampleTranslation": "Esta camisa é 100% algodão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vest",
+"word": "vest",
+"translation": "colete",
+"pron": "VÉST",
+"example": "He wore a vest over his shirt.",
+"exampleTranslation": "Ele usou um colete por cima da camisa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "raincoat",
+"word": "raincoat",
+"translation": "capa de chuva",
+"pron": "REIN-kôut",
+"example": "Take your raincoat.",
+"exampleTranslation": "Leve sua capa de chuva.",
+"difficulty": 2,
+"level": "basic"
+}
+]

@@ -1,0 +1,502 @@
+[
+{
+"slug": "nature",
+"word": "nature",
+"translation": "natureza",
+"pron": "NÊI-tcher",
+"example": "I love being in nature.",
+"exampleTranslation": "Eu adoro estar na natureza.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tree",
+"word": "tree",
+"translation": "árvore",
+"pron": "TRII",
+"example": "There's a big tree in the garden.",
+"exampleTranslation": "Tem uma árvore grande no jardim.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flower",
+"word": "flower",
+"translation": "flor",
+"pron": "FLÁU-er",
+"example": "She gave me a flower.",
+"exampleTranslation": "Ela me deu uma flor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "leaf",
+"word": "leaf",
+"translation": "folha",
+"pron": "LIIF",
+"example": "A leaf fell on my head.",
+"exampleTranslation": "Uma folha caiu na minha cabeça.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grass",
+"word": "grass",
+"translation": "grama",
+"pron": "GRÉS",
+"example": "Don't walk on the grass.",
+"exampleTranslation": "Não pise na grama.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "forest",
+"word": "forest",
+"translation": "floresta",
+"pron": "FÓ-rest",
+"example": "The Amazon is a huge forest.",
+"exampleTranslation": "A Amazônia é uma floresta enorme.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "jungle",
+"word": "jungle",
+"translation": "selva",
+"pron": "DJÂN-gol",
+"example": "Monkeys live in the jungle.",
+"exampleTranslation": "Macacos vivem na selva.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "mountain",
+"word": "mountain",
+"translation": "montanha",
+"pron": "MAUN-ten",
+"example": "We climbed the mountain.",
+"exampleTranslation": "Nós subimos a montanha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hill",
+"word": "hill",
+"translation": "morro, colina",
+"pron": "RIL",
+"example": "Our house is on a hill.",
+"exampleTranslation": "Nossa casa fica num morro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "river",
+"word": "river",
+"translation": "rio",
+"pron": "RI-ver",
+"example": "The river is very long.",
+"exampleTranslation": "O rio é muito longo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lake",
+"word": "lake",
+"translation": "lago",
+"pron": "LEIK",
+"example": "We swam in the lake.",
+"exampleTranslation": "Nadamos no lago.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sea",
+"word": "sea",
+"translation": "mar",
+"pron": "SII",
+"example": "The sea is calm today.",
+"exampleTranslation": "O mar está calmo hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ocean",
+"word": "ocean",
+"translation": "oceano",
+"pron": "ÔU-shân",
+"example": "The Atlantic Ocean is huge.",
+"exampleTranslation": "O Oceano Atlântico é enorme.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wave",
+"word": "wave",
+"translation": "onda",
+"pron": "UEIV",
+"example": "The waves are big today.",
+"exampleTranslation": "As ondas estão grandes hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sand",
+"word": "sand",
+"translation": "areia",
+"pron": "SÉND",
+"example": "The kids play in the sand.",
+"exampleTranslation": "As crianças brincam na areia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "island",
+"word": "island",
+"translation": "ilha",
+"pron": "AI-land",
+"example": "We visited a small island.",
+"exampleTranslation": "Visitamos uma ilha pequena.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "waterfall",
+"word": "waterfall",
+"translation": "cachoeira",
+"pron": "UÓ-rer-fól",
+"example": "Let's swim in the waterfall.",
+"exampleTranslation": "Vamos nadar na cachoeira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rock",
+"word": "rock",
+"translation": "pedra, rocha",
+"pron": "RÓK",
+"example": "Sit on that rock.",
+"exampleTranslation": "Sente naquela pedra.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stone",
+"word": "stone",
+"translation": "pedra",
+"pron": "STÔUN",
+"example": "He threw a stone in the water.",
+"exampleTranslation": "Ele jogou uma pedra na água.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sky",
+"word": "sky",
+"translation": "céu",
+"pron": "SKAI",
+"example": "The sky is clear tonight.",
+"exampleTranslation": "O céu está limpo hoje à noite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "star",
+"word": "star",
+"translation": "estrela",
+"pron": "STAR",
+"example": "Look at the stars!",
+"exampleTranslation": "Olhe as estrelas!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "moon",
+"word": "moon",
+"translation": "lua",
+"pron": "MUUN",
+"example": "There's a full moon tonight.",
+"exampleTranslation": "Tem lua cheia hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "earth",
+"word": "earth",
+"translation": "Terra; terra (solo)",
+"pron": "ÂRTH",
+"example": "The Earth goes around the sun.",
+"exampleTranslation": "A Terra gira em torno do sol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "world",
+"word": "world",
+"translation": "mundo",
+"pron": "UÂRLD",
+"example": "I want to travel around the world.",
+"exampleTranslation": "Eu quero viajar pelo mundo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "air",
+"word": "air",
+"translation": "ar",
+"pron": "ÉR",
+"example": "The mountain air is fresh.",
+"exampleTranslation": "O ar da montanha é fresco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fire",
+"word": "fire",
+"translation": "fogo",
+"pron": "FAI-er",
+"example": "We made a fire at the campsite.",
+"exampleTranslation": "Fizemos uma fogueira no acampamento.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "field",
+"word": "field",
+"translation": "campo",
+"pron": "FIILD",
+"example": "The horses run in the field.",
+"exampleTranslation": "Os cavalos correm no campo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "farm",
+"word": "farm",
+"translation": "fazenda, sítio",
+"pron": "FARM",
+"example": "My uncle has a farm.",
+"exampleTranslation": "Meu tio tem um sítio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "countryside",
+"word": "countryside",
+"translation": "interior, campo",
+"pron": "KÂN-tri-said",
+"example": "I grew up in the countryside.",
+"exampleTranslation": "Eu cresci no interior.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "desert",
+"word": "desert",
+"translation": "deserto",
+"pron": "DÉ-zert",
+"example": "It's hot in the desert.",
+"exampleTranslation": "Faz calor no deserto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "volcano",
+"word": "volcano",
+"translation": "vulcão",
+"pron": "vól-KÊI-nou",
+"example": "The volcano is active.",
+"exampleTranslation": "O vulcão está ativo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cave",
+"word": "cave",
+"translation": "caverna",
+"pron": "KEIV",
+"example": "We explored a cave.",
+"exampleTranslation": "Exploramos uma caverna.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "valley",
+"word": "valley",
+"translation": "vale",
+"pron": "VÉ-li",
+"example": "The village is in a valley.",
+"exampleTranslation": "O vilarejo fica num vale.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "coast",
+"word": "coast",
+"translation": "litoral, costa",
+"pron": "KÔUST",
+"example": "They live on the coast.",
+"exampleTranslation": "Eles moram no litoral.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "trail",
+"word": "trail",
+"translation": "trilha",
+"pron": "TREIL",
+"example": "We walked the trail to the top.",
+"exampleTranslation": "Fizemos a trilha até o topo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "seed",
+"word": "seed",
+"translation": "semente",
+"pron": "SIID",
+"example": "Plant the seeds in spring.",
+"exampleTranslation": "Plante as sementes na primavera.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "root",
+"word": "root",
+"translation": "raiz",
+"pron": "RUUT",
+"example": "The roots of this tree are deep.",
+"exampleTranslation": "As raízes desta árvore são profundas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "branch",
+"word": "branch",
+"translation": "galho",
+"pron": "BRÉNTCH",
+"example": "A bird is on the branch.",
+"exampleTranslation": "Tem um pássaro no galho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wood",
+"word": "wood",
+"translation": "madeira",
+"pron": "UUD",
+"example": "The table is made of wood.",
+"exampleTranslation": "A mesa é feita de madeira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soil",
+"word": "soil",
+"translation": "solo, terra",
+"pron": "SÓIL",
+"example": "This soil is good for plants.",
+"exampleTranslation": "Este solo é bom para plantas.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "environment",
+"word": "environment",
+"translation": "meio ambiente",
+"pron": "in-VAI-ron-ment",
+"example": "We must protect the environment.",
+"exampleTranslation": "Precisamos proteger o meio ambiente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "recycle",
+"word": "recycle",
+"translation": "reciclar",
+"pron": "rii-SAI-kol",
+"example": "We recycle paper and plastic.",
+"exampleTranslation": "Nós reciclamos papel e plástico.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "plastic",
+"word": "plastic",
+"translation": "plástico",
+"pron": "PLÉS-tik",
+"example": "Don't throw plastic in the sea.",
+"exampleTranslation": "Não jogue plástico no mar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "garbage",
+"word": "garbage",
+"translation": "lixo",
+"pron": "GAR-bidj",
+"example": "Put the garbage in the bin.",
+"exampleTranslation": "Coloque o lixo na lixeira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "planet",
+"word": "planet",
+"translation": "planeta",
+"pron": "PLÉ-net",
+"example": "We only have one planet.",
+"exampleTranslation": "Só temos um planeta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "landscape",
+"word": "landscape",
+"translation": "paisagem",
+"pron": "LÉND-skeip",
+"example": "What a beautiful landscape!",
+"exampleTranslation": "Que paisagem linda!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shadow",
+"word": "shadow",
+"translation": "sombra",
+"pron": "SHÉ-dou",
+"example": "Look at our shadows on the wall.",
+"exampleTranslation": "Olhe as nossas sombras na parede.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pick-flowers",
+"word": "pick flowers",
+"translation": "colher flores",
+"pron": "pik FLÁU-erz",
+"example": "The kids picked flowers for Mom.",
+"exampleTranslation": "As crianças colheram flores para a mamãe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wild",
+"word": "wild",
+"translation": "selvagem",
+"pron": "UAILD",
+"example": "These are wild animals.",
+"exampleTranslation": "Estes são animais selvagens.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "natural",
+"word": "natural",
+"translation": "natural",
+"pron": "NÉ-tcha-ral",
+"example": "This juice is 100% natural.",
+"exampleTranslation": "Este suco é 100% natural.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

@@ -1,0 +1,552 @@
+[
+{
+"slug": "school",
+"word": "school",
+"translation": "escola",
+"pron": "SKUUL",
+"example": "The kids are at school.",
+"exampleTranslation": "As crianças estão na escola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "teacher",
+"word": "teacher",
+"translation": "professor",
+"pron": "TII-tcher",
+"example": "My teacher is very patient.",
+"exampleTranslation": "Minha professora é muito paciente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "student",
+"word": "student",
+"translation": "aluno, estudante",
+"pron": "STUU-dent",
+"example": "She is a good student.",
+"exampleTranslation": "Ela é uma boa aluna.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "classroom",
+"word": "classroom",
+"translation": "sala de aula",
+"pron": "KLÉS-ruum",
+"example": "The classroom is on the second floor.",
+"exampleTranslation": "A sala de aula fica no segundo andar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "class",
+"word": "class",
+"translation": "aula; turma",
+"pron": "KLÉS",
+"example": "English class starts at eight.",
+"exampleTranslation": "A aula de inglês começa às oito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lesson",
+"word": "lesson",
+"translation": "lição, aula",
+"pron": "LÉ-son",
+"example": "Today's lesson is about animals.",
+"exampleTranslation": "A lição de hoje é sobre animais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "homework",
+"word": "homework",
+"translation": "dever de casa",
+"pron": "RÔUM-uârk",
+"example": "Did you do your homework?",
+"exampleTranslation": "Você fez o dever de casa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "test",
+"word": "test",
+"translation": "prova, teste",
+"pron": "TÉST",
+"example": "I have a math test tomorrow.",
+"exampleTranslation": "Eu tenho prova de matemática amanhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "exam",
+"word": "exam",
+"translation": "exame, prova",
+"pron": "ig-ZÉM",
+"example": "The exam was difficult.",
+"exampleTranslation": "A prova foi difícil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grade",
+"word": "grade",
+"translation": "nota; série (ano escolar)",
+"pron": "GREID",
+"example": "I got a good grade.",
+"exampleTranslation": "Eu tirei uma boa nota.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pass",
+"word": "pass",
+"translation": "passar (em prova)",
+"pron": "PÉS",
+"example": "I passed the test!",
+"exampleTranslation": "Eu passei na prova!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fail",
+"word": "fail",
+"translation": "reprovar, falhar",
+"pron": "FEIL",
+"example": "Don't worry if you fail once.",
+"exampleTranslation": "Não se preocupe se você falhar uma vez.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "study",
+"word": "study",
+"translation": "estudar",
+"pron": "STÂ-di",
+"example": "I study English every day.",
+"exampleTranslation": "Eu estudo inglês todo dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "learn",
+"word": "learn",
+"translation": "aprender",
+"pron": "LÂRN",
+"example": "We learn new words every week.",
+"exampleTranslation": "Aprendemos palavras novas toda semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "teach",
+"word": "teach",
+"translation": "ensinar",
+"pron": "TIITCH",
+"example": "My mother teaches math.",
+"exampleTranslation": "Minha mãe ensina matemática.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "book",
+"word": "book",
+"translation": "livro",
+"pron": "BUK",
+"example": "Open your books to page ten.",
+"exampleTranslation": "Abram os livros na página dez.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "notebook",
+"word": "notebook",
+"translation": "caderno",
+"pron": "NÔUT-buk",
+"example": "Write it in your notebook.",
+"exampleTranslation": "Escreva no seu caderno.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pen",
+"word": "pen",
+"translation": "caneta",
+"pron": "PÉN",
+"example": "Can I borrow a pen?",
+"exampleTranslation": "Posso pegar uma caneta emprestada?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pencil",
+"word": "pencil",
+"translation": "lápis",
+"pron": "PÉN-sol",
+"example": "Use a pencil for the drawing.",
+"exampleTranslation": "Use um lápis para o desenho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "eraser",
+"word": "eraser",
+"translation": "borracha",
+"pron": "i-RÊI-ser",
+"example": "I need an eraser.",
+"exampleTranslation": "Eu preciso de uma borracha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ruler",
+"word": "ruler",
+"translation": "régua",
+"pron": "RUU-ler",
+"example": "Draw a line with the ruler.",
+"exampleTranslation": "Faça uma linha com a régua.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "scissors",
+"word": "scissors",
+"translation": "tesoura",
+"pron": "SI-zerz",
+"example": "Be careful with the scissors.",
+"exampleTranslation": "Cuidado com a tesoura.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "glue",
+"word": "glue",
+"translation": "cola",
+"pron": "GLUU",
+"example": "We need glue for this project.",
+"exampleTranslation": "Precisamos de cola para este trabalho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "board",
+"word": "board",
+"translation": "quadro",
+"pron": "BÓRD",
+"example": "Look at the board.",
+"exampleTranslation": "Olhem para o quadro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "page",
+"word": "page",
+"translation": "página",
+"pron": "PEIDJ",
+"example": "Turn to page twenty.",
+"exampleTranslation": "Vão para a página vinte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "question",
+"word": "question",
+"translation": "pergunta",
+"pron": "KUÉS-tchân",
+"example": "Can I ask a question?",
+"exampleTranslation": "Posso fazer uma pergunta?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "answer",
+"word": "answer",
+"translation": "resposta; responder",
+"pron": "ÉN-ser",
+"example": "What's the answer?",
+"exampleTranslation": "Qual é a resposta?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mistake",
+"word": "mistake",
+"translation": "erro",
+"pron": "mis-TEIK",
+"example": "Everyone makes mistakes.",
+"exampleTranslation": "Todo mundo erra.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "correct",
+"word": "correct",
+"translation": "correto; corrigir",
+"pron": "ko-RÉKT",
+"example": "Your answer is correct.",
+"exampleTranslation": "Sua resposta está correta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wrong",
+"word": "wrong",
+"translation": "errado",
+"pron": "RÓN",
+"example": "That's the wrong answer.",
+"exampleTranslation": "Essa é a resposta errada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "subject",
+"word": "subject",
+"translation": "matéria",
+"pron": "SÂB-djekt",
+"example": "My favorite subject is history.",
+"exampleTranslation": "Minha matéria favorita é história.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "math",
+"word": "math",
+"translation": "matemática",
+"pron": "MÉTH",
+"example": "Math is easy for her.",
+"exampleTranslation": "Matemática é fácil para ela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "science",
+"word": "science",
+"translation": "ciências",
+"pron": "SAI-ens",
+"example": "We did an experiment in science class.",
+"exampleTranslation": "Fizemos um experimento na aula de ciências.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "history",
+"word": "history",
+"translation": "história",
+"pron": "RIS-to-ri",
+"example": "I love history.",
+"exampleTranslation": "Eu adoro história.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "geography",
+"word": "geography",
+"translation": "geografia",
+"pron": "dji-Ó-gra-fi",
+"example": "We study maps in geography.",
+"exampleTranslation": "Estudamos mapas em geografia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "art",
+"word": "art",
+"translation": "artes",
+"pron": "ART",
+"example": "In art class, we paint.",
+"exampleTranslation": "Na aula de artes, nós pintamos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "physical-education",
+"word": "physical education",
+"translation": "educação física",
+"pron": "FI-zi-kal é-dju-KÊI-shân",
+"example": "We play soccer in physical education.",
+"exampleTranslation": "Jogamos futebol na educação física.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "break-time",
+"word": "break time",
+"translation": "recreio",
+"pron": "BREIK taim",
+"example": "We eat a snack at break time.",
+"exampleTranslation": "Comemos um lanche no recreio.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "principal",
+"word": "principal",
+"translation": "diretor(a) de escola",
+"pron": "PRIN-si-pal",
+"example": "The principal wants to see you.",
+"exampleTranslation": "A diretora quer falar com você.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "university",
+"word": "university",
+"translation": "universidade",
+"pron": "iu-ni-VÂR-si-ti",
+"example": "My sister is at university.",
+"exampleTranslation": "Minha irmã está na universidade.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "college",
+"word": "college",
+"translation": "faculdade",
+"pron": "KÓ-lidj",
+"example": "He goes to college in Rio.",
+"exampleTranslation": "Ele faz faculdade no Rio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "degree",
+"word": "degree",
+"translation": "diploma (curso superior)",
+"pron": "di-GRII",
+"example": "She has a degree in law.",
+"exampleTranslation": "Ela é formada em direito.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "graduate",
+"word": "graduate",
+"translation": "formar-se",
+"pron": "GRÉ-dju-eit",
+"example": "I graduated in 2015.",
+"exampleTranslation": "Eu me formei em 2015.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "course",
+"word": "course",
+"translation": "curso",
+"pron": "KÓRS",
+"example": "I'm taking an English course.",
+"exampleTranslation": "Estou fazendo um curso de inglês.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kindergarten",
+"word": "kindergarten",
+"translation": "jardim de infância",
+"pron": "KIN-der-gar-ten",
+"example": "My son is in kindergarten.",
+"exampleTranslation": "Meu filho está no jardim de infância.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "uniform",
+"word": "uniform",
+"translation": "uniforme",
+"pron": "IU-ni-form",
+"example": "Students wear a uniform.",
+"exampleTranslation": "Os alunos usam uniforme.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "school-supplies",
+"word": "school supplies",
+"translation": "material escolar",
+"pron": "SKUUL sa-PLAIZ",
+"example": "We bought school supplies for the year.",
+"exampleTranslation": "Compramos o material escolar do ano.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dictionary",
+"word": "dictionary",
+"translation": "dicionário",
+"pron": "DIK-sho-né-ri",
+"example": "Look it up in the dictionary.",
+"exampleTranslation": "Procure no dicionário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "spell",
+"word": "spell",
+"translation": "soletrar",
+"pron": "SPÉL",
+"example": "How do you spell your name?",
+"exampleTranslation": "Como se soletra o seu nome?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "repeat",
+"word": "repeat",
+"translation": "repetir",
+"pron": "ri-PIIT",
+"example": "Can you repeat, please?",
+"exampleTranslation": "Pode repetir, por favor?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "understand",
+"word": "understand",
+"translation": "entender",
+"pron": "ân-der-STÉND",
+"example": "I don't understand.",
+"exampleTranslation": "Eu não entendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "explain",
+"word": "explain",
+"translation": "explicar",
+"pron": "iks-PLEIN",
+"example": "Can you explain it again?",
+"exampleTranslation": "Você pode explicar de novo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "practice",
+"word": "practice",
+"translation": "praticar",
+"pron": "PRÉK-tis",
+"example": "Practice makes perfect.",
+"exampleTranslation": "A prática leva à perfeição.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "knowledge",
+"word": "knowledge",
+"translation": "conhecimento",
+"pron": "NÓ-lidj",
+"example": "Knowledge is power.",
+"exampleTranslation": "Conhecimento é poder.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "scholarship",
+"word": "scholarship",
+"translation": "bolsa de estudos",
+"pron": "SKÓ-lar-ship",
+"example": "She won a scholarship.",
+"exampleTranslation": "Ela ganhou uma bolsa de estudos.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

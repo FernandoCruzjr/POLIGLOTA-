@@ -1,0 +1,552 @@
+[
+{
+"slug": "work",
+"word": "work",
+"translation": "trabalho; trabalhar",
+"pron": "UÂRK",
+"example": "I work from Monday to Friday.",
+"exampleTranslation": "Eu trabalho de segunda a sexta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "job",
+"word": "job",
+"translation": "emprego",
+"pron": "DJÓB",
+"example": "She has a new job.",
+"exampleTranslation": "Ela tem um emprego novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "office",
+"word": "office",
+"translation": "escritório",
+"pron": "Ó-fis",
+"example": "I'm at the office.",
+"exampleTranslation": "Estou no escritório.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "company",
+"word": "company",
+"translation": "empresa",
+"pron": "KÂM-pa-ni",
+"example": "I work for a big company.",
+"exampleTranslation": "Eu trabalho numa empresa grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boss",
+"word": "boss",
+"translation": "chefe",
+"pron": "BÓS",
+"example": "My boss is very fair.",
+"exampleTranslation": "Meu chefe é muito justo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "manager",
+"word": "manager",
+"translation": "gerente",
+"pron": "MÉ-na-djer",
+"example": "I want to talk to the manager.",
+"exampleTranslation": "Eu quero falar com o gerente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "coworker",
+"word": "coworker",
+"translation": "colega de trabalho",
+"pron": "KÔU-uâr-ker",
+"example": "My coworkers are great.",
+"exampleTranslation": "Meus colegas de trabalho são ótimos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "employee",
+"word": "employee",
+"translation": "funcionário",
+"pron": "im-plói-II",
+"example": "The company has 200 employees.",
+"exampleTranslation": "A empresa tem 200 funcionários.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "team",
+"word": "team",
+"translation": "equipe",
+"pron": "TIIM",
+"example": "Our team works well together.",
+"exampleTranslation": "Nossa equipe trabalha bem junta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "meeting",
+"word": "meeting",
+"translation": "reunião",
+"pron": "MII-tin",
+"example": "I have a meeting at ten.",
+"exampleTranslation": "Eu tenho uma reunião às dez.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "schedule-a-meeting",
+"word": "schedule a meeting",
+"translation": "marcar uma reunião",
+"pron": "SKÉ-djul a MII-tin",
+"example": "Let's schedule a meeting for Friday.",
+"exampleTranslation": "Vamos marcar uma reunião para sexta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "project",
+"word": "project",
+"translation": "projeto",
+"pron": "PRÓ-djékt",
+"example": "We are starting a new project.",
+"exampleTranslation": "Estamos começando um projeto novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "task",
+"word": "task",
+"translation": "tarefa",
+"pron": "TÉSK",
+"example": "I have many tasks today.",
+"exampleTranslation": "Eu tenho muitas tarefas hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "deadline",
+"word": "deadline",
+"translation": "prazo",
+"pron": "DÉD-lain",
+"example": "The deadline is tomorrow.",
+"exampleTranslation": "O prazo é amanhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "report",
+"word": "report",
+"translation": "relatório",
+"pron": "ri-PÓRT",
+"example": "I need to finish this report.",
+"exampleTranslation": "Eu preciso terminar este relatório.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "email",
+"word": "email",
+"translation": "e-mail",
+"pron": "Í-meil",
+"example": "I'll send you an email.",
+"exampleTranslation": "Eu vou te mandar um e-mail.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "salary",
+"word": "salary",
+"translation": "salário",
+"pron": "SÉ-la-ri",
+"example": "The salary is good.",
+"exampleTranslation": "O salário é bom.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "raise",
+"word": "raise",
+"translation": "aumento (de salário)",
+"pron": "REIZ",
+"example": "I asked for a raise in salary.",
+"exampleTranslation": "Eu pedi um aumento de salário.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "interview",
+"word": "interview",
+"translation": "entrevista",
+"pron": "IN-ter-viu",
+"example": "I have a job interview tomorrow.",
+"exampleTranslation": "Eu tenho uma entrevista de emprego amanhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "resume",
+"word": "resume",
+"translation": "currículo",
+"pron": "RÉ-zu-mei",
+"example": "Send us your resume.",
+"exampleTranslation": "Envie-nos seu currículo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hire",
+"word": "hire",
+"translation": "contratar",
+"pron": "RAI-er",
+"example": "They hired five new people.",
+"exampleTranslation": "Eles contrataram cinco pessoas novas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fire",
+"word": "fire",
+"translation": "demitir",
+"pron": "FAI-er",
+"example": "He was fired last week.",
+"exampleTranslation": "Ele foi demitido semana passada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quit",
+"word": "quit",
+"translation": "pedir demissão, largar",
+"pron": "KUIT",
+"example": "She quit her job.",
+"exampleTranslation": "Ela pediu demissão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "retire",
+"word": "retire",
+"translation": "aposentar-se",
+"pron": "ri-TAI-er",
+"example": "My father retired last year.",
+"exampleTranslation": "Meu pai se aposentou ano passado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "full-time",
+"word": "full-time",
+"translation": "período integral",
+"pron": "FUL taim",
+"example": "I have a full-time job.",
+"exampleTranslation": "Eu tenho um emprego de período integral.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "part-time",
+"word": "part-time",
+"translation": "meio período",
+"pron": "PART taim",
+"example": "She works part-time.",
+"exampleTranslation": "Ela trabalha meio período.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shift",
+"word": "shift",
+"translation": "turno",
+"pron": "SHIFT",
+"example": "I work the night shift.",
+"exampleTranslation": "Eu trabalho no turno da noite.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "overtime",
+"word": "overtime",
+"translation": "hora extra",
+"pron": "ÔU-ver-taim",
+"example": "I worked overtime yesterday.",
+"exampleTranslation": "Eu fiz hora extra ontem.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "break",
+"word": "break",
+"translation": "intervalo, pausa",
+"pron": "BREIK",
+"example": "Let's take a break.",
+"exampleTranslation": "Vamos fazer uma pausa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lunch-break",
+"word": "lunch break",
+"translation": "horário de almoço",
+"pron": "LÂNTCH breik",
+"example": "My lunch break is at noon.",
+"exampleTranslation": "Meu horário de almoço é ao meio-dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "day-off",
+"word": "day off",
+"translation": "dia de folga",
+"pron": "dei ÓF",
+"example": "Tomorrow is my day off.",
+"exampleTranslation": "Amanhã é meu dia de folga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "busy",
+"word": "busy",
+"translation": "ocupado",
+"pron": "BI-zi",
+"example": "I'm very busy today.",
+"exampleTranslation": "Estou muito ocupado hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "client",
+"word": "client",
+"translation": "cliente",
+"pron": "KLAI-ent",
+"example": "I'm meeting a client at three.",
+"exampleTranslation": "Vou encontrar um cliente às três.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "contract",
+"word": "contract",
+"translation": "contrato",
+"pron": "KÓN-trékt",
+"example": "Please sign the contract.",
+"exampleTranslation": "Por favor, assine o contrato.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sign",
+"word": "sign",
+"translation": "assinar",
+"pron": "SAIN",
+"example": "Sign here, please.",
+"exampleTranslation": "Assine aqui, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "business",
+"word": "business",
+"translation": "negócio",
+"pron": "BIZ-nis",
+"example": "He has his own business.",
+"exampleTranslation": "Ele tem o próprio negócio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "career",
+"word": "career",
+"translation": "carreira",
+"pron": "ka-RÍR",
+"example": "She has a great career.",
+"exampleTranslation": "Ela tem uma ótima carreira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "experience",
+"word": "experience",
+"translation": "experiência",
+"pron": "iks-PÍ-ri-ens",
+"example": "Do you have experience?",
+"exampleTranslation": "Você tem experiência?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "skill",
+"word": "skill",
+"translation": "habilidade",
+"pron": "SKIL",
+"example": "Communication is an important skill.",
+"exampleTranslation": "Comunicação é uma habilidade importante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "goal",
+"word": "goal",
+"translation": "meta, objetivo",
+"pron": "GÔUL",
+"example": "Our goal is to sell more.",
+"exampleTranslation": "Nossa meta é vender mais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "work-from-home",
+"word": "work from home",
+"translation": "trabalhar de casa",
+"pron": "uârk frâm RÔUM",
+"example": "I work from home on Fridays.",
+"exampleTranslation": "Eu trabalho de casa às sextas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "coffee-break",
+"word": "coffee break",
+"translation": "pausa para o café",
+"pron": "KÓ-fi breik",
+"example": "Let's have a coffee break.",
+"exampleTranslation": "Vamos fazer uma pausa para o café.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "presentation",
+"word": "presentation",
+"translation": "apresentação",
+"pron": "pré-zen-TÊI-shân",
+"example": "My presentation went well.",
+"exampleTranslation": "Minha apresentação foi bem.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "colleague",
+"word": "colleague",
+"translation": "colega (de profissão)",
+"pron": "KÓ-liig",
+"example": "A colleague helped me.",
+"exampleTranslation": "Um colega me ajudou.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "promotion",
+"word": "promotion",
+"translation": "promoção (de cargo)",
+"pron": "pro-MÔU-shân",
+"example": "She got a promotion.",
+"exampleTranslation": "Ela foi promovida.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "earn",
+"word": "earn",
+"translation": "ganhar (dinheiro)",
+"pron": "ÂRN",
+"example": "How much do you earn?",
+"exampleTranslation": "Quanto você ganha?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "paycheck",
+"word": "paycheck",
+"translation": "contracheque, pagamento",
+"pron": "PEI-tchék",
+"example": "I get my paycheck on the fifth.",
+"exampleTranslation": "Eu recebo meu pagamento no dia cinco.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "printer",
+"word": "printer",
+"translation": "impressora",
+"pron": "PRIN-ter",
+"example": "The printer isn't working.",
+"exampleTranslation": "A impressora não está funcionando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "document",
+"word": "document",
+"translation": "documento",
+"pron": "DÓ-kiu-ment",
+"example": "Please read this document.",
+"exampleTranslation": "Por favor, leia este documento.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "call",
+"word": "call",
+"translation": "ligação; ligar",
+"pron": "KÓL",
+"example": "I have to make a call.",
+"exampleTranslation": "Eu tenho que fazer uma ligação.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "unemployed",
+"word": "unemployed",
+"translation": "desempregado",
+"pron": "ân-im-PLÓID",
+"example": "He is unemployed right now.",
+"exampleTranslation": "Ele está desempregado no momento.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "apply-for-a-job",
+"word": "apply for a job",
+"translation": "candidatar-se a uma vaga",
+"pron": "a-PLAI for a DJÓB",
+"example": "I applied for a job at the bank.",
+"exampleTranslation": "Eu me candidatei a uma vaga no banco.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "workplace",
+"word": "workplace",
+"translation": "local de trabalho",
+"pron": "UÂRK-pleis",
+"example": "Safety in the workplace is important.",
+"exampleTranslation": "A segurança no local de trabalho é importante.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "hard-working",
+"word": "hard-working",
+"translation": "trabalhador, esforçado",
+"pron": "rard UÂR-kin",
+"example": "She is very hard-working.",
+"exampleTranslation": "Ela é muito esforçada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "agenda",
+"word": "agenda",
+"translation": "pauta (de reunião)",
+"pron": "a-DJÉN-da",
+"example": "What's on the agenda today?",
+"exampleTranslation": "Qual é a pauta de hoje?",
+"difficulty": 3,
+"level": "elementary"
+}
+]

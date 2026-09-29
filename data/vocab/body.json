@@ -1,0 +1,552 @@
+[
+{
+"slug": "body",
+"word": "body",
+"translation": "corpo",
+"pron": "BÓ-di",
+"example": "Exercise is good for your body.",
+"exampleTranslation": "Exercício faz bem para o corpo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "head",
+"word": "head",
+"translation": "cabeça",
+"pron": "RÉD",
+"example": "My head hurts.",
+"exampleTranslation": "Minha cabeça dói.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hair",
+"word": "hair",
+"translation": "cabelo",
+"pron": "RÉR",
+"example": "She has long hair.",
+"exampleTranslation": "Ela tem cabelo comprido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "face",
+"word": "face",
+"translation": "rosto",
+"pron": "FEIS",
+"example": "Wash your face.",
+"exampleTranslation": "Lave o rosto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "eye",
+"word": "eye",
+"translation": "olho",
+"pron": "AI",
+"example": "Close your eyes.",
+"exampleTranslation": "Feche os olhos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ear",
+"word": "ear",
+"translation": "orelha, ouvido",
+"pron": "ÍR",
+"example": "My ear hurts.",
+"exampleTranslation": "Meu ouvido está doendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nose",
+"word": "nose",
+"translation": "nariz",
+"pron": "NÔUZ",
+"example": "The baby has a small nose.",
+"exampleTranslation": "O bebê tem um narizinho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mouth",
+"word": "mouth",
+"translation": "boca",
+"pron": "MAUTH",
+"example": "Open your mouth.",
+"exampleTranslation": "Abra a boca.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lips",
+"word": "lips",
+"translation": "lábios",
+"pron": "LIPS",
+"example": "My lips are dry.",
+"exampleTranslation": "Meus lábios estão secos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tooth",
+"word": "tooth",
+"translation": "dente",
+"pron": "TUUTH",
+"example": "The baby has her first tooth!",
+"exampleTranslation": "O bebê está com o primeiro dentinho!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "teeth",
+"word": "teeth",
+"translation": "dentes",
+"pron": "TIITH",
+"example": "Brush your teeth.",
+"exampleTranslation": "Escove os dentes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tongue",
+"word": "tongue",
+"translation": "língua",
+"pron": "TÂN",
+"example": "Don't stick out your tongue!",
+"exampleTranslation": "Não mostre a língua!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cheek",
+"word": "cheek",
+"translation": "bochecha",
+"pron": "TCHIIK",
+"example": "She kissed my cheek.",
+"exampleTranslation": "Ela beijou minha bochecha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "chin",
+"word": "chin",
+"translation": "queixo",
+"pron": "TCHIN",
+"example": "He hit his chin.",
+"exampleTranslation": "Ele bateu o queixo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "forehead",
+"word": "forehead",
+"translation": "testa",
+"pron": "FÓR-réd",
+"example": "You have a fever, your forehead is hot.",
+"exampleTranslation": "Você está com febre, sua testa está quente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "eyebrow",
+"word": "eyebrow",
+"translation": "sobrancelha",
+"pron": "AI-brau",
+"example": "She has thick eyebrows.",
+"exampleTranslation": "Ela tem sobrancelhas grossas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "beard",
+"word": "beard",
+"translation": "barba",
+"pron": "BÍRD",
+"example": "My father has a beard.",
+"exampleTranslation": "Meu pai tem barba.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "neck",
+"word": "neck",
+"translation": "pescoço",
+"pron": "NÉK",
+"example": "My neck is stiff.",
+"exampleTranslation": "Meu pescoço está duro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "throat",
+"word": "throat",
+"translation": "garganta",
+"pron": "THRÔUT",
+"example": "I have a sore throat.",
+"exampleTranslation": "Estou com dor de garganta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shoulder",
+"word": "shoulder",
+"translation": "ombro",
+"pron": "SHÔUL-der",
+"example": "My shoulder hurts.",
+"exampleTranslation": "Meu ombro dói.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "arm",
+"word": "arm",
+"translation": "braço",
+"pron": "ARM",
+"example": "He broke his arm.",
+"exampleTranslation": "Ele quebrou o braço.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "elbow",
+"word": "elbow",
+"translation": "cotovelo",
+"pron": "ÉL-bou",
+"example": "I hit my elbow on the table.",
+"exampleTranslation": "Eu bati o cotovelo na mesa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wrist",
+"word": "wrist",
+"translation": "pulso",
+"pron": "RIST",
+"example": "I wear my watch on my left wrist.",
+"exampleTranslation": "Eu uso o relógio no pulso esquerdo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hand",
+"word": "hand",
+"translation": "mão",
+"pron": "RÉND",
+"example": "Raise your hand.",
+"exampleTranslation": "Levante a mão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "finger",
+"word": "finger",
+"translation": "dedo (da mão)",
+"pron": "FIN-guer",
+"example": "I cut my finger.",
+"exampleTranslation": "Eu cortei o dedo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thumb",
+"word": "thumb",
+"translation": "polegar",
+"pron": "THÂM",
+"example": "Thumbs up!",
+"exampleTranslation": "Joia! (polegar para cima)",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "nail",
+"word": "nail",
+"translation": "unha",
+"pron": "NEIL",
+"example": "She painted her nails red.",
+"exampleTranslation": "Ela pintou as unhas de vermelho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "chest",
+"word": "chest",
+"translation": "peito",
+"pron": "TCHÉST",
+"example": "I have a pain in my chest.",
+"exampleTranslation": "Estou com dor no peito.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "back",
+"word": "back",
+"translation": "costas",
+"pron": "BÉK",
+"example": "My back hurts.",
+"exampleTranslation": "Minhas costas doem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stomach",
+"word": "stomach",
+"translation": "estômago, barriga",
+"pron": "STÂ-mak",
+"example": "My stomach hurts.",
+"exampleTranslation": "Minha barriga está doendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "belly",
+"word": "belly",
+"translation": "barriga",
+"pron": "BÉ-li",
+"example": "The baby has a round belly.",
+"exampleTranslation": "O bebê tem uma barriguinha redonda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "waist",
+"word": "waist",
+"translation": "cintura",
+"pron": "UÊIST",
+"example": "This belt is for a small waist.",
+"exampleTranslation": "Este cinto é para cintura fina.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hip",
+"word": "hip",
+"translation": "quadril",
+"pron": "RIP",
+"example": "My grandmother hurt her hip.",
+"exampleTranslation": "Minha avó machucou o quadril.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "leg",
+"word": "leg",
+"translation": "perna",
+"pron": "LÉG",
+"example": "My legs are tired.",
+"exampleTranslation": "Minhas pernas estão cansadas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "knee",
+"word": "knee",
+"translation": "joelho",
+"pron": "NII",
+"example": "I fell and hurt my knee.",
+"exampleTranslation": "Eu caí e machuquei o joelho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "foot",
+"word": "foot",
+"translation": "pé",
+"pron": "FUT",
+"example": "My foot hurts.",
+"exampleTranslation": "Meu pé está doendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "feet",
+"word": "feet",
+"translation": "pés",
+"pron": "FIIT",
+"example": "Wipe your feet.",
+"exampleTranslation": "Limpe os pés.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "toe",
+"word": "toe",
+"translation": "dedo do pé",
+"pron": "TÔU",
+"example": "I hurt my toe.",
+"exampleTranslation": "Eu machuquei o dedo do pé.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ankle",
+"word": "ankle",
+"translation": "tornozelo",
+"pron": "ÉN-kol",
+"example": "I twisted my ankle.",
+"exampleTranslation": "Eu torci o tornozelo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "heel",
+"word": "heel",
+"translation": "calcanhar",
+"pron": "RIIL",
+"example": "My heel hurts in these shoes.",
+"exampleTranslation": "Meu calcanhar dói com estes sapatos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "skin",
+"word": "skin",
+"translation": "pele",
+"pron": "SKIN",
+"example": "Protect your skin from the sun.",
+"exampleTranslation": "Proteja a pele do sol.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bone",
+"word": "bone",
+"translation": "osso",
+"pron": "BÔUN",
+"example": "The dog has a bone.",
+"exampleTranslation": "O cachorro está com um osso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "blood",
+"word": "blood",
+"translation": "sangue",
+"pron": "BLÂD",
+"example": "He lost a lot of blood.",
+"exampleTranslation": "Ele perdeu muito sangue.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "heart",
+"word": "heart",
+"translation": "coração",
+"pron": "RART",
+"example": "My heart is beating fast.",
+"exampleTranslation": "Meu coração está batendo rápido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "brain",
+"word": "brain",
+"translation": "cérebro",
+"pron": "BREIN",
+"example": "The brain is an amazing organ.",
+"exampleTranslation": "O cérebro é um órgão incrível.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lungs",
+"word": "lungs",
+"translation": "pulmões",
+"pron": "LÂNZ",
+"example": "Smoking is bad for your lungs.",
+"exampleTranslation": "Fumar faz mal para os pulmões.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "muscle",
+"word": "muscle",
+"translation": "músculo",
+"pron": "MÂ-sol",
+"example": "He has strong muscles.",
+"exampleTranslation": "Ele tem músculos fortes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tall",
+"word": "tall",
+"translation": "alto (pessoa)",
+"pron": "TÓL",
+"example": "My brother is very tall.",
+"exampleTranslation": "Meu irmão é muito alto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "short",
+"word": "short",
+"translation": "baixo (pessoa); curto",
+"pron": "SHÓRT",
+"example": "I'm short, like my mother.",
+"exampleTranslation": "Eu sou baixo, como minha mãe.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thin",
+"word": "thin",
+"translation": "magro",
+"pron": "THIN",
+"example": "She is tall and thin.",
+"exampleTranslation": "Ela é alta e magra.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fat",
+"word": "fat",
+"translation": "gordo",
+"pron": "FÉT",
+"example": "The cat is getting fat.",
+"exampleTranslation": "O gato está ficando gordo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "strong",
+"word": "strong",
+"translation": "forte",
+"pron": "STRÓN",
+"example": "Dad is very strong.",
+"exampleTranslation": "O papai é muito forte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "weak",
+"word": "weak",
+"translation": "fraco",
+"pron": "UIIK",
+"example": "I feel weak today.",
+"exampleTranslation": "Estou me sentindo fraco hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "left-handed",
+"word": "left-handed",
+"translation": "canhoto",
+"pron": "léft RÉN-did",
+"example": "My son is left-handed.",
+"exampleTranslation": "Meu filho é canhoto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "right-handed",
+"word": "right-handed",
+"translation": "destro",
+"pron": "rait RÉN-did",
+"example": "Most people are right-handed.",
+"exampleTranslation": "A maioria das pessoas é destra.",
+"difficulty": 2,
+"level": "basic"
+}
+]

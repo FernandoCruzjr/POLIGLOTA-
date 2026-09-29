@@ -1,0 +1,402 @@
+[
+{
+"slug": "airplane",
+"word": "airplane",
+"translation": "avião",
+"pron": "ÉR-plein",
+"example": "The airplane is very big.",
+"exampleTranslation": "O avião é muito grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "plane",
+"word": "plane",
+"translation": "avião",
+"pron": "PLEIN",
+"example": "The plane lands at noon.",
+"exampleTranslation": "O avião pousa ao meio-dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pilot",
+"word": "pilot",
+"translation": "piloto",
+"pron": "PAI-lot",
+"example": "The pilot said hello to us.",
+"exampleTranslation": "O piloto nos cumprimentou.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flight-attendant",
+"word": "flight attendant",
+"translation": "comissário de bordo",
+"pron": "FLAIT a-TÉN-dant",
+"example": "Ask the flight attendant for water.",
+"exampleTranslation": "Peça água ao comissário de bordo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "crew",
+"word": "crew",
+"translation": "tripulação",
+"pron": "KRUU",
+"example": "The crew was very friendly.",
+"exampleTranslation": "A tripulação foi muito simpática.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "seat",
+"word": "seat",
+"translation": "assento",
+"pron": "SIIT",
+"example": "This is my seat.",
+"exampleTranslation": "Este é o meu assento.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "window-seat",
+"word": "window seat",
+"translation": "assento na janela",
+"pron": "UÍN-dou siit",
+"example": "I prefer a window seat.",
+"exampleTranslation": "Eu prefiro assento na janela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "aisle-seat",
+"word": "aisle seat",
+"translation": "assento no corredor",
+"pron": "AIL siit",
+"example": "Can I have an aisle seat?",
+"exampleTranslation": "Posso ficar num assento no corredor?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "aisle",
+"word": "aisle",
+"translation": "corredor (do avião)",
+"pron": "AIL",
+"example": "Please keep the aisle clear.",
+"exampleTranslation": "Por favor, mantenha o corredor livre.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "row",
+"word": "row",
+"translation": "fileira",
+"pron": "RÔU",
+"example": "My seat is in row 15.",
+"exampleTranslation": "Meu assento fica na fileira 15.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "seat-belt",
+"word": "seat belt",
+"translation": "cinto de segurança",
+"pron": "SIIT bélt",
+"example": "Fasten your seat belt.",
+"exampleTranslation": "Aperte o cinto de segurança.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fasten",
+"word": "fasten",
+"translation": "apertar, prender",
+"pron": "FÉ-sen",
+"example": "Please fasten your seat belts.",
+"exampleTranslation": "Por favor, apertem os cintos.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "take-off",
+"word": "take off",
+"translation": "decolar",
+"pron": "teik ÓF",
+"example": "The plane will take off soon.",
+"exampleTranslation": "O avião vai decolar logo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "takeoff",
+"word": "takeoff",
+"translation": "decolagem",
+"pron": "TEIK-óf",
+"example": "Takeoff was very smooth.",
+"exampleTranslation": "A decolagem foi bem tranquila.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "land",
+"word": "land",
+"translation": "pousar",
+"pron": "LÉND",
+"example": "We will land in twenty minutes.",
+"exampleTranslation": "Vamos pousar em vinte minutos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "landing",
+"word": "landing",
+"translation": "pouso",
+"pron": "LÉN-din",
+"example": "The landing was a little bumpy.",
+"exampleTranslation": "O pouso foi um pouco turbulento.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "turbulence",
+"word": "turbulence",
+"translation": "turbulência",
+"pron": "TÂR-biu-lens",
+"example": "Please sit down, there is turbulence.",
+"exampleTranslation": "Por favor, sentem-se, há turbulência.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "wing",
+"word": "wing",
+"translation": "asa",
+"pron": "UÍN",
+"example": "I can see the wing from my window.",
+"exampleTranslation": "Consigo ver a asa da minha janela.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "engine",
+"word": "engine",
+"translation": "motor",
+"pron": "ÉN-djin",
+"example": "The engines are very loud.",
+"exampleTranslation": "Os motores são muito barulhentos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cabin",
+"word": "cabin",
+"translation": "cabine",
+"pron": "KÉ-bin",
+"example": "The cabin is cold.",
+"exampleTranslation": "A cabine está fria.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "overhead-bin",
+"word": "overhead bin",
+"translation": "bagageiro (acima do assento)",
+"pron": "ôu-ver-RÉD bin",
+"example": "Put your bag in the overhead bin.",
+"exampleTranslation": "Coloque sua bolsa no bagageiro.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "tray-table",
+"word": "tray table",
+"translation": "mesinha do assento",
+"pron": "TREI TÊI-bol",
+"example": "Please close your tray table.",
+"exampleTranslation": "Por favor, feche sua mesinha.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "blanket",
+"word": "blanket",
+"translation": "cobertor, manta",
+"pron": "BLÉN-ket",
+"example": "Can I have a blanket, please?",
+"exampleTranslation": "Pode me dar uma manta, por favor?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pillow",
+"word": "pillow",
+"translation": "travesseiro",
+"pron": "PI-lou",
+"example": "This pillow is very small.",
+"exampleTranslation": "Este travesseiro é muito pequeno.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "headphones",
+"word": "headphones",
+"translation": "fones de ouvido",
+"pron": "RÉD-founz",
+"example": "Do you have headphones?",
+"exampleTranslation": "Você tem fones de ouvido?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "life-jacket",
+"word": "life jacket",
+"translation": "colete salva-vidas",
+"pron": "LAIF djé-ket",
+"example": "Your life jacket is under your seat.",
+"exampleTranslation": "Seu colete salva-vidas fica debaixo do assento.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "emergency-exit",
+"word": "emergency exit",
+"translation": "saída de emergência",
+"pron": "i-MÂR-djen-si ÉK-zit",
+"example": "Please note the emergency exits.",
+"exampleTranslation": "Observem as saídas de emergência.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "oxygen-mask",
+"word": "oxygen mask",
+"translation": "máscara de oxigênio",
+"pron": "ÓK-si-djen mésk",
+"example": "An oxygen mask will drop from above.",
+"exampleTranslation": "Uma máscara de oxigênio cairá do alto.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "lavatory",
+"word": "lavatory",
+"translation": "banheiro (do avião)",
+"pron": "LÉ-va-to-ri",
+"example": "The lavatory is at the back.",
+"exampleTranslation": "O banheiro fica no fundo.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "meal",
+"word": "meal",
+"translation": "refeição",
+"pron": "MIIL",
+"example": "They serve a meal on this flight.",
+"exampleTranslation": "Servem uma refeição neste voo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "snack",
+"word": "snack",
+"translation": "lanche",
+"pron": "SNÉK",
+"example": "Would you like a snack?",
+"exampleTranslation": "Gostaria de um lanche?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "economy-class",
+"word": "economy class",
+"translation": "classe econômica",
+"pron": "i-KÓ-no-mi klés",
+"example": "I always fly economy class.",
+"exampleTranslation": "Eu sempre voo na classe econômica.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "business-class",
+"word": "business class",
+"translation": "classe executiva",
+"pron": "BIZ-nis klés",
+"example": "Business class is expensive.",
+"exampleTranslation": "A classe executiva é cara.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "first-class",
+"word": "first class",
+"translation": "primeira classe",
+"pron": "FÂRST klés",
+"example": "She flew first class.",
+"exampleTranslation": "Ela voou de primeira classe.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "captain",
+"word": "captain",
+"translation": "comandante",
+"pron": "KÉP-tin",
+"example": "This is your captain speaking.",
+"exampleTranslation": "Aqui quem fala é o comandante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "altitude",
+"word": "altitude",
+"translation": "altitude",
+"pron": "ÉL-ti-tuud",
+"example": "We are flying at a high altitude.",
+"exampleTranslation": "Estamos voando a uma altitude alta.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "upright-position",
+"word": "upright position",
+"translation": "posição vertical",
+"pron": "ÂP-rait po-ZI-shân",
+"example": "Put your seat in the upright position.",
+"exampleTranslation": "Coloque o encosto na posição vertical.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "airsick",
+"word": "airsick",
+"translation": "enjoado (em avião)",
+"pron": "ÉR-sik",
+"example": "I feel a little airsick.",
+"exampleTranslation": "Estou um pouco enjoado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "direct-flight",
+"word": "direct flight",
+"translation": "voo direto",
+"pron": "di-RÉKT flait",
+"example": "Is there a direct flight to London?",
+"exampleTranslation": "Tem voo direto para Londres?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fly",
+"word": "fly",
+"translation": "voar",
+"pron": "FLAI",
+"example": "I like to fly at night.",
+"exampleTranslation": "Eu gosto de voar à noite.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

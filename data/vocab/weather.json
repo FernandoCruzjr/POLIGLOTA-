@@ -1,0 +1,352 @@
+[
+{
+"slug": "weather",
+"word": "weather",
+"translation": "tempo (clima do dia)",
+"pron": "UÉ-dher",
+"example": "How is the weather today?",
+"exampleTranslation": "Como está o tempo hoje?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sun",
+"word": "sun",
+"translation": "sol",
+"pron": "SÂN",
+"example": "The sun is very strong.",
+"exampleTranslation": "O sol está muito forte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sunny",
+"word": "sunny",
+"translation": "ensolarado",
+"pron": "SÂ-ni",
+"example": "It's sunny today.",
+"exampleTranslation": "Está ensolarado hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rain",
+"word": "rain",
+"translation": "chuva; chover",
+"pron": "REIN",
+"example": "It's going to rain.",
+"exampleTranslation": "Vai chover.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rainy",
+"word": "rainy",
+"translation": "chuvoso",
+"pron": "REI-ni",
+"example": "It was a rainy day.",
+"exampleTranslation": "Foi um dia chuvoso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cloud",
+"word": "cloud",
+"translation": "nuvem",
+"pron": "KLAUD",
+"example": "Look at that big cloud.",
+"exampleTranslation": "Olha aquela nuvem grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cloudy",
+"word": "cloudy",
+"translation": "nublado",
+"pron": "KLAU-di",
+"example": "It's cloudy this morning.",
+"exampleTranslation": "Está nublado hoje de manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wind",
+"word": "wind",
+"translation": "vento",
+"pron": "UIND",
+"example": "The wind is very strong.",
+"exampleTranslation": "O vento está muito forte.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "windy",
+"word": "windy",
+"translation": "ventando",
+"pron": "UIN-di",
+"example": "It's windy at the beach.",
+"exampleTranslation": "Está ventando na praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "storm",
+"word": "storm",
+"translation": "tempestade",
+"pron": "STÓRM",
+"example": "A storm is coming.",
+"exampleTranslation": "Uma tempestade está chegando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "thunder",
+"word": "thunder",
+"translation": "trovão",
+"pron": "THÂN-der",
+"example": "The baby is afraid of thunder.",
+"exampleTranslation": "O bebê tem medo de trovão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lightning",
+"word": "lightning",
+"translation": "relâmpago, raio",
+"pron": "LAIT-nin",
+"example": "Lightning hit the tree.",
+"exampleTranslation": "Um raio atingiu a árvore.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "snow",
+"word": "snow",
+"translation": "neve; nevar",
+"pron": "SNÔU",
+"example": "I have never seen snow.",
+"exampleTranslation": "Eu nunca vi neve.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fog",
+"word": "fog",
+"translation": "neblina",
+"pron": "FÓG",
+"example": "There's a lot of fog on the road.",
+"exampleTranslation": "Tem muita neblina na estrada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hot",
+"word": "hot",
+"translation": "quente (calor)",
+"pron": "RÓT",
+"example": "It's very hot today.",
+"exampleTranslation": "Está muito calor hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cool",
+"word": "cool",
+"translation": "fresco, fresquinho",
+"pron": "KUUL",
+"example": "The evenings are cool.",
+"exampleTranslation": "As noites estão fresquinhas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "humid",
+"word": "humid",
+"translation": "úmido, abafado",
+"pron": "RIU-mid",
+"example": "Rio is very humid in summer.",
+"exampleTranslation": "O Rio é muito abafado no verão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dry",
+"word": "dry",
+"translation": "seco",
+"pron": "DRAI",
+"example": "The air is very dry.",
+"exampleTranslation": "O ar está muito seco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "wet",
+"word": "wet",
+"translation": "molhado",
+"pron": "UÉT",
+"example": "My shoes are wet.",
+"exampleTranslation": "Meus sapatos estão molhados.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "degrees",
+"word": "degrees",
+"translation": "graus",
+"pron": "di-GRIIZ",
+"example": "It's thirty degrees outside.",
+"exampleTranslation": "Está fazendo trinta graus lá fora.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "forecast",
+"word": "forecast",
+"translation": "previsão do tempo",
+"pron": "FÓR-kést",
+"example": "What's the forecast for tomorrow?",
+"exampleTranslation": "Qual é a previsão para amanhã?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "umbrella",
+"word": "umbrella",
+"translation": "guarda-chuva",
+"pron": "âm-BRÉ-la",
+"example": "Take an umbrella.",
+"exampleTranslation": "Leve um guarda-chuva.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "summer",
+"word": "summer",
+"translation": "verão",
+"pron": "SÂ-mer",
+"example": "Summer in Brazil is very hot.",
+"exampleTranslation": "O verão no Brasil é muito quente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "winter",
+"word": "winter",
+"translation": "inverno",
+"pron": "UIN-ter",
+"example": "Winter is short here.",
+"exampleTranslation": "O inverno é curto aqui.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "spring",
+"word": "spring",
+"translation": "primavera",
+"pron": "SPRIN",
+"example": "Flowers bloom in spring.",
+"exampleTranslation": "As flores desabrocham na primavera.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fall",
+"word": "fall",
+"translation": "outono (EUA)",
+"pron": "FÓL",
+"example": "The leaves fall in the fall.",
+"exampleTranslation": "As folhas caem no outono.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "autumn",
+"word": "autumn",
+"translation": "outono",
+"pron": "Ó-tâm",
+"example": "Autumn is my favorite season.",
+"exampleTranslation": "O outono é a minha estação favorita.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "heat-wave",
+"word": "heat wave",
+"translation": "onda de calor",
+"pron": "RIIT ueiv",
+"example": "We are having a heat wave.",
+"exampleTranslation": "Estamos passando por uma onda de calor.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "freezing",
+"word": "freezing",
+"translation": "congelando (muito frio)",
+"pron": "FRII-zin",
+"example": "It's freezing outside!",
+"exampleTranslation": "Está um frio de congelar lá fora!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "drizzle",
+"word": "drizzle",
+"translation": "garoa",
+"pron": "DRI-zol",
+"example": "It's just a drizzle.",
+"exampleTranslation": "É só uma garoa.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "flood",
+"word": "flood",
+"translation": "enchente",
+"pron": "FLÂD",
+"example": "The rain caused a flood.",
+"exampleTranslation": "A chuva causou uma enchente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hail",
+"word": "hail",
+"translation": "granizo",
+"pron": "REIL",
+"example": "Hail damaged the cars.",
+"exampleTranslation": "O granizo danificou os carros.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "sunrise",
+"word": "sunrise",
+"translation": "nascer do sol",
+"pron": "SÂN-raiz",
+"example": "We watched the sunrise at the beach.",
+"exampleTranslation": "Vimos o nascer do sol na praia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sunset",
+"word": "sunset",
+"translation": "pôr do sol",
+"pron": "SÂN-sét",
+"example": "The sunset is beautiful today.",
+"exampleTranslation": "O pôr do sol está lindo hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "climate",
+"word": "climate",
+"translation": "clima (de uma região)",
+"pron": "KLAI-met",
+"example": "The climate here is tropical.",
+"exampleTranslation": "O clima aqui é tropical.",
+"difficulty": 2,
+"level": "basic"
+}
+]

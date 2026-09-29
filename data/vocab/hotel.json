@@ -1,0 +1,502 @@
+[
+{
+"slug": "hotel",
+"word": "hotel",
+"translation": "hotel",
+"pron": "rou-TÉL",
+"example": "Our hotel is near the beach.",
+"exampleTranslation": "Nosso hotel fica perto da praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "room",
+"word": "room",
+"translation": "quarto",
+"pron": "RUUM",
+"example": "I have a room for three nights.",
+"exampleTranslation": "Eu tenho um quarto por três noites.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "single-room",
+"word": "single room",
+"translation": "quarto de solteiro",
+"pron": "SIN-gol ruum",
+"example": "I need a single room.",
+"exampleTranslation": "Eu preciso de um quarto de solteiro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "double-room",
+"word": "double room",
+"translation": "quarto de casal",
+"pron": "DÂ-bol ruum",
+"example": "A double room, please.",
+"exampleTranslation": "Um quarto de casal, por favor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "key",
+"word": "key",
+"translation": "chave",
+"pron": "KII",
+"example": "Here is your room key.",
+"exampleTranslation": "Aqui está a chave do seu quarto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "key-card",
+"word": "key card",
+"translation": "cartão-chave",
+"pron": "KII kard",
+"example": "My key card doesn't work.",
+"exampleTranslation": "Meu cartão-chave não funciona.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "reception",
+"word": "reception",
+"translation": "recepção",
+"pron": "ri-SÉP-shân",
+"example": "Please call the reception.",
+"exampleTranslation": "Por favor, ligue para a recepção.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "receptionist",
+"word": "receptionist",
+"translation": "recepcionista",
+"pron": "ri-SÉP-sho-nist",
+"example": "The receptionist was very nice.",
+"exampleTranslation": "A recepcionista foi muito simpática.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lobby",
+"word": "lobby",
+"translation": "saguão",
+"pron": "LÓ-bi",
+"example": "Let's meet in the lobby.",
+"exampleTranslation": "Vamos nos encontrar no saguão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "check-out",
+"word": "check out",
+"translation": "fazer o check-out",
+"pron": "tchék AUT",
+"example": "We have to check out by noon.",
+"exampleTranslation": "Temos que fazer o check-out até o meio-dia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "guest",
+"word": "guest",
+"translation": "hóspede",
+"pron": "GUÉST",
+"example": "The hotel has many guests.",
+"exampleTranslation": "O hotel tem muitos hóspedes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "floor",
+"word": "floor",
+"translation": "andar",
+"pron": "FLÓR",
+"example": "My room is on the fifth floor.",
+"exampleTranslation": "Meu quarto fica no quinto andar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "elevator",
+"word": "elevator",
+"translation": "elevador",
+"pron": "É-le-vei-ter",
+"example": "The elevator is on the left.",
+"exampleTranslation": "O elevador fica à esquerda.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stairs",
+"word": "stairs",
+"translation": "escada",
+"pron": "STÉRZ",
+"example": "You can take the stairs.",
+"exampleTranslation": "Você pode ir pela escada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "towel",
+"word": "towel",
+"translation": "toalha",
+"pron": "TAU-el",
+"example": "Can I have more towels?",
+"exampleTranslation": "Pode me dar mais toalhas?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sheet",
+"word": "sheet",
+"translation": "lençol",
+"pron": "SHIIT",
+"example": "Please change the sheets.",
+"exampleTranslation": "Por favor, troque os lençóis.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "air-conditioning",
+"word": "air conditioning",
+"translation": "ar-condicionado",
+"pron": "ÉR kon-DI-sho-nin",
+"example": "The air conditioning is broken.",
+"exampleTranslation": "O ar-condicionado está quebrado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "heating",
+"word": "heating",
+"translation": "aquecimento",
+"pron": "RII-tin",
+"example": "Is there heating in the room?",
+"exampleTranslation": "Tem aquecimento no quarto?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "breakfast",
+"word": "breakfast",
+"translation": "café da manhã",
+"pron": "BRÉK-fast",
+"example": "Breakfast is from six to ten.",
+"exampleTranslation": "O café da manhã é das seis às dez.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "room-service",
+"word": "room service",
+"translation": "serviço de quarto",
+"pron": "RUUM sâr-vis",
+"example": "I ordered room service.",
+"exampleTranslation": "Eu pedi serviço de quarto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wake-up-call",
+"word": "wake-up call",
+"translation": "chamada para despertar",
+"pron": "UÊIK-âp kól",
+"example": "I need a wake-up call at six.",
+"exampleTranslation": "Eu preciso que me acordem às seis.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "wi-fi-password",
+"word": "Wi-Fi password",
+"translation": "senha do Wi-Fi",
+"pron": "UAI-fai PÉS-uârd",
+"example": "What is the Wi-Fi password?",
+"exampleTranslation": "Qual é a senha do Wi-Fi?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "safe",
+"word": "safe",
+"translation": "cofre",
+"pron": "SEIF",
+"example": "Put your passport in the safe.",
+"exampleTranslation": "Coloque o passaporte no cofre.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "minibar",
+"word": "minibar",
+"translation": "frigobar",
+"pron": "MI-ni-bar",
+"example": "The minibar is empty.",
+"exampleTranslation": "O frigobar está vazio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pool",
+"word": "pool",
+"translation": "piscina",
+"pron": "PUUL",
+"example": "The hotel has a big pool.",
+"exampleTranslation": "O hotel tem uma piscina grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "gym",
+"word": "gym",
+"translation": "academia",
+"pron": "DJIM",
+"example": "Is the gym open now?",
+"exampleTranslation": "A academia está aberta agora?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "parking",
+"word": "parking",
+"translation": "estacionamento",
+"pron": "PAR-kin",
+"example": "Is parking free?",
+"exampleTranslation": "O estacionamento é grátis?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "available",
+"word": "available",
+"translation": "disponível",
+"pron": "a-VEI-la-bol",
+"example": "Do you have a room available?",
+"exampleTranslation": "Vocês têm quarto disponível?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fully-booked",
+"word": "fully booked",
+"translation": "lotado (sem vagas)",
+"pron": "FU-li BUKT",
+"example": "Sorry, we are fully booked.",
+"exampleTranslation": "Desculpe, estamos sem vagas.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "per-night",
+"word": "per night",
+"translation": "por noite",
+"pron": "pâr NAIT",
+"example": "How much is it per night?",
+"exampleTranslation": "Quanto custa por noite?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "stay",
+"word": "stay",
+"translation": "ficar, hospedar-se",
+"pron": "STEI",
+"example": "We will stay for a week.",
+"exampleTranslation": "Vamos ficar uma semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hostel",
+"word": "hostel",
+"translation": "albergue",
+"pron": "RÓS-tel",
+"example": "The hostel is cheap and clean.",
+"exampleTranslation": "O albergue é barato e limpo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "suite",
+"word": "suite",
+"translation": "suíte",
+"pron": "SUIIT",
+"example": "We booked a suite.",
+"exampleTranslation": "Nós reservamos uma suíte.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "view-of-the-sea",
+"word": "view of the sea",
+"translation": "vista para o mar",
+"pron": "VIU óv dhe SII",
+"example": "I want a room with a view of the sea.",
+"exampleTranslation": "Eu quero um quarto com vista para o mar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "noisy",
+"word": "noisy",
+"translation": "barulhento",
+"pron": "NÓI-zi",
+"example": "The room is too noisy.",
+"exampleTranslation": "O quarto é barulhento demais.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "quiet",
+"word": "quiet",
+"translation": "silencioso",
+"pron": "KUAI-et",
+"example": "I'd like a quiet room.",
+"exampleTranslation": "Eu gostaria de um quarto silencioso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "clean",
+"word": "clean",
+"translation": "limpo",
+"pron": "KLIIN",
+"example": "The room is very clean.",
+"exampleTranslation": "O quarto está muito limpo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dirty",
+"word": "dirty",
+"translation": "sujo",
+"pron": "DÂR-ti",
+"example": "The bathroom is dirty.",
+"exampleTranslation": "O banheiro está sujo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "housekeeping",
+"word": "housekeeping",
+"translation": "serviço de limpeza (arrumação)",
+"pron": "RAUS-kii-pin",
+"example": "Housekeeping comes every morning.",
+"exampleTranslation": "A arrumação passa toda manhã.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "luggage-storage",
+"word": "luggage storage",
+"translation": "guarda-volumes",
+"pron": "LÂ-guidj STÓ-ridj",
+"example": "Can we use the luggage storage?",
+"exampleTranslation": "Podemos usar o guarda-volumes?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "bill",
+"word": "bill",
+"translation": "conta",
+"pron": "BIL",
+"example": "Can I have the bill, please?",
+"exampleTranslation": "Pode me dar a conta, por favor?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "deposit",
+"word": "deposit",
+"translation": "depósito, caução",
+"pron": "di-PÓ-zit",
+"example": "We need a deposit for the room.",
+"exampleTranslation": "Precisamos de um depósito pelo quarto.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "cancel",
+"word": "cancel",
+"translation": "cancelar",
+"pron": "KÉN-sel",
+"example": "I want to cancel my reservation.",
+"exampleTranslation": "Eu quero cancelar minha reserva.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "extra-bed",
+"word": "extra bed",
+"translation": "cama extra",
+"pron": "ÉKS-tra béd",
+"example": "Can you add an extra bed?",
+"exampleTranslation": "Vocês podem colocar uma cama extra?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hair-dryer",
+"word": "hair dryer",
+"translation": "secador de cabelo",
+"pron": "RÉR drai-er",
+"example": "Is there a hair dryer?",
+"exampleTranslation": "Tem secador de cabelo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "toiletries",
+"word": "toiletries",
+"translation": "itens de higiene",
+"pron": "TÓI-le-triz",
+"example": "The toiletries are in the bathroom.",
+"exampleTranslation": "Os itens de higiene estão no banheiro.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "front-desk",
+"word": "front desk",
+"translation": "recepção (balcão)",
+"pron": "FRÂNT désk",
+"example": "Leave the key at the front desk.",
+"exampleTranslation": "Deixe a chave na recepção.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "included",
+"word": "included",
+"translation": "incluído",
+"pron": "in-KLUU-did",
+"example": "Is breakfast included?",
+"exampleTranslation": "O café da manhã está incluído?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "complaint",
+"word": "complaint",
+"translation": "reclamação",
+"pron": "kom-PLEINT",
+"example": "I want to make a complaint.",
+"exampleTranslation": "Eu quero fazer uma reclamação.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "do-not-disturb",
+"word": "Do not disturb",
+"translation": "Não perturbe",
+"pron": "du nót dis-TÂRB",
+"example": "Put the \"Do not disturb\" sign on the door.",
+"exampleTranslation": "Coloque a placa de \"Não perturbe\" na porta.",
+"difficulty": 2,
+"level": "basic"
+}
+]

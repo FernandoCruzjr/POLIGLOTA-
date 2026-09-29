@@ -1,0 +1,552 @@
+[
+{
+"slug": "shop",
+"word": "shop",
+"translation": "loja; fazer compras",
+"pron": "SHÓP",
+"example": "I like to shop on weekends.",
+"exampleTranslation": "Eu gosto de fazer compras nos fins de semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "store",
+"word": "store",
+"translation": "loja",
+"pron": "STÓR",
+"example": "The store opens at nine.",
+"exampleTranslation": "A loja abre às nove.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mall",
+"word": "mall",
+"translation": "shopping center",
+"pron": "MÓL",
+"example": "Let's go to the mall.",
+"exampleTranslation": "Vamos ao shopping.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "supermarket",
+"word": "supermarket",
+"translation": "supermercado",
+"pron": "SU-per-mar-ket",
+"example": "I need to go to the supermarket.",
+"exampleTranslation": "Eu preciso ir ao supermercado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "market",
+"word": "market",
+"translation": "mercado, feira",
+"pron": "MAR-ket",
+"example": "The market has fresh fruit.",
+"exampleTranslation": "A feira tem frutas frescas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bakery",
+"word": "bakery",
+"translation": "padaria",
+"pron": "BÊI-ke-ri",
+"example": "I buy bread at the bakery.",
+"exampleTranslation": "Eu compro pão na padaria.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pharmacy",
+"word": "pharmacy",
+"translation": "farmácia",
+"pron": "FAR-ma-si",
+"example": "Is there a pharmacy near here?",
+"exampleTranslation": "Tem uma farmácia aqui perto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "buy",
+"word": "buy",
+"translation": "comprar",
+"pron": "BAI",
+"example": "I want to buy a new phone.",
+"exampleTranslation": "Eu quero comprar um celular novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sell",
+"word": "sell",
+"translation": "vender",
+"pron": "SÉL",
+"example": "Do you sell batteries?",
+"exampleTranslation": "Vocês vendem pilhas?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "price",
+"word": "price",
+"translation": "preço",
+"pron": "PRAIS",
+"example": "What is the price of this?",
+"exampleTranslation": "Qual é o preço disto?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cost",
+"word": "cost",
+"translation": "custar",
+"pron": "KÓST",
+"example": "How much does it cost?",
+"exampleTranslation": "Quanto custa?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cheap",
+"word": "cheap",
+"translation": "barato",
+"pron": "TCHIIP",
+"example": "This shirt is cheap.",
+"exampleTranslation": "Esta camisa é barata.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "expensive",
+"word": "expensive",
+"translation": "caro",
+"pron": "eks-PÉN-siv",
+"example": "It's too expensive.",
+"exampleTranslation": "É caro demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sale",
+"word": "sale",
+"translation": "liquidação, promoção",
+"pron": "SEIL",
+"example": "Everything is on sale today.",
+"exampleTranslation": "Está tudo em promoção hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "discount",
+"word": "discount",
+"translation": "desconto",
+"pron": "DIS-kaunt",
+"example": "Is there a discount?",
+"exampleTranslation": "Tem desconto?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cashier",
+"word": "cashier",
+"translation": "caixa (pessoa)",
+"pron": "ké-SHÍR",
+"example": "Pay at the cashier.",
+"exampleTranslation": "Pague no caixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "checkout",
+"word": "checkout",
+"translation": "caixa (lugar de pagar)",
+"pron": "TCHÉK-aut",
+"example": "The checkout line is long.",
+"exampleTranslation": "A fila do caixa está longa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "receipt",
+"word": "receipt",
+"translation": "nota fiscal, recibo",
+"pron": "ri-SIIT",
+"example": "Can I have the receipt?",
+"exampleTranslation": "Pode me dar a nota?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "change",
+"word": "change",
+"translation": "troco",
+"pron": "TCHÊINDJ",
+"example": "Here is your change.",
+"exampleTranslation": "Aqui está o seu troco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shopping-cart",
+"word": "shopping cart",
+"translation": "carrinho de compras",
+"pron": "SHÓ-pin kart",
+"example": "Get a shopping cart.",
+"exampleTranslation": "Pegue um carrinho de compras.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "basket",
+"word": "basket",
+"translation": "cesta",
+"pron": "BÉS-ket",
+"example": "I only need a basket.",
+"exampleTranslation": "Eu só preciso de uma cesta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bag",
+"word": "bag",
+"translation": "sacola",
+"pron": "BÉG",
+"example": "Do you need a bag?",
+"exampleTranslation": "Você precisa de sacola?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "size",
+"word": "size",
+"translation": "tamanho",
+"pron": "SAIZ",
+"example": "What size are you?",
+"exampleTranslation": "Qual é o seu tamanho?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "small",
+"word": "small",
+"translation": "pequeno",
+"pron": "SMÓL",
+"example": "Do you have it in small?",
+"exampleTranslation": "Tem no tamanho pequeno?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "large",
+"word": "large",
+"translation": "grande",
+"pron": "LARDJ",
+"example": "I need a large one.",
+"exampleTranslation": "Eu preciso de um grande.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fitting-room",
+"word": "fitting room",
+"translation": "provador",
+"pron": "FI-rin ruum",
+"example": "Where is the fitting room?",
+"exampleTranslation": "Onde fica o provador?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "try-on",
+"word": "try on",
+"translation": "experimentar (roupa)",
+"pron": "trai ÓN",
+"example": "Can I try on these shoes?",
+"exampleTranslation": "Posso experimentar estes sapatos?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fit",
+"word": "fit",
+"translation": "servir (tamanho)",
+"pron": "FIT",
+"example": "These pants don't fit me.",
+"exampleTranslation": "Esta calça não me serve.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "exchange-a-product",
+"word": "exchange a product",
+"translation": "trocar um produto",
+"pron": "iks-TCHÊINDJ a PRÓ-dâkt",
+"example": "I want to exchange this product.",
+"exampleTranslation": "Eu quero trocar este produto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "refund",
+"word": "refund",
+"translation": "reembolso",
+"pron": "RII-fând",
+"example": "Can I get a refund?",
+"exampleTranslation": "Posso ter o reembolso?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "brand",
+"word": "brand",
+"translation": "marca",
+"pron": "BRÉND",
+"example": "What brand is this?",
+"exampleTranslation": "De que marca é isso?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "product",
+"word": "product",
+"translation": "produto",
+"pron": "PRÓ-dâkt",
+"example": "This product is new.",
+"exampleTranslation": "Este produto é novo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "customer",
+"word": "customer",
+"translation": "cliente",
+"pron": "KÂS-to-mer",
+"example": "The customer is always right.",
+"exampleTranslation": "O cliente tem sempre razão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "salesperson",
+"word": "salesperson",
+"translation": "vendedor",
+"pron": "SEILZ-pâr-son",
+"example": "Ask the salesperson for help.",
+"exampleTranslation": "Peça ajuda ao vendedor.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "open",
+"word": "open",
+"translation": "aberto",
+"pron": "ÔU-pen",
+"example": "Is the store open on Sunday?",
+"exampleTranslation": "A loja abre no domingo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "closed",
+"word": "closed",
+"translation": "fechado",
+"pron": "KLÔUZD",
+"example": "The store is closed.",
+"exampleTranslation": "A loja está fechada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "aisle-number",
+"word": "aisle number",
+"translation": "número do corredor",
+"pron": "AIL NÂM-ber",
+"example": "The rice is in aisle number five.",
+"exampleTranslation": "O arroz está no corredor cinco.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shelf",
+"word": "shelf",
+"translation": "prateleira",
+"pron": "SHÉLF",
+"example": "It's on the top shelf.",
+"exampleTranslation": "Está na prateleira de cima.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "in-stock",
+"word": "in stock",
+"translation": "em estoque",
+"pron": "in STÓK",
+"example": "Is this item in stock?",
+"exampleTranslation": "Este item está em estoque?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "out-of-stock",
+"word": "out of stock",
+"translation": "esgotado",
+"pron": "aut óv STÓK",
+"example": "Sorry, it's out of stock.",
+"exampleTranslation": "Desculpe, está esgotado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "online-shopping",
+"word": "online shopping",
+"translation": "compras pela internet",
+"pron": "ÓN-lain SHÓ-pin",
+"example": "I do a lot of online shopping.",
+"exampleTranslation": "Eu faço muitas compras pela internet.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "shopping-list",
+"word": "shopping list",
+"translation": "lista de compras",
+"pron": "SHÓ-pin list",
+"example": "Don't forget the shopping list.",
+"exampleTranslation": "Não esqueça a lista de compras.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "gift",
+"word": "gift",
+"translation": "presente",
+"pron": "GUIFT",
+"example": "It's a gift for my daughter.",
+"exampleTranslation": "É um presente para minha filha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "gift-wrap",
+"word": "gift wrap",
+"translation": "papel de presente, embrulho",
+"pron": "GUIFT rép",
+"example": "Can you gift wrap it?",
+"exampleTranslation": "Pode embrulhar para presente?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pay",
+"word": "pay",
+"translation": "pagar",
+"pron": "PEI",
+"example": "Can I pay with card?",
+"exampleTranslation": "Posso pagar com cartão?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "credit-card",
+"word": "credit card",
+"translation": "cartão de crédito",
+"pron": "KRÉ-dit kard",
+"example": "Do you accept credit cards?",
+"exampleTranslation": "Vocês aceitam cartão de crédito?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "installments",
+"word": "installments",
+"translation": "parcelas",
+"pron": "in-STÓL-ments",
+"example": "Can I pay in installments?",
+"exampleTranslation": "Posso pagar parcelado?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "just-looking",
+"word": "just looking",
+"translation": "só olhando",
+"pron": "djâst LU-kin",
+"example": "No, thanks. I'm just looking.",
+"exampleTranslation": "Não, obrigado. Estou só olhando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bargain",
+"word": "bargain",
+"translation": "pechincha, barganha",
+"pron": "BAR-guen",
+"example": "This jacket was a real bargain.",
+"exampleTranslation": "Esta jaqueta foi uma verdadeira pechincha.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "browse",
+"word": "browse",
+"translation": "dar uma olhada",
+"pron": "BRAUZ",
+"example": "We browsed the shops all afternoon.",
+"exampleTranslation": "Olhamos as lojas a tarde toda.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "queue",
+"word": "queue",
+"translation": "fila",
+"pron": "KIU",
+"example": "There's a long queue at the checkout.",
+"exampleTranslation": "Tem uma fila longa no caixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "line",
+"word": "line",
+"translation": "fila (EUA)",
+"pron": "LAIN",
+"example": "Please wait in line.",
+"exampleTranslation": "Por favor, aguarde na fila.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kilo",
+"word": "kilo",
+"translation": "quilo",
+"pron": "KII-lou",
+"example": "A kilo of tomatoes, please.",
+"exampleTranslation": "Um quilo de tomates, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "half",
+"word": "half",
+"translation": "meio, metade",
+"pron": "RÉF",
+"example": "Half a kilo of cheese.",
+"exampleTranslation": "Meio quilo de queijo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "worth",
+"word": "worth",
+"translation": "valer",
+"pron": "UÂRTH",
+"example": "It's worth the price.",
+"exampleTranslation": "Vale o preço.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

@@ -1,0 +1,792 @@
+[
+{
+"slug": "food",
+"word": "food",
+"translation": "comida",
+"pron": "FUUD",
+"example": "The food is ready.",
+"exampleTranslation": "A comida está pronta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bread",
+"word": "bread",
+"translation": "pão",
+"pron": "BRÉD",
+"example": "I eat bread every morning.",
+"exampleTranslation": "Eu como pão toda manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "butter",
+"word": "butter",
+"translation": "manteiga",
+"pron": "BÂ-rer",
+"example": "Bread and butter, please.",
+"exampleTranslation": "Pão com manteiga, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cheese",
+"word": "cheese",
+"translation": "queijo",
+"pron": "TCHIIZ",
+"example": "I love cheese.",
+"exampleTranslation": "Eu adoro queijo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ham",
+"word": "ham",
+"translation": "presunto",
+"pron": "RÉM",
+"example": "A ham and cheese sandwich.",
+"exampleTranslation": "Um sanduíche de presunto e queijo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "egg",
+"word": "egg",
+"translation": "ovo",
+"pron": "ÉG",
+"example": "I want two eggs.",
+"exampleTranslation": "Eu quero dois ovos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rice",
+"word": "rice",
+"translation": "arroz",
+"pron": "RAIS",
+"example": "Rice and beans is my favorite.",
+"exampleTranslation": "Arroz com feijão é o meu favorito.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beans",
+"word": "beans",
+"translation": "feijão",
+"pron": "BIINZ",
+"example": "Brazilians eat a lot of beans.",
+"exampleTranslation": "Os brasileiros comem muito feijão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "meat",
+"word": "meat",
+"translation": "carne",
+"pron": "MIIT",
+"example": "I don't eat meat.",
+"exampleTranslation": "Eu não como carne.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "beef",
+"word": "beef",
+"translation": "carne de boi",
+"pron": "BIIF",
+"example": "This beef is very tender.",
+"exampleTranslation": "Esta carne está muito macia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pork",
+"word": "pork",
+"translation": "carne de porco",
+"pron": "PÓRK",
+"example": "Do you eat pork?",
+"exampleTranslation": "Você come carne de porco?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "chicken",
+"word": "chicken",
+"translation": "frango",
+"pron": "TCHI-ken",
+"example": "We're having chicken for lunch.",
+"exampleTranslation": "Vamos comer frango no almoço.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fish",
+"word": "fish",
+"translation": "peixe",
+"pron": "FISH",
+"example": "Fish is good for your health.",
+"exampleTranslation": "Peixe faz bem para a saúde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shrimp",
+"word": "shrimp",
+"translation": "camarão",
+"pron": "SHRIMP",
+"example": "I'm allergic to shrimp.",
+"exampleTranslation": "Eu sou alérgico a camarão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "steak",
+"word": "steak",
+"translation": "bife",
+"pron": "STEIK",
+"example": "I'd like a steak with fries.",
+"exampleTranslation": "Eu gostaria de um bife com fritas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sausage",
+"word": "sausage",
+"translation": "linguiça, salsicha",
+"pron": "SÓ-sidj",
+"example": "Grilled sausage is great.",
+"exampleTranslation": "Linguiça grelhada é ótima.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "soup",
+"word": "soup",
+"translation": "sopa",
+"pron": "SUUP",
+"example": "This soup is hot.",
+"exampleTranslation": "Esta sopa está quente.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "salad",
+"word": "salad",
+"translation": "salada",
+"pron": "SÉ-lad",
+"example": "I'll have a green salad.",
+"exampleTranslation": "Eu vou querer uma salada verde.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sandwich",
+"word": "sandwich",
+"translation": "sanduíche",
+"pron": "SÉND-uitch",
+"example": "I made a sandwich for you.",
+"exampleTranslation": "Eu fiz um sanduíche para você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pasta",
+"word": "pasta",
+"translation": "macarrão, massa",
+"pron": "PÁS-ta",
+"example": "The kids love pasta.",
+"exampleTranslation": "As crianças adoram macarrão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pizza",
+"word": "pizza",
+"translation": "pizza",
+"pron": "PIT-sa",
+"example": "Let's order a pizza.",
+"exampleTranslation": "Vamos pedir uma pizza.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hamburger",
+"word": "hamburger",
+"translation": "hambúrguer",
+"pron": "RÉM-bâr-guer",
+"example": "A hamburger with cheese, please.",
+"exampleTranslation": "Um hambúrguer com queijo, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "french-fries",
+"word": "french fries",
+"translation": "batata frita",
+"pron": "frénch FRAIZ",
+"example": "Do you want french fries?",
+"exampleTranslation": "Você quer batata frita?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "potato",
+"word": "potato",
+"translation": "batata",
+"pron": "po-TÊI-tou",
+"example": "Boil the potatoes for twenty minutes.",
+"exampleTranslation": "Cozinhe as batatas por vinte minutos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tomato",
+"word": "tomato",
+"translation": "tomate",
+"pron": "to-MÊI-tou",
+"example": "Cut the tomato into slices.",
+"exampleTranslation": "Corte o tomate em fatias.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "onion",
+"word": "onion",
+"translation": "cebola",
+"pron": "Â-nion",
+"example": "Onions make me cry.",
+"exampleTranslation": "Cebola me faz chorar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "garlic",
+"word": "garlic",
+"translation": "alho",
+"pron": "GAR-lik",
+"example": "Add some garlic.",
+"exampleTranslation": "Coloque um pouco de alho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "carrot",
+"word": "carrot",
+"translation": "cenoura",
+"pron": "KÉ-rot",
+"example": "Rabbits like carrots.",
+"exampleTranslation": "Coelhos gostam de cenoura.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lettuce",
+"word": "lettuce",
+"translation": "alface",
+"pron": "LÉ-tis",
+"example": "Wash the lettuce.",
+"exampleTranslation": "Lave a alface.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cucumber",
+"word": "cucumber",
+"translation": "pepino",
+"pron": "KIU-kâm-ber",
+"example": "I put cucumber in my salad.",
+"exampleTranslation": "Eu coloco pepino na salada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "corn",
+"word": "corn",
+"translation": "milho",
+"pron": "KÓRN",
+"example": "Corn is popular in June.",
+"exampleTranslation": "O milho é popular em junho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vegetables",
+"word": "vegetables",
+"translation": "legumes, verduras",
+"pron": "VÉDJ-ta-bolz",
+"example": "Eat your vegetables!",
+"exampleTranslation": "Coma seus legumes!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "fruit",
+"word": "fruit",
+"translation": "fruta",
+"pron": "FRUUT",
+"example": "I eat fruit every day.",
+"exampleTranslation": "Eu como fruta todo dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "apple",
+"word": "apple",
+"translation": "maçã",
+"pron": "É-pol",
+"example": "An apple a day.",
+"exampleTranslation": "Uma maçã por dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "banana",
+"word": "banana",
+"translation": "banana",
+"pron": "ba-NÉ-na",
+"example": "The baby loves bananas.",
+"exampleTranslation": "O bebê adora banana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "orange",
+"word": "orange",
+"translation": "laranja",
+"pron": "Ó-rindj",
+"example": "This orange is very sweet.",
+"exampleTranslation": "Esta laranja está muito doce.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lemon",
+"word": "lemon",
+"translation": "limão (siciliano)",
+"pron": "LÉ-mon",
+"example": "Add some lemon juice.",
+"exampleTranslation": "Coloque um pouco de suco de limão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lime",
+"word": "lime",
+"translation": "limão (taiti)",
+"pron": "LAIM",
+"example": "Caipirinha is made with lime.",
+"exampleTranslation": "A caipirinha é feita com limão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "strawberry",
+"word": "strawberry",
+"translation": "morango",
+"pron": "STRÓ-bé-ri",
+"example": "I love strawberry ice cream.",
+"exampleTranslation": "Eu adoro sorvete de morango.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "grape",
+"word": "grape",
+"translation": "uva",
+"pron": "GREIP",
+"example": "These grapes are sweet.",
+"exampleTranslation": "Estas uvas estão doces.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pineapple",
+"word": "pineapple",
+"translation": "abacaxi",
+"pron": "PAI-né-pol",
+"example": "Pineapple is my favorite fruit.",
+"exampleTranslation": "Abacaxi é minha fruta favorita.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "watermelon",
+"word": "watermelon",
+"translation": "melancia",
+"pron": "UÓ-rer-mé-lon",
+"example": "Watermelon is perfect in summer.",
+"exampleTranslation": "Melancia é perfeita no verão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mango",
+"word": "mango",
+"translation": "manga",
+"pron": "MÉN-gou",
+"example": "We have a mango tree.",
+"exampleTranslation": "Nós temos um pé de manga.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "papaya",
+"word": "papaya",
+"translation": "mamão",
+"pron": "pa-PAI-a",
+"example": "I eat papaya for breakfast.",
+"exampleTranslation": "Eu como mamão no café da manhã.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "avocado",
+"word": "avocado",
+"translation": "abacate",
+"pron": "é-vo-KÁ-dou",
+"example": "Avocado is good in salads.",
+"exampleTranslation": "Abacate é bom na salada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "coconut",
+"word": "coconut",
+"translation": "coco",
+"pron": "KÔU-ko-nât",
+"example": "Coconut water is refreshing.",
+"exampleTranslation": "Água de coco é refrescante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sugar",
+"word": "sugar",
+"translation": "açúcar",
+"pron": "SHU-gar",
+"example": "No sugar, please.",
+"exampleTranslation": "Sem açúcar, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flour",
+"word": "flour",
+"translation": "farinha",
+"pron": "FLAU-er",
+"example": "We need flour to make a cake.",
+"exampleTranslation": "Precisamos de farinha para fazer bolo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "oil",
+"word": "oil",
+"translation": "óleo, azeite",
+"pron": "ÓIL",
+"example": "Heat the oil in a pan.",
+"exampleTranslation": "Esquente o óleo na panela.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "olive-oil",
+"word": "olive oil",
+"translation": "azeite de oliva",
+"pron": "Ó-liv óil",
+"example": "Put some olive oil on the salad.",
+"exampleTranslation": "Coloque azeite na salada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cake",
+"word": "cake",
+"translation": "bolo",
+"pron": "KEIK",
+"example": "Mom made a chocolate cake.",
+"exampleTranslation": "A mamãe fez um bolo de chocolate.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cookie",
+"word": "cookie",
+"translation": "biscoito, cookie",
+"pron": "KU-ki",
+"example": "Can I have a cookie?",
+"exampleTranslation": "Posso comer um biscoito?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "chocolate",
+"word": "chocolate",
+"translation": "chocolate",
+"pron": "TCHÓK-lat",
+"example": "Kids love chocolate.",
+"exampleTranslation": "Crianças adoram chocolate.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ice-cream",
+"word": "ice cream",
+"translation": "sorvete",
+"pron": "AIS kriim",
+"example": "Let's get some ice cream!",
+"exampleTranslation": "Vamos tomar sorvete!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "candy",
+"word": "candy",
+"translation": "doce, bala",
+"pron": "KÉN-di",
+"example": "Too much candy is bad for your teeth.",
+"exampleTranslation": "Doce demais faz mal para os dentes.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "honey",
+"word": "honey",
+"translation": "mel",
+"pron": "RÂ-ni",
+"example": "I put honey in my tea.",
+"exampleTranslation": "Eu coloco mel no chá.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "jam",
+"word": "jam",
+"translation": "geleia",
+"pron": "DJÉM",
+"example": "Toast with strawberry jam.",
+"exampleTranslation": "Torrada com geleia de morango.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cereal",
+"word": "cereal",
+"translation": "cereal",
+"pron": "SÍ-ri-al",
+"example": "The kids eat cereal with milk.",
+"exampleTranslation": "As crianças comem cereal com leite.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "yogurt",
+"word": "yogurt",
+"translation": "iogurte",
+"pron": "IÔU-gurt",
+"example": "I have yogurt for breakfast.",
+"exampleTranslation": "Eu tomo iogurte no café da manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "popcorn",
+"word": "popcorn",
+"translation": "pipoca",
+"pron": "PÓP-korn",
+"example": "Let's make popcorn for the movie.",
+"exampleTranslation": "Vamos fazer pipoca para o filme.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "peanut",
+"word": "peanut",
+"translation": "amendoim",
+"pron": "PII-nât",
+"example": "Peanut butter is delicious.",
+"exampleTranslation": "Pasta de amendoim é deliciosa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "nuts",
+"word": "nuts",
+"translation": "castanhas, nozes",
+"pron": "NÂTS",
+"example": "I eat nuts as a snack.",
+"exampleTranslation": "Eu como castanhas de lanche.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "toast",
+"word": "toast",
+"translation": "torrada",
+"pron": "TÔUST",
+"example": "I had toast for breakfast.",
+"exampleTranslation": "Eu comi torrada no café da manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pancake",
+"word": "pancake",
+"translation": "panqueca",
+"pron": "PÉN-keik",
+"example": "Grandma makes the best pancakes.",
+"exampleTranslation": "A vovó faz as melhores panquecas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "lunch",
+"word": "lunch",
+"translation": "almoço",
+"pron": "LÂNTCH",
+"example": "What's for lunch?",
+"exampleTranslation": "O que tem para o almoço?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dinner",
+"word": "dinner",
+"translation": "jantar",
+"pron": "DI-ner",
+"example": "Dinner is ready!",
+"exampleTranslation": "O jantar está pronto!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hungry",
+"word": "hungry",
+"translation": "com fome",
+"pron": "RÂN-gri",
+"example": "I'm very hungry.",
+"exampleTranslation": "Estou com muita fome.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sweet",
+"word": "sweet",
+"translation": "doce",
+"pron": "SUIIT",
+"example": "This cake is too sweet.",
+"exampleTranslation": "Este bolo está doce demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "salty",
+"word": "salty",
+"translation": "salgado",
+"pron": "SÓL-ti",
+"example": "The soup is too salty.",
+"exampleTranslation": "A sopa está salgada demais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sour",
+"word": "sour",
+"translation": "azedo",
+"pron": "SÁU-er",
+"example": "Lemons are sour.",
+"exampleTranslation": "Limões são azedos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bitter",
+"word": "bitter",
+"translation": "amargo",
+"pron": "BI-rer",
+"example": "This coffee is bitter.",
+"exampleTranslation": "Este café está amargo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fresh",
+"word": "fresh",
+"translation": "fresco",
+"pron": "FRÉSH",
+"example": "The fish is very fresh.",
+"exampleTranslation": "O peixe está bem fresco.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "recipe",
+"word": "recipe",
+"translation": "receita (culinária)",
+"pron": "RÉ-si-pi",
+"example": "Can you give me the recipe?",
+"exampleTranslation": "Você pode me passar a receita?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ingredient",
+"word": "ingredient",
+"translation": "ingrediente",
+"pron": "in-GRII-di-ent",
+"example": "We have all the ingredients.",
+"exampleTranslation": "Temos todos os ingredientes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "slice",
+"word": "slice",
+"translation": "fatia",
+"pron": "SLAIS",
+"example": "Can I have a slice of cake?",
+"exampleTranslation": "Posso comer uma fatia de bolo?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "piece",
+"word": "piece",
+"translation": "pedaço",
+"pron": "PIIS",
+"example": "Just a small piece, please.",
+"exampleTranslation": "Só um pedacinho, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "boil",
+"word": "boil",
+"translation": "ferver, cozinhar na água",
+"pron": "BÓIL",
+"example": "Boil the water first.",
+"exampleTranslation": "Primeiro ferva a água.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "healthy-food",
+"word": "healthy food",
+"translation": "comida saudável",
+"pron": "RÉL-thi fuud",
+"example": "We try to eat healthy food.",
+"exampleTranslation": "Tentamos comer comida saudável.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "junk-food",
+"word": "junk food",
+"translation": "porcaria (comida não saudável)",
+"pron": "DJÂNK fuud",
+"example": "Too much junk food is bad.",
+"exampleTranslation": "Muita porcaria faz mal.",
+"difficulty": 2,
+"level": "basic"
+}
+]

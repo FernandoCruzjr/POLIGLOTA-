@@ -1,0 +1,372 @@
+[
+{
+"slug": "in",
+"word": "in",
+"translation": "em, dentro de",
+"pron": "IN",
+"example": "The keys are in the bag.",
+"exampleTranslation": "As chaves estão na bolsa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "on",
+"word": "on",
+"translation": "em, sobre (em cima de)",
+"pron": "ÓN",
+"example": "The book is on the table.",
+"exampleTranslation": "O livro está na mesa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "at",
+"word": "at",
+"translation": "em (lugar específico, horário)",
+"pron": "ÉT",
+"example": "I'm at home.",
+"exampleTranslation": "Estou em casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "under",
+"word": "under",
+"translation": "embaixo de",
+"pron": "ÂN-der",
+"example": "The cat is under the bed.",
+"exampleTranslation": "O gato está debaixo da cama.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "over",
+"word": "over",
+"translation": "sobre, por cima de",
+"pron": "ÔU-ver",
+"example": "The plane flew over the city.",
+"exampleTranslation": "O avião voou sobre a cidade.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "above",
+"word": "above",
+"translation": "acima de",
+"pron": "a-BÂV",
+"example": "The picture is above the sofa.",
+"exampleTranslation": "O quadro está acima do sofá.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "below",
+"word": "below",
+"translation": "abaixo de",
+"pron": "bi-LÔU",
+"example": "Write your name below.",
+"exampleTranslation": "Escreva seu nome abaixo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "next-to",
+"word": "next to",
+"translation": "ao lado de",
+"pron": "NÉKST tu",
+"example": "The bank is next to the pharmacy.",
+"exampleTranslation": "O banco fica ao lado da farmácia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "between",
+"word": "between",
+"translation": "entre (dois)",
+"pron": "bi-TUIIN",
+"example": "The shop is between the bank and the café.",
+"exampleTranslation": "A loja fica entre o banco e o café.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "among",
+"word": "among",
+"translation": "entre (vários)",
+"pron": "a-MÂN",
+"example": "She is among friends.",
+"exampleTranslation": "Ela está entre amigos.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "behind",
+"word": "behind",
+"translation": "atrás de",
+"pron": "bi-RAIND",
+"example": "The garden is behind the house.",
+"exampleTranslation": "O jardim fica atrás da casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "in-front-of",
+"word": "in front of",
+"translation": "na frente de",
+"pron": "in FRÂNT óv",
+"example": "I'll wait in front of the school.",
+"exampleTranslation": "Eu espero na frente da escola.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "across-from",
+"word": "across from",
+"translation": "em frente a (do outro lado)",
+"pron": "a-KRÓS frâm",
+"example": "The park is across from my house.",
+"exampleTranslation": "O parque fica em frente à minha casa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "near-to",
+"word": "near to",
+"translation": "perto de",
+"pron": "NÍR tu",
+"example": "We live near to the beach.",
+"exampleTranslation": "Moramos perto da praia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "inside-of",
+"word": "inside of",
+"translation": "dentro de",
+"pron": "in-SAID óv",
+"example": "It's inside of the box.",
+"exampleTranslation": "Está dentro da caixa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "into",
+"word": "into",
+"translation": "para dentro de",
+"pron": "IN-tu",
+"example": "He jumped into the pool.",
+"exampleTranslation": "Ele pulou na piscina.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "out-of",
+"word": "out of",
+"translation": "para fora de",
+"pron": "AUT óv",
+"example": "Get out of the car.",
+"exampleTranslation": "Saia do carro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "to",
+"word": "to",
+"translation": "para, a",
+"pron": "TUU",
+"example": "I'm going to the market.",
+"exampleTranslation": "Estou indo ao mercado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "from",
+"word": "from",
+"translation": "de (origem)",
+"pron": "FRÂM",
+"example": "I'm from Brazil.",
+"exampleTranslation": "Eu sou do Brasil.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "with",
+"word": "with",
+"translation": "com",
+"pron": "UIDH",
+"example": "I live with my parents.",
+"exampleTranslation": "Eu moro com meus pais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "without",
+"word": "without",
+"translation": "sem",
+"pron": "ui-DHAUT",
+"example": "Coffee without sugar, please.",
+"exampleTranslation": "Café sem açúcar, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "for",
+"word": "for",
+"translation": "para, por",
+"pron": "FÓR",
+"example": "This is for you.",
+"exampleTranslation": "Isto é para você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "about",
+"word": "about",
+"translation": "sobre, a respeito de",
+"pron": "a-BAUT",
+"example": "It's a book about animals.",
+"exampleTranslation": "É um livro sobre animais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "of",
+"word": "of",
+"translation": "de",
+"pron": "ÓV",
+"example": "A cup of coffee.",
+"exampleTranslation": "Uma xícara de café.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "by",
+"word": "by",
+"translation": "por; de (meio de transporte)",
+"pron": "BAI",
+"example": "I go to work by bus.",
+"exampleTranslation": "Eu vou trabalhar de ônibus.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "before",
+"word": "before",
+"translation": "antes de",
+"pron": "bi-FÓR",
+"example": "Wash your hands before dinner.",
+"exampleTranslation": "Lave as mãos antes do jantar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "after",
+"word": "after",
+"translation": "depois de",
+"pron": "ÉF-ter",
+"example": "Let's go out after lunch.",
+"exampleTranslation": "Vamos sair depois do almoço.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "during",
+"word": "during",
+"translation": "durante",
+"pron": "DIU-rin",
+"example": "Don't talk during the movie.",
+"exampleTranslation": "Não converse durante o filme.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "until",
+"word": "until",
+"translation": "até (tempo)",
+"pron": "ân-TIL",
+"example": "I work until six.",
+"exampleTranslation": "Eu trabalho até as seis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "since",
+"word": "since",
+"translation": "desde",
+"pron": "SINS",
+"example": "I've lived here since 2020.",
+"exampleTranslation": "Eu moro aqui desde 2020.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "through",
+"word": "through",
+"translation": "através de, por",
+"pron": "THRUU",
+"example": "We walked through the park.",
+"exampleTranslation": "Nós caminhamos pelo parque.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "around",
+"word": "around",
+"translation": "ao redor de, por volta de",
+"pron": "a-RAUND",
+"example": "Let's meet around seven.",
+"exampleTranslation": "Vamos nos encontrar por volta das sete.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "along",
+"word": "along",
+"translation": "ao longo de",
+"pron": "a-LÓN",
+"example": "We walked along the beach.",
+"exampleTranslation": "Caminhamos ao longo da praia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "against",
+"word": "against",
+"translation": "contra",
+"pron": "a-GUÉNST",
+"example": "Brazil plays against Argentina today.",
+"exampleTranslation": "O Brasil joga contra a Argentina hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "like",
+"word": "like",
+"translation": "como (semelhante a)",
+"pron": "LAIK",
+"example": "She sings like an angel.",
+"exampleTranslation": "Ela canta como um anjo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "up",
+"word": "up",
+"translation": "para cima",
+"pron": "ÂP",
+"example": "Look up!",
+"exampleTranslation": "Olhe para cima!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "down",
+"word": "down",
+"translation": "para baixo",
+"pron": "DAUN",
+"example": "Sit down, please.",
+"exampleTranslation": "Sente-se, por favor.",
+"difficulty": 1,
+"level": "beginner"
+}
+]

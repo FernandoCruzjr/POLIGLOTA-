@@ -1,0 +1,452 @@
+[
+{
+"slug": "happy",
+"word": "happy",
+"translation": "feliz",
+"pron": "RÉ-pi",
+"example": "I'm so happy today!",
+"exampleTranslation": "Estou tão feliz hoje!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sad",
+"word": "sad",
+"translation": "triste",
+"pron": "SÉD",
+"example": "Why are you sad?",
+"exampleTranslation": "Por que você está triste?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "angry",
+"word": "angry",
+"translation": "bravo, com raiva",
+"pron": "ÉN-gri",
+"example": "Mom is angry with me.",
+"exampleTranslation": "A mamãe está brava comigo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "afraid",
+"word": "afraid",
+"translation": "com medo",
+"pron": "a-FREID",
+"example": "Don't be afraid.",
+"exampleTranslation": "Não tenha medo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "scared",
+"word": "scared",
+"translation": "assustado",
+"pron": "SKÉRD",
+"example": "The baby was scared of the dog.",
+"exampleTranslation": "O bebê ficou assustado com o cachorro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "worried",
+"word": "worried",
+"translation": "preocupado",
+"pron": "UÂ-rid",
+"example": "I'm worried about the test.",
+"exampleTranslation": "Estou preocupado com a prova.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nervous",
+"word": "nervous",
+"translation": "nervoso",
+"pron": "NÂR-vâs",
+"example": "I'm nervous about the interview.",
+"exampleTranslation": "Estou nervoso com a entrevista.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "calm",
+"word": "calm",
+"translation": "calmo",
+"pron": "KÁM",
+"example": "Stay calm.",
+"exampleTranslation": "Fique calmo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "excited",
+"word": "excited",
+"translation": "animado, empolgado",
+"pron": "ik-SAI-rid",
+"example": "The kids are excited about the trip.",
+"exampleTranslation": "As crianças estão animadas com a viagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "surprised",
+"word": "surprised",
+"translation": "surpreso",
+"pron": "ser-PRAIZD",
+"example": "I was surprised to see you.",
+"exampleTranslation": "Fiquei surpreso em te ver.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "proud",
+"word": "proud",
+"translation": "orgulhoso",
+"pron": "PRAUD",
+"example": "I'm proud of you.",
+"exampleTranslation": "Eu tenho orgulho de você.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "jealous",
+"word": "jealous",
+"translation": "com ciúmes",
+"pron": "DJÉ-lâs",
+"example": "He's jealous of his brother.",
+"exampleTranslation": "Ele tem ciúmes do irmão.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lonely",
+"word": "lonely",
+"translation": "solitário, sozinho",
+"pron": "LÔUN-li",
+"example": "Grandpa feels lonely sometimes.",
+"exampleTranslation": "O vovô às vezes se sente sozinho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "embarrassed",
+"word": "embarrassed",
+"translation": "envergonhado",
+"pron": "im-BÉ-râst",
+"example": "I was so embarrassed!",
+"exampleTranslation": "Fiquei tão envergonhado!",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "ashamed",
+"word": "ashamed",
+"translation": "com vergonha (culpa)",
+"pron": "a-SHEIMD",
+"example": "He was ashamed of what he did.",
+"exampleTranslation": "Ele teve vergonha do que fez.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "shy",
+"word": "shy",
+"translation": "tímido",
+"pron": "SHAI",
+"example": "My son is very shy.",
+"exampleTranslation": "Meu filho é muito tímido.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "confused",
+"word": "confused",
+"translation": "confuso",
+"pron": "kon-FIUZD",
+"example": "I'm confused. Can you explain again?",
+"exampleTranslation": "Estou confuso. Pode explicar de novo?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "upset",
+"word": "upset",
+"translation": "chateado",
+"pron": "âp-SÉT",
+"example": "She's upset with her friend.",
+"exampleTranslation": "Ela está chateada com a amiga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "disappointed",
+"word": "disappointed",
+"translation": "decepcionado",
+"pron": "dis-a-PÓIN-tid",
+"example": "I'm disappointed with the result.",
+"exampleTranslation": "Estou decepcionado com o resultado.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "grateful",
+"word": "grateful",
+"translation": "grato",
+"pron": "GRÊIT-ful",
+"example": "I'm grateful for your help.",
+"exampleTranslation": "Sou grato pela sua ajuda.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "relaxed",
+"word": "relaxed",
+"translation": "relaxado, tranquilo",
+"pron": "ri-LÉKST",
+"example": "I feel relaxed on vacation.",
+"exampleTranslation": "Eu me sinto tranquilo nas férias.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stressed",
+"word": "stressed",
+"translation": "estressado",
+"pron": "STRÉST",
+"example": "I'm stressed about work.",
+"exampleTranslation": "Estou estressado com o trabalho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "glad",
+"word": "glad",
+"translation": "contente",
+"pron": "GLÉD",
+"example": "I'm glad you came.",
+"exampleTranslation": "Fico contente que você veio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cheerful",
+"word": "cheerful",
+"translation": "alegre, animado",
+"pron": "TCHÍR-ful",
+"example": "She's always cheerful.",
+"exampleTranslation": "Ela está sempre alegre.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "moody",
+"word": "moody",
+"translation": "de mau humor, temperamental",
+"pron": "MUU-di",
+"example": "He is moody in the morning.",
+"exampleTranslation": "Ele fica de mau humor de manhã.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "homesick",
+"word": "homesick",
+"translation": "com saudade de casa",
+"pron": "RÔUM-sik",
+"example": "I felt homesick in London.",
+"exampleTranslation": "Eu senti saudade de casa em Londres.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "feel",
+"word": "feel",
+"translation": "sentir(-se)",
+"pron": "FIIL",
+"example": "How do you feel?",
+"exampleTranslation": "Como você se sente?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "feeling",
+"word": "feeling",
+"translation": "sentimento",
+"pron": "FII-lin",
+"example": "I have a good feeling about this.",
+"exampleTranslation": "Tenho um bom pressentimento sobre isso.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "smile",
+"word": "smile",
+"translation": "sorriso; sorrir",
+"pron": "SMAIL",
+"example": "The baby has a beautiful smile.",
+"exampleTranslation": "O bebê tem um sorriso lindo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "laugh",
+"word": "laugh",
+"translation": "rir",
+"pron": "LÉF",
+"example": "That joke made me laugh.",
+"exampleTranslation": "Aquela piada me fez rir.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cry",
+"word": "cry",
+"translation": "chorar",
+"pron": "KRAI",
+"example": "The baby is crying.",
+"exampleTranslation": "O bebê está chorando.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tears",
+"word": "tears",
+"translation": "lágrimas",
+"pron": "TÍRZ",
+"example": "She had tears in her eyes.",
+"exampleTranslation": "Ela estava com lágrimas nos olhos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fear",
+"word": "fear",
+"translation": "medo",
+"pron": "FÍR",
+"example": "He has a fear of heights.",
+"exampleTranslation": "Ele tem medo de altura.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hope",
+"word": "hope",
+"translation": "esperança; esperar (desejar)",
+"pron": "RÔUP",
+"example": "I hope you like it.",
+"exampleTranslation": "Espero que você goste.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mood",
+"word": "mood",
+"translation": "humor, estado de espírito",
+"pron": "MUUD",
+"example": "I'm in a good mood today.",
+"exampleTranslation": "Estou de bom humor hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "in-a-bad-mood",
+"word": "in a bad mood",
+"translation": "de mau humor",
+"pron": "in a béd MUUD",
+"example": "Dad is in a bad mood today.",
+"exampleTranslation": "O papai está de mau humor hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hate",
+"word": "hate",
+"translation": "odiar",
+"pron": "REIT",
+"example": "I hate waking up early.",
+"exampleTranslation": "Eu odeio acordar cedo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "annoyed",
+"word": "annoyed",
+"translation": "irritado, incomodado",
+"pron": "a-NÓID",
+"example": "I'm annoyed by the noise.",
+"exampleTranslation": "Estou irritado com o barulho.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "satisfied",
+"word": "satisfied",
+"translation": "satisfeito",
+"pron": "SÉ-tis-faid",
+"example": "Are you satisfied with the service?",
+"exampleTranslation": "Você está satisfeito com o atendimento?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "curious",
+"word": "curious",
+"translation": "curioso",
+"pron": "KIU-ri-âs",
+"example": "Kids are very curious.",
+"exampleTranslation": "As crianças são muito curiosas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "brave",
+"word": "brave",
+"translation": "corajoso",
+"pron": "BREIV",
+"example": "You were very brave.",
+"exampleTranslation": "Você foi muito corajoso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "peaceful",
+"word": "peaceful",
+"translation": "em paz, tranquilo",
+"pron": "PIIS-ful",
+"example": "The beach is so peaceful.",
+"exampleTranslation": "A praia é tão tranquila.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thankful",
+"word": "thankful",
+"translation": "agradecido",
+"pron": "THÉNK-ful",
+"example": "I'm thankful for my family.",
+"exampleTranslation": "Sou agradecido pela minha família.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "loved",
+"word": "loved",
+"translation": "amado",
+"pron": "LÂVD",
+"example": "You are very loved.",
+"exampleTranslation": "Você é muito amado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "frustrated",
+"word": "frustrated",
+"translation": "frustrado",
+"pron": "frâs-TRÊI-tid",
+"example": "I feel frustrated when I can't understand.",
+"exampleTranslation": "Eu fico frustrado quando não consigo entender.",
+"difficulty": 2,
+"level": "basic"
+}
+]

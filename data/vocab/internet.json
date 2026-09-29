@@ -1,0 +1,402 @@
+[
+{
+"slug": "internet",
+"word": "internet",
+"translation": "internet",
+"pron": "IN-ter-nét",
+"example": "The internet is slow today.",
+"exampleTranslation": "A internet está lenta hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "online",
+"word": "online",
+"translation": "online, conectado",
+"pron": "ÓN-lain",
+"example": "Are you online?",
+"exampleTranslation": "Você está online?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "offline",
+"word": "offline",
+"translation": "offline, desconectado",
+"pron": "ÓF-lain",
+"example": "The app works offline.",
+"exampleTranslation": "O aplicativo funciona sem internet.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "website",
+"word": "website",
+"translation": "site",
+"pron": "UÉB-sait",
+"example": "Visit our website.",
+"exampleTranslation": "Visite o nosso site.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "link",
+"word": "link",
+"translation": "link",
+"pron": "LINK",
+"example": "Send me the link.",
+"exampleTranslation": "Me manda o link.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "password",
+"word": "password",
+"translation": "senha",
+"pron": "PÉS-uârd",
+"example": "I forgot my password.",
+"exampleTranslation": "Eu esqueci minha senha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "username",
+"word": "username",
+"translation": "nome de usuário",
+"pron": "IU-zer-neim",
+"example": "Enter your username.",
+"exampleTranslation": "Digite seu nome de usuário.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "log-in",
+"word": "log in",
+"translation": "entrar (na conta)",
+"pron": "lóg IN",
+"example": "Log in with your email.",
+"exampleTranslation": "Entre com o seu e-mail.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "log-out",
+"word": "log out",
+"translation": "sair (da conta)",
+"pron": "lóg AUT",
+"example": "Don't forget to log out.",
+"exampleTranslation": "Não esqueça de sair da conta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sign-up",
+"word": "sign up",
+"translation": "cadastrar-se",
+"pron": "sain ÂP",
+"example": "Sign up for free.",
+"exampleTranslation": "Cadastre-se de graça.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "account",
+"word": "account",
+"translation": "conta (de usuário)",
+"pron": "a-KAUNT",
+"example": "Create an account.",
+"exampleTranslation": "Crie uma conta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "download",
+"word": "download",
+"translation": "baixar",
+"pron": "DAUN-lôud",
+"example": "Download the file.",
+"exampleTranslation": "Baixe o arquivo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "upload",
+"word": "upload",
+"translation": "enviar, fazer upload",
+"pron": "ÂP-lôud",
+"example": "Upload your photo here.",
+"exampleTranslation": "Envie sua foto aqui.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "search",
+"word": "search",
+"translation": "pesquisar, busca",
+"pron": "SÂRTCH",
+"example": "Search for it on the internet.",
+"exampleTranslation": "Pesquise na internet.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "social-media",
+"word": "social media",
+"translation": "redes sociais",
+"pron": "SÔU-shal MII-di-a",
+"example": "She spends hours on social media.",
+"exampleTranslation": "Ela passa horas nas redes sociais.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "post",
+"word": "post",
+"translation": "postagem; postar",
+"pron": "PÔUST",
+"example": "I liked your post.",
+"exampleTranslation": "Eu curti sua postagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "share",
+"word": "share",
+"translation": "compartilhar (na internet)",
+"pron": "SHÉR",
+"example": "Share this post with your friends.",
+"exampleTranslation": "Compartilhe esta postagem com seus amigos.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "like",
+"word": "like",
+"translation": "curtir",
+"pron": "LAIK",
+"example": "Like and share!",
+"exampleTranslation": "Curta e compartilhe!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "comment",
+"word": "comment",
+"translation": "comentário; comentar",
+"pron": "KÓ-ment",
+"example": "Leave a comment below.",
+"exampleTranslation": "Deixe um comentário abaixo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "follow",
+"word": "follow",
+"translation": "seguir",
+"pron": "FÓ-lou",
+"example": "Follow us on Instagram.",
+"exampleTranslation": "Siga-nos no Instagram.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "followers",
+"word": "followers",
+"translation": "seguidores",
+"pron": "FÓ-lou-erz",
+"example": "She has many followers.",
+"exampleTranslation": "Ela tem muitos seguidores.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "message",
+"word": "message",
+"translation": "mensagem",
+"pron": "MÉ-sidj",
+"example": "Send me a message.",
+"exampleTranslation": "Me manda uma mensagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "text",
+"word": "text",
+"translation": "mensagem de texto; mandar mensagem",
+"pron": "TÉKST",
+"example": "Text me when you arrive.",
+"exampleTranslation": "Me manda mensagem quando chegar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "video-call",
+"word": "video call",
+"translation": "chamada de vídeo",
+"pron": "VI-di-ou kól",
+"example": "Let's make a video call.",
+"exampleTranslation": "Vamos fazer uma chamada de vídeo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stream",
+"word": "stream",
+"translation": "transmitir ao vivo; assistir online",
+"pron": "STRIIM",
+"example": "We streamed the game online.",
+"exampleTranslation": "Assistimos ao jogo pela internet.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "connection-speed",
+"word": "connection speed",
+"translation": "velocidade da conexão",
+"pron": "ko-NÉK-shân spiid",
+"example": "The connection speed is great.",
+"exampleTranslation": "A velocidade da conexão é ótima.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wi-fi",
+"word": "Wi-Fi",
+"translation": "Wi-Fi",
+"pron": "UAI-fai",
+"example": "Is there Wi-Fi here?",
+"exampleTranslation": "Tem Wi-Fi aqui?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "network",
+"word": "network",
+"translation": "rede",
+"pron": "NÉT-uârk",
+"example": "Connect to this network.",
+"exampleTranslation": "Conecte-se a esta rede.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "browser",
+"word": "browser",
+"translation": "navegador",
+"pron": "BRAU-zer",
+"example": "Open the browser.",
+"exampleTranslation": "Abra o navegador.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "email-address",
+"word": "email address",
+"translation": "endereço de e-mail",
+"pron": "Í-meil a-drés",
+"example": "What's your email address?",
+"exampleTranslation": "Qual é o seu e-mail?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "attachment",
+"word": "attachment",
+"translation": "anexo",
+"pron": "a-TÉTCH-ment",
+"example": "Open the attachment.",
+"exampleTranslation": "Abra o anexo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "spam",
+"word": "spam",
+"translation": "spam, lixo eletrônico",
+"pron": "SPÉM",
+"example": "Check your spam folder.",
+"exampleTranslation": "Confira sua caixa de spam.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "hacker",
+"word": "hacker",
+"translation": "hacker",
+"pron": "RÉ-ker",
+"example": "A hacker stole my password.",
+"exampleTranslation": "Um hacker roubou minha senha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "virus",
+"word": "virus",
+"translation": "vírus",
+"pron": "VAI-râs",
+"example": "My computer has a virus.",
+"exampleTranslation": "Meu computador está com vírus.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "secure",
+"word": "secure",
+"translation": "seguro (protegido)",
+"pron": "si-KIUR",
+"example": "Is this website secure?",
+"exampleTranslation": "Este site é seguro?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "blog",
+"word": "blog",
+"translation": "blog",
+"pron": "BLÓG",
+"example": "She writes a travel blog.",
+"exampleTranslation": "Ela escreve um blog de viagens.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "podcast",
+"word": "podcast",
+"translation": "podcast",
+"pron": "PÓD-kést",
+"example": "I listen to podcasts in English.",
+"exampleTranslation": "Eu escuto podcasts em inglês.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "subscribe",
+"word": "subscribe",
+"translation": "inscrever-se, assinar",
+"pron": "sâb-SKRAIB",
+"example": "Subscribe to our channel.",
+"exampleTranslation": "Inscreva-se no nosso canal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "emoji",
+"word": "emoji",
+"translation": "emoji",
+"pron": "i-MÔU-dji",
+"example": "She always sends emojis.",
+"exampleTranslation": "Ela sempre manda emojis.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "screenshot",
+"word": "screenshot",
+"translation": "captura de tela, print",
+"pron": "SKRIIN-shót",
+"example": "Take a screenshot.",
+"exampleTranslation": "Tire um print da tela.",
+"difficulty": 2,
+"level": "basic"
+}
+]

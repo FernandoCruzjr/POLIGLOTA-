@@ -1,0 +1,552 @@
+[
+{
+"slug": "health",
+"word": "health",
+"translation": "saúde",
+"pron": "RÉLTH",
+"example": "Health is the most important thing.",
+"exampleTranslation": "A saúde é a coisa mais importante.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "healthy",
+"word": "healthy",
+"translation": "saudável",
+"pron": "RÉL-thi",
+"example": "She eats healthy food.",
+"exampleTranslation": "Ela come comida saudável.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sick",
+"word": "sick",
+"translation": "doente",
+"pron": "SIK",
+"example": "I feel sick today.",
+"exampleTranslation": "Estou me sentindo doente hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "doctor",
+"word": "doctor",
+"translation": "médico",
+"pron": "DÓK-ter",
+"example": "You should see a doctor.",
+"exampleTranslation": "Você deveria ir ao médico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "nurse",
+"word": "nurse",
+"translation": "enfermeiro(a)",
+"pron": "NÂRS",
+"example": "The nurse took my temperature.",
+"exampleTranslation": "A enfermeira mediu minha temperatura.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dentist",
+"word": "dentist",
+"translation": "dentista",
+"pron": "DÉN-tist",
+"example": "I go to the dentist twice a year.",
+"exampleTranslation": "Eu vou ao dentista duas vezes por ano.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "clinic",
+"word": "clinic",
+"translation": "clínica, posto de saúde",
+"pron": "KLI-nik",
+"example": "The clinic opens at seven.",
+"exampleTranslation": "A clínica abre às sete.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "appointment",
+"word": "appointment",
+"translation": "consulta (marcada)",
+"pron": "a-PÓINT-ment",
+"example": "I have a doctor's appointment.",
+"exampleTranslation": "Eu tenho consulta médica.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pain",
+"word": "pain",
+"translation": "dor",
+"pron": "PEIN",
+"example": "I have a pain in my back.",
+"exampleTranslation": "Estou com uma dor nas costas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "hurt",
+"word": "hurt",
+"translation": "doer; machucar",
+"pron": "RÂRT",
+"example": "My tooth hurts.",
+"exampleTranslation": "Meu dente está doendo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "headache",
+"word": "headache",
+"translation": "dor de cabeça",
+"pron": "RÉD-eik",
+"example": "I have a headache.",
+"exampleTranslation": "Estou com dor de cabeça.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stomachache",
+"word": "stomachache",
+"translation": "dor de barriga",
+"pron": "STÂ-mak-eik",
+"example": "The baby has a stomachache.",
+"exampleTranslation": "O bebê está com dor de barriga.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "toothache",
+"word": "toothache",
+"translation": "dor de dente",
+"pron": "TUUTH-eik",
+"example": "I have a terrible toothache.",
+"exampleTranslation": "Estou com uma dor de dente terrível.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sore-throat",
+"word": "sore throat",
+"translation": "dor de garganta",
+"pron": "sór THRÔUT",
+"example": "Drink tea for your sore throat.",
+"exampleTranslation": "Tome chá para a dor de garganta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fever",
+"word": "fever",
+"translation": "febre",
+"pron": "FII-ver",
+"example": "She has a high fever.",
+"exampleTranslation": "Ela está com febre alta.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cold",
+"word": "cold",
+"translation": "resfriado",
+"pron": "KÔULD",
+"example": "I caught a cold.",
+"exampleTranslation": "Eu peguei um resfriado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "flu",
+"word": "flu",
+"translation": "gripe",
+"pron": "FLUU",
+"example": "Half the office has the flu.",
+"exampleTranslation": "Metade do escritório está gripada.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cough",
+"word": "cough",
+"translation": "tosse; tossir",
+"pron": "KÓF",
+"example": "He has a bad cough.",
+"exampleTranslation": "Ele está com uma tosse forte.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "sneeze",
+"word": "sneeze",
+"translation": "espirrar",
+"pron": "SNIIZ",
+"example": "I can't stop sneezing.",
+"exampleTranslation": "Não consigo parar de espirrar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "runny-nose",
+"word": "runny nose",
+"translation": "nariz escorrendo",
+"pron": "RÂ-ni nôuz",
+"example": "The kids have runny noses.",
+"exampleTranslation": "As crianças estão com o nariz escorrendo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "dizzy",
+"word": "dizzy",
+"translation": "tonto",
+"pron": "DI-zi",
+"example": "I feel dizzy.",
+"exampleTranslation": "Estou me sentindo tonto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "tired",
+"word": "tired",
+"translation": "cansado",
+"pron": "TAI-erd",
+"example": "I'm so tired today.",
+"exampleTranslation": "Estou tão cansado hoje.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "medicine",
+"word": "medicine",
+"translation": "remédio",
+"pron": "MÉ-di-sin",
+"example": "Take this medicine twice a day.",
+"exampleTranslation": "Tome este remédio duas vezes ao dia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pill",
+"word": "pill",
+"translation": "comprimido",
+"pron": "PIL",
+"example": "Take one pill after lunch.",
+"exampleTranslation": "Tome um comprimido depois do almoço.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "prescription",
+"word": "prescription",
+"translation": "receita médica",
+"pron": "pri-SKRIP-shân",
+"example": "You need a prescription for this.",
+"exampleTranslation": "Você precisa de receita para isto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "injection",
+"word": "injection",
+"translation": "injeção",
+"pron": "in-DJÉK-shân",
+"example": "The baby got an injection today.",
+"exampleTranslation": "O bebê tomou uma injeção hoje.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vaccine",
+"word": "vaccine",
+"translation": "vacina",
+"pron": "vék-SIIN",
+"example": "Is the baby's vaccine up to date?",
+"exampleTranslation": "A vacina do bebê está em dia?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bandage",
+"word": "bandage",
+"translation": "curativo, atadura",
+"pron": "BÉN-didj",
+"example": "Put a bandage on the cut.",
+"exampleTranslation": "Coloque um curativo no corte.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cut",
+"word": "cut",
+"translation": "corte; cortar",
+"pron": "KÂT",
+"example": "It's just a small cut.",
+"exampleTranslation": "É só um cortezinho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bruise",
+"word": "bruise",
+"translation": "hematoma, roxo",
+"pron": "BRUUZ",
+"example": "I have a bruise on my leg.",
+"exampleTranslation": "Estou com um roxo na perna.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "burn",
+"word": "burn",
+"translation": "queimadura; queimar",
+"pron": "BÂRN",
+"example": "Be careful, you can burn yourself.",
+"exampleTranslation": "Cuidado, você pode se queimar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "broken",
+"word": "broken",
+"translation": "quebrado",
+"pron": "BRÔU-ken",
+"example": "I think my finger is broken.",
+"exampleTranslation": "Acho que meu dedo está quebrado.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "allergy",
+"word": "allergy",
+"translation": "alergia",
+"pron": "É-ler-dji",
+"example": "I have a dust allergy.",
+"exampleTranslation": "Eu tenho alergia a poeira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "blood-pressure",
+"word": "blood pressure",
+"translation": "pressão arterial",
+"pron": "BLÂD pré-sher",
+"example": "The nurse checked my blood pressure.",
+"exampleTranslation": "A enfermeira mediu minha pressão.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "temperature",
+"word": "temperature",
+"translation": "temperatura",
+"pron": "TÉM-pra-tcher",
+"example": "Let me take your temperature.",
+"exampleTranslation": "Deixe-me medir sua temperatura.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "thermometer",
+"word": "thermometer",
+"translation": "termômetro",
+"pron": "ther-MÓ-mi-ter",
+"example": "Where is the thermometer?",
+"exampleTranslation": "Onde está o termômetro?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "check-up",
+"word": "check-up",
+"translation": "exame de rotina",
+"pron": "TCHÉK-âp",
+"example": "I need a check-up.",
+"exampleTranslation": "Eu preciso fazer um check-up.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "symptom",
+"word": "symptom",
+"translation": "sintoma",
+"pron": "SIMP-tom",
+"example": "What are your symptoms?",
+"exampleTranslation": "Quais são os seus sintomas?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "rest",
+"word": "rest",
+"translation": "descansar; descanso",
+"pron": "RÉST",
+"example": "You need to rest.",
+"exampleTranslation": "Você precisa descansar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sleep",
+"word": "sleep",
+"translation": "dormir; sono",
+"pron": "SLIIP",
+"example": "I didn't sleep well.",
+"exampleTranslation": "Eu não dormi bem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "exercise",
+"word": "exercise",
+"translation": "exercício; exercitar-se",
+"pron": "ÉK-ser-saiz",
+"example": "I exercise three times a week.",
+"exampleTranslation": "Eu me exercito três vezes por semana.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "diet",
+"word": "diet",
+"translation": "dieta, alimentação",
+"pron": "DAI-et",
+"example": "A good diet is important.",
+"exampleTranslation": "Uma boa alimentação é importante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "feel-better",
+"word": "feel better",
+"translation": "melhorar (sentir-se melhor)",
+"pron": "fiil BÉ-rer",
+"example": "I hope you feel better soon.",
+"exampleTranslation": "Espero que você melhore logo.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "get-well-soon",
+"word": "get well soon",
+"translation": "melhoras!",
+"pron": "guét uél SUUN",
+"example": "Get well soon, Grandma!",
+"exampleTranslation": "Melhoras, vovó!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pregnant",
+"word": "pregnant",
+"translation": "grávida",
+"pron": "PRÉG-nant",
+"example": "My sister is pregnant.",
+"exampleTranslation": "Minha irmã está grávida.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wheelchair",
+"word": "wheelchair",
+"translation": "cadeira de rodas",
+"pron": "UIIL-tchér",
+"example": "He uses a wheelchair.",
+"exampleTranslation": "Ele usa cadeira de rodas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "glasses",
+"word": "glasses",
+"translation": "óculos",
+"pron": "GLÉ-siz",
+"example": "I need glasses to read.",
+"exampleTranslation": "Eu preciso de óculos para ler.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stress",
+"word": "stress",
+"translation": "estresse",
+"pron": "STRÉS",
+"example": "Too much stress is bad for you.",
+"exampleTranslation": "Estresse demais faz mal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "health-insurance",
+"word": "health insurance",
+"translation": "plano de saúde",
+"pron": "RÉLTH in-SHU-rans",
+"example": "Does your job offer health insurance?",
+"exampleTranslation": "Seu trabalho oferece plano de saúde?",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "drugstore",
+"word": "drugstore",
+"translation": "farmácia (EUA)",
+"pron": "DRÂG-stór",
+"example": "I'll buy it at the drugstore.",
+"exampleTranslation": "Vou comprar na farmácia.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "surgery",
+"word": "surgery",
+"translation": "cirurgia",
+"pron": "SÂR-dje-ri",
+"example": "She had surgery last month.",
+"exampleTranslation": "Ela fez uma cirurgia no mês passado.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "patient",
+"word": "patient",
+"translation": "paciente",
+"pron": "PÊI-shent",
+"example": "The doctor has many patients.",
+"exampleTranslation": "O médico tem muitos pacientes.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "recover",
+"word": "recover",
+"translation": "recuperar-se",
+"pron": "ri-KÂ-ver",
+"example": "He is recovering well.",
+"exampleTranslation": "Ele está se recuperando bem.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "x-ray",
+"word": "x-ray",
+"translation": "raio-x",
+"pron": "ÉKS-rei",
+"example": "The doctor asked for an x-ray.",
+"exampleTranslation": "O médico pediu um raio-x.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "first-aid-kit",
+"word": "first aid kit",
+"translation": "kit de primeiros socorros",
+"pron": "fârst EID kit",
+"example": "Keep a first aid kit at home.",
+"exampleTranslation": "Tenha um kit de primeiros socorros em casa.",
+"difficulty": 3,
+"level": "elementary"
+}
+]

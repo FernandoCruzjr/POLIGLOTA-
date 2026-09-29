@@ -1,0 +1,702 @@
+[
+{
+"slug": "house",
+"word": "house",
+"translation": "casa (construção)",
+"pron": "RAUS",
+"example": "We live in a small house.",
+"exampleTranslation": "Nós moramos numa casa pequena.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "home",
+"word": "home",
+"translation": "lar, casa",
+"pron": "RÔUM",
+"example": "I'm going home.",
+"exampleTranslation": "Estou indo para casa.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "apartment",
+"word": "apartment",
+"translation": "apartamento",
+"pron": "a-PART-ment",
+"example": "Our apartment is on the third floor.",
+"exampleTranslation": "Nosso apartamento fica no terceiro andar.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "kitchen",
+"word": "kitchen",
+"translation": "cozinha",
+"pron": "KI-tchen",
+"example": "Mom is in the kitchen.",
+"exampleTranslation": "A mamãe está na cozinha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bedroom",
+"word": "bedroom",
+"translation": "quarto",
+"pron": "BÉD-rum",
+"example": "The baby is sleeping in the bedroom.",
+"exampleTranslation": "O bebê está dormindo no quarto.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bathroom",
+"word": "bathroom",
+"translation": "banheiro",
+"pron": "BÉTH-rum",
+"example": "The bathroom is upstairs.",
+"exampleTranslation": "O banheiro fica no andar de cima.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "living-room",
+"word": "living room",
+"translation": "sala de estar",
+"pron": "LI-vin ruum",
+"example": "We watch TV in the living room.",
+"exampleTranslation": "Nós vemos TV na sala.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dining-room",
+"word": "dining room",
+"translation": "sala de jantar",
+"pron": "DAI-nin ruum",
+"example": "Dinner is in the dining room.",
+"exampleTranslation": "O jantar é na sala de jantar.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "garage",
+"word": "garage",
+"translation": "garagem",
+"pron": "ga-RAJ",
+"example": "The car is in the garage.",
+"exampleTranslation": "O carro está na garagem.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "garden",
+"word": "garden",
+"translation": "jardim",
+"pron": "GAR-den",
+"example": "My grandmother loves her garden.",
+"exampleTranslation": "Minha avó adora o jardim dela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "backyard",
+"word": "backyard",
+"translation": "quintal",
+"pron": "BÉK-iard",
+"example": "The kids play in the backyard.",
+"exampleTranslation": "As crianças brincam no quintal.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "balcony",
+"word": "balcony",
+"translation": "varanda (sacada)",
+"pron": "BÉL-ko-ni",
+"example": "I drink coffee on the balcony.",
+"exampleTranslation": "Eu tomo café na sacada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "roof",
+"word": "roof",
+"translation": "telhado",
+"pron": "RUUF",
+"example": "The roof needs repair.",
+"exampleTranslation": "O telhado precisa de conserto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "wall",
+"word": "wall",
+"translation": "parede",
+"pron": "UÓL",
+"example": "Hang the picture on the wall.",
+"exampleTranslation": "Pendure o quadro na parede.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "door",
+"word": "door",
+"translation": "porta",
+"pron": "DÓR",
+"example": "Close the door, please.",
+"exampleTranslation": "Feche a porta, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "window",
+"word": "window",
+"translation": "janela",
+"pron": "UÍN-dou",
+"example": "Open the window.",
+"exampleTranslation": "Abra a janela.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "floor",
+"word": "floor",
+"translation": "chão, piso",
+"pron": "FLÓR",
+"example": "Don't sit on the floor.",
+"exampleTranslation": "Não sente no chão.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "ceiling",
+"word": "ceiling",
+"translation": "teto",
+"pron": "SII-lin",
+"example": "The ceiling is very high.",
+"exampleTranslation": "O teto é muito alto.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "upstairs",
+"word": "upstairs",
+"translation": "andar de cima",
+"pron": "âp-STÉRZ",
+"example": "My room is upstairs.",
+"exampleTranslation": "Meu quarto fica no andar de cima.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "downstairs",
+"word": "downstairs",
+"translation": "andar de baixo",
+"pron": "daun-STÉRZ",
+"example": "Breakfast is downstairs.",
+"exampleTranslation": "O café da manhã é no andar de baixo.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bed",
+"word": "bed",
+"translation": "cama",
+"pron": "BÉD",
+"example": "Time for bed!",
+"exampleTranslation": "Hora de ir para a cama!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sofa",
+"word": "sofa",
+"translation": "sofá",
+"pron": "SÔU-fa",
+"example": "The cat sleeps on the sofa.",
+"exampleTranslation": "O gato dorme no sofá.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "chair",
+"word": "chair",
+"translation": "cadeira",
+"pron": "TCHÉR",
+"example": "Take a chair.",
+"exampleTranslation": "Pegue uma cadeira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "desk",
+"word": "desk",
+"translation": "escrivaninha",
+"pron": "DÉSK",
+"example": "My laptop is on the desk.",
+"exampleTranslation": "Meu notebook está na escrivaninha.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "closet",
+"word": "closet",
+"translation": "guarda-roupa, armário",
+"pron": "KLÓ-zet",
+"example": "Your clothes are in the closet.",
+"exampleTranslation": "Suas roupas estão no guarda-roupa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "drawer",
+"word": "drawer",
+"translation": "gaveta",
+"pron": "DRÓR",
+"example": "The spoons are in the drawer.",
+"exampleTranslation": "As colheres estão na gaveta.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "bookcase",
+"word": "bookcase",
+"translation": "estante de livros",
+"pron": "BUK-keis",
+"example": "Put the books in the bookcase.",
+"exampleTranslation": "Coloque os livros na estante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "lamp",
+"word": "lamp",
+"translation": "abajur, luminária",
+"pron": "LÉMP",
+"example": "Turn on the lamp.",
+"exampleTranslation": "Acenda o abajur.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "light",
+"word": "light",
+"translation": "luz",
+"pron": "LAIT",
+"example": "Turn off the light.",
+"exampleTranslation": "Apague a luz.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "mirror",
+"word": "mirror",
+"translation": "espelho",
+"pron": "MI-rer",
+"example": "Look in the mirror.",
+"exampleTranslation": "Olhe no espelho.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "carpet",
+"word": "carpet",
+"translation": "tapete, carpete",
+"pron": "KAR-pet",
+"example": "The carpet is soft.",
+"exampleTranslation": "O tapete é macio.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "curtain",
+"word": "curtain",
+"translation": "cortina",
+"pron": "KÂR-ten",
+"example": "Close the curtains.",
+"exampleTranslation": "Feche as cortinas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fridge",
+"word": "fridge",
+"translation": "geladeira",
+"pron": "FRIDJ",
+"example": "The milk is in the fridge.",
+"exampleTranslation": "O leite está na geladeira.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "freezer",
+"word": "freezer",
+"translation": "congelador",
+"pron": "FRII-zer",
+"example": "Put the ice cream in the freezer.",
+"exampleTranslation": "Coloque o sorvete no congelador.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "stove",
+"word": "stove",
+"translation": "fogão",
+"pron": "STÔUV",
+"example": "Be careful, the stove is hot.",
+"exampleTranslation": "Cuidado, o fogão está quente.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "oven",
+"word": "oven",
+"translation": "forno",
+"pron": "Â-ven",
+"example": "The cake is in the oven.",
+"exampleTranslation": "O bolo está no forno.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "microwave",
+"word": "microwave",
+"translation": "micro-ondas",
+"pron": "MAI-kro-ueiv",
+"example": "Heat it in the microwave.",
+"exampleTranslation": "Esquente no micro-ondas.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "sink",
+"word": "sink",
+"translation": "pia",
+"pron": "SINK",
+"example": "The dishes are in the sink.",
+"exampleTranslation": "A louça está na pia.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "dishwasher",
+"word": "dishwasher",
+"translation": "lava-louças",
+"pron": "DISH-uó-sher",
+"example": "Put the plates in the dishwasher.",
+"exampleTranslation": "Coloque os pratos na lava-louças.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "washing-machine",
+"word": "washing machine",
+"translation": "máquina de lavar",
+"pron": "UÓ-shin ma-SHIIN",
+"example": "The washing machine is running.",
+"exampleTranslation": "A máquina de lavar está ligada.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "pan",
+"word": "pan",
+"translation": "panela, frigideira",
+"pron": "PÉN",
+"example": "Heat the pan first.",
+"exampleTranslation": "Esquente a panela primeiro.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shower",
+"word": "shower",
+"translation": "chuveiro; banho",
+"pron": "SHÁU-er",
+"example": "I take a shower every morning.",
+"exampleTranslation": "Eu tomo banho toda manhã.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "bathtub",
+"word": "bathtub",
+"translation": "banheira",
+"pron": "BÉTH-tâb",
+"example": "The baby loves the bathtub.",
+"exampleTranslation": "O bebê adora a banheira.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "toilet",
+"word": "toilet",
+"translation": "vaso sanitário",
+"pron": "TÓI-let",
+"example": "Don't forget to flush the toilet.",
+"exampleTranslation": "Não esqueça de dar descarga.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "toilet-paper",
+"word": "toilet paper",
+"translation": "papel higiênico",
+"pron": "TÓI-let pei-per",
+"example": "We need toilet paper.",
+"exampleTranslation": "Precisamos de papel higiênico.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "soap",
+"word": "soap",
+"translation": "sabonete, sabão",
+"pron": "SÔUP",
+"example": "Wash your hands with soap.",
+"exampleTranslation": "Lave as mãos com sabonete.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "shampoo",
+"word": "shampoo",
+"translation": "xampu",
+"pron": "shém-PUU",
+"example": "This shampoo smells good.",
+"exampleTranslation": "Este xampu é cheiroso.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "toothbrush",
+"word": "toothbrush",
+"translation": "escova de dentes",
+"pron": "TUUTH-brâsh",
+"example": "Where is my toothbrush?",
+"exampleTranslation": "Cadê minha escova de dentes?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "toothpaste",
+"word": "toothpaste",
+"translation": "pasta de dente",
+"pron": "TUUTH-peist",
+"example": "We're out of toothpaste.",
+"exampleTranslation": "A pasta de dente acabou.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "trash",
+"word": "trash",
+"translation": "lixo",
+"pron": "TRÉSH",
+"example": "Take out the trash, please.",
+"exampleTranslation": "Leve o lixo para fora, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "broom",
+"word": "broom",
+"translation": "vassoura",
+"pron": "BRUUM",
+"example": "Where is the broom?",
+"exampleTranslation": "Onde está a vassoura?",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "clean-the-house",
+"word": "clean the house",
+"translation": "limpar a casa",
+"pron": "kliin dhe RAUS",
+"example": "We clean the house on Saturdays.",
+"exampleTranslation": "Nós limpamos a casa aos sábados.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "do-the-dishes",
+"word": "do the dishes",
+"translation": "lavar a louça",
+"pron": "du dhe DI-shiz",
+"example": "It's your turn to do the dishes.",
+"exampleTranslation": "É a sua vez de lavar a louça.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "do-the-laundry",
+"word": "do the laundry",
+"translation": "lavar a roupa",
+"pron": "du dhe LÓN-dri",
+"example": "I do the laundry on Mondays.",
+"exampleTranslation": "Eu lavo roupa às segundas.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "make-the-bed",
+"word": "make the bed",
+"translation": "arrumar a cama",
+"pron": "meik dhe BÉD",
+"example": "Make your bed before school.",
+"exampleTranslation": "Arrume a cama antes da escola.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "cook-dinner",
+"word": "cook dinner",
+"translation": "fazer o jantar",
+"pron": "kuk DI-ner",
+"example": "Who is cooking dinner tonight?",
+"exampleTranslation": "Quem vai fazer o jantar hoje?",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "neighbor",
+"word": "neighbor",
+"translation": "vizinho",
+"pron": "NÊI-bor",
+"example": "Our neighbor is very friendly.",
+"exampleTranslation": "Nosso vizinho é muito simpático.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "rent",
+"word": "rent",
+"translation": "aluguel; alugar",
+"pron": "RÉNT",
+"example": "The rent is due on the fifth.",
+"exampleTranslation": "O aluguel vence no dia cinco.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "move",
+"word": "move",
+"translation": "mudar(-se)",
+"pron": "MUUV",
+"example": "We are moving next month.",
+"exampleTranslation": "Vamos nos mudar no mês que vem.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "furniture",
+"word": "furniture",
+"translation": "móveis",
+"pron": "FÂR-ni-tcher",
+"example": "We bought new furniture.",
+"exampleTranslation": "Compramos móveis novos.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "key-chain",
+"word": "key chain",
+"translation": "chaveiro",
+"pron": "KII tchein",
+"example": "My keys are on the key chain.",
+"exampleTranslation": "Minhas chaves estão no chaveiro.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "doorbell",
+"word": "doorbell",
+"translation": "campainha",
+"pron": "DÓR-bél",
+"example": "Someone is ringing the doorbell.",
+"exampleTranslation": "Alguém está tocando a campainha.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "fan",
+"word": "fan",
+"translation": "ventilador",
+"pron": "FÉN",
+"example": "Turn on the fan, it's hot.",
+"exampleTranslation": "Liga o ventilador, está calor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "pillowcase",
+"word": "pillowcase",
+"translation": "fronha",
+"pron": "PI-lou-keis",
+"example": "Change the pillowcases.",
+"exampleTranslation": "Troque as fronhas.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "iron",
+"word": "iron",
+"translation": "ferro de passar",
+"pron": "AI-ern",
+"example": "I need to iron my shirt.",
+"exampleTranslation": "Eu preciso passar minha camisa.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "vacuum-cleaner",
+"word": "vacuum cleaner",
+"translation": "aspirador de pó",
+"pron": "VÉ-kium klii-ner",
+"example": "The vacuum cleaner is very loud.",
+"exampleTranslation": "O aspirador é muito barulhento.",
+"difficulty": 3,
+"level": "elementary"
+},
+{
+"slug": "plant",
+"word": "plant",
+"translation": "planta",
+"pron": "PLÉNT",
+"example": "Water the plants, please.",
+"exampleTranslation": "Regue as plantas, por favor.",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "cozy",
+"word": "cozy",
+"translation": "aconchegante",
+"pron": "KÔU-zi",
+"example": "Your house is so cozy.",
+"exampleTranslation": "Sua casa é tão aconchegante.",
+"difficulty": 2,
+"level": "basic"
+},
+{
+"slug": "messy",
+"word": "messy",
+"translation": "bagunçado",
+"pron": "MÉ-si",
+"example": "Your room is very messy!",
+"exampleTranslation": "Seu quarto está muito bagunçado!",
+"difficulty": 1,
+"level": "beginner"
+},
+{
+"slug": "tidy",
+"word": "tidy",
+"translation": "arrumado",
+"pron": "TAI-di",
+"example": "Keep your room tidy.",
+"exampleTranslation": "Mantenha seu quarto arrumado.",
+"difficulty": 2,
+"level": "basic"
+}
+]
