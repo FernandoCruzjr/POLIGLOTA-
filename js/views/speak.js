@@ -7,6 +7,8 @@ import { speak, stopSpeech, canSpeak } from '../speech.js';
 import { shuffle } from '../quiz-engine.js';
 import { kikoHtml } from '../kiko.js';
 import '../game.js';
+import { wordify } from '../wordtip.js';
+import { favBtn, favList } from '../favorites.js';
 
 // 500 frases de turismo em data/phrases.json (gerado por tools/make_phrases.py).
 let bank = null;
@@ -78,6 +80,10 @@ async function renderIndex(root) {
     </section>
     <div class="sp-grid">
       ${sits.map((x) => { const d = practiced(x.phrases); return `<a class="card sp-sit ${x.id === 'escudo' ? 'shield' : ''}" href="#/fala/${x.id}"><span class="quick-emoji">${x.emoji}</span><strong>${esc(x.name)}</strong><span class="muted small">${d}/${x.phrases.length} treinadas</span>${progressBar(d / x.phrases.length, x.name)}</a>`; }).join('')}
+      <a class="card sp-sit fav" href="#/favoritas"><span class="quick-emoji">⭐</span><strong>Minhas favoritas</strong><span class="muted small">${favList().length} ${favList().length === 1 ? 'frase' : 'frases'}</span></a>
+      <a class="card sp-sit pat" href="#/frases/where-is"><span class="quick-emoji">📍</span><strong>Where is the…?</strong><span class="muted small">Troque o final da frase</span></a>
+      <a class="card sp-sit pat" href="#/frases/can-i-have"><span class="quick-emoji">🙋</span><strong>Can I have…?</strong><span class="muted small">Troque o final da frase</span></a>
+      <a class="card sp-sit pat" href="#/frases"><span class="quick-emoji">🧩</span><strong>Frases que se encaixam</strong><span class="muted small">8 começos para trocar o final</span></a>
       ${hard ? `<a class="card sp-sit hard" href="#/fala/dificeis/treino"><span class="quick-emoji">😅</span><strong>Minhas difíceis</strong><span class="muted small">${hard} ${hard === 1 ? 'frase' : 'frases'} para repetir</span></a>` : ''}
     </div>`;
   return null;
@@ -107,7 +113,8 @@ async function renderSituation(root, sitId) {
         <div class="row-between"><h2>${esc(sub)}</h2><a class="btn btn-soft" href="#/fala/${sit.id}/s${k}">Treinar</a></div>
         <ul class="sp-list">${list.map((x) => `<li>
           <button type="button" class="icon-btn speak-btn small-btn" data-say="${esc(x.en)}" aria-label="Ouvir">${icon('speaker', 18)}</button>
-          <span><strong lang="en">${esc(x.en)}</strong>${x.hear ? ' <span class="chip sp-hear">👂 você vai ouvir</span>' : ''}<br><span class="muted">${esc(x.pt)}</span></span>
+          <span><strong lang="en">${wordify(x.en)}</strong>${x.hear ? ' <span class="chip sp-hear">👂 você vai ouvir</span>' : ''}${x.pron ? `<br><span class="sp-pron-s">🗣️ ${esc(x.pron)}</span>` : ''}<br><span class="muted">${esc(x.pt)}</span></span>
+          ${favBtn({ id: x.id, en: x.en, pt: x.pt, pron: x.pron || '', src: sit.name })}
           <span class="sp-mark" aria-label="${pr[x.id] ? (pr[x.id].hard ? 'difícil' : 'treinada') : 'nova'}">${pr[x.id] ? (pr[x.id].hard ? '😅' : '✅') : ''}</span>
         </li>`).join('')}</ul>
       </section>`;
@@ -125,13 +132,14 @@ async function renderSession(root, sitId, mode) {
   let sit = sits.find((x) => x.id === sitId);
   let pool;
   if (sitId === 'dificeis') { sit = { id: 'dificeis', name: 'Minhas difíceis', emoji: '😅' }; pool = hardList(sits); }
+  else if (sitId === 'favoritas') { sit = { id: 'favoritas', name: 'Minhas favoritas', emoji: '⭐' }; pool = favList(); }
   else if (!sit) { location.hash = '#/fala'; return null; }
   else if (mode && mode.startsWith('s')) {
     const sub = [...new Set(sit.phrases.map((x) => x.sub))][Number(mode.slice(1))];
     pool = sit.phrases.filter((x) => x.sub === sub);
   } else pool = sit.phrases;
   const items = pickSession(pool || [], 10);
-  const back = sitId === 'dificeis' ? '#/fala' : `#/fala/${sitId}`;
+  const back = sitId === 'dificeis' ? '#/fala' : sitId === 'favoritas' ? '#/favoritas' : `#/fala/${sitId}`;
   if (!items.length) { toast('Nenhuma frase aqui ainda.'); location.hash = back; return null; }
   const startedAt = Date.now();
   let i = 0;
@@ -161,8 +169,10 @@ async function renderSession(root, sitId, mode) {
         </div>
         <section class="card sp-phrase" aria-live="polite">
           ${it.hear ? '<span class="chip sp-hear">👂 Frase que você vai ouvir: entenda e responda</span>' : it.sub ? `<span class="chip">${esc(it.sub)}</span>` : ''}
-          <p class="sp-en" lang="en">${esc(it.en)}</p>
+          <p class="sp-en" lang="en">${wordify(it.en)}</p>
+          ${it.pron ? `<p class="sp-pron"><span>Leia assim:</span> ${esc(it.pron)}</p>` : ''}
           <p class="sp-pt">${esc(it.pt)}</p>
+          <div class="sp-fav">${favBtn({ id: it.id, en: it.en, pt: it.pt, pron: it.pron || '', src: sit.name })}</div>
         </section>
         <div class="sp-buttons">
           <button type="button" class="btn btn-soft btn-lg" data-listen>🔊 Ouvir</button>
@@ -244,7 +254,7 @@ async function renderSession(root, sitId, mode) {
         <h1>Você falou inglês hoje!</h1>
         <p class="muted">${items.length} frases em voz alta. Cada repetição deixa a boca mais acostumada, e a vergonha menor.</p>
         <div class="reward-row"><div class="card reward"><span class="stat-icon bolt">${icon('bolt')}</span><strong>+${xp} XP</strong></div>${coinReward(coins)}</div>
-        <ul class="kd-learned">${items.map((it) => `<li><span><strong lang="en">${esc(it.en)}</strong><br><span class="muted">${esc(it.pt)}</span></span></li>`).join('')}</ul>
+        <ul class="kd-learned">${items.map((it) => `<li><span><strong lang="en">${wordify(it.en)}</strong><br><span class="muted">${esc(it.pt)}</span></span>${favBtn({ id: it.id, en: it.en, pt: it.pt, pron: it.pron || '', src: sit.name })}</li>`).join('')}</ul>
         <p class="muted small">${easy >= items.length - 1 ? 'Achou fácil? Tente sem olhar a frase na próxima!' : 'Repita este treino amanhã: frases difíceis ficam fáceis com repetição.'}</p>
         <div class="stack">
           <a class="btn btn-primary btn-lg" href="#/fala/${sit.id}/${mode || 'treino'}?${Date.now()}">Treinar mais</a>

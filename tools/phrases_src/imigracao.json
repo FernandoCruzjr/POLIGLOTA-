@@ -7,309 +7,359 @@
    "en": "Here are my documents.",
    "pt": "Aqui estão meus documentos.",
    "sub": "Documentos",
-   "level": 1
+   "level": 1,
+   "pron": "ríir ár mai DÓ-kiu-mânts."
   },
   {
    "en": "Passport, please.",
    "pt": "Passaporte, por favor.",
    "sub": "Documentos",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "PÉS-port, pliiz."
   },
   {
    "en": "Do I need a visa?",
    "pt": "Eu preciso de visto?",
    "sub": "Documentos",
-   "level": 1
+   "level": 1,
+   "pron": "du ai NIID â VII-zâ?"
   },
   {
    "en": "Here is my visa.",
    "pt": "Aqui está meu visto.",
    "sub": "Documentos",
-   "level": 1
+   "level": 1,
+   "pron": "ríir iz mai VII-zâ."
   },
   {
    "en": "Which line is for foreign visitors?",
    "pt": "Qual é a fila para visitantes estrangeiros?",
    "sub": "Documentos",
-   "level": 2
+   "level": 2,
+   "pron": "uítch LÁIN iz for FÓ-rân VÍ-zi-târz?"
   },
   {
    "en": "Do I need to fill out this form?",
    "pt": "Preciso preencher este formulário?",
    "sub": "Documentos",
-   "level": 1
+   "level": 1,
+   "pron": "du ai niid tu fil ÁUT dhis FÓRM?"
   },
   {
    "en": "Can I borrow a pen, please?",
    "pt": "Pode me emprestar uma caneta, por favor?",
    "sub": "Documentos",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai BÓ-rou â PÉN, pliiz?"
   },
   {
    "en": "Where do I write my address here?",
    "pt": "Onde eu coloco meu endereço aqui?",
    "sub": "Documentos",
-   "level": 2
+   "level": 2,
+   "pron": "uér du ai RÁIT mai É-dres ríir?"
   },
   {
    "en": "Can you help me fill out this form?",
    "pt": "Você pode me ajudar a preencher este formulário?",
    "sub": "Documentos",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu RÉLP mi fil ÁUT dhis FÓRM?"
   },
   {
    "en": "What is the purpose of your visit?",
    "pt": "Qual é o motivo da sua viagem?",
    "sub": "Motivo da viagem",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "uât iz dhâ PÂR-pâs âv iór VÍ-zit?"
   },
   {
    "en": "I'm on vacation with my family.",
    "pt": "Estou de férias com a minha família.",
    "sub": "Motivo da viagem",
-   "level": 1
+   "level": 1,
+   "pron": "aim ón vêi-KÊI-xân uídh mai FÉ-mi-li."
   },
   {
    "en": "I'm here for tourism.",
    "pt": "Estou aqui a turismo.",
    "sub": "Motivo da viagem",
-   "level": 1
+   "level": 1,
+   "pron": "aim ríir for TÚ-ri-zâm."
   },
   {
    "en": "I'm here for a business meeting and some sightseeing.",
    "pt": "Estou aqui para uma reunião de negócios e para passear um pouco.",
    "sub": "Motivo da viagem",
-   "level": 3
+   "level": 3,
+   "pron": "aim ríir for â BÍZ-nes MII-tin énd sâm SÁIT-sii-in."
   },
   {
    "en": "I'm visiting friends.",
    "pt": "Estou visitando amigos.",
    "sub": "Motivo da viagem",
-   "level": 1
+   "level": 1,
+   "pron": "aim VÍ-zi-tin FRÉNDZ."
   },
   {
    "en": "I'm visiting my family.",
    "pt": "Estou visitando minha família.",
    "sub": "Motivo da viagem",
-   "level": 1
+   "level": 1,
+   "pron": "aim VÍ-zi-tin mai FÉ-mi-li."
   },
   {
    "en": "I'm here for a conference.",
    "pt": "Estou aqui para uma conferência.",
    "sub": "Motivo da viagem",
-   "level": 2
+   "level": 2,
+   "pron": "aim ríir for â KÓN-fâ-râns."
   },
   {
    "en": "It's my first time in this country.",
    "pt": "É a minha primeira vez neste país.",
    "sub": "Motivo da viagem",
-   "level": 1
+   "level": 1,
+   "pron": "its mai FÂRST TÁIM in dhis KÂN-tri."
   },
   {
    "en": "How long will you be here?",
    "pt": "Quanto tempo você vai ficar aqui?",
    "sub": "Estadia",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "ráu LÓNG uíl iu bi ríir?"
   },
   {
    "en": "I'm staying for ten days.",
    "pt": "Vou ficar dez dias.",
    "sub": "Estadia",
-   "level": 1
+   "level": 1,
+   "pron": "aim STÊI-in for TÉN DÊIZ."
   },
   {
    "en": "Just one week.",
    "pt": "Só uma semana.",
    "sub": "Estadia",
-   "level": 1
+   "level": 1,
+   "pron": "djâst UÂN UIIK."
   },
   {
    "en": "Where are you staying?",
    "pt": "Onde você vai se hospedar?",
    "sub": "Estadia",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uér ár iu STÊI-in?"
   },
   {
    "en": "I'm staying at a hotel near the city center.",
    "pt": "Vou ficar em um hotel perto do centro da cidade.",
    "sub": "Estadia",
-   "level": 3
+   "level": 3,
+   "pron": "aim STÊI-in ét â rou-TÉL níir dhâ SÍ-di SÉN-târ."
   },
   {
    "en": "I'm staying with a friend.",
    "pt": "Vou ficar na casa de um amigo.",
    "sub": "Estadia",
-   "level": 2
+   "level": 2,
+   "pron": "aim STÊI-in uídh â FRÉND."
   },
   {
    "en": "Here is my hotel reservation.",
    "pt": "Aqui está a reserva do meu hotel.",
    "sub": "Estadia",
-   "level": 2
+   "level": 2,
+   "pron": "ríir iz mai rou-TÉL ré-zâr-VÊI-xân."
   },
   {
    "en": "Here is the address of the place where I'm staying.",
    "pt": "Aqui está o endereço do lugar onde vou ficar.",
    "sub": "Estadia",
-   "level": 3
+   "level": 3,
+   "pron": "ríir iz dhi É-dres âv dhâ PLÊIS uér aim STÊI-in."
   },
   {
    "en": "Do you have a return ticket?",
    "pt": "Você tem passagem de volta?",
    "sub": "Estadia",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "du iu rév â ri-TÂRN TÍ-kit?"
   },
   {
    "en": "Yes, here is my return ticket.",
    "pt": "Sim, aqui está minha passagem de volta.",
    "sub": "Estadia",
-   "level": 2
+   "level": 2,
+   "pron": "iés, ríir iz mai ri-TÂRN TÍ-kit."
   },
   {
    "en": "My return flight is on the fifteenth of this month.",
    "pt": "Meu voo de volta é no dia quinze deste mês.",
    "sub": "Estadia",
-   "level": 3
+   "level": 3,
+   "pron": "mai ri-TÂRN FLÁIT iz ón dhâ fif-TIINTH âv dhis MÂNTH."
   },
   {
    "en": "I'm going to visit three cities during my trip.",
    "pt": "Vou visitar três cidades durante a viagem.",
    "sub": "Estadia",
-   "level": 3
+   "level": 3,
+   "pron": "aim GÔU-in tu VÍ-zit THRII SÍ-diz DÚ-rin mai TRÍP."
   },
   {
    "en": "After this, I'm going to another city by train.",
    "pt": "Depois daqui, vou para outra cidade de trem.",
    "sub": "Estadia",
-   "level": 3
+   "level": 3,
+   "pron": "ÉF-târ DHIS, aim GÔU-in tu â-NÂ-dhâr SÍ-di bai TRÊIN."
   },
   {
    "en": "What do you do for a living?",
    "pt": "Qual é a sua profissão?",
    "sub": "Perguntas pessoais",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "uât du iu DU for â LÍ-vin?"
   },
   {
    "en": "I'm a teacher in Brazil.",
    "pt": "Sou professor(a) no Brasil.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "aim â TII-tchâr in brâ-ZÍL."
   },
   {
    "en": "I work in an office.",
    "pt": "Eu trabalho em um escritório.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "ai UÂRK in ân Ó-fis."
   },
   {
    "en": "I'm retired.",
    "pt": "Sou aposentado(a).",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "aim ri-TÁIRD."
   },
   {
    "en": "I'm a student.",
    "pt": "Sou estudante.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "aim â STUU-dânt."
   },
   {
    "en": "My family is traveling with me.",
    "pt": "Minha família está viajando comigo.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "mai FÉ-mi-li iz TRÉ-vâ-lin uídh mi."
   },
   {
    "en": "These are my children.",
    "pt": "Estes são meus filhos.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "dhiiz ár mai TCHÍL-drân."
   },
   {
    "en": "We are traveling together.",
    "pt": "Estamos viajando juntos.",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "uí ár TRÉ-vâ-lin tu-GUÉ-dhâr."
   },
   {
    "en": "I'm traveling alone.",
    "pt": "Estou viajando sozinho(a).",
    "sub": "Perguntas pessoais",
-   "level": 1
+   "level": 1,
+   "pron": "aim TRÉ-vâ-lin â-LÔUN."
   },
   {
    "en": "I have enough money and a credit card for the trip.",
    "pt": "Tenho dinheiro suficiente e um cartão de crédito para a viagem.",
    "sub": "Perguntas pessoais",
-   "level": 3
+   "level": 3,
+   "pron": "ai rév i-NÂF MÂ-ni énd â KRÉ-dit KÁRD for dhâ TRÍP."
   },
   {
    "en": "Do you have anything to declare?",
    "pt": "Você tem algo a declarar?",
    "sub": "Alfândega",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "du iu rév É-ni-thin tu di-KLÉR?"
   },
   {
    "en": "No, I have nothing to declare.",
    "pt": "Não, não tenho nada a declarar.",
    "sub": "Alfândega",
-   "level": 1
+   "level": 1,
+   "pron": "nou, ai rév NÂ-thin tu di-KLÉR."
   },
   {
    "en": "I have some gifts for my family, nothing expensive.",
    "pt": "Tenho alguns presentes para a minha família, nada caro.",
    "sub": "Alfândega",
-   "level": 3
+   "level": 3,
+   "pron": "ai rév sâm GUÍFTS for mai FÉ-mi-li, NÂ-thin iks-PÉN-siv."
   },
   {
    "en": "Do I need to declare this?",
    "pt": "Preciso declarar isto?",
    "sub": "Alfândega",
-   "level": 1
+   "level": 1,
+   "pron": "du ai niid tu di-KLÉR DHIS?"
   },
   {
    "en": "These are my personal things.",
    "pt": "Estas são minhas coisas pessoais.",
    "sub": "Alfândega",
-   "level": 2
+   "level": 2,
+   "pron": "dhiiz ár mai PÂR-sâ-nâl THÍNGZ."
   },
   {
    "en": "I have some chocolate and cookies from Brazil.",
    "pt": "Tenho chocolate e biscoitos do Brasil.",
    "sub": "Alfândega",
-   "level": 2
+   "level": 2,
+   "pron": "ai rév sâm TCHÓ-klât énd KÚ-kiz frâm brâ-ZÍL."
   },
   {
    "en": "I'm not carrying any fruit or meat.",
    "pt": "Não estou trazendo nenhuma fruta nem carne.",
    "sub": "Alfândega",
-   "level": 3
+   "level": 3,
+   "pron": "aim nót KÉ-ri-in É-ni FRUUT or MIIT."
   },
   {
    "en": "Please open your bag.",
    "pt": "Abra a sua mala, por favor.",
    "sub": "Alfândega",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz ÔU-pân iór BÉG."
   },
   {
    "en": "Sorry, could you repeat that, please?",
    "pt": "Desculpe, pode repetir, por favor?",
    "sub": "Comunicação",
-   "level": 1
+   "level": 1,
+   "pron": "SÓ-ri, kud iu ri-PIIT dhét, pliiz?"
   },
   {
    "en": "Sorry, I don't understand. My English is basic.",
    "pt": "Desculpe, não entendi. Meu inglês é básico.",
    "sub": "Comunicação",
-   "level": 3
+   "level": 3,
+   "pron": "SÓ-ri, ai dount ân-dâr-STÉND. mai ÍN-glix iz BÊI-sik."
   }
  ]
 }

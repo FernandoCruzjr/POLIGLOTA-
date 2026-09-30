@@ -28,6 +28,12 @@ export default `
 .kd-card.bounce .kd-emoji, .kd-card.bounce .kd-swatch, .kd-card.bounce .kd-num { animation: kdBounce .5s cubic-bezier(.2, 1.6, .4, 1); }
 @keyframes kdBounce { 0% { transform: scale(.7); } 60% { transform: scale(1.2) rotate(-6deg); } 100% { transform: scale(1); } }
 .kd-emoji { font-size: 3.6rem; line-height: 1.1; }
+.kd-label { display: grid; justify-items: center; gap: 2px; }
+.kd-label b { font-size: 1.9rem; line-height: 1.1; color: #3949AB; letter-spacing: .02em; }
+.kd-label i { font-style: normal; font-size: 1.4rem; }
+.kd-mem .kd-label b { font-size: 1.3rem; }
+.kd-learned .kd-label b { font-size: 1rem; }
+.kd-learned .kd-label i { display: none; }
 .kd-swatch { width: 70px; height: 70px; border-radius: 50%; box-shadow: inset 0 -6px 0 rgba(0, 0, 0, .15), 0 3px 6px rgba(0, 0, 0, .15); }
 .kd-swatch.light { border: 2px solid #ddd; }
 .kd-num { display: grid; justify-items: center; gap: 4px; }

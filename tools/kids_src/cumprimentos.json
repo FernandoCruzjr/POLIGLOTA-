@@ -1,0 +1,277 @@
+{
+ "items": [
+  {
+   "emoji": "😃",
+   "en": "hello",
+   "pt": "olá",
+   "pron": "re-LÔU",
+   "say": "Hello, my friend!",
+   "sayPt": "Olá, meu amigo!"
+  },
+  {
+   "emoji": "🙋",
+   "en": "hi",
+   "pt": "oi",
+   "pron": "RÁI",
+   "say": "Hi, Mom! I am home.",
+   "sayPt": "Oi, mãe! Cheguei em casa."
+  },
+  {
+   "emoji": "🌅",
+   "en": "good morning",
+   "pt": "bom dia",
+   "pron": "gud MÓR-nin",
+   "say": "Good morning, class!",
+   "sayPt": "Bom dia, turma!"
+  },
+  {
+   "emoji": "🌤️",
+   "en": "good afternoon",
+   "pt": "boa tarde",
+   "pron": "gud áf-ter-NUN",
+   "say": "Good afternoon, teacher!",
+   "sayPt": "Boa tarde, professora!"
+  },
+  {
+   "emoji": "🌆",
+   "en": "good evening",
+   "pt": "boa noite (chegando)",
+   "pron": "gud ÍV-nin",
+   "say": "Good evening, everyone!",
+   "sayPt": "Boa noite, pessoal!"
+  },
+  {
+   "emoji": "🌙",
+   "en": "good night",
+   "pt": "boa noite (dormir)",
+   "pron": "gud NÁIT",
+   "say": "Good night, sweetie!",
+   "sayPt": "Boa noite, querida!"
+  },
+  {
+   "emoji": "👋",
+   "en": "goodbye",
+   "pt": "adeus / tchau",
+   "pron": "gud-BÁI",
+   "say": "Goodbye, see you soon!",
+   "sayPt": "Tchau, até logo!"
+  },
+  {
+   "emoji": "👋",
+   "label": "TCHAU",
+   "en": "bye",
+   "pt": "tchau",
+   "pron": "BÁI",
+   "say": "Bye, Dad! See you!",
+   "sayPt": "Tchau, pai! Até mais!"
+  },
+  {
+   "emoji": "🔜",
+   "en": "see you later",
+   "pt": "até mais tarde",
+   "pron": "SÍ iu LÊI-ter",
+   "say": "See you later, friends!",
+   "sayPt": "Até mais tarde, amigos!"
+  },
+  {
+   "emoji": "📅",
+   "en": "see you tomorrow",
+   "pt": "até amanhã",
+   "pron": "SÍ iu tu-MÓ-rou",
+   "say": "See you tomorrow at school.",
+   "sayPt": "Até amanhã na escola."
+  },
+  {
+   "emoji": "😊",
+   "en": "How are you?",
+   "pt": "Como vai você?",
+   "pron": "RÁU ár iu",
+   "say": "Hi, how are you?",
+   "sayPt": "Oi, como vai você?"
+  },
+  {
+   "emoji": "👍",
+   "en": "I'm fine",
+   "pt": "estou bem",
+   "pron": "áim FÁIN",
+   "say": "I'm fine, thank you.",
+   "sayPt": "Estou bem, obrigado."
+  },
+  {
+   "emoji": "🤝",
+   "en": "nice to meet you",
+   "pt": "prazer em conhecer",
+   "pron": "NÁIS tu mít iu",
+   "say": "Nice to meet you, Anna!",
+   "sayPt": "Prazer em te conhecer, Anna!"
+  },
+  {
+   "emoji": "🙏",
+   "en": "please",
+   "pt": "por favor",
+   "pron": "PLÍZ",
+   "say": "Can I have water, please?",
+   "sayPt": "Pode me dar água, por favor?"
+  },
+  {
+   "emoji": "💐",
+   "en": "thank you",
+   "pt": "obrigado",
+   "pron": "THÉNK iu",
+   "say": "Thank you for the gift!",
+   "sayPt": "Obrigado pelo presente!"
+  },
+  {
+   "emoji": "😄",
+   "en": "thanks",
+   "pt": "valeu / obrigado",
+   "pron": "THÉNKS",
+   "say": "Thanks a lot!",
+   "sayPt": "Muito obrigado!"
+  },
+  {
+   "emoji": "😌",
+   "en": "you're welcome",
+   "pt": "de nada",
+   "pron": "iór UÉL-kam",
+   "say": "You're welcome, my friend.",
+   "sayPt": "De nada, meu amigo."
+  },
+  {
+   "emoji": "🏠",
+   "en": "welcome",
+   "pt": "bem-vindo",
+   "pron": "UÉL-kam",
+   "say": "Welcome to my house!",
+   "sayPt": "Bem-vindo à minha casa!"
+  },
+  {
+   "emoji": "☝️",
+   "en": "excuse me",
+   "pt": "com licença",
+   "pron": "eks-KIÚZ mi",
+   "say": "Excuse me, where is the bathroom?",
+   "sayPt": "Com licença, onde fica o banheiro?"
+  },
+  {
+   "emoji": "😔",
+   "en": "sorry",
+   "pt": "desculpe",
+   "pron": "SÓ-ri",
+   "say": "Sorry, I'm late.",
+   "sayPt": "Desculpe, estou atrasado."
+  },
+  {
+   "emoji": "👂",
+   "en": "pardon?",
+   "pt": "como? / pode repetir?",
+   "pron": "PÁR-don",
+   "say": "Pardon? Say it again.",
+   "sayPt": "Como? Diga de novo."
+  },
+  {
+   "emoji": "🥂",
+   "en": "cheers",
+   "pt": "saúde!",
+   "pron": "TCHÍRZ",
+   "say": "Cheers to our family!",
+   "sayPt": "Saúde à nossa família!"
+  },
+  {
+   "emoji": "🎂",
+   "en": "happy birthday",
+   "pt": "feliz aniversário",
+   "pron": "RÉ-pi BÊRTH-dei",
+   "say": "Happy birthday to you!",
+   "sayPt": "Feliz aniversário para você!"
+  },
+  {
+   "emoji": "🎉",
+   "en": "congratulations",
+   "pt": "parabéns",
+   "pron": "kon-gré-tchu-LÊI-shans",
+   "say": "Congratulations on your test!",
+   "sayPt": "Parabéns pela prova!"
+  },
+  {
+   "emoji": "🌻",
+   "en": "have a nice day",
+   "pt": "tenha um bom dia",
+   "pron": "RÉV a náis DÊI",
+   "say": "Have a nice day, sir!",
+   "sayPt": "Tenha um bom dia, senhor!"
+  },
+  {
+   "emoji": "💚",
+   "en": "take care",
+   "pt": "se cuida",
+   "pron": "têik KÉR",
+   "say": "Take care, my love.",
+   "sayPt": "Se cuida, meu amor."
+  },
+  {
+   "emoji": "🍀",
+   "en": "good luck",
+   "pt": "boa sorte",
+   "pron": "gud LÂK",
+   "say": "Good luck on your test!",
+   "sayPt": "Boa sorte na prova!"
+  },
+  {
+   "emoji": "📛",
+   "en": "What's your name?",
+   "pt": "Qual é o seu nome?",
+   "pron": "uóts iór NÊIM",
+   "say": "Hi! What's your name?",
+   "sayPt": "Oi! Qual é o seu nome?"
+  },
+  {
+   "emoji": "🏷️",
+   "en": "My name is…",
+   "pt": "Meu nome é…",
+   "pron": "mái NÊIM iz",
+   "say": "My name is Pedro.",
+   "sayPt": "Meu nome é Pedro."
+  },
+  {
+   "emoji": "🌎",
+   "en": "Where are you from?",
+   "pt": "De onde você é?",
+   "pron": "UÉR ár iu frâm",
+   "say": "Where are you from, Tom?",
+   "sayPt": "De onde você é, Tom?"
+  },
+  {
+   "emoji": "🎆",
+   "en": "Happy New Year",
+   "pt": "Feliz Ano-Novo",
+   "pron": "RÉ-pi nu IÍR",
+   "say": "Happy New Year, Grandma!",
+   "sayPt": "Feliz Ano-Novo, vovó!"
+  },
+  {
+   "emoji": "🎄",
+   "en": "Merry Christmas",
+   "pt": "Feliz Natal",
+   "pron": "MÉ-ri KRÍS-mas",
+   "say": "Merry Christmas to you!",
+   "sayPt": "Feliz Natal para você!"
+  },
+  {
+   "emoji": "🎈",
+   "en": "have fun",
+   "pt": "divirta-se",
+   "pron": "RÉV FÂN",
+   "say": "Have fun at the party!",
+   "sayPt": "Divirta-se na festa!"
+  },
+  {
+   "emoji": "⭐",
+   "en": "good job",
+   "pt": "muito bem",
+   "pron": "gud DJÓB",
+   "say": "Good job, kids!",
+   "sayPt": "Muito bem, crianças!"
+  }
+ ]
+}

@@ -7,306 +7,356 @@
    "en": "Two tickets, please.",
    "pt": "Dois ingressos, por favor.",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "TU TÍ-kits, pliiz."
   },
   {
    "en": "How much is a ticket?",
    "pt": "Quanto custa o ingresso?",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "ráu mâtch iz â TÍ-kit?"
   },
   {
    "en": "Is there a discount for kids?",
    "pt": "Tem desconto para crianças?",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â DÍS-káunt for KÍDS?"
   },
   {
    "en": "Is there a senior discount?",
    "pt": "Tem desconto para idosos?",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â SÍ-nior DÍS-káunt?"
   },
   {
    "en": "Is there a student discount?",
    "pt": "Tem desconto para estudantes?",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â STU-dent DÍS-káunt?"
   },
   {
    "en": "Can I buy tickets online?",
    "pt": "Posso comprar ingressos pela internet?",
    "sub": "Ingressos",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai bai TÍ-kits ón-LÁIN?"
   },
   {
    "en": "Is entrance free?",
    "pt": "A entrada é grátis?",
    "sub": "Ingressos",
-   "level": 1
+   "level": 1,
+   "pron": "iz ÉN-trâns FRÍ?"
   },
   {
    "en": "Do you have a family ticket?",
    "pt": "Vocês têm ingresso família?",
    "sub": "Ingressos",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév â FÉ-mi-li TÍ-kit?"
   },
   {
    "en": "One adult and two children, please.",
    "pt": "Um adulto e duas crianças, por favor.",
    "sub": "Ingressos",
-   "level": 2
+   "level": 2,
+   "pron": "uân É-dâlt énd tu TCHÍL-dren, pliiz."
   },
   {
    "en": "Does this ticket include the exhibition?",
    "pt": "Este ingresso inclui a exposição?",
    "sub": "Ingressos",
-   "level": 2
+   "level": 2,
+   "pron": "dâz dhis TÍ-kit in-KLÚD dhi ék-si-BÍ-xân?"
   },
   {
    "en": "Can I use this ticket tomorrow?",
    "pt": "Posso usar este ingresso amanhã?",
    "sub": "Ingressos",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai iuz dhis TÍ-kit tu-MÓ-rôu?"
   },
   {
    "en": "Do you have any tickets left for today?",
    "pt": "Ainda tem ingresso para hoje?",
    "sub": "Ingressos",
-   "level": 3
+   "level": 3,
+   "pron": "du iu rév É-ni TÍ-kits LÉFT for tu-DÊI?"
   },
   {
    "en": "Can I see your ticket, please?",
    "pt": "Posso ver seu ingresso, por favor?",
    "sub": "Ingressos",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "kén ai SÍ iór TÍ-kit, pliiz?"
   },
   {
    "en": "It's sold out.",
    "pt": "Está esgotado.",
    "sub": "Ingressos",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "its SÔULD áut."
   },
   {
    "en": "What time does it open?",
    "pt": "Que horas abre?",
    "sub": "Horários",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM dâz it ÔU-pen?"
   },
   {
    "en": "What time does it close?",
    "pt": "Que horas fecha?",
    "sub": "Horários",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM dâz it KLÔUZ?"
   },
   {
    "en": "Is it open on Sundays?",
    "pt": "Abre aos domingos?",
    "sub": "Horários",
-   "level": 1
+   "level": 1,
+   "pron": "iz it ÔU-pen ón SÂN-dêiz?"
   },
   {
    "en": "How long is the visit?",
    "pt": "Quanto tempo dura a visita?",
    "sub": "Horários",
-   "level": 2
+   "level": 2,
+   "pron": "ráu lóng iz dhâ VÍ-zit?"
   },
   {
    "en": "When is the next show?",
    "pt": "Quando é a próxima apresentação?",
    "sub": "Horários",
-   "level": 2
+   "level": 2,
+   "pron": "uén iz dhâ NÉKST XÔU?"
   },
   {
    "en": "What time is the last entry?",
    "pt": "Qual é o horário da última entrada?",
    "sub": "Horários",
-   "level": 2
+   "level": 2,
+   "pron": "uât TÁIM iz dhâ LÉST ÉN-tri?"
   },
   {
    "en": "We close in fifteen minutes.",
    "pt": "Fechamos em quinze minutos.",
    "sub": "Horários",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "uí KLÔUZ in fif-TÍN MÍ-nits."
   },
   {
    "en": "Is there a guided tour?",
    "pt": "Tem visita guiada?",
    "sub": "Tours e guias",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â GÁI-did TUR?"
   },
   {
    "en": "Do you have a tour in Portuguese?",
    "pt": "Vocês têm um passeio em português?",
    "sub": "Tours e guias",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév â TUR in PÓR-tchu-guíz?"
   },
   {
    "en": "What time does the tour start?",
    "pt": "Que horas começa o passeio?",
    "sub": "Tours e guias",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM dâz dhâ TUR STÁRT?"
   },
   {
    "en": "Where does the tour leave from?",
    "pt": "De onde sai o passeio?",
    "sub": "Tours e guias",
-   "level": 2
+   "level": 2,
+   "pron": "uér dâz dhâ TUR LÍV frâm?"
   },
   {
    "en": "Is lunch included in the tour?",
    "pt": "O almoço está incluído no passeio?",
    "sub": "Tours e guias",
-   "level": 2
+   "level": 2,
+   "pron": "iz LÂNTCH in-KLÚ-did in dhâ TUR?"
   },
   {
    "en": "Is there an audio guide?",
    "pt": "Tem audioguia?",
    "sub": "Tours e guias",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér ân Ó-di-ôu GÁID?"
   },
   {
    "en": "What do you recommend we see here?",
    "pt": "O que você recomenda que a gente veja aqui?",
    "sub": "Tours e guias",
-   "level": 3
+   "level": 3,
+   "pron": "uât du iu ré-kâ-MÉND uí SÍ rír?"
   },
   {
    "en": "Can we book a tour for tomorrow morning?",
    "pt": "Podemos reservar um passeio para amanhã de manhã?",
    "sub": "Tours e guias",
-   "level": 3
+   "level": 3,
+   "pron": "kén uí BUK â TUR for tu-MÓ-rôu MÓR-nin?"
   },
   {
    "en": "Please stay with the group.",
    "pt": "Por favor, fiquem com o grupo.",
    "sub": "Tours e guias",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz STÊI uidh dhâ GRUP."
   },
   {
    "en": "Is it suitable for young children?",
    "pt": "É adequado para crianças pequenas?",
    "sub": "Tours e guias",
-   "level": 3
+   "level": 3,
+   "pron": "iz it SU-tâ-bâl for iâng TCHÍL-dren?"
   },
   {
    "en": "Can you take a photo of us?",
    "pt": "Você pode tirar uma foto nossa?",
    "sub": "Fotos",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu têik â FÔU-tôu âv âs?"
   },
   {
    "en": "Can I take pictures here?",
    "pt": "Posso tirar fotos aqui?",
    "sub": "Fotos",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai têik PÍK-tcherz rír?"
   },
   {
    "en": "Just press this button.",
    "pt": "É só apertar este botão.",
    "sub": "Fotos",
-   "level": 1
+   "level": 1,
+   "pron": "djâst PRÉS dhis BÂ-tân."
   },
   {
    "en": "One more, please!",
    "pt": "Mais uma, por favor!",
    "sub": "Fotos",
-   "level": 1
+   "level": 1,
+   "pron": "uân MÓR, pliiz!"
   },
   {
    "en": "Can you get the building in the photo?",
    "pt": "Você consegue pegar o prédio na foto?",
    "sub": "Fotos",
-   "level": 3
+   "level": 3,
+   "pron": "kén iu gét dhâ BÍL-din in dhâ FÔU-tôu?"
   },
   {
    "en": "No flash photography, please.",
    "pt": "Fotos com flash não são permitidas.",
    "sub": "Fotos",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "nôu FLÉX fâ-TÓ-grâ-fi, pliiz."
   },
   {
    "en": "Do you want me to take one of you too?",
    "pt": "Quer que eu tire uma sua também?",
    "sub": "Fotos",
-   "level": 3
+   "level": 3,
+   "pron": "du iu uânt mi tu têik UÂN âv iu TU?"
   },
   {
    "en": "Is this the line for tickets?",
    "pt": "Esta é a fila dos ingressos?",
    "sub": "Filas e parques",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhis dhâ LÁIN for TÍ-kits?"
   },
   {
    "en": "How long is the wait?",
    "pt": "Quanto tempo de espera?",
    "sub": "Filas e parques",
-   "level": 1
+   "level": 1,
+   "pron": "ráu lóng iz dhâ UÊIT?"
   },
   {
    "en": "Where is the entrance?",
    "pt": "Onde fica a entrada?",
    "sub": "Filas e parques",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhi ÉN-trâns?"
   },
   {
    "en": "Is there a fast pass?",
    "pt": "Tem passe para furar fila?",
    "sub": "Filas e parques",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â FÉST pés?"
   },
   {
    "en": "Where can we rent beach chairs?",
    "pt": "Onde podemos alugar cadeiras de praia?",
    "sub": "Filas e parques",
-   "level": 2
+   "level": 2,
+   "pron": "uér kén uí RÉNT BÍTCH tchérz?"
   },
   {
    "en": "Is it safe to swim here?",
    "pt": "É seguro nadar aqui?",
    "sub": "Filas e parques",
-   "level": 2
+   "level": 2,
+   "pron": "iz it SÊIF tu SUÍM rír?"
   },
   {
    "en": "Where is the gift shop?",
    "pt": "Onde fica a loja de lembranças?",
    "sub": "Filas e parques",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz dhâ GUÍFT xóp?"
   },
   {
    "en": "What's the height limit for this ride?",
    "pt": "Qual é a altura mínima para este brinquedo?",
    "sub": "Filas e parques",
-   "level": 3
+   "level": 3,
+   "pron": "uâts dhâ RÁIT LÍ-mit for dhis RÁID?"
   },
   {
    "en": "What's the weather like tomorrow?",
    "pt": "Como vai estar o tempo amanhã?",
    "sub": "Clima do passeio",
-   "level": 2
+   "level": 2,
+   "pron": "uâts dhâ UÉ-dher láik tu-MÓ-rôu?"
   },
   {
    "en": "Is it going to rain today?",
    "pt": "Vai chover hoje?",
    "sub": "Clima do passeio",
-   "level": 2
+   "level": 2,
+   "pron": "iz it GÔU-in tu RÊIN tu-DÊI?"
   },
   {
    "en": "Is the tour canceled if it rains?",
    "pt": "O passeio é cancelado se chover?",
    "sub": "Clima do passeio",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhâ TUR KÉN-sâld if it RÊINZ?"
   },
   {
    "en": "Should we bring a jacket?",
    "pt": "Devemos levar um casaco?",
    "sub": "Clima do passeio",
-   "level": 2
+   "level": 2,
+   "pron": "xud uí BRÍNG â DJÉ-kit?"
   }
  ]
 }

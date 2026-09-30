@@ -9,6 +9,8 @@ import { shuffle } from '../quiz-engine.js';
 import { mapHtml, wireMap, coinChip, openChest, lockedToast } from '../game.js';
 import { kikoHtml } from '../kiko.js';
 import { renderBoss } from './boss.js';
+import { wordify } from '../wordtip.js';
+import { favBtn } from '../favorites.js';
 
 const XP = { chapterFirst: 10, chapterRepeat: 3, perGood: 2 };
 const COINS = { chapterFirst: 10, chapterRepeat: 2, chest: 100 };
@@ -145,8 +147,11 @@ function sceneHtml(scene, big = false) {
   </div>`;
 }
 
+const slowOn = () => store.get().profile.slowTrip === true;
+const ptOn = () => store.get().profile.showPt === true;
+const sayEn = (text) => speak(text, { slow: slowOn() });
 function speakBtn(text, label = 'Ouvir') {
-  return canSpeak() ? `<button type="button" class="icon-btn speak-btn small-btn" data-say="${esc(text)}" aria-label="${label}">${icon('speaker', 18)}</button>` : '';
+  return canSpeak() ? `<button type="button" class="icon-btn speak-btn small-btn" data-say="${esc(text)}" aria-label="${label}">${icon('speaker', 18)}</button><button type="button" class="icon-btn speak-btn small-btn slow-btn" data-say-slow="${esc(text)}" aria-label="Ouvir devagar">🐢</button>` : '';
 }
 
 const strip = (w) => w.replace(/[.,!?]+$/g, '');
@@ -198,7 +203,9 @@ function wireBuild(host, target, onResult) {
 
 function narrationToggle() {
   const on = store.get().profile.narration !== false;
-  return `<button type="button" class="icon-btn narr-toggle" data-narr aria-pressed="${on}" aria-label="${on ? 'Desligar' : 'Ligar'} narração">${on ? '🔊' : '🔇'}</button>`;
+  return `<button type="button" class="icon-btn narr-toggle" data-narr aria-pressed="${on}" aria-label="${on ? 'Desligar' : 'Ligar'} narração">${on ? '🔊' : '🔇'}</button>
+    <button type="button" class="icon-btn narr-toggle ${slowOn() ? 'on' : ''}" data-slowtoggle aria-pressed="${slowOn()}" aria-label="Inglês devagar">🐢</button>
+    <button type="button" class="icon-btn narr-toggle ${ptOn() ? 'on' : ''}" data-pttoggle aria-pressed="${ptOn()}" aria-label="Mostrar sempre a tradução">🇧🇷</button>`;
 }
 
 // ---------- Mundo: escolher o destino ----------
@@ -575,8 +582,8 @@ async function renderChapter(root, tripId, chapterId) {
     el.className = `bubble ${who === 'you' ? 'you' : 'them'}`;
     el.innerHTML = `
       <span class="bubble-name">${esc(fmt(speaker))}</span>
-      <p class="bubble-en" lang="en">${html || esc(fmt(en))} ${speakBtn(fmt(en))}</p>
-      ${pt ? `<details class="bubble-pt"><summary>tradução</summary><p>${esc(fmt(pt))}</p></details>` : ''}`;
+      <p class="bubble-en" lang="en">${html || wordify(fmt(en))} ${speakBtn(fmt(en))}${html ? '' : favBtn({ en: fmt(en), pt: fmt(pt), src: trip.title })}</p>
+      ${pt ? `<details class="bubble-pt" ${ptOn() ? 'open' : ''}><summary>tradução</summary><p>${esc(fmt(pt))}</p></details>` : ''}`;
     return add(el);
   }
 
@@ -643,7 +650,7 @@ async function renderChapter(root, tripId, chapterId) {
           if (!alive) return;
           bubble(n);
           if (n.who === 'you') learn(n.en, n.pt);
-          speak(fmt(n.en));
+          sayEn(fmt(n.en));
           continueDock('', n.next);
         };
         if (n.who === 'them') {
@@ -676,7 +683,7 @@ async function renderChapter(root, tripId, chapterId) {
         el.innerHTML = `
           <p class="tip-title">✏️ No quadro do professor: ${esc(fmt(n.title))}</p>
           <p>${esc(fmt(n.pt))}</p>
-          ${n.examples.length ? `<ul class="examples">${n.examples.map((x) => `<li><span lang="en"><strong>${esc(fmt(x.en))}</strong></span> ${speakBtn(fmt(x.en))}<br><span class="muted">${esc(fmt(x.pt))}</span></li>`).join('')}</ul>` : ''}`;
+          ${n.examples.length ? `<ul class="examples">${n.examples.map((x) => `<li><span lang="en"><strong>${wordify(fmt(x.en))}</strong></span> ${speakBtn(fmt(x.en))}<br><span class="muted">${esc(fmt(x.pt))}</span></li>`).join('')}</ul>` : ''}`;
         add(el);
         if (narrationOn()) speakPt(fmt(n.pt));
         continueDock('', n.next);
@@ -696,7 +703,7 @@ async function renderChapter(root, tripId, chapterId) {
       }
       case 'gap': {
         delete dock.dataset.next;
-        const html = esc(fmt(n.en)).replace('___', '<span class="blank" data-blank>_____</span>');
+        const html = wordify(fmt(n.en)).replace('___', '<span class="blank" data-blank>_____</span>');
         bubble({ ...n, html });
         dock.innerHTML = `
           <p class="dock-prompt">✏️ Complete a frase <span class="muted small">(${esc(fmt(n.pt))})</span></p>
@@ -714,7 +721,7 @@ async function renderChapter(root, tripId, chapterId) {
           markTask(ok ? 'good' : 'bad');
           learn(n.en, n.pt);
           bubble({ who: 'you', speaker: 'Você', en: n.en, pt: n.pt });
-          speak(b.en);
+          sayEn(b.en);
           continueDock(`<div class="feedback ${ok ? 'ok' : 'bad'}"><p><strong>${ok ? '✓ Perfeito!' : '✗ Quase!'}</strong>${ok ? '' : ` O certo é: <span lang="en">${esc(b.en)}</span>`}</p></div>`, n.next);
         });
         break;
@@ -741,7 +748,7 @@ async function renderChapter(root, tripId, chapterId) {
       add(el);
     } else {
       bubble({ who: 'you', speaker: 'Você', en: o.text, pt: o.pt });
-      speak(fmt(o.text));
+      sayEn(fmt(o.text));
       if (o.tone === 'good') learn(o.text, o.pt);
     }
     kikoNote(o.fb, o.tone);
@@ -757,7 +764,7 @@ async function renderChapter(root, tripId, chapterId) {
       markTask(firstTry ? 'good' : 'ok');
       const blank = chat.querySelector('[data-blank]:not(.filled)');
       if (blank) { blank.textContent = answer; blank.classList.add('filled'); }
-      speak(fmt(n.en).replace('___', answer));
+      sayEn(fmt(n.en).replace('___', answer));
       if (n.who === 'you') learn(n.en.replace('___', n.answer), n.pt);
       continueDock(`<div class="feedback ok"><p><strong>✓ Isso!</strong> ${firstTry ? 'Acertou de primeira.' : ''}</p></div>`, n.next);
     } else {
@@ -809,7 +816,7 @@ async function renderChapter(root, tripId, chapterId) {
         ${learned.length ? `<section class="card class-review">
           <p class="tip-title">📝 Revisão da aula</p>
           <p class="muted small">Frases que você usou hoje. Toque para ouvir e repita em voz alta!</p>
-          <ul>${learned.slice(0, 6).map((l) => `<li><span><strong lang="en">${esc(l.en)}</strong><br><span class="muted">${esc(l.pt)}</span></span>${speakBtn(l.en)}</li>`).join('')}</ul>
+          <ul>${learned.slice(0, 8).map((l) => `<li><span><strong lang="en">${wordify(l.en)}</strong><br><span class="muted">${esc(l.pt)}</span></span><span class="row-btns">${speakBtn(l.en)}${favBtn({ en: l.en, pt: l.pt, src: trip.title })}</span></li>`).join('')}</ul>
         </section>` : ''}
         <p class="muted small">${good} de ${tasks} escolhas ótimas. ${d.pct < 0.99 ? 'Refaça escolhendo outras opções para ver o que acontece!' : 'Você explorou todos os caminhos! 🏆'}</p>
         <div class="stack">
@@ -824,7 +831,26 @@ async function renderChapter(root, tripId, chapterId) {
 
   function onClick(e) {
     const say = e.target.closest('[data-say]');
-    if (say) { speak(say.dataset.say); return; }
+    if (say) { sayEn(say.dataset.say); return; }
+    const slowSay = e.target.closest('[data-say-slow]');
+    if (slowSay) { speak(slowSay.dataset.saySlow, { slow: true }); return; }
+    const st = e.target.closest('[data-slowtoggle]');
+    if (st) {
+      const on = !slowOn();
+      store.setLocalPref({ slowTrip: on });
+      st.classList.toggle('on', on); st.setAttribute('aria-pressed', String(on));
+      toast(on ? '🐢 Inglês devagar ligado' : 'Inglês na velocidade normal');
+      return;
+    }
+    const pt = e.target.closest('[data-pttoggle]');
+    if (pt) {
+      const on = !ptOn();
+      store.setLocalPref({ showPt: on });
+      pt.classList.toggle('on', on); pt.setAttribute('aria-pressed', String(on));
+      root.querySelectorAll('.bubble-pt').forEach((d) => { d.open = on; });
+      toast(on ? '🇧🇷 Tradução sempre aberta' : 'Tradução escondida (toque em "tradução")');
+      return;
+    }
     const narr = e.target.closest('[data-narr]');
     if (narr) {
       const on = !narrationOn();
@@ -923,11 +949,11 @@ async function renderPractice(root, tripId) {
     const dock = root.querySelector('[data-dock]');
     wireBuild(dock, b.target, (ok) => {
       if (ok) right += 1;
-      speak(b.en);
+      sayEn(b.en);
       dock.innerHTML = `
         <div class="feedback ${ok ? 'ok' : 'bad'}">
           <p><strong>${ok ? '✓ Perfeito!' : '✗ Quase!'}</strong></p>
-          <p lang="en" class="bubble-en">${esc(b.en)} ${speakBtn(b.en)}</p>
+          <p lang="en" class="bubble-en">${wordify(b.en)} ${speakBtn(b.en)}${favBtn({ en: b.en, pt: fmt(items[i].pt), src: trip.title })}</p>
           <p class="muted">${esc(fmt(items[i].pt))}</p>
         </div>
         <button type="button" class="btn btn-primary btn-lg wide" data-next>${i < items.length - 1 ? 'Próxima' : 'Ver resultado'} ${icon('chevron', 18)}</button>`;
@@ -954,7 +980,9 @@ async function renderPractice(root, tripId) {
 
   function onClick(e) {
     const say = e.target.closest('[data-say]');
-    if (say) { speak(say.dataset.say); return; }
+    if (say) { sayEn(say.dataset.say); return; }
+    const slowSay = e.target.closest('[data-say-slow]');
+    if (slowSay) { speak(slowSay.dataset.saySlow, { slow: true }); return; }
     if (e.target.closest('[data-next]')) {
       if (i < items.length - 1) { i += 1; show(); } else finish();
     }

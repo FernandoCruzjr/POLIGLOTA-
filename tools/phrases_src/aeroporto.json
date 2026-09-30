@@ -7,308 +7,358 @@
    "en": "Where is the check-in counter?",
    "pt": "Onde fica o balcão de check-in?",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ TCHÉK-in KÁUN-târ?"
   },
   {
    "en": "I'd like a window seat, please.",
    "pt": "Eu gostaria de um assento na janela, por favor.",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "aid láik â UÍN-dou siit, pliiz."
   },
   {
    "en": "Can I have an aisle seat?",
    "pt": "Pode me dar um assento no corredor?",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai rév ân ÁIL siit?"
   },
   {
    "en": "Here is my passport.",
    "pt": "Aqui está meu passaporte.",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "ríir iz mai PÉS-port."
   },
   {
    "en": "Can I see your passport, please?",
    "pt": "Posso ver seu passaporte, por favor?",
    "sub": "Check-in",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "kén ai sii iór PÉS-port, pliiz?"
   },
   {
    "en": "Can we sit together?",
    "pt": "Podemos sentar juntos?",
    "sub": "Check-in",
-   "level": 2
+   "level": 2,
+   "pron": "kén uí sit tu-GUÉ-dhâr?"
   },
   {
    "en": "I already checked in online, but I need to drop off my bag.",
    "pt": "Já fiz o check-in online, mas preciso despachar minha mala.",
    "sub": "Check-in",
-   "level": 3
+   "level": 3,
+   "pron": "ai ól-RÉ-di TCHÉKT in ón-LÁIN, bât ai niid tu DRÓP óf mai BÉG."
   },
   {
    "en": "Can I print my boarding pass here?",
    "pt": "Posso imprimir meu cartão de embarque aqui?",
    "sub": "Check-in",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai PRÍNT mai BÓR-din pés ríir?"
   },
   {
    "en": "I have one bag to check.",
    "pt": "Tenho uma mala para despachar.",
    "sub": "Bagagem",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév uân BÉG tu TCHÉK."
   },
   {
    "en": "This is my carry-on.",
    "pt": "Esta é minha bagagem de mão.",
    "sub": "Bagagem",
-   "level": 1
+   "level": 1,
+   "pron": "dhis iz mai KÉ-ri-ón."
   },
   {
    "en": "How many bags can I check?",
    "pt": "Quantas malas posso despachar?",
    "sub": "Bagagem",
-   "level": 2
+   "level": 2,
+   "pron": "ráu MÉ-ni BÉGZ kén ai TCHÉK?"
   },
   {
    "en": "Is my bag too heavy?",
    "pt": "Minha mala está pesada demais?",
    "sub": "Bagagem",
-   "level": 1
+   "level": 1,
+   "pron": "iz mai BÉG tuu RÉ-vi?"
   },
   {
    "en": "How much do I have to pay for the extra weight?",
    "pt": "Quanto tenho que pagar pelo excesso de peso?",
    "sub": "Bagagem",
-   "level": 3
+   "level": 3,
+   "pron": "ráu mâtch du ai RÉF tu PÊI for dhi ÉKS-trâ UÊIT?"
   },
   {
    "en": "Your bag is over the weight limit.",
    "pt": "Sua mala passou do limite de peso.",
    "sub": "Bagagem",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "iór BÉG iz ÔU-vâr dhâ UÊIT LÍ-mit."
   },
   {
    "en": "Can I take this on the plane?",
    "pt": "Posso levar isto no avião?",
    "sub": "Bagagem",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai TÊIK dhis ón dhâ PLÊIN?"
   },
   {
    "en": "Please put your bag on the scale.",
    "pt": "Coloque sua mala na balança, por favor.",
    "sub": "Bagagem",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz put iór BÉG ón dhâ SKÊIL."
   },
   {
    "en": "Do I need to take off my shoes?",
    "pt": "Preciso tirar os sapatos?",
    "sub": "Segurança e embarque",
-   "level": 1
+   "level": 1,
+   "pron": "du ai niid tu têik ÓF mai XUUZ?"
   },
   {
    "en": "Do I need to take my laptop out of the bag?",
    "pt": "Preciso tirar o notebook da mala?",
    "sub": "Segurança e embarque",
-   "level": 3
+   "level": 3,
+   "pron": "du ai niid tu têik mai LÉP-tóp ÁUT âv dhâ BÉG?"
   },
   {
    "en": "Please remove your belt and jacket.",
    "pt": "Tire o cinto e a jaqueta, por favor.",
    "sub": "Segurança e embarque",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz ri-MUUV iór BÉLT énd DJÉ-kit."
   },
   {
    "en": "Sorry, I forgot there was water in my bag.",
    "pt": "Desculpe, esqueci que tinha água na minha mala.",
    "sub": "Segurança e embarque",
-   "level": 3
+   "level": 3,
+   "pron": "SÓ-ri, ai fâr-GÓT dhér uâz UÓ-dâr in mai BÉG."
   },
   {
    "en": "Where is gate twelve?",
    "pt": "Onde fica o portão doze?",
    "sub": "Segurança e embarque",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz GUÊIT TUÉLV?"
   },
   {
    "en": "What time does boarding start?",
    "pt": "Que horas começa o embarque?",
    "sub": "Segurança e embarque",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM dâz BÓR-din STÁRT?"
   },
   {
    "en": "Is this the line for boarding group three?",
    "pt": "Esta é a fila do grupo de embarque três?",
    "sub": "Segurança e embarque",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhis dhâ LÁIN for BÓR-din GRUUP THRII?"
   },
   {
    "en": "Has the gate changed?",
    "pt": "O portão mudou?",
    "sub": "Segurança e embarque",
-   "level": 1
+   "level": 1,
+   "pron": "réz dhâ GUÊIT TCHÊINDJD?"
   },
   {
    "en": "We are now boarding all passengers.",
    "pt": "Estamos embarcando todos os passageiros agora.",
    "sub": "Segurança e embarque",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "uí ár NÁU BÓR-din ól PÉ-sen-djârz."
   },
   {
    "en": "Is my flight delayed?",
    "pt": "Meu voo está atrasado?",
    "sub": "Atrasos e conexões",
-   "level": 1
+   "level": 1,
+   "pron": "iz mai FLÁIT di-LÊID?"
   },
   {
    "en": "My flight was canceled.",
    "pt": "Meu voo foi cancelado.",
    "sub": "Atrasos e conexões",
-   "level": 1
+   "level": 1,
+   "pron": "mai FLÁIT uâz KÉN-sâld."
   },
   {
    "en": "When is the next flight?",
    "pt": "Quando é o próximo voo?",
    "sub": "Atrasos e conexões",
-   "level": 1
+   "level": 1,
+   "pron": "uén iz dhâ NÉKST FLÁIT?"
   },
   {
    "en": "I'm going to miss my connection.",
    "pt": "Vou perder minha conexão.",
    "sub": "Atrasos e conexões",
-   "level": 2
+   "level": 2,
+   "pron": "aim GÔU-in tu MÍS mai kâ-NÉK-xân."
   },
   {
    "en": "Can you put me on the next available flight?",
    "pt": "Você pode me colocar no próximo voo disponível?",
    "sub": "Atrasos e conexões",
-   "level": 3
+   "level": 3,
+   "pron": "kén iu put mi ón dhâ NÉKST â-VÊI-lâ-bâl FLÁIT?"
   },
   {
    "en": "Do I need to pick up my bags for the connection?",
    "pt": "Preciso retirar minhas malas para a conexão?",
    "sub": "Atrasos e conexões",
-   "level": 3
+   "level": 3,
+   "pron": "du ai niid tu pik ÂP mai BÉGZ for dhâ kâ-NÉK-xân?"
   },
   {
    "en": "How long is the delay?",
    "pt": "De quanto é o atraso?",
    "sub": "Atrasos e conexões",
-   "level": 1
+   "level": 1,
+   "pron": "ráu LÓNG iz dhâ di-LÊI?"
   },
   {
    "en": "Will the airline give us a hotel for tonight?",
    "pt": "A companhia aérea vai nos dar um hotel para esta noite?",
    "sub": "Atrasos e conexões",
-   "level": 3
+   "level": 3,
+   "pron": "uíl dhi ÉR-lain GUÍV âs â rou-TÉL for tu-NÁIT?"
   },
   {
    "en": "Where is the transfer desk?",
    "pt": "Onde fica o balcão de conexões?",
    "sub": "Atrasos e conexões",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz dhâ TRÉNS-fâr DÉSK?"
   },
   {
    "en": "My bag didn't arrive.",
    "pt": "Minha mala não chegou.",
    "sub": "Bagagem perdida",
-   "level": 1
+   "level": 1,
+   "pron": "mai BÉG DÍ-dânt â-RÁIV."
   },
   {
    "en": "Where is the baggage claim?",
    "pt": "Onde fica a esteira de bagagens?",
    "sub": "Bagagem perdida",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ BÉ-guidj KLÊIM?"
   },
   {
    "en": "I think my suitcase is lost.",
    "pt": "Acho que minha mala foi extraviada.",
    "sub": "Bagagem perdida",
-   "level": 2
+   "level": 2,
+   "pron": "ai THÍNK mai SUUT-kêis iz LÓST."
   },
   {
    "en": "It's a large black suitcase with a red tag.",
    "pt": "É uma mala preta grande com uma etiqueta vermelha.",
    "sub": "Bagagem perdida",
-   "level": 3
+   "level": 3,
+   "pron": "its â LÁRDJ BLÉK SUUT-kêis uídh â RÉD TÉG."
   },
   {
    "en": "Can you send it to my hotel?",
    "pt": "Vocês podem enviar para o meu hotel?",
    "sub": "Bagagem perdida",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu SÉND it tu mai rou-TÉL?"
   },
   {
    "en": "My suitcase was damaged during the flight.",
    "pt": "Minha mala foi danificada durante o voo.",
    "sub": "Bagagem perdida",
-   "level": 3
+   "level": 3,
+   "pron": "mai SUUT-kêis uâz DÉ-midjd DÚ-rin dhâ FLÁIT."
   },
   {
    "en": "Excuse me, that's my seat.",
    "pt": "Com licença, esse é o meu lugar.",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "iks-KIUZ mi, dhéts MÁI siit."
   },
   {
    "en": "Can I have a blanket, please?",
    "pt": "Pode me dar um cobertor, por favor?",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai rév â BLÉN-kit, pliiz?"
   },
   {
    "en": "Can I have some water, please?",
    "pt": "Pode me dar um pouco de água, por favor?",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai rév sâm UÓ-dâr, pliiz?"
   },
   {
    "en": "Is the bathroom free?",
    "pt": "O banheiro está livre?",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhâ BÉTH-rum FRII?"
   },
   {
    "en": "Chicken or pasta?",
    "pt": "Frango ou massa?",
    "sub": "No avião",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "TCHÍ-kin or PÁS-tâ?"
   },
   {
    "en": "I'll have the chicken, please.",
    "pt": "Vou querer o frango, por favor.",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "ail rév dhâ TCHÍ-kin, pliiz."
   },
   {
    "en": "Can you help me put my bag up there?",
    "pt": "Pode me ajudar a colocar minha mala lá em cima?",
    "sub": "No avião",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu RÉLP mi put mai BÉG âp DHÉR?"
   },
   {
    "en": "Please fasten your seat belt.",
    "pt": "Por favor, aperte o cinto de segurança.",
    "sub": "No avião",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz FÉ-sân iór SIIT bélt."
   },
   {
    "en": "Is this turbulence normal?",
    "pt": "Essa turbulência é normal?",
    "sub": "No avião",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhis TÂR-biu-lâns NÓR-mâl?"
   },
   {
    "en": "Excuse me, can I get out, please?",
    "pt": "Com licença, posso passar, por favor?",
    "sub": "No avião",
-   "level": 1
+   "level": 1,
+   "pron": "iks-KIUZ mi, kén ai guét ÁUT, pliiz?"
   }
  ]
 }

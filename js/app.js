@@ -18,6 +18,10 @@ import * as shop from './views/shop.js';
 import * as kids from './views/kids.js';
 import * as speakView from './views/speak.js';
 import * as plan from './views/plan.js';
+import * as favView from './views/favs.js';
+import * as patterns from './views/patterns.js';
+import './wordtip.js';
+import './favorites.js';
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -41,6 +45,10 @@ const ROUTES = [
   { re: /^#\/fala$/, nav: 'jogar', title: 'Treino de fala', view: speakView, params: () => ({}) },
   { re: /^#\/fala\/([\w-]+)$/, nav: 'jogar', title: 'Treino de fala', view: speakView, params: (m) => ({ sit: m[1] }) },
   { re: /^#\/fala\/([\w-]+)\/(treino|s\d+)(?:\?\d*)?$/, nav: 'jogar', title: 'Treino de fala', view: speakView, focusless: true, params: (m) => ({ sit: m[1], mode: m[2] }) },
+  { re: /^#\/favoritas$/, nav: 'jogar', title: 'Minhas favoritas', view: favView },
+  { re: /^#\/frases$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, params: () => ({}) },
+  { re: /^#\/frases\/([\w-]+)$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, params: (m) => ({ frame: m[1] }) },
+  { re: /^#\/frases\/([\w-]+)\/jogo(?:\?\d*)?$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, focusless: true, params: (m) => ({ frame: m[1], game: true }) },
   { re: /^#\/plano(?:#[\w-]*)?$/, nav: 'inicio', title: 'Meu plano', view: plan },
   { re: /^#\/viagem\/([\w-]+)\/([\w-]+)(?:\?\d*)?$/, nav: 'viagem', title: 'Viagem', view: trip, focusless: true, params: (m) => ({ trip: m[1], chapter: m[2] }) },
   { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },

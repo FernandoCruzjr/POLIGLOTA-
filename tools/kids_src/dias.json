@@ -1,0 +1,163 @@
+{
+ "items": [
+  {
+   "emoji": "📅",
+   "label": "SEG",
+   "en": "Monday",
+   "pt": "segunda-feira",
+   "pron": "MÂN-dei",
+   "say": "I go to school on Monday.",
+   "sayPt": "Eu vou à escola na segunda."
+  },
+  {
+   "emoji": "📅",
+   "label": "TER",
+   "en": "Tuesday",
+   "pt": "terça-feira",
+   "pron": "TUZ-dei",
+   "say": "Tuesday is a good day.",
+   "sayPt": "Terça é um bom dia."
+  },
+  {
+   "emoji": "📅",
+   "label": "QUA",
+   "en": "Wednesday",
+   "pt": "quarta-feira",
+   "pron": "UÉNZ-dei",
+   "say": "See you on Wednesday.",
+   "sayPt": "Até quarta."
+  },
+  {
+   "emoji": "📅",
+   "label": "QUI",
+   "en": "Thursday",
+   "pt": "quinta-feira",
+   "pron": "THÂRZ-dei",
+   "say": "I swim on Thursday.",
+   "sayPt": "Eu nado na quinta."
+  },
+  {
+   "emoji": "📅",
+   "label": "SEX",
+   "en": "Friday",
+   "pt": "sexta-feira",
+   "pron": "FRÁI-dei",
+   "say": "I love Friday!",
+   "sayPt": "Eu amo sexta-feira!"
+  },
+  {
+   "emoji": "📅",
+   "label": "SÁB",
+   "en": "Saturday",
+   "pt": "sábado",
+   "pron": "SÉ-tur-dei",
+   "say": "We play on Saturday.",
+   "sayPt": "Nós brincamos no sábado."
+  },
+  {
+   "emoji": "📅",
+   "label": "DOM",
+   "en": "Sunday",
+   "pt": "domingo",
+   "pron": "SÂN-dei",
+   "say": "Sunday is family day.",
+   "sayPt": "Domingo é dia da família."
+  },
+  {
+   "emoji": "📍",
+   "en": "today",
+   "pt": "hoje",
+   "pron": "tu-DÊI",
+   "say": "Today is Monday.",
+   "sayPt": "Hoje é segunda."
+  },
+  {
+   "emoji": "⏭️",
+   "en": "tomorrow",
+   "pt": "amanhã",
+   "pron": "tu-MÓ-rou",
+   "say": "See you tomorrow.",
+   "sayPt": "Até amanhã."
+  },
+  {
+   "emoji": "⏮️",
+   "en": "yesterday",
+   "pt": "ontem",
+   "pron": "IÉS-ter-dei",
+   "say": "Yesterday was Sunday.",
+   "sayPt": "Ontem foi domingo."
+  },
+  {
+   "emoji": "🎉",
+   "en": "weekend",
+   "pt": "fim de semana",
+   "pron": "UÍK-end",
+   "say": "I love the weekend.",
+   "sayPt": "Eu amo o fim de semana."
+  },
+  {
+   "emoji": "🗓️",
+   "en": "week",
+   "pt": "semana",
+   "pron": "UÍK",
+   "say": "A week has seven days.",
+   "sayPt": "Uma semana tem sete dias."
+  },
+  {
+   "emoji": "🌞",
+   "en": "day",
+   "pt": "dia",
+   "pron": "DÊI",
+   "say": "Have a nice day!",
+   "sayPt": "Tenha um bom dia!"
+  },
+  {
+   "emoji": "🌅",
+   "en": "morning",
+   "pt": "manhã",
+   "pron": "MÓR-nin",
+   "say": "I run in the morning.",
+   "sayPt": "Eu corro de manhã."
+  },
+  {
+   "emoji": "🌤️",
+   "en": "afternoon",
+   "pt": "tarde",
+   "pron": "áf-ter-NUN",
+   "say": "I study in the afternoon.",
+   "sayPt": "Eu estudo à tarde."
+  },
+  {
+   "emoji": "🌆",
+   "en": "evening",
+   "pt": "noitinha",
+   "pron": "ÍV-nin",
+   "say": "We eat dinner in the evening.",
+   "sayPt": "Nós jantamos à noitinha."
+  },
+  {
+   "emoji": "🌙",
+   "en": "night",
+   "pt": "noite",
+   "pron": "NÁIT",
+   "say": "I sleep at night.",
+   "sayPt": "Eu durmo à noite."
+  },
+  {
+   "emoji": "💼",
+   "en": "weekday",
+   "pt": "dia de semana",
+   "pron": "UÍK-dei",
+   "say": "I work on weekdays.",
+   "sayPt": "Eu trabalho nos dias de semana."
+  },
+  {
+   "emoji": "🔁",
+   "en": "every day",
+   "pt": "todo dia",
+   "pron": "É-vri DÊI",
+   "say": "I read every day.",
+   "sayPt": "Eu leio todo dia."
+  }
+ ]
+}

@@ -7,306 +7,356 @@
    "en": "Hi, how are you?",
    "pt": "Oi, tudo bem?",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "rái, ráu ar IU?"
   },
   {
    "en": "Good morning!",
    "pt": "Bom dia!",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "gud MÓR-nin!"
   },
   {
    "en": "I'm fine, thanks. And you?",
    "pt": "Estou bem, obrigado. E você?",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "aim FÁIN, THÉNKS. énd IU?"
   },
   {
    "en": "Nice to meet you.",
    "pt": "Prazer em conhecer você.",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "NÁIS tu MÍT iu."
   },
   {
    "en": "My name is Ana.",
    "pt": "Meu nome é Ana.",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "mai nêim iz Â-na."
   },
   {
    "en": "What's your name?",
    "pt": "Qual é o seu nome?",
    "sub": "Cumprimentos",
-   "level": 1
+   "level": 1,
+   "pron": "uâts iór NÊIM?"
   },
   {
    "en": "How's it going?",
    "pt": "E aí, como vão as coisas?",
    "sub": "Cumprimentos",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "ráuz it GÔU-in?"
   },
   {
    "en": "I'm from Brazil.",
    "pt": "Eu sou do Brasil.",
    "sub": "Sobre mim",
-   "level": 1
+   "level": 1,
+   "pron": "aim frâm bra-ZÍL."
   },
   {
    "en": "Where are you from?",
    "pt": "De onde você é?",
    "sub": "Sobre mim",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uér ar iu FRÓM?"
   },
   {
    "en": "I'm here on vacation.",
    "pt": "Estou aqui de férias.",
    "sub": "Sobre mim",
-   "level": 1
+   "level": 1,
+   "pron": "aim rír ón vêi-KÊI-xân."
   },
   {
    "en": "I'm traveling with my family.",
    "pt": "Estou viajando com minha família.",
    "sub": "Sobre mim",
-   "level": 2
+   "level": 2,
+   "pron": "aim TRÉ-ve-lin uidh mai FÉ-mi-li."
   },
   {
    "en": "It's my first time here.",
    "pt": "É a minha primeira vez aqui.",
    "sub": "Sobre mim",
-   "level": 1
+   "level": 1,
+   "pron": "its mai FÂRST TÁIM rír."
   },
   {
    "en": "I'm staying for a week.",
    "pt": "Vou ficar uma semana.",
    "sub": "Sobre mim",
-   "level": 2
+   "level": 2,
+   "pron": "aim STÊI-in for â UÍK."
   },
   {
    "en": "How long are you staying?",
    "pt": "Quanto tempo você vai ficar?",
    "sub": "Sobre mim",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "ráu lóng ar iu STÊI-in?"
   },
   {
    "en": "I live in São Paulo.",
    "pt": "Eu moro em São Paulo.",
    "sub": "Sobre mim",
-   "level": 1
+   "level": 1,
+   "pron": "ai LÍV in são PÁU-lu."
   },
   {
    "en": "I work as a teacher.",
    "pt": "Eu trabalho como professor.",
    "sub": "Sobre mim",
-   "level": 2
+   "level": 2,
+   "pron": "ai UÂRK éz â TÍ-tcher."
   },
   {
    "en": "I'm learning English.",
    "pt": "Estou aprendendo inglês.",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "aim LÂR-nin ÍN-glix."
   },
   {
    "en": "My English isn't very good.",
    "pt": "Meu inglês não é muito bom.",
    "sub": "Aprendendo inglês",
-   "level": 2
+   "level": 2,
+   "pron": "mai ÍN-glix ÍZ-ânt VÉ-ri GUD."
   },
   {
    "en": "Can you speak more slowly, please?",
    "pt": "Você pode falar mais devagar, por favor?",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu SPÍK mór SLÔU-li, pliiz?"
   },
   {
    "en": "Sorry, could you repeat that?",
    "pt": "Desculpe, pode repetir?",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "SÓ-ri, kud iu ri-PÍT dhét?"
   },
   {
    "en": "What does that mean?",
    "pt": "O que isso significa?",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "uât dâz dhét MÍN?"
   },
   {
    "en": "How do you say this in English?",
    "pt": "Como se diz isto em inglês?",
    "sub": "Aprendendo inglês",
-   "level": 2
+   "level": 2,
+   "pron": "ráu du iu SÊI dhis in ÍN-glix?"
   },
   {
    "en": "Your English is great!",
    "pt": "Seu inglês é ótimo!",
    "sub": "Aprendendo inglês",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "iór ÍN-glix iz GRÊIT!"
   },
   {
    "en": "I understand a little.",
    "pt": "Eu entendo um pouco.",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "ai ân-der-STÉND â LÍ-rol."
   },
   {
    "en": "I'm sorry, I didn't understand.",
    "pt": "Desculpe, não entendi.",
    "sub": "Aprendendo inglês",
-   "level": 1
+   "level": 1,
+   "pron": "aim SÓ-ri, ai DÍ-dânt ân-der-STÉND."
   },
   {
    "en": "Thanks for being so patient with me.",
    "pt": "Obrigado pela paciência comigo.",
    "sub": "Aprendendo inglês",
-   "level": 3
+   "level": 3,
+   "pron": "THÉNKS for BÍ-in sôu PÊI-xânt uidh mi."
   },
   {
    "en": "This city is beautiful.",
    "pt": "Esta cidade é linda.",
    "sub": "Papo e simpatia",
-   "level": 1
+   "level": 1,
+   "pron": "dhis SÍ-ri iz BIU-ti-ful."
   },
   {
    "en": "The food here is amazing.",
    "pt": "A comida aqui é incrível.",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ FÚD rír iz â-MÊI-zin."
   },
   {
    "en": "Thank you so much!",
    "pt": "Muito obrigado!",
    "sub": "Papo e simpatia",
-   "level": 1
+   "level": 1,
+   "pron": "THÉNK iu sôu MÂTCH!"
   },
   {
    "en": "You're welcome.",
    "pt": "De nada.",
    "sub": "Papo e simpatia",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "iór UÉL-kâm."
   },
   {
    "en": "No problem.",
    "pt": "Sem problemas.",
    "sub": "Papo e simpatia",
-   "level": 1
+   "level": 1,
+   "pron": "nôu PRÓ-blem."
   },
   {
    "en": "Sorry, my mistake.",
    "pt": "Desculpe, foi erro meu.",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "SÓ-ri, mai mis-TÊIK."
   },
   {
    "en": "I love your accent.",
    "pt": "Adoro o seu sotaque.",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "ai LÂV iór ÉK-sent."
   },
   {
    "en": "Have you ever been to Brazil?",
    "pt": "Você já foi ao Brasil?",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "rév iu É-ver bín tu bra-ZÍL?"
   },
   {
    "en": "You should visit Brazil someday.",
    "pt": "Você deveria visitar o Brasil um dia.",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "iu xud VÍ-zit bra-ZÍL SÂM-dêi."
   },
   {
    "en": "The beaches in Brazil are beautiful.",
    "pt": "As praias do Brasil são lindas.",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ BÍ-tchiz in bra-ZÍL ar BIU-ti-ful."
   },
   {
    "en": "What do you like to do for fun here?",
    "pt": "O que você gosta de fazer para se divertir aqui?",
    "sub": "Papo e simpatia",
-   "level": 3
+   "level": 3,
+   "pron": "uât du iu láik tu du for FÂN rír?"
   },
   {
    "en": "What's the best place to eat around here?",
    "pt": "Qual é o melhor lugar para comer por aqui?",
    "sub": "Papo e simpatia",
-   "level": 3
+   "level": 3,
+   "pron": "uâts dhâ BÉST PLÊIS tu ÍT â-ráund RÍR?"
   },
   {
    "en": "It's really hot today, isn't it?",
    "pt": "Está muito calor hoje, né?",
    "sub": "Papo e simpatia",
-   "level": 2
+   "level": 2,
+   "pron": "its RÍ-li RÓT tu-DÊI, ÍZ-ânt it?"
   },
   {
    "en": "Do you want to grab a coffee?",
    "pt": "Quer tomar um café?",
    "sub": "Planos e contato",
-   "level": 2
+   "level": 2,
+   "pron": "du iu uânt tu GRÉB â KÓ-fi?"
   },
   {
    "en": "Are you free tomorrow?",
    "pt": "Você está livre amanhã?",
    "sub": "Planos e contato",
-   "level": 2
+   "level": 2,
+   "pron": "ar iu FRÍ tu-MÓ-rôu?"
   },
   {
    "en": "What time should we meet?",
    "pt": "Que horas a gente se encontra?",
    "sub": "Planos e contato",
-   "level": 2
+   "level": 2,
+   "pron": "uât TÁIM xud uí MÍT?"
   },
   {
    "en": "Let's meet in front of the hotel.",
    "pt": "Vamos nos encontrar na frente do hotel.",
    "sub": "Planos e contato",
-   "level": 3
+   "level": 3,
+   "pron": "léts MÍT in FRÂNT âv dhâ rou-TÉL."
   },
   {
    "en": "Do you have social media?",
    "pt": "Você tem redes sociais?",
    "sub": "Planos e contato",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév SÔU-xâl MÍ-di-â?"
   },
   {
    "en": "Can I add you on social media?",
    "pt": "Posso te adicionar nas redes sociais?",
    "sub": "Planos e contato",
-   "level": 3
+   "level": 3,
+   "pron": "kén ai ÉD iu ón SÔU-xâl MÍ-di-â?"
   },
   {
    "en": "Let's keep in touch.",
    "pt": "Vamos manter contato.",
    "sub": "Planos e contato",
-   "level": 2
+   "level": 2,
+   "pron": "léts KÍP in TÂTCH."
   },
   {
    "en": "If you come to Brazil, let me know.",
    "pt": "Se você for ao Brasil, me avise.",
    "sub": "Planos e contato",
-   "level": 3
+   "level": 3,
+   "pron": "if iu KÂM tu bra-ZÍL, lét mi NÔU."
   },
   {
    "en": "It was great talking to you.",
    "pt": "Foi ótimo conversar com você.",
    "sub": "Despedidas",
-   "level": 3
+   "level": 3,
+   "pron": "it uóz GRÊIT TÓ-kin tu iu."
   },
   {
    "en": "See you later!",
    "pt": "Até mais!",
    "sub": "Despedidas",
-   "level": 1
+   "level": 1,
+   "pron": "SÍ iu LÊI-ter!"
   },
   {
    "en": "Have a nice day!",
    "pt": "Tenha um bom dia!",
    "sub": "Despedidas",
-   "level": 1
+   "level": 1,
+   "pron": "rév â NÁIS DÊI!"
   }
  ]
 }

@@ -6,6 +6,8 @@ import { icon } from '../icons.js';
 import { esc, progressBar, plural, coinReward } from '../ui.js';
 import { speak, canSpeak } from '../speech.js';
 import { XP_RULES } from '../config.js';
+import { wordify } from '../wordtip.js';
+import { favBtn } from '../favorites.js';
 
 const MAX_LESSON_SECONDS = 30 * 60;
 
@@ -37,7 +39,7 @@ export function render(root, { id }) {
         <p class="eyebrow center">Unidade ${unit.number} · Lição ${lesson.number} · ${esc(lesson.title)}</p>
         <section class="card flash" aria-live="polite">
           <span class="chip">${kind}</span>
-          <p class="flash-en" lang="en">${esc(item.en)}</p>
+          <p class="flash-en" lang="en">${wordify(item.en)} ${favBtn({ en: item.en, pt: item.pt, pron: item.pron || '', src: 'Lições' })}</p>
           ${canSpeak() || item.audio ? `
           <div class="audio-row">
             <button class="btn btn-soft" data-speak>${icon('speaker', 20)} Ouvir</button>

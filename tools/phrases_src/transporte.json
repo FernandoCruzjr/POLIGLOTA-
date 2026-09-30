@@ -7,305 +7,355 @@
    "en": "Can you take me to this address?",
    "pt": "Pode me levar para este endereço?",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu TÊIK mi tu dhis É-dres?"
   },
   {
    "en": "Where can I get a taxi?",
    "pt": "Onde posso pegar um táxi?",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "uér kén ai guét â TÉK-si?"
   },
   {
    "en": "How much is it to the airport?",
    "pt": "Quanto custa até o aeroporto?",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "ráu mâtch iz it tu dhi ÉR-port?"
   },
   {
    "en": "To the train station, please.",
    "pt": "Para a estação de trem, por favor.",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "tu dhâ TRÊIN STÊI-xân, pliiz."
   },
   {
    "en": "Where to?",
    "pt": "Para onde?",
    "sub": "Táxi e app",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uér TUU?"
   },
   {
    "en": "Can you turn on the meter, please?",
    "pt": "Pode ligar o taxímetro, por favor?",
    "sub": "Táxi e app",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu târn ÓN dhâ MII-dâr, pliiz?"
   },
   {
    "en": "Can you stop here, please?",
    "pt": "Pode parar aqui, por favor?",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu STÓP ríir, pliiz?"
   },
   {
    "en": "Could you open the trunk, please?",
    "pt": "Pode abrir o porta-malas, por favor?",
    "sub": "Táxi e app",
-   "level": 2
+   "level": 2,
+   "pron": "kud iu ÔU-pân dhâ TRÂNK, pliiz?"
   },
   {
    "en": "Keep the change.",
    "pt": "Pode ficar com o troco.",
    "sub": "Táxi e app",
-   "level": 1
+   "level": 1,
+   "pron": "KIIP dhâ TCHÊINDJ."
   },
   {
    "en": "I ordered a ride on the app.",
    "pt": "Pedi uma corrida pelo aplicativo.",
    "sub": "Táxi e app",
-   "level": 2
+   "level": 2,
+   "pron": "ai ÓR-dârd â RÁID ón dhi ÉP."
   },
   {
    "en": "I'm waiting at the main entrance, next to the bus stop.",
    "pt": "Estou esperando na entrada principal, ao lado do ponto de ônibus.",
    "sub": "Táxi e app",
-   "level": 3
+   "level": 3,
+   "pron": "aim UÊI-tin ét dhâ MÊIN ÉN-trâns, NÉKST tu dhâ BÂS stóp."
   },
   {
    "en": "How long will it take to get there with this traffic?",
    "pt": "Quanto tempo leva para chegar lá com esse trânsito?",
    "sub": "Táxi e app",
-   "level": 3
+   "level": 3,
+   "pron": "ráu LÓNG uíl it têik tu guét DHÉR uídh dhis TRÉ-fik?"
   },
   {
    "en": "Is there a lot of traffic right now?",
    "pt": "Tem muito trânsito agora?",
    "sub": "Táxi e app",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â LÓT âv TRÉ-fik ráit NÁU?"
   },
   {
    "en": "Could you drive a little slower, please?",
    "pt": "Pode dirigir um pouco mais devagar, por favor?",
    "sub": "Táxi e app",
-   "level": 2
+   "level": 2,
+   "pron": "kud iu DRÁIV â LÍ-dâl SLÔU-âr, pliiz?"
   },
   {
    "en": "Where is the nearest subway station?",
    "pt": "Onde fica a estação de metrô mais próxima?",
    "sub": "Metrô e trem",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ NÍI-rest SÂB-uêi STÊI-xân?"
   },
   {
    "en": "One ticket, please.",
    "pt": "Uma passagem, por favor.",
    "sub": "Metrô e trem",
-   "level": 1
+   "level": 1,
+   "pron": "UÂN TÍ-kit, pliiz."
   },
   {
    "en": "How much is a one-way ticket?",
    "pt": "Quanto custa uma passagem só de ida?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "ráu mâtch iz â UÂN-uêi TÍ-kit?"
   },
   {
    "en": "A round-trip ticket, please.",
    "pt": "Uma passagem de ida e volta, por favor.",
    "sub": "Metrô e trem",
-   "level": 1
+   "level": 1,
+   "pron": "â RÁUND-trip TÍ-kit, pliiz."
   },
   {
    "en": "Is there a day pass?",
    "pt": "Tem um passe diário?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â DÊI pés?"
   },
   {
    "en": "Which line goes downtown?",
    "pt": "Qual linha vai para o centro?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "uítch LÁIN gôuz dáun-TÁUN?"
   },
   {
    "en": "Do I need to change trains to get to the airport?",
    "pt": "Preciso trocar de trem para chegar ao aeroporto?",
    "sub": "Metrô e trem",
-   "level": 3
+   "level": 3,
+   "pron": "du ai niid tu TCHÊINDJ TRÊINZ tu guét tu dhi ÉR-port?"
   },
   {
    "en": "Which platform does the train leave from?",
    "pt": "De qual plataforma sai o trem?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "uítch PLÉT-fórm dâz dhâ TRÊIN LIIV frâm?"
   },
   {
    "en": "Is this the right train to the airport?",
    "pt": "Este é o trem certo para o aeroporto?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhis dhâ RÁIT TRÊIN tu dhi ÉR-port?"
   },
   {
    "en": "What's the next stop?",
    "pt": "Qual é a próxima parada?",
    "sub": "Metrô e trem",
-   "level": 1
+   "level": 1,
+   "pron": "uâts dhâ NÉKST STÓP?"
   },
   {
    "en": "The next stop is Central Station.",
    "pt": "A próxima parada é a Estação Central.",
    "sub": "Metrô e trem",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "dhâ NÉKST STÓP iz SÉN-trâl STÊI-xân."
   },
   {
    "en": "How do I use this ticket machine?",
    "pt": "Como eu uso esta máquina de passagens?",
    "sub": "Metrô e trem",
-   "level": 2
+   "level": 2,
+   "pron": "ráu du ai IUUZ dhis TÍ-kit mâ-XIIN?"
   },
   {
    "en": "The machine took my money but didn't give me a ticket.",
    "pt": "A máquina pegou meu dinheiro, mas não me deu a passagem.",
    "sub": "Metrô e trem",
-   "level": 3
+   "level": 3,
+   "pron": "dhâ mâ-XIIN TUK mai MÂ-ni bât DÍ-dânt GUÍV mi â TÍ-kit."
   },
   {
    "en": "Tickets, please.",
    "pt": "Passagens, por favor.",
    "sub": "Metrô e trem",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "TÍ-kits, pliiz."
   },
   {
    "en": "Where do I catch the bus to the beach?",
    "pt": "Onde eu pego o ônibus para a praia?",
    "sub": "Ônibus",
-   "level": 2
+   "level": 2,
+   "pron": "uér du ai KÉTCH dhâ BÂS tu dhâ BIITCH?"
   },
   {
    "en": "Does this bus go downtown?",
    "pt": "Este ônibus vai para o centro?",
    "sub": "Ônibus",
-   "level": 1
+   "level": 1,
+   "pron": "dâz dhis BÂS gôu dáun-TÁUN?"
   },
   {
    "en": "Can I pay with a card on the bus?",
    "pt": "Posso pagar com cartão no ônibus?",
    "sub": "Ônibus",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai PÊI uídh â KÁRD ón dhâ BÂS?"
   },
   {
    "en": "How often does this bus come on weekends?",
    "pt": "De quanto em quanto tempo esse ônibus passa nos fins de semana?",
    "sub": "Ônibus",
-   "level": 3
+   "level": 3,
+   "pron": "ráu ÓF-ân dâz dhis BÂS kâm ón UIIK-éndz?"
   },
   {
    "en": "Could you tell me when we get to my stop?",
    "pt": "Você pode me avisar quando chegarmos no meu ponto?",
    "sub": "Ônibus",
-   "level": 3
+   "level": 3,
+   "pron": "kud iu TÉL mi uén uí guét tu mai STÓP?"
   },
   {
    "en": "I missed my stop.",
    "pt": "Perdi meu ponto.",
    "sub": "Ônibus",
-   "level": 1
+   "level": 1,
+   "pron": "ai MÍST mai STÓP."
   },
   {
    "en": "Is this seat taken?",
    "pt": "Este lugar está ocupado?",
    "sub": "Ônibus",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhis SIIT TÊI-kân?"
   },
   {
    "en": "I'd like to rent a car.",
    "pt": "Eu gostaria de alugar um carro.",
    "sub": "Aluguel de carro",
-   "level": 1
+   "level": 1,
+   "pron": "aid láik tu RÉNT â KÁR."
   },
   {
    "en": "I have a reservation for a small car for five days.",
    "pt": "Tenho uma reserva de um carro pequeno para cinco dias.",
    "sub": "Aluguel de carro",
-   "level": 3
+   "level": 3,
+   "pron": "ai rév â ré-zâr-VÊI-xân for â SMÓL KÁR for FÁIV DÊIZ."
   },
   {
    "en": "Is insurance included?",
    "pt": "O seguro está incluído?",
    "sub": "Aluguel de carro",
-   "level": 1
+   "level": 1,
+   "pron": "iz in-XÚ-râns in-KLUU-did?"
   },
   {
    "en": "Can I see your driver's license?",
    "pt": "Posso ver sua carteira de motorista?",
    "sub": "Aluguel de carro",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "kén ai sii iór DRÁI-vârz LÁI-sâns?"
   },
   {
    "en": "Does the car have GPS?",
    "pt": "O carro tem GPS?",
    "sub": "Aluguel de carro",
-   "level": 1
+   "level": 1,
+   "pron": "dâz dhâ KÁR rév djii-pii-ÉS?"
   },
   {
    "en": "Do I need to return it with a full tank?",
    "pt": "Preciso devolver com o tanque cheio?",
    "sub": "Aluguel de carro",
-   "level": 3
+   "level": 3,
+   "pron": "du ai niid tu ri-TÂRN it uídh â FUL TÉNK?"
   },
   {
    "en": "What should I do if the car breaks down?",
    "pt": "O que eu faço se o carro quebrar?",
    "sub": "Aluguel de carro",
-   "level": 3
+   "level": 3,
+   "pron": "uât xud ai DU if dhâ KÁR brêiks DÁUN?"
   },
   {
    "en": "Where is the nearest gas station?",
    "pt": "Onde fica o posto de gasolina mais próximo?",
    "sub": "Posto e estacionamento",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ NÍI-rest GÉS STÊI-xân?"
   },
   {
    "en": "Fill it up, please.",
    "pt": "Pode encher o tanque, por favor.",
    "sub": "Posto e estacionamento",
-   "level": 1
+   "level": 1,
+   "pron": "fil it ÂP, pliiz."
   },
   {
    "en": "Pump number four, please.",
    "pt": "Bomba número quatro, por favor.",
    "sub": "Posto e estacionamento",
-   "level": 1
+   "level": 1,
+   "pron": "PÂMP NÂM-bâr FÓR, pliiz."
   },
   {
    "en": "Can I park here?",
    "pt": "Posso estacionar aqui?",
    "sub": "Posto e estacionamento",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai PÁRK ríir?"
   },
   {
    "en": "How much is parking per hour?",
    "pt": "Quanto custa o estacionamento por hora?",
    "sub": "Posto e estacionamento",
-   "level": 2
+   "level": 2,
+   "pron": "ráu mâtch iz PÁR-kin pâr ÁU-âr?"
   },
   {
    "en": "Where do I pay for parking?",
    "pt": "Onde eu pago o estacionamento?",
    "sub": "Posto e estacionamento",
-   "level": 2
+   "level": 2,
+   "pron": "uér du ai PÊI for PÁR-kin?"
   },
   {
    "en": "Is there free parking near here?",
    "pt": "Tem estacionamento gratuito aqui perto?",
    "sub": "Posto e estacionamento",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér FRII PÁR-kin níir ríir?"
   },
   {
    "en": "Is it faster to take the train or a taxi?",
    "pt": "É mais rápido ir de trem ou de táxi?",
    "sub": "Posto e estacionamento",
-   "level": 3
+   "level": 3,
+   "pron": "iz it FÉS-târ tu têik dhâ TRÊIN or â TÉK-si?"
   }
  ]
 }

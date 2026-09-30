@@ -1,0 +1,176 @@
+{
+ "items": [
+  {
+   "emoji": "📅",
+   "label": "JAN",
+   "en": "January",
+   "pt": "janeiro",
+   "pron": "DJÉ-niu-é-ri",
+   "say": "January is very hot here.",
+   "sayPt": "Janeiro é muito quente aqui."
+  },
+  {
+   "emoji": "📅",
+   "label": "FEV",
+   "en": "February",
+   "pt": "fevereiro",
+   "pron": "FÉB-ru-é-ri",
+   "say": "Carnival is in February.",
+   "sayPt": "O Carnaval é em fevereiro."
+  },
+  {
+   "emoji": "📅",
+   "label": "MAR",
+   "en": "March",
+   "pt": "março",
+   "pron": "MARTCH",
+   "say": "School starts in March.",
+   "sayPt": "A escola começa em março."
+  },
+  {
+   "emoji": "📅",
+   "label": "ABR",
+   "en": "April",
+   "pt": "abril",
+   "pron": "ÊI-pril",
+   "say": "Easter is in April.",
+   "sayPt": "A Páscoa é em abril."
+  },
+  {
+   "emoji": "📅",
+   "label": "MAI",
+   "en": "May",
+   "pt": "maio",
+   "pron": "MÊI",
+   "say": "My birthday is in May.",
+   "sayPt": "Meu aniversário é em maio."
+  },
+  {
+   "emoji": "📅",
+   "label": "JUN",
+   "en": "June",
+   "pt": "junho",
+   "pron": "DJUN",
+   "say": "We dance in June.",
+   "sayPt": "Nós dançamos em junho."
+  },
+  {
+   "emoji": "📅",
+   "label": "JUL",
+   "en": "July",
+   "pt": "julho",
+   "pron": "dju-LÁI",
+   "say": "July is very cold.",
+   "sayPt": "Julho é muito frio."
+  },
+  {
+   "emoji": "📅",
+   "label": "AGO",
+   "en": "August",
+   "pt": "agosto",
+   "pron": "Ó-gâst",
+   "say": "August has windy days.",
+   "sayPt": "Agosto tem dias de vento."
+  },
+  {
+   "emoji": "📅",
+   "label": "SET",
+   "en": "September",
+   "pt": "setembro",
+   "pron": "sep-TÉM-ber",
+   "say": "Spring starts in September.",
+   "sayPt": "A primavera começa em setembro."
+  },
+  {
+   "emoji": "📅",
+   "label": "OUT",
+   "en": "October",
+   "pt": "outubro",
+   "pron": "ók-TÔU-ber",
+   "say": "Kids' Day is in October.",
+   "sayPt": "O Dia das Crianças é em outubro."
+  },
+  {
+   "emoji": "📅",
+   "label": "NOV",
+   "en": "November",
+   "pt": "novembro",
+   "pron": "no-VÉM-ber",
+   "say": "November is almost summer.",
+   "sayPt": "Novembro é quase verão."
+  },
+  {
+   "emoji": "📅",
+   "label": "DEZ",
+   "en": "December",
+   "pt": "dezembro",
+   "pron": "di-SÉM-ber",
+   "say": "Christmas is in December.",
+   "sayPt": "O Natal é em dezembro."
+  },
+  {
+   "emoji": "🗓️",
+   "en": "month",
+   "pt": "mês",
+   "pron": "MÂNTH",
+   "say": "A year has twelve months.",
+   "sayPt": "Um ano tem doze meses."
+  },
+  {
+   "emoji": "⏳",
+   "en": "year",
+   "pt": "ano",
+   "pron": "IÍR",
+   "say": "This year is great!",
+   "sayPt": "Este ano está ótimo!"
+  },
+  {
+   "emoji": "🎂",
+   "en": "birthday",
+   "pt": "aniversário",
+   "pron": "BÊRTH-dei",
+   "say": "Today is my birthday!",
+   "sayPt": "Hoje é meu aniversário!"
+  },
+  {
+   "emoji": "🏖️",
+   "en": "holiday",
+   "pt": "feriado",
+   "pron": "RÓ-li-dei",
+   "say": "Tomorrow is a holiday.",
+   "sayPt": "Amanhã é feriado."
+  },
+  {
+   "emoji": "📆",
+   "en": "calendar",
+   "pt": "calendário",
+   "pron": "KÉ-len-der",
+   "say": "Look at the calendar.",
+   "sayPt": "Olhe o calendário."
+  },
+  {
+   "emoji": "📌",
+   "en": "date",
+   "pt": "data",
+   "pron": "DÊIT",
+   "say": "What is the date today?",
+   "sayPt": "Qual é a data de hoje?"
+  },
+  {
+   "emoji": "🎄",
+   "en": "Christmas",
+   "pt": "Natal",
+   "pron": "KRÍS-mas",
+   "say": "I love Christmas.",
+   "sayPt": "Eu amo o Natal."
+  },
+  {
+   "emoji": "🎆",
+   "en": "New Year",
+   "pt": "Ano-Novo",
+   "pron": "nu IÍR",
+   "say": "Happy New Year!",
+   "sayPt": "Feliz Ano-Novo!"
+  }
+ ]
+}

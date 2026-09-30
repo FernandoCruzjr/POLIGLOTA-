@@ -1,0 +1,180 @@
+{
+ "items": [
+  {
+   "emoji": "🌷",
+   "en": "spring",
+   "pt": "primavera",
+   "pron": "SPRIN",
+   "say": "Flowers grow in spring.",
+   "sayPt": "As flores crescem na primavera."
+  },
+  {
+   "emoji": "☀️",
+   "en": "summer",
+   "pt": "verão",
+   "pron": "SÂ-mer",
+   "say": "Summer is very hot.",
+   "sayPt": "O verão é muito quente."
+  },
+  {
+   "emoji": "🍂",
+   "en": "fall",
+   "pt": "outono",
+   "pron": "FÓL",
+   "say": "Leaves fall in the fall.",
+   "sayPt": "As folhas caem no outono."
+  },
+  {
+   "emoji": "🍁",
+   "en": "autumn",
+   "pt": "outono",
+   "pron": "Ó-tâm",
+   "say": "I like autumn colors.",
+   "sayPt": "Eu gosto das cores do outono."
+  },
+  {
+   "emoji": "⛄",
+   "en": "winter",
+   "pt": "inverno",
+   "pron": "UÍN-ter",
+   "say": "Winter is cold.",
+   "sayPt": "O inverno é frio."
+  },
+  {
+   "emoji": "🔄",
+   "en": "season",
+   "pt": "estação do ano",
+   "pron": "SÍ-zon",
+   "say": "Summer is my favorite season.",
+   "sayPt": "O verão é minha estação favorita."
+  },
+  {
+   "emoji": "🌸",
+   "en": "flower",
+   "pt": "flor",
+   "pron": "FLÁU-er",
+   "say": "This flower is pink.",
+   "sayPt": "Esta flor é rosa."
+  },
+  {
+   "emoji": "🏖️",
+   "en": "beach",
+   "pt": "praia",
+   "pron": "BÍTCH",
+   "say": "Let's go to the beach!",
+   "sayPt": "Vamos à praia!"
+  },
+  {
+   "emoji": "🍃",
+   "en": "leaves",
+   "pt": "folhas",
+   "pron": "LÍVZ",
+   "say": "The leaves are green.",
+   "sayPt": "As folhas são verdes."
+  },
+  {
+   "emoji": "❄️",
+   "en": "snow",
+   "pt": "neve",
+   "pron": "SNÔU",
+   "say": "The snow is white.",
+   "sayPt": "A neve é branca."
+  },
+  {
+   "emoji": "🧳",
+   "en": "vacation",
+   "pt": "férias",
+   "pron": "vei-KÊI-shan",
+   "say": "I love summer vacation.",
+   "sayPt": "Eu amo as férias de verão."
+  },
+  {
+   "emoji": "🧴",
+   "en": "sunscreen",
+   "pt": "protetor solar",
+   "pron": "SÂN-scrin",
+   "say": "Put on your sunscreen.",
+   "sayPt": "Passe o protetor solar."
+  },
+  {
+   "emoji": "🍦",
+   "en": "ice cream",
+   "pt": "sorvete",
+   "pron": "ÁIS crim",
+   "say": "I want ice cream!",
+   "sayPt": "Eu quero sorvete!"
+  },
+  {
+   "emoji": "🧣",
+   "en": "scarf",
+   "pt": "cachecol",
+   "pron": "SKÁRF",
+   "say": "My scarf is warm.",
+   "sayPt": "Meu cachecol é quentinho."
+  },
+  {
+   "emoji": "🧥",
+   "en": "coat",
+   "pt": "casaco",
+   "pron": "KÔUT",
+   "say": "Wear your coat.",
+   "sayPt": "Vista seu casaco."
+  },
+  {
+   "emoji": "🧤",
+   "en": "gloves",
+   "pt": "luvas",
+   "pron": "GLÂVZ",
+   "say": "My gloves are red.",
+   "sayPt": "Minhas luvas são vermelhas."
+  },
+  {
+   "emoji": "☕",
+   "en": "hot chocolate",
+   "pt": "chocolate quente",
+   "pron": "RÓT TCHÓ-klet",
+   "say": "I drink hot chocolate.",
+   "sayPt": "Eu bebo chocolate quente."
+  },
+  {
+   "emoji": "🦋",
+   "en": "butterfly",
+   "pt": "borboleta",
+   "pron": "BÂ-ter-flai",
+   "say": "Look at the butterfly!",
+   "sayPt": "Olhe a borboleta!"
+  },
+  {
+   "emoji": "🎃",
+   "en": "pumpkin",
+   "pt": "abóbora",
+   "pron": "PÂMP-kin",
+   "say": "The pumpkin is orange.",
+   "sayPt": "A abóbora é laranja."
+  },
+  {
+   "emoji": "🩱",
+   "en": "swimsuit",
+   "pt": "maiô",
+   "pron": "SUÍM-sut",
+   "say": "Put on your swimsuit.",
+   "sayPt": "Coloque seu maiô."
+  },
+  {
+   "emoji": "🕶️",
+   "en": "sunglasses",
+   "pt": "óculos de sol",
+   "pron": "SÂN-glé-siz",
+   "say": "I need my sunglasses.",
+   "sayPt": "Eu preciso dos meus óculos de sol."
+  },
+  {
+   "emoji": "🪁",
+   "en": "kite",
+   "pt": "pipa",
+   "pron": "KÁIT",
+   "say": "I fly my kite.",
+   "sayPt": "Eu solto minha pipa."
+  }
+ ]
+}

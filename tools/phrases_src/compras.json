@@ -7,307 +7,357 @@
    "en": "I'm just looking, thanks.",
    "pt": "Só estou olhando, obrigado.",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "aim djâst LU-kin, THÉNKS."
   },
   {
    "en": "Can I help you?",
    "pt": "Posso ajudar?",
    "sub": "Na loja",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "kén ai RÉLP iu?"
   },
   {
    "en": "Do you have this in a medium?",
    "pt": "Vocês têm este no tamanho M?",
    "sub": "Na loja",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév dhis in â MÍ-di-âm?"
   },
   {
    "en": "Do you have a bigger size?",
    "pt": "Vocês têm um tamanho maior?",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "du iu rév â BÍ-guer SÁIZ?"
   },
   {
    "en": "Do you have a smaller size?",
    "pt": "Vocês têm um tamanho menor?",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "du iu rév â SMÓ-ler SÁIZ?"
   },
   {
    "en": "Can I try this on?",
    "pt": "Posso experimentar?",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai TRÁI dhis ÓN?"
   },
   {
    "en": "Where is the fitting room?",
    "pt": "Onde fica o provador?",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ FÍ-rin rum?"
   },
   {
    "en": "Do you have it in black?",
    "pt": "Tem na cor preta?",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "du iu rév it in BLÉK?"
   },
   {
    "en": "It's too tight.",
    "pt": "Está muito apertado.",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "its tu TÁIT."
   },
   {
    "en": "It's a little big.",
    "pt": "Está um pouco grande.",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "its â LÍ-rol BÍG."
   },
   {
    "en": "It fits perfectly.",
    "pt": "Serviu perfeitamente.",
    "sub": "Na loja",
-   "level": 2
+   "level": 2,
+   "pron": "it FÍTS PÂR-fekt-li."
   },
   {
    "en": "I'll take it.",
    "pt": "Vou levar.",
    "sub": "Na loja",
-   "level": 1
+   "level": 1,
+   "pron": "ail TÊIK it."
   },
   {
    "en": "What size are you?",
    "pt": "Qual é o seu tamanho?",
    "sub": "Na loja",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uât SÁIZ ar iu?"
   },
   {
    "en": "Do you have this in another color?",
    "pt": "Vocês têm este em outra cor?",
    "sub": "Na loja",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév dhis in â-NÂ-dher KÂ-ler?"
   },
   {
    "en": "How much is this?",
    "pt": "Quanto custa isto?",
    "sub": "Preço e desconto",
-   "level": 1
+   "level": 1,
+   "pron": "ráu mâtch iz DHIS?"
   },
   {
    "en": "That's too expensive.",
    "pt": "Está muito caro.",
    "sub": "Preço e desconto",
-   "level": 1
+   "level": 1,
+   "pron": "dhéts tu iks-PÉN-siv."
   },
   {
    "en": "Is this on sale?",
    "pt": "Isto está em promoção?",
    "sub": "Preço e desconto",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhis ón SÊIL?"
   },
   {
    "en": "Can you give me a discount?",
    "pt": "Você pode me dar um desconto?",
    "sub": "Preço e desconto",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu guív mi â DÍS-káunt?"
   },
   {
    "en": "What's your best price?",
    "pt": "Qual é o seu melhor preço?",
    "sub": "Preço e desconto",
-   "level": 2
+   "level": 2,
+   "pron": "uâts iór BÉST PRÁIS?"
   },
   {
    "en": "If I buy two, is it cheaper?",
    "pt": "Se eu levar dois, sai mais barato?",
    "sub": "Preço e desconto",
-   "level": 3
+   "level": 3,
+   "pron": "if ai bai TU, iz it TCHÍ-per?"
   },
   {
    "en": "Does the price include tax?",
    "pt": "O preço inclui imposto?",
    "sub": "Preço e desconto",
-   "level": 2
+   "level": 2,
+   "pron": "dâz dhâ PRÁIS in-KLÚD TÉKS?"
   },
   {
    "en": "I'll give you twenty for both.",
    "pt": "Te dou vinte pelos dois.",
    "sub": "Preço e desconto",
-   "level": 3
+   "level": 3,
+   "pron": "ail guív iu TUÉN-ti for BÔUTH."
   },
   {
    "en": "Can I pay by card?",
    "pt": "Posso pagar com cartão?",
    "sub": "Pagamento",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai pêi bai KÁRD?"
   },
   {
    "en": "I'll pay in cash.",
    "pt": "Vou pagar em dinheiro.",
    "sub": "Pagamento",
-   "level": 1
+   "level": 1,
+   "pron": "ail pêi in KÉX."
   },
   {
    "en": "Cash or card?",
    "pt": "Dinheiro ou cartão?",
    "sub": "Pagamento",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "KÉX or KÁRD?"
   },
   {
    "en": "Can I have a receipt, please?",
    "pt": "Pode me dar o recibo, por favor?",
    "sub": "Pagamento",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai rév â ri-SÍT, pliiz?"
   },
   {
    "en": "Do you need a bag?",
    "pt": "Você precisa de sacola?",
    "sub": "Pagamento",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "du iu níd â BÉG?"
   },
   {
    "en": "Please insert your card.",
    "pt": "Por favor, insira seu cartão.",
    "sub": "Pagamento",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "pliiz in-SÂRT iór KÁRD."
   },
   {
    "en": "Can I pay with my phone?",
    "pt": "Posso pagar com o celular?",
    "sub": "Pagamento",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai pêi uidh mai FÔUN?"
   },
   {
    "en": "Do you take foreign cards?",
    "pt": "Vocês aceitam cartão estrangeiro?",
    "sub": "Pagamento",
-   "level": 2
+   "level": 2,
+   "pron": "du iu têik FÓ-ren KÁRDZ?"
   },
   {
    "en": "I think you gave me the wrong change.",
    "pt": "Acho que você me deu o troco errado.",
    "sub": "Pagamento",
-   "level": 3
+   "level": 3,
+   "pron": "ai THÍNK iu guêiv mi dhâ RÓNG TCHÊINDJ."
   },
   {
    "en": "Can you wrap it as a gift?",
    "pt": "Pode embrulhar para presente?",
    "sub": "Pagamento",
-   "level": 2
+   "level": 2,
+   "pron": "kén iu RÉP it éz â GUÍFT?"
   },
   {
    "en": "I'd like to return this.",
    "pt": "Eu gostaria de devolver isto.",
    "sub": "Trocas e impostos",
-   "level": 2
+   "level": 2,
+   "pron": "aid láik tu ri-TÂRN dhis."
   },
   {
    "en": "Can I exchange this for a different size?",
    "pt": "Posso trocar isto por outro tamanho?",
    "sub": "Trocas e impostos",
-   "level": 3
+   "level": 3,
+   "pron": "kén ai iks-TCHÊINDJ dhis for â DÍ-fe-rent SÁIZ?"
   },
   {
    "en": "It doesn't work.",
    "pt": "Não está funcionando.",
    "sub": "Trocas e impostos",
-   "level": 1
+   "level": 1,
+   "pron": "it DÂ-zânt UÂRK."
   },
   {
    "en": "Do you have the receipt?",
    "pt": "Você tem o recibo?",
    "sub": "Trocas e impostos",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "du iu rév dhâ ri-SÍT?"
   },
   {
    "en": "Can I get a tax refund?",
    "pt": "Posso pedir o reembolso do imposto?",
    "sub": "Trocas e impostos",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai gét â TÉKS RÍ-fând?"
   },
   {
    "en": "What's your return policy?",
    "pt": "Qual é a política de devolução de vocês?",
    "sub": "Trocas e impostos",
-   "level": 3
+   "level": 3,
+   "pron": "uâts iór ri-TÂRN PÓ-li-si?"
   },
   {
    "en": "Where can I exchange money?",
    "pt": "Onde posso trocar dinheiro?",
    "sub": "Câmbio e caixa",
-   "level": 1
+   "level": 1,
+   "pron": "uér kén ai iks-TCHÊINDJ MÂ-ni?"
   },
   {
    "en": "What's the exchange rate today?",
    "pt": "Qual é a cotação hoje?",
    "sub": "Câmbio e caixa",
-   "level": 2
+   "level": 2,
+   "pron": "uâts dhi iks-TCHÊINDJ RÊIT tu-DÊI?"
   },
   {
    "en": "I'd like to change reais into dollars.",
    "pt": "Eu gostaria de trocar reais por dólares.",
    "sub": "Câmbio e caixa",
-   "level": 3
+   "level": 3,
+   "pron": "aid láik tu TCHÊINDJ rê-ÁIS ÍN-tu DÓ-lârz."
   },
   {
    "en": "Is there a commission fee?",
    "pt": "Tem taxa de comissão?",
    "sub": "Câmbio e caixa",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â kâ-MÍ-xân FÍ?"
   },
   {
    "en": "Can I have some small bills?",
    "pt": "Pode me dar notas pequenas?",
    "sub": "Câmbio e caixa",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai rév sâm SMÓL BÍLZ?"
   },
   {
    "en": "Where is the nearest ATM?",
    "pt": "Onde fica o caixa eletrônico mais próximo?",
    "sub": "Câmbio e caixa",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz dhâ NÍR-rist êi-ti-ÉM?"
   },
   {
    "en": "My card was declined.",
    "pt": "Meu cartão foi recusado.",
    "sub": "Problemas com cartão",
-   "level": 2
+   "level": 2,
+   "pron": "mai KÁRD uóz di-KLÁIND."
   },
   {
    "en": "Can you try again, please?",
    "pt": "Pode tentar de novo, por favor?",
    "sub": "Problemas com cartão",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu TRÁI â-GUÉN, pliiz?"
   },
   {
    "en": "The ATM kept my card.",
    "pt": "O caixa eletrônico engoliu meu cartão.",
    "sub": "Problemas com cartão",
-   "level": 2
+   "level": 2,
+   "pron": "dhi êi-ti-ÉM KÉPT mai KÁRD."
   },
   {
    "en": "I was charged twice.",
    "pt": "Fui cobrado duas vezes.",
    "sub": "Problemas com cartão",
-   "level": 2
+   "level": 2,
+   "pron": "ai uóz TCHÁRDJD TUÁIS."
   },
   {
    "en": "The machine isn't giving me any money.",
    "pt": "A máquina não está liberando o dinheiro.",
    "sub": "Problemas com cartão",
-   "level": 3
+   "level": 3,
+   "pron": "dhâ mâ-XÍN ÍZ-ânt GUÍ-vin mi É-ni MÂ-ni."
   },
   {
    "en": "Can I use a different card?",
    "pt": "Posso usar outro cartão?",
    "sub": "Problemas com cartão",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai iuz â DÍ-fe-rent KÁRD?"
   }
  ]
 }

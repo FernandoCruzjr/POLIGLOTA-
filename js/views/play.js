@@ -23,6 +23,8 @@ export function render(root) {
     <div class="play-grid">
       <a class="card play-tile" href="#/kids"><span class="quick-emoji">🎈</span><strong>Área Kids</strong><span class="muted small">Bichos com som, cores, números e a casa</span></a>
       <a class="card play-tile" href="#/fala"><span class="quick-emoji">🗣️</span><strong>Treino de fala</strong><span class="muted small">Shadowing com gravação da voz</span></a>
+      <a class="card play-tile" href="#/frases"><span class="quick-emoji">🧩</span><strong>Frases que se encaixam</strong><span class="muted small">Where is the…? Can I have…?</span></a>
+      <a class="card play-tile" href="#/favoritas"><span class="quick-emoji">⭐</span><strong>Minhas favoritas</strong><span class="muted small">As frases que você guardou</span></a>
       <a class="card play-tile" href="#/plano"><span class="quick-emoji">🧭</span><strong>Meu plano</strong><span class="muted small">Rotina de 30 min e micro-hábitos</span></a>
       <a class="card play-tile" href="#/quiz/misto"><span class="quick-emoji">🎲</span><strong>Quiz misturado</strong><span class="muted small">10 palavras de vários temas</span></a>
       <a class="card play-tile" href="#/revisao"><span class="quick-emoji">🔄</span><strong>Revisão</strong><span class="muted small">${due ? `${plural(due, 'palavra', 'palavras')} para hoje` : 'Reforce o que já estudou'}</span></a>

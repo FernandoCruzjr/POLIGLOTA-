@@ -101,6 +101,8 @@ export function render(root) {
       <a class="card quick" href="#/ranking"><span class="quick-emoji">🏆</span><span><strong>Ranking</strong><span class="muted small">Veja sua posição</span></span></a>
       <a class="card quick" href="#/fala"><span class="quick-emoji">🗣️</span><span><strong>Treino de fala</strong><span class="muted small">Ouça, repita, grave</span></span></a>
       <a class="card quick" href="#/kids"><span class="quick-emoji">🎈</span><span><strong>Área Kids</strong><span class="muted small">Bichos, cores, casa</span></span></a>
+      <a class="card quick" href="#/frases"><span class="quick-emoji">🧩</span><span><strong>Where is / Can I have</strong><span class="muted small">Troque o final da frase</span></span></a>
+      <a class="card quick" href="#/favoritas"><span class="quick-emoji">⭐</span><span><strong>Favoritas</strong><span class="muted small">Suas frases guardadas</span></span></a>
     </div>
 
     <div class="grid-2">

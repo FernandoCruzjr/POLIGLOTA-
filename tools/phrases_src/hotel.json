@@ -7,306 +7,356 @@
    "en": "I have a reservation.",
    "pt": "Eu tenho uma reserva.",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév â ré-zâr-VÊI-xân."
   },
   {
    "en": "The reservation is under my name.",
    "pt": "A reserva está no meu nome.",
    "sub": "Check-in",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ ré-zâr-VÊI-xân iz ÂN-dâr mai NÊIM."
   },
   {
    "en": "I'd like to check in, please.",
    "pt": "Eu gostaria de fazer o check-in, por favor.",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "aid láik tu tchék ÍN, pliiz."
   },
   {
    "en": "What time is check-in?",
    "pt": "Que horas é o check-in?",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM iz TCHÉK-in?"
   },
   {
    "en": "Is it possible to check in a little earlier?",
    "pt": "É possível fazer o check-in um pouco mais cedo?",
    "sub": "Check-in",
-   "level": 3
+   "level": 3,
+   "pron": "iz it PÓ-si-bâl tu tchék ÍN â LÍ-dâl ÂR-li-âr?"
   },
   {
    "en": "May I have your name, please?",
    "pt": "Qual é o seu nome, por favor?",
    "sub": "Check-in",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "mêi ai rév iór NÊIM, pliiz?"
   },
   {
    "en": "I booked a double room for three nights.",
    "pt": "Reservei um quarto de casal para três noites.",
    "sub": "Check-in",
-   "level": 3
+   "level": 3,
+   "pron": "ai BUKT â DÂ-bâl RUUM for THRII NÁITS."
   },
   {
    "en": "Do you have any rooms available tonight?",
    "pt": "Vocês têm quartos disponíveis para hoje à noite?",
    "sub": "Check-in",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév É-ni RUUMZ â-VÊI-lâ-bâl tu-NÁIT?"
   },
   {
    "en": "How much is it per night?",
    "pt": "Quanto é a diária?",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "ráu mâtch iz it pâr NÁIT?"
   },
   {
    "en": "Is breakfast included?",
    "pt": "O café da manhã está incluído?",
    "sub": "Check-in",
-   "level": 1
+   "level": 1,
+   "pron": "iz BRÉK-fâst in-KLUU-did?"
   },
   {
    "en": "Can I see your ID and a credit card?",
    "pt": "Posso ver seu documento e um cartão de crédito?",
    "sub": "Check-in",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "kén ai sii iór ai-DII énd â KRÉ-dit KÁRD?"
   },
   {
    "en": "What floor is my room on?",
    "pt": "Em que andar fica meu quarto?",
    "sub": "No quarto",
-   "level": 1
+   "level": 1,
+   "pron": "uât FLÓR iz mai RUUM ón?"
   },
   {
    "en": "Here is your key card.",
    "pt": "Aqui está o seu cartão do quarto.",
    "sub": "No quarto",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "ríir iz iór KII kárd."
   },
   {
    "en": "My key card doesn't work.",
    "pt": "Meu cartão do quarto não funciona.",
    "sub": "No quarto",
-   "level": 1
+   "level": 1,
+   "pron": "mai KII kárd DÂ-zânt UÂRK."
   },
   {
    "en": "What's the Wi-Fi password?",
    "pt": "Qual é a senha do Wi-Fi?",
    "sub": "No quarto",
-   "level": 1
+   "level": 1,
+   "pron": "uâts dhâ UÁI-fai PÉS-uârd?"
   },
   {
    "en": "Is there a safe in the room?",
    "pt": "Tem cofre no quarto?",
    "sub": "No quarto",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â SÊIF in dhâ RUUM?"
   },
   {
    "en": "How do I use the safe?",
    "pt": "Como eu uso o cofre?",
    "sub": "No quarto",
-   "level": 2
+   "level": 2,
+   "pron": "ráu du ai IUUZ dhâ SÊIF?"
   },
   {
    "en": "Could we have a room with two beds?",
    "pt": "Podemos ficar em um quarto com duas camas?",
    "sub": "No quarto",
-   "level": 2
+   "level": 2,
+   "pron": "kud uí rév â RUUM uídh TUU BÉDZ?"
   },
   {
    "en": "Can I have a quieter room, please?",
    "pt": "Pode me dar um quarto mais silencioso, por favor?",
    "sub": "No quarto",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai rév â KUÁI-â-dâr RUUM, pliiz?"
   },
   {
    "en": "The air conditioning isn't working.",
    "pt": "O ar-condicionado não está funcionando.",
    "sub": "Problemas",
-   "level": 1
+   "level": 1,
+   "pron": "dhi ÉR kân-DÍ-xâ-nin ÍZ-ânt UÂR-kin."
   },
   {
    "en": "There's no hot water, and the shower is very weak.",
    "pt": "Não tem água quente, e o chuveiro está muito fraco.",
    "sub": "Problemas",
-   "level": 3
+   "level": 3,
+   "pron": "dhérz nou RÓT UÓ-dâr, énd dhâ XÁU-âr iz VÉ-ri UIIK."
   },
   {
    "en": "The Wi-Fi isn't working in my room.",
    "pt": "O Wi-Fi não está funcionando no meu quarto.",
    "sub": "Problemas",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ UÁI-fai ÍZ-ânt UÂR-kin in mai RUUM."
   },
   {
    "en": "Could I change rooms? It's too noisy here.",
    "pt": "Posso trocar de quarto? Aqui está barulhento demais.",
    "sub": "Problemas",
-   "level": 3
+   "level": 3,
+   "pron": "kud ai TCHÊINDJ RUUMZ? its tuu NÓI-zi ríir."
   },
   {
    "en": "The toilet isn't flushing.",
    "pt": "A descarga não está funcionando.",
    "sub": "Problemas",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ TÓI-lât ÍZ-ânt FLÂ-xin."
   },
   {
    "en": "The TV doesn't turn on.",
    "pt": "A TV não liga.",
    "sub": "Problemas",
-   "level": 1
+   "level": 1,
+   "pron": "dhâ tii-VII DÂ-zânt târn ÓN."
   },
   {
    "en": "Could someone come and fix it, please?",
    "pt": "Alguém pode vir consertar, por favor?",
    "sub": "Problemas",
-   "level": 2
+   "level": 2,
+   "pron": "kud SÂM-uân kâm énd FÍKS it, pliiz?"
   },
   {
    "en": "The room wasn't cleaned today.",
    "pt": "O quarto não foi limpo hoje.",
    "sub": "Problemas",
-   "level": 2
+   "level": 2,
+   "pron": "dhâ RUUM UÓ-zânt KLIIND tu-DÊI."
   },
   {
    "en": "I'm locked out of my room.",
    "pt": "Deixei a chave dentro e não consigo entrar no quarto.",
    "sub": "Problemas",
-   "level": 2
+   "level": 2,
+   "pron": "aim LÓKT áut âv mai RUUM."
   },
   {
    "en": "Can I have more towels, please?",
    "pt": "Pode me dar mais toalhas, por favor?",
    "sub": "Serviços",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai rév MÓR TÁU-âlz, pliiz?"
   },
   {
    "en": "Can I get an extra pillow?",
    "pt": "Pode me dar um travesseiro extra?",
    "sub": "Serviços",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai guét ân ÉKS-trâ PÍ-lou?"
   },
   {
    "en": "What time is breakfast?",
    "pt": "Que horas é o café da manhã?",
    "sub": "Serviços",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM iz BRÉK-fâst?"
   },
   {
    "en": "Where is breakfast served?",
    "pt": "Onde é servido o café da manhã?",
    "sub": "Serviços",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz BRÉK-fâst SÂRVD?"
   },
   {
    "en": "Is there a gym or a pool?",
    "pt": "Tem academia ou piscina?",
    "sub": "Serviços",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â DJÍM or â PUUL?"
   },
   {
    "en": "Can you call a taxi for me?",
    "pt": "Você pode chamar um táxi para mim?",
    "sub": "Serviços",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu KÓL â TÉK-si for mi?"
   },
   {
    "en": "Could I have a wake-up call at seven tomorrow?",
    "pt": "Pode me ligar às sete amanhã para me acordar?",
    "sub": "Serviços",
-   "level": 3
+   "level": 3,
+   "pron": "kud ai rév â UÊIK-âp kól ét SÉ-vân tu-MÓ-rou?"
   },
   {
    "en": "Do you have an adapter for this plug?",
    "pt": "Vocês têm um adaptador para esta tomada?",
    "sub": "Serviços",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév ân â-DÉP-târ for dhis PLÂG?"
   },
   {
    "en": "Is there a pharmacy near the hotel?",
    "pt": "Tem uma farmácia perto do hotel?",
    "sub": "Serviços",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â FÁR-mâ-si níir dhâ rou-TÉL?"
   },
   {
    "en": "Could you recommend a good restaurant nearby?",
    "pt": "Você pode recomendar um bom restaurante aqui perto?",
    "sub": "Serviços",
-   "level": 3
+   "level": 3,
+   "pron": "kud iu ré-kâ-MÉND â gud RÉS-tâ-rânt níir-BÁI?"
   },
   {
    "en": "How do I get to the city center from here?",
    "pt": "Como eu chego ao centro da cidade daqui?",
    "sub": "Serviços",
-   "level": 3
+   "level": 3,
+   "pron": "ráu du ai GUÉT tu dhâ SÍ-di SÉN-târ frâm RÍIR?"
   },
   {
    "en": "I'd like to check out, please.",
    "pt": "Eu gostaria de fazer o check-out, por favor.",
    "sub": "Check-out",
-   "level": 1
+   "level": 1,
+   "pron": "aid láik tu tchék ÁUT, pliiz."
   },
   {
    "en": "What time is check-out?",
    "pt": "Que horas é o check-out?",
    "sub": "Check-out",
-   "level": 1
+   "level": 1,
+   "pron": "uât TÁIM iz TCHÉK-áut?"
   },
   {
    "en": "Can I have a late check-out?",
    "pt": "Posso fazer o check-out mais tarde?",
    "sub": "Check-out",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai rév â LÊIT TCHÉK-áut?"
   },
   {
    "en": "Can I leave my bags here until three?",
    "pt": "Posso deixar minhas malas aqui até as três?",
    "sub": "Check-out",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai LIIV mai BÉGZ ríir ân-TÍL THRII?"
   },
   {
    "en": "I'd like to pick up my bags, please.",
    "pt": "Eu gostaria de pegar minhas malas, por favor.",
    "sub": "Check-out",
-   "level": 2
+   "level": 2,
+   "pron": "aid láik tu pik ÂP mai BÉGZ, pliiz."
   },
   {
    "en": "Did you take anything from the minibar?",
    "pt": "Você consumiu algo do frigobar?",
    "sub": "Check-out",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "did iu TÊIK É-ni-thin frâm dhâ MÍ-ni-bár?"
   },
   {
    "en": "I think there's a mistake on the bill. I didn't use the minibar.",
    "pt": "Acho que tem um erro na conta. Eu não usei o frigobar.",
    "sub": "Check-out",
-   "level": 3
+   "level": 3,
+   "pron": "ai THÍNK dhérz â mis-TÊIK ón dhâ BÍL. ai DÍ-dânt IUUZ dhâ MÍ-ni-bár."
   },
   {
    "en": "Can you print the receipt, please?",
    "pt": "Pode imprimir o recibo, por favor?",
    "sub": "Check-out",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu PRÍNT dhâ ri-SIIT, pliiz?"
   },
   {
    "en": "How was your stay?",
    "pt": "Como foi a sua estadia?",
    "sub": "Check-out",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "ráu uâz iór STÊI?"
   },
   {
    "en": "Everything was great, thank you.",
    "pt": "Foi tudo ótimo, obrigado(a).",
    "sub": "Check-out",
-   "level": 1
+   "level": 1,
+   "pron": "É-vri-thin uâz GRÊIT, THÉNK iu."
   },
   {
    "en": "Could you keep my bags until my flight this evening?",
    "pt": "Vocês podem guardar minhas malas até o meu voo hoje à noite?",
    "sub": "Check-out",
-   "level": 3
+   "level": 3,
+   "pron": "kud iu KIIP mai BÉGZ ân-TÍL mai FLÁIT dhis IIV-nin?"
   }
  ]
 }

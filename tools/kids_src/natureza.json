@@ -1,0 +1,493 @@
+{
+ "items": [
+  {
+   "emoji": "🌳",
+   "en": "tree",
+   "pt": "árvore",
+   "pron": "TRÍ",
+   "say": "The tree is tall.",
+   "sayPt": "A árvore é alta."
+  },
+  {
+   "emoji": "🌸",
+   "en": "flower",
+   "pt": "flor",
+   "pron": "FLÁU-er",
+   "say": "I give you a flower.",
+   "sayPt": "Eu te dou uma flor."
+  },
+  {
+   "emoji": "🍃",
+   "en": "leaf",
+   "pt": "folha",
+   "pron": "LÍF",
+   "say": "The leaf is green.",
+   "sayPt": "A folha é verde."
+  },
+  {
+   "emoji": "🌿",
+   "en": "grass",
+   "pt": "grama",
+   "pron": "GRÉS",
+   "say": "The grass is soft.",
+   "sayPt": "A grama é macia."
+  },
+  {
+   "emoji": "⛰️",
+   "en": "mountain",
+   "pt": "montanha",
+   "pron": "MÁUN-ten",
+   "say": "The mountain is high.",
+   "sayPt": "A montanha é alta."
+  },
+  {
+   "emoji": "🏔️",
+   "en": "snowy mountain",
+   "pt": "montanha com neve",
+   "pron": "SNÔU-i MÁUN-ten",
+   "say": "The snowy mountain is white.",
+   "sayPt": "A montanha com neve é branca."
+  },
+  {
+   "emoji": "🌋",
+   "en": "volcano",
+   "pt": "vulcão",
+   "pron": "vól-KÊI-nou",
+   "say": "The volcano is hot.",
+   "sayPt": "O vulcão é quente."
+  },
+  {
+   "emoji": "🏞️",
+   "en": "river",
+   "pt": "rio",
+   "pron": "RÍ-ver",
+   "say": "The river is long.",
+   "sayPt": "O rio é comprido."
+  },
+  {
+   "emoji": "🛶",
+   "en": "lake",
+   "pt": "lago",
+   "pron": "LÊIK",
+   "say": "We swim in the lake.",
+   "sayPt": "Nós nadamos no lago."
+  },
+  {
+   "emoji": "🌊",
+   "en": "sea",
+   "pt": "mar",
+   "pron": "SÍ",
+   "say": "The sea is blue.",
+   "sayPt": "O mar é azul."
+  },
+  {
+   "emoji": "🐋",
+   "en": "ocean",
+   "pt": "oceano",
+   "pron": "ÔU-shan",
+   "say": "Whales live in the ocean.",
+   "sayPt": "As baleias vivem no oceano."
+  },
+  {
+   "emoji": "🏄",
+   "en": "wave",
+   "pt": "onda",
+   "pron": "UÊIV",
+   "say": "The wave is big!",
+   "sayPt": "A onda é grande!"
+  },
+  {
+   "emoji": "⛱️",
+   "en": "beach",
+   "pt": "praia",
+   "pron": "BÍTCH",
+   "say": "We play on the beach.",
+   "sayPt": "Nós brincamos na praia."
+  },
+  {
+   "emoji": "🏖️",
+   "en": "sand",
+   "pt": "areia",
+   "pron": "SÉND",
+   "say": "The sand is hot.",
+   "sayPt": "A areia está quente."
+  },
+  {
+   "emoji": "🏝️",
+   "en": "island",
+   "pt": "ilha",
+   "pron": "ÁI-land",
+   "say": "The island is small.",
+   "sayPt": "A ilha é pequena."
+  },
+  {
+   "emoji": "🏜️",
+   "en": "desert",
+   "pt": "deserto",
+   "pron": "DÉ-zert",
+   "say": "The desert is dry.",
+   "sayPt": "O deserto é seco."
+  },
+  {
+   "emoji": "🌲",
+   "en": "forest",
+   "pt": "floresta",
+   "pron": "FÓ-rest",
+   "say": "Many animals live in the forest.",
+   "sayPt": "Muitos animais vivem na floresta."
+  },
+  {
+   "emoji": "🐒",
+   "en": "jungle",
+   "pt": "selva",
+   "pron": "DJÂN-gol",
+   "say": "Monkeys live in the jungle.",
+   "sayPt": "Macacos vivem na selva."
+  },
+  {
+   "emoji": "🌌",
+   "en": "sky",
+   "pt": "céu",
+   "pron": "SKÁI",
+   "say": "The sky is full of stars.",
+   "sayPt": "O céu está cheio de estrelas."
+  },
+  {
+   "emoji": "⭐",
+   "en": "star",
+   "pt": "estrela",
+   "pron": "STÁR",
+   "say": "I see a star.",
+   "sayPt": "Eu vejo uma estrela."
+  },
+  {
+   "emoji": "🌙",
+   "en": "moon",
+   "pt": "lua",
+   "pron": "MUN",
+   "say": "The moon is bright.",
+   "sayPt": "A lua está brilhante."
+  },
+  {
+   "emoji": "☀️",
+   "en": "sun",
+   "pt": "sol",
+   "pron": "SÂN",
+   "say": "The sun is shining.",
+   "sayPt": "O sol está brilhando."
+  },
+  {
+   "emoji": "🪐",
+   "en": "planet",
+   "pt": "planeta",
+   "pron": "PLÉ-net",
+   "say": "Saturn is a planet.",
+   "sayPt": "Saturno é um planeta."
+  },
+  {
+   "emoji": "🌍",
+   "en": "earth",
+   "pt": "Terra (planeta)",
+   "pron": "ÊRTH",
+   "say": "We live on Earth.",
+   "sayPt": "Nós vivemos na Terra."
+  },
+  {
+   "emoji": "🌐",
+   "en": "world",
+   "pt": "mundo",
+   "pron": "UÂRLD",
+   "say": "The world is big.",
+   "sayPt": "O mundo é grande."
+  },
+  {
+   "emoji": "🪨",
+   "en": "rock",
+   "pt": "pedra",
+   "pron": "RÓK",
+   "say": "This rock is heavy.",
+   "sayPt": "Esta pedra é pesada."
+  },
+  {
+   "emoji": "🟫",
+   "en": "dirt",
+   "pt": "terra (chão)",
+   "pron": "DÂRT",
+   "say": "The worm is in the dirt.",
+   "sayPt": "A minhoca está na terra."
+  },
+  {
+   "emoji": "💦",
+   "label": "CACHOEIRA",
+   "en": "waterfall",
+   "pt": "cachoeira",
+   "pron": "UÓ-ter-fól",
+   "say": "The waterfall is beautiful.",
+   "sayPt": "A cachoeira é linda."
+  },
+  {
+   "emoji": "🦇",
+   "en": "cave",
+   "pt": "caverna",
+   "pron": "KÊIV",
+   "say": "Bats live in the cave.",
+   "sayPt": "Morcegos vivem na caverna."
+  },
+  {
+   "emoji": "🌾",
+   "en": "field",
+   "pt": "campo",
+   "pron": "FÍLD",
+   "say": "The horse runs in the field.",
+   "sayPt": "O cavalo corre no campo."
+  },
+  {
+   "emoji": "🏡",
+   "en": "garden",
+   "pt": "jardim",
+   "pron": "GÁR-den",
+   "say": "Grandma has a garden.",
+   "sayPt": "A vovó tem um jardim."
+  },
+  {
+   "emoji": "🌰",
+   "en": "seed",
+   "pt": "semente",
+   "pron": "SÍD",
+   "say": "Plant the seed.",
+   "sayPt": "Plante a semente."
+  },
+  {
+   "emoji": "🌱",
+   "en": "plant",
+   "pt": "planta",
+   "pron": "PLÉNT",
+   "say": "The plant needs water.",
+   "sayPt": "A planta precisa de água."
+  },
+  {
+   "emoji": "🍄",
+   "en": "mushroom",
+   "pt": "cogumelo",
+   "pron": "MÂSH-rum",
+   "say": "The mushroom is red.",
+   "sayPt": "O cogumelo é vermelho."
+  },
+  {
+   "emoji": "🌵",
+   "en": "cactus",
+   "pt": "cacto",
+   "pron": "KÉK-tâs",
+   "say": "Don't touch the cactus!",
+   "sayPt": "Não toque no cacto!"
+  },
+  {
+   "emoji": "🌴",
+   "en": "palm tree",
+   "pt": "palmeira",
+   "pron": "PÁM trí",
+   "say": "The palm tree is tall.",
+   "sayPt": "A palmeira é alta."
+  },
+  {
+   "emoji": "🔥",
+   "en": "fire",
+   "pt": "fogo",
+   "pron": "FÁI-er",
+   "say": "The fire is hot.",
+   "sayPt": "O fogo é quente."
+  },
+  {
+   "emoji": "💧",
+   "en": "water",
+   "pt": "água",
+   "pron": "UÓ-ter",
+   "say": "Plants need water.",
+   "sayPt": "As plantas precisam de água."
+  },
+  {
+   "emoji": "💨",
+   "en": "air",
+   "pt": "ar",
+   "pron": "ÉR",
+   "say": "We need clean air.",
+   "sayPt": "Nós precisamos de ar limpo."
+  },
+  {
+   "emoji": "🧊",
+   "en": "ice",
+   "pt": "gelo",
+   "pron": "ÁIS",
+   "say": "The ice is melting.",
+   "sayPt": "O gelo está derretendo."
+  },
+  {
+   "emoji": "❄️",
+   "en": "snow",
+   "pt": "neve",
+   "pron": "SNÔU",
+   "say": "The snow is white.",
+   "sayPt": "A neve é branca."
+  },
+  {
+   "emoji": "🌈",
+   "en": "rainbow",
+   "pt": "arco-íris",
+   "pron": "RÊIN-bou",
+   "say": "The rainbow has seven colors.",
+   "sayPt": "O arco-íris tem sete cores."
+  },
+  {
+   "emoji": "☁️",
+   "en": "cloud",
+   "pt": "nuvem",
+   "pron": "KLÁUD",
+   "say": "The cloud is white.",
+   "sayPt": "A nuvem é branca."
+  },
+  {
+   "emoji": "🌻",
+   "en": "sunflower",
+   "pt": "girassol",
+   "pron": "SÂN-flau-er",
+   "say": "The sunflower is yellow.",
+   "sayPt": "O girassol é amarelo."
+  },
+  {
+   "emoji": "🌹",
+   "en": "rose",
+   "pt": "rosa",
+   "pron": "RÔUZ",
+   "say": "This rose is red.",
+   "sayPt": "Esta rosa é vermelha."
+  },
+  {
+   "emoji": "🌷",
+   "en": "tulip",
+   "pt": "tulipa",
+   "pron": "TU-lip",
+   "say": "I like tulips.",
+   "sayPt": "Eu gosto de tulipas."
+  },
+  {
+   "emoji": "🪵",
+   "en": "wood",
+   "pt": "madeira",
+   "pron": "UÚD",
+   "say": "The table is made of wood.",
+   "sayPt": "A mesa é de madeira."
+  },
+  {
+   "emoji": "🌅",
+   "en": "sunrise",
+   "pt": "nascer do sol",
+   "pron": "SÂN-raiz",
+   "say": "The sunrise is orange.",
+   "sayPt": "O nascer do sol é laranja."
+  },
+  {
+   "emoji": "🌇",
+   "en": "sunset",
+   "pt": "pôr do sol",
+   "pron": "SÂN-set",
+   "say": "Let's watch the sunset.",
+   "sayPt": "Vamos ver o pôr do sol."
+  },
+  {
+   "emoji": "☄️",
+   "en": "comet",
+   "pt": "cometa",
+   "pron": "KÓ-met",
+   "say": "Look, a comet!",
+   "sayPt": "Olha, um cometa!"
+  },
+  {
+   "emoji": "🌠",
+   "en": "shooting star",
+   "pt": "estrela cadente",
+   "pron": "SHU-tin stár",
+   "say": "Make a wish on a shooting star.",
+   "sayPt": "Faça um pedido à estrela cadente."
+  },
+  {
+   "emoji": "🐚",
+   "en": "shell",
+   "pt": "concha",
+   "pron": "SHÉL",
+   "say": "I find a shell on the beach.",
+   "sayPt": "Eu acho uma concha na praia."
+  },
+  {
+   "emoji": "🍀",
+   "en": "clover",
+   "pt": "trevo",
+   "pron": "KLÔU-ver",
+   "say": "A clover is lucky.",
+   "sayPt": "O trevo dá sorte."
+  },
+  {
+   "emoji": "🍂",
+   "en": "dry leaf",
+   "pt": "folha seca",
+   "pron": "drái LÍF",
+   "say": "The dry leaf is brown.",
+   "sayPt": "A folha seca é marrom."
+  },
+  {
+   "emoji": "🐦",
+   "en": "bird",
+   "pt": "pássaro",
+   "pron": "BÂRD",
+   "say": "The bird sings.",
+   "sayPt": "O pássaro canta."
+  },
+  {
+   "emoji": "🐟",
+   "en": "fish",
+   "pt": "peixe",
+   "pron": "FISH",
+   "say": "The fish swims in the river.",
+   "sayPt": "O peixe nada no rio."
+  },
+  {
+   "emoji": "🐞",
+   "en": "ladybug",
+   "pt": "joaninha",
+   "pron": "LÊI-di-bâg",
+   "say": "The ladybug is red.",
+   "sayPt": "A joaninha é vermelha."
+  },
+  {
+   "emoji": "🦋",
+   "en": "butterfly",
+   "pt": "borboleta",
+   "pron": "BÂ-ter-flai",
+   "say": "The butterfly is pretty.",
+   "sayPt": "A borboleta é bonita."
+  },
+  {
+   "emoji": "🐝",
+   "en": "bee",
+   "pt": "abelha",
+   "pron": "BÍ",
+   "say": "The bee makes honey.",
+   "sayPt": "A abelha faz mel."
+  },
+  {
+   "emoji": "♻️",
+   "en": "recycle",
+   "pt": "reciclar",
+   "pron": "ri-SÁI-kol",
+   "say": "Let's recycle the bottles!",
+   "sayPt": "Vamos reciclar as garrafas!"
+  },
+  {
+   "emoji": "🏕️",
+   "en": "nature",
+   "pt": "natureza",
+   "pron": "NÊI-tcher",
+   "say": "I love nature.",
+   "sayPt": "Eu amo a natureza."
+  }
+ ]
+}

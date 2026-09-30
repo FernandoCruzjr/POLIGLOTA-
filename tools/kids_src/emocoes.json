@@ -1,0 +1,332 @@
+{
+ "items": [
+  {
+   "emoji": "😀",
+   "en": "happy",
+   "pt": "feliz",
+   "pron": "RÉ-pi",
+   "say": "I am happy today.",
+   "sayPt": "Eu estou feliz hoje."
+  },
+  {
+   "emoji": "😢",
+   "en": "sad",
+   "pt": "triste",
+   "pron": "SÉD",
+   "say": "The boy is sad.",
+   "sayPt": "O menino está triste."
+  },
+  {
+   "emoji": "😠",
+   "en": "angry",
+   "pt": "bravo / com raiva",
+   "pron": "ÉN-gri",
+   "say": "Dad is angry.",
+   "sayPt": "O papai está bravo."
+  },
+  {
+   "emoji": "😨",
+   "en": "scared",
+   "pt": "com medo",
+   "pron": "SKÉRD",
+   "say": "I am scared of the dark.",
+   "sayPt": "Eu tenho medo do escuro."
+  },
+  {
+   "emoji": "😮",
+   "en": "surprised",
+   "pt": "surpreso",
+   "pron": "sur-PRÁIZD",
+   "say": "She is surprised!",
+   "sayPt": "Ela está surpresa!"
+  },
+  {
+   "emoji": "😩",
+   "en": "tired",
+   "pt": "cansado",
+   "pron": "TÁI-erd",
+   "say": "I am very tired.",
+   "sayPt": "Eu estou muito cansado."
+  },
+  {
+   "emoji": "😴",
+   "en": "sleepy",
+   "pt": "com sono",
+   "pron": "SLÍ-pi",
+   "say": "The baby is sleepy.",
+   "sayPt": "O bebê está com sono."
+  },
+  {
+   "emoji": "🤩",
+   "en": "excited",
+   "pt": "animado",
+   "pron": "ek-SÁI-ted",
+   "say": "I am excited for the trip!",
+   "sayPt": "Estou animado para a viagem!"
+  },
+  {
+   "emoji": "🥱",
+   "en": "bored",
+   "pt": "entediado",
+   "pron": "BÓRD",
+   "say": "I am bored.",
+   "sayPt": "Eu estou entediado."
+  },
+  {
+   "emoji": "😬",
+   "en": "nervous",
+   "pt": "nervoso",
+   "pron": "NÊR-vâs",
+   "say": "I am nervous about the test.",
+   "sayPt": "Estou nervoso com a prova."
+  },
+  {
+   "emoji": "🙈",
+   "en": "shy",
+   "pt": "tímido",
+   "pron": "SHÁI",
+   "say": "My sister is shy.",
+   "sayPt": "Minha irmã é tímida."
+  },
+  {
+   "emoji": "😳",
+   "en": "embarrassed",
+   "pt": "envergonhado",
+   "pron": "em-BÉ-rast",
+   "say": "I am so embarrassed!",
+   "sayPt": "Estou muito envergonhado!"
+  },
+  {
+   "emoji": "🏅",
+   "en": "proud",
+   "pt": "orgulhoso",
+   "pron": "PRÁUD",
+   "say": "Mom is proud of me.",
+   "sayPt": "A mamãe tem orgulho de mim."
+  },
+  {
+   "emoji": "😌",
+   "en": "calm",
+   "pt": "calmo",
+   "pron": "KÁM",
+   "say": "Stay calm and breathe.",
+   "sayPt": "Fique calmo e respire."
+  },
+  {
+   "emoji": "😟",
+   "en": "worried",
+   "pt": "preocupado",
+   "pron": "UÂ-rid",
+   "say": "Grandma is worried.",
+   "sayPt": "A vovó está preocupada."
+  },
+  {
+   "emoji": "😕",
+   "en": "confused",
+   "pt": "confuso",
+   "pron": "kon-FIÚZD",
+   "say": "I am confused.",
+   "sayPt": "Eu estou confuso."
+  },
+  {
+   "emoji": "🤒",
+   "en": "sick",
+   "pt": "doente",
+   "pron": "SIK",
+   "say": "I am sick today.",
+   "sayPt": "Estou doente hoje."
+  },
+  {
+   "emoji": "🤤",
+   "en": "hungry",
+   "pt": "com fome",
+   "pron": "RÂN-gri",
+   "say": "I am hungry!",
+   "sayPt": "Estou com fome!"
+  },
+  {
+   "emoji": "🚰",
+   "en": "thirsty",
+   "pt": "com sede",
+   "pron": "THÂRS-ti",
+   "say": "I am thirsty.",
+   "sayPt": "Estou com sede."
+  },
+  {
+   "emoji": "❤️",
+   "en": "love",
+   "pt": "amor",
+   "pron": "LÂV",
+   "say": "I love my family.",
+   "sayPt": "Eu amo minha família."
+  },
+  {
+   "emoji": "😂",
+   "en": "laugh",
+   "pt": "rir",
+   "pron": "LÉF",
+   "say": "We laugh together.",
+   "sayPt": "Nós rimos juntos."
+  },
+  {
+   "emoji": "😭",
+   "en": "cry",
+   "pt": "chorar",
+   "pron": "KRÁI",
+   "say": "Don't cry, baby.",
+   "sayPt": "Não chore, bebê."
+  },
+  {
+   "emoji": "😊",
+   "en": "smile",
+   "pt": "sorriso / sorrir",
+   "pron": "SMÁIL",
+   "say": "What a nice smile!",
+   "sayPt": "Que sorriso bonito!"
+  },
+  {
+   "emoji": "😁",
+   "en": "I'm happy",
+   "pt": "Estou feliz",
+   "pron": "áim RÉ-pi",
+   "say": "I'm happy to see you.",
+   "sayPt": "Estou feliz em te ver."
+  },
+  {
+   "emoji": "😞",
+   "en": "I'm sad",
+   "pt": "Estou triste",
+   "pron": "áim SÉD",
+   "say": "I'm sad today.",
+   "sayPt": "Estou triste hoje."
+  },
+  {
+   "emoji": "🥰",
+   "en": "I love you",
+   "pt": "Eu te amo",
+   "pron": "ái LÂV iu",
+   "say": "I love you, Mom.",
+   "sayPt": "Eu te amo, mãe."
+  },
+  {
+   "emoji": "😒",
+   "en": "jealous",
+   "pt": "com ciúme",
+   "pron": "DJÉ-lâs",
+   "say": "My brother is jealous.",
+   "sayPt": "Meu irmão está com ciúme."
+  },
+  {
+   "emoji": "😔",
+   "en": "lonely",
+   "pt": "sozinho / solitário",
+   "pron": "LÔUN-li",
+   "say": "I feel lonely.",
+   "sayPt": "Eu me sinto sozinho."
+  },
+  {
+   "emoji": "🙏",
+   "en": "grateful",
+   "pt": "grato",
+   "pron": "GRÊIT-ful",
+   "say": "I am grateful.",
+   "sayPt": "Eu sou grato."
+  },
+  {
+   "emoji": "🦁",
+   "en": "brave",
+   "pt": "corajoso",
+   "pron": "BRÊIV",
+   "say": "You are so brave!",
+   "sayPt": "Você é muito corajoso!"
+  },
+  {
+   "emoji": "🤪",
+   "en": "silly",
+   "pt": "bobo / engraçado",
+   "pron": "SÍ-li",
+   "say": "Don't be silly!",
+   "sayPt": "Não seja bobo!"
+  },
+  {
+   "emoji": "🧘",
+   "en": "relaxed",
+   "pt": "relaxado",
+   "pron": "ri-LÉKST",
+   "say": "I feel relaxed.",
+   "sayPt": "Eu me sinto relaxado."
+  },
+  {
+   "emoji": "🤢",
+   "en": "disgusted",
+   "pt": "com nojo",
+   "pron": "dis-GÂS-ted",
+   "say": "I am disgusted!",
+   "sayPt": "Estou com nojo!"
+  },
+  {
+   "emoji": "🙄",
+   "en": "annoyed",
+   "pt": "irritado",
+   "pron": "a-NÓID",
+   "say": "She is annoyed.",
+   "sayPt": "Ela está irritada."
+  },
+  {
+   "emoji": "🧐",
+   "en": "curious",
+   "pt": "curioso",
+   "pron": "KIÚ-ri-âs",
+   "say": "The cat is curious.",
+   "sayPt": "O gato é curioso."
+  },
+  {
+   "emoji": "😍",
+   "en": "in love",
+   "pt": "apaixonado",
+   "pron": "in LÂV",
+   "say": "He is in love.",
+   "sayPt": "Ele está apaixonado."
+  },
+  {
+   "emoji": "🤕",
+   "en": "hurt",
+   "pt": "machucado",
+   "pron": "HÂRT",
+   "say": "My leg is hurt.",
+   "sayPt": "Minha perna está machucada."
+  },
+  {
+   "emoji": "🤗",
+   "en": "hug",
+   "pt": "abraço",
+   "pron": "RÂG",
+   "say": "Give me a hug!",
+   "sayPt": "Me dá um abraço!"
+  },
+  {
+   "emoji": "😱",
+   "en": "afraid",
+   "pt": "assustado",
+   "pron": "a-FRÊID",
+   "say": "Don't be afraid.",
+   "sayPt": "Não tenha medo."
+  },
+  {
+   "emoji": "🥳",
+   "en": "cheerful",
+   "pt": "alegre",
+   "pron": "TCHÍR-ful",
+   "say": "The party is cheerful.",
+   "sayPt": "A festa está alegre."
+  },
+  {
+   "emoji": "💭",
+   "en": "feeling",
+   "pt": "sentimento",
+   "pron": "FÍ-lin",
+   "say": "How are you feeling?",
+   "sayPt": "Como você está se sentindo?"
+  }
+ ]
+}

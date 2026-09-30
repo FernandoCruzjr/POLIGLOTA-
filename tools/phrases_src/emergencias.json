@@ -7,307 +7,357 @@
    "en": "Help!",
    "pt": "Socorro!",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "RÉLP!"
   },
   {
    "en": "Call an ambulance!",
    "pt": "Chame uma ambulância!",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "kól ân ÉM-biu-lâns!"
   },
   {
    "en": "Call the police!",
    "pt": "Chame a polícia!",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "kól dhâ pâ-LÍS!"
   },
   {
    "en": "It's an emergency.",
    "pt": "É uma emergência.",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "its ân i-MÂR-djen-si."
   },
   {
    "en": "Please help me.",
    "pt": "Por favor, me ajude.",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "pliiz RÉLP mi."
   },
   {
    "en": "What's the emergency number here?",
    "pt": "Qual é o número de emergência aqui?",
    "sub": "Socorro",
-   "level": 2
+   "level": 2,
+   "pron": "uâts dhi i-MÂR-djen-si NÂM-ber rír?"
   },
   {
    "en": "There's been an accident.",
    "pt": "Aconteceu um acidente.",
    "sub": "Socorro",
-   "level": 2
+   "level": 2,
+   "pron": "dhérz bín ân ÉK-si-dent."
   },
   {
    "en": "Someone is hurt.",
    "pt": "Tem uma pessoa machucada.",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "SÂM-uân iz RÂRT."
   },
   {
    "en": "Is anyone here a doctor?",
    "pt": "Alguém aqui é médico?",
    "sub": "Socorro",
-   "level": 2
+   "level": 2,
+   "pron": "iz É-ni-uân rír â DÓK-ter?"
   },
   {
    "en": "Stay calm, help is on the way.",
    "pt": "Fique calmo, a ajuda está a caminho.",
    "sub": "Socorro",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "stêi KÓM, RÉLP iz ón dhi UÊI."
   },
   {
    "en": "What's your location?",
    "pt": "Qual é a sua localização?",
    "sub": "Socorro",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uâts iór lôu-KÊI-xân?"
   },
   {
    "en": "Is anyone injured?",
    "pt": "Alguém está ferido?",
    "sub": "Socorro",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "iz É-ni-uân ÍN-djerd?"
   },
   {
    "en": "My child is missing.",
    "pt": "Meu filho sumiu.",
    "sub": "Socorro",
-   "level": 1
+   "level": 1,
+   "pron": "mai TCHÁILD iz MÍ-sin."
   },
   {
    "en": "I can't find my daughter.",
    "pt": "Não estou encontrando minha filha.",
    "sub": "Socorro",
-   "level": 2
+   "level": 2,
+   "pron": "aiként FÁIND mai DÓ-ter."
   },
   {
    "en": "He is six years old and wearing a red shirt.",
    "pt": "Ele tem seis anos e está de camiseta vermelha.",
    "sub": "Socorro",
-   "level": 3
+   "level": 3,
+   "pron": "ri iz SÍKS íerz ÔULD énd UÉ-rin â RÉD XÂRT."
   },
   {
    "en": "I don't feel well.",
    "pt": "Não estou me sentindo bem.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai dôunt FÍL UÉL."
   },
   {
    "en": "I have a headache.",
    "pt": "Estou com dor de cabeça.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév â RÉ-dêik."
   },
   {
    "en": "I have a fever.",
    "pt": "Estou com febre.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév â FÍ-ver."
   },
   {
    "en": "I have a stomach ache.",
    "pt": "Estou com dor de barriga.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév â STÂ-mâk êik."
   },
   {
    "en": "I feel dizzy.",
    "pt": "Estou tonto.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai fíl DÍ-zi."
   },
   {
    "en": "I'm allergic to peanuts.",
    "pt": "Sou alérgico a amendoim.",
    "sub": "Sintomas",
-   "level": 2
+   "level": 2,
+   "pron": "aim â-LÂR-djik tu PÍ-nâts."
   },
   {
    "en": "I think I have food poisoning.",
    "pt": "Acho que tive uma intoxicação alimentar.",
    "sub": "Sintomas",
-   "level": 2
+   "level": 2,
+   "pron": "ai THÍNK ai rév FÚD PÓI-zâ-nin."
   },
   {
    "en": "My throat hurts.",
    "pt": "Minha garganta está doendo.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "mai THRÔUT RÂRTS."
   },
   {
    "en": "I cut my hand.",
    "pt": "Cortei a mão.",
    "sub": "Sintomas",
-   "level": 1
+   "level": 1,
+   "pron": "ai KÂT mai RÉND."
   },
   {
    "en": "I think my ankle is broken.",
    "pt": "Acho que quebrei o tornozelo.",
    "sub": "Sintomas",
-   "level": 2
+   "level": 2,
+   "pron": "ai THÍNK mai ÉN-kâl iz BRÔU-kân."
   },
   {
    "en": "I've been throwing up since last night.",
    "pt": "Estou vomitando desde ontem à noite.",
    "sub": "Sintomas",
-   "level": 3
+   "level": 3,
+   "pron": "aiv bín THRÔU-in ÂP sins LÉST NÁIT."
   },
   {
    "en": "Where does it hurt?",
    "pt": "Onde dói?",
    "sub": "Sintomas",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uér dâz it RÂRT?"
   },
   {
    "en": "How long have you felt this way?",
    "pt": "Há quanto tempo você está assim?",
    "sub": "Sintomas",
    "level": 3,
-   "hear": true
+   "hear": true,
+   "pron": "ráu lóng rév iu FÉLT dhis uêi?"
   },
   {
    "en": "Where is the nearest hospital?",
    "pt": "Onde fica o hospital mais próximo?",
    "sub": "Farmácia e médico",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ NÍR-rist RÓS-pi-tol?"
   },
   {
    "en": "I need a doctor.",
    "pt": "Preciso de um médico.",
    "sub": "Farmácia e médico",
-   "level": 1
+   "level": 1,
+   "pron": "ai níd â DÓK-ter."
   },
   {
    "en": "I need something for a cold.",
    "pt": "Preciso de algo para gripe.",
    "sub": "Farmácia e médico",
-   "level": 2
+   "level": 2,
+   "pron": "ai níd SÂM-thin for â KÔULD."
   },
   {
    "en": "Do I need a prescription for this?",
    "pt": "Preciso de receita para isto?",
    "sub": "Farmácia e médico",
-   "level": 2
+   "level": 2,
+   "pron": "du ai níd â pri-SKRÍP-xân for dhis?"
   },
   {
    "en": "How many times a day should I take it?",
    "pt": "Quantas vezes por dia devo tomar?",
    "sub": "Farmácia e médico",
-   "level": 3
+   "level": 3,
+   "pron": "ráu MÉ-ni TÁIMZ â DÊI xud ai TÊIK it?"
   },
   {
    "en": "Is there a pharmacy open now?",
    "pt": "Tem alguma farmácia aberta agora?",
    "sub": "Farmácia e médico",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â FÁR-mâ-si ÔU-pen NÁU?"
   },
   {
    "en": "I have travel insurance.",
    "pt": "Eu tenho seguro-viagem.",
    "sub": "Farmácia e médico",
-   "level": 2
+   "level": 2,
+   "pron": "ai rév TRÉ-vel in-XU-râns."
   },
   {
    "en": "Can I have a medical report for my insurance?",
    "pt": "Pode me dar um relatório médico para o seguro?",
    "sub": "Farmácia e médico",
-   "level": 3
+   "level": 3,
+   "pron": "kén ai rév â MÉ-di-kol ri-PÓRT for mai in-XU-râns?"
   },
   {
    "en": "Do you have any allergies?",
    "pt": "Você tem alguma alergia?",
    "sub": "Farmácia e médico",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "du iu rév É-ni É-ler-djiz?"
   },
   {
    "en": "Is there a doctor who speaks Portuguese?",
    "pt": "Tem algum médico que fale português?",
    "sub": "Farmácia e médico",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhér â DÓK-ter ru SPÍKS PÓR-tchu-guíz?"
   },
   {
    "en": "I lost my passport.",
    "pt": "Perdi meu passaporte.",
    "sub": "Perdas e roubos",
-   "level": 1
+   "level": 1,
+   "pron": "ai LÓST mai PÉS-port."
   },
   {
    "en": "My wallet was stolen.",
    "pt": "Minha carteira foi roubada.",
    "sub": "Perdas e roubos",
-   "level": 2
+   "level": 2,
+   "pron": "mai UÓ-lit uóz STÔU-lân."
   },
   {
    "en": "I lost my phone.",
    "pt": "Perdi meu celular.",
    "sub": "Perdas e roubos",
-   "level": 1
+   "level": 1,
+   "pron": "ai LÓST mai FÔUN."
   },
   {
    "en": "Someone stole my bag.",
    "pt": "Alguém roubou minha bolsa.",
    "sub": "Perdas e roubos",
-   "level": 2
+   "level": 2,
+   "pron": "SÂM-uân STÔUL mai BÉG."
   },
   {
    "en": "Where is the police station?",
    "pt": "Onde fica a delegacia?",
    "sub": "Perdas e roubos",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz dhâ pâ-LÍS STÊI-xân?"
   },
   {
    "en": "I need to file a police report.",
    "pt": "Preciso fazer um boletim de ocorrência.",
    "sub": "Perdas e roubos",
-   "level": 3
+   "level": 3,
+   "pron": "ai níd tu FÁIL â pâ-LÍS ri-PÓRT."
   },
   {
    "en": "I need to cancel my credit card.",
    "pt": "Preciso cancelar meu cartão de crédito.",
    "sub": "Perdas e roubos",
-   "level": 2
+   "level": 2,
+   "pron": "ai níd tu KÉN-sol mai KRÉ-dit KÁRD."
   },
   {
    "en": "Is there a lost and found here?",
    "pt": "Tem achados e perdidos aqui?",
    "sub": "Perdas e roubos",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â LÓST énd FÁUND rír?"
   },
   {
    "en": "Where is the Brazilian consulate?",
    "pt": "Onde fica o consulado brasileiro?",
    "sub": "Embaixada e consulado",
-   "level": 2
+   "level": 2,
+   "pron": "uér iz dhâ bra-ZÍL-iân KÓN-su-lât?"
   },
   {
    "en": "I need to contact the Brazilian embassy.",
    "pt": "Preciso entrar em contato com a embaixada do Brasil.",
    "sub": "Embaixada e consulado",
-   "level": 3
+   "level": 3,
+   "pron": "ai níd tu KÓN-tékt dhâ bra-ZÍL-iân ÉM-bâ-si."
   },
   {
    "en": "I need an emergency travel document.",
    "pt": "Preciso de um documento de viagem de emergência.",
    "sub": "Embaixada e consulado",
-   "level": 3
+   "level": 3,
+   "pron": "ai níd ân i-MÂR-djen-si TRÉ-vel DÓ-kiu-ment."
   },
   {
    "en": "Can I call my family in Brazil?",
    "pt": "Posso ligar para minha família no Brasil?",
    "sub": "Embaixada e consulado",
-   "level": 3
+   "level": 3,
+   "pron": "kén ai kól mai FÉ-mi-li in bra-ZÍL?"
   }
  ]
 }

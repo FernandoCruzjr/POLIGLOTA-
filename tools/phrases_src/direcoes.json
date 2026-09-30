@@ -7,308 +7,358 @@
    "en": "Excuse me, where is the train station?",
    "pt": "Com licença, onde fica a estação de trem?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "iks-KIUZ mi, uér iz dhâ TRÊIN STÊI-xân?"
   },
   {
    "en": "Where is the bathroom?",
    "pt": "Onde fica o banheiro?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ BÉTH-rum?"
   },
   {
    "en": "Where is the nearest pharmacy?",
    "pt": "Onde fica a farmácia mais próxima?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ NÍR-rist FÁR-mâ-si?"
   },
   {
    "en": "Is there a supermarket near here?",
    "pt": "Tem um supermercado aqui perto?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â SU-per-már-kit nír RÍR?"
   },
   {
    "en": "Where is the bus stop?",
    "pt": "Onde fica o ponto de ônibus?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ BÂS stóp?"
   },
   {
    "en": "Where can I find an ATM?",
    "pt": "Onde encontro um caixa eletrônico?",
    "sub": "Onde fica",
-   "level": 2
+   "level": 2,
+   "pron": "uér kén ai FÁIND ân êi-ti-ÉM?"
   },
   {
    "en": "I'm looking for this address.",
    "pt": "Estou procurando este endereço.",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "aim LU-kin for dhis É-dres."
   },
   {
    "en": "Where is the main square?",
    "pt": "Onde fica a praça principal?",
    "sub": "Onde fica",
-   "level": 1
+   "level": 1,
+   "pron": "uér iz dhâ mêin SKUÉR?"
   },
   {
    "en": "Is there a subway station around here?",
    "pt": "Tem alguma estação de metrô por aqui?",
    "sub": "Onde fica",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhér â SÂB-uêi STÊI-xân â-RÁUND rír?"
   },
   {
    "en": "Which way is the city center?",
    "pt": "Para que lado fica o centro da cidade?",
    "sub": "Onde fica",
-   "level": 2
+   "level": 2,
+   "pron": "uítch uêi iz dhâ SÍ-ri SÉN-ter?"
   },
   {
    "en": "Is it far from here?",
    "pt": "É longe daqui?",
    "sub": "Perto ou longe",
-   "level": 1
+   "level": 1,
+   "pron": "iz it FÁR frâm RÍR?"
   },
   {
    "en": "Is it close?",
    "pt": "É perto?",
    "sub": "Perto ou longe",
-   "level": 1
+   "level": 1,
+   "pron": "iz it KLÔUS?"
   },
   {
    "en": "How long does it take to walk there?",
    "pt": "Quanto tempo leva para ir a pé até lá?",
    "sub": "Perto ou longe",
-   "level": 2
+   "level": 2,
+   "pron": "ráu lóng dâz it têik tu UÓK dhér?"
   },
   {
    "en": "Can I walk there?",
    "pt": "Dá para ir a pé?",
    "sub": "Perto ou longe",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai UÓK dhér?"
   },
   {
    "en": "Should I take a taxi or walk?",
    "pt": "É melhor pegar um táxi ou ir a pé?",
    "sub": "Perto ou longe",
-   "level": 2
+   "level": 2,
+   "pron": "xud ai têik â TÉK-si or UÓK?"
   },
   {
    "en": "How many blocks is it?",
    "pt": "São quantos quarteirões?",
    "sub": "Perto ou longe",
-   "level": 2
+   "level": 2,
+   "pron": "ráu MÉ-ni BLÓKS iz it?"
   },
   {
    "en": "Is it within walking distance of the hotel?",
    "pt": "Dá para ir a pé do hotel até lá?",
    "sub": "Perto ou longe",
-   "level": 3
+   "level": 3,
+   "pron": "iz it ui-DHÍN UÓ-kin DÍS-tâns âv dhâ rou-TÉL?"
   },
   {
    "en": "It's about ten minutes on foot.",
    "pt": "Fica a uns dez minutos a pé.",
    "sub": "Perto ou longe",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "its â-BÁUT TÉN MÍ-nits ón FUT."
   },
   {
    "en": "It's right around the corner.",
    "pt": "Fica logo ali na esquina.",
    "sub": "Perto ou longe",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "its RÁIT â-ráund dhâ KÓR-ner."
   },
   {
    "en": "How do I get to the museum?",
    "pt": "Como eu chego ao museu?",
    "sub": "Como chegar",
-   "level": 1
+   "level": 1,
+   "pron": "ráu du ai gét tu dhâ miu-ZÍ-âm?"
   },
   {
    "en": "Which bus goes to the beach?",
    "pt": "Qual ônibus vai para a praia?",
    "sub": "Como chegar",
-   "level": 2
+   "level": 2,
+   "pron": "uítch BÂS gôuz tu dhâ BÍTCH?"
   },
   {
    "en": "Is this the right way to the station?",
    "pt": "Este é o caminho certo para a estação?",
    "sub": "Como chegar",
-   "level": 2
+   "level": 2,
+   "pron": "iz dhis dhâ RÁIT uêi tu dhâ STÊI-xân?"
   },
   {
    "en": "What's the best way to get downtown?",
    "pt": "Qual é o melhor jeito de chegar ao centro?",
    "sub": "Como chegar",
-   "level": 2
+   "level": 2,
+   "pron": "uâts dhâ BÉST uêi tu gét DÁUN-táun?"
   },
   {
    "en": "Do I need to cross the street?",
    "pt": "Preciso atravessar a rua?",
    "sub": "Como chegar",
-   "level": 2
+   "level": 2,
+   "pron": "du ai níd tu KRÓS dhâ STRÍT?"
   },
   {
    "en": "Is there a shortcut?",
    "pt": "Tem algum atalho?",
    "sub": "Como chegar",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhér â XÓRT-kât?"
   },
   {
    "en": "Which exit should I take?",
    "pt": "Qual saída eu devo pegar?",
    "sub": "Como chegar",
-   "level": 2
+   "level": 2,
+   "pron": "uítch ÉG-zit xud ai têik?"
   },
   {
    "en": "Do I have to change trains to get there?",
    "pt": "Preciso trocar de trem para chegar lá?",
    "sub": "Como chegar",
-   "level": 3
+   "level": 3,
+   "pron": "du ai rév tu TCHÊINDJ TRÊINZ tu gét dhér?"
   },
   {
    "en": "Go straight ahead.",
    "pt": "Siga em frente.",
    "sub": "Entendendo a resposta",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "gôu STRÊIT â-RÉD."
   },
   {
    "en": "Turn left at the traffic light.",
    "pt": "Vire à esquerda no semáforo.",
    "sub": "Entendendo a resposta",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "târn LÉFT ét dhâ TRÉ-fik láit."
   },
   {
    "en": "Take the second right.",
    "pt": "Pegue a segunda à direita.",
    "sub": "Entendendo a resposta",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "têik dhâ SÉ-kând RÁIT."
   },
   {
    "en": "It's on your left.",
    "pt": "Fica à sua esquerda.",
    "sub": "Entendendo a resposta",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "its ón iór LÉFT."
   },
   {
    "en": "It's across from the bank.",
    "pt": "Fica em frente ao banco.",
    "sub": "Entendendo a resposta",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "its â-KRÓS frâm dhâ BÉNK."
   },
   {
    "en": "Left or right?",
    "pt": "Esquerda ou direita?",
    "sub": "Entendendo a resposta",
-   "level": 1
+   "level": 1,
+   "pron": "LÉFT or RÁIT?"
   },
   {
    "en": "So I turn right after the bridge?",
    "pt": "Então eu viro à direita depois da ponte?",
    "sub": "Entendendo a resposta",
-   "level": 3
+   "level": 3,
+   "pron": "sôu ai târn RÁIT ÉF-ter dhâ BRÍDJ?"
   },
   {
    "en": "Sorry, can you say that again more slowly?",
    "pt": "Desculpe, pode repetir mais devagar?",
    "sub": "Entendendo a resposta",
-   "level": 2
+   "level": 2,
+   "pron": "SÓ-ri, kén iu sêi dhét â-GUÉN mór SLÔU-li?"
   },
   {
    "en": "Is it before or after the church?",
    "pt": "É antes ou depois da igreja?",
    "sub": "Entendendo a resposta",
-   "level": 2
+   "level": 2,
+   "pron": "iz it bi-FÓR or ÉF-ter dhâ TCHÂRTCH?"
   },
   {
    "en": "I'm lost.",
    "pt": "Estou perdido.",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "aim LÓST."
   },
   {
    "en": "Can you help me, please?",
    "pt": "Você pode me ajudar, por favor?",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu RÉLP mi, pliiz?"
   },
   {
    "en": "Can you show me on the map?",
    "pt": "Você pode me mostrar no mapa?",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "kén iu XÔU mi ón dhâ MÉP?"
   },
   {
    "en": "Where are we on this map?",
    "pt": "Onde nós estamos neste mapa?",
    "sub": "Estou perdido",
-   "level": 2
+   "level": 2,
+   "pron": "uér ar uí ón dhis MÉP?"
   },
   {
    "en": "What street is this?",
    "pt": "Que rua é esta?",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "uât STRÍT iz dhis?"
   },
   {
    "en": "My phone has no signal.",
    "pt": "Meu celular está sem sinal.",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "mai FÔUN réz nôu SÍG-nâl."
   },
   {
    "en": "Do you have a free city map?",
    "pt": "Vocês têm um mapa da cidade grátis?",
    "sub": "Estou perdido",
-   "level": 2
+   "level": 2,
+   "pron": "du iu rév â FRÍ SÍ-ri MÉP?"
   },
   {
    "en": "I think I'm going the wrong way.",
    "pt": "Acho que estou indo pelo caminho errado.",
    "sub": "Estou perdido",
-   "level": 3
+   "level": 3,
+   "pron": "ai THÍNK aim GÔU-in dhâ RÓNG uêi."
   },
   {
    "en": "Can you write the address down for me?",
    "pt": "Pode anotar o endereço para mim?",
    "sub": "Estou perdido",
-   "level": 3
+   "level": 3,
+   "pron": "kén iu RÁIT dhi É-dres DÁUN for mi?"
   },
   {
    "en": "I can't find my hotel.",
    "pt": "Não estou encontrando meu hotel.",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "aiként FÁIND mai rou-TÉL."
   },
   {
    "en": "Is there a landmark I can look for?",
    "pt": "Tem algum ponto de referência que eu possa procurar?",
    "sub": "Estou perdido",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhér â LÉND-mark ai kén LUK for?"
   },
   {
    "en": "Is this neighborhood safe to walk at night?",
    "pt": "Este bairro é seguro para andar à noite?",
    "sub": "Estou perdido",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhis NÊI-bor-rud SÊIF tu UÓK ét NÁIT?"
   },
   {
    "en": "Could you point me in the right direction?",
    "pt": "Você poderia me indicar a direção certa?",
    "sub": "Estou perdido",
-   "level": 3
+   "level": 3,
+   "pron": "kud iu PÓINT mi in dhâ RÁIT di-RÉK-xân?"
   },
   {
    "en": "Thanks, that's very helpful!",
    "pt": "Obrigado, ajudou muito!",
    "sub": "Estou perdido",
-   "level": 1
+   "level": 1,
+   "pron": "THÉNKS, dhéts VÉ-ri RÉLP-ful!"
   }
  ]
 }

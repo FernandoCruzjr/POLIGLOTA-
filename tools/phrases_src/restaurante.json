@@ -7,307 +7,357 @@
    "en": "A table for two, please.",
    "pt": "Uma mesa para duas pessoas, por favor.",
    "sub": "Mesa",
-   "level": 1
+   "level": 1,
+   "pron": "â TÊI-bâl for TUU, pliiz."
   },
   {
    "en": "Do you have a reservation?",
    "pt": "Vocês têm reserva?",
    "sub": "Mesa",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "du iu rév â ré-zâr-VÊI-xân?"
   },
   {
    "en": "We have a reservation for four people at eight.",
    "pt": "Temos uma reserva para quatro pessoas às oito.",
    "sub": "Mesa",
-   "level": 3
+   "level": 3,
+   "pron": "uí rév â ré-zâr-VÊI-xân for FÓR PII-pâl ét ÊIT."
   },
   {
    "en": "How long is the wait for a table?",
    "pt": "Quanto tempo de espera por uma mesa?",
    "sub": "Mesa",
-   "level": 2
+   "level": 2,
+   "pron": "ráu LÓNG iz dhâ UÊIT for â TÊI-bâl?"
   },
   {
    "en": "Can we sit outside?",
    "pt": "Podemos sentar lá fora?",
    "sub": "Mesa",
-   "level": 1
+   "level": 1,
+   "pron": "kén uí sit áut-SÁID?"
   },
   {
    "en": "Could we have a quieter table, away from the door?",
    "pt": "Pode nos dar uma mesa mais tranquila, longe da porta?",
    "sub": "Mesa",
-   "level": 3
+   "level": 3,
+   "pron": "kud uí rév â KUÁI-â-dâr TÊI-bâl, â-UÊI frâm dhâ DÓR?"
   },
   {
    "en": "Can I see the menu, please?",
    "pt": "Posso ver o cardápio, por favor?",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai sii dhâ MÉ-niu, pliiz?"
   },
   {
    "en": "Are you ready to order?",
    "pt": "Vocês já querem pedir?",
    "sub": "Pedido",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "ár iu RÉ-di tu ÓR-dâr?"
   },
   {
    "en": "We need a few more minutes.",
    "pt": "Precisamos de mais alguns minutos.",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "uí niid â FIU MÓR MÍ-nits."
   },
   {
    "en": "What do you recommend?",
    "pt": "O que você recomenda?",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "uât du iu ré-kâ-MÉND?"
   },
   {
    "en": "I'll have this one, please.",
    "pt": "Vou querer este, por favor.",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "ail rév DHIS uân, pliiz."
   },
   {
    "en": "What does the steak come with?",
    "pt": "O que acompanha o bife?",
    "sub": "Pedido",
-   "level": 2
+   "level": 2,
+   "pron": "uât dâz dhâ STÊIK kâm UÍDH?"
   },
   {
    "en": "How would you like your steak?",
    "pt": "Qual o ponto da carne?",
    "sub": "Pedido",
    "level": 2,
-   "hear": true
+   "hear": true,
+   "pron": "ráu uud iu LÁIK iór STÊIK?"
   },
   {
    "en": "Medium rare, please.",
    "pt": "Ao ponto para mal passado, por favor.",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "MII-di-âm RÉR, pliiz."
   },
   {
    "en": "Well done, please.",
    "pt": "Bem passado, por favor.",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "uél DÂN, pliiz."
   },
   {
    "en": "Can I get the sauce on the side?",
    "pt": "Pode trazer o molho à parte?",
    "sub": "Pedido",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai guét dhâ SÓS ón dhâ SÁID?"
   },
   {
    "en": "Is this dish spicy?",
    "pt": "Este prato é apimentado?",
    "sub": "Pedido",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhis DÍX SPÁI-si?"
   },
   {
    "en": "What's the soup of the day?",
    "pt": "Qual é a sopa do dia?",
    "sub": "Pedido",
-   "level": 2
+   "level": 2,
+   "pron": "uâts dhâ SUUP âv dhâ DÊI?"
   },
   {
    "en": "Could I get a side salad instead of fries?",
    "pt": "Pode trocar a batata frita por uma salada?",
    "sub": "Pedido",
-   "level": 3
+   "level": 3,
+   "pron": "kud ai guét â SÁID SÉ-lâd in-STÉD âv FRÁIZ?"
   },
   {
    "en": "Anything else?",
    "pt": "Mais alguma coisa?",
    "sub": "Pedido",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "É-ni-thin ÉLS?"
   },
   {
    "en": "I'm vegetarian.",
    "pt": "Sou vegetariano(a).",
    "sub": "Dieta e alergias",
-   "level": 1
+   "level": 1,
+   "pron": "aim vé-dji-TÉ-ri-ân."
   },
   {
    "en": "Do you have vegetarian options?",
    "pt": "Vocês têm opções vegetarianas?",
    "sub": "Dieta e alergias",
-   "level": 1
+   "level": 1,
+   "pron": "du iu rév vé-dji-TÉ-ri-ân ÓP-xânz?"
   },
   {
    "en": "I have a peanut allergy.",
    "pt": "Tenho alergia a amendoim.",
    "sub": "Dieta e alergias",
-   "level": 1
+   "level": 1,
+   "pron": "ai rév â PII-nât É-lâr-dji."
   },
   {
    "en": "Does this have nuts in it?",
    "pt": "Isto tem castanhas?",
    "sub": "Dieta e alergias",
-   "level": 2
+   "level": 2,
+   "pron": "dâz dhis rév NÂTS in it?"
   },
   {
    "en": "Can you make it without cheese and onions, please?",
    "pt": "Pode fazer sem queijo e sem cebola, por favor?",
    "sub": "Dieta e alergias",
-   "level": 3
+   "level": 3,
+   "pron": "kén iu MÊIK it uí-DHÁUT TCHIIZ énd Â-niânz, pliiz?"
   },
   {
    "en": "Is this gluten-free?",
    "pt": "Isto é sem glúten?",
    "sub": "Dieta e alergias",
-   "level": 1
+   "level": 1,
+   "pron": "iz dhis GLUU-tân-FRII?"
   },
   {
    "en": "Please make sure there are no peanuts in my food.",
    "pt": "Por favor, garanta que não tenha amendoim na minha comida.",
    "sub": "Dieta e alergias",
-   "level": 3
+   "level": 3,
+   "pron": "pliiz mêik XÚR dhér ár NOU PII-nâts in mai FUUD."
   },
   {
    "en": "Just water, please.",
    "pt": "Só água, por favor.",
    "sub": "Bebidas e café",
-   "level": 1
+   "level": 1,
+   "pron": "djâst UÓ-dâr, pliiz."
   },
   {
    "en": "What would you like to drink?",
    "pt": "O que você gostaria de beber?",
    "sub": "Bebidas e café",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "uât uud iu láik tu DRÍNK?"
   },
   {
    "en": "Tap water is fine.",
    "pt": "Pode ser água da torneira.",
    "sub": "Bebidas e café",
-   "level": 2
+   "level": 2,
+   "pron": "TÉP uó-dâr iz FÁIN."
   },
   {
    "en": "Could I have a glass of the house red wine?",
    "pt": "Pode me trazer uma taça do vinho tinto da casa?",
    "sub": "Bebidas e café",
-   "level": 3
+   "level": 3,
+   "pron": "kud ai rév â GLÉS âv dhâ RÁUS réd UÁIN?"
   },
   {
    "en": "Are refills free?",
    "pt": "O refil é grátis?",
    "sub": "Bebidas e café",
-   "level": 2
+   "level": 2,
+   "pron": "ár RII-filz FRII?"
   },
   {
    "en": "No ice, please.",
    "pt": "Sem gelo, por favor.",
    "sub": "Bebidas e café",
-   "level": 1
+   "level": 1,
+   "pron": "nou ÁIS, pliiz."
   },
   {
    "en": "A large coffee with milk, please.",
    "pt": "Um café grande com leite, por favor.",
    "sub": "Bebidas e café",
-   "level": 1
+   "level": 1,
+   "pron": "â LÁRDJ KÓ-fi uídh MÍLK, pliiz."
   },
   {
    "en": "Can I get that to go?",
    "pt": "Pode ser para viagem?",
    "sub": "Bebidas e café",
-   "level": 1
+   "level": 1,
+   "pron": "kén ai guét dhét tu GÔU?"
   },
   {
    "en": "For here or to go?",
    "pt": "Para comer aqui ou para viagem?",
    "sub": "Bebidas e café",
    "level": 1,
-   "hear": true
+   "hear": true,
+   "pron": "for RÍIR or tu GÔU?"
   },
   {
    "en": "What kind of milk do you have?",
    "pt": "Que tipos de leite vocês têm?",
    "sub": "Bebidas e café",
-   "level": 2
+   "level": 2,
+   "pron": "uât KÁIND âv MÍLK du iu rév?"
   },
   {
    "en": "I'll take two of those croissants.",
    "pt": "Vou levar dois desses croissants.",
    "sub": "Bebidas e café",
-   "level": 2
+   "level": 2,
+   "pron": "ail têik TUU âv dhouz krâ-SÁNTS."
   },
   {
    "en": "Could I get a combo with a small drink?",
    "pt": "Pode ser um combo com uma bebida pequena?",
    "sub": "Bebidas e café",
-   "level": 3
+   "level": 3,
+   "pron": "kud ai guét â KÓM-bou uídh â SMÓL DRÍNK?"
   },
   {
    "en": "Can I have some extra napkins?",
    "pt": "Pode me dar mais guardanapos?",
    "sub": "Bebidas e café",
-   "level": 2
+   "level": 2,
+   "pron": "kén ai rév sâm ÉKS-trâ NÉP-kinz?"
   },
   {
    "en": "Can we have the check, please?",
    "pt": "Pode trazer a conta, por favor?",
    "sub": "Conta",
-   "level": 1
+   "level": 1,
+   "pron": "kén uí rév dhâ TCHÉK, pliiz?"
   },
   {
    "en": "Do you take credit cards?",
    "pt": "Vocês aceitam cartão de crédito?",
    "sub": "Conta",
-   "level": 1
+   "level": 1,
+   "pron": "du iu têik KRÉ-dit KÁRDZ?"
   },
   {
    "en": "Can we split the check?",
    "pt": "Podemos dividir a conta?",
    "sub": "Conta",
-   "level": 2
+   "level": 2,
+   "pron": "kén uí SPLÍT dhâ TCHÉK?"
   },
   {
    "en": "Is the tip included, or should I add it?",
    "pt": "A gorjeta está incluída ou devo adicionar?",
    "sub": "Conta",
-   "level": 3
+   "level": 3,
+   "pron": "iz dhâ TÍP in-KLUU-did, or xud ai ÉD it?"
   },
   {
    "en": "I think there's a mistake on the check.",
    "pt": "Acho que tem um erro na conta.",
    "sub": "Conta",
-   "level": 2
+   "level": 2,
+   "pron": "ai THÍNK dhérz â mis-TÊIK ón dhâ TCHÉK."
   },
   {
    "en": "Can I get a box for the leftovers?",
    "pt": "Pode me dar uma embalagem para levar o que sobrou?",
    "sub": "Conta",
-   "level": 3
+   "level": 3,
+   "pron": "kén ai guét â BÓKS for dhâ LÉFT-ou-vârz?"
   },
   {
    "en": "We'd like to pay separately, please.",
    "pt": "Gostaríamos de pagar separado, por favor.",
    "sub": "Conta",
-   "level": 2
+   "level": 2,
+   "pron": "uíd láik tu PÊI SÉ-prât-li, pliiz."
   },
   {
    "en": "Excuse me, this isn't what I ordered.",
    "pt": "Com licença, não foi isso que eu pedi.",
    "sub": "Reclamações",
-   "level": 2
+   "level": 2,
+   "pron": "iks-KIUZ mi, dhis ÍZ-ânt uât ai ÓR-dârd."
   },
   {
    "en": "Excuse me, my food is cold.",
    "pt": "Com licença, minha comida está fria.",
    "sub": "Reclamações",
-   "level": 2
+   "level": 2,
+   "pron": "iks-KIUZ mi, mai FUUD iz KÔULD."
   },
   {
    "en": "We ordered thirty minutes ago, and the food hasn't come.",
    "pt": "Pedimos há trinta minutos e a comida ainda não chegou.",
    "sub": "Reclamações",
-   "level": 3
+   "level": 3,
+   "pron": "uí ÓR-dârd THÂR-di MÍ-nits â-GÔU, énd dhâ FUUD RÉ-zânt KÂM."
   }
  ]
 }

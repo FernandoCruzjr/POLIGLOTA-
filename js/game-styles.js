@@ -252,4 +252,53 @@ export default `
 .pl-phase { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .pl-phase div { padding: 10px; border-radius: 14px; border: 2px solid var(--border); font-size: .82rem; display: grid; gap: 2px; }
 .pl-phase div.now { border-color: var(--green-500); background: var(--green-50); }
+
+/* ---------- Dicionário de toque ---------- */
+.w { cursor: help; border-bottom: 2px dotted rgba(15, 122, 74, .35); border-radius: 2px; }
+.w:hover, .w.on { background: #FFF1B8; color: #3B2A00; border-bottom-color: #F2C94C; }
+.bubble.you .w { border-bottom-color: rgba(255, 255, 255, .5); }
+.bubble.you .w:hover, .bubble.you .w.on { color: #3B2A00; }
+.w:focus-visible { outline: 2px solid var(--green-500); outline-offset: 1px; }
+.wordtip { position: fixed; z-index: 120; display: grid; gap: 2px; background: #1F2A24; color: #fff; padding: 8px 12px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, .25); font-size: .9rem; line-height: 1.3; animation: rise .15s ease; }
+.wordtip strong { font-size: 1rem; color: #FFE08A; }
+.wordtip em { opacity: .7; }
+.wordtip .wt-btns { display: flex; gap: 6px; margin-top: 4px; }
+.wordtip button { background: rgba(255, 255, 255, .12); border: 0; color: #fff; border-radius: 8px; min-width: 34px; min-height: 30px; cursor: pointer; font-size: 1rem; }
+
+/* ---------- Favoritas, devagar, leia assim ---------- */
+.fav-btn { border: 0; background: transparent; color: #C9A227; font-size: 1.35rem; line-height: 1; min-width: 34px; min-height: 34px; border-radius: 10px; cursor: pointer; vertical-align: middle; }
+.fav-btn.on { color: #F2B705; text-shadow: 0 1px 0 rgba(0, 0, 0, .15); }
+.fav-btn:hover { background: #FFF7DB; }
+.fav-btn.big { font-size: 1.7rem; min-width: 46px; min-height: 46px; border: 2px solid #F2C94C; background: #FFFBEA; }
+.bubble.you .fav-btn { color: #FFE08A; }
+.slow-btn { font-size: .95rem; }
+.row-btns { display: inline-flex; gap: 4px; align-items: center; }
+.narr-toggle.on { background: var(--green-50); box-shadow: inset 0 0 0 2px var(--green-500); }
+.sp-pron { background: #FFF7DB; border: 1px dashed #F2C94C; color: #5E4300; border-radius: 12px; padding: 6px 10px; font-size: 1rem; justify-self: center; }
+.sp-pron span { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; opacity: .8; margin-right: 4px; }
+.sp-pron-s { font-size: .85rem; color: #8A6400; }
+.sp-fav { justify-self: center; }
+.sp-sit.fav { background: #FFFBEA; border-color: #F2C94C; }
+.sp-sit.pat { background: #EAF2FF; border-color: #B7CFF5; }
+
+/* ---------- Frases que se encaixam ---------- */
+.pt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+.pt-card { display: grid; gap: 6px; justify-items: start; text-decoration: none; color: inherit; padding: 14px; }
+.pt-card strong { font-size: 1.05rem; }
+.pt-stage { display: grid; gap: 10px; text-align: center; padding: 20px 14px; }
+.pt-sentence { font-size: 1.45rem; font-weight: 700; line-height: 1.5; }
+.pt-slot { display: inline-block; background: #E4F8EA; border: 2px solid #22C55E; border-radius: 12px; padding: 0 10px; margin: 0 4px; animation: kdPop .35s ease; }
+.pt-slot.empty { background: #FFF7DB; border-color: #F2C94C; border-style: dashed; color: #9A6B00; min-width: 70px; }
+@keyframes kdPop { from { transform: scale(.7); } }
+.pt-pt { color: var(--muted); }
+.pt-q { font-size: 1.2rem; font-weight: 700; color: var(--green-800); }
+.pt-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; align-items: center; }
+.pt-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.pt-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 12px; border-radius: 999px; border: 2px solid var(--border); background: var(--surface); font: inherit; font-weight: 600; cursor: pointer; box-shadow: 0 2px 0 var(--border); }
+.pt-chip.seen { border-color: var(--green-200); }
+.pt-chip.on { border-color: var(--green-500); background: var(--green-50); box-shadow: 0 2px 0 var(--green-500); }
+.pt-chip.big { min-height: 56px; font-size: 1.05rem; justify-content: center; }
+.pt-chip.right { background: #E4F8EA; border-color: #22C55E; }
+.pt-chip.wrong { opacity: .4; text-decoration: line-through; }
+.pt-opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 `;

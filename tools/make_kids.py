@@ -139,13 +139,22 @@ cats = [
   {"id": "quarto", "name": "Quarto", "nameEn": "Bedroom", "emoji": "🛏️", "color": "#9575CD", "kind": "object", "room": True, "items": src("quarto")},
   {"id": "banheiro", "name": "Banheiro", "nameEn": "Bathroom", "emoji": "🛁", "color": "#4DD0E1", "kind": "object", "room": True, "items": src("banheiro")},
   {"id": "sala", "name": "Sala", "nameEn": "Living room", "emoji": "🛋️", "color": "#81C784", "kind": "object", "room": True, "items": src("sala")},
+  {"id": "cumprimentos", "name": "Cumprimentos", "nameEn": "Greetings", "emoji": "👋", "color": "#FFD54F", "kind": "object", "group": "dia", "items": src("cumprimentos")},
+  {"id": "verbos", "name": "Verbos", "nameEn": "Verbs", "emoji": "🏃", "color": "#4DB6AC", "kind": "object", "group": "dia", "items": src("verbos")},
+  {"id": "emocoes", "name": "Emoções", "nameEn": "Feelings", "emoji": "😊", "color": "#F48FB1", "kind": "object", "group": "dia", "items": src("emocoes")},
+  {"id": "horas", "name": "Horas", "nameEn": "Time", "emoji": "🕒", "color": "#90A4AE", "kind": "object", "group": "tempo", "items": src("horas")},
+  {"id": "dias", "name": "Dias da semana", "nameEn": "Days of the week", "emoji": "📅", "color": "#7986CB", "kind": "object", "group": "tempo", "items": src("dias")},
+  {"id": "meses", "name": "Meses", "nameEn": "Months", "emoji": "🗓️", "color": "#A1887F", "kind": "object", "group": "tempo", "items": src("meses")},
+  {"id": "estacoes", "name": "Estações do ano", "nameEn": "Seasons", "emoji": "🍂", "color": "#FFB74D", "kind": "object", "group": "tempo", "items": src("estacoes")},
+  {"id": "clima", "name": "Clima", "nameEn": "Weather", "emoji": "🌦️", "color": "#64B5F6", "kind": "object", "group": "natureza", "items": src("clima")},
+  {"id": "natureza", "name": "Natureza", "nameEn": "Nature", "emoji": "🌳", "color": "#66BB6A", "kind": "object", "group": "natureza", "items": src("natureza")},
 ]
 for c in cats:
     seen_en, seen_pic = set(), set()
     for i, it in enumerate(c["items"]):
         it["id"] = f"{c['id']}.{i}"
         assert it["en"] and it["pt"] and it["pron"], it
-        pic = it.get("emoji") or it.get("hex") or it.get("label") or str(it.get("n"))
+        pic = it.get("label") or it.get("emoji") or it.get("hex") or str(it.get("n"))
         key = (pic, it.get("ordinal"))
         assert it["en"] not in seen_en, (c["id"], it["en"])
         assert key not in seen_pic or c["kind"] == "number", (c["id"], pic, it["en"])

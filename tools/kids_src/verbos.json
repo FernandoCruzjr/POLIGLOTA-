@@ -1,0 +1,804 @@
+{
+ "items": [
+  {
+   "emoji": "🍽️",
+   "en": "eat",
+   "pt": "comer",
+   "pron": "ÍT",
+   "say": "I eat rice.",
+   "sayPt": "Eu como arroz."
+  },
+  {
+   "emoji": "🥤",
+   "en": "drink",
+   "pt": "beber",
+   "pron": "DRINK",
+   "say": "I drink juice.",
+   "sayPt": "Eu bebo suco."
+  },
+  {
+   "emoji": "😴",
+   "en": "sleep",
+   "pt": "dormir",
+   "pron": "SLÍP",
+   "say": "The baby is sleeping.",
+   "sayPt": "O bebê está dormindo."
+  },
+  {
+   "emoji": "🏃",
+   "en": "run",
+   "pt": "correr",
+   "pron": "RÂN",
+   "say": "I run fast.",
+   "sayPt": "Eu corro rápido."
+  },
+  {
+   "emoji": "🚶",
+   "en": "walk",
+   "pt": "andar",
+   "pron": "UÓK",
+   "say": "We walk to school.",
+   "sayPt": "Nós andamos até a escola."
+  },
+  {
+   "emoji": "🏊",
+   "en": "swim",
+   "pt": "nadar",
+   "pron": "SUÍM",
+   "say": "I can swim.",
+   "sayPt": "Eu sei nadar."
+  },
+  {
+   "emoji": "📖",
+   "en": "read",
+   "pt": "ler",
+   "pron": "RÍD",
+   "say": "I read a book.",
+   "sayPt": "Eu leio um livro."
+  },
+  {
+   "emoji": "✍️",
+   "en": "write",
+   "pt": "escrever",
+   "pron": "RÁIT",
+   "say": "Write your name.",
+   "sayPt": "Escreva seu nome."
+  },
+  {
+   "emoji": "🎤",
+   "en": "sing",
+   "pt": "cantar",
+   "pron": "SIN",
+   "say": "Let's sing a song.",
+   "sayPt": "Vamos cantar uma música."
+  },
+  {
+   "emoji": "💃",
+   "en": "dance",
+   "pt": "dançar",
+   "pron": "DÉNS",
+   "say": "I love to dance.",
+   "sayPt": "Eu amo dançar."
+  },
+  {
+   "emoji": "🎮",
+   "en": "play",
+   "pt": "brincar / jogar",
+   "pron": "PLÊI",
+   "say": "Let's play outside!",
+   "sayPt": "Vamos brincar lá fora!"
+  },
+  {
+   "emoji": "🍳",
+   "en": "cook",
+   "pt": "cozinhar",
+   "pron": "KÚK",
+   "say": "Mom cooks dinner.",
+   "sayPt": "A mamãe cozinha o jantar."
+  },
+  {
+   "emoji": "🧼",
+   "en": "wash",
+   "pt": "lavar",
+   "pron": "UÓSH",
+   "say": "Wash your hands.",
+   "sayPt": "Lave as mãos."
+  },
+  {
+   "emoji": "🔓",
+   "en": "open",
+   "pt": "abrir",
+   "pron": "ÔU-pen",
+   "say": "Open the door.",
+   "sayPt": "Abra a porta."
+  },
+  {
+   "emoji": "🔒",
+   "en": "close",
+   "pt": "fechar",
+   "pron": "KLÔUZ",
+   "say": "Close the window.",
+   "sayPt": "Feche a janela."
+  },
+  {
+   "emoji": "🛒",
+   "en": "buy",
+   "pt": "comprar",
+   "pron": "BÁI",
+   "say": "I buy bread.",
+   "sayPt": "Eu compro pão."
+  },
+  {
+   "emoji": "💳",
+   "en": "pay",
+   "pt": "pagar",
+   "pron": "PÊI",
+   "say": "I pay with a card.",
+   "sayPt": "Eu pago com cartão."
+  },
+  {
+   "emoji": "➡️",
+   "en": "go",
+   "pt": "ir",
+   "pron": "GÔU",
+   "say": "Let's go home.",
+   "sayPt": "Vamos para casa."
+  },
+  {
+   "emoji": "⬅️",
+   "en": "come",
+   "pt": "vir",
+   "pron": "KÂM",
+   "say": "Come here, please.",
+   "sayPt": "Venha aqui, por favor."
+  },
+  {
+   "emoji": "👀",
+   "en": "look",
+   "pt": "olhar",
+   "pron": "LÚK",
+   "say": "Look at me!",
+   "sayPt": "Olhe para mim!"
+  },
+  {
+   "emoji": "👁️",
+   "en": "see",
+   "pt": "ver",
+   "pron": "SÍ",
+   "say": "I see a bird.",
+   "sayPt": "Eu vejo um pássaro."
+  },
+  {
+   "emoji": "👂",
+   "en": "listen",
+   "pt": "escutar",
+   "pron": "LÍ-sen",
+   "say": "Listen to the teacher.",
+   "sayPt": "Escute a professora."
+  },
+  {
+   "emoji": "🗣️",
+   "en": "speak",
+   "pt": "falar",
+   "pron": "SPÍK",
+   "say": "I speak English.",
+   "sayPt": "Eu falo inglês."
+  },
+  {
+   "emoji": "🆘",
+   "en": "help",
+   "pt": "ajudar",
+   "pron": "RÉLP",
+   "say": "Can you help me?",
+   "sayPt": "Você pode me ajudar?"
+  },
+  {
+   "emoji": "⏳",
+   "en": "wait",
+   "pt": "esperar",
+   "pron": "UÊIT",
+   "say": "Wait for me!",
+   "sayPt": "Espere por mim!"
+  },
+  {
+   "emoji": "🪑",
+   "en": "sit",
+   "pt": "sentar",
+   "pron": "SIT",
+   "say": "Sit down, please.",
+   "sayPt": "Sente-se, por favor."
+  },
+  {
+   "emoji": "🧍",
+   "en": "stand",
+   "pt": "ficar em pé",
+   "pron": "STÉND",
+   "say": "Stand up, please.",
+   "sayPt": "Levante-se, por favor."
+  },
+  {
+   "emoji": "🦘",
+   "en": "jump",
+   "pt": "pular",
+   "pron": "DJÂMP",
+   "say": "The kids jump high.",
+   "sayPt": "As crianças pulam alto."
+  },
+  {
+   "emoji": "✈️",
+   "en": "fly",
+   "pt": "voar",
+   "pron": "FLÁI",
+   "say": "Birds can fly.",
+   "sayPt": "Os pássaros sabem voar."
+  },
+  {
+   "emoji": "🚗",
+   "en": "drive",
+   "pt": "dirigir",
+   "pron": "DRÁIV",
+   "say": "Dad drives the car.",
+   "sayPt": "O papai dirige o carro."
+  },
+  {
+   "emoji": "📸",
+   "en": "take a photo",
+   "pt": "tirar uma foto",
+   "pron": "TÊIK a FÔU-tou",
+   "say": "Let's take a photo!",
+   "sayPt": "Vamos tirar uma foto!"
+  },
+  {
+   "emoji": "🚴",
+   "en": "ride a bike",
+   "pt": "andar de bicicleta",
+   "pron": "RÁID a BÁIK",
+   "say": "I ride a bike.",
+   "sayPt": "Eu ando de bicicleta."
+  },
+  {
+   "emoji": "🧗",
+   "en": "climb",
+   "pt": "escalar / subir",
+   "pron": "KLÁIM",
+   "say": "The cat climbs the tree.",
+   "sayPt": "O gato sobe na árvore."
+  },
+  {
+   "emoji": "🎨",
+   "en": "paint",
+   "pt": "pintar",
+   "pron": "PÊINT",
+   "say": "I paint a picture.",
+   "sayPt": "Eu pinto um quadro."
+  },
+  {
+   "emoji": "✏️",
+   "en": "draw",
+   "pt": "desenhar",
+   "pron": "DRÓ",
+   "say": "I draw a house.",
+   "sayPt": "Eu desenho uma casa."
+  },
+  {
+   "emoji": "📚",
+   "en": "study",
+   "pt": "estudar",
+   "pron": "STÂ-di",
+   "say": "I study English.",
+   "sayPt": "Eu estudo inglês."
+  },
+  {
+   "emoji": "🧠",
+   "en": "learn",
+   "pt": "aprender",
+   "pron": "LÂRN",
+   "say": "I learn every day.",
+   "sayPt": "Eu aprendo todo dia."
+  },
+  {
+   "emoji": "👩‍🏫",
+   "en": "teach",
+   "pt": "ensinar",
+   "pron": "TÍTCH",
+   "say": "She teaches math.",
+   "sayPt": "Ela ensina matemática."
+  },
+  {
+   "emoji": "🤔",
+   "en": "think",
+   "pt": "pensar",
+   "pron": "THINK",
+   "say": "Let me think.",
+   "sayPt": "Deixe-me pensar."
+  },
+  {
+   "emoji": "😂",
+   "en": "laugh",
+   "pt": "rir",
+   "pron": "LÉF",
+   "say": "We laugh a lot.",
+   "sayPt": "Nós rimos muito."
+  },
+  {
+   "emoji": "😢",
+   "en": "cry",
+   "pt": "chorar",
+   "pron": "KRÁI",
+   "say": "The baby is crying.",
+   "sayPt": "O bebê está chorando."
+  },
+  {
+   "emoji": "😊",
+   "en": "smile",
+   "pt": "sorrir",
+   "pron": "SMÁIL",
+   "say": "Smile for the photo!",
+   "sayPt": "Sorria para a foto!"
+  },
+  {
+   "emoji": "🤗",
+   "en": "hug",
+   "pt": "abraçar",
+   "pron": "RÂG",
+   "say": "I hug my mom.",
+   "sayPt": "Eu abraço minha mãe."
+  },
+  {
+   "emoji": "😘",
+   "en": "kiss",
+   "pt": "beijar",
+   "pron": "KIS",
+   "say": "Kiss grandma goodbye.",
+   "sayPt": "Dê um beijo de tchau na vovó."
+  },
+  {
+   "emoji": "❤️",
+   "en": "love",
+   "pt": "amar",
+   "pron": "LÂV",
+   "say": "I love you.",
+   "sayPt": "Eu te amo."
+  },
+  {
+   "emoji": "👍",
+   "en": "like",
+   "pt": "gostar",
+   "pron": "LÁIK",
+   "say": "I like pizza.",
+   "sayPt": "Eu gosto de pizza."
+  },
+  {
+   "emoji": "🙏",
+   "en": "want",
+   "pt": "querer",
+   "pron": "UÁNT",
+   "say": "I want water.",
+   "sayPt": "Eu quero água."
+  },
+  {
+   "emoji": "❗",
+   "en": "need",
+   "pt": "precisar",
+   "pron": "NÍD",
+   "say": "I need help.",
+   "sayPt": "Eu preciso de ajuda."
+  },
+  {
+   "emoji": "🎁",
+   "en": "give",
+   "pt": "dar",
+   "pron": "GUIV",
+   "say": "I give you a gift.",
+   "sayPt": "Eu te dou um presente."
+  },
+  {
+   "emoji": "🤲",
+   "en": "share",
+   "pt": "compartilhar / dividir",
+   "pron": "SHÉR",
+   "say": "Let's share the cake.",
+   "sayPt": "Vamos dividir o bolo."
+  },
+  {
+   "emoji": "⚽",
+   "en": "kick",
+   "pt": "chutar",
+   "pron": "KIK",
+   "say": "Kick the ball!",
+   "sayPt": "Chute a bola!"
+  },
+  {
+   "emoji": "🏈",
+   "en": "throw",
+   "pt": "jogar / arremessar",
+   "pron": "THRÔU",
+   "say": "Throw the ball to me.",
+   "sayPt": "Jogue a bola para mim."
+  },
+  {
+   "emoji": "🧤",
+   "en": "catch",
+   "pt": "pegar (no ar)",
+   "pron": "KÉTCH",
+   "say": "Catch the ball!",
+   "sayPt": "Pegue a bola!"
+  },
+  {
+   "emoji": "📞",
+   "en": "call",
+   "pt": "ligar",
+   "pron": "KÓL",
+   "say": "Call me later.",
+   "sayPt": "Me ligue mais tarde."
+  },
+  {
+   "emoji": "📤",
+   "en": "send",
+   "pt": "enviar",
+   "pron": "SÉND",
+   "say": "Send me a message.",
+   "sayPt": "Me mande uma mensagem."
+  },
+  {
+   "emoji": "🔍",
+   "en": "find",
+   "pt": "encontrar",
+   "pron": "FÁIND",
+   "say": "I can't find my shoe.",
+   "sayPt": "Não acho meu sapato."
+  },
+  {
+   "emoji": "🔢",
+   "en": "count",
+   "pt": "contar",
+   "pron": "KÁUNT",
+   "say": "Let's count to ten.",
+   "sayPt": "Vamos contar até dez."
+  },
+  {
+   "emoji": "🏆",
+   "en": "win",
+   "pt": "ganhar / vencer",
+   "pron": "UÍN",
+   "say": "Our team wins!",
+   "sayPt": "Nosso time ganha!"
+  },
+  {
+   "emoji": "🧹",
+   "en": "clean",
+   "pt": "limpar",
+   "pron": "KLÍN",
+   "say": "I clean my room.",
+   "sayPt": "Eu limpo meu quarto."
+  },
+  {
+   "emoji": "🪥",
+   "en": "brush",
+   "pt": "escovar",
+   "pron": "BRÂSH",
+   "say": "Brush your teeth.",
+   "sayPt": "Escove os dentes."
+  },
+  {
+   "emoji": "🚿",
+   "en": "take a shower",
+   "pt": "tomar banho",
+   "pron": "TÊIK a SHÁU-er",
+   "say": "I take a shower.",
+   "sayPt": "Eu tomo banho."
+  },
+  {
+   "emoji": "⏰",
+   "en": "wake up",
+   "pt": "acordar",
+   "pron": "UÊIK âp",
+   "say": "I wake up early.",
+   "sayPt": "Eu acordo cedo."
+  },
+  {
+   "emoji": "👕",
+   "en": "get dressed",
+   "pt": "vestir-se",
+   "pron": "guét DRÉST",
+   "say": "Get dressed for school.",
+   "sayPt": "Vista-se para a escola."
+  },
+  {
+   "emoji": "✂️",
+   "en": "cut",
+   "pt": "cortar",
+   "pron": "KÂT",
+   "say": "Cut the paper.",
+   "sayPt": "Corte o papel."
+  },
+  {
+   "emoji": "🔧",
+   "en": "fix",
+   "pt": "consertar",
+   "pron": "FIKS",
+   "say": "Dad fixes the bike.",
+   "sayPt": "O papai conserta a bicicleta."
+  },
+  {
+   "emoji": "🏗️",
+   "en": "build",
+   "pt": "construir",
+   "pron": "BILD",
+   "say": "We build a house.",
+   "sayPt": "Nós construímos uma casa."
+  },
+  {
+   "emoji": "🌱",
+   "en": "grow",
+   "pt": "crescer",
+   "pron": "GRÔU",
+   "say": "Plants grow fast.",
+   "sayPt": "As plantas crescem rápido."
+  },
+  {
+   "emoji": "🪴",
+   "en": "plant",
+   "pt": "plantar",
+   "pron": "PLÉNT",
+   "say": "We plant a tree.",
+   "sayPt": "Nós plantamos uma árvore."
+  },
+  {
+   "emoji": "👋",
+   "en": "wave",
+   "pt": "acenar",
+   "pron": "UÊIV",
+   "say": "Wave goodbye to Grandpa!",
+   "sayPt": "Dê tchau para o vovô!"
+  },
+  {
+   "emoji": "👏",
+   "en": "clap",
+   "pt": "bater palmas",
+   "pron": "KLÉP",
+   "say": "Clap your hands!",
+   "sayPt": "Bata palmas!"
+  },
+  {
+   "emoji": "🛑",
+   "en": "stop",
+   "pt": "parar",
+   "pron": "STÓP",
+   "say": "Stop the car!",
+   "sayPt": "Pare o carro!"
+  },
+  {
+   "emoji": "🚦",
+   "en": "start",
+   "pt": "começar",
+   "pron": "STÁRT",
+   "say": "Let's start the game.",
+   "sayPt": "Vamos começar o jogo."
+  },
+  {
+   "emoji": "🏁",
+   "en": "finish",
+   "pt": "terminar",
+   "pron": "FÍ-nish",
+   "say": "I finish my homework.",
+   "sayPt": "Eu termino a lição de casa."
+  },
+  {
+   "emoji": "💡",
+   "en": "turn on",
+   "pt": "ligar (aparelho)",
+   "pron": "târn ÓN",
+   "say": "Turn on the light.",
+   "sayPt": "Acenda a luz."
+  },
+  {
+   "emoji": "📴",
+   "en": "turn off",
+   "pt": "desligar",
+   "pron": "târn ÓF",
+   "say": "Turn off the TV.",
+   "sayPt": "Desligue a TV."
+  },
+  {
+   "emoji": "📺",
+   "en": "watch",
+   "pt": "assistir",
+   "pron": "UÓTCH",
+   "say": "We watch cartoons.",
+   "sayPt": "Nós assistimos desenhos."
+  },
+  {
+   "emoji": "👃",
+   "en": "smell",
+   "pt": "cheirar",
+   "pron": "SMÉL",
+   "say": "Smell the flower.",
+   "sayPt": "Cheire a flor."
+  },
+  {
+   "emoji": "👅",
+   "en": "taste",
+   "pt": "provar",
+   "pron": "TÊIST",
+   "say": "Taste the soup.",
+   "sayPt": "Prove a sopa."
+  },
+  {
+   "emoji": "🖐️",
+   "en": "touch",
+   "pt": "tocar",
+   "pron": "TÂTCH",
+   "say": "Don't touch the fire!",
+   "sayPt": "Não toque no fogo!"
+  },
+  {
+   "emoji": "🧐",
+   "en": "know",
+   "pt": "saber / conhecer",
+   "pron": "NÔU",
+   "say": "I know the answer.",
+   "sayPt": "Eu sei a resposta."
+  },
+  {
+   "emoji": "💓",
+   "en": "feel",
+   "pt": "sentir",
+   "pron": "FÍL",
+   "say": "I feel good.",
+   "sayPt": "Eu me sinto bem."
+  },
+  {
+   "emoji": "📝",
+   "en": "remember",
+   "pt": "lembrar",
+   "pron": "ri-MÉM-ber",
+   "say": "I remember your name.",
+   "sayPt": "Eu lembro seu nome."
+  },
+  {
+   "emoji": "🤷",
+   "en": "forget",
+   "pt": "esquecer",
+   "pron": "for-GUÉT",
+   "say": "Don't forget your bag.",
+   "sayPt": "Não esqueça sua bolsa."
+  },
+  {
+   "emoji": "💪",
+   "en": "try",
+   "pt": "tentar",
+   "pron": "TRÁI",
+   "say": "Try again, you can do it!",
+   "sayPt": "Tente de novo, você consegue!"
+  },
+  {
+   "emoji": "🙋",
+   "en": "ask",
+   "pt": "perguntar",
+   "pron": "ÉSK",
+   "say": "Can I ask a question?",
+   "sayPt": "Posso fazer uma pergunta?"
+  },
+  {
+   "emoji": "🗨️",
+   "en": "answer",
+   "pt": "responder",
+   "pron": "ÉN-ser",
+   "say": "Answer the question.",
+   "sayPt": "Responda à pergunta."
+  },
+  {
+   "emoji": "🤝",
+   "en": "meet",
+   "pt": "conhecer / encontrar",
+   "pron": "MÍT",
+   "say": "Nice to meet you.",
+   "sayPt": "Prazer em te conhecer."
+  },
+  {
+   "emoji": "🏡",
+   "en": "visit",
+   "pt": "visitar",
+   "pron": "VÍ-zit",
+   "say": "We visit grandma.",
+   "sayPt": "Nós visitamos a vovó."
+  },
+  {
+   "emoji": "🏠",
+   "en": "live",
+   "pt": "morar",
+   "pron": "LIV",
+   "say": "I live in Brazil.",
+   "sayPt": "Eu moro no Brasil."
+  },
+  {
+   "emoji": "💼",
+   "en": "work",
+   "pt": "trabalhar",
+   "pron": "UÂRK",
+   "say": "My mom works a lot.",
+   "sayPt": "Minha mãe trabalha muito."
+  },
+  {
+   "emoji": "🛋️",
+   "en": "rest",
+   "pt": "descansar",
+   "pron": "RÉST",
+   "say": "I rest on the sofa.",
+   "sayPt": "Eu descanso no sofá."
+  },
+  {
+   "emoji": "🏷️",
+   "en": "sell",
+   "pt": "vender",
+   "pron": "SÉL",
+   "say": "They sell fruit.",
+   "sayPt": "Eles vendem frutas."
+  },
+  {
+   "emoji": "🧳",
+   "en": "travel",
+   "pt": "viajar",
+   "pron": "TRÉ-vel",
+   "say": "We travel by plane.",
+   "sayPt": "Nós viajamos de avião."
+  },
+  {
+   "emoji": "🛬",
+   "en": "arrive",
+   "pt": "chegar",
+   "pron": "a-RÁIV",
+   "say": "We arrive at noon.",
+   "sayPt": "Nós chegamos ao meio-dia."
+  },
+  {
+   "emoji": "🛫",
+   "en": "leave",
+   "pt": "partir / sair",
+   "pron": "LÍV",
+   "say": "The plane leaves at six.",
+   "sayPt": "O avião parte às seis."
+  },
+  {
+   "emoji": "👗",
+   "en": "wear",
+   "pt": "vestir / usar",
+   "pron": "UÉR",
+   "say": "I wear a dress.",
+   "sayPt": "Eu uso um vestido."
+  },
+  {
+   "emoji": "📢",
+   "en": "shout",
+   "pt": "gritar",
+   "pron": "SHÁUT",
+   "say": "Don't shout, please.",
+   "sayPt": "Não grite, por favor."
+  },
+  {
+   "emoji": "🥳",
+   "en": "celebrate",
+   "pt": "comemorar",
+   "pron": "SÉ-le-breit",
+   "say": "Let's celebrate your birthday!",
+   "sayPt": "Vamos comemorar seu aniversário!"
+  },
+  {
+   "emoji": "🛌",
+   "en": "lie down",
+   "pt": "deitar",
+   "pron": "lái DÁUN",
+   "say": "Lie down on the bed.",
+   "sayPt": "Deite na cama."
+  },
+  {
+   "emoji": "🚌",
+   "en": "take the bus",
+   "pt": "pegar o ônibus",
+   "pron": "TÊIK the BÂS",
+   "say": "I take the bus.",
+   "sayPt": "Eu pego o ônibus."
+  }
+ ]
+}

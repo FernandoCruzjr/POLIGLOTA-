@@ -37,6 +37,7 @@ function picture(cat, it, big = false) {
     const txt = it.label || String(it.n);
     return `<span class="kd-num ${txt.length > 3 ? 'long' : ''}" aria-hidden="true"><b>${esc(txt)}</b>${big ? dots : ''}</span>`;
   }
+  if (it.label) return `<span class="kd-label" aria-hidden="true"><b>${esc(it.label)}</b><i>${it.emoji || ''}</i></span>`;
   return `<span class="kd-emoji" aria-hidden="true">${it.emoji}</span>`;
 }
 
@@ -74,13 +75,27 @@ const TIPS = {
   object: 'Missão do dia: vá até este cômodo da sua casa, aponte para 3 objetos e diga o nome em inglês.',
 };
 
+const CAT_TIPS = {
+  cumprimentos: 'Cumprimente todo mundo da casa em inglês hoje: "Good morning!" no café e "Good night!" antes de dormir.',
+  verbos: 'Narre o que você está fazendo: "I am cooking", "I am walking". Falar sozinho em inglês destrava a fala!',
+  emocoes: 'Antes de dormir, diga como foi o seu dia: "Today I am happy" ou "I am tired".',
+  horas: 'Toda vez que olhar o relógio hoje, diga a hora em inglês: "It is three o\'clock."',
+  dias: 'Comece o dia dizendo: "Today is Monday!" (troque pelo dia de hoje).',
+  meses: 'Diga o mês do aniversário de cada pessoa da família: "My birthday is in May."',
+  estacoes: 'Qual estação é agora? Diga em inglês e fale uma coisa que você gosta nela.',
+  clima: 'Olhe pela janela e diga como está o tempo: "It is sunny" ou "It is raining".',
+  natureza: 'No próximo passeio, aponte e diga: tree, flower, sky, river…',
+};
+const tipFor = (cat) => CAT_TIPS[cat.id] || TIPS[cat.kind];
+
 // ---------- Início da Área Kids ----------
 
 async function renderIndex(root) {
   let cats;
   try { cats = await load(); } catch (e) { root.innerHTML = '<div class="card empty"><p>Não foi possível abrir a Área Kids.</p></div>'; return null; }
   const house = cats.filter((c) => c.room);
-  const others = cats.filter((c) => !c.room);
+  const others = cats.filter((c) => !c.room && !c.group);
+  const grp = (g) => cats.filter((c) => c.group === g);
   const tile = (c) => {
     const seen = seenOf(c).size;
     const stars = Math.max(store.getFlag(bestKey(c, 'ouvir'), 0), store.getFlag(bestKey(c, 'memoria'), 0));
@@ -103,6 +118,18 @@ async function renderIndex(root) {
       <section aria-labelledby="kd-basic">
         <h2 id="kd-basic" class="kd-title">🌈 Primeiras palavras</h2>
         <div class="kd-grid">${others.map(tile).join('')}</div>
+      </section>
+      <section aria-labelledby="kd-day">
+        <h2 id="kd-day" class="kd-title">👋 Meu dia</h2>
+        <div class="kd-grid">${grp('dia').map(tile).join('')}</div>
+      </section>
+      <section aria-labelledby="kd-time">
+        <h2 id="kd-time" class="kd-title">🕒 Tempo e calendário</h2>
+        <div class="kd-grid">${grp('tempo').map(tile).join('')}</div>
+      </section>
+      <section aria-labelledby="kd-nat">
+        <h2 id="kd-nat" class="kd-title">🌳 Natureza e clima</h2>
+        <div class="kd-grid">${grp('natureza').map(tile).join('')}</div>
       </section>
       <section aria-labelledby="kd-house">
         <h2 id="kd-house" class="kd-title">🏠 Minha casa</h2>
@@ -172,7 +199,7 @@ async function renderCards(root, catId) {
         <span class="kd-cat-emoji" aria-hidden="true">${cat.emoji}</span>
         <div><h1>${esc(cat.name)} <span lang="en">· ${esc(cat.nameEn)}</span></h1><p class="small">${cat.items.length} palavras. Toque em cada cartão para ver e ouvir; toque de novo para a tradução falada.</p></div>
       </header>
-      <p class="kd-tip">💡 ${esc(TIPS[cat.kind])}</p>
+      <p class="kd-tip">💡 ${esc(tipFor(cat))}</p>
       <div class="kd-actions">
         <a class="btn btn-primary" href="#/kids/${cat.id}/ouvir">👂 Ouça e toque</a>
         <a class="btn btn-soft" href="#/kids/${cat.id}/memoria">🧠 Jogo da memória</a>

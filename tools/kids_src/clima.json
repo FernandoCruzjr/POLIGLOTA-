@@ -1,0 +1,284 @@
+{
+ "items": [
+  {
+   "emoji": "☀️",
+   "en": "sunny",
+   "pt": "ensolarado",
+   "pron": "SÂ-ni",
+   "say": "Today is sunny.",
+   "sayPt": "Hoje está ensolarado."
+  },
+  {
+   "emoji": "🌥️",
+   "en": "cloudy",
+   "pt": "nublado",
+   "pron": "KLÁU-di",
+   "say": "The sky is cloudy.",
+   "sayPt": "O céu está nublado."
+  },
+  {
+   "emoji": "🌧️",
+   "en": "rainy",
+   "pt": "chuvoso",
+   "pron": "RÊI-ni",
+   "say": "It's a rainy day.",
+   "sayPt": "É um dia chuvoso."
+  },
+  {
+   "emoji": "🌬️",
+   "en": "windy",
+   "pt": "com vento",
+   "pron": "UÍN-di",
+   "say": "It's windy today.",
+   "sayPt": "Está ventando hoje."
+  },
+  {
+   "emoji": "🌨️",
+   "en": "snowy",
+   "pt": "com neve",
+   "pron": "SNÔU-i",
+   "say": "It's a snowy day.",
+   "sayPt": "É um dia de neve."
+  },
+  {
+   "emoji": "🌫️",
+   "en": "foggy",
+   "pt": "com neblina",
+   "pron": "FÓ-gui",
+   "say": "The morning is foggy.",
+   "sayPt": "A manhã está com neblina."
+  },
+  {
+   "emoji": "🥵",
+   "en": "hot",
+   "pt": "quente",
+   "pron": "RÓT",
+   "say": "I am so hot!",
+   "sayPt": "Estou com muito calor!"
+  },
+  {
+   "emoji": "🥶",
+   "en": "cold",
+   "pt": "frio",
+   "pron": "KÔULD",
+   "say": "I am cold.",
+   "sayPt": "Estou com frio."
+  },
+  {
+   "emoji": "🌤️",
+   "en": "warm",
+   "pt": "morno / agradável",
+   "pron": "UÓRM",
+   "say": "The water is warm.",
+   "sayPt": "A água está morna."
+  },
+  {
+   "emoji": "🍃",
+   "en": "cool",
+   "pt": "fresco",
+   "pron": "KUL",
+   "say": "The night is cool.",
+   "sayPt": "A noite está fresca."
+  },
+  {
+   "emoji": "💧",
+   "en": "rain",
+   "pt": "chuva",
+   "pron": "RÊIN",
+   "say": "I like the rain.",
+   "sayPt": "Eu gosto da chuva."
+  },
+  {
+   "emoji": "❄️",
+   "en": "snow",
+   "pt": "neve",
+   "pron": "SNÔU",
+   "say": "The snow is cold.",
+   "sayPt": "A neve é fria."
+  },
+  {
+   "emoji": "💨",
+   "en": "wind",
+   "pt": "vento",
+   "pron": "UÍND",
+   "say": "The wind is strong.",
+   "sayPt": "O vento está forte."
+  },
+  {
+   "emoji": "☁️",
+   "en": "cloud",
+   "pt": "nuvem",
+   "pron": "KLÁUD",
+   "say": "Look at that cloud!",
+   "sayPt": "Olhe aquela nuvem!"
+  },
+  {
+   "emoji": "🌞",
+   "en": "sun",
+   "pt": "sol",
+   "pron": "SÂN",
+   "say": "The sun is hot.",
+   "sayPt": "O sol está quente."
+  },
+  {
+   "emoji": "🌈",
+   "en": "rainbow",
+   "pt": "arco-íris",
+   "pron": "RÊIN-bou",
+   "say": "Look, a rainbow!",
+   "sayPt": "Olha, um arco-íris!"
+  },
+  {
+   "emoji": "⚡",
+   "en": "lightning",
+   "pt": "relâmpago",
+   "pron": "LÁIT-nin",
+   "say": "I see lightning!",
+   "sayPt": "Eu vejo um relâmpago!"
+  },
+  {
+   "emoji": "🌩️",
+   "en": "thunder",
+   "pt": "trovão",
+   "pron": "THÂN-der",
+   "say": "The thunder is loud.",
+   "sayPt": "O trovão é barulhento."
+  },
+  {
+   "emoji": "⛈️",
+   "en": "storm",
+   "pt": "tempestade",
+   "pron": "STÓRM",
+   "say": "A big storm is coming.",
+   "sayPt": "Uma grande tempestade está chegando."
+  },
+  {
+   "emoji": "🌪️",
+   "en": "tornado",
+   "pt": "tornado",
+   "pron": "tor-NÊI-dou",
+   "say": "The tornado is dangerous.",
+   "sayPt": "O tornado é perigoso."
+  },
+  {
+   "emoji": "🌀",
+   "en": "hurricane",
+   "pt": "furacão",
+   "pron": "RÂ-ri-kein",
+   "say": "The hurricane is very strong.",
+   "sayPt": "O furacão é muito forte."
+  },
+  {
+   "emoji": "☂️",
+   "en": "umbrella",
+   "pt": "guarda-chuva",
+   "pron": "âm-BRÉ-la",
+   "say": "Take your umbrella.",
+   "sayPt": "Leve seu guarda-chuva."
+  },
+  {
+   "emoji": "🌡️",
+   "en": "temperature",
+   "pt": "temperatura",
+   "pron": "TÉM-pra-tchur",
+   "say": "The temperature is high.",
+   "sayPt": "A temperatura está alta."
+  },
+  {
+   "emoji": "🌦️",
+   "en": "weather",
+   "pt": "tempo (clima)",
+   "pron": "UÉ-der",
+   "say": "How is the weather?",
+   "sayPt": "Como está o tempo?"
+  },
+  {
+   "emoji": "☔",
+   "en": "It's raining",
+   "pt": "Está chovendo",
+   "pron": "its RÊI-nin",
+   "say": "It's raining outside.",
+   "sayPt": "Está chovendo lá fora."
+  },
+  {
+   "emoji": "😎",
+   "en": "It's sunny",
+   "pt": "Está ensolarado",
+   "pron": "its SÂ-ni",
+   "say": "It's sunny! Let's play!",
+   "sayPt": "Está sol! Vamos brincar!"
+  },
+  {
+   "emoji": "⛄",
+   "en": "It's snowing",
+   "pt": "Está nevando",
+   "pron": "its SNÔU-in",
+   "say": "Look, it's snowing!",
+   "sayPt": "Olha, está nevando!"
+  },
+  {
+   "emoji": "🪁",
+   "en": "It's windy",
+   "pt": "Está ventando",
+   "pron": "its UÍN-di",
+   "say": "It's windy at the beach.",
+   "sayPt": "Está ventando na praia."
+  },
+  {
+   "emoji": "⛅",
+   "en": "It's cloudy",
+   "pt": "Está nublado",
+   "pron": "its KLÁU-di",
+   "say": "It's cloudy this morning.",
+   "sayPt": "Está nublado esta manhã."
+  },
+  {
+   "emoji": "🧥",
+   "en": "raincoat",
+   "pt": "capa de chuva",
+   "pron": "RÊIN-kout",
+   "say": "Wear your raincoat.",
+   "sayPt": "Vista sua capa de chuva."
+  },
+  {
+   "emoji": "🧊",
+   "en": "ice",
+   "pt": "gelo",
+   "pron": "ÁIS",
+   "say": "The ice is very cold.",
+   "sayPt": "O gelo é muito frio."
+  },
+  {
+   "emoji": "🏜️",
+   "en": "dry",
+   "pt": "seco",
+   "pron": "DRÁI",
+   "say": "The air is dry.",
+   "sayPt": "O ar está seco."
+  },
+  {
+   "emoji": "💦",
+   "en": "wet",
+   "pt": "molhado",
+   "pron": "UÉT",
+   "say": "My shoes are wet.",
+   "sayPt": "Meus sapatos estão molhados."
+  },
+  {
+   "emoji": "🌊",
+   "en": "flood",
+   "pt": "enchente",
+   "pron": "FLÂD",
+   "say": "The rain made a flood.",
+   "sayPt": "A chuva fez uma enchente."
+  },
+  {
+   "emoji": "📡",
+   "en": "forecast",
+   "pt": "previsão do tempo",
+   "pron": "FÓR-kést",
+   "say": "Look at the forecast.",
+   "sayPt": "Olhe a previsão do tempo."
+  }
+ ]
+}

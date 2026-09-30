@@ -1,0 +1,336 @@
+{
+ "items": [
+  {
+   "emoji": "🕐",
+   "en": "one o'clock",
+   "pt": "uma hora",
+   "pron": "UÂN ó-KLÓK",
+   "say": "It's one o'clock.",
+   "sayPt": "É uma hora."
+  },
+  {
+   "emoji": "🕜",
+   "en": "one thirty",
+   "pt": "uma e meia",
+   "pron": "UÂN THÊR-ri",
+   "say": "It's one thirty.",
+   "sayPt": "É uma e meia."
+  },
+  {
+   "emoji": "🕑",
+   "en": "two o'clock",
+   "pt": "duas horas",
+   "pron": "TCHU ó-KLÓK",
+   "say": "It's two o'clock.",
+   "sayPt": "São duas horas."
+  },
+  {
+   "emoji": "🕝",
+   "en": "two thirty",
+   "pt": "duas e meia",
+   "pron": "TCHU THÊR-ri",
+   "say": "It's two thirty.",
+   "sayPt": "São duas e meia."
+  },
+  {
+   "emoji": "🕒",
+   "en": "three o'clock",
+   "pt": "três horas",
+   "pron": "THRI ó-KLÓK",
+   "say": "It's three o'clock.",
+   "sayPt": "São três horas."
+  },
+  {
+   "emoji": "🕞",
+   "en": "three thirty",
+   "pt": "três e meia",
+   "pron": "THRI THÊR-ri",
+   "say": "It's three thirty.",
+   "sayPt": "São três e meia."
+  },
+  {
+   "emoji": "🕓",
+   "en": "four o'clock",
+   "pt": "quatro horas",
+   "pron": "FÓR ó-KLÓK",
+   "say": "It's four o'clock.",
+   "sayPt": "São quatro horas."
+  },
+  {
+   "emoji": "🕟",
+   "en": "four thirty",
+   "pt": "quatro e meia",
+   "pron": "FÓR THÊR-ri",
+   "say": "It's four thirty.",
+   "sayPt": "São quatro e meia."
+  },
+  {
+   "emoji": "🕔",
+   "en": "five o'clock",
+   "pt": "cinco horas",
+   "pron": "FÁIV ó-KLÓK",
+   "say": "It's five o'clock.",
+   "sayPt": "São cinco horas."
+  },
+  {
+   "emoji": "🕠",
+   "en": "five thirty",
+   "pt": "cinco e meia",
+   "pron": "FÁIV THÊR-ri",
+   "say": "It's five thirty.",
+   "sayPt": "São cinco e meia."
+  },
+  {
+   "emoji": "🕕",
+   "en": "six o'clock",
+   "pt": "seis horas",
+   "pron": "SIKS ó-KLÓK",
+   "say": "It's six o'clock.",
+   "sayPt": "São seis horas."
+  },
+  {
+   "emoji": "🕡",
+   "en": "six thirty",
+   "pt": "seis e meia",
+   "pron": "SIKS THÊR-ri",
+   "say": "It's six thirty.",
+   "sayPt": "São seis e meia."
+  },
+  {
+   "emoji": "🕖",
+   "en": "seven o'clock",
+   "pt": "sete horas",
+   "pron": "SÉ-ven ó-KLÓK",
+   "say": "It's seven o'clock.",
+   "sayPt": "São sete horas."
+  },
+  {
+   "emoji": "🕢",
+   "en": "seven thirty",
+   "pt": "sete e meia",
+   "pron": "SÉ-ven THÊR-ri",
+   "say": "It's seven thirty.",
+   "sayPt": "São sete e meia."
+  },
+  {
+   "emoji": "🕗",
+   "en": "eight o'clock",
+   "pt": "oito horas",
+   "pron": "ÊIT ó-KLÓK",
+   "say": "It's eight o'clock.",
+   "sayPt": "São oito horas."
+  },
+  {
+   "emoji": "🕣",
+   "en": "eight thirty",
+   "pt": "oito e meia",
+   "pron": "ÊIT THÊR-ri",
+   "say": "It's eight thirty.",
+   "sayPt": "São oito e meia."
+  },
+  {
+   "emoji": "🕘",
+   "en": "nine o'clock",
+   "pt": "nove horas",
+   "pron": "NÁIN ó-KLÓK",
+   "say": "It's nine o'clock.",
+   "sayPt": "São nove horas."
+  },
+  {
+   "emoji": "🕤",
+   "en": "nine thirty",
+   "pt": "nove e meia",
+   "pron": "NÁIN THÊR-ri",
+   "say": "It's nine thirty.",
+   "sayPt": "São nove e meia."
+  },
+  {
+   "emoji": "🕙",
+   "en": "ten o'clock",
+   "pt": "dez horas",
+   "pron": "TÉN ó-KLÓK",
+   "say": "It's ten o'clock.",
+   "sayPt": "São dez horas."
+  },
+  {
+   "emoji": "🕥",
+   "en": "ten thirty",
+   "pt": "dez e meia",
+   "pron": "TÉN THÊR-ri",
+   "say": "It's ten thirty.",
+   "sayPt": "São dez e meia."
+  },
+  {
+   "emoji": "🕚",
+   "en": "eleven o'clock",
+   "pt": "onze horas",
+   "pron": "i-LÉ-ven ó-KLÓK",
+   "say": "It's eleven o'clock.",
+   "sayPt": "São onze horas."
+  },
+  {
+   "emoji": "🕦",
+   "en": "eleven thirty",
+   "pt": "onze e meia",
+   "pron": "i-LÉ-ven THÊR-ri",
+   "say": "It's eleven thirty.",
+   "sayPt": "São onze e meia."
+  },
+  {
+   "emoji": "🕛",
+   "en": "twelve o'clock",
+   "pt": "doze horas",
+   "pron": "TUÉLV ó-KLÓK",
+   "say": "It's twelve o'clock.",
+   "sayPt": "São doze horas."
+  },
+  {
+   "emoji": "🕧",
+   "en": "twelve thirty",
+   "pt": "doze e meia",
+   "pron": "TUÉLV THÊR-ri",
+   "say": "It's twelve thirty.",
+   "sayPt": "São doze e meia."
+  },
+  {
+   "emoji": "⌛",
+   "en": "hour",
+   "pt": "hora",
+   "pron": "ÁUR",
+   "say": "One hour has sixty minutes.",
+   "sayPt": "Uma hora tem sessenta minutos."
+  },
+  {
+   "emoji": "⏲️",
+   "en": "minute",
+   "pt": "minuto",
+   "pron": "MÍ-nit",
+   "say": "Wait a minute!",
+   "sayPt": "Espere um minuto!"
+  },
+  {
+   "emoji": "⏱️",
+   "en": "second",
+   "pt": "segundo",
+   "pron": "SÉ-kond",
+   "say": "Just a second!",
+   "sayPt": "Só um segundo!"
+  },
+  {
+   "emoji": "⏳",
+   "en": "time",
+   "pt": "tempo / hora",
+   "pron": "TÁIM",
+   "say": "It's time to sleep.",
+   "sayPt": "É hora de dormir."
+  },
+  {
+   "emoji": "🕰️",
+   "en": "clock",
+   "pt": "relógio (de parede)",
+   "pron": "KLÓK",
+   "say": "The clock is on the wall.",
+   "sayPt": "O relógio está na parede."
+  },
+  {
+   "emoji": "⌚",
+   "en": "watch",
+   "pt": "relógio (de pulso)",
+   "pron": "UÓTCH",
+   "say": "I have a new watch.",
+   "sayPt": "Eu tenho um relógio novo."
+  },
+  {
+   "emoji": "⏰",
+   "en": "alarm clock",
+   "pt": "despertador",
+   "pron": "a-LÁRM klók",
+   "say": "My alarm clock is loud.",
+   "sayPt": "Meu despertador é barulhento."
+  },
+  {
+   "emoji": "🐓",
+   "en": "early",
+   "pt": "cedo",
+   "pron": "ÊR-li",
+   "say": "I wake up early.",
+   "sayPt": "Eu acordo cedo."
+  },
+  {
+   "emoji": "🐢",
+   "en": "late",
+   "pt": "tarde / atrasado",
+   "pron": "LÊIT",
+   "say": "I am late!",
+   "sayPt": "Estou atrasado!"
+  },
+  {
+   "emoji": "✅",
+   "en": "on time",
+   "pt": "na hora certa",
+   "pron": "ón TÁIM",
+   "say": "The bus is on time.",
+   "sayPt": "O ônibus está no horário."
+  },
+  {
+   "emoji": "🌞",
+   "en": "noon",
+   "pt": "meio-dia",
+   "pron": "NUN",
+   "say": "We eat lunch at noon.",
+   "sayPt": "Nós almoçamos ao meio-dia."
+  },
+  {
+   "emoji": "🌃",
+   "en": "midnight",
+   "pt": "meia-noite",
+   "pron": "MID-náit",
+   "say": "It's midnight, go to bed.",
+   "sayPt": "É meia-noite, vá para a cama."
+  },
+  {
+   "emoji": "❓",
+   "en": "What time is it?",
+   "pt": "Que horas são?",
+   "pron": "uót TÁIM iz it",
+   "say": "What time is it, Mom?",
+   "sayPt": "Que horas são, mãe?"
+  },
+  {
+   "emoji": "🕒",
+   "label": ":15",
+   "en": "quarter past",
+   "pt": "e quinze",
+   "pron": "KUÓR-ter pést",
+   "say": "It's quarter past three.",
+   "sayPt": "São três e quinze."
+  },
+  {
+   "emoji": "🕡",
+   "label": ":30",
+   "en": "half past",
+   "pt": "e meia",
+   "pron": "RÉF pést",
+   "say": "It's half past six.",
+   "sayPt": "São seis e meia."
+  },
+  {
+   "emoji": "🕘",
+   "label": ":45",
+   "en": "quarter to",
+   "pt": "quinze para",
+   "pron": "KUÓR-ter tu",
+   "say": "It's quarter to nine.",
+   "sayPt": "São quinze para as nove."
+  },
+  {
+   "emoji": "🕛",
+   "label": ":00",
+   "en": "o'clock",
+   "pt": "em ponto",
+   "pron": "ó-KLÓK",
+   "say": "It's ten o'clock.",
+   "sayPt": "São dez em ponto."
+  }
+ ]
+}
