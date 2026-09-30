@@ -1,0 +1,283 @@
+{
+  "area": "kids",
+  "titulo": "Hi Family Kids",
+  "descricao": "Vocabulário infantil com emoji, tradução e pronúncia aproximada para brasileiros. Cada tema traz frases-modelo para diálogos e quizzes.",
+  "temas": [
+    {
+      "id": "cumprimentos",
+      "titulo_pt": "Cumprimentos",
+      "titulo_en": "Greetings",
+      "emoji": "👋",
+      "cor": "#4CAF50",
+      "ordem": 1,
+      "itens": [
+        { "en": "Hello", "pt": "Olá", "emoji": "👋", "pron": "rê-LÔU" },
+        { "en": "Hi", "pt": "Oi", "emoji": "🙋", "pron": "RÁI" },
+        { "en": "Good morning", "pt": "Bom dia", "emoji": "🌅", "pron": "gud MÓR-nin" },
+        { "en": "Good afternoon", "pt": "Boa tarde", "emoji": "🌤️", "pron": "gud éf-ter-NUN" },
+        { "en": "Good evening", "pt": "Boa noite (ao chegar)", "emoji": "🌆", "pron": "gud ÍV-nin" },
+        { "en": "Good night", "pt": "Boa noite (ao dormir)", "emoji": "🌙", "pron": "gud NÁIT" },
+        { "en": "How are you?", "pt": "Como você está?", "emoji": "🙂", "pron": "RAU ár iu?" },
+        { "en": "I'm fine, thank you", "pt": "Estou bem, obrigado", "emoji": "😊", "pron": "áim FÁIN, THÉNK iu" },
+        { "en": "What's your name?", "pt": "Qual é o seu nome?", "emoji": "❓", "pron": "uóts iór NÊIM?" },
+        { "en": "My name is...", "pt": "Meu nome é...", "emoji": "📛", "pron": "mái NÊIM iz" },
+        { "en": "Nice to meet you", "pt": "Prazer em te conhecer", "emoji": "🤝", "pron": "NÁIS tu MÍT iu" },
+        { "en": "Please", "pt": "Por favor", "emoji": "🙏", "pron": "PLÍZ" },
+        { "en": "Thank you", "pt": "Obrigado(a)", "emoji": "💚", "pron": "THÉNK iu" },
+        { "en": "You're welcome", "pt": "De nada", "emoji": "😄", "pron": "iór UÉL-kam" },
+        { "en": "Sorry", "pt": "Desculpa", "emoji": "😔", "pron": "SÓ-ri" },
+        { "en": "Excuse me", "pt": "Com licença", "emoji": "🙋‍♂️", "pron": "eks-KIÚZ mi" },
+        { "en": "Goodbye", "pt": "Tchau", "emoji": "👋", "pron": "gud-BÁI" },
+        { "en": "See you later", "pt": "Até mais", "emoji": "✌️", "pron": "SÍ iu LÊI-ter" }
+      ],
+      "frases": [
+        { "en": "Hi! My name is Kiko. What's your name?", "pt": "Oi! Meu nome é Kiko. Qual é o seu nome?" },
+        { "en": "How are you? — I'm fine, thank you!", "pt": "Como você está? — Estou bem, obrigado!" },
+        { "en": "Nice to meet you!", "pt": "Prazer em te conhecer!" }
+      ]
+    },
+    {
+      "id": "dias-da-semana",
+      "titulo_pt": "Dias da semana",
+      "titulo_en": "Days of the week",
+      "emoji": "📅",
+      "cor": "#2196F3",
+      "ordem": 2,
+      "itens": [
+        { "en": "Monday", "pt": "Segunda-feira", "emoji": "🌙", "pron": "MÂN-dei" },
+        { "en": "Tuesday", "pt": "Terça-feira", "emoji": "🎒", "pron": "TCHÚZ-dei" },
+        { "en": "Wednesday", "pt": "Quarta-feira", "emoji": "🐪", "pron": "UÊNZ-dei" },
+        { "en": "Thursday", "pt": "Quinta-feira", "emoji": "⚡", "pron": "THÂRZ-dei" },
+        { "en": "Friday", "pt": "Sexta-feira", "emoji": "🎉", "pron": "FRÁI-dei" },
+        { "en": "Saturday", "pt": "Sábado", "emoji": "⚽", "pron": "SÁ-tur-dei" },
+        { "en": "Sunday", "pt": "Domingo", "emoji": "☀️", "pron": "SÂN-dei" },
+        { "en": "Today", "pt": "Hoje", "emoji": "📍", "pron": "tu-DÊI" },
+        { "en": "Tomorrow", "pt": "Amanhã", "emoji": "➡️", "pron": "tu-MÓ-rou" },
+        { "en": "Yesterday", "pt": "Ontem", "emoji": "⬅️", "pron": "IÉS-ter-dei" },
+        { "en": "Weekend", "pt": "Fim de semana", "emoji": "🏖️", "pron": "UÍK-end" }
+      ],
+      "frases": [
+        { "en": "Today is Monday.", "pt": "Hoje é segunda-feira." },
+        { "en": "What day is today?", "pt": "Que dia é hoje?" },
+        { "en": "I love the weekend!", "pt": "Eu amo o fim de semana!" }
+      ],
+      "dica": "Em inglês, dias da semana e meses sempre começam com letra maiúscula."
+    },
+    {
+      "id": "meses",
+      "titulo_pt": "Meses do ano",
+      "titulo_en": "Months of the year",
+      "emoji": "🗓️",
+      "cor": "#9C27B0",
+      "ordem": 3,
+      "itens": [
+        { "en": "January", "pt": "Janeiro", "emoji": "🎆", "pron": "DJÉ-niu-é-ri" },
+        { "en": "February", "pt": "Fevereiro", "emoji": "🎭", "pron": "FÉ-bru-é-ri" },
+        { "en": "March", "pt": "Março", "emoji": "🍀", "pron": "MÁRTCH" },
+        { "en": "April", "pt": "Abril", "emoji": "🐰", "pron": "ÊI-pril" },
+        { "en": "May", "pt": "Maio", "emoji": "🌸", "pron": "MÊI" },
+        { "en": "June", "pt": "Junho", "emoji": "🌽", "pron": "DJÚN" },
+        { "en": "July", "pt": "Julho", "emoji": "🪁", "pron": "dju-LÁI" },
+        { "en": "August", "pt": "Agosto", "emoji": "🌬️", "pron": "Ó-gâst" },
+        { "en": "September", "pt": "Setembro", "emoji": "🌻", "pron": "sep-TÉM-ber" },
+        { "en": "October", "pt": "Outubro", "emoji": "🎃", "pron": "ók-TÔU-ber" },
+        { "en": "November", "pt": "Novembro", "emoji": "⭐", "pron": "nou-VÉM-ber" },
+        { "en": "December", "pt": "Dezembro", "emoji": "🎄", "pron": "di-SÉM-ber" }
+      ],
+      "frases": [
+        { "en": "My birthday is in September.", "pt": "Meu aniversário é em setembro." },
+        { "en": "When is your birthday?", "pt": "Quando é o seu aniversário?" },
+        { "en": "There are twelve months in a year.", "pt": "Há doze meses em um ano." }
+      ]
+    },
+    {
+      "id": "estacoes",
+      "titulo_pt": "Estações do ano",
+      "titulo_en": "Seasons",
+      "emoji": "🍂",
+      "cor": "#FF9800",
+      "ordem": 4,
+      "itens": [
+        { "en": "Spring", "pt": "Primavera", "emoji": "🌸", "pron": "SPRÍN" },
+        { "en": "Summer", "pt": "Verão", "emoji": "☀️", "pron": "SÂ-mer" },
+        { "en": "Autumn / Fall", "pt": "Outono", "emoji": "🍂", "pron": "Ó-tum / FÓL" },
+        { "en": "Winter", "pt": "Inverno", "emoji": "❄️", "pron": "UÍN-ter" },
+        { "en": "Season", "pt": "Estação", "emoji": "🔄", "pron": "SÍ-zon" }
+      ],
+      "frases": [
+        { "en": "My favorite season is summer.", "pt": "Minha estação favorita é o verão." },
+        { "en": "It's cold in winter.", "pt": "Faz frio no inverno." },
+        { "en": "Flowers grow in spring.", "pt": "As flores crescem na primavera." }
+      ],
+      "dica": "\"Autumn\" é mais usado no inglês britânico; \"fall\" no americano."
+    },
+    {
+      "id": "horas",
+      "titulo_pt": "Horas",
+      "titulo_en": "Telling the time",
+      "emoji": "⏰",
+      "cor": "#00BCD4",
+      "ordem": 5,
+      "itens": [
+        { "en": "Clock", "pt": "Relógio", "emoji": "🕰️", "pron": "KLÓK" },
+        { "en": "Hour", "pt": "Hora", "emoji": "⏳", "pron": "ÁUR" },
+        { "en": "Minute", "pt": "Minuto", "emoji": "⏱️", "pron": "MÍ-nit" },
+        { "en": "What time is it?", "pt": "Que horas são?", "emoji": "❓", "pron": "uót TÁIM iz it?" },
+        { "en": "It's one o'clock", "pt": "É uma hora", "emoji": "🕐", "pron": "its UÂN o-KLÓK" },
+        { "en": "It's three o'clock", "pt": "São três horas", "emoji": "🕒", "pron": "its THRÍ o-KLÓK" },
+        { "en": "Half past two", "pt": "Duas e meia", "emoji": "🕝", "pron": "RÉF pést TÚ" },
+        { "en": "Quarter past four", "pt": "Quatro e quinze", "emoji": "🕓", "pron": "KUÓR-ter pést FÓR" },
+        { "en": "Quarter to six", "pt": "Quinze para as seis", "emoji": "🕠", "pron": "KUÓR-ter tu SÍKS" },
+        { "en": "Morning", "pt": "Manhã", "emoji": "🌅", "pron": "MÓR-nin" },
+        { "en": "Afternoon", "pt": "Tarde", "emoji": "🌤️", "pron": "éf-ter-NUN" },
+        { "en": "Evening", "pt": "Noitinha", "emoji": "🌆", "pron": "ÍV-nin" },
+        { "en": "Night", "pt": "Noite", "emoji": "🌃", "pron": "NÁIT" },
+        { "en": "Noon", "pt": "Meio-dia", "emoji": "🕛", "pron": "NUN" },
+        { "en": "Midnight", "pt": "Meia-noite", "emoji": "🌑", "pron": "MÍD-náit" },
+        { "en": "Early", "pt": "Cedo", "emoji": "🐓", "pron": "ÊR-li" },
+        { "en": "Late", "pt": "Tarde (atrasado)", "emoji": "🐢", "pron": "LÊIT" }
+      ],
+      "frases": [
+        { "en": "What time is it? — It's seven o'clock.", "pt": "Que horas são? — São sete horas." },
+        { "en": "I wake up at seven in the morning.", "pt": "Eu acordo às sete da manhã." },
+        { "en": "Lunch is at noon.", "pt": "O almoço é ao meio-dia." }
+      ],
+      "dica": "\"O'clock\" só se usa com hora cheia: It's five o'clock (5:00)."
+    },
+    {
+      "id": "clima",
+      "titulo_pt": "Clima",
+      "titulo_en": "Weather",
+      "emoji": "🌦️",
+      "cor": "#03A9F4",
+      "ordem": 6,
+      "itens": [
+        { "en": "Weather", "pt": "Clima / tempo", "emoji": "🌦️", "pron": "UÉ-der" },
+        { "en": "Sunny", "pt": "Ensolarado", "emoji": "☀️", "pron": "SÂ-ni" },
+        { "en": "Rainy", "pt": "Chuvoso", "emoji": "🌧️", "pron": "RÊI-ni" },
+        { "en": "Cloudy", "pt": "Nublado", "emoji": "☁️", "pron": "KLÁU-di" },
+        { "en": "Windy", "pt": "Com vento", "emoji": "💨", "pron": "UÍN-di" },
+        { "en": "Snowy", "pt": "Com neve", "emoji": "🌨️", "pron": "SNÔU-i" },
+        { "en": "Stormy", "pt": "Tempestuoso", "emoji": "⛈️", "pron": "STÓR-mi" },
+        { "en": "Foggy", "pt": "Com neblina", "emoji": "🌫️", "pron": "FÓ-gui" },
+        { "en": "Hot", "pt": "Quente", "emoji": "🥵", "pron": "RÓT" },
+        { "en": "Warm", "pt": "Morno / agradável", "emoji": "🌡️", "pron": "UÓRM" },
+        { "en": "Cold", "pt": "Frio", "emoji": "🥶", "pron": "KÔULD" },
+        { "en": "Rain", "pt": "Chuva", "emoji": "💧", "pron": "RÊIN" },
+        { "en": "Snow", "pt": "Neve", "emoji": "⛄", "pron": "SNÔU" },
+        { "en": "Rainbow", "pt": "Arco-íris", "emoji": "🌈", "pron": "RÊIN-bôu" },
+        { "en": "Umbrella", "pt": "Guarda-chuva", "emoji": "☂️", "pron": "âm-BRÉ-la" }
+      ],
+      "frases": [
+        { "en": "What's the weather like today?", "pt": "Como está o tempo hoje?" },
+        { "en": "It's sunny and hot!", "pt": "Está ensolarado e quente!" },
+        { "en": "It's raining. Take your umbrella!", "pt": "Está chovendo. Leve seu guarda-chuva!" }
+      ]
+    },
+    {
+      "id": "natureza",
+      "titulo_pt": "Natureza",
+      "titulo_en": "Nature",
+      "emoji": "🌳",
+      "cor": "#8BC34A",
+      "ordem": 7,
+      "itens": [
+        { "en": "Tree", "pt": "Árvore", "emoji": "🌳", "pron": "TRÍ" },
+        { "en": "Flower", "pt": "Flor", "emoji": "🌷", "pron": "FLÁU-er" },
+        { "en": "Leaf", "pt": "Folha", "emoji": "🍃", "pron": "LÍF" },
+        { "en": "Grass", "pt": "Grama", "emoji": "🌱", "pron": "GRÉS" },
+        { "en": "Sun", "pt": "Sol", "emoji": "☀️", "pron": "SÂN" },
+        { "en": "Moon", "pt": "Lua", "emoji": "🌙", "pron": "MUN" },
+        { "en": "Star", "pt": "Estrela", "emoji": "⭐", "pron": "STÁR" },
+        { "en": "Sky", "pt": "Céu", "emoji": "🌌", "pron": "SKÁI" },
+        { "en": "Cloud", "pt": "Nuvem", "emoji": "☁️", "pron": "KLÁUD" },
+        { "en": "River", "pt": "Rio", "emoji": "🏞️", "pron": "RÍ-ver" },
+        { "en": "Sea", "pt": "Mar", "emoji": "🌊", "pron": "SÍ" },
+        { "en": "Beach", "pt": "Praia", "emoji": "🏖️", "pron": "BÍTCH" },
+        { "en": "Mountain", "pt": "Montanha", "emoji": "⛰️", "pron": "MÁUN-ten" },
+        { "en": "Forest", "pt": "Floresta", "emoji": "🌲", "pron": "FÓ-rest" },
+        { "en": "Rock", "pt": "Pedra", "emoji": "🪨", "pron": "RÓK" },
+        { "en": "Bird", "pt": "Pássaro", "emoji": "🐦", "pron": "BÂRD" },
+        { "en": "Butterfly", "pt": "Borboleta", "emoji": "🦋", "pron": "BÂ-ter-flái" },
+        { "en": "Bee", "pt": "Abelha", "emoji": "🐝", "pron": "BÍ" },
+        { "en": "Fish", "pt": "Peixe", "emoji": "🐟", "pron": "FÍCH" },
+        { "en": "Island", "pt": "Ilha", "emoji": "🏝️", "pron": "ÁI-land" }
+      ],
+      "frases": [
+        { "en": "The sky is blue.", "pt": "O céu é azul." },
+        { "en": "I can see a butterfly on the flower.", "pt": "Eu vejo uma borboleta na flor." },
+        { "en": "Let's go to the beach!", "pt": "Vamos à praia!" }
+      ]
+    },
+    {
+      "id": "emocoes",
+      "titulo_pt": "Emoções",
+      "titulo_en": "Feelings",
+      "emoji": "😊",
+      "cor": "#E91E63",
+      "ordem": 8,
+      "itens": [
+        { "en": "Happy", "pt": "Feliz", "emoji": "😀", "pron": "RÉ-pi" },
+        { "en": "Sad", "pt": "Triste", "emoji": "😢", "pron": "SÉD" },
+        { "en": "Angry", "pt": "Bravo", "emoji": "😠", "pron": "ÉN-gri" },
+        { "en": "Scared", "pt": "Com medo", "emoji": "😨", "pron": "SKÉRD" },
+        { "en": "Surprised", "pt": "Surpreso", "emoji": "😲", "pron": "sur-PRÁIZD" },
+        { "en": "Tired", "pt": "Cansado", "emoji": "😴", "pron": "TÁI-erd" },
+        { "en": "Excited", "pt": "Animado", "emoji": "🤩", "pron": "ek-SÁI-tid" },
+        { "en": "Bored", "pt": "Entediado", "emoji": "😒", "pron": "BÓRD" },
+        { "en": "Shy", "pt": "Tímido", "emoji": "😳", "pron": "CHÁI" },
+        { "en": "Calm", "pt": "Calmo", "emoji": "😌", "pron": "KÁM" },
+        { "en": "Worried", "pt": "Preocupado", "emoji": "😟", "pron": "UÂ-rid" },
+        { "en": "Proud", "pt": "Orgulhoso", "emoji": "😎", "pron": "PRÁUD" },
+        { "en": "Silly", "pt": "Bobo / brincalhão", "emoji": "🤪", "pron": "SÍ-li" },
+        { "en": "Loved", "pt": "Amado", "emoji": "🥰", "pron": "LÂVD" },
+        { "en": "Hungry", "pt": "Com fome", "emoji": "😋", "pron": "RÂN-gri" },
+        { "en": "Thirsty", "pt": "Com sede", "emoji": "🥤", "pron": "THÂRS-ti" }
+      ],
+      "frases": [
+        { "en": "How do you feel? — I feel happy!", "pt": "Como você se sente? — Eu me sinto feliz!" },
+        { "en": "I'm tired. I want to sleep.", "pt": "Estou cansado. Quero dormir." },
+        { "en": "Don't be scared. I'm here!", "pt": "Não tenha medo. Estou aqui!" }
+      ]
+    },
+    {
+      "id": "verbos",
+      "titulo_pt": "Verbos de ação",
+      "titulo_en": "Action verbs",
+      "emoji": "🏃",
+      "cor": "#F44336",
+      "ordem": 9,
+      "itens": [
+        { "en": "Run", "pt": "Correr", "emoji": "🏃", "pron": "RÂN" },
+        { "en": "Jump", "pt": "Pular", "emoji": "🦘", "pron": "DJÂMP" },
+        { "en": "Walk", "pt": "Andar", "emoji": "🚶", "pron": "UÓK" },
+        { "en": "Swim", "pt": "Nadar", "emoji": "🏊", "pron": "SUÍM" },
+        { "en": "Dance", "pt": "Dançar", "emoji": "💃", "pron": "DÉNS" },
+        { "en": "Sing", "pt": "Cantar", "emoji": "🎤", "pron": "SÍN" },
+        { "en": "Play", "pt": "Brincar / jogar", "emoji": "🧸", "pron": "PLÊI" },
+        { "en": "Eat", "pt": "Comer", "emoji": "🍽️", "pron": "ÍT" },
+        { "en": "Drink", "pt": "Beber", "emoji": "🥛", "pron": "DRÍNK" },
+        { "en": "Sleep", "pt": "Dormir", "emoji": "🛌", "pron": "SLÍP" },
+        { "en": "Wake up", "pt": "Acordar", "emoji": "⏰", "pron": "UÊIK âp" },
+        { "en": "Read", "pt": "Ler", "emoji": "📖", "pron": "RÍD" },
+        { "en": "Write", "pt": "Escrever", "emoji": "✏️", "pron": "RÁIT" },
+        { "en": "Draw", "pt": "Desenhar", "emoji": "🎨", "pron": "DRÓ" },
+        { "en": "Listen", "pt": "Escutar", "emoji": "👂", "pron": "LÍ-sen" },
+        { "en": "Look", "pt": "Olhar", "emoji": "👀", "pron": "LUK" },
+        { "en": "Talk", "pt": "Falar / conversar", "emoji": "🗣️", "pron": "TÓK" },
+        { "en": "Wash", "pt": "Lavar", "emoji": "🧼", "pron": "UÓCH" },
+        { "en": "Brush", "pt": "Escovar", "emoji": "🪥", "pron": "BRÂCH" },
+        { "en": "Open", "pt": "Abrir", "emoji": "📂", "pron": "ÔU-pen" },
+        { "en": "Close", "pt": "Fechar", "emoji": "🚪", "pron": "KLÔUZ" },
+        { "en": "Sit down", "pt": "Sentar", "emoji": "🪑", "pron": "SÍT dáun" },
+        { "en": "Stand up", "pt": "Levantar", "emoji": "🧍", "pron": "STÉND âp" },
+        { "en": "Help", "pt": "Ajudar", "emoji": "🤝", "pron": "RÉLP" }
+      ],
+      "frases": [
+        { "en": "I like to swim at the beach.", "pt": "Eu gosto de nadar na praia." },
+        { "en": "Can you jump? — Yes, I can!", "pt": "Você consegue pular? — Sim, eu consigo!" },
+        { "en": "Brush your teeth and go to sleep.", "pt": "Escove os dentes e vá dormir." }
+      ]
+    }
+  ]
+}
