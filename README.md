@@ -26,6 +26,8 @@ js/vocab.js           lê o vocabulário por categoria e faz a busca
 js/content.js         lê o curso de data/course.json (trilha, desbloqueio, nível atual)
 js/speech.js          áudio grátis pela voz em inglês do aparelho
 js/quiz-engine.js     monta as perguntas de múltipla escolha
+sw.js                 modo offline (gerado por tools/make_sw.py)
+js/views/navy.js      área Marinha: vocabulário do dia, temas, quiz e intercâmbio
 js/views/*.js         telas: início, aprender (mapa), lição, vocabulário, quiz/revisão, jogar, ranking, sala, perfil, viagem, chefão, loja
 js/game.js            mapa de ilhas compartilhado, moedas, baú e festa (estilos em js/game-styles.js)
 js/kiko.js            itens da lojinha e o Kiko com acessórios
@@ -72,7 +74,18 @@ Para palavras, edite `data/vocab/<categoria>.json` (campos: slug, word, translat
 - [x] **v0.9 — Aventura no Japão 🇯🇵**: 16 capítulos (~20 dias: Tóquio, Hakone, Kyoto, Nara, Osaka, Hiroshima/Miyajima e volta), tema sakura e chefão "O Ninja do Trem-Bala". Fontes em `tools/story_japan_part1..4.py`; rode `python3 tools/story_japan.py`
 - [x] **v0.10**: Área Kids com 16 áreas e 1.299 palavras (novas: cumprimentos, verbos, emoções, horas, dias, meses, estações, clima, natureza); **dicionário de toque** em todas as falas (`data/dict.json`, fonte `tools/dict_src.json`; `tools/dict_tokens.py` lista as palavras do app); **🐢 devagar** e **🇧🇷 tradução sempre aberta** nas histórias; **"Leia assim"** (pronúncia em português) nas 508 frases; **Frases que se encaixam** (`#/frases`, 8 começos e 126 finais em `tools/patterns_src.json` → `tools/make_patterns.py`); **⭐ favoritas** (`#/favoritas`)
 - [ ] **Fase 4**: página de desempenho com gráficos e conquistas (`en_achievement` já criada)
-- [ ] **Fase 5**: PWA offline (service worker + sincronização; o armazenamento local já existe)
+- [x] **v0.11 — Offline + Inglês Naval ⚓**
+  - **Funciona sem internet** (PWA): `sw.js` guarda o app inteiro (~5 MB) na primeira visita; arquivos tentam a rede e, se ela falhar ou demorar 4 s, usam a cópia guardada. A biblioteca do Supabase agora fica no próprio site (`js/vendor/supabase.js`). Quem já entrou uma vez no aparelho pode estudar offline ("Continuar offline"); o progresso sincroniza quando a internet volta. Faixa azul avisa quando está offline.
+  - **Área Marinha** (`#/marinha`, novo item "Marinha" no menu): **vocabulário do dia** (10 termos por dia, iguais para todos, com cartões, áudio, exemplo e quiz), **frase do dia**, sequência de dias, e **14 temas / 300 termos** de inglês naval (postos e graduações, partes do navio, ordens, rádio, alfabeto fonético, navegação, marinharia, controle de avarias, operações, vida a bordo, cerimonial, meteorologia, Fuzileiros Navais).
+  - **Intercâmbio naval** (`#/marinha/intercambio`): 12 conversas simuladas com militares dos EUA, Chile, Reino Unido, França, Índia, Austrália, África do Sul, Portugal, Japão, Nigéria e Canadá (rádio VHF, briefing, jantar formal, transferência no mar, busca e salvamento, abordagem, incêndio, desembarque anfíbio…). Você escolhe a resposta ou **responde falando 🎙️**, recebe comentário na hora, e cada militar fala com o sotaque do país quando o aparelho tem essa voz.
+  - Conteúdo em `tools/navy_vocab.py` e `tools/navy_exchange.py` → `python3 tools/make_navy.py` gera `data/navy.json`.
+
+## Modo offline: ao publicar uma versão nova
+
+Depois de mudar qualquer arquivo, rode `python3 tools/make_sw.py` antes de enviar ao GitHub. Ele atualiza a lista de arquivos e a versão do `sw.js`; os aparelhos baixam a versão nova na próxima vez que abrirem o app com internet.
+
+Observação: ranking, sala ao vivo, criar conta e o reconhecimento de voz do navegador precisam de internet. Lições, vocabulário, viagens, Kids, treino de fala (ouvir/gravar), Marinha e intercâmbio funcionam offline. As vozes vêm do aparelho; no celular, baixe as vozes em inglês nas configurações de voz/acessibilidade para garantir áudio sem internet.
+- [ ] **Fase 5b**: página de instalação guiada e aviso de "nova versão disponível"
 
 ## Recursos que dependem do Supabase
 

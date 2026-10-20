@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="css/app.css?v=0.10.0">
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script type="module" src="js/app.js?v=0.10.0"></script>
+  <link rel="stylesheet" href="css/app.css?v=0.11.0">
+  <script src="js/vendor/supabase.js?v=2.118.0" defer></script>
+  <script type="module" src="js/app.js?v=0.11.0"></script>
 </head>
 <body>
   <a class="skip-link" href="#view">Pular para o conteúdo</a>
@@ -62,6 +62,7 @@
         <button class="btn btn-primary btn-lg" type="submit">Entrar →</button>
         <div class="or" data-google-block hidden><span>ou</span></div>
         <button class="btn btn-google btn-lg" type="button" data-google hidden><svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2c-2 1.5-4.5 2.4-7.2 2.4-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg> Continuar com o Google</button>
+        <button class="btn btn-soft btn-lg" type="button" data-offline hidden>📴 Continuar offline</button>
         <p class="auth-switch">Ainda não tem uma conta?</p>
         <button class="btn btn-soft btn-lg" type="button" data-go="signup">Criar conta gratuita</button>
       </form>
@@ -109,6 +110,7 @@
       <a data-nav="aprender" href="#/aprender"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M9 8h7M9 12h5"/></svg><span>Aprender</span></a>
       <a data-nav="viagem" href="#/viagem"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg><span>Viagem</span></a>
       <a data-nav="vocabulario" href="#/vocabulario"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="13" height="16" rx="2.5"/><path d="M8 4v-.5A1.5 1.5 0 0 1 9.5 2H19a2 2 0 0 1 2 2v13.5a1.5 1.5 0 0 1-1.5 1.5H16"/><path d="M7 9h5M7 13h4"/></svg><span>Vocabulário</span></a>
+      <a data-nav="marinha" href="#/marinha"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><path d="M12 7.2V21M8 10.5h8"/><path d="M4.5 13.5c0 4.2 3.4 7.5 7.5 7.5s7.5-3.3 7.5-7.5"/><path d="M3 15l1.5-1.5L6 15M18 15l1.5-1.5L21 15"/></svg><span>Marinha</span></a>
       <a data-nav="revisao" class="nav-desktop" href="#/revisao"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 3v5h5"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 21v-5h-5"/></svg><span>Revisão</span></a>
       <a data-nav="jogar" href="#/jogar"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="7" width="19" height="11" rx="5.5"/><path d="M7 10.5v4M5 12.5h4"/><circle cx="15.5" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg><span>Jogar</span></a>
       <a data-nav="ranking" class="nav-desktop" href="#/ranking"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg><span>Ranking</span></a>
@@ -117,6 +119,7 @@
     <main id="view" class="view" tabindex="-1"></main>
   </div>
 
+  <div id="offline-bar" class="offline-bar" role="status" hidden>📴 Offline: seu progresso fica salvo e sincroniza depois.</div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

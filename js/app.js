@@ -20,6 +20,7 @@ import * as speakView from './views/speak.js';
 import * as plan from './views/plan.js';
 import * as favView from './views/favs.js';
 import * as patterns from './views/patterns.js';
+import * as navy from './views/navy.js';
 import './wordtip.js';
 import './favorites.js';
 
@@ -49,6 +50,13 @@ const ROUTES = [
   { re: /^#\/frases$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, params: () => ({}) },
   { re: /^#\/frases\/([\w-]+)$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, params: (m) => ({ frame: m[1] }) },
   { re: /^#\/frases\/([\w-]+)\/jogo(?:\?\d*)?$/, nav: 'jogar', title: 'Frases que se encaixam', view: patterns, focusless: true, params: (m) => ({ frame: m[1], game: true }) },
+  { re: /^#\/marinha$/, nav: 'marinha', title: 'Inglês Naval', view: navy, params: () => ({}) },
+  { re: /^#\/marinha\/dia(?:\?\d*)?$/, nav: 'marinha', title: 'Vocabulário do dia', view: navy, focusless: true, params: () => ({ mode: 'day' }) },
+  { re: /^#\/marinha\/tema\/([\w-]+)$/, nav: 'marinha', title: 'Inglês Naval', view: navy, params: (m) => ({ mode: 'theme', id: m[1] }) },
+  { re: /^#\/marinha\/tema\/([\w-]+)\/quiz(?:\?\d*)?$/, nav: 'marinha', title: 'Quiz naval', view: navy, focusless: true, params: (m) => ({ mode: 'theme-quiz', id: m[1] }) },
+  { re: /^#\/marinha\/tema\/([\w-]+)\/cartoes(?:\?\d*)?$/, nav: 'marinha', title: 'Cartões navais', view: navy, focusless: true, params: (m) => ({ mode: 'theme-cards', id: m[1] }) },
+  { re: /^#\/marinha\/intercambio$/, nav: 'marinha', title: 'Intercâmbio naval', view: navy, noRefresh: true, params: () => ({ mode: 'exchanges' }) },
+  { re: /^#\/marinha\/intercambio\/([\w-]+)(?:\?\d*)?$/, nav: 'marinha', title: 'Intercâmbio naval', view: navy, focusless: true, params: (m) => ({ mode: 'exchange', id: m[1] }) },
   { re: /^#\/plano(?:#[\w-]*)?$/, nav: 'inicio', title: 'Meu plano', view: plan },
   { re: /^#\/viagem\/([\w-]+)\/([\w-]+)(?:\?\d*)?$/, nav: 'viagem', title: 'Viagem', view: trip, focusless: true, params: (m) => ({ trip: m[1], chapter: m[2] }) },
   { re: /^#\/jogar$/, nav: 'jogar', title: 'Jogar', view: play },
@@ -196,11 +204,55 @@ function wireAuthForms() {
   });
 }
 
+// ---------- Modo offline ----------
+// Quem já entrou uma vez neste aparelho pode continuar estudando sem internet:
+// o progresso fica no aparelho e sobe para a nuvem quando a conexão voltar.
+
+const LAST_USER_KEY = 'hf_last_user';
+
+function rememberUser(u) {
+  if (u.offline) return;
+  try { localStorage.setItem(LAST_USER_KEY, JSON.stringify({ id: u.id, email: u.email || '', name: auth.displayNameFrom(u) })); } catch (e) { /* sem armazenamento */ }
+}
+
+function lastUser() {
+  try { return JSON.parse(localStorage.getItem(LAST_USER_KEY) || 'null'); } catch (e) { return null; }
+}
+
+function enterOffline() {
+  const last = lastUser();
+  if (!last) return false;
+  enterApp({ id: last.id, email: last.email, user_metadata: { nome: last.name }, offline: true });
+  toast('Sem internet: modo offline. Seu progresso fica salvo no aparelho.');
+  return true;
+}
+
+function updateOfflineUi() {
+  const off = !navigator.onLine;
+  document.body.classList.toggle('is-offline', off);
+  const bar = $('#offline-bar');
+  if (bar) bar.hidden = !off;
+  const btn = $('[data-offline]');
+  const last = lastUser();
+  if (btn) {
+    btn.hidden = !(off && last);
+    if (last) btn.textContent = `📴 Continuar offline como ${last.name || last.email}`;
+  }
+}
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch((e) => console.warn('[offline] service worker não registrado:', e));
+  });
+}
+
 // ---------- Entrada no app ----------
 
 async function enterApp(u) {
   const switching = !user || user.id !== u.id;
   user = u;
+  rememberUser(u);
   const shellVisible = !$('#app-shell').hidden;
   // Renovação de token etc. não deve redesenhar a tela (perderia a lição em andamento).
   if (!switching && shellVisible) return;
@@ -227,6 +279,19 @@ function leaveApp() {
 
 async function start() {
   wireAuthForms();
+  registerServiceWorker();
+  updateOfflineUi();
+  $('[data-offline]').addEventListener('click', enterOffline);
+  window.addEventListener('offline', updateOfflineUi);
+  window.addEventListener('online', async () => {
+    updateOfflineUi();
+    toast('Internet de volta! Sincronizando seu progresso…');
+    // Quem estava no modo offline volta a usar a sessão de verdade, se existir.
+    if (user && user.offline) {
+      try { const session = await auth.getSession(); if (session) user = session.user; } catch (e) { /* segue offline */ }
+    }
+    store.sync();
+  });
 
   try {
     await Promise.all([content.loadCourse(), vocab.loadCategories()]);
@@ -238,6 +303,7 @@ async function start() {
     auth.sb();
     await auth.applyRememberChoice();
   } catch (e) {
+    if (!navigator.onLine && enterOffline()) return;
     showAuth('login');
     setAuthMessage(auth.translateError(e), 'error');
     return;
@@ -246,6 +312,7 @@ async function start() {
   auth.onAuthChange((event, session) => {
     if (event === 'PASSWORD_RECOVERY') { recovering = true; showAuth('newpass'); return; }
     if (session && session.user) { if (!recovering) enterApp(session.user); }
+    else if (event === 'INITIAL_SESSION' && !navigator.onLine && enterOffline()) { /* estudando offline */ }
     else if (event === 'SIGNED_OUT' || event === 'INITIAL_SESSION') leaveApp();
   });
 

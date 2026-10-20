@@ -21,6 +21,7 @@ export function render(root) {
     </a>
 
     <div class="play-grid">
+      <a class="card play-tile" href="#/marinha/intercambio"><span class="quick-emoji">⚓</span><strong>Intercâmbio naval</strong><span class="muted small">Converse com militares de outras marinhas</span></a>
       <a class="card play-tile" href="#/kids"><span class="quick-emoji">🎈</span><strong>Área Kids</strong><span class="muted small">Bichos com som, cores, números e a casa</span></a>
       <a class="card play-tile" href="#/fala"><span class="quick-emoji">🗣️</span><strong>Treino de fala</strong><span class="muted small">Shadowing com gravação da voz</span></a>
       <a class="card play-tile" href="#/frases"><span class="quick-emoji">🧩</span><strong>Frases que se encaixam</strong><span class="muted small">Where is the…? Can I have…?</span></a>

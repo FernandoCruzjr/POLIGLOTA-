@@ -32,5 +32,30 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "shortcuts": [
+    {
+      "name": "Inglês Naval",
+      "short_name": "Marinha",
+      "description": "Vocabulário do dia e intercâmbio naval",
+      "url": "/#/marinha",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Intercâmbio naval",
+      "short_name": "Intercâmbio",
+      "url": "/#/marinha/intercambio",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

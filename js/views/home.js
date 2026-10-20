@@ -88,6 +88,16 @@ export function render(root) {
       <span class="play-cta">Ver</span>
     </a>
 
+    <a class="card trip-hero navy-today" href="#/marinha">
+      <span class="trip-flag" aria-hidden="true">⚓</span>
+      <span class="trip-hero-text">
+        <span class="eyebrow">Inglês Naval · Marinha</span>
+        <strong>Vocabulário do dia e intercâmbio</strong>
+        <span class="muted small">Rádio, manobra, cerimonial e conversas com militares de outros países</span>
+      </span>
+      <span class="play-cta">Abrir</span>
+    </a>
+
     <div data-trip-slot></div>
 
     <a class="card play-hero" href="#/sala">

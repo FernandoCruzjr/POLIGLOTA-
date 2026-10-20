@@ -92,8 +92,11 @@ export async function updatePassword(password) {
   if (error) throw error;
 }
 
+// Sair também esquece o "continuar offline" deste aparelho.
+// Sem internet, encerra só a sessão local (a da nuvem expira sozinha).
 export async function signOut() {
-  await sb().auth.signOut();
+  try { localStorage.removeItem('hf_last_user'); } catch (e) { /* sem armazenamento */ }
+  try { await sb().auth.signOut(navigator.onLine ? undefined : { scope: 'local' }); } catch (e) { /* já estava sem sessão */ }
 }
 
 export function displayNameFrom(user) {

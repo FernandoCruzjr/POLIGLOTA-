@@ -125,5 +125,8 @@ export function render(root, { user }) {
 
   root.querySelector('#logout').addEventListener('click', async () => {
     await signOut();
+    // No modo offline não há evento de saída do Supabase: recarrega para voltar ao login.
+    location.hash = '#/inicio';
+    location.reload();
   });
 }

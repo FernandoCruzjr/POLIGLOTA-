@@ -100,10 +100,16 @@ function sentences(text) {
   return out;
 }
 
-function utter(text, lang, { rate, pitch }) {
+// Sotaque pedido (en-GB, en-IN…): a melhor voz daquele país, se o aparelho tiver.
+function voiceForAccent(accent) {
+  const want = accent.toLowerCase();
+  return listVoices('en').find((v) => v.lang.replace('_', '-').toLowerCase() === want) || null;
+}
+
+function utter(text, lang, { rate, pitch }, accent = null) {
   const u = new SpeechSynthesisUtterance(text);
-  const v = voiceFor(lang);
-  u.lang = lang === 'pt' ? 'pt-BR' : 'en-US';
+  const v = (accent && voiceForAccent(accent)) || voiceFor(lang);
+  u.lang = lang === 'pt' ? 'pt-BR' : (accent && v && v.lang) || 'en-US';
   if (v) u.voice = v;
   u.rate = rate;
   u.pitch = pitch;
@@ -121,7 +127,7 @@ function run(chunks, opts) {
       if (id !== queueId || i >= chunks.length) { resolve(); return; }
       const c = chunks[i];
       i += 1;
-      const u = utter(c.text, c.lang, c.lang === 'en' ? opts.en : opts.pt);
+      const u = utter(c.text, c.lang, c.lang === 'en' ? opts.en : opts.pt, c.accent);
       let done = false;
       const go = () => { if (done) return; done = true; setTimeout(next, c.pause ?? 140); };
       u.onend = go;
@@ -152,6 +158,18 @@ export function speak(text, { slow = false, audio = null } = {}) {
   if (!t) return Promise.resolve();
   const en = { rate: slow ? 0.62 : DEFAULTS.en.rate, pitch: 1 };
   return run([{ text: t, lang: 'en' }], { en, pt: DEFAULTS.pt });
+}
+
+// Inglês com sotaque de um país (intercâmbio naval). Sem a voz, usa a voz inglesa padrão.
+export function speakAccent(text, accent, { slow = false } = {}) {
+  const t = cleanText(text);
+  if (!t) return Promise.resolve();
+  const en = { rate: slow ? 0.62 : DEFAULTS.en.rate, pitch: 1 };
+  return run([{ text: t, lang: 'en', accent }], { en, pt: DEFAULTS.pt });
+}
+
+export function hasAccent(accent) {
+  return Boolean(voiceForAccent(accent));
 }
 
 // Parece inglês? (só letras latinas sem acento e palavras comuns do inglês)
